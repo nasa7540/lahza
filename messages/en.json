@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "title": "Lahza | لحظة",
+    "description": "Short, friendly journeys through the Islamic moments you'll notice at work."
+  },
+  "welcome": {
+    "tagSub": "From a moment of curiosity… to understanding",
+    "inviteK": "Invitation",
+    "invite": "{company} invited you to Lahza",
+    "inviteGeneric": "You're invited to Lahza",
+    "inviteB": "Part of your onboarding: short, friendly journeys through the Islamic moments you’ll notice at work.",
+    "langLabel": "Choose your language",
+    "p1": "No account needed",
+    "p2": "We never ask about your religion",
+    "p3": "Your progress stays on your device",
+    "aiK": "Lahza is an AI-supported tool",
+    "aiNote": "Sacred texts are quoted verbatim from approved sources. Simplified explanations are AI-generated and always labelled.",
+    "begin": "Begin"
+  },
+  "home": {
+    "jTitle": "Your moments",
+    "soon": "Your journeys are being prepared."
+  }
+}

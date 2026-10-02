@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lahza | لحظة
 
-## Getting Started
+Short, interactive journeys that help non-Muslim employees in Saudi Arabia understand the Islamic moments they notice at work. Not a chatbot: sacred texts are only ever shown verbatim from reviewed sources.
 
-First, run the development server:
+Entry for the "AI in the Service of Islamic Content" challenge (Track 3: interactive experiences).
+
+## Status
+
+P0 (setup) — welcome screen in English, Arabic and Urdu, PWA shell, database migration, health endpoint.
+
+## Run locally
 
 ```bash
+npm install
+cp .env.example .env.local   # fill in your own keys; never commit them
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 (try `/en?c=naqlah`, `/ar`, `/ur`).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Database
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Apply `supabase/migrations/001_init.sql` to a Supabase project (SQL editor or `supabase db push`).
 
-## Learn More
+## Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js (App Router, TypeScript), Tailwind, next-intl (en / ar / ur), Supabase (Postgres + pgvector), deployed on Vercel with a daily cron on `/api/health`.

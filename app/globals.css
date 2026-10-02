@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Design tokens from /design/lahza-prototype.html */
+@theme {
+  --color-teal: #0f4c5c;
+  --color-gold: #b8893b;
+  --color-gold-d: #8c6527;
+  --color-sand: #d9c6a0;
+  --color-cream: #faf7f2;
+  --color-card: #fffdf8;
+  --color-line: #ece6da;
+  --color-beige: #f5efe3;
+  --color-ic: #e3edef;
+  --color-ink: #1f2a30;
+  --color-mute: #6b7378;
+  --color-body: #3a464c;
+  --color-stage: #efe9de;
+  --font-sans: var(--font-plex), var(--font-plex-arabic), sans-serif;
+  --font-arabic: var(--font-plex-arabic), var(--font-plex), sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-stage);
+  color: var(--color-ink);
+}
+
+[dir="rtl"] body {
+  font-family: var(--font-arabic);
+}
+
+:where(a, button, textarea, input):focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
 }

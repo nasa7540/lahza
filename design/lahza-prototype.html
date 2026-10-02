@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lahza | لحظة — Prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap">
+<style>
+:root{--teal:#0F4C5C;--gold:#B8893B;--goldD:#8C6527;--sand:#D9C6A0;--cream:#FAF7F2;--card:#FFFDF8;--line:#ECE6DA;--beige:#F5EFE3;--ic:#E3EDEF;--ink:#1F2A30;--mute:#6B7378;--body:#3A464C}
+*{box-sizing:border-box}
+html,body{margin:0;background:#EFE9DE;color:var(--ink);font-family:'IBM Plex Sans','IBM Plex Sans Arabic',sans-serif}
+button{font:inherit;cursor:pointer}textarea{font:inherit}
+button:focus-visible,a:focus-visible,textarea:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+[dir=rtl] .flip{transform:scaleX(-1)}
+.stage{min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:18px;padding:22px 16px 40px}
+.topbar{width:100%;max-width:1200px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;direction:ltr}
+.logo .la{font-weight:300;font-size:20px;color:var(--teal)}
+.logo .bar{width:1.5px;height:24px;background:var(--gold)}
+.logo .ar{font-family:'IBM Plex Sans Arabic';font-weight:700;font-size:28px;color:var(--teal);line-height:1}
+.nav{display:flex;gap:6px;flex-wrap:wrap}
+.nav button{height:36px;padding:0 12px;border-radius:18px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:13px}
+.nav button.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+.langs{display:flex;gap:6px}
+.langs button{height:36px;padding:0 12px;border-radius:18px;border:1px solid var(--line);background:var(--card);font-size:13px;color:var(--teal);font-weight:600}
+.langs button.on{border:1.5px solid var(--teal);background:var(--ic)}
+.phone{width:390px;max-width:100%;height:844px;max-height:calc(100vh - 120px);min-height:640px;border-radius:44px;background:#14232A;padding:10px;box-shadow:0 30px 60px rgba(15,76,92,.25)}
+.screen{position:relative;width:100%;height:100%;border-radius:34px;overflow:hidden;background:var(--cream)}
+.scroll{position:relative;z-index:1;height:100%;overflow-y:auto;padding:22px 22px 28px;display:flex;flex-direction:column;gap:16px;scrollbar-width:none}
+.scroll::-webkit-scrollbar{display:none}
+.scroll>*{flex-shrink:0}
+.orn{position:absolute;width:220px;height:220px;opacity:.11;pointer-events:none;z-index:0}
+.orn.tr{top:-24px;right:-44px}.orn.bl{bottom:-24px;left:-44px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 2px 10px rgba(15,76,92,.04)}
+.feat{background:var(--beige);border:1px solid var(--gold);border-radius:16px}
+.ic{flex-shrink:0;width:40px;height:40px;border-radius:50%;background:var(--ic);color:var(--teal);display:flex;align-items:center;justify-content:center}
+.ic.s{width:34px;height:34px}
+.k{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--goldD)}
+h1{margin:0;font-size:23px;line-height:1.35;font-weight:700;color:var(--teal)}
+h2{margin:0;font-size:17px;font-weight:700;color:var(--teal)}
+.ul{width:36px;height:2px;background:var(--gold);border-radius:2px}
+.mute{color:var(--mute)}
+.btn{height:52px;border:none;border-radius:14px;background:var(--teal);color:#fff;font-size:15.5px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:10px;flex-shrink:0;width:100%;text-decoration:none}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+.btn.ghost{background:var(--card);border:1.5px solid var(--teal);color:var(--teal)}
+.btn.lock{background:var(--card);border:1px dashed var(--sand);color:var(--mute);cursor:default}
+.link{background:none;border:none;color:var(--teal);font-weight:600;font-size:14px;text-decoration:underline;text-underline-offset:4px;padding:10px}
+.hdr{display:flex;align-items:center;gap:12px}
+.back{flex-shrink:0;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--teal);display:flex;align-items:center;justify-content:center}
+.prog{flex-grow:1;display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.prog span{height:4px;border-radius:4px;background:var(--line)}.prog span.on{background:var(--gold)}
+.tag{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:20px;background:var(--beige);border:1px solid var(--gold);color:var(--goldD);font-size:11.5px;font-weight:600}
+.opt{min-height:52px;display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:14px;text-align:start;font-size:15px;color:var(--ink);border:1px solid var(--line);background:var(--card)}
+.opt .dot{width:20px;height:20px;border-radius:50%;border:1.5px solid #C9CFD2;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.opt.on{border:1.5px solid var(--teal);background:var(--ic);font-weight:600}
+.opt.on .dot{border-color:var(--teal)}.opt.on .dot::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--teal)}
+.dark{position:relative;overflow:hidden;background:var(--teal);color:#fff;border-radius:20px;padding:20px;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 24px rgba(15,76,92,.18)}
+.dark .k{color:var(--sand)}
+.node{display:flex;align-items:center;gap:14px;position:relative}
+.node .c{flex-shrink:0;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;position:relative}
+.node .b{flex-grow:1;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line);text-align:start}
+.chk{position:absolute;bottom:-2px;inset-inline-end:-2px;width:18px;height:18px;border-radius:50%;background:var(--gold);color:#fff;border:2px solid var(--cream);display:flex;align-items:center;justify-content:center}
+textarea.f{resize:none;width:100%;padding:13px 15px;border-radius:14px;border:1px solid var(--sand);background:var(--card);color:var(--ink);font-size:15px;line-height:1.6}
+.switch{position:relative;width:52px;height:32px;border-radius:16px;border:none;padding:0;background:#C9CFD2;flex-shrink:0}
+.switch span{position:absolute;top:4px;left:4px;width:24px;height:24px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:left .15s}
+.switch.on{background:var(--teal)}.switch.on span{left:24px}
+/* dashboard */
+.dash{width:100%;max-width:1200px;background:var(--cream);border-radius:20px;overflow:hidden;box-shadow:0 20px 50px rgba(15,76,92,.15);position:relative}
+.dgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:22px;align-items:start}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media (max-width:860px){.dgrid{grid-template-columns:1fr}.kpis{grid-template-columns:1fr}}
+.caption{max-width:640px;text-align:center;font-size:13px;color:var(--mute)}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="topbar">
+    <div class="logo"><span class="la">Lahza</span><span class="bar"></span><span class="ar">لحظة</span></div>
+    <nav class="nav" id="nav" aria-label="Screens"></nav>
+    <div class="langs" id="langs" aria-label="Language"></div>
+  </div>
+  <div id="view"></div>
+  <p class="caption" id="cap"></p>
+</div>
+<script>
+const D = {
+      en: {
+        tagSub: 'From a moment of curiosity… to understanding',
+        inviteK: 'Invitation', invite: 'Naqlah invited you to Lahza',
+        inviteB: 'Part of your onboarding: short, friendly journeys through the Islamic moments you’ll notice at work.',
+        langLabel: 'Choose your language',
+        p1: 'No account needed', p2: 'We never ask about your religion', p3: 'Your progress stays on your device',
+        aiK: 'Lahza is an AI-supported tool',
+        aiNote: 'Sacred texts are quoted verbatim from approved sources. Simplified explanations are AI-generated and always labelled.',
+        begin: 'Begin',
+        hello: 'Good morning, Raj', helloSub: 'Your first year in Riyadh, one moment at a time.',
+        upK: 'Upcoming moment', upT1: 'Ramadan begins ', upT2: 'Sunday', upT3: '.',
+        upB: 'Want to understand what you’ll see around you?', min3: '3 min', upCta: 'Start the journey', whyThis: 'Why am I seeing this?',
+        jTitle: 'Your moments', jProg: 'understood',
+        mRamadan: 'Ramadan', mRamadanS: 'Open now · 3 min', mIftar: 'Iftar', mIftarS: 'Opens in 7 days',
+        mFriday: 'Friday', mPrayer: 'Prayer times', mEid: 'Eid', mEidS: 'Opens after Ramadan',
+        stOpen: 'Start', stLocked: 'Locked', stDone: 'Completed', replay: 'Replay',
+        nTitle: 'Noticed something else?', nSub: 'Tell us what caught your eye — we’ll find the closest journey.',
+        back: 'Back', ramadanJourney: 'Ramadan', step1: 'The scene',
+        sceneAlt: 'Office lunch: two colleagues at a table with food; Khalid stands nearby smiling, hand on his chest.',
+        sceneQ: 'Your colleague Khalid politely declined the team lunch — and he was smiling. Why do you think?',
+        oDiet: 'He’s on a diet', oPunish: 'It’s a religious punishment', oUpset: 'He’s upset with the team', oRamadan: 'He’s fasting for Ramadan',
+        sceneHint: 'No right or wrong — pick the first thing that comes to mind.', sceneCta: 'See what’s really going on',
+        r_diet: ['You picked: “He’s on a diet”', 'Not a diet — a fast.', 'It’s easy to read it that way. Khalid is fasting for Ramadan: no food or drink from dawn until sunset, every day for a month. It’s about meaning, not calories.'],
+        r_punish: ['You picked: “A religious punishment”', 'Many people think fasting is a punishment.', 'Its real meaning is closer to the opposite. Muslims see Ramadan as a month they look forward to all year — a time of discipline, reflection and generosity.'],
+        r_upset: ['You picked: “He’s upset”', 'The smile was real.', 'Declining lunch can look like distance. Khalid is fasting for Ramadan — and telling you to go ahead without him is his way of being considerate.'],
+        r_ramadan: ['You picked: “Fasting for Ramadan”', 'Exactly right.', 'Khalid is fasting: no food or drink from dawn to sunset, every day of Ramadan. Here’s where it comes from — and what it means.'],
+        srcK: 'Source', origK: 'Original text · Quran', verbatim: 'Retrieved verbatim',
+        trans: 'TODO_VERBATIM',
+        refK: 'Reference', ref1: 'Al-Baqarah 2:183', ref2: 'Translation: King Fahd Complex',
+        explK: 'Simplified', aiTag: 'AI-simplified explanation',
+        expl: 'The verse says fasting isn’t new — earlier communities fasted too. Its stated purpose is taqwa: a steady awareness of God that shapes everyday behaviour. That’s why many Muslims experience Ramadan as a reset, not a penalty.',
+        aiFoot: 'Simplified by AI for clarity. Not a religious ruling.', rCta: 'Explain it in your words',
+        eK: 'In your words', eH: 'Explain it to a colleague — in one sentence.', eSub: 'Not a test. Just a quick way to make it stick.',
+        eLabel: 'Your sentence', eOnDevice: 'Stays on your device',
+        eDefault: 'Muslims fast in Ramadan from sunrise to sunset to practise self-control and feel closer to God.',
+        eCheck: 'Check my understanding', fK: 'AI feedback', fScore: 'Understanding', fLead: 'Nicely put — a colleague would get it.',
+        fRightK: 'What you got right', fRight: 'The purpose — self-discipline and closeness to God — and that it’s a daily fast for the whole month.',
+        fGapK: 'One small addition', fGap: 'The fast starts at dawn (Fajr), a little before sunrise — that’s why some colleagues are up very early.',
+        cont: 'Continue',
+        tK: 'Tip for the office', tH: 'It’s fine to eat in front of him.', tB1: 'And saying ', tKareem: '“Ramadan Kareem”', tB2: ' will make his day.',
+        t1: 'No need to hide your coffee or lunch — just don’t offer him food during the day.',
+        t2: 'Planning a team lunch? Make it optional, or move it to an evening iftar.',
+        t3: 'Working hours often shift during Ramadan — check your team’s schedule.',
+        doneK: 'Moment complete', doneS: 'moments understood', next: 'Next moment opens in 7 days', home: 'Back to home'
+      },
+      ar: {
+        tagSub: '',
+        inviteK: 'دعوة', invite: 'دعتك «نقلة» إلى لحظة',
+        inviteB: 'جزء من تهيئتك الوظيفية: رحلات قصيرة وودّية لفهم اللحظات الإسلامية التي ستلاحظها في العمل.',
+        langLabel: 'اختر لغتك',
+        p1: 'لا تحتاج إلى حساب', p2: 'لا نسألك عن ديانتك', p3: 'تقدّمك محفوظ على جهازك',
+        aiK: 'لحظة أداة مدعومة بالذكاء الاصطناعي',
+        aiNote: 'النصوص الشرعية تُنقل حرفيًا من مصادر معتمدة، والشروح المبسّطة مولّدة بالذكاء الاصطناعي وموسومة دائمًا.',
+        begin: 'ابدأ',
+        hello: 'صباح الخير يا راج', helloSub: 'سنتك الأولى في الرياض، لحظة بلحظة.',
+        upK: 'لحظة قادمة', upT1: 'رمضان يبدأ ', upT2: 'الأحد', upT3: '.',
+        upB: 'تحب تفهم وش بتشوف حولك؟', min3: '3 دقائق', upCta: 'ابدأ الرحلة', whyThis: 'لماذا أرى هذا؟',
+        jTitle: 'لحظاتك', jProg: 'فهمتها',
+        mRamadan: 'رمضان', mRamadanS: 'متاحة الآن · 3 دقائق', mIftar: 'الإفطار', mIftarS: 'تُفتح بعد 7 أيام',
+        mFriday: 'الجمعة', mPrayer: 'أوقات الصلاة', mEid: 'العيد', mEidS: 'تُفتح بعد رمضان',
+        stOpen: 'ابدأ', stLocked: 'مقفلة', stDone: 'مكتملة', replay: 'أعِدها',
+        nTitle: 'لاحظت شيئًا آخر؟', nSub: 'أخبرنا بما لفت انتباهك، وسنرشدك إلى أقرب رحلة.',
+        back: 'رجوع', ramadanJourney: 'رمضان', step1: 'المشهد',
+        sceneAlt: 'غداء في المكتب: زميلان على طاولة الطعام، وخالد واقف بجانبهم مبتسمًا ويده على صدره.',
+        sceneQ: 'زميلك خالد اعتذر بلطف عن غداء الفريق وهو مبتسم. ليش برأيك؟',
+        oDiet: 'حمية', oPunish: 'عقاب ديني', oUpset: 'زعلان', oRamadan: 'صايم رمضان',
+        sceneHint: 'ما فيه صح أو غلط، اختر أول شي يجي في بالك.', sceneCta: 'اكتشف المعنى',
+        r_diet: ['اخترت: «حمية»', 'ليست حمية، بل صيام.', 'من السهل أن تظنها حمية. خالد صائم في رمضان: لا طعام ولا شراب من الفجر حتى غروب الشمس، كل يوم لمدة شهر. الأمر يتعلق بالمعنى لا بالسعرات.'],
+        r_punish: ['اخترت: «عقاب ديني»', 'كثير يظنون إن الصيام عقاب.', 'ومعناه الحقيقي أقرب إلى العكس: يرى المسلمون رمضان شهرًا ينتظرونه طوال العام، شهرَ انضباط وتأمّل وكرم.'],
+        r_upset: ['اخترت: «زعلان»', 'الابتسامة كانت صادقة.', 'قد يبدو الاعتذار عن الغداء ابتعادًا، لكن خالد صائم في رمضان، وطلبه منكم أن تستمتعوا بدونه لطفٌ منه.'],
+        r_ramadan: ['اخترت: «صايم رمضان»', 'إجابة في محلها.', 'خالد صائم: لا طعام ولا شراب من الفجر حتى الغروب طوال شهر رمضان. هذا مصدره، وهذا معناه.'],
+        srcK: 'المصدر', origK: 'النص الأصلي · القرآن الكريم', verbatim: 'مُسترجع حرفيًا',
+        trans: '',
+        refK: 'المرجع', ref1: 'البقرة 2:183', ref2: 'المصحف: مجمع الملك فهد',
+        explK: 'الشرح المبسّط', aiTag: 'شرح مبسط بالذكاء الاصطناعي',
+        expl: 'تذكر الآية أن الصيام ليس جديدًا، فقد كُتب على أمم سابقة. وغايته المذكورة هي التقوى: وعيٌ دائم بالله ينعكس على تصرّفات الإنسان اليومية. لذلك يعيش كثير من المسلمين رمضان كفرصة لتجديد النفس، لا كعقوبة.',
+        aiFoot: 'تبسيط بالذكاء الاصطناعي للتوضيح، وليس فتوى.', rCta: 'اشرحها بكلماتك',
+        eK: 'بكلماتك', eH: 'اشرحها لزميل بجملة واحدة.', eSub: 'ليس اختبارًا، مجرد طريقة لترسيخ الفكرة.',
+        eLabel: 'جملتك', eOnDevice: 'تبقى على جهازك',
+        eDefault: 'يصوم المسلمون في رمضان من شروق الشمس إلى غروبها ليتعلّموا ضبط النفس ويقتربوا من الله.',
+        eCheck: 'قيّم فهمي', fK: 'تقييم بالذكاء الاصطناعي', fScore: 'مؤشر الفهم', fLead: 'صياغة جميلة، زميلك بيفهمها.',
+        fRightK: 'وش فهمته صح', fRight: 'الغاية: ضبط النفس والقرب من الله، وأنه صيام يومي طوال الشهر.',
+        fGapK: 'إضافة صغيرة', fGap: 'الصيام يبدأ من الفجر، قبل شروق الشمس بقليل، ولهذا يصحى بعض الزملاء بدري جدًا.',
+        cont: 'متابعة',
+        tK: 'نصيحة للدوام', tH: 'عادي تاكل قدامه.', tB1: 'وكلمة ', tKareem: '«رمضان كريم»', tB2: ' تفرّحه.',
+        t1: 'لا داعي لإخفاء قهوتك أو غدائك، فقط لا تعرض عليه الأكل خلال النهار.',
+        t2: 'تخطط لغداء فريق؟ اجعله اختياريًا، أو حوّله إلى إفطار مسائي.',
+        t3: 'ساعات الدوام غالبًا تتغيّر في رمضان، تأكد من جدول فريقك.',
+        doneK: 'اكتملت اللحظة', doneS: 'لحظات فهمتها', next: 'اللحظة الجاية تنفتح بعد 7 أيام', home: 'العودة للرئيسية'
+      },
+      ur: {
+        tagSub: 'تجسس کے ایک لمحے سے… سمجھ تک',
+        inviteK: 'دعوت', invite: 'نقلہ نے آپ کو لحظہ میں مدعو کیا ہے',
+        inviteB: 'آپ کی آن بورڈنگ کا حصہ: کام پر نظر آنے والے اسلامی لمحات کو سمجھنے کے مختصر، دوستانہ سفر۔',
+        langLabel: 'اپنی زبان منتخب کریں',
+        p1: 'اکاؤنٹ کی ضرورت نہیں', p2: 'ہم آپ کا مذہب نہیں پوچھتے', p3: 'آپ کی پیش رفت آپ کے فون پر محفوظ رہتی ہے',
+        aiK: 'لحظہ مصنوعی ذہانت سے معاون ٹول ہے',
+        aiNote: 'مقدس متون منظور شدہ ذرائع سے لفظ بہ لفظ نقل ہوتے ہیں۔ آسان وضاحتیں AI سے تیار ہوتی ہیں اور ہمیشہ نشان زد ہوتی ہیں۔',
+        begin: 'شروع کریں',
+        hello: 'صبح بخیر، راج', helloSub: 'ریاض میں آپ کا پہلا سال، ایک ایک لمحہ۔',
+        upK: 'آنے والا لمحہ', upT1: 'رمضان ', upT2: 'اتوار', upT3: ' سے شروع ہے۔',
+        upB: 'جاننا چاہیں گے کہ آپ کے اردگرد کیا ہوگا؟', min3: '3 منٹ', upCta: 'سفر شروع کریں', whyThis: 'یہ مجھے کیوں دکھ رہا ہے؟',
+        jTitle: 'آپ کے لمحات', jProg: 'سمجھ لیے',
+        mRamadan: 'رمضان', mRamadanS: 'ابھی دستیاب · 3 منٹ', mIftar: 'افطار', mIftarS: '7 دن بعد کھلے گا',
+        mFriday: 'جمعہ', mPrayer: 'نماز کے اوقات', mEid: 'عید', mEidS: 'رمضان کے بعد کھلے گا',
+        stOpen: 'شروع', stLocked: 'مقفل', stDone: 'مکمل', replay: 'دوبارہ',
+        nTitle: 'کچھ اور محسوس کیا؟', nSub: 'بتائیں کیا نظر آیا — ہم قریب ترین سفر تلاش کریں گے۔',
+        back: 'واپس', ramadanJourney: 'رمضان', step1: 'منظر',
+        sceneAlt: 'دفتر کا لنچ: دو ساتھی میز پر کھانا کھا رہے ہیں؛ خالد پاس کھڑا مسکرا رہا ہے، ہاتھ سینے پر۔',
+        sceneQ: 'آپ کے ساتھی خالد نے مسکراتے ہوئے نرمی سے ٹیم لنچ سے معذرت کر لی۔ آپ کے خیال میں کیوں؟',
+        oDiet: 'وہ ڈائٹ پر ہے', oPunish: 'یہ کوئی مذہبی سزا ہے', oUpset: 'وہ ٹیم سے ناراض ہے', oRamadan: 'وہ رمضان کا روزہ رکھے ہوئے ہے',
+        sceneHint: 'کوئی صحیح یا غلط نہیں — جو پہلے ذہن میں آئے وہ چنیں۔', sceneCta: 'اصل بات دیکھیں',
+        r_diet: ['آپ نے چنا: «ڈائٹ»', 'ڈائٹ نہیں — روزہ۔', 'اسے ڈائٹ سمجھنا آسان ہے۔ خالد رمضان کا روزہ رکھے ہوئے ہے: پورا مہینہ ہر روز فجر سے غروبِ آفتاب تک نہ کھانا نہ پینا۔ بات کیلوریز کی نہیں، معنی کی ہے۔'],
+        r_punish: ['آپ نے چنا: «مذہبی سزا»', 'بہت سے لوگ روزے کو سزا سمجھتے ہیں۔', 'اس کا اصل مطلب تقریباً اس کے برعکس ہے۔ مسلمان سارا سال رمضان کا انتظار کرتے ہیں — نظم و ضبط، غور و فکر اور سخاوت کا مہینہ۔'],
+        r_upset: ['آپ نے چنا: «ناراض»', 'مسکراہٹ سچی تھی۔', 'لنچ سے معذرت دوری جیسی لگ سکتی ہے۔ خالد روزے سے ہے — اور آپ کو اپنے بغیر کھانے کا کہنا اس کی خوش اخلاقی ہے۔'],
+        r_ramadan: ['آپ نے چنا: «رمضان کا روزہ»', 'بالکل درست۔', 'خالد روزے سے ہے: رمضان کے پورے مہینے فجر سے غروب تک نہ کھانا نہ پینا۔ یہ اس کا ماخذ اور مطلب ہے۔'],
+        srcK: 'ماخذ', origK: 'اصل متن · قرآن', verbatim: 'لفظ بہ لفظ حاصل شدہ',
+        trans: '[اردو ترجمہ — منظور شدہ ماخذ سے لفظ بہ لفظ]',
+        refK: 'حوالہ', ref1: 'البقرہ 2:183', ref2: 'ترجمہ: شاہ فہد کمپلیکس',
+        explK: 'آسان وضاحت', aiTag: 'AI سے آسان وضاحت',
+        expl: 'آیت بتاتی ہے کہ روزہ نیا نہیں — پہلی قوموں پر بھی فرض تھا۔ اس کا مقصد تقویٰ ہے: اللہ کا مستقل شعور جو روزمرہ رویّے کو سنوارتا ہے۔ اسی لیے بہت سے مسلمانوں کے لیے رمضان سزا نہیں بلکہ نئی شروعات جیسا ہوتا ہے۔',
+        aiFoot: 'وضاحت کے لیے AI سے آسان کیا گیا۔ یہ فتویٰ نہیں۔', rCta: 'اپنے الفاظ میں سمجھائیں',
+        eK: 'آپ کے الفاظ میں', eH: 'کسی ساتھی کو ایک جملے میں سمجھائیں۔', eSub: 'یہ امتحان نہیں — بس بات یاد رکھنے کا طریقہ۔',
+        eLabel: 'آپ کا جملہ', eOnDevice: 'آپ کے فون پر ہی رہتا ہے',
+        eDefault: 'مسلمان رمضان میں طلوعِ آفتاب سے غروب تک روزہ رکھتے ہیں تاکہ ضبطِ نفس سیکھیں اور اللہ کے قریب ہوں۔',
+        eCheck: 'میری سمجھ جانچیں', fK: 'AI کی رائے', fScore: 'سمجھ', fLead: 'خوب کہا — ساتھی فوراً سمجھ جائے گا۔',
+        fRightK: 'جو آپ نے درست سمجھا', fRight: 'مقصد — ضبطِ نفس اور اللہ سے قربت — اور یہ کہ پورا مہینہ روزانہ روزہ ہوتا ہے۔',
+        fGapK: 'ایک چھوٹا اضافہ', fGap: 'روزہ فجر سے شروع ہوتا ہے، طلوعِ آفتاب سے کچھ پہلے — اسی لیے کچھ ساتھی بہت جلدی اٹھتے ہیں۔',
+        cont: 'جاری رکھیں',
+        tK: 'دفتر کے لیے مشورہ', tH: 'اس کے سامنے کھانا بالکل ٹھیک ہے۔', tB1: 'اور ', tKareem: '«رمضان کریم»', tB2: ' کہنا اسے خوش کر دے گا۔',
+        t1: 'اپنی کافی یا لنچ چھپانے کی ضرورت نہیں — بس دن میں اسے کھانے کی پیشکش نہ کریں۔',
+        t2: 'ٹیم لنچ کا منصوبہ ہے؟ اسے اختیاری رکھیں یا شام کے افطار پر منتقل کریں۔',
+        t3: 'رمضان میں کام کے اوقات اکثر بدل جاتے ہیں — اپنی ٹیم کا شیڈول دیکھ لیں۔',
+        doneK: 'لمحہ مکمل', doneS: 'لمحات سمجھ لیے', next: 'اگلا لمحہ 7 دن بعد کھلے گا', home: 'ہوم پر واپس'
+      }
+    };
+
+const I = {
+ arrow:'<svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>',
+ back:'<svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>',
+ chev:'<svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>',
+ bld:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/></svg>',
+ noacc:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M5 21v-1a7 7 0 0 1 11-5.7"/><path d="m17 17 4 4M21 17l-4 4"/></svg>',
+ shield:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>',
+ phone:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>',
+ spark:'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>',
+ moon:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>',
+ food:'<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>',
+ cal:'<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
+ pray:'<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M4.93 10.93l1.41 1.41M2 18h2M20 18h2M19.07 10.93l-1.41 1.41M22 22H2M8 5l4-3 4 3M16 18a4 4 0 0 0-8 0"/></svg>',
+ star:'<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10"/><rect x="7" y="7" width="10" height="10" transform="rotate(45 12 12)"/></svg>',
+ lock:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>',
+ check:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
+ plus:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>',
+ search:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>',
+ clock:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>',
+ users:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+ info:'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>',
+ book:'<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
+ msg:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>',
+ send:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>',
+ spk:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D9C6A0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>',
+ coffee:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v2M14 2v2M6 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/></svg>'
+};
+const ORN = (pos,id)=>`<svg class="orn ${pos}" viewBox="0 0 220 220" aria-hidden="true"><defs><pattern id="p${id}" width="44" height="44" patternUnits="userSpaceOnUse"><g fill="none" stroke="#0F4C5C" stroke-width="1"><rect x="12" y="12" width="20" height="20"/><rect x="12" y="12" width="20" height="20" transform="rotate(45 22 22)"/><path d="M0 22h6M38 22h6M22 0v6M22 38v6"/></g></pattern><radialGradient id="g${id}" cx="${pos==='tr'?1:0}" cy="${pos==='tr'?0:1}" r="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><mask id="m${id}"><rect width="220" height="220" fill="url(#g${id})"/></mask></defs><rect width="220" height="220" fill="url(#p${id})" mask="url(#m${id})"/></svg>`;
+const SCENE = `<svg viewBox="0 0 342 196" width="100%" role="img" style="display:block"><rect width="342" height="196" fill="#F5EFE3"/><rect y="150" width="342" height="46" fill="#EDE4D3"/><rect x="22" y="20" width="104" height="72" rx="6" fill="#FFFDF8" stroke="#D9C6A0"/><circle cx="104" cy="40" r="9" fill="#B8893B" opacity=".5"/><rect x="30" y="68" width="12" height="24" fill="#E3EDEF"/><rect x="45" y="58" width="14" height="34" fill="#D3E2E5"/><rect x="62" y="72" width="10" height="20" fill="#E3EDEF"/><rect x="96" y="64" width="16" height="28" fill="#D3E2E5"/><path d="M74 20v72M22 56h104" stroke="#D9C6A0"/><circle cx="296" cy="42" r="17" fill="#FFFDF8" stroke="#0F4C5C" stroke-width="1.5"/><path d="M296 42v-11M296 42l7 3" stroke="#0F4C5C" stroke-width="1.6" stroke-linecap="round"/><g transform="translate(150 44)" fill="none" stroke="#0F4C5C" opacity=".25"><rect width="22" height="22"/><rect width="22" height="22" transform="rotate(45 11 11)"/></g><circle cx="66" cy="104" r="12" fill="#C79A72"/><path d="M54 100c2-9 22-9 24 0c-4-3-20-3-24 0z" fill="#3B2F2A"/><circle cx="62" cy="105" r="1.3"/><circle cx="70" cy="105" r="1.3"/><path d="M62 110q4 3 8 0" stroke="#1F2A30" stroke-width="1.3" fill="none" stroke-linecap="round"/><rect x="46" y="118" width="40" height="34" rx="16" fill="#5F8C97"/><circle cx="146" cy="104" r="12" fill="#8E6447"/><path d="M134 102c1-10 23-10 24 0c-5-4-19-4-24 0z" fill="#1F2A30"/><circle cx="142" cy="105" r="1.3"/><circle cx="150" cy="105" r="1.3"/><path d="M142 110q4 3 8 0" stroke="#1F2A30" stroke-width="1.3" fill="none" stroke-linecap="round"/><rect x="126" y="118" width="40" height="34" rx="16" fill="#D9C6A0"/><rect x="14" y="140" width="214" height="12" rx="6" fill="#0F4C5C"/><rect x="34" y="152" width="6" height="36" rx="2" fill="#0F4C5C" opacity=".85"/><rect x="202" y="152" width="6" height="36" rx="2" fill="#0F4C5C" opacity=".85"/><path d="M88 140a13 7 0 0 0 26 0z" fill="#B8893B"/><path d="M96 130c-3-4 3-6 0-10M106 130c-3-4 3-6 0-10" stroke="#B8893B" stroke-width="1.3" fill="none" stroke-linecap="round" opacity=".7"/><ellipse cx="186" cy="139" rx="16" ry="3.5" fill="#FFFDF8"/><path d="M174 139a12 7 0 0 0 24 0z" fill="#D9C6A0"/><rect x="38" y="132" width="16" height="8" rx="2" fill="#FFFDF8" stroke="#ECE6DA"/><path d="M251 82c0-13 9-21 19-21s19 8 19 21l5 34h-48z" fill="#FFFDF8" stroke="#E2D9C8"/><path d="M258 74h24" stroke="#1F2A30" stroke-width="3" stroke-linecap="round"/><circle cx="270" cy="90" r="11" fill="#B98A66"/><path d="M262 96q8 7 16 0v4q-8 6-16 0z" fill="#2B2420"/><circle cx="266" cy="88" r="1.3"/><circle cx="274" cy="88" r="1.3"/><path d="M265.5 93q4.5 3.2 9 0" stroke="#1F2A30" stroke-width="1.4" fill="none" stroke-linecap="round"/><path d="M246 122c0-7 9-11 24-11s24 4 24 11v72h-48z" fill="#FFFDF8" stroke="#E2D9C8"/><path d="M270 112v26" stroke="#E2D9C8"/><path d="M292 124c-4 9-12 13-20 13" stroke="#F1EADC" stroke-width="8" stroke-linecap="round" fill="none"/><circle cx="270" cy="137" r="5.5" fill="#B98A66"/><path d="M300 98c4-3 10-3 14 0M302 92c6-5 14-5 20 0" stroke="#B8893B" stroke-width="1.3" fill="none" stroke-linecap="round" opacity=".8"/></svg>`;
+const VERSE = 'TODO_VERBATIM';
+
+const S = { screen:1, lang:'en', choice:'', text:null, checked:false, q:null, nmode:'results', consent:false, sent:false, sum:null, claimed:{r4:true} };
+const SCREENS = [[1,'1 Welcome'],[2,'2 Home'],[3,'3 Scene'],[4,'4 Reveal'],[5,'5 Explain'],[6,'6 Tip'],[7,'7 Noticed'],[8,'8 Specialist'],[9,'9 Dashboard']];
+const CAPS = {1:'Welcome · invitation, language, privacy promise, AI notice',2:'Home · upcoming moment + journey map (open / locked / completed)',3:'Scene · pick an answer — the next screen addresses your choice',4:'Reveal · 01 verbatim text · 02 reference · 03 AI-simplified explanation',5:'Explain it in your words · gentle AI feedback',6:'Tip for the office · next moment unlocks in 7 days',7:'Noticed something else? · type “Monday” to see the empty state',8:'Talk to a specialist · editable summary + consent',9:'Partner & HR dashboard · request queue + anonymous impact (sample data)'};
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const set = p => { Object.assign(S,p); render(); };
+const go = n => set({screen:n});
+const prog = n => `<div class="prog" role="progressbar" aria-valuemin="0" aria-valuemax="4" aria-valuenow="${n}">${[1,2,3,4].map(i=>`<span class="${i<=n?'on':''}"></span>`).join('')}</div>`;
+const head = (t,n,b) => `<div class="hdr"><button class="back" aria-label="${t.back}" onclick="go(${b})">${I.back}</button>${prog(n)}<span style="font-size:12px;font-weight:600" class="mute">${t.min3}</span></div>`;
+
+function s1(t){ return `
+<div style="display:flex;flex-direction:column;align-items:center;gap:14px;padding-top:22px">
+ <div class="logo" style="gap:16px"><span class="la" style="font-size:38px">Lahza</span><span class="bar" style="height:46px;opacity:.7"></span><span class="ar" style="font-size:52px">لحظة</span></div>
+ <span class="ul" style="width:48px"></span>
+ <span dir="rtl" style="font-family:'IBM Plex Sans Arabic';font-size:17px">من لحظة فضول... إلى فهم</span>
+ ${t.tagSub?`<span class="mute" style="font-size:13px;margin-top:-8px">${t.tagSub}</span>`:''}
+</div>
+<div class="card" style="display:flex;gap:14px;padding:16px"><span class="ic">${I.bld}</span><div style="display:flex;flex-direction:column;gap:4px"><span class="k">${t.inviteK}</span><b style="color:var(--teal);font-size:16px">${t.invite}</b><span class="mute" style="font-size:13px;line-height:1.55">${t.inviteB}</span></div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><b style="font-size:13px">${t.langLabel}</b><div role="radiogroup" style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">${langBtns('opt')}</div></div>
+<div class="card" style="display:flex;flex-direction:column;gap:12px;padding:16px">${[[I.noacc,t.p1],[I.shield,t.p2],[I.phone,t.p3]].map(([i,x])=>`<div style="display:flex;gap:12px;align-items:center"><span class="ic s">${i}</span><span style="font-size:14px">${x}</span></div>`).join('')}</div>
+<div class="feat" style="display:flex;gap:12px;padding:14px 16px"><span style="color:var(--goldD)">${I.spark}</span><div style="display:flex;flex-direction:column;gap:3px"><b style="font-size:13px;color:var(--goldD)">${t.aiK}</b><span style="font-size:12.5px;line-height:1.55">${t.aiNote}</span></div></div>
+<button class="btn" onclick="go(2)">${t.begin} ${I.arrow}</button>`; }
+
+function s2(t){
+ const done = (ic,name) => `<div class="node"><span class="c" style="background:var(--ic);color:var(--teal)">${ic}<span class="chk">${I.check.replace(/15/g,'10')}</span></span><div class="b"><span style="display:flex;flex-direction:column;gap:2px"><b style="font-size:15px;font-weight:600">${name}</b><span style="font-size:12px;color:var(--teal)">${t.stDone}</span></span><span style="font-size:12px;font-weight:600;color:var(--teal)">${t.replay}</span></div></div>`;
+ const locked = (ic,name,sub) => `<div class="node"><span class="c" style="background:var(--cream);border:1px solid var(--line);color:#9AA1A5">${ic}</span><div class="b"><span style="display:flex;flex-direction:column;gap:2px"><span class="mute" style="font-size:15px;font-weight:600">${name}</span><span class="mute" style="font-size:12px">${sub}</span></span><span style="color:#9AA1A5" aria-label="${t.stLocked}">${I.lock}</span></div></div>`;
+ return `
+<div style="display:flex;align-items:center;justify-content:space-between"><div class="logo" style="gap:8px"><span class="la" style="font-size:17px">Lahza</span><span class="bar" style="height:18px;width:1px"></span><span class="ar" style="font-size:22px">لحظة</span></div></div>
+<div><h1 style="font-size:24px">${t.hello}</h1><span class="mute" style="font-size:14px">${t.helloSub}</span></div>
+<div class="dark">
+ <svg aria-hidden="true" width="150" height="150" viewBox="0 0 150 150" style="position:absolute;top:-30px;right:-30px;opacity:.12"><g fill="none" stroke="#D9C6A0"><rect x="45" y="45" width="60" height="60"/><rect x="45" y="45" width="60" height="60" transform="rotate(45 75 75)"/><circle cx="75" cy="75" r="22"/></g></svg>
+ <div style="display:flex;justify-content:space-between;align-items:center"><span class="k" style="display:flex;gap:8px;align-items:center">${I.moon.replace(/20/g,'16')}${t.upK}</span><span style="padding:4px 10px;border-radius:20px;background:rgba(217,198,160,.16);color:var(--sand);font-size:12px;font-weight:600">${t.min3}</span></div>
+ <span style="font-size:25px;font-weight:700;line-height:1.25">${t.upT1}<span style="color:var(--sand)">${t.upT2}</span>${t.upT3}</span>
+ <span style="font-size:15px;line-height:1.55;color:rgba(255,255,255,.86)">${t.upB}</span>
+ <div style="display:flex;align-items:center;justify-content:space-between;gap:10px"><button onclick="go(3)" style="height:46px;padding:0 18px;border:none;border-radius:12px;background:var(--cream);color:var(--teal);font-weight:700;font-size:15px;display:flex;gap:8px;align-items:center">${t.upCta} ${I.arrow}</button><span style="font-size:12px;color:rgba(255,255,255,.7);text-decoration:underline">${t.whyThis}</span></div>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:flex-end"><div style="display:flex;flex-direction:column;gap:6px"><h2>${t.jTitle}</h2><span class="ul" style="width:28px"></span></div><span class="mute" style="font-size:13px"><b style="font-size:18px;color:var(--gold)">2</b> / 5 · ${t.jProg}</span></div>
+<div style="position:relative;display:flex;flex-direction:column;gap:10px">
+ <span aria-hidden="true" style="position:absolute;top:24px;bottom:24px;inset-inline-start:21px;width:2px;background:repeating-linear-gradient(to bottom,#D9C6A0 0 4px,transparent 4px 9px)"></span>
+ <div class="node"><span class="c" style="background:var(--teal);color:#fff;box-shadow:0 0 0 4px rgba(184,137,59,.28)">${I.moon}</span><button class="b" onclick="go(3)" style="background:var(--beige);border:1px solid var(--gold)"><span style="display:flex;flex-direction:column;gap:2px"><b style="font-size:15px;color:var(--teal)">${t.mRamadan}</b><span style="font-size:12px;font-weight:600;color:var(--goldD)">${t.mRamadanS}</span></span><span style="font-size:12px;font-weight:700;color:#fff;background:var(--teal);padding:6px 12px;border-radius:16px">${t.stOpen}</span></button></div>
+ ${locked(I.food,t.mIftar,t.mIftarS)}${done(I.cal,t.mFriday)}${done(I.pray,t.mPrayer)}${locked(I.star,t.mEid,t.mEidS)}
+</div>
+<button class="card" onclick="go(7)" style="display:flex;align-items:center;gap:14px;padding:14px 16px;text-align:start"><span class="ic">${I.search}</span><span style="flex-grow:1;display:flex;flex-direction:column;gap:2px"><b style="color:var(--teal);font-size:15px">${t.nTitle}</b><span class="mute" style="font-size:12.5px">${t.nSub}</span></span><span style="color:var(--teal)">${I.chev}</span></button>`; }
+
+function s3(t){
+ const opts=[['diet',t.oDiet],['punish',t.oPunish],['upset',t.oUpset],['ramadan',t.oRamadan]];
+ return `${head(t,1,2)}
+<span class="k">${t.ramadanJourney} · ${t.step1}</span>
+<div style="border-radius:18px;overflow:hidden;border:1px solid var(--line);flex-shrink:0" aria-label="${esc(t.sceneAlt)}">${SCENE}</div>
+<h1 style="font-size:20px;line-height:1.45">${t.sceneQ}</h1>
+<div role="radiogroup" style="display:flex;flex-direction:column;gap:10px">${opts.map(([id,l])=>`<button role="radio" aria-checked="${S.choice===id}" class="opt ${S.choice===id?'on':''}" onclick="set({choice:'${id}'})"><span class="dot"></span>${l}</button>`).join('')}</div>
+<span class="mute" style="display:flex;gap:8px;align-items:center;font-size:12.5px">${I.info}${t.sceneHint}</span>
+<button class="btn" ${S.choice?'':'disabled'} onclick="go(4)">${t.sceneCta} ${I.arrow}</button>`; }
+
+function s4(t){
+ const r = t['r_'+(S.choice||'punish')];
+ return `${head(t,2,3)}
+<div style="display:flex;flex-direction:column;gap:10px"><span style="align-self:flex-start;padding:5px 12px;border-radius:20px;background:var(--ic);color:var(--teal);font-size:12px;font-weight:600">${r[0]}</span><h1>${r[1]}</h1><span class="ul"></span><p style="margin:0;font-size:15px;line-height:1.65">${r[2]}</p></div>
+<section style="border-radius:18px;overflow:hidden;border:1px solid var(--line);box-shadow:0 8px 22px rgba(15,76,92,.08);flex-shrink:0">
+ <div style="background:var(--teal);color:#fff;padding:18px;display:flex;flex-direction:column;gap:14px">
+  <div style="display:flex;justify-content:space-between;gap:8px;align-items:center"><span class="k" style="color:var(--sand)">01 · ${t.origK}</span><span style="display:flex;gap:5px;align-items:center;font-size:11px;color:rgba(255,255,255,.75)">${I.lock.replace(/17/g,'12')}${t.verbatim}</span></div>
+  <p dir="rtl" lang="ar" style="margin:0;font-family:'IBM Plex Sans Arabic';font-size:21px;line-height:1.95;font-weight:500;text-align:right">${VERSE}</p>
+  ${t.trans?`<span style="height:1px;background:rgba(217,198,160,.4)"></span><p style="margin:0;font-size:14px;line-height:1.65;color:rgba(255,255,255,.88)">${t.trans}</p>`:''}
+ </div>
+ <div style="background:var(--beige);padding:14px 18px;display:flex;flex-direction:column;gap:10px;border-top:1px solid #E6DAC2;border-bottom:1px solid #E6DAC2">
+  <span style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--teal)">02 · ${t.refK}</span>
+  <div style="display:flex;flex-wrap:wrap;gap:8px"><span style="padding:6px 12px;border-radius:20px;background:#fff;font-size:12.5px">${t.ref1}</span><span style="padding:6px 12px;border-radius:20px;background:#fff;font-size:12.5px">${t.ref2}</span></div>
+ </div>
+ <div style="background:var(--card);padding:16px 18px;display:flex;flex-direction:column;gap:10px">
+  <div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><span class="mute" style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase">03 · ${t.explK}</span><span class="tag">${I.spark}${t.aiTag}</span></div>
+  <p style="margin:0;font-size:14.5px;line-height:1.7;color:var(--body)">${t.expl}</p>
+  <span class="mute" style="font-size:11.5px">${t.aiFoot}</span>
+ </div>
+</section>
+<button class="btn" onclick="go(5)">${t.rCta} ${I.arrow}</button>`; }
+
+function s5(t){
+ const text = S.text ?? t.eDefault;
+ return `${head(t,3,4)}
+<div style="display:flex;flex-direction:column;gap:8px"><span class="k">${t.eK}</span><h1>${t.eH}</h1><span class="ul"></span><span class="mute" style="font-size:14px">${t.eSub}</span></div>
+<label style="display:flex;flex-direction:column;gap:8px"><b style="font-size:13px">${t.eLabel}</b><textarea class="f" rows="4" oninput="S.text=this.value;S.checked=false;document.getElementById('chk')&&(document.getElementById('chk').disabled=!this.value.trim())">${esc(text)}</textarea><span class="mute" style="font-size:11.5px;text-align:end">${t.eOnDevice}</span></label>
+${!S.checked?`<button id="chk" class="btn ghost" onclick="set({checked:true})">${I.spark}${t.eCheck}</button>`:`
+<div class="card" style="padding:18px;display:flex;flex-direction:column;gap:14px">
+ <span class="tag" style="align-self:flex-start">${I.spark}${t.fK}</span>
+ <div style="display:flex;align-items:center;gap:14px"><span style="font-size:34px;font-weight:700;color:var(--gold);line-height:1">4<span style="font-size:16px;color:var(--goldD)"> / 5</span></span><div style="flex-grow:1;display:flex;flex-direction:column;gap:6px"><span class="mute" style="font-size:12px;font-weight:600">${t.fScore}</span><div style="display:grid;grid-template-columns:repeat(5,1fr);gap:5px">${[1,2,3,4,5].map(i=>`<span style="height:8px;border-radius:4px;background:${i<=4?'var(--gold)':'var(--line)'}"></span>`).join('')}</div></div></div>
+ <b style="font-size:16px;color:var(--teal)">${t.fLead}</b>
+ <div style="display:flex;gap:12px"><span class="ic s">${I.check}</span><div style="display:flex;flex-direction:column;gap:3px"><b style="font-size:13px">${t.fRightK}</b><span style="font-size:13.5px;line-height:1.6;color:var(--body)">${t.fRight}</span></div></div>
+ <div style="display:flex;gap:12px;padding:12px;background:var(--beige);border-radius:12px"><span class="ic s" style="background:var(--card);color:var(--goldD)">${I.plus}</span><div style="display:flex;flex-direction:column;gap:3px"><b style="font-size:13px">${t.fGapK}</b><span style="font-size:13.5px;line-height:1.6;color:var(--body)">${t.fGap}</span></div></div>
+</div>
+<button class="btn" onclick="go(6)">${t.cont} ${I.arrow}</button>`}`; }
+
+function s6(t){ return `${head(t,4,5)}
+<div class="dark">
+ <span class="k" style="display:flex;gap:8px;align-items:center">${I.coffee}${t.tK}</span>
+ <span style="font-size:24px;font-weight:700;line-height:1.35">${t.tH}</span>
+ <span style="font-size:15px;line-height:1.6;color:rgba(255,255,255,.88)">${t.tB1}<b style="color:var(--sand)">${t.tKareem}</b>${t.tB2}</span>
+ <div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;background:rgba(255,255,255,.08);align-self:flex-start">${I.spk}<span dir="rtl" style="font-family:'IBM Plex Sans Arabic';font-size:16px;font-weight:600">رمضان كريم</span>${S.lang!=='ar'?'<span style="font-size:12px;color:rgba(255,255,255,.75)">ra-ma-DAAN ka-REEM</span>':''}</div>
+</div>
+${[[I.food,t.t1],[I.users,t.t2],[I.clock,t.t3]].map(([i,x])=>`<div class="card" style="display:flex;gap:12px;padding:14px"><span class="ic s">${i}</span><span style="font-size:14px;line-height:1.55">${x}</span></div>`).join('')}
+<div class="feat" style="display:flex;gap:12px;align-items:center;padding:14px 16px"><span class="ic" style="background:var(--gold);color:#fff">${I.check}</span><div><b style="color:var(--teal);font-size:15px">${t.doneK}</b><div class="mute" style="font-size:12.5px"><b style="color:var(--goldD)">3 / 5</b> · ${t.doneS}</div></div></div>
+<button class="btn lock" disabled>${I.lock}${t.next}</button>
+<button class="link" onclick="go(2)">${t.home}</button>`; }
+
+function s7(){
+ const q = S.q ?? 'My colleagues step out of meetings around midday and come back ten minutes later.';
+ const card = (ic,name,desc,min,st,best) => `<button class="${best?'feat':'card'}" style="display:flex;flex-direction:column;gap:10px;padding:16px;text-align:start;color:var(--ink)"><span style="display:flex;justify-content:space-between;align-items:center;width:100%"><span style="display:flex;gap:12px;align-items:center"><span class="ic" style="${best?'background:var(--card)':''}">${ic}</span><b style="font-size:16px;color:var(--teal)">${name}</b></span>${best?'<span style="padding:4px 10px;border-radius:20px;background:var(--goldD);color:#fff;font-size:11px;font-weight:700">Best match</span>':''}</span><span style="font-size:13.5px;line-height:1.55;color:var(--body)">${desc}</span><span class="mute" style="display:flex;gap:14px;font-size:12px"><span>${min}</span><b style="color:${st==='Open now'?'var(--goldD)':'var(--teal)'};font-weight:600">${st}</b></span></button>`;
+ return `<div class="hdr"><button class="back" aria-label="Back" onclick="go(2)">${I.back}</button><span class="mute" style="font-size:13px;font-weight:600">Find a journey</span></div>
+<div style="display:flex;flex-direction:column;gap:8px"><h1>Noticed something else?</h1><span class="ul"></span><span class="mute" style="font-size:14px">Describe it in your own words. We'll match it to the closest verified journey.</span></div>
+<div class="card" style="padding:14px;display:flex;flex-direction:column;gap:10px"><b style="font-size:13px">What caught your attention?</b><textarea class="f" rows="3" style="background:var(--cream)" oninput="S.q=this.value">${esc(q)}</textarea><button class="btn" style="height:48px" onclick="find()">${I.search}Find journeys</button></div>
+<span class="mute" style="display:flex;gap:8px;align-items:center;font-size:12px">${I.lock.replace(/17/g,'14')}Lahza doesn't chat. It only points you to verified journeys.</span>
+${S.nmode==='results'?`<div style="display:flex;justify-content:space-between;align-items:baseline"><h2>Closest journeys</h2><span class="mute" style="font-size:13px"><b style="color:var(--gold);font-size:16px">3</b> matches</span></div>
+${card(I.pray,'Prayer times','Why colleagues step away at set times of day, and how to plan meetings around it.','4 min','Completed · replay',1)}
+${card(I.cal,'Friday','The weekly congregational prayer, and why Friday feels different.','3 min','Completed · replay')}
+${card(I.moon,'Ramadan','What changes at work during the month of fasting.','3 min','Open now')}
+<button class="link" onclick="go(8)">Not what you meant? Ask a specialist</button>`:`
+<div class="card" style="display:flex;flex-direction:column;align-items:center;gap:14px;padding:26px 20px 22px;text-align:center">
+ <span style="position:relative;width:72px;height:72px;border-radius:50%;background:var(--ic);color:var(--teal);display:flex;align-items:center;justify-content:center">${I.book}<span style="position:absolute;bottom:0;right:-2px;width:24px;height:24px;border-radius:50%;background:var(--beige);border:1px solid var(--gold);color:var(--goldD);font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center">?</span></span>
+ <b style="font-size:18px;color:var(--teal);line-height:1.4">We don't have a verified answer for this yet.</b><span class="ul" style="width:32px"></span>
+ <span class="mute" style="font-size:14px;line-height:1.6">Rather than guess, Lahza can pass your question to a specialist at our partner organisation.</span>
+ <button class="btn" style="height:50px" onclick="go(8)">${I.users}Contact a specialist</button>
+ <button class="link" onclick="set({nmode:'results',q:null})">Browse all journeys</button>
+</div>
+<div style="display:flex;gap:10px;padding:12px 14px;background:var(--beige);border-radius:14px;color:var(--goldD)">${I.info}<span style="font-size:12.5px;line-height:1.55;color:var(--body)">Lahza only answers from a closed library of reviewed content. When it's not there, a person helps.</span></div>`}`; }
+function find(){ const v=(S.q??'').toLowerCase(); const ok=/(pray|meeting|midday|friday|ramadan|eid|iftar|lunch)/.test(v)&&!/(monday|thursday)/.test(v); set({nmode: ok||S.q===null?'results':'empty'}); }
+
+function s8(){
+ const sum = S.sum ?? 'Raj would like to understand why Muslims fast — and why some colleagues also fast on Mondays and Thursdays, outside Ramadan.';
+ if (S.sent) return `<div class="hdr"><button class="back" aria-label="Back" onclick="set({sent:false})">${I.back}</button></div>
+<div class="card" style="margin-top:40px;display:flex;flex-direction:column;align-items:center;gap:14px;padding:30px 20px 24px;text-align:center"><span style="width:64px;height:64px;border-radius:50%;background:var(--teal);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 6px rgba(184,137,59,.22)">${I.check.replace(/15/g,'28')}</span><b style="font-size:20px;color:var(--teal)">Sent to a specialist</b><span class="ul" style="width:32px"></span><span class="mute" style="font-size:14px;line-height:1.6">You'll get a gentle reply here in Lahza. Meanwhile, your Ramadan journey is ready whenever you are.</span><button class="btn" style="height:50px" onclick="go(2)">Back to home</button></div>`;
+ return `<div class="hdr"><button class="back" aria-label="Back" onclick="go(7)">${I.back}</button><span class="mute" style="font-size:13px;font-weight:600">Talk to a specialist</span></div>
+<div style="display:flex;flex-direction:column;gap:8px"><h1>Here's what we'll send</h1><span class="ul"></span><span class="mute" style="font-size:14px;line-height:1.55">Lahza drafted this from your question. Review and edit it — nothing is shared until you say so.</span></div>
+<div class="card" style="padding:16px;display:flex;flex-direction:column;gap:10px"><div style="display:flex;justify-content:space-between;align-items:center"><b style="font-size:13px">Summary</b><span class="tag">${I.spark}Drafted by AI</span></div><textarea class="f" rows="4" style="background:var(--cream)" oninput="S.sum=this.value">${esc(sum)}</textarea><span style="align-self:flex-start;padding:5px 12px;border-radius:20px;background:var(--ic);color:var(--teal);font-size:12px;font-weight:600">Topic: Fasting</span></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px"><div class="card" style="padding:14px;display:flex;flex-direction:column;gap:8px"><b style="font-size:12px;color:var(--teal)">Shared</b><span style="font-size:12.5px">✓ This summary</span><span style="font-size:12.5px">✓ Your first name</span></div><div style="padding:14px;display:flex;flex-direction:column;gap:8px;background:#F2F0EC;border:1px solid #E4E0D8;border-radius:14px"><b class="mute" style="font-size:12px">Never shared</b><s class="mute" style="font-size:12.5px">Religion</s><s class="mute" style="font-size:12.5px">Journey history</s></div></div>
+<div class="card" style="display:flex;align-items:center;gap:14px;padding:14px 16px;${S.consent?'border-color:var(--teal)':''}"><span id="cl" style="flex-grow:1;font-size:14px;line-height:1.5">I agree to send this summary to the partner's specialist team.</span><button class="switch ${S.consent?'on':''}" role="switch" aria-checked="${S.consent}" aria-labelledby="cl" onclick="set({consent:!S.consent})"><span></span></button></div>
+<div style="display:flex;gap:12px;padding:14px 16px;background:var(--ic);border-radius:16px"><span class="ic s" style="background:var(--card)">${I.msg}</span><div style="display:flex;flex-direction:column;gap:4px"><b style="font-size:13.5px;color:var(--teal)">Personal question, or need a ruling?</b><span style="font-size:12.5px;line-height:1.6">Specialists here explain what you see at work. They don't issue fatwas or personal advice — if that's what you need, they'll point you to the right place, privately.</span></div></div>
+<button class="btn" ${S.consent?'':'disabled'} onclick="set({sent:true})">${I.send}Send to specialist</button>
+<span class="mute" style="text-align:center;font-size:12px">The reply arrives here in Lahza. No email or phone number needed.</span>`; }
+
+function s9(){
+ const reqs=[['r1','12 min ago','Fasting','English','Would like to understand why Muslims fast — and why some colleagues also fast on Mondays and Thursdays, outside Ramadan.'],['r2','1 h ago','Prayer','Urdu','Wants to schedule team meetings around prayer times without making colleagues feel singled out.'],['r3','3 h ago','Eid','English','Asks what is appropriate to say, or to give, to a colleague for Eid.'],['r4','Yesterday','Friday','Arabic','Wants to know what Friday prayer involves and why it matters to colleagues.']];
+ const nNew=reqs.filter(r=>!S.claimed[r[0]]).length;
+ const bars=[['Ramadan',2.1,4.4],['Iftar',2.6,4.3],['Friday',2.0,4.1],['Prayer',1.9,4.0],['Eid',2.9,4.5]];
+ const mis=[['Fasting is a punishment',412],['Fasting is a diet',268],['A fasting colleague is upset or distant',191],['Prayer breaks mean less commitment',143],['Eid is a single day',97]];
+ return `<div class="dash">${ORN('tr','d')}
+<div style="position:relative;padding:16px 28px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;background:rgba(255,253,248,.7)"><b style="font-size:15px">Partner &amp; HR dashboard</b><div style="display:flex;gap:8px;font-size:13px"><span class="card" style="padding:9px 14px;border-radius:10px">Naqlah · Riyadh</span><span class="card" style="padding:9px 14px;border-radius:10px">Last 30 days</span></div></div>
+<div style="position:relative;padding:24px 28px 32px;display:flex;flex-direction:column;gap:22px">
+ <div style="display:flex;gap:14px;align-items:center;padding:14px 18px;background:var(--teal);color:#fff;border-radius:14px"><span style="color:var(--sand)">${I.shield}</span><span style="font-size:14.5px;line-height:1.5"><b style="color:var(--sand)">We don't collect any personal data.</b> Requests reach specialists only with the employee's consent. Impact figures are aggregated and anonymous — no names, no religion, no individual progress.</span></div>
+ <div class="dgrid">
+  <section class="card" style="padding:22px;display:flex;flex-direction:column;gap:14px">
+   <div style="display:flex;justify-content:space-between;align-items:flex-end"><div style="display:flex;flex-direction:column;gap:6px"><h2 style="font-size:19px">Specialist requests</h2><span class="ul" style="width:28px"></span></div><span class="mute" style="font-size:13px"><b style="font-size:20px;color:var(--gold)">${nNew}</b> new</span></div>
+   <span class="mute" style="font-size:12.5px">Summaries are written by the employee's app and approved by them before they arrive.</span>
+   ${reqs.map(([id,time,topic,lang,sum])=>{const c=!!S.claimed[id];return `<div style="padding:16px;border:1px solid var(--line);border-radius:14px;background:${c?'var(--cream)':'#fff'};display:flex;flex-direction:column;gap:10px"><div style="display:flex;justify-content:space-between"><span style="padding:4px 10px;border-radius:20px;font-size:11.5px;font-weight:700;${c?'background:var(--ic);color:var(--teal)':'background:var(--sand)'}">${c?'Claimed':'New request'}</span><span class="mute" style="font-size:12px">${time}</span></div><b style="font-size:14.5px">Topic: ${topic}</b><span style="font-size:13.5px;line-height:1.55;color:var(--body)">${sum}</span><div style="display:flex;justify-content:space-between;align-items:center"><span class="mute" style="font-size:12px">Asked in ${lang}</span>${c?`<span style="font-size:13px;font-weight:600;color:var(--teal);display:flex;gap:6px;align-items:center;height:40px">${I.check}Claimed by you · Reply</span>`:`<button onclick="S.claimed['${id}']=1;render()" style="height:40px;padding:0 16px;border:none;border-radius:10px;background:var(--teal);color:#fff;font-weight:600;font-size:13.5px">Claim request</button>`}</div></div>`}).join('')}
+  </section>
+  <section style="display:flex;flex-direction:column;gap:16px">
+   <div style="display:flex;justify-content:space-between;align-items:flex-end"><div style="display:flex;flex-direction:column;gap:6px"><h2 style="font-size:19px">Anonymous impact</h2><span class="ul" style="width:28px"></span></div><span style="padding:4px 10px;border-radius:20px;border:1px dashed var(--gold);color:var(--goldD);font-size:11.5px;font-weight:600">Sample data</span></div>
+   <div class="kpis">
+    <div class="card" style="padding:18px;display:flex;flex-direction:column;gap:6px"><span class="mute" style="font-size:12.5px;font-weight:600">Journeys completed</span><b style="font-size:34px;color:var(--gold);line-height:1.1">1,284</b><span style="font-size:12px;color:var(--teal)">+212 vs previous 30 days</span></div>
+    <div class="feat" style="padding:18px;display:flex;flex-direction:column;gap:6px"><span class="mute" style="font-size:12.5px;font-weight:600">Avg. understanding</span><b style="font-size:34px;color:var(--teal);line-height:1.1">2.3 <span style="font-size:20px;color:var(--goldD)">→</span> 4.3</b><span class="mute" style="font-size:12px">out of 5, before → after</span></div>
+    <div class="card" style="padding:18px;display:flex;flex-direction:column;gap:6px"><span class="mute" style="font-size:12.5px;font-weight:600">Specialist requests</span><b style="font-size:34px;color:var(--gold);line-height:1.1">18</b><span class="mute" style="font-size:12px">median first reply · [TIME]</span></div>
+   </div>
+   <div class="card" style="padding:22px;display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px"><b style="font-size:15px">Understanding before and after each journey</b><div style="display:flex;gap:16px;font-size:12.5px"><span style="display:flex;gap:6px;align-items:center"><span style="width:12px;height:12px;border-radius:3px;background:var(--sand)"></span>Before</span><span style="display:flex;gap:6px;align-items:center"><span style="width:12px;height:12px;border-radius:3px;background:var(--teal)"></span>After</span></div></div>
+    <div style="height:200px;display:grid;grid-template-columns:repeat(5,1fr);gap:18px;border-bottom:1px solid var(--sand);background:repeating-linear-gradient(to top,transparent 0 39px,#F1ECE2 39px 40px)">${bars.map(([n,b,a])=>`<div role="img" aria-label="${n}: before ${b.toFixed(1)}, after ${a.toFixed(1)} of 5" style="display:flex;align-items:flex-end;justify-content:center;gap:6px">${[[b,'var(--sand)','var(--mute)'],[a,'var(--teal)','var(--teal)']].map(([v,c,tc])=>`<div style="width:34%;max-width:38px;display:flex;flex-direction:column;align-items:center"><span style="font-size:11.5px;font-weight:600;color:${tc};padding-bottom:4px">${v.toFixed(1)}</span><span style="width:100%;height:${Math.round(v/5*200)}px;border-radius:6px 6px 0 0;background:${c}"></span></div>`).join('')}</div>`).join('')}</div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:18px">${bars.map(b=>`<span style="text-align:center;font-size:12.5px;font-weight:600">${b[0]}</span>`).join('')}</div>
+    <span class="mute" style="font-size:11.5px">Before: a one-tap self-check at the start of a journey. After: the AI score from “Explain it in your words”. Averages only.</span>
+   </div>
+   <div class="card" style="padding:22px;display:flex;flex-direction:column;gap:14px"><b style="font-size:15px">Most-corrected misconceptions</b>
+    ${mis.map(([l,n],i)=>`<div style="display:grid;grid-template-columns:minmax(0,2.2fr) minmax(0,3fr) 48px;gap:14px;align-items:center"><span style="font-size:13.5px">“${l}”</span><span style="height:10px;border-radius:5px;background:var(--beige);overflow:hidden"><span style="display:block;height:100%;width:${n/412*100}%;border-radius:5px;background:${i?'var(--teal)':'var(--gold)'}"></span></span><b style="font-size:13px;color:var(--teal);text-align:end">${n}</b></div>`).join('')}
+    <span class="mute" style="font-size:11.5px">Times a journey's “reveal” corrected the option a learner first picked.</span>
+   </div>
+  </section>
+ </div>
+</div></div>`; }
+
+function langBtns(cls){ const L={en:'English',ar:'العربية',ur:'اردو'}; return Object.keys(L).map(l=>`<button role="radio" aria-checked="${S.lang===l}" class="${cls} ${S.lang===l?'on':''}" style="${cls==='opt'?'justify-content:center;height:44px;min-height:44px;font-weight:600;':''}font-family:${l==='en'?"'IBM Plex Sans'":"'IBM Plex Sans Arabic'"}" onclick="set({lang:'${l}',text:null})">${L[l]}</button>`).join(''); }
+
+function render(){
+ const n=S.screen, t=D[S.lang], multi = n<=6, rtl = multi && S.lang!=='en';
+ document.getElementById('nav').innerHTML = SCREENS.map(([i,l])=>`<button class="${i===n?'on':''}" onclick="go(${i})">${l}</button>`).join('');
+ document.getElementById('langs').innerHTML = multi ? langBtns('') : '<span class="mute" style="font-size:12px;align-self:center">English only</span>';
+ document.getElementById('cap').textContent = CAPS[n];
+ const v=document.getElementById('view');
+ if(n===9){ v.style.width='100%'; v.style.display='flex'; v.style.justifyContent='center'; v.innerHTML=s9(); return; }
+ v.style.width='';
+ const body = [null,s1,s2,s3,s4,s5,s6,s7,s8][n](t);
+ const prevScroll = document.querySelector('.scroll'); const keep = prevScroll && prevScroll.dataset.n==String(n) ? prevScroll.scrollTop : 0;
+ v.innerHTML = `<div class="phone"><div class="screen" dir="${rtl?'rtl':'ltr'}" lang="${multi?S.lang:'en'}" style="font-family:${rtl?"'IBM Plex Sans Arabic','IBM Plex Sans'":"'IBM Plex Sans','IBM Plex Sans Arabic'"},sans-serif">${ORN('tr','a')}${ORN('bl','b')}<div class="scroll" data-n="${n}">${body}</div></div></div>`;
+ document.querySelector('.scroll').scrollTop = keep;
+}
+render();
+</script>
+</body>
+</html>
