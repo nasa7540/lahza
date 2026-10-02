@@ -3,6 +3,7 @@
 /* Design tokens from /design/lahza-prototype.html */
 @theme {
   --color-teal: #0f4c5c;
+  --color-teal-d: #0b3a47;
   --color-gold: #b8893b;
   --color-gold-d: #8c6527;
   --color-sand: #d9c6a0;
@@ -27,6 +28,15 @@ body {
 
 [dir="rtl"] body {
   font-family: var(--font-arabic);
+}
+
+::selection {
+  background: var(--color-sand);
+  color: var(--color-ink);
+}
+
+:where(a, button) {
+  -webkit-tap-highlight-color: transparent;
 }
 
 :where(a, button, textarea, input):focus-visible {

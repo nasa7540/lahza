@@ -15,7 +15,7 @@ export function LanguagePicker({
 }) {
   return (
     <nav aria-label={label} className="flex flex-col gap-2">
-      <b className="text-[13px]">{label}</b>
+      <b className="text-sm rtl:text-[15px]">{label}</b>
       <div className="grid grid-cols-3 gap-2">
         {routing.locales.map((locale) => {
           const on = locale === current;
@@ -26,9 +26,9 @@ export function LanguagePicker({
               locale={locale}
               lang={locale}
               aria-current={on ? "true" : undefined}
-              className={`flex h-11 items-center justify-center rounded-[14px] text-[15px] font-semibold text-ink ${
+              className={`flex h-11 items-center justify-center rounded-[14px] text-base font-semibold text-ink transition-colors duration-150 ${
                 locale === "en" ? "font-sans" : "font-arabic"
-              } ${on ? "border-[1.5px] border-teal bg-ic" : "border border-line bg-card"}`}
+              } ${on ? "border-[1.5px] border-teal bg-ic" : "border border-line bg-card hover:border-sand hover:bg-beige"}`}
             >
               {LABELS[locale]}
             </Link>
