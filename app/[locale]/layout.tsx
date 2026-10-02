@@ -19,7 +19,7 @@ const plexArabic = IBM_Plex_Sans_Arabic({
   weight: ["400", "500", "600", "700"],
 });
 
-export const viewport: Viewport = { themeColor: "#0F4C5C" };
+export const viewport: Viewport = { themeColor: "#0F4C5C", viewportFit: "cover" };
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
