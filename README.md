@@ -6,7 +6,13 @@ Entry for the "AI in the Service of Islamic Content" challenge (Track 3: interac
 
 ## Pre-challenge starting version
 
-This repository was created on Oct 2, 2026. Work before Oct 4 (disclosed per the challenge FAQ): P0 scaffold only (welcome screen, /api/health, PWA config, migration file). Spec, design and content were prepared during workshop days (Oct 2–3). Everything else is built during the challenge, Oct 4–6.
+This repository was created on Oct 2, 2026. Work before Oct 4 (disclosed per the challenge FAQ):
+
+- P0 scaffold: welcome screen in three languages (including a text-size and layout polish pass), `/api/health`, PWA config, the database migration file, and deployment setup.
+- Project spec (`CLAUDE.md`) and the visual prototype in `design/`.
+- A third-party design-review skill for coding agents in `.agents/` (tooling only, not part of the app).
+
+Spec, design and content were prepared during workshop days (Oct 2–3). Everything else is built during the challenge, Oct 4–6.
 
 The starting version is tagged [`pre-challenge-v0`](https://github.com/nasa7540/lahza/tree/pre-challenge-v0). To see exactly what was built during the challenge, [compare it with `main`](https://github.com/nasa7540/lahza/compare/pre-challenge-v0...main).
 
