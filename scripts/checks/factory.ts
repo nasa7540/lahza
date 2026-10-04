@@ -7,7 +7,8 @@ import { draftChecks } from "../../lib/factory/pipeline";
 import { loadTopics } from "../../lib/factory/topics";
 import { scriptDb } from "../db";
 
-const JOURNEYS = ["ramadan", "team-dinner"];
+// The 15:00 criterion is measured on the two journeys named in the plan; `all` covers every topic.
+const JOURNEYS = process.argv[3] === "all" ? loadTopics().map((t) => t.id) : ["ramadan", "team-dinner"];
 
 async function main() {
   const mode = process.argv[2] === "deadline" ? "deadline" : "factory";

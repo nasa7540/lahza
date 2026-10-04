@@ -9,6 +9,8 @@ const topicSchema = z.object({
   /** True where what the employee hears is itself the thing to explain (a phrase, a question to a waiter): the words may appear inside quoted speech. */
   allow_in_quotes: z.boolean(),
   expected_occasions: z.array(z.string()),
+  /** Hadith ids (hadeethenc) the project owner chose for this topic; tried before what the research step proposes. Same eligibility rules apply. */
+  pinned_hadith_ids: z.array(z.number().int()).default([]),
 });
 export type Topic = z.infer<typeof topicSchema>;
 

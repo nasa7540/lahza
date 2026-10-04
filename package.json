@@ -16,7 +16,9 @@
     "check:factory": "tsx scripts/checks/factory.ts factory",
     "check:deadline": "tsx scripts/checks/factory.ts deadline",
     "check:guard": "tsx scripts/checks/guard.ts",
-    "draft:show": "tsx scripts/show-draft.ts"
+    "draft:show": "tsx scripts/show-draft.ts",
+    "derive": "tsx scripts/derive.ts",
+    "check:factory:all": "tsx scripts/checks/factory.ts factory all"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

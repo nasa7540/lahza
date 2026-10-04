@@ -47,7 +47,10 @@
     "expected_occasions": [
       "eid_al_fitr"
     ],
-    "allow_in_quotes": false
+    "allow_in_quotes": false,
+    "pinned_hadith_ids": [
+      5322
+    ]
   },
   {
     "id": "team-dinner",

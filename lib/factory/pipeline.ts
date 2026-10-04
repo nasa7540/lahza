@@ -13,7 +13,7 @@ import { fetchSources, type LogEntry, type References, searchHadith, searchQuran
 import type { Topic } from "./topics";
 
 const SEGMENT_SIMILARITY_FLAG = 0.45; // flag only, never removes
-const FORBIDDEN = [/قال رسول الله/, /قال تعالى/, /[﴿﴾]/, /\b\d{1,3}\s*:\s*\d{1,3}\b/, /Allah says/i, /the Prophet said/i];
+const FORBIDDEN = [/قال رسول الله/, /قال تعالى/, /[﴿﴾]/, /(?<!الساعة\s{0,2})\b\d{1,3}\s*:\s*\d{1,3}\b/, /Allah says/i, /the Prophet said/i];
 
 export type FactoryResult =
   | { status: "refused" | "referred"; guard: Awaited<ReturnType<typeof guardTopic>> }
@@ -200,6 +200,7 @@ export async function runFactory(db: SupabaseClient, topic: Topic, examples: str
   if (guard.decision === "refer") return { status: "referred", guard };
 
   const refs = await research(db, topic.topic, log, onUsage);
+  if (topic.pinned_hadith_ids.length) refs.hadith_ids = [...topic.pinned_hadith_ids, ...refs.hadith_ids.filter((id) => !topic.pinned_hadith_ids.includes(id))];
   const proposed = Math.min(refs.quran.length, 2) + Math.min(refs.hadith_ids.length, 1) + Math.min(refs.term_ids.length, 2);
   const { sources, failed } = await fetchSources(db, refs, log);
   if (sources.length === 0) return { status: "failed", reason: "no source could be fetched", log };
