@@ -1,0 +1,20 @@
+{
+    "name": "Lahza Onboarding",
+    "summary": "Short journeys that help new colleagues understand Islamic moments at work",
+    "version": "1.0.0",
+    "category": "Human Resources",
+    "author": "Lahza",
+    "website": "https://lahza-flame.vercel.app",
+    "license": "LGPL-3",
+    "depends": ["hr", "mail"],
+    "data": [
+        "security/ir.access.csv",
+        "data/lahza_moment_data.xml",
+        "data/ir_cron_data.xml",
+        "views/lahza_moment_views.xml",
+        "views/hr_employee_views.xml",
+        "views/res_config_settings_views.xml",
+    ],
+    "installable": True,
+    "application": False,
+}

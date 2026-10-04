@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="lahza_moment_view_list" model="ir.ui.view">
+        <field name="name">lahza.moment.list</field>
+        <field name="model">lahza.moment</field>
+        <field name="arch" type="xml">
+            <list editable="bottom">
+                <field name="journey"/>
+                <field name="date"/>
+                <field name="days_before"/>
+                <field name="notified"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="lahza_moment_action" model="ir.actions.act_window">
+        <field name="name">Lahza moments</field>
+        <field name="res_model">lahza.moment</field>
+        <field name="view_mode">list</field>
+    </record>
+
+    <menuitem id="lahza_moment_menu" name="Lahza moments" parent="hr.menu_human_resources_configuration" action="lahza_moment_action" sequence="90"/>
+</odoo>
