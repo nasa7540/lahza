@@ -2,6 +2,7 @@ import { after } from "next/server";
 import { z } from "zod";
 import { ROUTE_JOURNEYS } from "@/lib/classify/journeys";
 import { type RouteResult, routeQuestion } from "@/lib/classify/route";
+import { rowCompany } from "@/lib/http/company";
 import { tooMany, withoutAngleBrackets } from "@/lib/http/limit";
 import { createServiceClient } from "@/lib/supabase/server";
 
@@ -28,7 +29,7 @@ export async function POST(request: Request) {
   console.log(JSON.stringify({ at: "classify", by: trace.by, level: trace.level, classified: trace.classified, top: trace.top, outcome: trace.outcome, ms: trace.ms, reason: trace.reason }));
   // Anonymous counter (level and outcome, never the question), written after the answer is sent.
   after(async () => {
-    const { error } = await db.from("events").insert({ type: "classify", lang: body.data.lang, level: trace.level, choice: trace.outcome, journey_id: trace.journeys[0] ?? null });
+    const { error } = await db.from("events").insert({ type: "classify", lang: body.data.lang, level: trace.level, choice: trace.outcome, journey_id: trace.journeys[0] ?? null, company: rowCompany() });
     if (error) console.error("classify event failed:", error.message);
   });
   // The header names which path answered (an enum), for the load check.

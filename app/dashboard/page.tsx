@@ -1,5 +1,6 @@
 import { Logo } from "@/components/Logo";
 import topics from "@/content/topics.json";
+import { CHECK_COMPANY, companyCode } from "@/lib/companies";
 import { dashboardGate } from "@/lib/dashboard";
 import { type EventRow, summarise } from "@/lib/dashboard-counts";
 import { REFERRAL_TOPICS } from "@/lib/referral";
@@ -35,14 +36,17 @@ export default async function Dashboard({ searchParams }: PageProps<"/dashboard"
   }
 
   const db = createServiceClient();
-  const company = typeof c === "string" && /^[a-z0-9-]{1,40}$/.test(c) ? c : null;
-  let eventQuery = db?.from("events").select("type, journey_id, score, choice, company").order("id", { ascending: false }).limit(20_000);
-  let referralQuery = db?.from("referrals").select("id, created_at, lang, topic, status, summary, company").order("created_at", { ascending: false }).limit(200);
+  const company = typeof c === "string" ? companyCode(c) : null;
+  // Rows written by the automatic checks are never counted or listed (`neq` alone would also drop rows with no company).
+  // A server started by the checks themselves shows only those rows, so the tests can follow a request through the queue.
+  const rows = process.env.LAHZA_CHECK_ROWS === "1" ? `company.eq.${CHECK_COMPANY}` : `company.is.null,company.neq.${CHECK_COMPANY}`;
+  let eventQuery = db?.from("events").select("type, journey_id, score, choice, company").or(rows).order("id", { ascending: false }).limit(20_000);
+  let referralQuery = db?.from("referrals").select("id, created_at, lang, topic, status, summary, company").or(rows).order("created_at", { ascending: false }).limit(200);
   if (company) {
     eventQuery = eventQuery?.eq("company", company);
     referralQuery = referralQuery?.eq("company", company);
   }
-  let recentQuery = db?.from("events").select("created_at, type, journey_id, lang, choice, score, company").order("id", { ascending: false }).limit(300);
+  let recentQuery = db?.from("events").select("created_at, type, journey_id, lang, choice, score, company").or(rows).order("id", { ascending: false }).limit(300);
   if (company) recentQuery = recentQuery?.eq("company", company);
   // The three reads run side by side.
   const [eventResult, referralResult, recentResult] = await Promise.all([eventQuery, referralQuery, recentQuery]);

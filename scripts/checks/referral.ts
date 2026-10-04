@@ -12,7 +12,7 @@ const MARK = "check-referral";
 async function main() {
   loadEnv();
   const db = scriptDb();
-  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, NODE_ENV: "production" }, stdio: "ignore" });
+  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, NODE_ENV: "production", LAHZA_CHECK_ROWS: "1" }, stdio: "ignore" });
   const results: [string, boolean][] = [];
   const post = (body: unknown) => fetch(`${BASE}/api/referral`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
   const good = { lang: "en", topic: "personal_ruling", summary: `I would like to speak with a specialist. ${MARK}`, consent: true, company: "naqlah" };
@@ -27,7 +27,7 @@ async function main() {
     const body = (await ok.json()) as Record<string, unknown>;
     results.push(["with consent: accepted, answer is {ok} only", ok.ok && Object.keys(body).join() === "ok" && body.ok === true]);
     const rows = await stored();
-    results.push(["stored once as new, with topic, language and company", rows.length === 1 && rows[0].status === "new" && rows[0].topic === "personal_ruling" && rows[0].lang === "en" && rows[0].company === "naqlah"]);
+    results.push(["stored once as new, with topic and language, marked as a check row", rows.length === 1 && rows[0].status === "new" && rows[0].topic === "personal_ruling" && rows[0].lang === "en" && rows[0].company === "check"]);
     const page = await fetch(`${BASE}/dashboard`).then((r) => r.text());
     results.push(["the dashboard shows nothing without the passcode", !page.includes('data-testid="dashboard"') && !page.includes(MARK)]);
     const counts = summarise([{ type: "start", journey_id: "ramadan", score: null, choice: null, company: null }, { type: "grade", journey_id: "ramadan", score: 4, choice: null, company: null }, { type: "grade", journey_id: "ramadan", score: 2, choice: null, company: null }, { type: "classify", journey_id: null, score: null, choice: "specialist", company: null }]);

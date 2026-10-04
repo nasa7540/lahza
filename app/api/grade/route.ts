@@ -2,6 +2,7 @@ import { after } from "next/server";
 import { z } from "zod";
 import { getJourney } from "@/lib/content/journeys";
 import { gradeAnswer, type GradeResult } from "@/lib/grade/grade";
+import { rowCompany } from "@/lib/http/company";
 import { tooMany, withoutAngleBrackets } from "@/lib/http/limit";
 import { createServiceClient } from "@/lib/supabase/server";
 
@@ -30,7 +31,7 @@ export async function POST(request: Request) {
     const db = createServiceClient();
     if (!db || trace.score === null) return;
     const choice = trace.misconception === null ? null : (journey.option_ids[trace.misconception] ?? null);
-    const { error } = await db.from("events").insert({ type: "grade", lang, journey_id, score: trace.score, choice, level: journey.level });
+    const { error } = await db.from("events").insert({ type: "grade", lang, journey_id, score: trace.score, choice, level: journey.level, company: rowCompany() });
     if (error) console.error("grade event failed:", error.message);
   });
   return Response.json(result, { headers: { "x-lahza-route": trace.by } });
