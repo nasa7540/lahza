@@ -8,7 +8,15 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "check:db": "tsx scripts/checks/db.ts"
+    "check:db": "tsx scripts/checks/db.ts",
+    "index:quran": "tsx scripts/index-quran.ts",
+    "index:terms": "tsx scripts/index-terms.ts",
+    "factory": "tsx scripts/factory.ts",
+    "check:index": "tsx scripts/checks/index.ts",
+    "check:factory": "tsx scripts/checks/factory.ts factory",
+    "check:deadline": "tsx scripts/checks/factory.ts deadline",
+    "check:guard": "tsx scripts/checks/guard.ts",
+    "draft:show": "tsx scripts/show-draft.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
