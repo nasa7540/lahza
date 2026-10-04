@@ -1,13 +1,15 @@
 "use server";
 import { revalidatePath } from "next/cache";
+import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
+import { tooManyLogins } from "@/lib/http/limit";
 import { dashboardGate } from "@/lib/dashboard";
 import { createServiceClient } from "@/lib/supabase/server";
 
 export async function enter(form: FormData): Promise<void> {
   const given = form.get("passcode");
-  if (typeof given !== "string" || !dashboardGate.matches(given)) redirect("/dashboard?error=1");
+  if (tooManyLogins(await headers()) || typeof given !== "string" || !dashboardGate.matches(given)) redirect("/dashboard?error=1");
   await dashboardGate.open({ in: true });
   redirect("/dashboard");
 }
