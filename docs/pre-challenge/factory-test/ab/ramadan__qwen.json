@@ -1,0 +1,360 @@
+{
+ "topic_id": "ramadan",
+ "topic": "زميل صائم في رمضان ويعتذر عن غداء الفريق",
+ "expected_when": "hijri 9/1-9/30",
+ "status": "draft",
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:45",
+  "models": {
+   "guard": "skipped",
+   "research_and_writer": "qwen/qwen3.8-max-prime (writing only; Claude's references reused)",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 183
+   },
+   {
+    "surah": 2,
+    "ayah": 185
+   }
+  ],
+  "hadith_ids": [
+   65525
+  ],
+  "term_ids": [
+   6945
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "ramadan-fasting-lunch",
+  "level": "B",
+  "when": "hijri 9/1-9/30",
+  "title": "زميلك الصائم يعتذر عن غداء الفريق",
+  "teaser": "زميلك معتذر عن غداء الفريق في رمضان. وش السبب الحقيقي؟",
+  "scene": "منتصف نهار رمضان، فريقك رتّب غداء عمل خفيف في غرفة الاجتماعات. الكل جاب صينيته، وزميلك خالد ابتسم وقال: «شكرًا، أنا ما أقدر آكل معكم اليوم، بس بروح أجلس معكم». وش أول تفسير يخطر في بالك؟",
+  "character_names": [
+   "خالد"
+  ],
+  "options": [
+   {
+    "id": "polite-refusal",
+    "label": "اعتذار مهذب عن الأكل مع الفريق",
+    "reveal_headline": "ليس مجرد اعتذار اجتماعي",
+    "reveal_body": "الأرجح أن خالد لا يرفض الدعوة أو يجامل فقط، بل يمارس الصيام في رمضان."
+   },
+   {
+    "id": "diet",
+    "label": "حمية أو نظام صحي مؤقت",
+    "reveal_headline": "ليس حمية غذائية",
+    "reveal_body": "قد يبدو الامتناع عن الطعام مشابهًا للرجيم، لكنه في رمضان عبادة مفروضة على المسلمين. الآية بيّنت أن الصيام كُتب على المؤمنين كما كُتب على من قبلهم."
+   },
+   {
+    "id": "personal-choice",
+    "label": "رغبة شخصية في الابتعاد عن الغداء",
+    "reveal_headline": "ليس ذوقًا شخصيًا",
+    "reveal_body": "الصيام في رمضان ليس خيارًا فرديًا يتركه الشخص متى شاء، بل هو مرتبط بشهر رمضان."
+   },
+   {
+    "id": "avoiding-social",
+    "label": "تجنب الجلوس الاجتماعي",
+    "reveal_headline": "ليس انسحابًا من الزملاء",
+    "reveal_body": "اعتذار خالد عن الأكل لا يعني أنه لا يريد الجلوس معكم؛ فقد يبقى مع الفريق وهو صائم."
+   }
+  ],
+  "explanation": "الصيام في رمضان عبادة يمسك فيها المسلم عن المفطرات من الفجر إلى غروب الشمس.",
+  "explain_prompt": "اشرح بجملة أو جملتين لماذا قد يعتذر زميل صائم عن غداء الفريق في رمضان، مع الإشارة إلى أن الصيام إمساك عن المفطرات من الفجر إلى المغرب وأنه مرتبط بشهر رمضان.",
+  "tip": {
+   "headline": "كيف تتعامل مع زميل صائم في الدوام؟",
+   "lead": "يمكنك أن تحترم صيام زميلك بآداب بسيطة:",
+   "items": [
+    "إذا دعا الفريق زميلًا صائمًا لغداء عمل، لا تحرجه؛ يكفي أن تقول له: «خذ راحتك».",
+    "لا تسأله لماذا لا يصوم أو لماذا يصوم، فذلك أمر شخصي.",
+    "إذا كان هناك اجتماع وقت صلاة المغرب، راعِ أن الصائم قد يحتاج دقائق للإفطار."
+   ]
+  },
+  "key_points": [
+   "الصيام في رمضان إمساك عن المفطرات من الفجر إلى غروب الشمس.",
+   "رمضان شهر أُنزل فيه القرآن، والصيام فيه مرتبط بهذه العبادة.",
+   "إذا دُعي الصائم إلى طعام، يبيّن أنه صائم دون إحراج."
+  ],
+  "question_variants": [
+   "زميلنا اعتذر عن غداء الفريق في رمضان، هل هذا طبيعي؟",
+   "ليش بعض الزملاء ما ياكلون معانا وقت الغداء في رمضان؟",
+   "هل الصيام يمنع الزميل من حضور غداء العمل؟",
+   "كيف أرد إذا قال لي زميلي إنه صائم لما أعزمه على أكل؟",
+   "هل لازم أفطر مع الفريق إذا كان فيه زميل صائم؟"
+  ],
+  "when_parsed": {
+   "type": "hijri",
+   "windows": [
+    {
+     "from": {
+      "month": 9,
+      "day": 1
+     },
+     "to": {
+      "month": 9,
+      "day": 30
+     }
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-183",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
+   "reference": "2:183",
+   "translations": {
+    "en": {
+     "text": "O you who believe, fasting is prescribed upon you as it was prescribed upon those who were before you, so that you may become righteous.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/183",
+   "verified": false,
+   "content_hash": "02dd153625807e84b8391e5d154d7a4ca7e4cc9da1b23107d2f616c8555660bd"
+  },
+  {
+   "id": "quran-2-185",
+   "kind": "quran",
+   "text_ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+   "reference": "2:185",
+   "translations": {
+    "en": {
+     "text": "Ramadān is a month in which the Qur’an was sent down as a guidance for mankind and as clear signs that show the right way and distinguish between right and wrong. So whoever of you witnesses this month, should fast. But if anyone is ill or on a journey, he should make up for those days. Allah wants ease for you and does not want hardship for you, so that you may complete the prescribed number of days, and proclaim the greatness of Allah for having guided you, and so that you may be grateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/185",
+   "verified": false,
+   "content_hash": "61cedfd69ae0917f1a30ee0cba1f09488ab4c72333bc5dd066a3f091d59788dd"
+  },
+  {
+   "id": "hadith-65525",
+   "kind": "hadith",
+   "text_ar": "عن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال: (إذا دعي أحدكم إلى طعام وهو صائم فليقل: إني صائم).",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65525",
+   "verified": false,
+   "content_hash": "f7cd92be73338f5ef72dfe29780b7e0c8e99e24b35746196d7f0d8af0acbe0ef"
+  },
+  {
+   "id": "term-6945",
+   "kind": "term",
+   "text_ar": "الصَّوْمُ: الإِمْساكُ عَن سائِرِ الـمُفَطِّراتِ مِنْ طُلوعِ الفَجْرِ إلى غُروبِ الشَّمْسِ مع النِّيَّةِ. -",
+   "reference": "الصَّوْمُ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/6945",
+   "verified": false,
+   "content_hash": "312cf6d4d4067acccdb7751a93ecbd5d973354d5e587a289b7a8bf72f1b73b11"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الصيام في رمضان عبادة يمسك فيها المسلم عن المفطرات من الفجر إلى غروب الشمس.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "الآية ذكرت أن الصيام مكتوب على المؤمنين، وأن رمضان هو الشهر الذي أُنزل فيه القرآن، والحديث علّم الصائم إذا دُعي إلى طعام أن يقول: إني صائم.",
+   "label": "unsupported",
+   "source_id": "quran-2-183",
+   "quote": "كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.429,
+   "keyword_share": 0.11,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-polite-refusal-0",
+   "where": "reveal:polite-refusal",
+   "text": "الأرجح أن خالد لا يرفض الدعوة أو يجامل فقط، بل يمارس الصيام في رمضان.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-polite-refusal-1",
+   "where": "reveal:polite-refusal",
+   "text": "الصيام إمساك عن المفطرات من الفجر إلى المغرب، وقد أرشد الحديث من دُعي إلى طعام وهو صائم أن يقول: إني صائم.",
+   "label": "unsupported",
+   "source_id": "hadith-65525",
+   "quote": "إذا دعي أحدكم إلى طعام وهو صائم فليقل: إني صائم",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.696,
+   "keyword_share": 0.38,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-diet-0",
+   "where": "reveal:diet",
+   "text": "قد يبدو الامتناع عن الطعام مشابهًا للرجيم، لكنه في رمضان عبادة مفروضة على المسلمين.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-diet-1",
+   "where": "reveal:diet",
+   "text": "الآية بيّنت أن الصيام كُتب على المؤمنين كما كُتب على من قبلهم.",
+   "label": "supported",
+   "source_id": "quran-2-183",
+   "quote": "كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ",
+   "reason": null,
+   "quote_similarity": 0.564,
+   "keyword_share": 0.43,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-personal-choice-0",
+   "where": "reveal:personal-choice",
+   "text": "الصيام في رمضان ليس خيارًا فرديًا يتركه الشخص متى شاء، بل هو مرتبط بشهر رمضان.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-personal-choice-1",
+   "where": "reveal:personal-choice",
+   "text": "الآية ربطت الصيام بشهر رمضان الذي أُنزل فيه القرآن.",
+   "label": "unsupported",
+   "source_id": "quran-2-185",
+   "quote": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.587,
+   "keyword_share": 0.29,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-avoiding-social-0",
+   "where": "reveal:avoiding-social",
+   "text": "اعتذار خالد عن الأكل لا يعني أنه لا يريد الجلوس معكم؛ فقد يبقى مع الفريق وهو صائم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-avoiding-social-1",
+   "where": "reveal:avoiding-social",
+   "text": "الحديث دلّ على أن الصائم إذا دُعي إلى طعام يبيّن أنه صائم دون أن يرفض الدعوة بالضرورة.",
+   "label": "unsupported",
+   "source_id": "hadith-65525",
+   "quote": "إذا دعي أحدكم إلى طعام وهو صائم فليقل: إني صائم",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.669,
+   "keyword_share": 0.36,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "زميلك",
+   "غداء"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 4,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 10,
+  "removed_by_verifier": 4,
+  "supported": 1,
+  "general": 2,
+  "flagged_general_religious": 3,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 1,
+   "keywords_missing": 3,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 2629,
+  "tokens_out": 6544
+ },
+ "log": [
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "الآية ذكرت أن الصيام مكتوب على المؤمنين، وأن رمضان هو الشهر الذي أُنزل فيه القرآن، والحديث علّم الصائم إذا دُعي إلى طعام أن يقول: إني صائم.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-polite-refusal-1",
+   "text": "الصيام إمساك عن المفطرات من الفجر إلى المغرب، وقد أرشد الحديث من دُعي إلى طعام وهو صائم أن يقول: إني صائم.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-personal-choice-1",
+   "text": "الآية ربطت الصيام بشهر رمضان الذي أُنزل فيه القرآن.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-avoiding-social-1",
+   "text": "الحديث دلّ على أن الصائم إذا دُعي إلى طعام يبيّن أنه صائم دون أن يرفض الدعوة بالضرورة.",
+   "why": "keywords_missing"
+  }
+ ],
+ "seconds": 90.8
+}

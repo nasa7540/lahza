@@ -1,0 +1,303 @@
+{
+ "topic_id": "alhamdulillah-eating",
+ "topic": "زميل يقول الحمد لله بعد الأكل",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:32",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 1,
+    "ayah": 2
+   }
+  ],
+  "hadith_ids": [
+   5798
+  ],
+  "term_ids": [
+   8699
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "gratitude-after-meal",
+  "level": "B",
+  "when": "always",
+  "title": "لماذا يقول زميلي الحمد لله بعد الأكل؟",
+  "teaser": "لاحظت أن زميلك يقول «الحمد لله» فور الانتهاء من وجبته. ما سر هذه العادة البسيطة؟",
+  "scene": "أنت وزملاؤك في غرفة الطعام، انتهيتَ من تناول طعامك وبدأت بتنظيف مائدتك. لاحظت أن زميلك فهد، وهو شخص مهني ومحترف، مسح يديه برفق ثم قال بصوت مسموع وبابتسامة خفيفة: «الحمد لله». نظر إليه زملاؤه الآخرون وواصلوا أعمالهم وكأن هذا الأمر طبيعي تمامًا ومألوف. ماذا يعني هذا القول بالتحديد في سياق العمل والثقافة المحلية؟",
+  "character_names": [
+   "فهد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "عادة اجتماعية للتعبير عن رضا المطعم",
+    "reveal_headline": "ليس مجرد تقييم للمطعم",
+    "reveal_body": "هذا القول لا علاقة له بجودة الطعام أو الخدمة المقدمة. هو تعبير ديني وثقافي أعمق من كونه رأيًا في الوجبة."
+   },
+   {
+    "id": "opt2",
+    "label": "كلمة حشو لا تحمل معنى خاصًا",
+    "reveal_headline": "كلمة ذات وزن روحي كبير",
+    "reveal_body": "في الثقافة الإسلامية، هذه العبارة ليست حشوًا، بل هي ذكرٌ مقصود ومحبب يُقال شكرًا على النعمة، وهي جزء من آداب الطعام المعروفة."
+   },
+   {
+    "id": "opt3",
+    "label": "إشارة ضمنية إلى أن الطعام حلال",
+    "reveal_headline": "ليست تأكيدًا على الحلال",
+    "reveal_body": "قول «الحمد لله» بعد الأكل لا يعني التحقق من صلاحية الطعام شرعًا، بل هو شكر على الشبع والنعم بشكل عام، بغض النظر عن نوع الطعام."
+   },
+   {
+    "id": "opt4",
+    "label": "طريقة مهذبة لإنهاء الحديث والعودة للعمل",
+    "reveal_headline": "غاية روحية قبل الاجتماعية",
+    "reveal_body": "رغم أنه قد ينتهي به الأمر إلى العودة للعمل، إلا أن الدافع الأساسي ليس إنهاء المحادثة، بل إتمام سنة نبوية وشكر المولى على الرزق."
+   }
+  ],
+  "explanation": "في الإسلام، يُعدّ حمد الله بعد الأكل عبادة مستحبة تُثاب عليها الأفعال اليومية العادية.",
+  "explain_prompt": "اشرح الفكرة أعلاه بأسلوب بسيط ومباشر.",
+  "tip": {
+   "headline": "آداب التعامل مع هذه العادة",
+   "lead": "لتكون متوافقًا مع بيئة العمل السعودية واحترامك لزملائك:",
+   "items": [
+    "لا تفسر العبارة على أنها تعليق على جودة الطعام أو الخدمة.",
+    "تقبلها كجزء طبيعي من روتين الزميل ولا تتوقف للاستجواب عنها.",
+    "احترم الهدوء أو الانشغال الذي قد يلي ذلك كوقت للراحة أو الانتقال للمهمة التالية."
+   ]
+  },
+  "key_points": [
+   "قول «الحمد لله» بعد الأكل هو شكر لله على النعمة وليس تقييمًا للطعام.",
+   "الممارسة مستحبة دينيًا وتُعتبر سببًا لرضا الله عن العبد حسب الأحاديث النبوية.",
+   "هي عادة ثقافية ودينية شائعة تعكس الوعي الروحي في الحياة اليومية."
+  ],
+  "question_variants": [
+   "ما معنى قول الموظف الحمد لله بعد انتهاء وجبته؟",
+   "لماذا يردد بعض الموظفين الحمد لله بعد الأكل في مكان العمل؟",
+   "هل عبارة الحمد لله بعد الطعام تعني أن الطعام كان جيدًا؟",
+   "ما الحكمة وراء قول الحمد لله فور الانتهاء من الأكل؟",
+   "كيف أفهم رد الفعل الديني البسيط بعد تناول الطعام في المكتب؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-1-2",
+   "kind": "quran",
+   "text_ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+   "reference": "1:2",
+   "translations": {
+    "en": {
+     "text": "All praise be to Allah, the Lord of the worlds,",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/1/2",
+   "verified": false,
+   "content_hash": "a0e1b07792671c63ddd83c3dc799542e77a4a94023fe840a0f457e80da262be1"
+  },
+  {
+   "id": "hadith-5798",
+   "kind": "hadith",
+   "text_ar": "عن أنس بن مالك رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: «إِنَّ اللهَ لَيَرْضَى عَنِ الْعَبْدِ أَنْ يَأْكُلَ الْأَكْلَةَ فَيَحْمَدَهُ عَلَيْهَا، أَوْ يَشْرَبَ الشَّرْبَةَ فَيَحْمَدَهُ عَلَيْهَا».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/5798",
+   "verified": false,
+   "content_hash": "0b8decfc106d57a8871040e0b000faabd196c0c0c6aabca90d167a1fe24b22f9"
+  },
+  {
+   "id": "term-8699",
+   "kind": "term",
+   "text_ar": "حَمْدٌ: وَصْفُ الشَّيْءِ بِصِفاتِ الكَمالِ ومَحاسِنِ الأَفْعالِ مع المَحَبَّةِ والتَّعْظِيمِ. الحَمْدُ: هو الثَّناءُ والِإخْبارُ بِصِفاتِ اللهِ العُلَى وأَسْمائِهِ الحُسْنَى وأَفْعالِهِ الكامِلَةِ، والفرق بين الشُّكْرِ والحَمْدِ: أنَّ الشُّكْرَ كالحَمْدِ في أنَّهُما وَصْفٌ بِاللِّسانِ عند حُدُوثِ النِّعْمَةِ، إلّا أنَّ الحَمْدَ يكون بِاللِّسانِ، بِخِلافِ الشُّكْرِ؛ فإنَّهُ يَقَعُ بِالقلب واللِّسان والجَوارِحِ، فهو أعَمُّ مِن حيث المُتعلَّق.\nوالحَمْدُ أعمُّ مِن الشُّكْرِ من جِهَةِ السَّبَب؛ إذ الحَمْدُ يكون على النِّعَمِ وعلى غيرها، كَحَمْدِ اللهِ تعالى على صِفاتِهِ الذّاتيَّة وعلى نَعْمائِهِ، وأمّا الشُّكْرُ فلا يكون إلّا عن نِعمَةٍ وإحسانٍ.",
+   "reference": "حَمْدٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/8699",
+   "verified": false,
+   "content_hash": "448d06910a65a1dbf099dad389c9a752fbcbf538ac46c2d88f0885a6f18e218f"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "في الإسلام، يُعدّ حمد الله بعد الأكل عبادة مستحبة تُثاب عليها الأفعال اليومية العادية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "ورد في الأحاديث النبوية أن الله يرضى عن العبد إذا أكل أكلة فحمد الله عليها، مما يحول فعل الأكل البسيط إلى فرصة لكسب الأجر والثواب.",
+   "label": "unsupported",
+   "source_id": "hadith-5798",
+   "quote": "إِنَّ اللهَ لَيَرْضَى عَنِ الْعَبْدِ أَنْ يَأْكُلَ الْأَكْلَةَ فَيَحْمَدَهُ عَلَيْهَا",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.536,
+   "keyword_share": 0.22,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "يختلف هذا الشكر اللساني عن الشكر العملي، فهو هنا اعتراف بفضل الله على نعمة الصحة والغذاء.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا القول لا علاقة له بجودة الطعام أو الخدمة المقدمة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "هو تعبير ديني وثقافي أعمق من كونه رأيًا في الوجبة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "في الثقافة الإسلامية، هذه العبارة ليست حشوًا، بل هي ذكرٌ مقصود ومحبب يُقال شكرًا على النعمة، وهي جزء من آداب الطعام المعروفة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "قول «الحمد لله» بعد الأكل لا يعني التحقق من صلاحية الطعام شرعًا، بل هو شكر على الشبع والنعم بشكل عام، بغض النظر عن نوع الطعام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "رغم أنه قد ينتهي به الأمر إلى العودة للعمل، إلا أن الدافع الأساسي ليس إنهاء المحادثة، بل إتمام سنة نبوية وشكر المولى على الرزق.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "حمد",
+   "لله",
+   "ماذا"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 8,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 3,
+  "flagged_general_religious": 3,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4783,
+  "tokens_out": 1571
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الحمد لله رب العالمين",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "من أكل طعاما فقال الحمد لله",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحمد لله",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "ورد في الأحاديث النبوية أن الله يرضى عن العبد إذا أكل أكلة فحمد الله عليها، مما يحول فعل الأكل البسيط إلى فرصة لكسب الأجر والثواب.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-2",
+   "text": "يختلف هذا الشكر اللساني عن الشكر العملي، فهو هنا اعتراف بفضل الله على نعمة الصحة والغذاء.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 34.5
+}

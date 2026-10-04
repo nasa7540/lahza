@@ -1,0 +1,297 @@
+{
+ "topic_id": "qibla",
+ "topic": "سهم أو علامة القبلة في غرف الفنادق والمكاتب",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:37",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 115
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   5289
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "qibla-marker-work",
+  "level": "B",
+  "when": "always",
+  "title": "سهم أو علامة القبلة في غرف الفنادق والمكاتب",
+  "teaser": "في السعودية، قد تلاحظ سهمًا صغيرًا على الحائط أو الأرضية يشير إلى اتجاه معين. ما قصده؟",
+  "scene": "أثناء عملك في مكتب جديد أو إقامتك في فندق بالرياض، لاحظت وجود سهم مطبوع على الأرضية أو مرسوم على الحائط يشير إلى زاوية محددة من الغرفة. تساءلت بصوت مسموع لزميلك سعود: «هذا السهم ليش موجود هنا؟ وش يعني؟» ابتسم سعود وقال: «إن شاء الله تكون عندك التوفيق». وش قصده برأيك؟",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "مؤشر للزوايا الآمنة هندسيًا",
+    "reveal_headline": "ليس مؤشرًا هندسيًا",
+    "reveal_body": "السهم لا علاقة له بالأمان الإنشائي أو توزيع الأحمال في المبنى. هو مجرد علامة توجيهية دينية لا تؤثر على سلامة الهيكل."
+   },
+   {
+    "id": "opt-2",
+    "label": "اتجاه الهواء المكيف لتوفير الطاقة",
+    "reveal_headline": "ليس مرتبطًا بتدفق الهواء",
+    "reveal_body": "لا يرتبط هذا السهم بنظام التكييف أو تدفق الهواء داخل الغرفة. وضعه ثابت بغض النظر عن موقع فتحات التهوية أو النوافذ."
+   },
+   {
+    "id": "opt-3",
+    "label": "إشارة لموقع أقرب مصعد أو سلالم الطوارئ",
+    "reveal_headline": "ليس دليل خروج طوارئ",
+    "reveal_body": "علامات الخروج والطوارئ تكون ملونة ومضيئة عادةً للإرشاد السريع. هذا السهم هادئ ولا يهدف إلى توجيه الناس نحو المخارج في حالات الخطر."
+   },
+   {
+    "id": "opt-4",
+    "label": "علامة لحساب الزكاة أو الضرائب",
+    "reveal_headline": "لا علاقة بالحسابات المالية",
+    "reveal_body": "لا يستخدم هذا السهم لأي أغراض محاسبية أو ضريبية. هو رمز روحي بحت يساعد في تحديد الاتجاه الصحيح للصلاة فقط."
+   }
+  ],
+  "explanation": "يُشير هذا السهم إلى اتجاه القبلة، وهي الجهة التي يتوجه إليها المسلمون أثناء الصلاة، وتحديداً نحو الكعبة المشرفة في مكة المكرمة.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بأن السهم ليس له علاقة بالهندسة أو الاقتصاد، بل هو توجيه روحي للصلاة نحو الكعبة، مستنداً إلى الآية الكريمة التي تذكر المشرق والمغرب ووجوه الله.",
+  "tip": {
+   "headline": "آداب التعامل مع علامات القبلة في العمل",
+   "lead": "للدعم المتبادل واحترام التنوع الديني في بيئة العمل السعودية، اتبع هذه النصائح العملية:",
+   "items": [
+    "لا تحرك الأثاث أو الغطاء الذي يغطي علامة القبلة دون استئذان صاحب المكان أو المسؤول عنها.",
+    "احترم هدوء زملائك إذا غادروا مقاعدهم مؤقتاً لأداء الصلاة، ولا تقاطعهم إلا في حالات الطوارئ الحقيقية.",
+    "إذا كنت غير مسلم، يمكنك استخدام هذه العلامة كمعلومة ثقافية مفيدة لفهم بيئة العمل دون الحاجة للمشاركة فيها."
+   ]
+  },
+  "key_points": [
+   "السهم أو العلامة تشير إلى اتجاه القبلة (نحو الكعبة) الذي يتوجه إليه المسلمون للصلاة.",
+   "وجود هذه العلامات يعكس البيئة الإسلامية للمملكة ويساعد الموظفين المسلمين على أداء فريضة الصلاة بسهولة.",
+   "القرآن يؤكد أن الله حيثما كان، مما يعني أن النية والتوجه القلبي مهمان، لكن التوجيه الجغرافي يُسهّل الالتزام الجماعي والشخصي."
+  ],
+  "question_variants": [
+   "لماذا يوجد سهم على الأرضية في هذا المكتب؟",
+   "ما معنى العلامة المرسومة على حائط الفندق؟",
+   "هل هذا السهم يشير إلى اتجاه معين ولماذا؟",
+   "لماذا يهتم الموظفون بهذا السهم المحدد؟",
+   "ما الغرض من وجود هذا المؤشر في الغرفة؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-115",
+   "kind": "quran",
+   "text_ar": "وَلِلَّهِ ٱلۡمَشۡرِقُ وَٱلۡمَغۡرِبُۚ فَأَيۡنَمَا تُوَلُّواْ فَثَمَّ وَجۡهُ ٱللَّهِۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٞ",
+   "reference": "2:115",
+   "translations": {
+    "en": {
+     "text": "To Allah belong the east and the west; wherever you turn, there is the Face of Allah. For Allah is All-Encompassing, All-Knowing.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/115",
+   "verified": false,
+   "content_hash": "9f06e475ceab434c15284022671e64fa02b094e8d320ac20c01819cbf225d6a7"
+  },
+  {
+   "id": "term-5289",
+   "kind": "term",
+   "text_ar": "قِبْلَةٌ: الجِهَةُ التي يُصَلِّي إِلَيْها الـمُسلِمونَ. القِبْلَةُ: هي وِجْهَةُ الـمَصَلِّي أَثْناءَ صَلاتِهِ، وهي عند الـمُسْلِمينَ الكَعْبَةُ الـمُشَرَّفَةُ، وكانَت قَبْلَ هِجْرَةِ رَسولِ اللهِ صلّى اللهُ عليه وسلّم هي بَيْتُ الـمَقْدِسِ بِفِلَسْطِينَ الذي يُعدُّ أُولَى القِبْلَتَيْنِ، والقِبْلَةُ إمّا أن تكون الكَعْبَةُ بِعَيْنِها، وهذا لِلْقرِيبِ الذي يَراها، أو جِهَتُها، وهذا لِلْبَعيدِ.",
+   "reference": "قِبْلَةٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/5289",
+   "verified": false,
+   "content_hash": "f9770758561db0c71ab1f784de4d08761445f5beb446dfcf609e9ae7662cf397"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يُشير هذا السهم إلى اتجاه القبلة، وهي الجهة التي يتوجه إليها المسلمون أثناء الصلاة، وتحديداً نحو الكعبة المشرفة في مكة المكرمة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وقد جاء في القرآن الكريم أن لله المشرق والمغرب، وأن وجه الله حيثما تولّوا، مما يدل على أهمية التوجه الروحي ولكن مع سعة في الفهم والقبول.",
+   "label": "unsupported",
+   "source_id": "quran-2-115",
+   "quote": "وَلِلَّهِ ٱلۡمَشۡرِقُ وَٱلۡمَغۡرِبُۚ فَأَيۡنَمَا تُوَلُّواْ فَثَمَّ وَجۡهُ ٱللَّهِۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٞ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.556,
+   "keyword_share": 0.24,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "السهم لا علاقة له بالأمان الإنشائي أو توزيع الأحمال في المبنى.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "هو مجرد علامة توجيهية دينية لا تؤثر على سلامة الهيكل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "لا يرتبط هذا السهم بنظام التكييف أو تدفق الهواء داخل الغرفة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "وضعه ثابت بغض النظر عن موقع فتحات التهوية أو النوافذ.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "علامات الخروج والطوارئ تكون ملونة ومضيئة عادةً للإرشاد السريع.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "هذا السهم هادئ ولا يهدف إلى توجيه الناس نحو المخارج في حالات الخطر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "لا يستخدم هذا السهم لأي أغراض محاسبية أو ضريبية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "هو رمز روحي بحت يساعد في تحديد الاتجاه الصحيح للصلاة فقط.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "سهم"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 8,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4360,
+  "tokens_out": 1686
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "فأول أي وجه فاستقبلوا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "القبلة",
+   "hits": 2
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "وقد جاء في القرآن الكريم أن لله المشرق والمغرب، وأن وجه الله حيثما تولّوا، مما يدل على أهمية التوجه الروحي ولكن مع سعة في الفهم والقبول.",
+   "why": "keywords_missing"
+  }
+ ],
+ "seconds": 32.7
+}

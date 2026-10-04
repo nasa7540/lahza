@@ -1,0 +1,309 @@
+{
+ "topic_id": "ramadan-hours",
+ "topic": "تغيّر ساعات الدوام في رمضان",
+ "expected_when": "hijri 9/1-9/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:30",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 185
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   963
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "ramadan-work-hours",
+  "level": "B",
+  "when": "hijri 1/1-1/30",
+  "title": "تغيّر ساعات الدوام في رمضان",
+  "teaser": "لماذا تتغير مواعيد العمل فجأة كل عام؟",
+  "scene": "دخلت المكتب الساعة العاشرة صباحًا، ولاحظت أن الممرات هادئة نسبيًا. بعد قليل، جاء المدير وأعلن أن دوام اليوم سينتهي عند الظهر بدلًا من الرابعة، مع تعويض الساعات الناقصة لاحقًا. نظر زملاؤك المسلمون إلى بعضهم البعض بارتياح واضح. ما السبب الحقيقي وراء هذا التغيير المفاجئ في الجدول؟",
+  "character_names": [
+   "المدير"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "تهرب من العمل",
+    "reveal_headline": "ليس كسلًا بل عبادة",
+    "reveal_body": "الصيام يتطلب امتناعًا عن الطعام والشراب طوال النهار، مما قد يؤثر على مستوى الطاقة والتركيز لدى البعض. تغيير الساعات هو تكيف عملي لظروف العبادة وليس تهربًا."
+   },
+   {
+    "id": "opt2",
+    "label": "إجازة سنوية مدفوعة",
+    "reveal_headline": "تعديل نظامي وليس إجازة",
+    "reveal_body": "هذا ليس إجازة شخصية أو سنوية، بل تعديل مؤقت في ساعات العمل الرسمية خلال شهر محدد. الهدف هو موازنة بين متطلبات العمل ومتطلبات الصيام."
+   },
+   {
+    "id": "opt3",
+    "label": "محاكاة لأعياد الميلاد",
+    "reveal_headline": "عادة دينية مستقلة",
+    "reveal_body": "رمضان شهر صيام وإيمان خاص بالإسلام، ولا علاقة له بأعياد الأديان الأخرى. التغير في الدوام يعكس احترامًا لهذا الشهر الفضيل وفق تقويم هجري خاص."
+   },
+   {
+    "id": "opt4",
+    "label": "ضيق من الإدارة",
+    "reveal_headline": "سياسة مؤسسية مدروسة",
+    "reveal_body": "القرار صادر من الإدارة لتسهيل حياة الموظفين المتصمين وتقليل الإرهاق. إنه إجراء تنظيمي يدعم بيئة عمل شاملة ومحترمة للثقافات المختلفة."
+   }
+  ],
+  "explanation": "شهر رمضان هو الشهر التاسع من التقويم الهجري، ويتميز بصيام المسلمين من الفجر حتى غروب الشمس.",
+  "explain_prompt": "اشرح باختصار لماذا يتم تعديل ساعات العمل في رمضان بناءً على المصادر.",
+  "tip": {
+   "headline": "آداب التعامل مع زملائك في رمضان",
+   "lead": "لتكون زميلًا داعمًا ومحترمًا، اتبع هذه النصائح العملية:",
+   "items": [
+    "احترم رغبة الزميل في عدم تناول الطعام أو الشراب أمامه إذا كان ذلك ممكنًا، كتعبير عن الاحترام الشخصي.",
+    "كن مرنًا في المواعيد النهائية للمشاريع أو الاجتماعات الطويلة، حيث قد يكون التركيز أقل قليلاً بسبب الصيام.",
+    "تجنب النقاشات الحادة أو الضوضاء العالية قدر الإمكان، فالشهر شهر سلام وهدوء نفسي."
+   ]
+  },
+  "key_points": [
+   "رمضان هو الشهر التاسع في التقويم الهجري الإسلامي.",
+   "الصيام يعني الامتناع عن الطعام والشراب من الفجر حتى المغرب.",
+   "تعديل ساعات العمل يهدف لتخفيف المشقة ودعم المتصمين."
+  ],
+  "question_variants": [
+   "لماذا ينهي الموظفون يومهم مبكرًا في هذا الشهر؟",
+   "ما سبب تقليل ساعات الدوام الرسمية خلال فترة معينة؟",
+   "هل هناك تغيير في جدول العمل يرتبط بشهر الصيام؟",
+   "لماذا تظهر ارتياحًا أكبر لدى بعض الزملاء عند إعلان انتهاء الدوام مبكرًا؟",
+   "كيف يتعامل النظام مع ظروف الصيام في بيئة العمل؟"
+  ],
+  "when_parsed": {
+   "type": "hijri",
+   "windows": [
+    {
+     "from": {
+      "month": 1,
+      "day": 1
+     },
+     "to": {
+      "month": 1,
+      "day": 30
+     }
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-185",
+   "kind": "quran",
+   "text_ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+   "reference": "2:185",
+   "translations": {
+    "en": {
+     "text": "Ramadān is a month in which the Qur’an was sent down as a guidance for mankind and as clear signs that show the right way and distinguish between right and wrong. So whoever of you witnesses this month, should fast. But if anyone is ill or on a journey, he should make up for those days. Allah wants ease for you and does not want hardship for you, so that you may complete the prescribed number of days, and proclaim the greatness of Allah for having guided you, and so that you may be grateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/185",
+   "verified": false,
+   "content_hash": "61cedfd69ae0917f1a30ee0cba1f09488ab4c72333bc5dd066a3f091d59788dd"
+  },
+  {
+   "id": "term-963",
+   "kind": "term",
+   "text_ar": "شَهْرُ رَمَضانَ: الشَّهْرُ التّاسِعُ مِن أَشْهُرِ السَّنَةِ الـهِجْرِيَّةِ. شَهْرُ رَمَضانَ: هو الشَّهْرُ التّاسِعُ مِن أَشْهُرِ السَّنَةِ الـهِجْرِيَّةِ الذي يَلِي شَهْرَ شَعْبانَ ويسبقُ شهرَ شوالٍ، ويَخْتَصُّ شَهْرُ رَمَضان عَن غَيْرِهِ مِن الشُّهُورِ بِجُمْلَةٍ مِن الأَحْكامِ والفَضائِل مِنْها: نُزولُ القُرآنِ فِيهِ، ووُجوبُ صِيامِهِ، وفِيهِ لَيْلَةُ القَدْرِ، وصَلاةُ التَّراوِيحِ، ومُضاعَفَةُ الأُجورِ فِيهِ.",
+   "reference": "شَهْرُ رَمَضانَ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/963",
+   "verified": false,
+   "content_hash": "d17baee361e700884ae1019b1fb7d063a97338d0379b3b4839181f6bb3459456"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "شهر رمضان هو الشهر التاسع من التقويم الهجري، ويتميز بصيام المسلمين من الفجر حتى غروب الشمس.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "الشريعة الإسلامية تهدف إلى اليسر وعدم المشقة، لذا فإن تعديل ساعات العمل يُعد وسيلة عملية لتخفيف العبء الجسدي والنفسي على الموظفين أثناء أداء هذه العبادة.",
+   "label": "unsupported",
+   "source_id": "quran-2-185",
+   "quote": "يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.478,
+   "keyword_share": 0.08,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "الصيام يتطلب امتناعًا عن الطعام والشراب طوال النهار، مما قد يؤثر على مستوى الطاقة والتركيز لدى البعض.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "تغيير الساعات هو تكيف عملي لظروف العبادة وليس تهربًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "هذا ليس إجازة شخصية أو سنوية، بل تعديل مؤقت في ساعات العمل الرسمية خلال شهر محدد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "الهدف هو موازنة بين متطلبات العمل ومتطلبات الصيام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "رمضان شهر صيام وإيمان خاص بالإسلام، ولا علاقة له بأعياد الأديان الأخرى.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "التغير في الدوام يعكس احترامًا لهذا الشهر الفضيل وفق تقويم هجري خاص.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "القرار صادر من الإدارة لتسهيل حياة الموظفين المتصمين وتقليل الإرهاق.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "إنه إجراء تنظيمي يدعم بيئة عمل شاملة ومحترمة للثقافات المختلفة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "ساعات"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 7,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4840,
+  "tokens_out": 1568
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "رمضان صيام ليال معدودات",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "رمضان",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "الشريعة الإسلامية تهدف إلى اليسر وعدم المشقة، لذا فإن تعديل ساعات العمل يُعد وسيلة عملية لتخفيف العبء الجسدي والنفسي على الموظفين أثناء أداء هذه العبادة.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 35.0
+}

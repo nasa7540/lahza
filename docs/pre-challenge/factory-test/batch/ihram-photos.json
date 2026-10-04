@@ -1,0 +1,307 @@
+{
+ "topic_id": "ihram-photos",
+ "topic": "صور زميل بلباس أبيض في مكة",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 48,
+    "ayah": 24
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   10671
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "mecca-white-attire",
+  "level": "B",
+  "when": "always",
+  "title": "الزي الأبيض في مكة المكرمة",
+  "teaser": "ما دلالة اللباس الأبيض الذي تراه على زملائك أثناء تنقلهم داخل مكة؟",
+  "scene": "أنت تتنقل بين المباني الإدارية في وسط مدينة مكة، وتلاحظ أن العديد من الزملاء يرتدون ثيابًا بيضاء بسيطة وموحدة اللون، تختلف عن ملابس العمل المعتادة. يقترب منك أحد الزملاء ويبتسم، فتتساءل في نفسك: لماذا هذا الزي المحدد بالذات هنا؟",
+  "character_names": [
+   "الزميل"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "زي رسمي للموظفين الحكوميين",
+    "reveal_headline": "ليس زيًا إداريًا أو حكوميًا",
+    "reveal_body": "هذا اللباس ليس له علاقة بالمؤسسة التي يعمل بها الشخص أو رتبته الوظيفية. إنه لباس خاص بحالة روحانية وجسدية محددة تتعلق بزيارة الأماكن المقدسة، وليس بروتوكول عمل."
+   },
+   {
+    "id": "opt2",
+    "label": "رداء للراحة والاسترخاء في الحر",
+    "reveal_headline": "ليست مجرد راحة جسدية",
+    "reveal_body": "رغم أن القماش خفيف، إلا أن الهدف الأساسي ليس التبريد أو الراحة الشخصية فقط. هناك بعد رمزي وديني لهذا الاختيار يهدف إلى محو الفروقات الاجتماعية والمظهرية بين الناس."
+   },
+   {
+    "id": "opt3",
+    "label": "إشارة إلى أنهم في فترة إجازة رسمية",
+    "reveal_headline": "لا علاقة له بالإجازات الأسبوعية",
+    "reveal_body": "ارتداء هذا الزي لا يعني أن الموظف خارج دوامه الرسمي أو أنه في عطلة نهاية أسبوع. يمكن للشخص ارتداؤه وهو يؤدي مهامه اليومية إذا كان مقصده مكة لأغراض دينية أو زيارات خاصة، بغض النظر عن جدول عمله."
+   },
+   {
+    "id": "opt4",
+    "label": "ملابس وقائية ضد الملوثات البيئية",
+    "reveal_headline": "ليس غرضًا صحيًا أو وقائيًا",
+    "reveal_body": "الزي الأبيض هنا لا يُرتدى كقناع أو واقي من الغبار أو الظروف الجوية الصعبة."
+   }
+  ],
+  "explanation": "يُعرف هذا الزي باسم 'الإحرام'، وهو لباس خاص يؤدى به المناسك الدينية في مكة والمشاعر المقدسة. يتكون من قطعتين من القماش غير المخيط، ويرمز إلى المساواة التامة أمام الله، حيث لا فرق بين غني وفقير أو مسؤول وعامل. كما يمثل حالة من التركيز الروحي والانقطاع عن متع الحياة العادية مؤقتًا.",
+  "explain_prompt": "اشرح مفهوم الإحرام ورمزيته في الإسلام بناءً على المصادر.",
+  "tip": {
+   "headline": "آداب التعامل مع الزملاء في مكة",
+   "lead": "لتعزيز بيئة عمل محترمة ومتفهمة، اتبع هذه النصائح عند ملاحظة تغيير في مظهر الزملاء:",
+   "items": [
+    "احترم الخصوصية الدينية: تجنب الاستفسار المباشر أو النقد حول تغيير زي الزميل ما لم يكن ذلك ضروريًا للعمل، واعتبره اختيارًا شخصيًا مقدسًا.",
+    "كن مرئيًا وداعمًا: إذا لاحظت أن زميلًا يرتدي الإحرام، يمكنك تحيته بلطف دون التعليق على مظهره، مما يعزز الاندماج والتقبل المتبادل.",
+    "فهم السياق العام: تذكر أن وجود هذا الزي في مكة أمر طبيعي وشائع، ولا يؤثر بالضرورة على جودة العمل أو الالتزام المهني للزميل."
+   ]
+  },
+  "key_points": [
+   "الزي الأبيض البسيط (الإحرام) يرتبط بحالة روحانية محددة وليس بالحالة الاجتماعية أو المهنية.",
+   "يهدف هذا اللباس إلى تحقيق المساواة وإزالة الفروقات الطبقية والمادية بين الناس.",
+   "ارتداء هذا الزي قد يكون مرتبطًا بممارسة دينية في مكة ولا يعني بالضرورة انتهاء الدوام الرسمي."
+  ],
+  "question_variants": [
+   "لماذا يرتدي بعض الموظفين ملابس بيضاء بسيطة في مقر العمل بمدينة مكة؟",
+   "ما السبب وراء اختلاف زي بعض الزملاء عن الملابس الرسمية المعتادة؟",
+   "هل هناك دلالة خاصة للباس الأبيض الذي أراه على زملائي أثناء التنقل في المدينة؟",
+   "لماذا يبدو أن هناك نوعًا معينًا من الملابس شائعًا بين العاملين في هذا الموقع؟",
+   "كيف أفهم التغيير في مظهر بعض الزملاء الذين يرتدون ثيابًا بيضاء موحدة؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-48-24",
+   "kind": "quran",
+   "text_ar": "وَهُوَ ٱلَّذِي كَفَّ أَيۡدِيَهُمۡ عَنكُمۡ وَأَيۡدِيَكُمۡ عَنۡهُم بِبَطۡنِ مَكَّةَ مِنۢ بَعۡدِ أَنۡ أَظۡفَرَكُمۡ عَلَيۡهِمۡۚ وَكَانَ ٱللَّهُ بِمَا تَعۡمَلُونَ بَصِيرًا",
+   "reference": "48:24",
+   "translations": {
+    "en": {
+     "text": "It is He Who restrained their hands from you and your hands from them near Makkah, after giving you the upper hand over them. And Allah is All-Seeing of what you do.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/48/24",
+   "verified": false,
+   "content_hash": "3f306d7ccb00b99d53552a3c78b62cb8b0caa5e48947aea7404accdbbafe692c"
+  },
+  {
+   "id": "term-10671",
+   "kind": "term",
+   "text_ar": "حجاب: وردت النصوص الشرعية بأن لله عز وجل حجابا وحجبا منفصلة عن العبد يكشفها إذا شاء فيتجلى، وإذا شاء لم يكشفها احتجب عن خلقه بقدرته وسلطانه، وحجابه النور لو كشفه لأحرق نور الرب وجلاؤه كل ما أدركه بصره، وقد احتجب سبحانه عن أعين الناظرين في الدنيا رحمة لهم؛ لأنه لو تجلى في الدنيا لهذه الأعين المخلوقة الفانية لصارت كجبل موسى عليه السلام دكا، وما احتملت النظر إلى الله تعالى؛ لأنها أبصار خلقت للفناء، لا تحتمل نور البقاء.\nوأما في الآخرة فالأحاديث في رؤية المؤمنين لربهم بلغت مبلغ التواتر عن رسول الله صلى الله عليه وسلم، وتلقاها أتباعه بالقبول والتسليم، وكلهم يرجو ربه ويسأله أن يكون ممن يراه في جنات عدن يوم يلقاه. النور الذي يمنع من رؤية الله سبحانه وتعالى.",
+   "reference": "حجاب",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/10671",
+   "verified": false,
+   "content_hash": "10b95ccdad743dcb0358da2f83ac3c78eafd868fe664b392c2b35223c40d14ca"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يُعرف هذا الزي باسم 'الإحرام'، وهو لباس خاص يؤدى به المناسك الدينية في مكة والمشاعر المقدسة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يتكون من قطعتين من القماش غير المخيط، ويرمز إلى المساواة التامة أمام الله، حيث لا فرق بين غني وفقير أو مسؤول وعامل.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "كما يمثل حالة من التركيز الروحي والانقطاع عن متع الحياة العادية مؤقتًا.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا اللباس ليس له علاقة بالمؤسسة التي يعمل بها الشخص أو رتبته الوظيفية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "إنه لباس خاص بحالة روحانية وجسدية محددة تتعلق بزيارة الأماكن المقدسة، وليس بروتوكول عمل.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "رغم أن القماش خفيف، إلا أن الهدف الأساسي ليس التبريد أو الراحة الشخصية فقط.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "هناك بعد رمزي وديني لهذا الاختيار يهدف إلى محو الفروقات الاجتماعية والمظهرية بين الناس.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "ارتداء هذا الزي لا يعني أن الموظف خارج دوامه الرسمي أو أنه في عطلة نهاية أسبوع.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "يمكن للشخص ارتداؤه وهو يؤدي مهامه اليومية إذا كان مقصده مكة لأغراض دينية أو زيارات خاصة، بغض النظر عن جدول عمله.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "الزي الأبيض هنا لا يُرتدى كقناع أو واقي من الغبار أو الظروف الجوية الصعبة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "هو تعبير عن حالة من التقوى والنية الخالصة، حيث يمتنع مرتديه عن استخدام بعض المواد مثل العطور المصنوعة من زهور معينة أو خياطة الملابس المقيدة للجسد.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "الزي",
+   "مكه"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 11,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 5,
+  "flagged_general_religious": 5,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4183,
+  "tokens_out": 1732
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "مكة",
+   "hits": 1
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحجاب",
+   "hits": 1
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-1",
+   "text": "هو تعبير عن حالة من التقوى والنية الخالصة، حيث يمتنع مرتديه عن استخدام بعض المواد مثل العطور المصنوعة من زهور معينة أو خياطة الملابس المقيدة للجسد.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 30.1
+}

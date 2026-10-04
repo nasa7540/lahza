@@ -1,0 +1,191 @@
+{
+  "id": "inshallah",
+  "level": "B",
+  "sort": 6,
+  "when": {
+    "type": "always"
+  },
+  "locales": {
+    "en": {
+      "title": "Inshallah",
+      "teaser": "Your manager said \"Inshallah\". Is that a yes or a no?",
+      "scene": "You asked your manager Abdullah: \"Will the report be approved before Thursday?\" He smiled and said: \"Inshallah.\" What do you think he meant?",
+      "options": [
+        {
+          "id": "m-no",
+          "label": "A polite no"
+        },
+        {
+          "id": "m-dodge",
+          "label": "A way to avoid committing"
+        },
+        {
+          "id": "m-filler",
+          "label": "A filler word with no meaning"
+        },
+        {
+          "id": "m-superstition",
+          "label": "A superstition for good luck"
+        }
+      ],
+      "reveals": {
+        "m-no": {
+          "picked": "You picked: \"A polite no\"",
+          "headline": "Not a polite \"no\".",
+          "body": "It literally means \"if God wills\". A Muslim says it when speaking about anything in the future, even something they fully intend to do. Abdullah most likely told you: yes, that's my intention."
+        },
+        "m-dodge": {
+          "picked": "You picked: \"A way to avoid committing\"",
+          "headline": "Intention, with humility.",
+          "body": "The phrase holds two things together: I intend to do it, and I acknowledge the future isn't entirely in my hands. It's true that some people occasionally use it without a clear commitment — but that isn't what it means."
+        },
+        "m-filler": {
+          "picked": "You picked: \"A filler word with no meaning\"",
+          "headline": "Short, but meaningful.",
+          "body": "You hear it often because people talk about the future often. Each time it carries the same meaning: the plans are ours, their fulfilment is in God's hands."
+        },
+        "m-superstition": {
+          "picked": "You picked: \"A superstition for good luck\"",
+          "headline": "Not a lucky charm.",
+          "body": "A Muslim doesn't say it to bring luck or ward off bad luck. It expresses the belief that what happens in the future happens by God's will."
+        }
+      },
+      "explain_prompt": "Explain it to a colleague — in one sentence.",
+      "tip": {
+        "headline": "Take it as \"yes, I intend to\".",
+        "lead": "And if you need a firm date, ask for one kindly.",
+        "items": [
+          "Need a specific date? Ask: \"Can we confirm Wednesday?\"",
+          "You can say it too — your colleagues will appreciate it.",
+          "Don't joke about it as a way of stalling; it has religious meaning for your colleagues."
+        ]
+      }
+    },
+    "ar": {
+      "title": "إن شاء الله",
+      "teaser": "مديرك قال «إن شاء الله». يعني إيه أو لا؟",
+      "scene": "سألت مديرك عبدالله: «التقرير بيعتمد قبل الخميس؟». ابتسم وقال: «إن شاء الله». وش قصده برأيك؟",
+      "options": [
+        {
+          "id": "m-no",
+          "label": "رفض مهذب"
+        },
+        {
+          "id": "m-dodge",
+          "label": "تهرّب من الالتزام"
+        },
+        {
+          "id": "m-filler",
+          "label": "كلمة حشو بلا معنى"
+        },
+        {
+          "id": "m-superstition",
+          "label": "خرافة لجلب الحظ"
+        }
+      ],
+      "reveals": {
+        "m-no": {
+          "picked": "اخترت: «رفض مهذب»",
+          "headline": "ليست «لا» مهذبة.",
+          "body": "معناها الحرفي «إذا أراد الله». يقولها المسلم عند الحديث عن أي شيء في المستقبل، حتى لو كان عازمًا عليه تمامًا. عبدالله قال لك في الغالب: نعم، وهذا ما أنويه."
+        },
+        "m-dodge": {
+          "picked": "اخترت: «تهرّب من الالتزام»",
+          "headline": "نيّة، مع تواضع.",
+          "body": "العبارة تجمع أمرين: أنوي أن أفعل، وأعترف أن المستقبل ليس كله بيدي. صحيح أن بعض الناس يستخدمها أحيانًا بلا التزام واضح، لكن هذا ليس معناها."
+        },
+        "m-filler": {
+          "picked": "اخترت: «كلمة حشو بلا معنى»",
+          "headline": "قصيرة، ولها معنى.",
+          "body": "تسمعها كثيرًا لأن الحديث عن المستقبل كثير. وفي كل مرة تحمل المعنى نفسه: الخطط بأيدينا، وتمامها بيد الله."
+        },
+        "m-superstition": {
+          "picked": "اخترت: «خرافة لجلب الحظ»",
+          "headline": "ليست تعويذة حظ.",
+          "body": "لا يقولها المسلم ليجلب الحظ أو يدفع النحس. هي تعبير عن إيمانه بأن ما يحدث في المستقبل يكون بمشيئة الله."
+        }
+      },
+      "explain_prompt": "اشرحها لزميل بجملة واحدة.",
+      "tip": {
+        "headline": "خذها على إنها «نعم، ناوي».",
+        "lead": "ولو تحتاج موعد مؤكد، اسأل عنه بلطف.",
+        "items": [
+          "تحتاج تاريخ محدد؟ اسأل: «نقدر نثبّت يوم الأربعاء؟».",
+          "تقدر تقولها أنت بعد، وزملاؤك بيقدّرونها.",
+          "لا تمزح بتقليدها على إنها تأجيل، فلها معنى ديني عند زملائك."
+        ]
+      }
+    }
+  },
+  "card_id": "card-inshallah-1",
+  "card": {
+    "id": "card-inshallah-1",
+    "journey_id": "inshallah",
+    "source_ids": [
+      "quran-18-23",
+      "quran-18-24"
+    ],
+    "explanation": {
+      "en": "The two verses direct a person not to say of anything \"I will do it tomorrow\" without tying it to God's will. That is where the phrase \"Inshallah\" comes from — the one you hear with every plan and appointment.",
+      "ar": "توجّه الآيتان ألّا يقول الإنسان عن شيء «سأفعله غدًا» إلا ويربطه بمشيئة الله. ومن هنا جاءت عبارة «إن شاء الله» التي تسمعها مع كل خطة أو موعد."
+    },
+    "generated_by": "claude-draft",
+    "reviewed": false,
+    "reviewed_by": null,
+    "key_points": [
+      {
+        "id": "kp1",
+        "en": "\"Inshallah\" means \"if God wills\".",
+        "ar": "«إن شاء الله» معناها «إذا أراد الله»."
+      },
+      {
+        "id": "kp2",
+        "en": "Muslims say it when speaking about anything in the future, acknowledging that the future is in God's hands.",
+        "ar": "يقولها المسلم عند الحديث عن أي أمر في المستقبل، إقرارًا بأن المستقبل بيد الله."
+      },
+      {
+        "id": "kp3",
+        "en": "It is not a refusal; it expresses a sincere intention, and you can ask for details if you need them.",
+        "ar": "ليست رفضًا، بل تعبّر عن نيّة صادقة، وتقدر تسأل عن التفاصيل لو احتجت."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-no",
+        "en": "A polite no",
+        "ar": "رفض مهذب"
+      },
+      {
+        "id": "m-dodge",
+        "en": "A way to avoid committing",
+        "ar": "تهرّب من الالتزام"
+      },
+      {
+        "id": "m-filler",
+        "en": "A filler word with no meaning",
+        "ar": "كلمة حشو بلا معنى"
+      },
+      {
+        "id": "m-superstition",
+        "en": "A superstition for good luck",
+        "ar": "خرافة لجلب الحظ"
+      }
+    ],
+    "question_variants": {
+      "en": [
+        "My manager said inshallah — does that mean no?",
+        "What does inshallah mean?",
+        "Why do my colleagues say inshallah about everything?",
+        "How do I know a deadline is confirmed when people say inshallah?",
+        "Is it okay for me to say inshallah if I'm not Muslim?"
+      ],
+      "ar": [
+        "مديري قال إن شاء الله، يعني لا؟",
+        "وش معنى إن شاء الله؟",
+        "ليش زملائي يقولون إن شاء الله على كل شي؟",
+        "كيف أعرف إذا الموعد مؤكد لما يقولون إن شاء الله؟",
+        "هل عادي أقول إن شاء الله وأنا مو مسلم؟"
+      ]
+    }
+  }
+}

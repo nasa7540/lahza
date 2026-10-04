@@ -1,0 +1,344 @@
+{
+ "topic_id": "bismillah-eating",
+ "topic": "زميل يقول بسم الله قبل الأكل",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:32",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "disputed",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 6,
+    "ayah": 118
+   }
+  ],
+  "hadith_ids": [
+   65997
+  ],
+  "term_ids": [],
+  "steps": 3
+ },
+ "journey": {
+  "id": "bismillah-before-meal",
+  "level": "B",
+  "when": "always",
+  "title": "لماذا يقول زميلي «بسم الله» قبل الأكل؟",
+  "teaser": "في مكتبك، لاحظت أن زملاءك يرددون عبارة قصيرة قبل البدء في وجبتهم. هل هي مجرد عادة ثقافية أم لها معنى أعمق؟",
+  "scene": "أثناء استراحة الغداء، جلست مع فريق العمل في غرفة الاستراحة. قبل أن يرفعوا الشوكات أو يبدأوا بالأكل، قال زميلك سعود بصوت مسموع: «بسم الله». ثم بدأ الجميع يأكلون بهدوء وتركيز. نظرت إليهم بفضول وقلت لهم: «ما قصدهم بقولهم هذه الكلمة بالتحديد قبل الأكل؟».",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "طقس اجتماعي للتعبير عن الامتنان للطعام فقط",
+    "reveal_headline": "ليس مجرد تعبير شكر اجتماعي",
+    "reveal_body": "رغم أن الشكر جزء من المعنى، إلا أن العبارة ليست مجرد礼貌 (آداب) اجتماعية عابرة. إنها ذكر لاسم الله كجزء من شعيرة دينية محددة، وليست مجرد تعبير عن الامتنان الإنساني العام."
+   },
+   {
+    "id": "opt-2",
+    "label": "عادة قديمة لجلب الحظ وتجنب سوء الحظ أثناء الأكل",
+    "reveal_headline": "ليست سحرًا أو جلب حظ",
+    "reveal_body": "العبارة لا علاقة لها بالسحر أو الخرافات أو جلب الحظ. هي ذكر لله تعالى امتثالاً لتوجيه شرعي واضح، بغرض تقديس الفعل وتذكير النفس بأن النعمة من الله، وليس لجلب البركة بطريقة خرافية."
+   },
+   {
+    "id": "opt-3",
+    "label": "إشارة ضمنية للآخرين بعدم مشاركة الطعام معهم",
+    "reveal_headline": "ليست إشارة للعزلة أو المنع",
+    "reveal_body": "قولها لا يعني منع الآخرين من الأكل أو الإشارة إلى الخصوصية. على العكس، الإسلام يشجع على مشاركة الطعام والبركة. الذكر هنا هو تهيئة للنفس الروحية قبل تناول المأكل، وليس حاجزاً بين الزملاء."
+   },
+   {
+    "id": "opt-4",
+    "label": "اختيار شخصي للمسلمين المتشددين فقط ولا يعنيه غيرهم",
+    "reveal_headline": "ليست ممارسة متشددة أو اختيارية بحتة",
+    "reveal_body": "هذه سنة مؤكدة يتبعها معظم المسلمين بمختلف مذاهبهم وطباعهم، وليست علامة على التشدد."
+   }
+  ],
+  "explanation": "وإذا نسي الشخص ذلك في البداية، يمكنه التعويض بقوله: «بسم الله أوله وآخره».",
+  "explain_prompt": "اشرح المفهوم باستخدام المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب التعامل مع زملائك أثناء أذكار الطعام",
+   "lead": "لتحافظ على بيئة عمل محترمة ومتفهمة، اتبع هذه النصائح العملية:",
+   "items": [
+    "لا تتدخل أو تسخر من قول الزميل «بسم الله»، بل اعتبره جزءاً من هويته الشخصية وعمله.",
+    "إذا كنت غير مسلم، يمكنك ببساطة الانتظار حتى يبدأ الأكل، أو الانضمام إليهم بصمت إذا رغبت، دون الحاجة لمحاكاة اللفظ.",
+    "احترم خصوصيتهم الدينية في مكان العمل، وتجنب طرح أسئلة حادة حول «لماذا» تفعل ذلك بشكل مباشر أمام الجميع، بل اسأل بلطف إذا سمحت الفرصة."
+   ]
+  },
+  "key_points": [
+   "قول «بسم الله» قبل الأكل هو امتثال لأمر من النبي محمد صلى الله عليه وسلم، وليس مجرد عادة ثقافية.",
+   "الهدف من الذكر هو تذكير النفس بأن النعمة من الله، وتحويل فعل الأكل إلى عبادة وذكر.",
+   "إذا نسي المسلم الذكر في البداية، يمكنه تعويضه بقوله: «بسم الله أوله وآخره»."
+  ],
+  "question_variants": [
+   "لماذا يذكر بعض الموظفين اسم الله قبل بدء وجبتهم؟",
+   "ما الدافع وراء ترديد عبارة معينة قبل الأكل في بيئة العمل؟",
+   "هل هناك سبب ديني لقول موظفين «بسم الله» قبل تناول الطعام؟",
+   "كيف أفهم رد فعل زملائي عند قولهم كلمة قبل البدء بالأكل؟",
+   "ما الفرق بين العادة الاجتماعية والذكر الديني قبل الطعام؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-6-118",
+   "kind": "quran",
+   "text_ar": "فَكُلُواْ مِمَّا ذُكِرَ ٱسۡمُ ٱللَّهِ عَلَيۡهِ إِن كُنتُم بِـَٔايَٰتِهِۦ مُؤۡمِنِينَ",
+   "reference": "6:118",
+   "translations": {
+    "en": {
+     "text": "So eat of that [meat] over which the name of Allah is mentioned if you [truly] believe in his verses.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/6/118",
+   "verified": false,
+   "content_hash": "1f37301a8249f2412dc865c43e0c3a847ba5f814fb5efd7c2b852c6533278e52"
+  },
+  {
+   "id": "hadith-65997",
+   "kind": "hadith",
+   "text_ar": "عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا أَنَّ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: «إِذَا أَكَلَ أَحَدُكُمْ فَلْيَذْكُرِ اسْمَ اللَّهِ، فَإِنْ نَسِيَ أَنْ يَذْكُرَ اسْمَ اللَّهِ فِي أَوَّلِهِ فَلْيَقُلْ: بِسْمِ اللَّهِ أَوَّلَهُ وَآخِرَهُ».",
+   "reference": "رواه أبو داود والترمذي والنسائي في الكبرى وابن ماجه وأحمد",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65997",
+   "verified": false,
+   "content_hash": "51e65ad1e087ae84cf487995f60cb2825d885fc50a8cf0ffa2b76127f24c7dea"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "قال رسول الله صلى الله عليه وسلم: «إذا أكل أحدكم فليذكر اسم الله»، وهو توجيه مباشر لتكريس فعل الأكل بالذكر الإلهي.",
+   "label": "unsupported",
+   "source_id": "hadith-65997",
+   "quote": "إِذَا أَكَلَ أَحَدُكُمْ فَلْيَذْكُرِ اسْمَ اللَّهِ",
+   "reason": "validator:قال رسول الله",
+   "quote_similarity": 0.6,
+   "keyword_share": 0.6,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وإذا نسي الشخص ذلك في البداية، يمكنه التعويض بقوله: «بسم الله أوله وآخره».",
+   "label": "supported",
+   "source_id": "hadith-65997",
+   "quote": "فَلْيَقُلْ: بِسْمِ اللَّهِ أَوَّلَهُ وَآخِرَهُ",
+   "reason": null,
+   "quote_similarity": 0.653,
+   "keyword_share": 0.45,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "هذا الأمر مستمد من القرآن الكريم الذي يحث المؤمنين على أكل ما ذُكر اسم الله عليه، مما يجعله ركيزة أخلاقية وروحية في حياة المسلم اليومية.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "رغم أن الشكر جزء من المعنى، إلا أن العبارة ليست مجرد礼貌 (آداب) اجتماعية عابرة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "إنها ذكر لاسم الله كجزء من شعيرة دينية محددة، وليست مجرد تعبير عن الامتنان الإنساني العام.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "العبارة لا علاقة لها بالسحر أو الخرافات أو جلب الحظ.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "هي ذكر لله تعالى امتثالاً لتوجيه شرعي واضح، بغرض تقديس الفعل وتذكير النفس بأن النعمة من الله، وليس لجلب البركة بطريقة خرافية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "قولها لا يعني منع الآخرين من الأكل أو الإشارة إلى الخصوصية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "على العكس، الإسلام يشجع على مشاركة الطعام والبركة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-3-2",
+   "where": "reveal:opt-3",
+   "text": "الذكر هنا هو تهيئة للنفس الروحية قبل تناول المأكل، وليس حاجزاً بين الزملاء.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "هذه سنة مؤكدة يتبعها معظم المسلمين بمختلف مذاهبهم وطباعهم، وليست علامة على التشدد.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "هي ممارسة أساسية في الفقه الإسلامي للأكل، وليست رفاهية روحية يختارها البعض دون الآخر.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "اكل",
+   "الله",
+   "بسم",
+   "قبل"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 12,
+  "removed_by_verifier": 3,
+  "supported": 1,
+  "general": 4,
+  "flagged_general_religious": 4,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 1,
+   "verifier_unsupported": 2,
+   "verdict_missing": 0
+  },
+  "tokens_in": 5880,
+  "tokens_out": 1926
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "بسم الله",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "بسم الله عند الأكل",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "بسم الله",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "قال رسول الله صلى الله عليه وسلم: «إذا أكل أحدكم فليذكر اسم الله»، وهو توجيه مباشر لتكريس فعل الأكل بالذكر الإلهي.",
+   "why": "validator:قال رسول الله"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-2",
+   "text": "هذا الأمر مستمد من القرآن الكريم الذي يحث المؤمنين على أكل ما ذُكر اسم الله عليه، مما يجعله ركيزة أخلاقية وروحية في حياة المسلم اليومية.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-1",
+   "text": "هي ممارسة أساسية في الفقه الإسلامي للأكل، وليست رفاهية روحية يختارها البعض دون الآخر.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 36.5
+}

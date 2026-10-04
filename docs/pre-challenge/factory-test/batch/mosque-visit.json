@@ -1,0 +1,388 @@
+{
+ "topic_id": "mosque-visit",
+ "topic": "زيارة مسجد مع زميل وآداب الزيارة",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 7,
+    "ayah": 31
+   },
+   {
+    "surah": 72,
+    "ayah": 18
+   }
+  ],
+  "hadith_ids": [
+   65092
+  ],
+  "term_ids": [
+   8984
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "visit-mosque-etiquette",
+  "level": "B",
+  "when": "always",
+  "title": "زيارة مسجد مع زميل وآداب الزيارة",
+  "teaser": "زميلك المسلم دعاك لزيارة المسجد القريب من المكتب، ولاحظت بعض التصرفات التي قد تثير تساؤلاتك.",
+  "scene": "أثناء استراحة الغداء، دعك زميلك سامي لزيارة المسجد الصغير بجوار المبنى. دخلتما بسلام، فخلع سامي حذاه قبل الدخول، وتوجه نحو السجادة دون أن يتوقف للتحدث مع أحد أو تصوير المكان. انتظرت لحظة حتى أنهى سلامه على الحاضرين بهدوء، ثم التفت إليك وقال: «هل تحب أن أشرح لك شيئًا عن هذا المكان؟». ما الذي تتوقع أن يكون سبب هدوئه وخلعه للحذاء وعدم التصوير؟",
+  "character_names": [
+   "سامي"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "مجرد عادة نظافة شخصية",
+    "reveal_headline": "ليس مجرد نظافة",
+    "reveal_body": "خلع الحذاء ليس قاعدة صحية عامة، بل هو جزء من آداب دخول مكان مخصص للعبادة والذكر. النظافة هنا مرتبطة بالاحترام الروحي للمكان وليس فقط بالنظافة الجسدية."
+   },
+   {
+    "id": "opt2",
+    "label": "خوف من التصوير أو المراقبة",
+    "reveal_headline": "لا علاقة بالمراقبة",
+    "reveal_body": "السبب ليس خوفًا من الكاميرات، بل احترامًا لطبيعة المكان كبيت لله لا يُستخدم للترفيه أو العرض. الهدوء والنزاهة في الحركة تعكس خشية واحترامًا لله وللمصلين الآخرين."
+   },
+   {
+    "id": "opt3",
+    "label": "طريقة لتجنب الزحام والضغط الاجتماعي",
+    "reveal_headline": "ليس تجنبًا اجتماعيًا",
+    "reveal_body": "الهدف الأساسي هو العبادة والذكر، وليس الهروب من الناس."
+   },
+   {
+    "id": "opt4",
+    "label": "إظهار الانتماء الديني بشكل صريح",
+    "reveal_headline": "ليس إعلان انتماء",
+    "reveal_body": "الممارسة ليست لأغراض الهوية الظاهرة، بل هي طاعة لأمر ديني واضح."
+   }
+  ],
+  "explanation": "",
+  "explain_prompt": "اشرح المفهوم الخاطئ بناءً على المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب زيارة المسجد في بيئة العمل",
+   "lead": "إذا دُعيت لزيارة مسجد مع زميل، اتبع هذه النصائح العملية لإظهار الاحترام:",
+   "items": [
+    "ارتدِ ملابس محتشمة ونظيفة، فالقرآن يأمر بأخذ الزينة عند كل مسجد.",
+    "اخلع حذاءك إذا طلب منك ذلك أو رأت أن المكان يتطلب ذلك، فهو علامة احترام شائعة.",
+    "حافظ على الهدوء وتجنب التصوير أو الضوضاء، فالمسجد مكان للعبادة والذكر."
+   ]
+  },
+  "key_points": [
+   "المسجد مكان مخصص للصلاة والذكر، وهو من أفضل بقاع الأرض.",
+   "يجب أخذ الزينة (النظافة واللباس الحسن) عند دخول أي مسجد.",
+   "يوجد أدعية مستحبة للدخول والخروج تعكس الطابع الروحي للمكان."
+  ],
+  "question_variants": [
+   "لماذا يخلع الحذاء عند دخول المسجد؟",
+   "ما الفرق بين سلوكي داخل وخارج المسجد؟",
+   "هل التصوير مسموح فيه دائمًا؟",
+   "كيف أحترم طقوس الصلاة دون مشاركتي فيها؟",
+   "ما معنى 'أخذ الزينة' في سياق المسجد؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-7-31",
+   "kind": "quran",
+   "text_ar": "۞ يَٰبَنِيٓ ءَادَمَ خُذُواْ زِينَتَكُمۡ عِندَ كُلِّ مَسۡجِدٖ وَكُلُواْ وَٱشۡرَبُواْ وَلَا تُسۡرِفُوٓاْۚ إِنَّهُۥ لَا يُحِبُّ ٱلۡمُسۡرِفِينَ",
+   "reference": "7:31",
+   "translations": {
+    "en": {
+     "text": "O children of Adam, dress well for every prayer. Eat and drink, but do not waste, for He does not like the wasteful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/7/31",
+   "verified": false,
+   "content_hash": "2a1a4bd94644b60805fbe6465e8bc349ce449bb86856cb2b3f6a81575f6082b3"
+  },
+  {
+   "id": "quran-72-18",
+   "kind": "quran",
+   "text_ar": "وَأَنَّ ٱلۡمَسَٰجِدَ لِلَّهِ فَلَا تَدۡعُواْ مَعَ ٱللَّهِ أَحَدٗا",
+   "reference": "72:18",
+   "translations": {
+    "en": {
+     "text": "The mosques are for Allah alone, so do not supplicate anyone along with Allah.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/72/18",
+   "verified": false,
+   "content_hash": "46f22942e7ad64f441980cd98cec6fb69af9e27b6ca8d7d77388c29d0ab8ce38"
+  },
+  {
+   "id": "hadith-65092",
+   "kind": "hadith",
+   "text_ar": "عَنْ ‌أَبِي حُمَيْدٍ أَوْ عَنْ ‌أَبِي أُسَيْدٍ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «إِذَا دَخَلَ أَحَدُكُمُ الْمَسْجِدَ فَلْيَقُلِ: اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ، وَإِذَا خَرَجَ فَلْيَقُلِ: اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65092",
+   "verified": false,
+   "content_hash": "3948a3a04c80dc3cb97f166f443e9196361a327fa7e65da3568298c56ede5486"
+  },
+  {
+   "id": "term-8984",
+   "kind": "term",
+   "text_ar": "مَسْجِدٌ: المَكانُ المُخَصَّصُ لِإِقامَةِ الصَّلاةِ فيه على التَّأْبِيدِ. المَسْجِدُ: هو مَكانٌ خُصِّصَ وقْفاً لِأَداءِ الصَّلاةِ فيه على التَّأْبِيدِ والدَّوامِ، ولِلذِّكْرِ والدُّعَاءِ والتَّفَقُّهِ في الدِّينِ والنَّظَرِ في أَحْوالِ الأُمَّةِ، ويُؤَذَّنُ فيه لِلصَّلاةِ، ويُوَجَّهُ نَحْوَ القِبْلَةِ، وحُدودُ المَسْجِدِ هي ما أَحاطَ بِهِ مِن بِناءٍ أو أَخْشابٍ أو قَصَبٍ أو نَحْوِ ذلك.\nوالمَساجِدُ أَفْضَلُ بِقاعِ الأَرْضِ، ولَها مَكانَتُها وفَضْلُها عند اللهِ تعالى، وهناك مَساجِدُ خَصَّها اللهُ تعالى بِصِفاتٍ وفضائِلَ ليست لِغيرها، وهي ثَلاثَةٌ: المَسْجِدُ الحَرامُ بِمَكَّةَ، والمَسْجِدُ النَّبَوِيُّ في المَدِينَةِ النَّبوِيَّة، والمَسْجِدُ الأَقْصَى في القُدْسِ.",
+   "reference": "مَسْجِدٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/8984",
+   "verified": false,
+   "content_hash": "7e7c65db4c81f2e0a15d592a5817130ca148336ea79099736b9f744572b0588b"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "المسجد هو مكان مخصص للصلاة والذكر والدعاء، وهو من أفضل بقاع الأرض عند الله تعالى.",
+   "label": "unsupported",
+   "source_id": "term-8984",
+   "quote": "المَسْجِدُ: هو مَكانٌ خُصِّصَ وقْفاً لِأَداءِ الصَّلاةِ فيه على التَّأْبِيدِ، ولِلذِّكْرِ والدُّعَاءِ... والمَساجِدُ أَفْضَلُ بِقاعِ الأَرْضِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.742,
+   "keyword_share": 0.91,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وقد أمر الله تعالى بني آدم بأخذ زينتكم (أي لباسكم النظيف وحسن مظهركم) عند كل مسجد، مما يدل على أهمية الاحترام والمظهر اللائق.",
+   "label": "unsupported",
+   "source_id": "quran-7-31",
+   "quote": "يَٰبَنِيٓ ءَادَمَ خُذُواْ زِينَتَكُمۡ عِندَ كُلِّ مَسۡجِدٖ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.599,
+   "keyword_share": 0.11,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "كما علمنا النبي صلى الله عليه وسلم أدعية محددة للدخول والخروج، مما يعكس طابعًا روحانيًا خاصًا يختلف عن الأماكن العامة العادية.",
+   "label": "unsupported",
+   "source_id": "hadith-65092",
+   "quote": "«إِذَا دَخَلَ أَحَدُكُمُ الْمَسْجِدَ فَلْيَقُلِ: اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ، وَإِذَا خَرَجَ فَلْيَقُلِ: اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ»",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.533,
+   "keyword_share": 0.17,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "خلع الحذاء ليس قاعدة صحية عامة، بل هو جزء من آداب دخول مكان مخصص للعبادة والذكر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "النظافة هنا مرتبطة بالاحترام الروحي للمكان وليس فقط بالنظافة الجسدية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "السبب ليس خوفًا من الكاميرات، بل احترامًا لطبيعة المكان كبيت لله لا يُستخدم للترفيه أو العرض.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "الهدوء والنزاهة في الحركة تعكس خشية واحترامًا لله وللمصلين الآخرين.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الهدف الأساسي هو العبادة والذكر، وليس الهروب من الناس.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "السلام على الحاضرين هو سنة نبوية تشجع على المحبة والترابط بين المسلمين، وليس ضغطًا اجتماعيًا.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "الممارسة ليست لأغراض الهوية الظاهرة، بل هي طاعة لأمر ديني واضح.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "القرآن يأمر بأخذ الزينة (النظافة واللباس الحسن) عند كل مسجد، مما يجعلها فعل عبادة شخصي ومجتمعي.",
+   "label": "unsupported",
+   "source_id": "quran-7-31",
+   "quote": "خُذُواْ زِينَتَكُمۡ عِندَ كُلِّ مَسۡجِدٖ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.556,
+   "keyword_share": 0.07,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "زياره",
+   "مسجد"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 4,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 11,
+  "removed_by_verifier": 5,
+  "supported": 0,
+  "general": 6,
+  "flagged_general_religious": 0,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 1,
+   "keywords_missing": 2,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 7754,
+  "tokens_out": 1988
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "مسجد آداب زيارة",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "زيارة المسجد آداب",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "مسجد",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "آداب دخول المسجد",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "المسجد هو مكان مخصص للصلاة والذكر والدعاء، وهو من أفضل بقاع الأرض عند الله تعالى.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "وقد أمر الله تعالى بني آدم بأخذ زينتكم (أي لباسكم النظيف وحسن مظهركم) عند كل مسجد، مما يدل على أهمية الاحترام والمظهر اللائق.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-2",
+   "text": "كما علمنا النبي صلى الله عليه وسلم أدعية محددة للدخول والخروج، مما يعكس طابعًا روحانيًا خاصًا يختلف عن الأماكن العامة العادية.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-1",
+   "text": "السلام على الحاضرين هو سنة نبوية تشجع على المحبة والترابط بين المسلمين، وليس ضغطًا اجتماعيًا.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-1",
+   "text": "القرآن يأمر بأخذ الزينة (النظافة واللباس الحسن) عند كل مسجد، مما يجعلها فعل عبادة شخصي ومجتمعي.",
+   "why": "keywords_missing"
+  }
+ ],
+ "seconds": 39.2
+}

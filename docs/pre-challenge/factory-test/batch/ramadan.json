@@ -1,0 +1,311 @@
+{
+ "topic_id": "ramadan",
+ "topic": "زميل صائم في رمضان ويعتذر عن غداء الفريق",
+ "expected_when": "hijri 9/1-9/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:30",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "fatwa",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 185
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [],
+  "steps": 2
+ },
+ "journey": {
+  "id": "ramadan-lunch-101",
+  "level": "B",
+  "when": "weekday mon thu",
+  "title": "غياب زميل عن غداء الفريق في رمضان",
+  "teaser": "في يوم من أيام العمل، لاحظت أن زميلك المعتاد على تناول الغداء مع الفريق قد اعتذر اليوم وفضل الانسحاب مبكرًا أو تأجيله. ما تفسيرك لهذا التغيير المفاجئ في روتينه؟",
+  "scene": "أنت وزملاؤك في مكتبكم تخططون لتناول الغداء الجماعي اليومي الذي اعتدتم عليه. ينادي مديرك: «يا شباب، نروح المطعم الآن؟». ينظر الجميع إليك ثم إلى خالد، زميلك الذي يجلس بجانبك. يبتسم خالد بلطف ويقول: «آسف يا جماعة، اليوم مو مناسب لي، تعالوا نتغدى بكرة إن شاء الله». يبدو عليه الهدوء والابتسامة المعتادة، لكنه يرفض الدعوة بهدوء دون تفاصيل كثيرة. ماذا تعتقد أن وراء هذا الاعتذار؟",
+  "character_names": [
+   "خالد",
+   "مدير"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "يريد وقتًا إضافيًا للراحة",
+    "reveal_headline": "ليس مجرد راحة عادية",
+    "reveal_body": "هذا الاعتذار ليس بسبب التعب أو الرغبة في النوم، بل هو جزء من ممارسة دينية محددة تحدث فقط في شهر معين من السنة. لا علاقة له بمستوى نشاطه الطبيعي."
+   },
+   {
+    "id": "opt-2",
+    "label": "يتبع حمية غذائية جديدة",
+    "reveal_headline": "ليست حمية صحية",
+    "reveal_body": "لا يتبع نظامًا غذائيًا طبيًا أو رياضيًا."
+   },
+   {
+    "id": "opt-3",
+    "label": "يعاني من مشكلة صحية مفاجئة",
+    "reveal_headline": "صحة جيدة وليست مرضًا",
+    "reveal_body": "الصائم يكون في حالة صحية طبيعية تمامًا ولا يعاني من مرض يمنعه من الأكل."
+   },
+   {
+    "id": "opt-4",
+    "label": "غير مهتم بالزملاء أو الاجتماع",
+    "reveal_headline": "احترام وتفاعل إيجابي",
+    "reveal_body": "رفض الغداء لا يعني عدم الاهتمام بالزملاء، بل هو التزام بمبدأ ديني مؤقت. غالبًا ما يعوض خالد عن ذلك بتفاعله الإيجابي في أوقات أخرى، ويشاركهم الحديث بصدر رحب."
+   }
+  ],
+  "explanation": "شهر رمضان هو الشهر الذي نزل فيه القرآن، وهو فرصة للمسلمين للصيام من الفجر حتى المغرب كواجب ديني.",
+  "explain_prompt": "اشرح مفهوم الصيام في رمضان بناءً على الآية المرفقة، مع التركيز على أنه واجب زمني محدد واستثناءات الصحة والسفر.",
+  "tip": {
+   "headline": "كيف تتعامل مع زميل صائم باحتراف؟",
+   "lead": "لتعزيز بيئة عمل داعمة ومحترمة خلال شهر رمضان، اتبع هذه الآداب العملية:",
+   "items": [
+    "لا تشعره بالحرج عند رفضه الغداء؛ يمكنك اقتراح موعد بديل أو الاكتفاء بالتهنئة والتقدير لالتزامه.",
+    "تجنب تناول الطعام أو الشراب أمامه بشكل مكثف إذا كان ذلك ممكنًا، كتعبير عن الاحترام المتبادل، خاصة في الأماكن المشتركة.",
+    "كن مرنًا قليلاً في المواعيد أو الجلسات الطويلة إذا لزم الأمر، مع العلم أن إنتاجيته قد تختلف قليلًا في ساعات النهار الأخيرة."
+   ]
+  },
+  "key_points": [
+   "الصيام في رمضان هو فرض ديني مؤقت يقتصر على ساعات النهار (من الفجر إلى المغرب) فقط.",
+   "الدين يراعي الظروف الإنسانية ويسمح بالإفطار للمريض أو المسافر مع وجوب التعويض لاحقًا.",
+   "الهدف من الصيام هو الروحي والانضباط الذاتي، وليس التجنب الاجتماعي أو الحمية الصحية."
+  ],
+  "question_variants": [
+   "لماذا يمتنع المسلم عن الأكل والشرب أثناء ساعات العمل في رمضان؟",
+   "ما الفرق بين الصيام الديني وبين الامتناع عن الطعام لأسباب صحية؟",
+   "هل يُسمح للمسلم بالصيام إذا كان مريضًا أو مسافرًا؟",
+   "كيف يؤثر الصيام على حياة الموظف المسلم في بيئة العمل؟",
+   "ما هي الاستثناءات الشرعية التي تبيح الإفطار في رمضان؟"
+  ],
+  "when_parsed": {
+   "type": "weekday",
+   "weekdays": [
+    1,
+    4
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-185",
+   "kind": "quran",
+   "text_ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+   "reference": "2:185",
+   "translations": {
+    "en": {
+     "text": "Ramadān is a month in which the Qur’an was sent down as a guidance for mankind and as clear signs that show the right way and distinguish between right and wrong. So whoever of you witnesses this month, should fast. But if anyone is ill or on a journey, he should make up for those days. Allah wants ease for you and does not want hardship for you, so that you may complete the prescribed number of days, and proclaim the greatness of Allah for having guided you, and so that you may be grateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/185",
+   "verified": false,
+   "content_hash": "61cedfd69ae0917f1a30ee0cba1f09488ab4c72333bc5dd066a3f091d59788dd"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "شهر رمضان هو الشهر الذي نزل فيه القرآن، وهو فرصة للمسلمين للصيام من الفجر حتى المغرب كواجب ديني.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "جاء النص القرآني مؤكدًا أن الإسلام يريد اليسر وعدم المشقة، مما يعني أن الصيام فرض على القادرين، مع وجود استثناءات واضحة للمرضى والمسافرين الذين عليهم قضاء الأيام لاحقًا.",
+   "label": "unsupported",
+   "source_id": "quran-2-185",
+   "quote": "يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ... وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.527,
+   "keyword_share": 0.17,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا الاعتذار ليس بسبب التعب أو الرغبة في النوم، بل هو جزء من ممارسة دينية محددة تحدث فقط في شهر معين من السنة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "لا علاقة له بمستوى نشاطه الطبيعي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "الصيام هنا لا يستهدف تخفيف الوزن أو تحسين اللياقة البدنية، بل هو عبادة روحية تهدف إلى التقرب من الله والانضباط الذاتي.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "لا يتبع نظامًا غذائيًا طبيًا أو رياضيًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "الصائم يكون في حالة صحية طبيعية تمامًا ولا يعاني من مرض يمنعه من الأكل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "الدين يسمح بالإفطار للمريض أو المسافر، لكن الصيام نفسه فرض على القادرين الأصحاء.",
+   "label": "unsupported",
+   "source_id": "quran-2-185",
+   "quote": "فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.444,
+   "keyword_share": 0.09,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "رفض الغداء لا يعني عدم الاهتمام بالزملاء، بل هو التزام بمبدأ ديني مؤقت.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "غالبًا ما يعوض خالد عن ذلك بتفاعله الإيجابي في أوقات أخرى، ويشاركهم الحديث بصدر رحب.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "غداء"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 1,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 3,
+  "supported": 0,
+  "general": 6,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4712,
+  "tokens_out": 1909
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "رمضان صيام",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "رمضان صيام",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الصيام",
+   "hits": 0
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "جاء النص القرآني مؤكدًا أن الإسلام يريد اليسر وعدم المشقة، مما يعني أن الصيام فرض على القادرين، مع وجود استثناءات واضحة للمرضى والمسافرين الذين عليهم قضاء الأيام لاحقًا.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-2-0",
+   "text": "الصيام هنا لا يستهدف تخفيف الوزن أو تحسين اللياقة البدنية، بل هو عبادة روحية تهدف إلى التقرب من الله والانضباط الذاتي.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-3-1",
+   "text": "الدين يسمح بالإفطار للمريض أو المسافر، لكن الصيام نفسه فرض على القادرين الأصحاء.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 47.6
+}

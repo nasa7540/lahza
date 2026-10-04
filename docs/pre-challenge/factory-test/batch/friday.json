@@ -1,0 +1,308 @@
+{
+ "topic_id": "friday",
+ "topic": "المكتب يفضى ظهر الجمعة والإجازة الأسبوعية جمعة وسبت",
+ "expected_when": "weekday fri",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:37",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 62,
+    "ayah": 9
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   72475
+  ],
+  "steps": 4
+ },
+ "journey": {
+  "id": "friday-workflow-saudi",
+  "level": "B",
+  "when": "weekday fri",
+  "title": "لماذا يفرغ المكتب ظهر الجمعة؟",
+  "teaser": "ملاحظة سريعة على روتين العمل في نهاية الأسبوع.",
+  "scene": "الساعة 12:30 يوم الجمعة، والمكتب شبه فارغ. زميلك سعود يغلق حاسوبه بهدوء ويبدأ بتجهيز أغراضه للخروج، بينما باقي الموظفين يكملون مهامهم المعتادة. تشعر بالفضول وتريد فهم سبب هذا الانسحاب المبكر دون إخطار رسمي مسبق. ماذا تتوقع أن يكون السبب؟",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "إجازة غير رسمية أو تأخير خروج",
+    "reveal_headline": "ليس إجازة شخصية",
+    "reveal_body": "هذا ليس قرارًا فرديًا من سعود لتأخير المغادرة أو أخذ إجازة غير مدفوعة. النظام هنا يعكس التزامًا جماعيًا بموعد محدد، وليس مرونة فردية في ساعات الدوام."
+   },
+   {
+    "id": "opt-2",
+    "label": "ظروف طارئة أو مرض مفاجئ",
+    "reveal_headline": "ليس ظرفًا استثنائيًا",
+    "reveal_body": "لا يوجد مؤشر على مرض أو أزمة عائلية تدفعه للخروج بهذه السرعة. هذا السلوك منتظم ومتكرر كل أسبوع، مما يعني أنه جزء من الروتين المؤسسي والثقافي الثابت."
+   },
+   {
+    "id": "opt-3",
+    "label": "تجنب الازدحام المروري المتوقعة",
+    "reveal_headline": "ليس سببًا مروريًا بحتًا",
+    "reveal_body": "رغم أن الحركة قد تكون كثيفة، إلا أن الخروج قبل الظهر ليس لتفادي الزحام الذي يبدأ عادة بعد صلاة العصر. الدافع هنا ديني وروحي، وليس لوجستيًا أو مروريًا."
+   },
+   {
+    "id": "opt-4",
+    "label": "ممارسة عبادة جماعية محددة",
+    "reveal_headline": "التزام بصلاة الجمعة",
+    "reveal_body": "يوم الجمعة له مكانة خاصة في الإسلام، ويتطلب المسلمون حضور صلاة الجماعة التي تقام في الظهيرة. لذلك، يُنصح بالعمل على إنهاء المهام مبكرًا أو التوجه للمسجد مباشرة للمشاركة في هذا الموعد الأسبوعي الهام."
+   }
+  ],
+  "explanation": "يوم الجمعة هو آخر أيام الأسبوع ويعتبر خير الأيام عند المسلمين، ويتميز بحكم شرعي خاص وهو وجوب حضور صلاة الجمعة للمسلمين القادرين.",
+  "explain_prompt": "اشرح المفهوم الخاطئ (أنه إجازة أو زحام) ثم اشرح الحقيقة الدينية (صلاة الجمعة كواجب جماعي).",
+  "tip": {
+   "headline": "آداب التعامل مع روتين الجمعة",
+   "lead": "لتسهيل بيئة العمل الاحترامية والتفاعلية:",
+   "items": [
+    "احترم الانسحاب المبكر: لا تفسر خروج الزملاء قبل الظهر على أنه تقصير، بل اعتبره التزامًا دينيًا مشروعًا.",
+    "خطط للوقت الذكي: إذا كان لديك اجتماعات أو مهام عاجلة، حاول إنجازها صباحًا أو تأجيلها لما بعد صلاة العصر.",
+    "كن مرنًا في التواصل: توقع تأخر الردود أو عدم التوفر خلال فترة ما بين الظهر والعصر، واحترم وقت الراحة والعبادة."
+   ]
+  },
+  "key_points": [
+   "يوم الجمعة هو آخر أيام الأسبوع ويعتبر يومًا مميزًا في التقويم الإسلامي.",
+   "صلاة الجمعة عبادة جماعية واجبة تقام في وقت الظهيرة، وتتطلب ترك الأعمال التجارية والمهنية مؤقتًا.",
+   "الخروج المبكر يوم الجمعة هو استعداد لموعد العبادة الجماعية وليس إجازة شخصية أو تجنبًا للعمل."
+  ],
+  "question_variants": [
+   "لماذا يخرج الموظفون مبكرًا يوم الجمعة؟",
+   "ما السبب وراء فراغ المكاتب ظهر يوم الجمعة؟",
+   "هل هناك نظام عمل مختلف يوم الجمعة؟",
+   "لماذا يتوقف العمل أو يقل نشاطه في منتصف يوم الجمعة؟",
+   "كيف يؤثر اليوم الجمعة على جدول الدوام اليومي؟"
+  ],
+  "when_parsed": {
+   "type": "weekday",
+   "weekdays": [
+    5
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-62-9",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِذَا نُودِيَ لِلصَّلَوٰةِ مِن يَوۡمِ ٱلۡجُمُعَةِ فَٱسۡعَوۡاْ إِلَىٰ ذِكۡرِ ٱللَّهِ وَذَرُواْ ٱلۡبَيۡعَۚ ذَٰلِكُمۡ خَيۡرٞ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
+   "reference": "62:9",
+   "translations": {
+    "en": {
+     "text": "O you who believe, when the call for prayer is made on Friday, then hasten to the remembrance of Allah and leave off trading. That is better for you, if only you knew.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/62/9",
+   "verified": false,
+   "content_hash": "33c4b393849b9b1b19ff6974ab540d3da4985e93f5671bd3ced1ef2049c538af"
+  },
+  {
+   "id": "term-72475",
+   "kind": "term",
+   "text_ar": "يوم الجمعة: آخِرُ أَيَّامِ الأُسْبوعِ، يَأْتي بَعْدَ الخَميسِ وَيَلِيهِ السَبْتُ. كَانَ يَوْمُ الْجُمُعَةِ يُسَمَّى قَبْل الإِسْلاَمِ يَوْمَ الْعَرُوبَةِ، و سُمِّيَتِ الْجُمُعَةُ فِي الإْسْلاَمِ وَذَلِكَ لاِجْتِمَاعِهِمْ فِي الْمَسْجِدِ، ويَتَمَيَّزُ يَوْمُ الْجُمُعَةِ عَنْ بَاقِي أَيَّامِ الأُسْبُوعِ بِأَحْكَامٍ شَرْعِيَّةٍ، فهُوَ خَيْرُ أَيَّامِ الأْسْبُوعِ، وَفِيهِ سَاعَةُ إِجَابَةٍ، وَفِيهِ خُلِقَ آدَمُ عَلَيْهِ السَّلاَمُ، وَفِيهِ أُخْرِجَ مِنَ الْجَنَّةِ.",
+   "reference": "يوم الجمعة",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/72475",
+   "verified": false,
+   "content_hash": "0694045107ffc4df97a2157ca3b2b0e2e069f17a1a1048523b266db452a34a89"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يوم الجمعة هو آخر أيام الأسبوع ويعتبر خير الأيام عند المسلمين، ويتميز بحكم شرعي خاص وهو وجوب حضور صلاة الجمعة للمسلمين القادرين.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يستند هذا الأمر إلى توجيه قرآني يأمر believers بالتسارع إلى ذكر الله وترك البيع وقت النداء للصلاة، مما يجعلها عبادة جماعية مركزية تحدد إيقاع الوقت في هذا اليوم تحديدًا.",
+   "label": "unsupported",
+   "source_id": "quran-62-9",
+   "quote": "فَٱسۡعَوۡاْ إِلَىٰ ذِكۡرِ ٱللَّهِ وَذَرُواْ ٱلۡبَيۡعَ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.544,
+   "keyword_share": 0.17,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا ليس قرارًا فرديًا من سعود لتأخير المغادرة أو أخذ إجازة غير مدفوعة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "النظام هنا يعكس التزامًا جماعيًا بموعد محدد، وليس مرونة فردية في ساعات الدوام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "لا يوجد مؤشر على مرض أو أزمة عائلية تدفعه للخروج بهذه السرعة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "هذا السلوك منتظم ومتكرر كل أسبوع، مما يعني أنه جزء من الروتين المؤسسي والثقافي الثابت.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "رغم أن الحركة قد تكون كثيفة، إلا أن الخروج قبل الظهر ليس لتفادي الزحام الذي يبدأ عادة بعد صلاة العصر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "الدافع هنا ديني وروحي، وليس لوجستيًا أو مروريًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "يوم الجمعة له مكانة خاصة في الإسلام، ويتطلب المسلمون حضور صلاة الجماعة التي تقام في الظهيرة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "لذلك، يُنصح بالعمل على إنهاء المهام مبكرًا أو التوجه للمسجد مباشرة للمشاركة في هذا الموعد الأسبوعي الهام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "جمعه",
+   "ماذا",
+   "مكتب"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": false,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 4,
+  "sentences_generated": 10,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 7,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 6717,
+  "tokens_out": 1703
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "يوم الجمعة إجازة راحة",
+   "hits": 2
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "يوم الجمعة إجازة راحة من العمل",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "يوم الجمعة",
+   "hits": 2
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يستند هذا الأمر إلى توجيه قرآني يأمر believers بالتسارع إلى ذكر الله وترك البيع وقت النداء للصلاة، مما يجعلها عبادة جماعية مركزية تحدد إيقاع الوقت في هذا اليوم تحديدًا.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 36.2
+}

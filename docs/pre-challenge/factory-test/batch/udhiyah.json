@@ -1,0 +1,374 @@
+{
+ "topic_id": "udhiyah",
+ "topic": "زميل يتحدث عن ذبح الأضحية وتوزيع لحمها",
+ "expected_when": "hijri 12/10-12/13",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:36",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 22,
+    "ayah": 28
+   },
+   {
+    "surah": 22,
+    "ayah": 36
+   }
+  ],
+  "hadith_ids": [
+   2971
+  ],
+  "term_ids": [
+   4057
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "eid-al-adha-sacrifice-distribution",
+  "level": "B",
+  "when": "hijri Dhu-l-Hijjah/10-Dhu-l-Hijjah/13",
+  "title": "لماذا يوزع زميلي اللحم على الجميع؟",
+  "teaser": "في الأيام القريبة من عيد الأضحى، لاحظت أن زميلك يتحدث عن ذبح أضحية وتوزيع لحمها على الزملاء في المكتب. يبدو الأمر وكأنه طقس اجتماعي أو حتى محاولة لكسب ود الفريق، لكن وراء هذه الممارسة دلالات أعمق.",
+  "scene": "أثناء استراحة القهوة، ذكر زميلك محمد أنه اشترى أضحية لهذا العام وخطط لتوزيع جزء كبير من لحمها على الزملاء في الشركة قبل العيد. سألته بفضول: «هل هذا شرط في العمل عشان نحتفل بالعيد مع بعض؟» ابتسم وقال: «لا، بس أحب أشارك الناس الخير». ما الذي تقصد به حقًا عندما يقول «أشارك الناس الخير» في هذا السياق؟",
+  "character_names": [
+   "محمد"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "طريقة للتعبير عن الولاء للشركة",
+    "reveal_headline": "ليس تعبيرًا عن الولاء المؤسسي",
+    "reveal_body": "المشاركة هنا لا تهدف لخدمة المؤسسة أو تحسين الصورة المهنية أمام الإدارة. الهدف ديني شخصي يرتبط بتقرب الفرد إلى الله، وليس بإرضاء صاحب العمل أو تعزيز الانتماء للشركة."
+   },
+   {
+    "id": "opt-2",
+    "label": "عادة اجتماعية لمجرد توزيع الطعام في المناسبات",
+    "reveal_headline": "ليست مجرد عادة طعام احتفالية",
+    "reveal_body": "على عكس العادات الاجتماعية التي تركز على التجمع والأكل المشترك كطقس ثقافي، فإن هذه الأضحية لها شروط محددة (مثل نوع الحيوان والنية) وترتبط بأيام معينة من الشهر الهجري. هي عبادة ذات أحكام خاصة وليست مجرد مناسبة لتبادل الطعام."
+   },
+   {
+    "id": "opt-3",
+    "label": "وسيلة للضغط الاجتماعي لإظهار التقوى",
+    "reveal_headline": "ليست وسيلة ضغط أو إظهار",
+    "reveal_body": "النية في هذه العبادة هي التقرب إلى الله تعالى والإخلاص في العمل، وليس إظهار التقوى للناس أو فرض القيم على الآخرين."
+   },
+   {
+    "id": "opt-4",
+    "label": "طريقة تقليدية لتقليل تكاليف شراء اللحوم",
+    "reveal_headline": "ليست إجراءً اقتصاديًا فرديًا",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "",
+  "explain_prompt": "اشرح المفهوم بناءً على المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب التعامل مع زملائك في هذه الفترة",
+   "lead": "لتكون محترفًا ومتفاعلًا باحترام مع هذه الممارسة الدينية في بيئة العمل:",
+   "items": [
+    "احترم نية زميلك في المشاركة والتكافل دون الخوض في نقاشات لاهوتية أو جدال حول صحة الممارسة.",
+    "إذا عرض عليك جزءًا من اللحم، يمكنك قبوله كتعبير عن حسن الضيافة والاحترام المتبادل، أو الاعتذار بلطف إذا كان لديك حساسية غذائية أو تفضيلات شخصية أخرى.",
+    "تجنب استخدام مصطلحات قد توحي بأن الأمر مجرد «احتفال» أو «موضة»، واستخدم عبارات محايدة تحترم الطابع الديني للموضوع مثل «عيد سعيد» أو «تقبل الله طاعاتكم»."
+   ]
+  },
+  "key_points": [
+   "الأضحية عبادة تُذبح في أيام محددة من الشهر الهجري (عيد الأضحى وأيام التشريق) بنية التقرب إلى الله.",
+   "تشمل الشعيرة ذكر اسم الله عند الذبح، وأكل جزء من اللحم، وتوزيع الباقي على الفقراء والمحتاجين.",
+   "الهدف الأساسي هو التكافل الاجتماعي وذكر نعم الله، وليس مجرد عادة اجتماعية أو هدفًا ماديًا."
+  ],
+  "question_variants": [
+   "لماذا يقوم بعض الموظفين بتوزيع لحوم الحيوانات في فترة معينة من السنة؟",
+   "ما الدافع وراء مشاركة الزملاء في قطع اللحم خلال أيام العيد؟",
+   "هل هناك سبب ديني وراء توزيع اللحوم في مكان العمل قريبًا من نهاية الشهر الهجري؟",
+   "لماذا يهتم بعض الأشخاص بذبح حيوانات معينة وتوزيع لحمها على الآخرين؟",
+   "ما الفرق بين العشاء العادي وتوزيع اللحوم في المناسبات الدينية الإسلامية؟"
+  ],
+  "when_parsed": null
+ },
+ "sources": [
+  {
+   "id": "quran-22-28",
+   "kind": "quran",
+   "text_ar": "لِّيَشۡهَدُواْ مَنَٰفِعَ لَهُمۡ وَيَذۡكُرُواْ ٱسۡمَ ٱللَّهِ فِيٓ أَيَّامٖ مَّعۡلُومَٰتٍ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلۡأَنۡعَٰمِۖ فَكُلُواْ مِنۡهَا وَأَطۡعِمُواْ ٱلۡبَآئِسَ ٱلۡفَقِيرَ",
+   "reference": "22:28",
+   "translations": {
+    "en": {
+     "text": "so that they may attain benefits, and pronounce Allah’s name during the appointed days over the sacrificial animals that He has provided for them; then eat from it and feed the desperately poor.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/22/28",
+   "verified": false,
+   "content_hash": "7396ad1171a90a3903df96b3adf2fef40e9a385bd8a0f7a7911b63ffcca35796"
+  },
+  {
+   "id": "quran-22-36",
+   "kind": "quran",
+   "text_ar": "وَٱلۡبُدۡنَ جَعَلۡنَٰهَا لَكُم مِّن شَعَٰٓئِرِ ٱللَّهِ لَكُمۡ فِيهَا خَيۡرٞۖ فَٱذۡكُرُواْ ٱسۡمَ ٱللَّهِ عَلَيۡهَا صَوَآفَّۖ فَإِذَا وَجَبَتۡ جُنُوبُهَا فَكُلُواْ مِنۡهَا وَأَطۡعِمُواْ ٱلۡقَانِعَ وَٱلۡمُعۡتَرَّۚ كَذَٰلِكَ سَخَّرۡنَٰهَا لَكُمۡ لَعَلَّكُمۡ تَشۡكُرُونَ",
+   "reference": "22:36",
+   "translations": {
+    "en": {
+     "text": "We have ordained the sacrificial camels [and cattle] among the rituals of Allah, in which there is much good for you. So mention the name of Allah over them when they are lined up, then when they fall down on their sides, eat of them and feed those [poor] who do not beg and those who do. Thus We have made them subservient to you, so that you may be grateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/22/36",
+   "verified": false,
+   "content_hash": "9caa86281eda4b69ffd5de488968b52f379dc47dab819bf1dc22a204988c726a"
+  },
+  {
+   "id": "hadith-2971",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَنَسٍ رَضيَ اللهُ عنهُ قَالَ: ضَحَّى النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بِكَبْشَيْنِ أَمْلَحَيْنِ أَقْرَنَيْنِ، ذَبَحَهُمَا بِيَدِهِ، وَسَمَّى وَكَبَّرَ، وَوَضَعَ رِجْلَهُ عَلَى صِفَاحِهِمَا.",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/2971",
+   "verified": false,
+   "content_hash": "b8b26a56952813f85e4934b30eaf66356963ac021556782abeac9765b7c365a4"
+  },
+  {
+   "id": "term-4057",
+   "kind": "term",
+   "text_ar": "أُضْحِيَّةٌ: اسْمٌ لِما يُذَكَّى مِن النَّعَمِ في أيّامِ عِيدِ النَّحْرِ بِنِيَّةِ التَّقَرُّبِ إلى اللهِ تعالى، على صِفَةٍ مَخْصُوصةٍ. الضَّحِيَّةُ: اسْمٌ لِما يُذَكَّى، أي: يُذْبَحُ، أو يُنْحَرُ مِن النَّعَمِ -وهي: الإِبِلُ والبَقَرُ والغَنَمُ- يَوْمَ عِيدِ الأَضْحى وأيّامَ التَّشْرِيقِ وهي الأيّامُ الثَّلاثَةُ التي تَلِيهِ لا في غَيْرِها، بِنِيَّةِ التَّقَرُّبِ إلى اللهِ تَعالى، لا ما يُذْبَحُ في هذهِ الأيّامِ بِنِيَّةِ بَيْعِهِ، أو أَكْلِهِ، أو إِكْراماً لِضَيْفٍ أو غَيْرِهِ أو في غيرِ هذهِ الأيامِ.",
+   "reference": "أُضْحِيَّةٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/4057",
+   "verified": false,
+   "content_hash": "f62c06c7d6ca407a40b7252dc273bcfb3bdd592344ad413747470a41dee52dba"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الأضحية هي ذبح حيوان من النعَم (إبل، بقر، غنم) في أيام عيد الأضحى وأيام التشريق الثلاثة التالية، بنية التقرب إلى الله تعالى.",
+   "label": "unsupported",
+   "source_id": "term-4057",
+   "quote": "اسْمٌ لِما يُذَكَّى مِن النَّعَمِ في أيّامِ عِيدِ النَّحْرِ بِنِيَّةِ التَّقَرُّبِ إلى اللهِ تعالى",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.527,
+   "keyword_share": 0.83,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وقد شرع الله ذلك ليذكر الناس اسمه على ما رزقهم من أنعام، ويأكلوا منه ويتصدقوا به على الفقراء والمحتاجين، مما يعزز روح التكافل الاجتماعي والامتنان لله.",
+   "label": "unsupported",
+   "source_id": "quran-22-28",
+   "quote": "لِّيَشۡهَدُواْ مَنَٰفِعَ لَهُمۡ وَيَذۡكُرُواْ ٱسۡمَ ٱللَّهِ فِيٓ أَيَّامٖ مَّعۡلُومَٰتٍ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلۡأَنۡعَٰمِۖ فَكُلُواْ مِنۡهَا وَأَطۡعِمُواْ ٱلۡبَآئِسَ ٱلۡفَقِيرَ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.617,
+   "keyword_share": 0.16,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "المشاركة هنا لا تهدف لخدمة المؤسسة أو تحسين الصورة المهنية أمام الإدارة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "الهدف ديني شخصي يرتبط بتقرب الفرد إلى الله، وليس بإرضاء صاحب العمل أو تعزيز الانتماء للشركة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "على عكس العادات الاجتماعية التي تركز على التجمع والأكل المشترك كطقس ثقافي، فإن هذه الأضحية لها شروط محددة (مثل نوع الحيوان والنية) وترتبط بأيام معينة من الشهر الهجري.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "هي عبادة ذات أحكام خاصة وليست مجرد مناسبة لتبادل الطعام.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "النية في هذه العبادة هي التقرب إلى الله تعالى والإخلاص في العمل، وليس إظهار التقوى للناس أو فرض القيم على الآخرين.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "التوزيع يأتي كنتيجة طبيعية للأمر الديني بالمشاركة مع الفقراء والمحتاجين، وليس كأداة للنفوذ الاجتماعي.",
+   "label": "unsupported",
+   "source_id": "quran-22-28",
+   "quote": "وَأَطۡعِمُواْ ٱلۡبَآئِسَ ٱلۡفَقِيرَ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.387,
+   "keyword_share": 0.0,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "الهدف الأساسي ليس توفير التكلفة على الذابح نفسه، بل هو أمر بالتصدق وإطعام الآخرين.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "النص القرآني يحث على أكل البعض منها أيضًا، لكن الجانب الجوهري هو ذكر اسم الله والتوزيع على المحتاجين («البائس الفقير») كركن أساسي من شعيرة العيد.",
+   "label": "unsupported",
+   "source_id": "quran-22-28",
+   "quote": "وَيَذۡكُرُواْ ٱسۡمَ ٱللَّهِ ... فَكُلُواْ مِنۡهَا وَأَطۡعِمُواْ ٱلۡبَآئِسَ ٱلۡفَقِيرَ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.542,
+   "keyword_share": 0.25,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "علي"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": false,
+  "when_matches_expected": false,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 4,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 10,
+  "removed_by_verifier": 5,
+  "supported": 0,
+  "general": 2,
+  "flagged_general_religious": 3,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 2,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 7491,
+  "tokens_out": 2222
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "ذبح الأضحية توزيع اللحم",
+   "hits": 3
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "ذبح الأضحية وتوزيع لحمها",
+   "hits": 5
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الأضحية",
+   "hits": 1
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "فكلوا منها وأطعموا القانع والمعتر",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "الأضحية هي ذبح حيوان من النعَم (إبل، بقر، غنم) في أيام عيد الأضحى وأيام التشريق الثلاثة التالية، بنية التقرب إلى الله تعالى.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "وقد شرع الله ذلك ليذكر الناس اسمه على ما رزقهم من أنعام، ويأكلوا منه ويتصدقوا به على الفقراء والمحتاجين، مما يعزز روح التكافل الاجتماعي والامتنان لله.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-3-1",
+   "text": "التوزيع يأتي كنتيجة طبيعية للأمر الديني بالمشاركة مع الفقراء والمحتاجين، وليس كأداة للنفوذ الاجتماعي.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-0",
+   "text": "الهدف الأساسي ليس توفير التكلفة على الذابح نفسه، بل هو أمر بالتصدق وإطعام الآخرين.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-1",
+   "text": "النص القرآني يحث على أكل البعض منها أيضًا، لكن الجانب الجوهري هو ذكر اسم الله والتوزيع على المحتاجين («البائس الفقير») كركن أساسي من شعيرة العيد.",
+   "why": "quote_not_verbatim"
+  }
+ ],
+ "seconds": 48.7
+}

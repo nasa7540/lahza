@@ -1,0 +1,1152 @@
+[
+ {
+  "source_id": "quran-7-55",
+  "kind": "quran",
+  "source": {
+   "id": "quran-7-55",
+   "kind": "quran",
+   "text_ar": "ٱدۡعُواْ رَبَّكُمۡ تَضَرُّعٗا وَخُفۡيَةًۚ إِنَّهُۥ لَا يُحِبُّ ٱلۡمُعۡتَدِينَ",
+   "reference": "7:55",
+   "translations": {
+    "en": {
+     "text": "Call upon your Lord humbly and privately, for He does not like the transgressors.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/7/55",
+   "verified": false,
+   "content_hash": "ab7d9964457663f20c628ab1a35994fa4d677cef3300e4f9c7675aea06dcadb8"
+  },
+  "correct": "ادعوا ربكم بتضرع وخفية، فالله لا يحب المتجاوزين لحدود الدعاء.",
+  "number": "ادعوا ربكم بتضرع وخفية، فالله لا يحب ثلاثة من المتجاوزين لحدود الدعاء.",
+  "name": "ادعوا ربكم بتضرع وخفية، ففرعون لا يحب المتجاوزين لحدود الدعاء.",
+  "exaggeration": "ادعوا ربكم بتضرع وخفية، فالله لا يحب أبدًا أي متجاوز لحدود الدعاء في أي شيء.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-48-24",
+  "kind": "quran",
+  "source": {
+   "id": "quran-48-24",
+   "kind": "quran",
+   "text_ar": "وَهُوَ ٱلَّذِي كَفَّ أَيۡدِيَهُمۡ عَنكُمۡ وَأَيۡدِيَكُمۡ عَنۡهُم بِبَطۡنِ مَكَّةَ مِنۢ بَعۡدِ أَنۡ أَظۡفَرَكُمۡ عَلَيۡهِمۡۚ وَكَانَ ٱللَّهُ بِمَا تَعۡمَلُونَ بَصِيرًا",
+   "reference": "48:24",
+   "translations": {
+    "en": {
+     "text": "It is He Who restrained their hands from you and your hands from them near Makkah, after giving you the upper hand over them. And Allah is All-Seeing of what you do.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/48/24",
+   "verified": false,
+   "content_hash": "3f306d7ccb00b99d53552a3c78b62cb8b0caa5e48947aea7404accdbbafe692c"
+  },
+  "correct": "الله تعالى منع أيدي الكفار عنكم وأيديكم عنهم في بطن مكة بعد أن نصركم عليهم.",
+  "number": "الله تعالى منع أيدي الكفار عنكم وأيديكم عنهم في ثلاثة أماكن بعد أن نصركم عليهم.",
+  "name": "الله تعالى منع أيدي الكفار عنكم وأيديكم عنهم في بطن المدينة بعد أن نصركم عليهم.",
+  "exaggeration": "الله تعالى منع أيدي الكفار عنكم وأيديكم عنهم في كل مكان بعد أن نصركم عليهم نصراً عظيماً.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-63-9",
+  "kind": "quran",
+  "source": {
+   "id": "quran-63-9",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُلۡهِكُمۡ أَمۡوَٰلُكُمۡ وَلَآ أَوۡلَٰدُكُمۡ عَن ذِكۡرِ ٱللَّهِۚ وَمَن يَفۡعَلۡ ذَٰلِكَ فَأُوْلَٰٓئِكَ هُمُ ٱلۡخَٰسِرُونَ",
+   "reference": "63:9",
+   "translations": {
+    "en": {
+     "text": "O you who believe, do not let your wealth and your children distract you from Allah’s remembrance. For whoever does that, it is they who are the losers.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/63/9",
+   "verified": false,
+   "content_hash": "b1ba551ddbddaca8f1df3d766f869787e1ff96d483954f83e82487b74edf3c5e"
+  },
+  "correct": "يا أيها الذين آمنوا، لا تشغلكم أموالكم ولا أولادكم عن ذكر الله وطاعته، فمن يفعل ذلك فهو من الخاسرين.",
+  "number": "يا أيها الذين آمنوا، لا تشغلكم أموالكم ولا ثلاثة أولاد لكم عن ذكر الله وطاعته، فمن يفعل ذلك فهو من الخاسرين.",
+  "name": "يا أيها الذين آمنوا، لا تشغلكم أموالكم ولا أولادكم عن ذكر محمد وطاعته، فمن يفعل ذلك فهو من الخاسرين.",
+  "exaggeration": "يا أيها الذين آمنوا، لا تشغلكم أموالكم ولا أولادكم عن ذكر الله وطاعته على الإطلاق، فكل من يفعل ذلك فهو من الخاسرين حتما.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-4-106",
+  "kind": "quran",
+  "source": {
+   "id": "quran-4-106",
+   "kind": "quran",
+   "text_ar": "وَٱسۡتَغۡفِرِ ٱللَّهَۖ إِنَّ ٱللَّهَ كَانَ غَفُورٗا رَّحِيمٗا",
+   "reference": "4:106",
+   "translations": {
+    "en": {
+     "text": "And seek forgiveness of Allah, for Allah is All-Forgiving, Most Merciful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/4/106",
+   "verified": false,
+   "content_hash": "2ada0df7e231298251e7801cecef95d3cc7e968172563ef882285f5c12c7d8a2"
+  },
+  "correct": "اطلب المغفرة من الله عز وجل، فإن الله كان غفوراً رحيماً بعباده.",
+  "number": "اطلب المغفرة من ثلاثة آلهة، فإن الله كان غفوراً رحيماً بعباده.",
+  "name": "اطلب المغفرة من محمد، فإن الله كان غفوراً رحيماً بعباده.",
+  "exaggeration": "اطلب المغفرة من الله دائماً، فإن الله كان غفوراً رحيماً بجميع عباده.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-2-238",
+  "kind": "quran",
+  "source": {
+   "id": "quran-2-238",
+   "kind": "quran",
+   "text_ar": "حَٰفِظُواْ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلۡوُسۡطَىٰ وَقُومُواْ لِلَّهِ قَٰنِتِينَ",
+   "reference": "2:238",
+   "translations": {
+    "en": {
+     "text": "Be mindful of the prayers, especially the middle prayer; and stand before Allah in complete devotion.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/238",
+   "verified": false,
+   "content_hash": "2a9c61d756552ee54a64439150f4ead7425e1e04f03dbb44b35295045fa7ca9c"
+  },
+  "correct": "أمر الله تعالى بالمحافظة على الصلوات جميعها، وخاصة الصلاة الوسطى، والوقوف في الصلاة بخضوع وخشوع.",
+  "number": "أمر الله تعالى بالمحافظة على صلوات ثلاث، وخاصة الصلاة الوسطى، والوقوف في الصلاة بخضوع وخشوع.",
+  "name": "أمر الله تعالى بالمحافظة على الصلوات جميعها، وخاصة صلاة الفجر، والوقوف في الصلاة بخضوع وخشوع.",
+  "exaggeration": "أمر الله تعالى بالمحافظة الدائمة على جميع الصلوات، وخاصة الصلاة الوسطى، والوقوف لله بكل خشوع في كل وقت.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-6-162",
+  "kind": "quran",
+  "source": {
+   "id": "quran-6-162",
+   "kind": "quran",
+   "text_ar": "قُلۡ إِنَّ صَلَاتِي وَنُسُكِي وَمَحۡيَايَ وَمَمَاتِي لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+   "reference": "6:162",
+   "translations": {
+    "en": {
+     "text": "Say, “Indeed, my prayer, my sacrifice, my living and my dying are all for Allah, Lord of the worlds.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/6/162",
+   "verified": false,
+   "content_hash": "d25da4926e2d8642ab35f9963ea253d448906b7f5655c94543cc0073c3699721"
+  },
+  "correct": "قل إن صلاتي ونسكي ومحياي ومماتي كلها لله رب العالمين وحده.",
+  "number": "قل إن صلاتي ونسكي ومحياي ومماتي كلها لثلاثة آلهة رب العالمين.",
+  "name": "قل إن صلاتي ونسكي ومحياي ومماتي كلها لموسى رب العالمين.",
+  "exaggeration": "قل إن صلاتي ونسكي ومحياي ومماتي كلها لله وحده وهذا واجب على كل إنسان في كل زمان ومكان.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-2-43",
+  "kind": "quran",
+  "source": {
+   "id": "quran-2-43",
+   "kind": "quran",
+   "text_ar": "وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ وَٱرۡكَعُواْ مَعَ ٱلرَّٰكِعِينَ",
+   "reference": "2:43",
+   "translations": {
+    "en": {
+     "text": "And establish prayer, give zakah, and bow [to Allah] with those who bow.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/43",
+   "verified": false,
+   "content_hash": "d9c0c667528e545480614aec69f4a341795d147e34670fb877a970b81e89840c"
+  },
+  "correct": "أمر الله تعالى بإقامة الصلاة وإيتاء الزكاة والركوع مع الراكعين.",
+  "number": "أمر الله تعالى بإقامة الصلوات الخمس وإيتاء الزكاة والركوع مع الراكعين.",
+  "name": "أمر الله تعالى بإقامة الصلاة وإيتاء الزكاة والركوع مع الساجدين.",
+  "exaggeration": "أمر الله تعالى جميع البشر بإقامة الصلاة وإيتاء الزكاة والركوع مع الراكعين دائمًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-18-24",
+  "kind": "quran",
+  "source": {
+   "id": "quran-18-24",
+   "kind": "quran",
+   "text_ar": "إِلَّآ أَن يَشَآءَ ٱللَّهُۚ وَٱذۡكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلۡ عَسَىٰٓ أَن يَهۡدِيَنِ رَبِّي لِأَقۡرَبَ مِنۡ هَٰذَا رَشَدٗا",
+   "reference": "18:24",
+   "translations": {
+    "en": {
+     "text": "without adding, “if Allah wills.” And remember your Lord if you forget, and say, “My Lord will hopefully guide me to something closer to what is right.”",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/18/24",
+   "verified": false,
+   "content_hash": "e90beb6bd10d8befe435952bd660c91e5fc8bdf9fd39c78ced9e5187ae60f506"
+  },
+  "correct": "اذكر ربك عند النسيان وقل عسى أن يرشدني ربي لما هو أقرب للصواب من هذا الأمر.",
+  "number": "اذكر ربك عند النسيان وقل عسى أن يرشدني ربي لما هو أقرب لثلاثة أمور صواب من هذا الأمر.",
+  "name": "اذكر ربك عند النسيان وقل عسى أن يرشدني موسى لما هو أقرب للصواب من هذا الأمر.",
+  "exaggeration": "اذكر ربك دائمًا عند النسيان وقل عسى أن يرشدني ربي لكل ما هو أقرب للصواب من هذا الأمر.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-2-187",
+  "kind": "quran",
+  "source": {
+   "id": "quran-2-187",
+   "kind": "quran",
+   "text_ar": "أُحِلَّ لَكُمۡ لَيۡلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمۡۚ هُنَّ لِبَاسٞ لَّكُمۡ وَأَنتُمۡ لِبَاسٞ لَّهُنَّۗ عَلِمَ ٱللَّهُ أَنَّكُمۡ كُنتُمۡ تَخۡتَانُونَ أَنفُسَكُمۡ فَتَابَ عَلَيۡكُمۡ وَعَفَا عَنكُمۡۖ فَٱلۡـَٰٔنَ بَٰشِرُوهُنَّ وَٱبۡتَغُواْ مَا كَتَبَ ٱللَّهُ لَكُمۡۚ وَكُلُواْ وَٱشۡرَبُواْ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلۡخَيۡطُ ٱلۡأَبۡيَضُ مِنَ ٱلۡخَيۡطِ ٱلۡأَسۡوَدِ مِنَ ٱلۡفَجۡرِۖ ثُمَّ أَتِمُّواْ ٱلصِّيَامَ إِلَى ٱلَّيۡلِۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمۡ عَٰكِفُونَ فِي ٱلۡمَسَٰجِدِۗ تِلۡكَ حُدُودُ ٱللَّهِ فَلَا تَقۡرَبُوهَاۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمۡ يَتَّقُونَ",
+   "reference": "2:187",
+   "translations": {
+    "en": {
+     "text": "It has been made permissible for you to be intimate with your wives on the nights of the fast. They are a garment for you just as you are a garment for them. Allah knows that you used to deceive yourselves, so He accepted your repentance and pardoned you. So now you may have intimacy with them and seek what Allah has destined for you. And eat and drink until you see the light of dawn distinct from the darkness of night, then complete the fast until nightfall. However, should you be in a devotional retreat in the mosques then do not be intimate with them. These are the limits set by Allah, so do not even come near to them. This is how Allah makes His verses clear to people, so that they may become righteous.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/187",
+   "verified": false,
+   "content_hash": "8d7af207899d5cd38c707574af4846ce57cd938d980beedc8361d6ed52d67564"
+  },
+  "correct": "أحل الله للمسلمين الأكل والشرب والجماع مع نسائهم في ليالي الصيام حتى يتبين الفجر.",
+  "number": "أحل الله للمسلمين الأكل والشرب والجماع مع نسائهم في 3 ليالي الصيام حتى يتبين الفجر.",
+  "name": "أحل الله للمسيحيين الأكل والشرب والجماع مع نسائهم في ليالي الصيام حتى يتبين الفجر.",
+  "exaggeration": "أحل الله للمسلمين دائمًا الأكل والشرب والجماع مع نسائهم في ليالي الصيام حتى يتبين الفجر.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-7-31",
+  "kind": "quran",
+  "source": {
+   "id": "quran-7-31",
+   "kind": "quran",
+   "text_ar": "۞ يَٰبَنِيٓ ءَادَمَ خُذُواْ زِينَتَكُمۡ عِندَ كُلِّ مَسۡجِدٖ وَكُلُواْ وَٱشۡرَبُواْ وَلَا تُسۡرِفُوٓاْۚ إِنَّهُۥ لَا يُحِبُّ ٱلۡمُسۡرِفِينَ",
+   "reference": "7:31",
+   "translations": {
+    "en": {
+     "text": "O children of Adam, dress well for every prayer. Eat and drink, but do not waste, for He does not like the wasteful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/7/31",
+   "verified": false,
+   "content_hash": "2a1a4bd94644b60805fbe6465e8bc349ce449bb86856cb2b3f6a81575f6082b3"
+  },
+  "correct": "يا بني آدم، تزينوا عند كل مسجد وكلوا واشربوا باعتدال ولا تسرفوا في ذلك، فالله لا يحب المسرفين.",
+  "number": "يا بني آدم، تزينوا عند مسجد واحد وكلوا واشربوا باعتدال ولا تسرفوا في ذلك، فالله لا يحب المسرفين.",
+  "name": "يا بني حواء، تزينوا عند كل مسجد وكلوا واشربوا باعتدال ولا تسرفوا في ذلك، فالله لا يحب المسرفين.",
+  "exaggeration": "يا بني آدم، تزينوا عند كل مسجد وكلوا واشربوا دائمًا باعتدال ولا تسرفوا أبدًا في ذلك، فالله لا يحب المسرفين إطلاقًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-11-93",
+  "kind": "quran",
+  "source": {
+   "id": "quran-11-93",
+   "kind": "quran",
+   "text_ar": "وَيَٰقَوۡمِ ٱعۡمَلُواْ عَلَىٰ مَكَانَتِكُمۡ إِنِّي عَٰمِلٞۖ سَوۡفَ تَعۡلَمُونَ مَن يَأۡتِيهِ عَذَابٞ يُخۡزِيهِ وَمَنۡ هُوَ كَٰذِبٞۖ وَٱرۡتَقِبُوٓاْ إِنِّي مَعَكُمۡ رَقِيبٞ",
+   "reference": "11:93",
+   "translations": {
+    "en": {
+     "text": "O my people, do whatever you can; I will do mine. You will come to know who will receive a disgracing punishment, and who is a liar. Wait; I too am waiting with you.”",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/11/93",
+   "verified": false,
+   "content_hash": "c0191e7dbdc2dd0f372734efc71b9e12a3193cc5aca0a6612ae343f17fb6c3ce"
+  },
+  "correct": "قال شعيب لقومه أن يعملوا على طريقتهم وسيعلمون من يأتيه عذاب مخزٍ ومن هو الكاذب.",
+  "number": "قال شعيب لقومه أن يعملوا على طريقتهم وسيعلمون اثنان من يأتيه عذاب مخزٍ ومن هو الكاذب.",
+  "name": "قال صالح لقومه أن يعملوا على طريقتهم وسيعلمون من يأتيه عذاب مخزٍ ومن هو الكاذب.",
+  "exaggeration": "قال شعيب لقومه أن يعملوا على طريقتهم وسيعلمون دائمًا من يأتيه عذاب مخزٍ ومن هو الكاذب.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-2-196",
+  "kind": "quran",
+  "source": {
+   "id": "quran-2-196",
+   "kind": "quran",
+   "text_ar": "وَأَتِمُّواْ ٱلۡحَجَّ وَٱلۡعُمۡرَةَ لِلَّهِۚ فَإِنۡ أُحۡصِرۡتُمۡ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۖ وَلَا تَحۡلِقُواْ رُءُوسَكُمۡ حَتَّىٰ يَبۡلُغَ ٱلۡهَدۡيُ مَحِلَّهُۥۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ بِهِۦٓ أَذٗى مِّن رَّأۡسِهِۦ فَفِدۡيَةٞ مِّن صِيَامٍ أَوۡ صَدَقَةٍ أَوۡ نُسُكٖۚ فَإِذَآ أَمِنتُمۡ فَمَن تَمَتَّعَ بِٱلۡعُمۡرَةِ إِلَى ٱلۡحَجِّ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۚ فَمَن لَّمۡ يَجِدۡ فَصِيَامُ ثَلَٰثَةِ أَيَّامٖ فِي ٱلۡحَجِّ وَسَبۡعَةٍ إِذَا رَجَعۡتُمۡۗ تِلۡكَ عَشَرَةٞ كَامِلَةٞۗ ذَٰلِكَ لِمَن لَّمۡ يَكُنۡ أَهۡلُهُۥ حَاضِرِي ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+   "reference": "2:196",
+   "translations": {
+    "en": {
+     "text": "And Complete Hajj and ‘Umrah for Allah. But if you are prevented, then [offer] whatever sacrificial animal is available, and do not shave your heads until the sacrificial animal reaches its place of sacrifice. But if anyone among you is sick or has an ailment of the scalp [and had his head shaved], then he must compensate by fasting, charity, or a sacrificial offering. And when you are safe, then if anyone takes a break between ‘Umrah and Hajj, he must offer a sacrifice of whatever animal is available. However, if he cannot afford an offering, he should fast for three days during Hajj and seven days upon his return [home], making ten days in all. This is for those who are not residents of the Sacred Mosque. And fear Allah, and know that Allah is severe in retribution.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/196",
+   "verified": false,
+   "content_hash": "9909d2be93d0eabfed5eba972de5eb24508d841c0fb9c3647e517ad5248201ad"
+  },
+  "correct": "أتموا الحج والعمرة لله، ومن لم يجد الهدي فليصم ثلاثة أيام في الحج وسبعة إذا رجعتم، فتلك عشرة كاملة.",
+  "number": "أتموا الحج والعمرة لله، ومن لم يجد الهدي فليصم سبعة أيام في الحج وسبعة إذا رجعتم، فتلك عشرة كاملة.",
+  "name": "أتموا الحج والعمرة لله، ومن لم يجد الهدي فليصم ثلاثة أيام في رمضان وسبعة إذا رجعتم، فتلك عشرة كاملة.",
+  "exaggeration": "يجب على جميع المسلمين إتمام الحج والعمرة لله، ومن لم يجد الهدي فعليه دائمًا صيام ثلاثة أيام في الحج وسبعة إذا رجع.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-7-26",
+  "kind": "quran",
+  "source": {
+   "id": "quran-7-26",
+   "kind": "quran",
+   "text_ar": "يَٰبَنِيٓ ءَادَمَ قَدۡ أَنزَلۡنَا عَلَيۡكُمۡ لِبَاسٗا يُوَٰرِي سَوۡءَٰتِكُمۡ وَرِيشٗاۖ وَلِبَاسُ ٱلتَّقۡوَىٰ ذَٰلِكَ خَيۡرٞۚ ذَٰلِكَ مِنۡ ءَايَٰتِ ٱللَّهِ لَعَلَّهُمۡ يَذَّكَّرُونَ",
+   "reference": "7:26",
+   "translations": {
+    "en": {
+     "text": "O children of Adam, We have given you garments that cover your private parts and as an adornment. However, the garment of piety – that is best. That is one of the signs of Allah, so that they may take heed.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/7/26",
+   "verified": false,
+   "content_hash": "bed17136a0437f133e56d1198df9d23c3afa1800ff41421248fe9da531aecd90"
+  },
+  "correct": "يا بني آدم، لقد أنزل الله عليكم لباسًا يستر عوراتكم ويزينكم، ولباس التقوى هو خير لكم.",
+  "number": "يا بني آدم، لقد أنزل الله عليكم ثلاثة أنواع من اللباس تستر عوراتكم وتزينكم، ولباس التقوى هو خير لكم.",
+  "name": "يا بني حواء، لقد أنزل الله عليكم لباسًا يستر عوراتكم ويزينكم، ولباس التقوى هو خير لكم.",
+  "exaggeration": "يا بني آدم، لقد أنزل الله عليكم لباسًا يستر عوراتكم ويزينكم، ولباس التقوى هو الفرض الأعظم عليكم جميعًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-5-90",
+  "kind": "quran",
+  "source": {
+   "id": "quran-5-90",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡخَمۡرُ وَٱلۡمَيۡسِرُ وَٱلۡأَنصَابُ وَٱلۡأَزۡلَٰمُ رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+   "reference": "5:90",
+   "translations": {
+    "en": {
+     "text": "O you who believe, intoxicants, gambling, [sacrificing on] stone alters and divining arrows are of Satan’s evil work; therefore avoid such [evil], so that you may be successful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/5/90",
+   "verified": false,
+   "content_hash": "280c11437a31852de9031e31976472f2b324cfa6ff93a4cde392dbd8f8877fe4"
+  },
+  "correct": "يا أيها الذين آمنوا، إن الخمر والميسر والأنصاب والأزلام رجس من عمل الشيطان فاجتنبوه لتفلحوا.",
+  "number": "يا أيها الذين آمنوا، إن الخمر والميسر والأنصاب رجس من عمل الشيطان فاجتنبوه لتفلحوا.",
+  "name": "يا أيها الذين آمنوا، إن الخمر والميسر والأصنام والأزلام رجس من عمل الشيطان فاجتنبوه لتفلحوا.",
+  "exaggeration": "يا أيها الذين آمنوا، إن الخمر والميسر والأنصاب والأزلام هي كل رجس من عمل الشيطان فاجتنبوه لتفلحوا دائمًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-3-96",
+  "kind": "quran",
+  "source": {
+   "id": "quran-3-96",
+   "kind": "quran",
+   "text_ar": "إِنَّ أَوَّلَ بَيۡتٖ وُضِعَ لِلنَّاسِ لَلَّذِي بِبَكَّةَ مُبَارَكٗا وَهُدٗى لِّلۡعَٰلَمِينَ",
+   "reference": "3:96",
+   "translations": {
+    "en": {
+     "text": "The first House [of worship] established for mankind was the one at Bakkah [i.e., Makkah], full of blessings and guidance for the worlds.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/3/96",
+   "verified": false,
+   "content_hash": "a8406a95b8fcfcfcb63aaab0471983dc1e253d348ffe570c0c30acd537a6a48e"
+  },
+  "correct": "إن أول بيت وضع للناس للعبادة هو الكعبة المشرفة في مكة، وهو مبارك وهدى للعالمين.",
+  "number": "إن أول بيت وضع للناس للعبادة هو الكعبة المشرفة في مكة، وهو مبارك وهدى لثلاثة عالمين.",
+  "name": "إن أول بيت وضع للناس للعبادة هو الكعبة المشرفة في المدينة، وهو مبارك وهدى للعالمين.",
+  "exaggeration": "إن أول بيت وضع للناس للعبادة هو الكعبة المشرفة في مكة، وهو أقدس وأعظم هدى لجميع العالمين.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-17-78",
+  "kind": "quran",
+  "source": {
+   "id": "quran-17-78",
+   "kind": "quran",
+   "text_ar": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمۡسِ إِلَىٰ غَسَقِ ٱلَّيۡلِ وَقُرۡءَانَ ٱلۡفَجۡرِۖ إِنَّ قُرۡءَانَ ٱلۡفَجۡرِ كَانَ مَشۡهُودٗا",
+   "reference": "17:78",
+   "translations": {
+    "en": {
+     "text": "Establish prayer at the decline of the sun until the darkness of the night, and the recitation of dawn [prayer], for the recitation of dawn is ever witnessed [by the angels].",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/17/78",
+   "verified": false,
+   "content_hash": "c71863117ad53486cde22eba6e712fdd295cf1b855e709c9b0edf3f1f5f814fe"
+  },
+  "correct": "أَقِمِ الصَّلَاةَ مِن وَقْتِ زَوَالِ الشَّمْسِ إِلَى ظَلَامِ اللَّيْلِ وَصَلَاةَ الفَجْرِ، فَإِنَّ صَلَاةَ الفَجْرِ مَشْهُودَةٌ.",
+  "number": "أَقِمِ الصَّلَاةَ مِن وَقْتِ زَوَالِ الشَّمْسِ إِلَى ظَلَامِ اللَّيْلِ وَثَلَاثَ صَلَوَاتِ الفَجْرِ، فَإِنَّ صَلَاةَ الفَجْرِ مَشْهُودَةٌ.",
+  "name": "أَقِمِ الصَّلَاةَ مِن وَقْتِ زَوَالِ الشَّمْسِ إِلَى ظَلَامِ الفَجْرِ وَصَلَاةَ الفَجْرِ، فَإِنَّ صَلَاةَ الفَجْرِ مَشْهُودَةٌ.",
+  "exaggeration": "أَقِمِ الصَّلَاةَ دائمًا مِن وَقْتِ زَوَالِ الشَّمْسِ إِلَى ظَلَامِ اللَّيْلِ وَصَلَاةَ الفَجْرِ، فَإِنَّ صَلَاةَ الفَجْرِ مَشْهُودَةٌ.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-2-152",
+  "kind": "quran",
+  "source": {
+   "id": "quran-2-152",
+   "kind": "quran",
+   "text_ar": "فَٱذۡكُرُونِيٓ أَذۡكُرۡكُمۡ وَٱشۡكُرُواْ لِي وَلَا تَكۡفُرُونِ",
+   "reference": "2:152",
+   "translations": {
+    "en": {
+     "text": "Therefore remember Me; I will remember you. Be grateful to Me, and do not be ungrateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/152",
+   "verified": false,
+   "content_hash": "d887da60d53df29aba035cdac5e6b9f58d72edccde7ccc4646b535b2b76cbf02"
+  },
+  "correct": "اذكروا الله يذكركم واشكروه ولا تجحدوا نعمه عليكم.",
+  "number": "اذكروا الله عشر مرات يذكركم واشكروه ولا تجحدوا نعمه عليكم.",
+  "name": "اذكروا محمدا يذكركم واشكروه ولا تجحدوا نعمه عليكم.",
+  "exaggeration": "اذكروا الله دائما يذكركم واشكروه ولا تجحدوا نعمه عليكم أبدا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-24-31",
+  "kind": "quran",
+  "source": {
+   "id": "quran-24-31",
+   "kind": "quran",
+   "text_ar": "وَقُل لِّلۡمُؤۡمِنَٰتِ يَغۡضُضۡنَ مِنۡ أَبۡصَٰرِهِنَّ وَيَحۡفَظۡنَ فُرُوجَهُنَّ وَلَا يُبۡدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنۡهَاۖ وَلۡيَضۡرِبۡنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّۖ وَلَا يُبۡدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوۡ ءَابَآئِهِنَّ أَوۡ ءَابَآءِ بُعُولَتِهِنَّ أَوۡ أَبۡنَآئِهِنَّ أَوۡ أَبۡنَآءِ بُعُولَتِهِنَّ أَوۡ إِخۡوَٰنِهِنَّ أَوۡ بَنِيٓ إِخۡوَٰنِهِنَّ أَوۡ بَنِيٓ أَخَوَٰتِهِنَّ أَوۡ نِسَآئِهِنَّ أَوۡ مَا مَلَكَتۡ أَيۡمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيۡرِ أُوْلِي ٱلۡإِرۡبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفۡلِ ٱلَّذِينَ لَمۡ يَظۡهَرُواْ عَلَىٰ عَوۡرَٰتِ ٱلنِّسَآءِۖ وَلَا يَضۡرِبۡنَ بِأَرۡجُلِهِنَّ لِيُعۡلَمَ مَا يُخۡفِينَ مِن زِينَتِهِنَّۚ وَتُوبُوٓاْ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلۡمُؤۡمِنُونَ لَعَلَّكُمۡ تُفۡلِحُونَ",
+   "reference": "24:31",
+   "translations": {
+    "en": {
+     "text": "Tell the believing women to lower their gazes and guard their private parts, and not to reveal their beauty except what appears. And let them draw their veils over their chests, and not to reveal their beauty except to their husbands, their fathers, their fathers-in-law, their sons, their stepsons, their brothers, their brothers’ sons or sisters’ sons, their fellow women, slaves whom they own, male attendants who have no [sexual] desire, or children who are still unaware of private aspects of women. Nor let them stamp their feet in order to draw attention to their hidden charm. And turn to Allah in repentance all together, O believers, so that you may be successful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/24/31",
+   "verified": false,
+   "content_hash": "c4f6da1b991b332f5bdf131e5174b5b4b6e21c461fb90e5107d0f73a37902e50"
+  },
+  "correct": "توجب الآية على المؤمنات غض البصر وحفظ الفروج وعدم إظهار الزينة إلا للمحارم أو الضرورة.",
+  "number": "توجب الآية على المؤمنات غض البصر وحفظ الفروج وعدم إظهار الزينة إلا لثلاثة محارم أو الضرورة.",
+  "name": "توجب الآية على المؤمنات غض البصر وحفظ الفروج وعدم إظهار الزينة إلا للغرباء أو الضرورة.",
+  "exaggeration": "توجب الآية على المؤمنات غض البصر وحفظ الفروج دائمًا وعدم إظهار الزينة لأي أحد على الإطلاق.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-2-224",
+  "kind": "quran",
+  "source": {
+   "id": "quran-2-224",
+   "kind": "quran",
+   "text_ar": "وَلَا تَجۡعَلُواْ ٱللَّهَ عُرۡضَةٗ لِّأَيۡمَٰنِكُمۡ أَن تَبَرُّواْ وَتَتَّقُواْ وَتُصۡلِحُواْ بَيۡنَ ٱلنَّاسِۚ وَٱللَّهُ سَمِيعٌ عَلِيمٞ",
+   "reference": "2:224",
+   "translations": {
+    "en": {
+     "text": "Do not use Allah’s name in your oaths as an excuse for not doing good and fearing Allah, or not making peace between people, for Allah is All-Hearing, All-Knowing.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/224",
+   "verified": false,
+   "content_hash": "41c4f5620d0052ef569a5ddfee8897ca3bb3c79c0d88f613df3bd9adc2d030a2"
+  },
+  "correct": "لا تجعلوا قسمكم بالله مانعًا لكم من فعل الخير والتقوى والإصلاح بين الناس.",
+  "number": "لا تجعلوا قسمكم بالله مانعًا لكم من فعل الخير والتقوى والإصلاح بين عشرة أشخاص.",
+  "name": "لا تجعلوا قسمكم بعلي مانعًا لكم من فعل الخير والتقوى والإصلاح بين الناس.",
+  "exaggeration": "لا تجعلوا قسمكم بالله مانعًا لكم أبدًا من فعل الخير والتقوى والإصلاح بين جميع الناس.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-17-82",
+  "kind": "quran",
+  "source": {
+   "id": "quran-17-82",
+   "kind": "quran",
+   "text_ar": "وَنُنَزِّلُ مِنَ ٱلۡقُرۡءَانِ مَا هُوَ شِفَآءٞ وَرَحۡمَةٞ لِّلۡمُؤۡمِنِينَ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارٗا",
+   "reference": "17:82",
+   "translations": {
+    "en": {
+     "text": "We send down the Qur’an as a healing and mercy for the believers, but it does not increase the wrongdoers except in loss.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/17/82",
+   "verified": false,
+   "content_hash": "1965b17a43c9c780a3d710b4bfeacb22a7a224a63040d55784d6290e7695a2e8"
+  },
+  "correct": "نُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا فِيهِ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ، وَلَا يَزِيدُ ٱلظَّالِمِينَ إِلَّا خَسَارًا.",
+  "number": "نُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا فِيهِ شِفَاءٌ وَثَلَاثُ رَحَمَاتٍ لِلْمُؤْمِنِينَ، وَلَا يَزِيدُ ٱلظَّالِمِينَ إِلَّا خَسَارًا.",
+  "name": "نُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا فِيهِ شِفَاءٌ وَرَحْمَةٌ لِلْكافرين، وَلَا يَزِيدُ ٱلظَّالِمِينَ إِلَّا خَسَارًا.",
+  "exaggeration": "نُنَزِّلُ مِنَ ٱلْقُرْءَانِ دائمًا الشفاء المطلق والرحمة الكبرى لجميع المؤمنين، وَلَا يَزِيدُ ٱلظَّالِمِينَ إِلَّا خَسَارًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-1-2",
+  "kind": "quran",
+  "source": {
+   "id": "quran-1-2",
+   "kind": "quran",
+   "text_ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+   "reference": "1:2",
+   "translations": {
+    "en": {
+     "text": "All praise be to Allah, the Lord of the worlds,",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/1/2",
+   "verified": false,
+   "content_hash": "a0e1b07792671c63ddd83c3dc799542e77a4a94023fe840a0f457e80da262be1"
+  },
+  "correct": "الحمد كله لله الذي هو رب العالمين ورازقهم ومدبر أمورهم.",
+  "number": "الحمد كله لثلاثة آلهة الذي هو رب العالمين ورازقهم ومدبر أمورهم.",
+  "name": "الحمد كله لمحمد الذي هو رب العالمين ورازقهم ومدبر أمورهم.",
+  "exaggeration": "الحمد كله لله وحده الذي هو رب كل المخلوقات ورازقهم ومدبر أمورهم جميعًا.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-1-1",
+  "kind": "quran",
+  "source": {
+   "id": "quran-1-1",
+   "kind": "quran",
+   "text_ar": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+   "reference": "1:1",
+   "translations": {
+    "en": {
+     "text": "In the name of Allah, the Most Compassionate, the Most Merciful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/1/1",
+   "verified": false,
+   "content_hash": "f5ec8bf2681d3c9f5dad442be6d7a4dde6eb7cdd9334912c01297beba6ff0880"
+  },
+  "correct": "بسم الله الرحمن الرحيم هي أول آية في القرآن الكريم وتستهل بها جميع سوره ما عدا سورة التوبة.",
+  "number": "بسم الله الرحمن الرحيم هي ثاني آية في القرآن الكريم وتستهل بها جميع سوره ما عدا سورة التوبة.",
+  "name": "بسم الله الرحمن الرحيم هي أول آية في الإنجيل وتستهل بها جميع سوره ما عدا سورة التوبة.",
+  "exaggeration": "بسم الله الرحمن الرحيم هي أهم آية في القرآن الكريم ويجب تلاوتها في كل لحظة.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-18-39",
+  "kind": "quran",
+  "source": {
+   "id": "quran-18-39",
+   "kind": "quran",
+   "text_ar": "وَلَوۡلَآ إِذۡ دَخَلۡتَ جَنَّتَكَ قُلۡتَ مَا شَآءَ ٱللَّهُ لَا قُوَّةَ إِلَّا بِٱللَّهِۚ إِن تَرَنِ أَنَا۠ أَقَلَّ مِنكَ مَالٗا وَوَلَدٗا",
+   "reference": "18:39",
+   "translations": {
+    "en": {
+     "text": "If only you had said, when you entered your garden, ‘This is by Allah’s Will; there is no power except with Allah.’ Even though you see me as inferior to you in wealth and children,",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/18/39",
+   "verified": false,
+   "content_hash": "b5fb2bafb2052651cea194c58b7c8e02650650eebbd23d73ad5fd37dc5290006"
+  },
+  "correct": "كان ينبغي عليك عند دخول جنتك أن تقول ما شاء الله لا قوة إلا بالله.",
+  "number": "كان ينبغي عليك عند دخول خمس جنات أن تقول ما شاء الله لا قوة إلا بالله.",
+  "name": "كان ينبغي عليك عند دخول جنتك أن تقول ما شاء محمد لا قوة إلا بالله.",
+  "exaggeration": "كان ينبغي عليك دائماً عند دخول جنتك أن تقول ما شاء الله لا قوة إلا بالله.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-22-28",
+  "kind": "quran",
+  "source": {
+   "id": "quran-22-28",
+   "kind": "quran",
+   "text_ar": "لِّيَشۡهَدُواْ مَنَٰفِعَ لَهُمۡ وَيَذۡكُرُواْ ٱسۡمَ ٱللَّهِ فِيٓ أَيَّامٖ مَّعۡلُومَٰتٍ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلۡأَنۡعَٰمِۖ فَكُلُواْ مِنۡهَا وَأَطۡعِمُواْ ٱلۡبَآئِسَ ٱلۡفَقِيرَ",
+   "reference": "22:28",
+   "translations": {
+    "en": {
+     "text": "so that they may attain benefits, and pronounce Allah’s name during the appointed days over the sacrificial animals that He has provided for them; then eat from it and feed the desperately poor.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/22/28",
+   "verified": false,
+   "content_hash": "7396ad1171a90a3903df96b3adf2fef40e9a385bd8a0f7a7911b63ffcca35796"
+  },
+  "correct": "يشهد الحجاج منافع لهم ويذكروا اسم الله في أيام معلومات على ما رزقهم من بهيمة الأنعام ويطعموا الفقير.",
+  "number": "يشهد الحجاج منافع لهم ويذكروا اسم الله في يومين معلومات على ما رزقهم من بهيمة الأنعام ويطعموا الفقير.",
+  "name": "يشهد الكفار منافع لهم ويذكروا اسم الله في أيام معلومات على ما رزقهم من بهيمة الأنعام ويطعموا الفقير.",
+  "exaggeration": "يشهد الحجاج منافع لهم ويذكروا اسم الله دائمًا على ما رزقهم من بهيمة الأنعام ويطعموا جميع الفقراء.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-2-115",
+  "kind": "quran",
+  "source": {
+   "id": "quran-2-115",
+   "kind": "quran",
+   "text_ar": "وَلِلَّهِ ٱلۡمَشۡرِقُ وَٱلۡمَغۡرِبُۚ فَأَيۡنَمَا تُوَلُّواْ فَثَمَّ وَجۡهُ ٱللَّهِۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٞ",
+   "reference": "2:115",
+   "translations": {
+    "en": {
+     "text": "To Allah belong the east and the west; wherever you turn, there is the Face of Allah. For Allah is All-Encompassing, All-Knowing.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/115",
+   "verified": false,
+   "content_hash": "9f06e475ceab434c15284022671e64fa02b094e8d320ac20c01819cbf225d6a7"
+  },
+  "correct": "لله ملك المشرق والمغرب، فأينما تتجهون بوجوهكم فثم وجه الله وعنايته بكل مكان.",
+  "number": "لله ملك المشرق والمغرب، فأينما تتجهون بوجوهكم فثم وجه الله وعنايته بثلاثة أماكن.",
+  "name": "لله ملك المشرق والمغرب، فأينما تتجهون بوجوهكم فثم وجه الرحمن وعنايته بكل مكان.",
+  "exaggeration": "لله ملك المشرق والمغرب، فأينما تتجهون بوجوهكم فثم وجه الله وعنايته بكل مكان في جميع الأوقات.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-5-2",
+  "kind": "quran",
+  "source": {
+   "id": "quran-5-2",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُحِلُّواْ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهۡرَ ٱلۡحَرَامَ وَلَا ٱلۡهَدۡيَ وَلَا ٱلۡقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلۡبَيۡتَ ٱلۡحَرَامَ يَبۡتَغُونَ فَضۡلٗا مِّن رَّبِّهِمۡ وَرِضۡوَٰنٗاۚ وَإِذَا حَلَلۡتُمۡ فَٱصۡطَادُواْۚ وَلَا يَجۡرِمَنَّكُمۡ شَنَـَٔانُ قَوۡمٍ أَن صَدُّوكُمۡ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ أَن تَعۡتَدُواْۘ وَتَعَاوَنُواْ عَلَى ٱلۡبِرِّ وَٱلتَّقۡوَىٰۖ وَلَا تَعَاوَنُواْ عَلَى ٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِۚ وَٱتَّقُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+   "reference": "5:2",
+   "translations": {
+    "en": {
+     "text": "O you who believe, do not violate the sanctity of the rituals of Allah, nor of the sacred month, nor the sacrificial animals, nor the garlands, nor those [pilgrims] proceeding to the Sacred House seeking their Lord’s grace and pleasure. When your pilgrimage has ended, you may hunt. However, do not let the hatred of a people who barred you from the Sacred Mosque lead you to transgress. Cooperate with one another in goodness and righteousness, and do not cooperate in sin and transgression. And fear Allah, for Allah is severe in punishment.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/5/2",
+   "verified": false,
+   "content_hash": "d5523b89531468d471277d334c66d28d0d7cd19c6a0371aa505fa340f5a15e5c"
+  },
+  "correct": "يا أيها الذين آمنوا لا تنتهكوا حرمة شعائر الله ولا الشهر الحرام ولا الهدي ولا القلائد ولا قاصدي البيت الحرام.",
+  "number": "يا أيها الذين آمنوا لا تنتهكوا حرمة شعائر الله ولا الشهرين الحرام ولا الهدي ولا القلائد ولا قاصدي البيت الحرام.",
+  "name": "يا أيها الذين آمنوا لا تنتهكوا حرمة شعائر الله ولا الشهر الحرام ولا الهدي ولا القلائد ولا قاصدي بيت المقدس.",
+  "exaggeration": "يا أيها الذين آمنوا لا تنتهكوا حرمة شعائر الله أبداً ولا الشهر الحرام ولا الهدي ولا القلائد ولا قاصدي البيت الحرام.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-2-183",
+  "kind": "quran",
+  "source": {
+   "id": "quran-2-183",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
+   "reference": "2:183",
+   "translations": {
+    "en": {
+     "text": "O you who believe, fasting is prescribed upon you as it was prescribed upon those who were before you, so that you may become righteous.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/183",
+   "verified": false,
+   "content_hash": "02dd153625807e84b8391e5d154d7a4ca7e4cc9da1b23107d2f616c8555660bd"
+  },
+  "correct": "يا أيها الذين آمنوا، فُرض عليكم الصيام كما فُرض على الأمم السابقة لكي تحققوا التقوى.",
+  "number": "يا أيها الذين آمنوا، فُرض عليكم الصيام خمسة أيام كما فُرض على الأمم السابقة لكي تحققوا التقوى.",
+  "name": "يا أيها الذين آمنوا، فُرض عليكم الصيام كما فُرض على أتباع موسى لكي تحققوا التقوى.",
+  "exaggeration": "يا أيها الذين آمنوا، فُرض عليكم الصيام دائمًا كما فُرض على الأمم السابقة لكي تحققوا التقوى.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "quran-42-48",
+  "kind": "quran",
+  "source": {
+   "id": "quran-42-48",
+   "kind": "quran",
+   "text_ar": "فَإِنۡ أَعۡرَضُواْ فَمَآ أَرۡسَلۡنَٰكَ عَلَيۡهِمۡ حَفِيظًاۖ إِنۡ عَلَيۡكَ إِلَّا ٱلۡبَلَٰغُۗ وَإِنَّآ إِذَآ أَذَقۡنَا ٱلۡإِنسَٰنَ مِنَّا رَحۡمَةٗ فَرِحَ بِهَاۖ وَإِن تُصِبۡهُمۡ سَيِّئَةُۢ بِمَا قَدَّمَتۡ أَيۡدِيهِمۡ فَإِنَّ ٱلۡإِنسَٰنَ كَفُورٞ",
+   "reference": "42:48",
+   "translations": {
+    "en": {
+     "text": "But if they turn away, We have not sent you as their keeper; your duty is only to convey the message. If We give man a taste of Our mercy, he exults in it; but when a calamity befalls them because of what their hands have sent forth, then man becomes totally ungrateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/42/48",
+   "verified": false,
+   "content_hash": "e500866892cb7ee6f73034bf5b541053d6b8944e7ef1965fe4f2961bad4926a7"
+  },
+  "correct": "إذا أصابت الإنسان رحمة من الله فرح بها، وإذا نالتهم مصيبة بسبب أفعالهم فإنه يصبح شديد الكفران.",
+  "number": "إذا أصابت الإنسان رحمة من الله فرح بها، وإذا نالتهم عشر مصائب بسبب أفعالهم فإنه يصبح شديد الكفران.",
+  "name": "إذا أصابت الإنسان رحمة من موسى فرح بها، وإذا نالتهم مصيبة بسبب أفعالهم فإنه يصبح شديد الكفران.",
+  "exaggeration": "إذا أصابت الإنسان رحمة من الله فرح بها دائمًا، وإذا نالتهم مصيبة بسبب أفعالهم فإنه يصبح كفورًا على الإطلاق.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-3-185",
+  "kind": "quran",
+  "source": {
+   "id": "quran-3-185",
+   "kind": "quran",
+   "text_ar": "كُلُّ نَفۡسٖ ذَآئِقَةُ ٱلۡمَوۡتِۗ وَإِنَّمَا تُوَفَّوۡنَ أُجُورَكُمۡ يَوۡمَ ٱلۡقِيَٰمَةِۖ فَمَن زُحۡزِحَ عَنِ ٱلنَّارِ وَأُدۡخِلَ ٱلۡجَنَّةَ فَقَدۡ فَازَۗ وَمَا ٱلۡحَيَوٰةُ ٱلدُّنۡيَآ إِلَّا مَتَٰعُ ٱلۡغُرُورِ",
+   "reference": "3:185",
+   "translations": {
+    "en": {
+     "text": "Every soul will taste death, and you will be paid your reward in full on the Day of Resurrection. Whoever is spared from the Fire and admitted into Paradise has truly won, for the life of this world is nothing but an illusory pleasure.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/3/185",
+   "verified": false,
+   "content_hash": "ace8ff0b60a58b830b770e75b8cdb7326ae9154617a149e5f6011734706830ab"
+  },
+  "correct": "كل نفس ستذوق الموت، وسيكتمل أجركم يوم القيامة، فمن نجا من النار ودخل الجنة فقد فاز بالنجاة الحقيقية.",
+  "number": "كل نفس ستذوق الموت، وسيكتمل أجركم في يومين فقط، فمن نجا من النار ودخل الجنة فقد فاز بالنجاة الحقيقية.",
+  "name": "كل نفس ستذوق الموت، وسيكتمل أجركم يوم عرفة، فمن نجا من النار ودخل الجنة فقد فاز بالنجاة الحقيقية.",
+  "exaggeration": "كل نفس ستذوق الموت حتماً، وسيكتمل أجركم دائماً يوم القيامة، فمن نجا من النار ودخل الجنة فقد فاز فوزاً عظيماً لا مثيل له.",
+  "split": "tune"
+ },
+ {
+  "source_id": "quran-6-118",
+  "kind": "quran",
+  "source": {
+   "id": "quran-6-118",
+   "kind": "quran",
+   "text_ar": "فَكُلُواْ مِمَّا ذُكِرَ ٱسۡمُ ٱللَّهِ عَلَيۡهِ إِن كُنتُم بِـَٔايَٰتِهِۦ مُؤۡمِنِينَ",
+   "reference": "6:118",
+   "translations": {
+    "en": {
+     "text": "So eat of that [meat] over which the name of Allah is mentioned if you [truly] believe in his verses.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/6/118",
+   "verified": false,
+   "content_hash": "1f37301a8249f2412dc865c43e0c3a847ba5f814fb5efd7c2b852c6533278e52"
+  },
+  "correct": "كلوا مما ذكر اسم الله عليه إن كنتم مؤمنين بآياته.",
+  "number": "كلوا مما ذكر اسم الله عليه إن كنتم مؤمنين بآياته العشر.",
+  "name": "كلوا مما ذكر اسم عيسى عليه إن كنتم مؤمنين بآياته.",
+  "exaggeration": "كلوا دائمًا مما ذكر اسم الله عليه إن كنتم مؤمنين بآياته.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "hadith-66512",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-66512",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي عَبْدِ الرَّحْمَنِ عَبْدِ اللَّهِ بْنِ عُمَرَ بْنِ الخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «بُنِيَ الإِسْلَامُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لَا إلَهَ إلَّا اللَّهُ وَأَنَّ مُحَمَّدًا ‌عَبْدُهُ ‌وَرَسُولُهُ، وَإِقَامِ الصَّلَاةِ، وَإِيتَاءِ الزَّكَاةِ، وَحَجِّ الْبَيْتِ، وَصَوْمِ رَمَضَانَ».",
+   "reference": "رواه البخاري ومسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/66512",
+   "verified": false,
+   "content_hash": "c58b7dc246ba1cd7b2ca364cbb35e9735702247a4ba7bb717b8a2a2c946285e1"
+  },
+  "correct": "بني الإسلام على خمسة أركان أساسية وهي الشهادتان، إقامة الصلاة، إيتاء الزكاة، حج البيت، وصوم رمضان.",
+  "number": "بني الإسلام على سبعة أركان أساسية وهي الشهادتان، إقامة الصلاة، إيتاء الزكاة، حج البيت، وصوم رمضان.",
+  "name": "بني الإسلام على خمسة أركان أساسية وهي الشهادتان، إقامة الصلاة، إيتاء الزكاة، حج البيت، وصوم شوال.",
+  "exaggeration": "بني الإسلام على جميع الأركان الأساسية وهي الشهادتان، إقامة الصلاة، إيتاء الزكاة، حج البيت، وصوم رمضان.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-65933",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-65933",
+   "kind": "hadith",
+   "text_ar": "عَنِ ابْنِ عُمَرَ أَنَّ رَسُولَ اللهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: «مَنْ حَلَفَ عَلَى يَمِينٍ فَقَالَ: إِنْ شَاءَ اللَّهُ فَقَدِ اسْتَثْنَى، فَلاَ حِنْثَ عَلَيْهِ»، وَفِي رِوَايَةٍ: «مَنْ حَلَفَ فَاسْتَثْنَى فَإِنْ شَاءَ مَضَى وَإِنْ شَاءَ تَرَكَ غَيْرَ حِنْثٍ».",
+   "reference": "رواه أبو داود والترمذي والنسائي وابن ماجه وأحمد",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65933",
+   "verified": false,
+   "content_hash": "c3e899969d104700938f8d4673b935da04e9c76df93610003694da1a26b91609"
+  },
+  "correct": "من حلف على يمين وقال إن شاء الله فقد استثنى فلا حنث عليه.",
+  "number": "من حلف على يمينين وقال إن شاء الله فقد استثنى فلا حنث عليه.",
+  "name": "من حلف على يمين وقال بسم الله فقد استثنى فلا حنث عليه.",
+  "exaggeration": "من حلف على يمين وقال إن شاء الله فقد استثنى فلا حنث عليه أبدًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-65525",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-65525",
+   "kind": "hadith",
+   "text_ar": "عن أبي هريرة رضي الله عنه عن النبي صلى الله عليه وسلم قال: (إذا دعي أحدكم إلى طعام وهو صائم فليقل: إني صائم).",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65525",
+   "verified": false,
+   "content_hash": "f7cd92be73338f5ef72dfe29780b7e0c8e99e24b35746196d7f0d8af0acbe0ef"
+  },
+  "correct": "إذا دُعي الصائم لتناول الطعام فعليه أن يُعلم الداعي بأنه صائم.",
+  "number": "إذا دُعي الصائم لتناول الطعام فعليه أن يُعلم الداعي بأنه صائم ثلاث مرات.",
+  "name": "إذا دُعي الصائم لتناول الطعام في مكة فعليه أن يُعلم الداعي بأنه صائم.",
+  "exaggeration": "إذا دُعي الصائم لتناول الطعام فعليه دائماً أن يُعلم الداعي بأنه صائم.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "hadith-65092",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-65092",
+   "kind": "hadith",
+   "text_ar": "عَنْ ‌أَبِي حُمَيْدٍ أَوْ عَنْ ‌أَبِي أُسَيْدٍ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «إِذَا دَخَلَ أَحَدُكُمُ الْمَسْجِدَ فَلْيَقُلِ: اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ، وَإِذَا خَرَجَ فَلْيَقُلِ: اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65092",
+   "verified": false,
+   "content_hash": "3948a3a04c80dc3cb97f166f443e9196361a327fa7e65da3568298c56ede5486"
+  },
+  "correct": "علمنا الرسول صلى الله عليه وسلم أن نقول دعاءً معيناً عند دخول المسجد وآخر عند الخروج منه.",
+  "number": "علمنا الرسول صلى الله عليه وسلم أن نقول دعاءً معيناً عند دخول المسجد وثلاثة أدعية عند الخروج منه.",
+  "name": "علمنا الرسول صلى الله عليه وسلم أن نقول دعاءً معيناً عند دخول المنزل وآخر عند الخروج منه.",
+  "exaggeration": "علمنا الرسول صلى الله عليه وسلم أن نقول دعاءً معيناً عند دخول المسجد وآخر عند الخروج منه، وهذا واجب على كل مسلم.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-65874",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-65874",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي قَتَادَةَ أَنَّ رَجُلًا أَتَى النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، فَقَالَ: كَيْفَ تَصُومُ؟ فَغَضِبَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، فَلَمَّا رَأَى عُمَرُ رَضِيَ اللهُ عَنْهُ غَضَبَهُ، قَالَ: رَضِينَا بِاللهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ نَبِيًّا، نَعُوذُ بِاللهِ مِنْ غَضَبِ اللهِ وَغَضَبِ رَسُولِهِ، فَجَعَلَ عُمَرُ رَضِيَ اللهُ عَنْهُ يُرَدِّدُ هَذَا الْكَلَامَ حَتَّى سَكَنَ غَضَبُهُ، فَقَالَ عُمَرُ: يَا رَسُولَ اللهِ، كَيْفَ بِمَنْ يَصُومُ الدَّهْرَ كُلَّهُ؟ قَالَ: «لَا صَامَ وَلَا أَفْطَرَ» -أَوْ قَالَ «لَمْ يَصُمْ وَلَمْ يُفْطِرْ»- قَالَ: كَيْفَ مَنْ يَصُومُ يَوْمَيْنِ وَيُفْطِرُ يَوْمًا؟ قَالَ: «وَيُطِيقُ ذَلِكَ أَحَدٌ؟» قَالَ: كَيْفَ مَنْ يَصُومُ يَوْمًا وَيُفْطِرُ يَوْمًا؟ قَالَ: «ذَاكَ صَوْمُ دَاوُدَ عَلَيْهِ السَّلَام» قَالَ: كَيْفَ مَنْ يَصُومُ يَوْمًا وَيُفْطِرُ يَوْمَيْنِ؟ قَالَ: «وَدِدْتُ أَنِّي طُوِّقْتُ ذَلِكَ» ثُمَّ قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «ثَلَاثٌ مِنْ كُلِّ شَهْرٍ، وَرَمَضَانُ إِلَى رَمَضَانَ، فَهَذَا صِيَامُ الدَّهْرِ كُلِّهِ، صِيَامُ يَوْمِ عَرَفَةَ، أَحْتَسِبُ عَلَى اللهِ أَنْ يُكَفِّرَ السَّنَةَ الَّتِي قَبْلَهُ، وَالسَّنَةَ الَّتِي بَعْدَهُ، وَصِيَامُ يَوْمِ عَاشُورَاءَ، أَحْتَسِبُ عَلَى اللهِ أَنْ يُكَفِّرَ السَّنَةَ الَّتِي قَبْلَهُ».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65874",
+   "verified": false,
+   "content_hash": "754cc3a39e1207bb4269cd085ac1572745edd30b7fc41c94ecd9cb0adc660771"
+  },
+  "correct": "صيام ثلاثة أيام من كل شهر وصيام رمضان يكفر ذنوب السنة كلها.",
+  "number": "صيام يومين من كل شهر وصيام رمضان يكفر ذنوب السنة كلها.",
+  "name": "صيام ثلاثة أيام من كل شهر وصيام شعبان يكفر ذنوب السنة كلها.",
+  "exaggeration": "صيام ثلاثة أيام من كل شهر وصيام رمضان يكفر جميع ذنوب المسلمين.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-3365",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-3365",
+   "kind": "hadith",
+   "text_ar": "عَنْ عَبْدِ اللَّهِ بِن مَسْعُودٍ رضي الله عنه قَالَ: سَأَلْتُ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: أَيُّ العَمَلِ أَحَبُّ إِلَى اللَّهِ؟ قَالَ: «الصَّلاَةُ عَلَى وَقْتِهَا»، قَالَ: ثُمَّ أَيٌّ؟ قَالَ: «ثُمَّ بِرُّ الوَالِدَيْنِ» قَالَ: ثُمَّ أَيٌّ؟ قَالَ: «الجِهَادُ فِي سَبِيلِ اللَّهِ» قَالَ: حَدَّثَنِي بِهِنَّ، وَلَوِ اسْتَزَدْتُهُ لَزَادَنِي.",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3365",
+   "verified": false,
+   "content_hash": "b35cb8f7ebe8fecbf08a0534f2027b8cbb8566bdd6ac144712ba50d41cc3aa33"
+  },
+  "correct": "أخبر النبي محمد صلى الله عليه وسلم أن أحب الأعمال إلى الله هي الصلاة على وقتها، ثم بر الوالدين، ثم الجهاد في سبيله.",
+  "number": "أخبر النبي محمد صلى الله عليه وسلم أن أحب الأعمال إلى الله هي الصلاة على وقتها، ثم بر الوالدين، ثم خمسة أعمال أخرى.",
+  "name": "أخبر النبي محمد صلى الله عليه وسلم أن أحب الأعمال إلى الله هي الصلاة على وقتها، ثم بر الأقارب، ثم الجهاد في سبيله.",
+  "exaggeration": "أخبر النبي محمد صلى الله عليه وسلم أن أحب الأعمال إلى الله هي الصلاة على وقتها، وهي العمل الوحيد المقبول، ثم بر الوالدين، ثم الجهاد في سبيله.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "hadith-4202",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-4202",
+   "kind": "hadith",
+   "text_ar": "عن أبي هريرة رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: «مَنْ يَقُمْ لَيْلَةَ الْقَدْرِ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ»",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4202",
+   "verified": false,
+   "content_hash": "74c223bbd2af16cb6e2f777ea51d74e3e34f580841a579727981364bbdd25f08"
+  },
+  "correct": "من قام ليلة القدر إيمانا واحتسابا غفرت ذنوبه السابقة.",
+  "number": "من قام ليلتين من ليالي القدر إيمانا واحتسابا غفرت ذنوبه السابقة.",
+  "name": "من قام ليلة عرفة إيمانا واحتسابا غفرت ذنوبه السابقة.",
+  "exaggeration": "من قام ليلة القدر إيمانا واحتسابا غفرت جميع ذنوبه بلا استثناء.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-4538",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-4538",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: أَوْصَانِي خَلِيلِي صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بِثَلاَثٍ: صِيَامِ ثَلاَثَةِ أَيَّامٍ مِنْ كُلِّ شَهْرٍ، وَرَكْعَتَيِ الضُّحَى، وَأَنْ أُوتِرَ قَبْلَ أَنْ أَنَامَ.",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4538",
+   "verified": false,
+   "content_hash": "16a794f9e4b704c84618aeb4560b31e0b8b90773cb4512bfc18327ee8a7d5d8e"
+  },
+  "correct": "أوصى النبي صلى الله عليه وسلم أبا هريرة بصيام ثلاثة أيام من كل شهر وصلاة ركعتي الضحى والوتر قبل النوم.",
+  "number": "أوصى النبي صلى الله عليه وسلم أبا هريرة بصيام يوم واحد من كل شهر وصلاة ركعتي الضحى والوتر قبل النوم.",
+  "name": "أوصى النبي صلى الله عليه وسلم عمر بصيام ثلاثة أيام من كل شهر وصلاة ركعتي الضحى والوتر قبل النوم.",
+  "exaggeration": "أوصى النبي صلى الله عليه وسلم أبا هريرة بصيام كل أيام الشهر وصلاة ركعتي الضحى والوتر قبل النوم دائمًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-5503",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-5503",
+   "kind": "hadith",
+   "text_ar": "عَنْ شَدَّادِ بْنِ أَوْسٍ رَضِيَ اللَّهُ عَنْهُ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «سَيِّدُ الِاسْتِغْفَارِ أَنْ تَقُولَ: اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ» قَالَ: «وَمَنْ قَالَهَا مِنَ النَّهَارِ مُوقِنًا بِهَا، فَمَاتَ مِنْ يَوْمِهِ قَبْلَ أَنْ يُمْسِيَ، فَهُوَ مِنْ أَهْلِ الجَنَّةِ، وَمَنْ قَالَهَا مِنَ اللَّيْلِ وَهُوَ مُوقِنٌ بِهَا، فَمَاتَ قَبْلَ أَنْ يُصْبِحَ، فَهُوَ مِنْ أَهْلِ الجَنَّةِ».",
+   "reference": "رواه البخاري",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/5503",
+   "verified": false,
+   "content_hash": "328f9b6924163f23bf0230bddf720c2824d39edd0a107fcd773acc5db3d08eeb"
+  },
+  "correct": "دعاء سيد الاستغفار يتضمن الإقرار بتوحيد الله وطلب المغفرة منه، ومن قاله بيقين نال الجنة.",
+  "number": "دعاء سيد الاستغفار يتضمن الإقرار بتوحيد الله وطلب المغفرة منه، ومن قاله مرتين بيقين نال الجنة.",
+  "name": "دعاء سيد الاستغفار يتضمن الإقرار بتوحيد الله وطلب المغفرة منه، ومن قاله عثمان بيقين نال الجنة.",
+  "exaggeration": "دعاء سيد الاستغفار يضمن لكل من قاله دخول الجنة قطعًا، ويغفر جميع الذنوب بلا استثناء.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "hadith-4520",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-4520",
+   "kind": "hadith",
+   "text_ar": "عَنِ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: فَرَضَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ زَكَاةَ الفِطْرِ صَاعًا مِنْ تَمْرٍ، أَوْ صَاعًا مِنْ شَعِيرٍ، عَلَى العَبْدِ وَالحُرِّ، وَالذَّكَرِ وَالأُنْثَى، وَالصَّغِيرِ وَالكَبِيرِ مِنَ المُسْلِمِينَ، وَأَمَرَ بِهَا أَنْ تُؤَدَّى قَبْلَ خُرُوجِ النَّاسِ إِلَى الصَّلاَةِ.",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4520",
+   "verified": false,
+   "content_hash": "e5c68b5cc77e032ccce7e446c618247ba7851962ad3acf70f3116356d216b618"
+  },
+  "correct": "فرض رسول الله صلى الله عليه وسلم زكاة الفطر صاعًا من تمر أو شعير على كل مسلم قبل صلاة العيد.",
+  "number": "فرض رسول الله صلى الله عليه وسلم زكاة الفطر صاعين من تمر أو شعير على كل مسلم قبل صلاة العيد.",
+  "name": "فرض عيسى عليه السلام زكاة الفطر صاعًا من تمر أو شعير على كل مسلم قبل صلاة العيد.",
+  "exaggeration": "فرض رسول الله صلى الله عليه وسلم زكاة الفطر صاعًا من تمر أو شعير على جميع الناس قبل صلاة العيد.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-3711",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-3711",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي هُرَيْرَةَ رضي الله عنه أَنَّ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: «خَيْرُ يَوْمٍ طَلَعَتْ عَلَيْهِ الشَّمْسُ يَوْمُ الْجُمُعَةِ، فِيهِ خُلِقَ آدَمُ، وَفِيهِ أُدْخِلَ الْجَنَّةَ، وَفِيهِ أُخْرِجَ مِنْهَا، وَلَا تَقُومُ السَّاعَةُ إِلَّا فِي يَوْمِ الْجُمُعَةِ».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3711",
+   "verified": false,
+   "content_hash": "901e1a2babc643e817ab7c3097d818d5f1f26ae8acaaaf412a4903d92592aae6"
+  },
+  "correct": "يوم الجمعة هو أفضل الأيام التي تشرق عليها الشمس، ففيه خُلق آدم وأُدخل الجنة وأُخرج منها، وفيه تقوم الساعة.",
+  "number": "يوم الجمعة هو أفضل خمسة أيام تشرق عليها الشمس، ففيه خُلق آدم وأُدخل الجنة وأُخرج منها، وفيه تقوم الساعة.",
+  "name": "يوم السبت هو أفضل الأيام التي تشرق عليها الشمس، ففيه خُلق آدم وأُدخل الجنة وأُخرج منها، وفيه تقوم الساعة.",
+  "exaggeration": "يوم الجمعة هو أفضل جميع الأيام التي تشرق عليها الشمس، ففيه خُلق آدم وأُدخل الجنة وأُخرج منها، وفيه تقوم الساعة دائمًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-3755",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-3755",
+   "kind": "hadith",
+   "text_ar": "عَنْ عَائِشَةَ أُمِّ المؤْمِنينَ رَضِيَ اللهُ عَنْهَا: كَانَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَجْتَهِدُ فِي الْعَشْرِ الْأَوَاخِرِ مَا لَا يَجْتَهِدُ فِي غَيْرِهِ.",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3755",
+   "verified": false,
+   "content_hash": "29261596e0a6b7aba36500cf041b838a8f4316f344a13a87e15f290279f524c6"
+  },
+  "correct": "كان رسول الله صلى الله عليه وسلم يحرص على العبادة والاجتهاد في العشر الأواخر من رمضان أكثر من غيرها.",
+  "number": "كان رسول الله صلى الله عليه وسلم يحرص على العبادة والاجتهاد في العشرين الأواخر من رمضان أكثر من غيرها.",
+  "name": "كان رسول الله صلى الله عليه وسلم يحرص على العبادة والاجتهاد في العشر الأواخر من شوال أكثر من غيرها.",
+  "exaggeration": "كان رسول الله صلى الله عليه وسلم يحرص دائمًا على العبادة والاجتهاد في كل الأيام أكثر من غيرها.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "hadith-65523",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-65523",
+   "kind": "hadith",
+   "text_ar": "عن أبي أيوب الأنصاري رضي الله عنه أن رسول الله صلى الله عليه وسلم قال: «من صام رمضان ثم أتبعه ستًّا من شوال كان كصيام الدهر».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65523",
+   "verified": false,
+   "content_hash": "b2b5c04c499af392acfd7fe0d3329e2dc34554dd7a7aab350e0eed29605416f2"
+  },
+  "correct": "من صام شهر رمضان وأتبعه بصيام ستة أيام من شوال فكأنما صام الدهر كله.",
+  "number": "من صام شهر رمضان وأتبعه بصيام سبعة أيام من شوال فكأنما صام الدهر كله.",
+  "name": "من صام شهر رمضان وأتبعه بصيام ستة أيام من ذي الحجة فكأنما صام الدهر كله.",
+  "exaggeration": "من صام شهر رمضان وأتبعه بصيام ستة أيام من شوال وجب عليه صيام الدهر كله.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-3290",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-3290",
+   "kind": "hadith",
+   "text_ar": "عن أسامة بن زيد بن حارثة رضي الله عنهما قال: أرسلت بنت النبي صلى الله عليه وسلم إنَّ ابني قد احتُضِر فاشْهَدنَا، فأرسَل يُقرِىءُ السَّلام، ويقول: «إنَّ لِلَّه ما أَخَذ ولَهُ ما أَعطَى، وكلُّ شَيءٍ عِنده بِأجَل مُسمَّى فَلتَصبِر ولتَحتَسِب». فأرسلت إليه تُقسِم عَليه لَيَأتِيَنَّها، فقام ومعه سعد بن عبادة، ومعاذ بن جبل، وأبي بن كعب، وزيد بن ثابت، ورجال رضي الله عنهم فَرفع إلى رسول الله صلى الله عليه وسلم الصَّبِي، فأَقعَدَه في حِجرِه ونَفسه تَقَعقَع، فَفَاضَت عينَاه فقال سعد: يا رسول الله، ما هذا؟ فقال: «هذه رَحمَة جَعلَها الله تعالى في قُلُوب عِباده» وفي رواية: «في قلوب من شاء من عباده، وإنَّما يَرحَم الله من عِبَاده الرُّحَماء».",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3290",
+   "verified": false,
+   "content_hash": "91ba3dda91a2280a9270ca4b103c31cd308e0eba896e7711f6eccba5a4614477"
+  },
+  "correct": "أرسلت ابنة النبي صلى الله عليه وسلم تستدعيه ليشهد وفاة ابنها، فأرسل إليها يذكرها بأن لله ما أخذ وما أعطى، وأن كل شيء عنده بأجل مسمى، ثم ذهب إليها.",
+  "number": "أرسلت ابنة النبي صلى الله عليه وسلم تستدعيه ليشهد وفاة ابنها، فأرسل إليها يذكرها بأن لله ما أخذ وما أعطى، وأن كل شيء عنده بأجلين مسميين، ثم ذهب إليها.",
+  "name": "أرسلت ابنة أبي بكر الصديق تستدعيه ليشهد وفاة ابنها، فأرسل إليها يذكرها بأن لله ما أخذ وما أعطى، وأن كل شيء عنده بأجل مسمى، ثم ذهب إليها.",
+  "exaggeration": "أرسلت ابنة النبي صلى الله عليه وسلم تستدعيه ليشهد وفاة ابنها، فأرسل إليها يذكرها بأن لله ما أخذ وما أعطى، وأن كل شيء عنده بأجل مسمى، ويجب على الجميع الصبر والاحتساب دائمًا، ثم ذهب إليها.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-65441",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-65441",
+   "kind": "hadith",
+   "text_ar": "عن نافع أن ابن عمر كان إذا دخل في الصلاة كبر ورفع يديه، وإذا ركع رفع يديه، وإذا قال: سمع الله لمن حمده. رفع يديه، وإذا قام من الركعتين رفع يديه، ورفع ذلك ابن عمر إلى نبي الله صلى الله عليه وسلم.",
+   "reference": "رواه البخاري",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65441",
+   "verified": false,
+   "content_hash": "9dd79eeb7e3a2ca99c74363139155e4b0ab047d8ee6f01767e988fb8b365d233"
+  },
+  "correct": "كان ابن عمر يرفع يديه عند التكبير للركوع والرفع منه والقيام من الركعتين اقتداءً بالنبي صلى الله عليه وسلم.",
+  "number": "كان ابن عمر يرفع يديه عند التكبير للركوع والرفع منه والقيام من ثلاث ركعات اقتداءً بالنبي صلى الله عليه وسلم.",
+  "name": "كان ابن عمر يرفع يديه عند التكبير للركوع والرفع منه والقيام من الركعتين اقتداءً بأبي بكر الصديق.",
+  "exaggeration": "كان ابن عمر دائماً يرفع يديه عند التكبير للركوع والرفع منه والقيام من كل ركعة اقتداءً بالنبي صلى الله عليه وسلم.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "hadith-4568",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-4568",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ، كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ يَعْدِلُ بَيْنَ الِاثْنَيْنِ صَدَقَةٌ، وَيُعِينُ الرَّجُلَ عَلَى دَابَّتِهِ فَيَحْمِلُ عَلَيْهَا أَوْ يَرْفَعُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، وَكُلُّ خُطْوَةٍ يَخْطُوهَا إِلَى الصَّلاَةِ صَدَقَةٌ، وَيُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ».",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4568",
+   "verified": false,
+   "content_hash": "cb612bbe58cb19247a8c21af52317978ad12448892f1c68f02599fb3edcf23c5"
+  },
+  "correct": "كل مفصل من مفاصل الإنسان عليه صدقة كل يوم تطلع فيه الشمس، وتشمل الصدقات العدل بين اثنين وإعانة الرجل ورفع متاعه والكلمة الطيبة والمشي إلى الصلاة وإماطة الأذى عن الطريق.",
+  "number": "كل مفصل من مفاصل الإنسان عليه صدقة كل ساعتين تطلع فيه الشمس، وتشمل الصدقات العدل بين اثنين وإعانة الرجل ورفع متاعه والكلمة الطيبة والمشي إلى الصلاة وإماطة الأذى عن الطريق.",
+  "name": "كل مفصل من مفاصل الإنسان عليه صدقة كل يوم تطلع فيه الشمس، وتشمل الصدقات العدل بين الزوجين وإعانة الرجل ورفع متاعه والكلمة الطيبة والمشي إلى الصلاة وإماطة الأذى عن الطريق.",
+  "exaggeration": "كل مفصل من مفاصل الإنسان عليه صدقة عظيمة كل يوم تطلع فيه الشمس، وتشمل الصدقات العدل بين اثنين وإعانة الرجل ورفع متاعه والكلمة الطيبة والمشي إلى الصلاة وإماطة الأذى عن الطريق.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-8958",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-8958",
+   "kind": "hadith",
+   "text_ar": "عن أبي قتادة رضي الله عنه : أنه سمع رسول الله صلى الله عليه وسلم يقول: «إيَّاكُمْ وكَثْرَةَ الحَلِفِ في البيع، فإنه يُنَفِّقُ ثم يَمْحَقُ».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/8958",
+   "verified": false,
+   "content_hash": "9feecba19af8ff1d50338aca7c5830846d59d44ad85ec7dc394cd71e88488180"
+  },
+  "correct": "نهى رسول الله صلى الله عليه وسلم عن كثرة الحلف في البيع لأنه ينفق السلعة ثم يمحق بركتها.",
+  "number": "نهى رسول الله صلى الله عليه وسلم عن حلفين في البيع لأنه ينفق السلعة ثم يمحق بركتها.",
+  "name": "نهى موسى عليه السلام عن كثرة الحلف في البيع لأنه ينفق السلعة ثم يمحق بركتها.",
+  "exaggeration": "نهى رسول الله صلى الله عليه وسلم عن كل أنواع الحلف في البيع لأنه ينفق السلعة ثم يمحق بركتها دائمًا.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-5356",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-5356",
+   "kind": "hadith",
+   "text_ar": "عن عبد الله بن عمر رضي الله عنهما مرفوعاً: «إذا أكل أحدكم فليأكل بيمينه، وإذا شرب فليشرب بيمينه، فإن الشيطان يأكل بشماله، ويشرب بشماله».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/5356",
+   "verified": false,
+   "content_hash": "d94a1e098ac6252bf99404f8ac74216548c7fe9a1ef1e8fc63b79697b23d4973"
+  },
+  "correct": "يجب على المسلم أن يأكل ويشرب بيده اليمنى لأن الشيطان يأكل ويشرب بيده اليسرى.",
+  "number": "يجب على المسلم أن يأكل ويشرب بكلتا يديه لأن الشيطان يأكل ويشرب بيده اليسرى.",
+  "name": "يجب على المسلم أن يأكل ويشرب بيده اليمنى لأن الكافر يأكل ويشرب بيده اليسرى.",
+  "exaggeration": "يجب على جميع المسلمين دائمًا أن يأكلوا ويشربوا بأيديهم اليمنى لأن الشيطان يأكل ويشرب بيده اليسرى.",
+  "split": "holdout"
+ },
+ {
+  "source_id": "hadith-4498",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-4498",
+   "kind": "hadith",
+   "text_ar": "عن أَنَسِ بْنِ مَالِكٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «تَسَحَّرُوا، فَإِنَّ فِي السَّحُورِ بَرَكَةً».",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4498",
+   "verified": false,
+   "content_hash": "7a18f471fd448cfe85d09dfb47bf801432f084e2c884a9d6ccf5f448683adab7"
+  },
+  "correct": "حث النبي محمد صلى الله عليه وسلم على السحور لأن فيه بركة وخير للمسلم.",
+  "number": "حث النبي محمد صلى الله عليه وسلم على السحور مرتين لأن فيه بركة وخير للمسلم.",
+  "name": "حث النبي عيسى عليه السلام على السحور لأن فيه بركة وخير للمسلم.",
+  "exaggeration": "حث النبي محمد صلى الله عليه وسلم على السحور دائمًا لأنه يضمن كل بركة وخير للمسلم.",
+  "split": "tune"
+ },
+ {
+  "source_id": "hadith-66536",
+  "kind": "hadith",
+  "source": {
+   "id": "hadith-66536",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي بُرْدَةَ، عَنْ أَبِيهِ أَبِي مُوسَى الأَشْعَريِّ رَضِيَ اللَّهُ عَنْهُ: أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بَعَثَهُ إِلَى اليَمَنِ، فَسَأَلَهُ عَنْ أَشْرِبَةٍ تُصْنَعُ بِهَا، فَقَالَ: وَمَا هِيَ؟، قَالَ: «البِتْعُ وَالمِزْرُ»، فَقِيلَ لِأَبِي بُرْدَةَ: مَا البِتْعُ؟ قَالَ: نَبِيذُ العَسَلِ، وَالمِزْرُ: نَبِيذُ الشَّعِيرِ، فَقَالَ: «كُلُّ مُسْكِرٍ حَرَامٌ» خرجه البخاري.\nوَخَرَّجَهُ مُسْلِمٌ وَلَفْظُهُ: قَالَ: بَعَثَنِي رَسُولُ اَلله أَنَا وَمُعَاذٌ إِلَى اَليَمَنِ، فَقُلْتُ: يَا رَسُولُ اَللَّهِ! إِنَّ شَرَابًا يُصْنَعُ بِأَرْضِنَا يُقَال لَهُ: المِزَرُ مِنَ الشَّعِيرِ، وَشَرَابٌ يُقَالُ لَهُ: البِتْعُ مِنَ العَسَلِ، فَقَالَ: «كُلُّ مُسْكِرٍ حَرَامٌ». \nوَفِي رِوَايَةٍ لِمُسْلِمٍ: «فَقَالَ: كُلُّ مَا أَسْكَرَ عَنِ الصَّلَاةِ فَهُوَ حَرَامٌ». \nوَفِي رِوَايَةٍ لَهُ: «وَكَانَ رَسُولُ الله قَدْ أُعْطِيَ جَوَامِعَ الكَلِمِ بِخَوَاتِمِهِ، فَقَالَ: أَنْهَى عَنْ كُلِّ مُسْكِرٍ أَسْكَرَ عَنْ الصَّلَاةِ».",
+   "reference": "رواه البخاري ومسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/66536",
+   "verified": false,
+   "content_hash": "a5eadf5a1b9d12bd92d23af2efb8a13f40c0b86923c0e0282cb64653b23320d1"
+  },
+  "correct": "أخبر النبي صلى الله عليه وسلم أبا موسى الأشعري ومعاذًا أن كل ما يسكر عن الصلاة فهو حرام.",
+  "number": "أخبر النبي صلى الله عليه وسلم أبا موسى الأشعري ومعاذًا أن كل ما يسكر عن الصلاة فهو حلال.",
+  "name": "أخبر النبي صلى الله عليه وسلم أبا هريرة ومعاذًا أن كل ما يسكر عن الصلاة فهو حرام.",
+  "exaggeration": "أخبر النبي صلى الله عليه وسلم أبا موسى الأشعري ومعاذًا أن كل ما يسكر في الدنيا فهو حرام قطعًا.",
+  "split": "tune"
+ }
+]

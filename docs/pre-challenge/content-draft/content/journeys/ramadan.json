@@ -1,0 +1,272 @@
+{
+  "id": "ramadan",
+  "level": "A",
+  "sort": 1,
+  "when": {
+    "type": "hijri",
+    "windows": [
+      {
+        "from": {
+          "month": 9,
+          "day": 1
+        },
+        "to": {
+          "month": 9,
+          "day": 30
+        }
+      }
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Ramadan",
+      "teaser": "Ramadan begins Sunday. Want to understand what you'll see around you?",
+      "scene": "Your colleague Khalid politely declined the team lunch — and he was smiling. Why do you think?",
+      "options": [
+        {
+          "id": "m-diet",
+          "label": "He's on a diet"
+        },
+        {
+          "id": "m-punish",
+          "label": "It's a religious punishment"
+        },
+        {
+          "id": "m-upset",
+          "label": "He's upset with the team"
+        },
+        {
+          "id": "m-culture",
+          "label": "It's just a cultural custom"
+        }
+      ],
+      "reveals": {
+        "m-diet": {
+          "picked": "You picked: \"He's on a diet\"",
+          "headline": "Not a diet — a fast.",
+          "body": "It's easy to read it that way. Khalid is fasting for Ramadan: no food or drink from dawn until sunset, every day for a month. It's about meaning, not calories."
+        },
+        "m-punish": {
+          "picked": "You picked: \"It's a religious punishment\"",
+          "headline": "Many people think fasting is a punishment.",
+          "body": "Its real meaning is closer to the opposite. Muslims see Ramadan as a month they look forward to all year — a time of discipline, reflection and generosity."
+        },
+        "m-upset": {
+          "picked": "You picked: \"He's upset with the team\"",
+          "headline": "The smile was real.",
+          "body": "Declining lunch can look like distance. Khalid is fasting for Ramadan — and telling you to go ahead without him is his way of being considerate."
+        },
+        "m-culture": {
+          "picked": "You picked: \"It's just a cultural custom\"",
+          "headline": "More than a custom.",
+          "body": "Ramadan does come with lovely social traditions that differ from country to country. But the fast itself is an act of worship — one of the five pillars of Islam — and Muslims in every culture observe it."
+        }
+      },
+      "explain_prompt": "Explain it to a colleague — in one sentence.",
+      "tip": {
+        "headline": "It's fine to eat in front of him.",
+        "lead": "And saying \"Ramadan Kareem\" will make his day.",
+        "items": [
+          "No need to hide your coffee or lunch — just don't offer him food during the day.",
+          "Planning a team lunch? Make it optional, or move it to an evening iftar.",
+          "Working hours often shift during Ramadan — check your team's schedule."
+        ]
+      }
+    },
+    "ar": {
+      "title": "رمضان",
+      "teaser": "رمضان يبدأ الأحد. تحب تفهم وش بتشوف حولك؟",
+      "scene": "زميلك خالد اعتذر بلطف عن غداء الفريق وهو مبتسم. ليش برأيك؟",
+      "options": [
+        {
+          "id": "m-diet",
+          "label": "حمية"
+        },
+        {
+          "id": "m-punish",
+          "label": "عقاب ديني"
+        },
+        {
+          "id": "m-upset",
+          "label": "زعلان من الفريق"
+        },
+        {
+          "id": "m-culture",
+          "label": "مجرد عادة ثقافية"
+        }
+      ],
+      "reveals": {
+        "m-diet": {
+          "picked": "اخترت: «حمية»",
+          "headline": "ليست حمية، بل صيام.",
+          "body": "من السهل أن تظنها حمية. خالد صائم في رمضان: لا طعام ولا شراب من الفجر حتى غروب الشمس، كل يوم لمدة شهر. الأمر يتعلق بالمعنى لا بالسعرات."
+        },
+        "m-punish": {
+          "picked": "اخترت: «عقاب ديني»",
+          "headline": "كثير يظنون إن الصيام عقاب.",
+          "body": "ومعناه الحقيقي أقرب إلى العكس: يرى المسلمون رمضان شهرًا ينتظرونه طوال العام، شهرَ انضباط وتأمّل وكرم."
+        },
+        "m-upset": {
+          "picked": "اخترت: «زعلان من الفريق»",
+          "headline": "الابتسامة كانت صادقة.",
+          "body": "قد يبدو الاعتذار عن الغداء ابتعادًا، لكن خالد صائم في رمضان، وطلبه منكم أن تستمتعوا بدونه لطفٌ منه."
+        },
+        "m-culture": {
+          "picked": "اخترت: «مجرد عادة ثقافية»",
+          "headline": "أكثر من عادة.",
+          "body": "لرمضان عادات اجتماعية جميلة تختلف من بلد إلى آخر، لكن الصيام نفسه عبادة، وهو أحد أركان الإسلام الخمسة، ويصومه المسلمون في كل الثقافات."
+        }
+      },
+      "explain_prompt": "اشرحها لزميل بجملة واحدة.",
+      "tip": {
+        "headline": "عادي تاكل قدامه.",
+        "lead": "وكلمة «رمضان كريم» تفرّحه.",
+        "items": [
+          "لا داعي لإخفاء قهوتك أو غدائك، فقط لا تعرض عليه الأكل خلال النهار.",
+          "تخطط لغداء فريق؟ اجعله اختياريًا، أو حوّله إلى إفطار مسائي.",
+          "ساعات الدوام غالبًا تتغيّر في رمضان، تأكد من جدول فريقك."
+        ]
+      }
+    },
+    "ur": {
+      "title": "رمضان",
+      "teaser": "رمضان اتوار سے شروع ہے۔ جاننا چاہیں گے کہ آپ کے اردگرد کیا ہوگا؟",
+      "scene": "آپ کے ساتھی خالد نے مسکراتے ہوئے نرمی سے ٹیم لنچ سے معذرت کر لی۔ آپ کے خیال میں کیوں؟",
+      "options": [
+        {
+          "id": "m-diet",
+          "label": "وہ ڈائٹ پر ہے"
+        },
+        {
+          "id": "m-punish",
+          "label": "یہ کوئی مذہبی سزا ہے"
+        },
+        {
+          "id": "m-upset",
+          "label": "وہ ٹیم سے ناراض ہے"
+        },
+        {
+          "id": "m-culture",
+          "label": "یہ محض ایک ثقافتی رواج ہے"
+        }
+      ],
+      "reveals": {
+        "m-diet": {
+          "picked": "آپ نے چنا: «ڈائٹ»",
+          "headline": "ڈائٹ نہیں — روزہ۔",
+          "body": "اسے ڈائٹ سمجھنا آسان ہے۔ خالد رمضان کا روزہ رکھے ہوئے ہے: پورا مہینہ ہر روز فجر سے غروبِ آفتاب تک نہ کھانا نہ پینا۔ بات کیلوریز کی نہیں، معنی کی ہے۔"
+        },
+        "m-punish": {
+          "picked": "آپ نے چنا: «مذہبی سزا»",
+          "headline": "بہت سے لوگ روزے کو سزا سمجھتے ہیں۔",
+          "body": "اس کا اصل مطلب تقریباً اس کے برعکس ہے۔ مسلمان سارا سال رمضان کا انتظار کرتے ہیں — نظم و ضبط، غور و فکر اور سخاوت کا مہینہ۔"
+        },
+        "m-upset": {
+          "picked": "آپ نے چنا: «ناراض»",
+          "headline": "مسکراہٹ سچی تھی۔",
+          "body": "لنچ سے معذرت دوری جیسی لگ سکتی ہے۔ خالد روزے سے ہے — اور آپ کو اپنے بغیر کھانے کا کہنا اس کی خوش اخلاقی ہے۔"
+        },
+        "m-culture": {
+          "picked": "آپ نے چنا: «یہ محض ایک ثقافتی رواج ہے»",
+          "headline": "رواج سے بڑھ کر۔",
+          "body": "رمضان کے ساتھ خوبصورت سماجی روایات ضرور جڑی ہیں جو ہر ملک میں مختلف ہیں، لیکن روزہ خود ایک عبادت ہے، اسلام کے پانچ ارکان میں سے ایک، اور ہر ثقافت کے مسلمان اسے رکھتے ہیں۔"
+        }
+      },
+      "explain_prompt": "کسی ساتھی کو ایک جملے میں سمجھائیں۔",
+      "tip": {
+        "headline": "اس کے سامنے کھانا بالکل ٹھیک ہے۔",
+        "lead": "اور «رمضان کریم» کہنا اسے خوش کر دے گا۔",
+        "items": [
+          "اپنی کافی یا لنچ چھپانے کی ضرورت نہیں — بس دن میں اسے کھانے کی پیشکش نہ کریں۔",
+          "ٹیم لنچ کا منصوبہ ہے؟ اسے اختیاری رکھیں یا شام کے افطار پر منتقل کریں۔",
+          "رمضان میں کام کے اوقات اکثر بدل جاتے ہیں — اپنی ٹیم کا شیڈول دیکھ لیں۔"
+        ]
+      }
+    }
+  },
+  "card_id": "card-ramadan-1",
+  "card": {
+    "id": "card-ramadan-1",
+    "journey_id": "ramadan",
+    "source_ids": [
+      "quran-2-183"
+    ],
+    "explanation": {
+      "en": "The verse says fasting isn't new — earlier communities fasted too. Its stated purpose is taqwa: a steady awareness of God that shapes everyday behaviour. That's why many Muslims experience Ramadan as a reset, not a penalty.",
+      "ar": "تذكر الآية أن الصيام ليس جديدًا، فقد كُتب على أمم سابقة. وغايته المذكورة هي التقوى: وعيٌ دائم بالله ينعكس على تصرّفات الإنسان اليومية. لذلك يعيش كثير من المسلمين رمضان كفرصة لتجديد النفس، لا كعقوبة.",
+      "ur": "آیت بتاتی ہے کہ روزہ نیا نہیں — پہلی قوموں پر بھی فرض تھا۔ اس کا مقصد تقویٰ ہے: اللہ کا مستقل شعور جو روزمرہ رویّے کو سنوارتا ہے۔ اسی لیے بہت سے مسلمانوں کے لیے رمضان سزا نہیں بلکہ نئی شروعات جیسا ہوتا ہے۔"
+    },
+    "generated_by": "claude-draft",
+    "reviewed": false,
+    "reviewed_by": null,
+    "key_points": [
+      {
+        "id": "kp1",
+        "en": "Fasting means no food or drink from dawn until sunset.",
+        "ar": "الصيام امتناع عن الطعام والشراب من الفجر إلى غروب الشمس.",
+        "ur": "روزہ فجر سے غروبِ آفتاب تک کھانے پینے سے رکنے کا نام ہے۔"
+      },
+      {
+        "id": "kp2",
+        "en": "It is every day for the whole month of Ramadan.",
+        "ar": "يكون كل يوم طوال شهر رمضان.",
+        "ur": "یہ رمضان کے پورے مہینے ہر روز رکھا جاتا ہے۔"
+      },
+      {
+        "id": "kp3",
+        "en": "Its purpose is God-consciousness, self-discipline and closeness to God — not punishment.",
+        "ar": "غايته التقوى وضبط النفس والقرب من الله، وليس عقوبة.",
+        "ur": "اس کا مقصد تقویٰ، ضبطِ نفس اور اللہ کی قربت ہے، سزا نہیں۔"
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-diet",
+        "en": "He's on a diet",
+        "ar": "حمية",
+        "ur": "وہ ڈائٹ پر ہے"
+      },
+      {
+        "id": "m-punish",
+        "en": "It's a religious punishment",
+        "ar": "عقاب ديني",
+        "ur": "یہ کوئی مذہبی سزا ہے"
+      },
+      {
+        "id": "m-upset",
+        "en": "He's upset with the team",
+        "ar": "زعلان من الفريق",
+        "ur": "وہ ٹیم سے ناراض ہے"
+      },
+      {
+        "id": "m-culture",
+        "en": "It's just a cultural custom",
+        "ar": "مجرد عادة ثقافية",
+        "ur": "یہ محض ایک ثقافتی رواج ہے"
+      }
+    ],
+    "question_variants": {
+      "en": [
+        "Why isn't my colleague eating lunch with us this month?",
+        "What is Ramadan?",
+        "Why do Muslims fast?",
+        "Is it okay to eat in front of a fasting colleague?",
+        "Why did our working hours change this month?"
+      ],
+      "ar": [
+        "ليش زميلي ما ياكل معنا في الغداء هالشهر؟",
+        "وش معنى رمضان؟",
+        "ليش المسلمين يصومون؟",
+        "هل عادي آكل قدام زميلي الصايم؟",
+        "ليش تغيّرت ساعات الدوام هالشهر؟"
+      ],
+      "ur": [
+        "میرا ساتھی اس مہینے ہمارے ساتھ دوپہر کا کھانا کیوں نہیں کھا رہا؟",
+        "رمضان کیا ہے؟",
+        "مسلمان روزہ کیوں رکھتے ہیں؟",
+        "کیا روزہ دار ساتھی کے سامنے کھانا ٹھیک ہے؟",
+        "اس مہینے دفتر کے اوقات کیوں بدل گئے؟"
+      ]
+    }
+  }
+}

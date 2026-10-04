@@ -1,0 +1,263 @@
+{
+ "topic_id": "hijab",
+ "topic": "زميلة ترتدي الحجاب في العمل",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 24,
+    "ayah": 31
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   10671
+  ],
+  "steps": 4
+ },
+ "journey": {
+  "id": "workplace-hijab-understanding",
+  "level": "B",
+  "when": "always",
+  "title": "فهم الحجاب في بيئة العمل",
+  "teaser": "تلاحظ أن زميلتك ترتدي حجابًا، وتريد فهم دافع هذا الاختيار دون أحكام مسبقة.",
+  "scene": "دخلتَ المكتب صباحًا ووجدتَ سارة تترتب أمام المرآة قبل بدء الدوام. لاحظت أنها تضع قطعة قماش تغطي شعرها ورقبتها بشكل مرتب وأنيق يتناسب مع ملابس العمل الرسمية. سألت نفسك: ليش تختار ترتدي الحجاب وهي في مكان عمل حديث ومهني؟",
+  "character_names": [
+   "سارة"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "ضغط اجتماعي أو عائلي",
+    "reveal_headline": "قرار شخصي وإيماني",
+    "reveal_body": "هذا التفسير يقلل من شأن اختيار سارة الشخصي؛ فالارتداء هنا نابع من إيمانها الشخصي ورضائها الداخلي، وليس مجرد طاعة لأحد خارجي أو ضغط مجتمعي."
+   },
+   {
+    "id": "opt-2",
+    "label": "رمز تقليدي لا علاقة له بالعمل",
+    "reveal_headline": "جزء من الهوية والالتزام",
+    "reveal_body": "الحجاب ليس مجرد لباس تقليدي عابر، بل هو التزام ديني مباشر يربط بين هويتها الشخصية وممارستها اليومية، مما يعكس قيمتها الداخلية التي تحملها معها أينما ذهبت."
+   },
+   {
+    "id": "opt-3",
+    "label": "محاولة للتمييز عن الآخرين",
+    "reveal_headline": "عبادة وطاعة لله",
+    "reveal_body": "الهدف الأساسي من ارتدائه ليس إبراز الذات أو التميز عن الزملاء، بل هو فعل عبادة وطاعة لأمر الله، يسعى من خلاله المؤمن إلى القرب من ربه والتقوى."
+   },
+   {
+    "id": "opt-4",
+    "label": "عادة ثقافية فقط",
+    "reveal_headline": "أمر شرعي واضح",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "الحجاب في الإسلام هو التزام ديني مباشر تستمد منه المرأة المسلمة معناها الروحي، وهو أمر تعبدي يرتبط بطاعة الله عز وجل كما ورد في النصوص الشرعية. إنه تعبير عن الإيمان والانضباط الذاتي، وليس مجرد مظهر خارجي أو تقليدًا اجتماعيًا بحتًا.",
+  "explain_prompt": "اشرح ما تقوله المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب التعامل مع الزميلات المتحجبات",
+   "lead": "لتعزيز بيئة عمل محترمة ومتناغمة، اتبع هذه النصائح العملية:",
+   "items": [
+    "عامل الزميلات جميعهن باحترام متساوٍ بغض النظر عن مظهرهن الخارجي، ولا تعلق على لباسهن إلا إذا كان هناك استفسار مهني ضروري.",
+    "احترم خصوصيتهن الشخصية وتجنب الأسئلة الفضولية حول أسباب ارتدائهن للحجاب، حيث يعتبر الأمر خاصًا بينهن وبين الله.",
+    "ركز في النقاشات المهنية على الكفاءة والخبرة، وتأكد من أن لغة الجسد والكلام تكون مهنية ومحترمة للجميع."
+   ]
+  },
+  "key_points": [
+   "الحجاب التزام ديني تعبدي مرتبط بطاعة الله، وليس مجرد عادة ثقافية أو ضغط اجتماعي.",
+   "يرتبط الحجاب بالإيمان الشخصي والانضباط الذاتي للمرأة المسلمة كجزء من هويتها الروحية.",
+   "يجب التعامل مع الزميلات المتحجبات باحترام كامل وتجنب التدخل في شؤونهن الشخصية أو الدينية."
+  ],
+  "question_variants": [
+   "لماذا تختار بعض الموظفات ارتداء الحجاب في بيئة العمل الحديثة؟",
+   "ما هو الدافع الحقيقي وراء التزام المرأة بالحجاب في سياق المهني؟",
+   "كيف يمكن فهم قرار ارتداء الحجاب بعيدًا عن الصور النمطية؟",
+   "هل الحجاب مجرد موضة أم له أبعاد أخرى في حياة المرأة العاملة؟",
+   "ما الفرق بين النظرة الثقافية والنظرة الدينية لحجاب المرأة في العمل؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-24-31",
+   "kind": "quran",
+   "text_ar": "وَقُل لِّلۡمُؤۡمِنَٰتِ يَغۡضُضۡنَ مِنۡ أَبۡصَٰرِهِنَّ وَيَحۡفَظۡنَ فُرُوجَهُنَّ وَلَا يُبۡدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنۡهَاۖ وَلۡيَضۡرِبۡنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّۖ وَلَا يُبۡدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوۡ ءَابَآئِهِنَّ أَوۡ ءَابَآءِ بُعُولَتِهِنَّ أَوۡ أَبۡنَآئِهِنَّ أَوۡ أَبۡنَآءِ بُعُولَتِهِنَّ أَوۡ إِخۡوَٰنِهِنَّ أَوۡ بَنِيٓ إِخۡوَٰنِهِنَّ أَوۡ بَنِيٓ أَخَوَٰتِهِنَّ أَوۡ نِسَآئِهِنَّ أَوۡ مَا مَلَكَتۡ أَيۡمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيۡرِ أُوْلِي ٱلۡإِرۡبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفۡلِ ٱلَّذِينَ لَمۡ يَظۡهَرُواْ عَلَىٰ عَوۡرَٰتِ ٱلنِّسَآءِۖ وَلَا يَضۡرِبۡنَ بِأَرۡجُلِهِنَّ لِيُعۡلَمَ مَا يُخۡفِينَ مِن زِينَتِهِنَّۚ وَتُوبُوٓاْ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلۡمُؤۡمِنُونَ لَعَلَّكُمۡ تُفۡلِحُونَ",
+   "reference": "24:31",
+   "translations": {
+    "en": {
+     "text": "Tell the believing women to lower their gazes and guard their private parts, and not to reveal their beauty except what appears. And let them draw their veils over their chests, and not to reveal their beauty except to their husbands, their fathers, their fathers-in-law, their sons, their stepsons, their brothers, their brothers’ sons or sisters’ sons, their fellow women, slaves whom they own, male attendants who have no [sexual] desire, or children who are still unaware of private aspects of women. Nor let them stamp their feet in order to draw attention to their hidden charm. And turn to Allah in repentance all together, O believers, so that you may be successful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/24/31",
+   "verified": false,
+   "content_hash": "c4f6da1b991b332f5bdf131e5174b5b4b6e21c461fb90e5107d0f73a37902e50"
+  },
+  {
+   "id": "term-10671",
+   "kind": "term",
+   "text_ar": "حجاب: وردت النصوص الشرعية بأن لله عز وجل حجابا وحجبا منفصلة عن العبد يكشفها إذا شاء فيتجلى، وإذا شاء لم يكشفها احتجب عن خلقه بقدرته وسلطانه، وحجابه النور لو كشفه لأحرق نور الرب وجلاؤه كل ما أدركه بصره، وقد احتجب سبحانه عن أعين الناظرين في الدنيا رحمة لهم؛ لأنه لو تجلى في الدنيا لهذه الأعين المخلوقة الفانية لصارت كجبل موسى عليه السلام دكا، وما احتملت النظر إلى الله تعالى؛ لأنها أبصار خلقت للفناء، لا تحتمل نور البقاء.\nوأما في الآخرة فالأحاديث في رؤية المؤمنين لربهم بلغت مبلغ التواتر عن رسول الله صلى الله عليه وسلم، وتلقاها أتباعه بالقبول والتسليم، وكلهم يرجو ربه ويسأله أن يكون ممن يراه في جنات عدن يوم يلقاه. النور الذي يمنع من رؤية الله سبحانه وتعالى.",
+   "reference": "حجاب",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/10671",
+   "verified": false,
+   "content_hash": "10b95ccdad743dcb0358da2f83ac3c78eafd868fe664b392c2b35223c40d14ca"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الحجاب في الإسلام هو التزام ديني مباشر تستمد منه المرأة المسلمة معناها الروحي، وهو أمر تعبدي يرتبط بطاعة الله عز وجل كما ورد في النصوص الشرعية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "إنه تعبير عن الإيمان والانضباط الذاتي، وليس مجرد مظهر خارجي أو تقليدًا اجتماعيًا بحتًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا التفسير يقلل من شأن اختيار سارة الشخصي؛ فالارتداء هنا نابع من إيمانها الشخصي ورضائها الداخلي، وليس مجرد طاعة لأحد خارجي أو ضغط مجتمعي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "الحجاب ليس مجرد لباس تقليدي عابر، بل هو التزام ديني مباشر يربط بين هويتها الشخصية وممارستها اليومية، مما يعكس قيمتها الداخلية التي تحملها معها أينما ذهبت.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "الهدف الأساسي من ارتدائه ليس إبراز الذات أو التميز عن الزملاء، بل هو فعل عبادة وطاعة لأمر الله، يسعى من خلاله المؤمن إلى القرب من ربه والتقوى.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "لا يمكن اختزاله في كونه عادة ثقافية متغيرة، فهو حكم شرعي ثابت وردت أدلته في القرآن الكريم والسنة النبوية، مما يجعله التزامًا دينيًا ملزمًا للمسلمة.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "حجاب"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 4,
+  "sentences_generated": 6,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 3,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 9407,
+  "tokens_out": 1485
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الحجاب",
+   "hits": 5
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحجاب",
+   "hits": 1
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الستر العفاف الزينة",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "ليضغن على خمرهن وجيوبهن",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-0",
+   "text": "لا يمكن اختزاله في كونه عادة ثقافية متغيرة، فهو حكم شرعي ثابت وردت أدلته في القرآن الكريم والسنة النبوية، مما يجعله التزامًا دينيًا ملزمًا للمسلمة.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 31.8
+}

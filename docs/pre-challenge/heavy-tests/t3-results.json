@@ -1,0 +1,30 @@
+{
+ "days": 1772,
+ "range": [
+  "2024-07-07",
+  "2029-05-13"
+ ],
+ "instants": [
+  "00:30",
+  "12:00",
+  "23:30"
+ ],
+ "dateChecks": 5316,
+ "dateFails": 0,
+ "occasionChecks": 85056,
+ "occasionFails": 0,
+ "countdownChecks": 22854,
+ "countdownFails": 0,
+ "months29": 28,
+ "ramadan29": [
+  1446,
+  1448,
+  1449,
+  1450
+ ],
+ "naiveUtc": {
+  "dateMismatch": 1772,
+  "occasionMismatch": 1748
+ },
+ "fails": []
+}

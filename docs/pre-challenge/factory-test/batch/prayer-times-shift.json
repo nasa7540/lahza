@@ -1,0 +1,306 @@
+{
+ "topic_id": "prayer-times-shift",
+ "topic": "تغيّر أوقات الصلاة عبر السنة وتأثيرها على مواعيد الاجتماعات",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:37",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 238
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   3618
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "prayer-times-meetings",
+  "level": "B",
+  "when": "always",
+  "title": "تغيّر أوقات الصلاة وتأثيرها على مواعيد الاجتماعات",
+  "teaser": "كيف تتعامل مع تغيير مواعيد الاجتماعات بسبب أوقات الصلاة؟",
+  "scene": "في منتصف شهر رمضان، لاحظت أن اجتماعك الأسبوعي الذي كان دائمًا في الساعة 10:00 صباحًا قد تأجل فجأة إلى بعد صلاة الظهر. سأل زميلك محمد: «لماذا تم تغيير الموعد؟». ما رأيك في السبب؟",
+  "character_names": [
+   "محمد"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "المفهوم الخاطئ: ضغط العمل",
+    "reveal_headline": "ليس ضغط عمل",
+    "reveal_body": "هذا التفسير غير صحيح لأن التغيير مرتبط بوقت محدد من اليوم وليس بحجم المهام."
+   },
+   {
+    "id": "opt-2",
+    "label": "المفهوم الخاطئ: تفضيل شخصي",
+    "reveal_headline": "ليس تفضيلًا شخصيًا",
+    "reveal_body": "الصلاة ليست عادة اختيارية يمكن تأجيلها حسب الرغبة الشخصية."
+   },
+   {
+    "id": "opt-3",
+    "label": "المفهوم الخاطئ: راحة روحية",
+    "reveal_headline": "ليس مجرد راحة",
+    "reveal_body": "الهدف ليس الراحة النفسية أو الاسترخاء فقط، بل هو أداء عبادة محددة بزمن معين. الوقت جزء من الالتزام الديني وليس رفاهية."
+   },
+   {
+    "id": "opt-4",
+    "label": "المفهوم الخاطئ: خطأ في الجدولة",
+    "reveal_headline": "ليس خطأ جدولة",
+    "reveal_body": "التغيير مقصود ومخطط له مسبقًا ليتوافق مع وقت الصلاة. هذا النظام يضمن عدم تعارض العمل مع الواجبات الدينية المحددة."
+   }
+  ],
+  "explanation": "أوقات الصلاة الخمس محددة بدقة في الشرع الإسلامي بناءً على حركة الشمس، وهي واجبة على كل مسلم. لذلك، يجب احترام هذه الأوقات وتجنب تحديد اجتماعات فيها لضمان قدرة الموظفين المسلمين على أدائها دون تعطيل.",
+  "explain_prompt": "اشرح لماذا لا يمكن تأجيل الصلاة لأي سبب كان إلا لعذر شرعي، وكيف أن تحديد الأوقات دقيق جدًا.",
+  "tip": {
+   "headline": "آداب التعامل مع أوقات الصلاة",
+   "lead": "لتسهيل العمل المشترك واحترام الممارسات الدينية:",
+   "items": [
+    "تجنب تحديد اجتماعات مهمة خلال أوقات الصلاة المتوقعة (الفجر، الظهر، العصر، المغرب، العشاء).",
+    "احترم خروج الزملاء للصلاة وعدم المقاطعة أثناء أدائها إذا كانوا في مكان مخصص.",
+    "كن مرناً في إعادة جدولة الاجتماعات التي تتعارض مع أوقات الصلاة المفاجئة أو المتغيرة موسميًا."
+   ]
+  },
+  "key_points": [
+   "أوقات الصلاة خمس مرات يومياً محددة بدقة حسب حركة الشمس.",
+   "الصلاة عبادة واجبة لا يمكن تأجيلها إلا لعذر شرعي.",
+   "يجب تجنب تحديد اجتماعات خلال أوقات الصلاة لتسهيل الأداء الديني."
+  ],
+  "question_variants": [
+   "لماذا يتم تغيير موعد الاجتماع فجأة؟",
+   "ما السبب وراء إلغاء الاجتماع في هذا الوقت بالذات؟",
+   "هل هناك سبب ديني لتغيير الموعد؟",
+   "لماذا لا يمكن تأجيل الاجتماع إلى وقت لاحق؟",
+   "كيف نتعامل مع التعارض بين جدول العمل والصلاة؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-238",
+   "kind": "quran",
+   "text_ar": "حَٰفِظُواْ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلۡوُسۡطَىٰ وَقُومُواْ لِلَّهِ قَٰنِتِينَ",
+   "reference": "2:238",
+   "translations": {
+    "en": {
+     "text": "Be mindful of the prayers, especially the middle prayer; and stand before Allah in complete devotion.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/238",
+   "verified": false,
+   "content_hash": "2a9c61d756552ee54a64439150f4ead7425e1e04f03dbb44b35295045fa7ca9c"
+  },
+  {
+   "id": "term-3618",
+   "kind": "term",
+   "text_ar": "أَوْقاتُ الصَّلاةِ: الأَزْمِنَةُ الـمُقَدَّرَةُ شَرْعاً لأَداءِ الصَّلاةِ. أَوْقَاتُ الصَّلاةِ: هي الأَزْمِنَة التي حَدَّدَها الشّارِعُ لِفِعْل الصَّلاةِ، وهي ثَلاثَةُ أَقْسامٍ:\n1- أَوْقاتُ وُجوبِ: كأَوْقَاتِ الصَّلَواتِ الـمَفْروضَةِ، وهي خَمْسَةُ أوْقاتٍ:\nالأولُ: وَقْتُ الصُّبْحِ، ويبْدَأُ مِن طُلوعِ الفَجْرِ الصّادِقِ إلى طُلوعِ الشَّمْسِ.\nالثّاِني: وَقْتُ الظُّهْرِ، ويبْدَأُ مِن زَوال الشَّمْسِ إلى أنْ يكون ظِلُّ الشَّيْءِ مِثْلَهُ.\nالثّالث: وَقْتُ العَصْرِ، ويبْدَأُ مِن وَقْتِ أن يَصِيرَ ظِلُّ الشَّيْءِ مِثْلَهُ إلى أن تَغيبَ الشَّمْسُ.\nالرّابعُ: وَقْت الـمَغْرِبِ، ويبْدَأُ مِن غُروبِ الشَّمْسِ إلى أنْ يَغِيبَ الشَّفَقُ الأَحْمَرُ.\nالخامسُ: وَقْتُ العِشاءِ، ويبدأ مِن مَغيبِ الشَّفَق الأَحْمَر إلى طُلوعِ الفَجْر الصّادِق.\n2- أوْقاتُ اسْتِحْبابٍ: كأَوْقاتِ الصَّلَواتِ الـمَسْنونَةِ، وهي كَثِيرَةٌ، منها ما هو مُـحَدَّدٌ شَرْعاً كالوِتْرِ، ووَقْتُهُ مِن بعْدِ صَلاةِ العِشاءِ إلى طُلوعِ الفَجْرِ، ومنها ما ليس بِـمُحَدَّدٍ، كَسائِرِ النَّوافِلِ الـمُطْلَقَةِ.\n3- أوقاتُ كَراهَةِ، وهي ثَلاثَةٌ:\nالأَوَّلُ: عند طُلوعِ الشَّمْسِ إلى أَنْ تَرْتَفِعَ.\nالثّاني: عند الزَّوالِ، أي: في مُنتَصَف النَّهار، عندما تكون الشَّمسُ في وسَطِ السَّماءِ. \nوالثَّالِث: عند اصْفِرارِ الشَّمْسِ إلى الغروبِ.",
+   "reference": "أَوْقاتُ الصَّلاةِ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/3618",
+   "verified": false,
+   "content_hash": "b8aed54fcd684a43b7a727e5e2b4ac802530378fd348f273a5257958e7d9cf10"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "أوقات الصلاة الخمس محددة بدقة في الشرع الإسلامي بناءً على حركة الشمس، وهي واجبة على كل مسلم.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "لذلك، يجب احترام هذه الأوقات وتجنب تحديد اجتماعات فيها لضمان قدرة الموظفين المسلمين على أدائها دون تعطيل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا التفسير غير صحيح لأن التغيير مرتبط بوقت محدد من اليوم وليس بحجم المهام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "الأوقات مقدرة شرعًا ولا تتغير حسب ضغط العمل.",
+   "label": "unsupported",
+   "source_id": "term-3618",
+   "quote": "أَوْقاتُ الصَّلاةِ: هي الأَزْمِنَة التي حَدَّدَها الشّارِعُ لِفِعْل الصَّلاةِ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.479,
+   "keyword_share": 0.38,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "الصلاة ليست عادة اختيارية يمكن تأجيلها حسب الرغبة الشخصية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "هي وقت واجب محدد بدقة ولا يمكن إرجاؤه دون عذر.",
+   "label": "unsupported",
+   "source_id": "term-3618",
+   "quote": "أَوْقَاتُ وُجوبِ: كأَوْقَاتِ الصَّلَواتِ الـمَفْروضَةِ، وهي خَمْسَةُ أوْقاتٍ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.529,
+   "keyword_share": 0.22,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "الهدف ليس الراحة النفسية أو الاسترخاء فقط، بل هو أداء عبادة محددة بزمن معين.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "الوقت جزء من الالتزام الديني وليس رفاهية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "التغيير مقصود ومخطط له مسبقًا ليتوافق مع وقت الصلاة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "هذا النظام يضمن عدم تعارض العمل مع الواجبات الدينية المحددة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "صلاه"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": false,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 6,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 2,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4889,
+  "tokens_out": 1525
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "حافظوا على الصلوات والصلاة الوسطى",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الصلاة",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-1-1",
+   "text": "الأوقات مقدرة شرعًا ولا تتغير حسب ضغط العمل.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-2-1",
+   "text": "هي وقت واجب محدد بدقة ولا يمكن إرجاؤه دون عذر.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 28.9
+}

@@ -1,0 +1,357 @@
+{
+ "topic_id": "dhul-hijjah-ten",
+ "topic": "زملاء يكثرون الذكر والصيام في أول عشر ذي الحجة",
+ "expected_when": "hijri 12/1-12/10",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:36",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "ayah": 2,
+    "surah": 89
+   }
+  ],
+  "hadith_ids": [
+   6255
+  ],
+  "term_ids": [
+   7437
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "dhul-hijjah-10-workplace",
+  "level": "B",
+  "when": "hijri 1/1-9/10",
+  "title": "زيادة الطاعات في أول عشر ذي الحجة",
+  "teaser": "ملاحظة سلوك زملائك المتدينين خلال الأيام العشر الأولى من شهر ذي الحجة.",
+  "scene": "في الأسبوع الأول من شهر ذي الحجة، لاحظت أن بعض الزملاء يشاركون في أذكار الصباح والمساء بصوت أعلى من المعتاد، ويحرصون على عدم تناول الطعام أو الشراب أثناء ساعات العمل الرسمية. كما أنهم يتحدثون عن أهمية هذه الفترة بشكل متكرر. ما تفسيرك لهذا السلوك؟",
+  "character_names": [
+   "أحمد",
+   "سارة"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "ضغط نفسي من الإدارة",
+    "reveal_headline": "ليس ضغطًا إداريًا",
+    "reveal_body": "هذا السلوك نابع من إيمانهم الشخصي وليس توجيهات الشركة. لا توجد سياسات تلزم الموظفين بممارسة طقوس دينية محددة."
+   },
+   {
+    "id": "opt2",
+    "label": "محاولة جذب الانتباه",
+    "reveal_headline": "ليست محاولة جذب انتباه",
+    "reveal_body": "الهدف هو التقرب إلى الله وزيادة الحسنات، وليس لإظهار التدين أمام الآخرين. هذا وقت مميز لديهم لزيادة العبادات."
+   },
+   {
+    "id": "opt3",
+    "label": "إجازة غير رسمية",
+    "reveal_headline": "ليس إجازة غير رسمية",
+    "reveal_body": "الزملاء يعملون بكامل طاقتهم ولا يغادرون مبكرًا. الصيام هنا عبادة اختيارية لا تؤثر على أدائهم الوظيفي."
+   },
+   {
+    "id": "opt4",
+    "label": "احتفال بعيد الأضحى",
+    "reveal_headline": "ليس عيد الأضحى بعد",
+    "reveal_body": "هي فترة استعداد وعبادة مستقلة لها فضلها الخاص في التقويم الإسلامي."
+   }
+  ],
+  "explanation": "لذلك، تلاحظ زيادة في الممارسات الدينية كالصيام والأذكار كجزء من الاجتهاد في الطاعة خلال هذه الفترة المباركة.",
+  "explain_prompt": "اشرح المفهوم الخاطئ: لماذا قد يظن شخص غير مسلم أن هذه الممارسات تعني شيئًا آخر؟ ثم اشرح الحقيقة بناءً على المصادر.",
+  "tip": {
+   "headline": "آداب التعامل مع زملائك في هذه الفترة",
+   "lead": "لتحافظ على بيئة عمل محترمة وداعمة:",
+   "items": [
+    "احترم ممارساتهم الدينية دون تدخل أو سخرية، حتى لو كانت مختلفة عن معتقداتك.",
+    "لا تتوقع تغييرًا في جدول أعمالهم أو إنتاجيتهم بسبب الصيام أو زيادة العبادة.",
+    "تجنب تقديم طعام أو شراب لهم إذا كنت تعلم أنهم صائمون، واحترم رفضهم بلطف."
+   ]
+  },
+  "key_points": [
+   "الأيام العشر الأولى من ذي الحجة period هي فترة فضيلة تزيد فيها الحسنات.",
+   "المسلمون يجتهدون في العبادة والصيام والذكر خلال هذه الأيام تحديدًا.",
+   "هذا السلوك تعبد لله وليس له علاقة بالإدارة أو الضغط الاجتماعي."
+  ],
+  "question_variants": [
+   "لماذا يكثر بعض الزملاء من ذكر الله والصيام في بداية الشهر؟",
+   "ما سبب تغير سلوك بعض الموظفين تجاه الطعام والشراب مؤخرًا؟",
+   "هل هناك مناسبة خاصة تجعل الزملاء أكثر التزامًا بالطقوس الدينية؟",
+   "لماذا يتحدث الزملاء عن أهمية هذه الأيام بشكل متكرر؟",
+   "كيف أفهم زيادة الممارسات الدينية في المكتب خلال الأسبوع الحالي؟"
+  ],
+  "when_parsed": {
+   "type": "hijri",
+   "windows": [
+    {
+     "from": {
+      "month": 1,
+      "day": 1
+     },
+     "to": {
+      "month": 9,
+      "day": 10
+     }
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-89-2",
+   "kind": "quran",
+   "text_ar": "وَلَيَالٍ عَشۡرٖ",
+   "reference": "89:2",
+   "translations": {
+    "en": {
+     "text": "and the ten nights,",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/89/2",
+   "verified": false,
+   "content_hash": "c9418d5995e4269a813d7120f06e4c3671088bd5afd23bbcb3623160c5cb3164"
+  },
+  {
+   "id": "hadith-6255",
+   "kind": "hadith",
+   "text_ar": "عن ابن عباس رضي الله عنهما قال: قال رسول الله صلى الله عليه وسلم: «ما مِنْ أيَّامٍ العمَلُ الصَّالِحُ فيها أحبُّ إلى اللهِ مِن هذه الأيام» يعني أيامَ العشر، قالوا: يا رسُولَ الله، ولا الجهادُ في سبيلِ الله؟ قال: «ولا الجهادُ في سبيلِ الله، إلا رجلٌ خَرَجَ بنفسِه ومالِه فلم يَرْجِعْ من ذلك بشيءٍ».",
+   "reference": "رواه البخاري وأبو داود، واللفظ له",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/6255",
+   "verified": false,
+   "content_hash": "c6403dc06c4f931e2755db3ced4319e8e5278b13168448dd62be428bb4825b77"
+  },
+  {
+   "id": "term-7437",
+   "kind": "term",
+   "text_ar": "عَشْرُ ذِي الحِجَّةِ: اسْمٌ للأَيَّامِ الَّتي تبدأُ مِنْ أَوَّلِ شَّهْرِ ذِي الحِجَّةِ إلى العاشِرِ مِنْهُ. المُرادُ بِعَشْرِ ذِي الحِجَّةِ: هي الأَيّامُ العَشرَة الأولى مِن شَهر ذي الحِجَّة، وقيل: هي الأيّامُ التِّسْعَةُ مع لَيالِيها، وتَبْدَأُ مِنْ أَوَّلِ شَهْرِ ذِي الحِجَّةِ إلى اليومِ التَّاسِعُ، وهَو يَوْمُ عَرَفَةَ، وهي أيَّامٌ شَرِيفَةٌ ومُفَضَّلَةٌ، يُضاعَفُ فيها العَمَلُ، ويُسْتَحَبُّ فيها: الاِجْتِهادُ في أنواعِ العِبادات والطّاعاتِ، وزِيادَةُ عَمَلِ الخَيْرِ بِشَتَّى أَنْواعِهِ.\nذَهَبَ بَعْضُ الفُقَهاءِ إلى أنّ عَشْرِ ذِي الحِجَّةِ هي الأَيَّامُ العَشْرَةُ كُلُّها التي تَبْدَأُ مِنْ أَوَّلِ شَهْرِ ذِي الحِجَّةِ إلى يَوْمِ النَّحْرِ؛ وأمّا العاشِرُ فَيُسْتَثْنَى مِن الأَحْكامِ والسُّنَنِ المُتَعَلِّقَةِ بِهذه الأيَّامِ، وقِيل: هي الأيَّامُ التي تَبْتَدِئُ مِنْ دُخُولِ شَهْرِ ذِي الحِجَّةِ إلى آخِرِ اليَوْمِ التَّاسِعِ؛ لأنَّها الأَيَّامُ التي تَتعَلَّقُ بِها الأَحْكَامُ الشَّرْعِيَّةُ الخاصَّةُ بِهذه الأَيَّامِ مِنْ صِيامٍ، وإِحْرامٍ بِالحَجِّ، وإِمْساكٍ عَنْ حَلْقِ الشَّعْرِ، ونحْوِ ذلك، وأمّا اليَوْمُ العاشِرُ فلا صِيامَ فيه ولا إِحْرامَ بِالحَجِّ، وإنّما سُمِّيت \"عَشْراً\" تَغْلِيباً.",
+   "reference": "عَشْرُ ذِي الحِجَّةِ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/7437",
+   "verified": false,
+   "content_hash": "f6d598ec8088fc6781c71dabf016bd780cb909d2c4c55a0fa2ba24298b9c303a"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "تُعدّ الأيام العشر الأولى من شهر ذي الحجة من أعظم الأيام عند المسلمين، حيث يُضاعف فيها أجر الأعمال الصالحة.",
+   "label": "unsupported",
+   "source_id": "term-7437",
+   "quote": "يُضاعَفُ فيها العَمَلُ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.363,
+   "keyword_share": 0.46,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يحثّ النبي محمد (صلى الله عليه وسلم) المسلمين على كثرة العبادة والصيام والذكر في هذه الأيام تحديدًا، بل وصفها بأنها أفضل أيام الدنيا في العمل الصالح.",
+   "label": "unsupported",
+   "source_id": "hadith-6255",
+   "quote": "ما مِنْ أيَّامٍ العمَلُ الصَّالِحُ فيها أحبُّ إلى اللهِ مِن هذه الأيام",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.567,
+   "keyword_share": 0.3,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "لذلك، تلاحظ زيادة في الممارسات الدينية كالصيام والأذكار كجزء من الاجتهاد في الطاعة خلال هذه الفترة المباركة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا السلوك نابع من إيمانهم الشخصي وليس توجيهات الشركة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "لا توجد سياسات تلزم الموظفين بممارسة طقوس دينية محددة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "الهدف هو التقرب إلى الله وزيادة الحسنات، وليس لإظهار التدين أمام الآخرين.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "هذا وقت مميز لديهم لزيادة العبادات.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الزملاء يعملون بكامل طاقتهم ولا يغادرون مبكرًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "الصيام هنا عبادة اختيارية لا تؤثر على أدائهم الوظيفي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "هذه الأيام تسبق العيد بعشرة أيام.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "هي فترة استعداد وعبادة مستقلة لها فضلها الخاص في التقويم الإسلامي.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "اول",
+   "حجه"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 11,
+  "removed_by_verifier": 3,
+  "supported": 0,
+  "general": 4,
+  "flagged_general_religious": 4,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 1,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 5438,
+  "tokens_out": 1670
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "أيام معلومات عشر ذي الحجة",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "الأيام المعلومات عشر ذي الحجة",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "عشر ذي الحجة",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "تُعدّ الأيام العشر الأولى من شهر ذي الحجة من أعظم الأيام عند المسلمين، حيث يُضاعف فيها أجر الأعمال الصالحة.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يحثّ النبي محمد (صلى الله عليه وسلم) المسلمين على كثرة العبادة والصيام والذكر في هذه الأيام تحديدًا، بل وصفها بأنها أفضل أيام الدنيا في العمل الصالح.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-0",
+   "text": "هذه الأيام تسبق العيد بعشرة أيام.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 30.8
+}

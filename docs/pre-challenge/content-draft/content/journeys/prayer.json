@@ -1,0 +1,190 @@
+{
+  "id": "prayer",
+  "level": "A",
+  "sort": 2,
+  "when": {
+    "type": "always"
+  },
+  "locales": {
+    "en": {
+      "title": "Prayer times",
+      "teaser": "Your colleagues step out of meetings for a few minutes and come back. Want to know why?",
+      "scene": "It's 12:15, mid-meeting. Fahad and two colleagues quietly excuse themselves and return ten minutes later. What do you think happened?",
+      "options": [
+        {
+          "id": "m-commit",
+          "label": "They're not that interested in the meeting"
+        },
+        {
+          "id": "m-smoke",
+          "label": "A smoke break"
+        },
+        {
+          "id": "m-optional",
+          "label": "An optional habit they could postpone"
+        },
+        {
+          "id": "m-clergy",
+          "label": "Something only very religious people do"
+        }
+      ],
+      "reveals": {
+        "m-commit": {
+          "picked": "You picked: \"They're not that interested in the meeting\"",
+          "headline": "It had nothing to do with the meeting.",
+          "body": "They stepped out for the midday prayer, one of five prayers a Muslim performs every day at set times. Coming back minutes later to finish the meeting shows commitment, not the lack of it."
+        },
+        "m-smoke": {
+          "picked": "You picked: \"A smoke break\"",
+          "headline": "A break — but a different kind.",
+          "body": "This is the midday prayer. A Muslim washes, prays, and returns to work. It usually takes five to ten minutes."
+        },
+        "m-optional": {
+          "picked": "You picked: \"An optional habit they could postpone\"",
+          "headline": "Not a habit — a duty with a time.",
+          "body": "The five daily prayers are obligatory for Muslims, and each has a window that opens and closes. There is some flexibility inside that window, but a prayer isn't pushed to the end of the day."
+        },
+        "m-clergy": {
+          "picked": "You picked: \"Something only very religious people do\"",
+          "headline": "Not just for religious scholars.",
+          "body": "The five prayers are a duty for every adult Muslim — engineer, accountant or manager. That's why most offices here have a prayer room."
+        }
+      },
+      "explain_prompt": "Explain it to a colleague — in one sentence.",
+      "tip": {
+        "headline": "Ten minutes make a difference.",
+        "lead": "A short break at prayer time in a long meeting is always appreciated.",
+        "items": [
+          "Check prayer times before booking a long meeting, especially around midday and mid-afternoon.",
+          "If you see someone praying, don't speak to them or walk in front of them — just wait.",
+          "Know where your office prayer room is; a guest may ask you."
+        ]
+      }
+    },
+    "ar": {
+      "title": "أوقات الصلاة",
+      "teaser": "زملاؤك يطلعون من الاجتماع دقايق ويرجعون. تبي تعرف ليش؟",
+      "scene": "الساعة 12:15، وأنتم في نص الاجتماع. فهد واثنين من الزملاء استأذنوا بهدوء ورجعوا بعد عشر دقايق. وش تتوقع اللي صار؟",
+      "options": [
+        {
+          "id": "m-commit",
+          "label": "مو مهتمين بالاجتماع"
+        },
+        {
+          "id": "m-smoke",
+          "label": "استراحة تدخين"
+        },
+        {
+          "id": "m-optional",
+          "label": "عادة اختيارية يقدرون يأجلونها"
+        },
+        {
+          "id": "m-clergy",
+          "label": "شي يسويه المتدينين جدًا بس"
+        }
+      ],
+      "reveals": {
+        "m-commit": {
+          "picked": "اخترت: «مو مهتمين بالاجتماع»",
+          "headline": "خروجهم لا علاقة له بالاجتماع.",
+          "body": "خرجوا لأداء صلاة الظهر، وهي واحدة من خمس صلوات يؤديها المسلم كل يوم في أوقات محددة. رجوعهم بعد دقائق لإكمال الاجتماع دليل على التزامهم، لا العكس."
+        },
+        "m-smoke": {
+          "picked": "اخترت: «استراحة تدخين»",
+          "headline": "استراحة، لكن من نوع آخر.",
+          "body": "هذه صلاة الظهر. يتوضأ المسلم ثم يصلي، وتأخذ في العادة من خمس إلى عشر دقائق، ثم يعود إلى عمله."
+        },
+        "m-optional": {
+          "picked": "اخترت: «عادة اختيارية يقدرون يأجلونها»",
+          "headline": "ليست عادة، بل فريضة لها وقت.",
+          "body": "الصلوات الخمس واجبة على المسلم، ولكل صلاة وقت يبدأ وينتهي. داخل هذا الوقت توجد مرونة، لكن لا تؤجَّل الصلاة إلى آخر اليوم."
+        },
+        "m-clergy": {
+          "picked": "اخترت: «شي يسويه المتدينين جدًا بس»",
+          "headline": "ليست خاصة برجال الدين.",
+          "body": "الصلوات الخمس واجبة على كل مسلم بالغ، سواء كان مهندسًا أو محاسبًا أو مديرًا. ولهذا تجد في أغلب المكاتب هنا مصلى."
+        }
+      },
+      "explain_prompt": "اشرحها لزميل بجملة واحدة.",
+      "tip": {
+        "headline": "عشر دقايق تفرق.",
+        "lead": "لو خليت للاجتماع استراحة قصيرة وقت الصلاة، زملاؤك بيقدّرونها.",
+        "items": [
+          "شف أوقات الصلاة قبل ما تحجز اجتماع طويل، خصوصًا الظهر والعصر.",
+          "لو شفت أحد يصلي، لا تكلمه ولا تمر من قدامه، وانتظره يخلص.",
+          "اعرف وين المصلى في مكتبكم، فقد يسألك عنه ضيف."
+        ]
+      }
+    }
+  },
+  "card_id": "card-prayer-1",
+  "card": {
+    "id": "card-prayer-1",
+    "journey_id": "prayer",
+    "source_ids": [
+      "quran-4-103"
+    ],
+    "explanation": {
+      "en": "The verse says prayer has been prescribed for believers at set times. So a Muslim doesn't fit prayer around the schedule — the schedule is arranged around prayer. That's what you see in the office at midday.",
+      "ar": "تذكر الآية أن الصلاة فُرضت على المؤمنين في أوقات محددة. لذلك لا يختار المسلم وقت صلاته بحسب جدوله، بل يرتّب جدوله حول أوقاتها، وهذا ما تراه في المكتب عند الظهر."
+    },
+    "generated_by": "claude-draft",
+    "reviewed": false,
+    "reviewed_by": null,
+    "key_points": [
+      {
+        "id": "kp1",
+        "en": "Muslims pray five times a day at set times.",
+        "ar": "المسلمون يصلّون خمس صلوات كل يوم في أوقات محددة."
+      },
+      {
+        "id": "kp2",
+        "en": "The midday prayer falls in working hours and takes about ten minutes.",
+        "ar": "صلاة الظهر تقع في وقت الدوام، وتأخذ حوالي عشر دقائق."
+      },
+      {
+        "id": "kp3",
+        "en": "Prayer is a duty for every Muslim, not a sign of lower commitment to work.",
+        "ar": "الصلاة فريضة على كل مسلم، وليست دليلًا على قلة الالتزام بالعمل."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-commit",
+        "en": "They're not that interested in the meeting",
+        "ar": "مو مهتمين بالاجتماع"
+      },
+      {
+        "id": "m-smoke",
+        "en": "A smoke break",
+        "ar": "استراحة تدخين"
+      },
+      {
+        "id": "m-optional",
+        "en": "An optional habit they could postpone",
+        "ar": "عادة اختيارية يقدرون يأجلونها"
+      },
+      {
+        "id": "m-clergy",
+        "en": "Something only very religious people do",
+        "ar": "شي يسويه المتدينين جدًا بس"
+      }
+    ],
+    "question_variants": {
+      "en": [
+        "Why do my colleagues leave meetings around midday?",
+        "How many times a day do Muslims pray?",
+        "How long does a prayer take?",
+        "Can I schedule a meeting during prayer time?",
+        "What is the prayer room in our office for?"
+      ],
+      "ar": [
+        "ليش زملائي يطلعون من الاجتماع وقت الظهر؟",
+        "كم مرة يصلّي المسلم في اليوم؟",
+        "كم تاخذ الصلاة من الوقت؟",
+        "هل أقدر أحط اجتماع وقت الصلاة؟",
+        "وش هو المصلى اللي في المكتب؟"
+      ]
+    }
+  }
+}

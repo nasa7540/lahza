@@ -1,0 +1,337 @@
+{
+ "topic_id": "alcohol-gift",
+ "topic": "إهداء الزملاء هدية فيها كحول",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:38",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 5,
+    "ayah": 90
+   }
+  ],
+  "hadith_ids": [
+   66536
+  ],
+  "term_ids": [
+   36664
+  ],
+  "steps": 4
+ },
+ "journey": {
+  "id": "gift-alcohol-understanding",
+  "level": "B",
+  "when": "always",
+  "title": "هدية فيها كحول: ليش رُفضت؟",
+  "teaser": "في بيئة العمل السعودية، قد تواجه موقفًا يبدو فيه رفض هدية بسيطة غريبًا أو غير مهذب. دعنا نفهم السبب من منظور إسلامي.",
+  "scene": "أنت تعمل في شركة سعودية، وزميلك الجديد أحمد قدم لك هدية تهنئة بالانضمام للفريق. كانت علبة حلويات فاخرة، لكنك لاحظت وجود زجاجة صغيرة من مشروب كحولي مرفقة معها كإضافة خاصة. ابتسم أحمد وقال: «هذه إضافة مميزة من بلدي». نظرت حوله ورأيت أن بعض الزملاء يبتسمون بارتباك، بينما بدا أحمد واثقًا من نواياه الحسنة. ماذا يعني هذا الموقف بالنسبة لأحمد وللمنطقة الثقافية التي يعمل فيها؟",
+  "character_names": [
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "رفض شخصي ومباغت",
+    "reveal_headline": "ليس رفضًا شخصيًا",
+    "reveal_body": "الرفض لا يتعلق بك أنت كشخص، ولا بنوع الحلوى. الأمر يتعلق بطبيعة الهدية نفسها (المشروب الكحولي) وفق معايير ثقافية ودينية راسخة."
+   },
+   {
+    "id": "opt-2",
+    "label": "محاولة لإظهار التميز الثقافي",
+    "reveal_headline": "ليست محاولة للتميز",
+    "reveal_body": "أحمد لم يقصد إظهار اختلافه أو فرض ثقافته. غالبًا كان يعتقد أن هذه هدية مقبولة عالميًا، دون إدراك أنها تمس حدودًا مقدسة لدى كثيرين في البيئة المحلية."
+   },
+   {
+    "id": "opt-3",
+    "label": "خطأ في اختيار نوع الهدية فقط",
+    "reveal_headline": "ليس مجرد خطأ في الاختيار",
+    "reveal_body": "لو كانت الهدية كتابًا أو قلمًا باهظ الثمن لكان مقبولاً. المشكلة ليست في سعر أو شكل الهدية، بل في محتواها الذي يعتبر محرّمًا دينيًا، مما يجعل قبولها أو حتى الاحتفاظ بها أمرًا حساسًا."
+   },
+   {
+    "id": "opt-4",
+    "label": "تفسير خاطئ شائع: «كل المسلمين يتشدّدون»",
+    "reveal_headline": "ليس تشددًا عامًا",
+    "reveal_body": "لا يمكن تعميم الحكم على جميع الأفراد. لكن المبدأ الديني واضح وصريح في تحريم المسكرات، وهو ما يشكل إطارًا أخلاقيًا وقانونيًا واجتماعيًا أساسيًا في المملكة يؤثر على تعاملات الناس اليومية."
+   }
+  ],
+  "explanation": "لذلك، فإن تقديم أو قبول هدية تحتوي على كحول ليس مجرد مسألة ذوق، بل هو تجاوز لحدود دينية واضحة تجعل الموقف محرجًا وغير مقبول في السياق المحلي.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بناءً على المصادر المرفقة.",
+  "tip": {
+   "headline": "آداب التعامل مع الهدايا في بيئة العمل السعودية",
+   "lead": "لتجنب الإحراج والحفاظ على علاقات عمل طيبة، اتبع هذه النصائح العملية:",
+   "items": [
+    "تجنب تمامًا تقديم أي هدية تحتوي على منتجات كحولية أو لحم خنزير، فهي محرمة شرعيًا ومحظورة اجتماعيًا.",
+    "اختر هدايا محايدة وعملية مثل العطور غير الكحولية، الشوكولاتة الفاخرة، أو أدوات مكتبية أنيقة.",
+    "إذا قدمت هدية بالخطأ تحتوي على شيء محرم، اعتذر بلباقة واشرح أنك لم تكن تدرك القيد الثقافي دون الدخول في جدال ديني."
+   ]
+  },
+  "key_points": [
+   "تحريم الإسلام يشمل كل مسكر مهما كان نوعه أو شكله، وليس فقط النبيذ.",
+   "تقديم المشروبات الكحولية كهدية يعتبر تجاوزًا لحدود ثقافية ودينية راسخة في المجتمع السعودي.",
+   "الرفض في هذا السياق هو احترام للمبادئ الدينية وليس رفضًا للشخص أو للنوايا الحسنة."
+  ],
+  "question_variants": [
+   "لماذا يرفض بعض الزملاء في السعودية الهدايا التي تحتوي على كحول؟",
+   "ما هو الموقف الصحيح عند تقديم هدية لزميل سعودي لتجنب الإحراج؟",
+   "هل يعتبر تقديم مشروب كحولي كهدية أمراً مقبولاً في بيئة العمل السعودية؟",
+   "كيف أتعامل مع زميل قدم لي هدية غير مناسبة ثقافياً؟",
+   "ما هي أنواع الهدايا المحظورة في الثقافة السعودية بسبب الدين؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-5-90",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡخَمۡرُ وَٱلۡمَيۡسِرُ وَٱلۡأَنصَابُ وَٱلۡأَزۡلَٰمُ رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+   "reference": "5:90",
+   "translations": {
+    "en": {
+     "text": "O you who believe, intoxicants, gambling, [sacrificing on] stone alters and divining arrows are of Satan’s evil work; therefore avoid such [evil], so that you may be successful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/5/90",
+   "verified": false,
+   "content_hash": "280c11437a31852de9031e31976472f2b324cfa6ff93a4cde392dbd8f8877fe4"
+  },
+  {
+   "id": "hadith-66536",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي بُرْدَةَ، عَنْ أَبِيهِ أَبِي مُوسَى الأَشْعَريِّ رَضِيَ اللَّهُ عَنْهُ: أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بَعَثَهُ إِلَى اليَمَنِ، فَسَأَلَهُ عَنْ أَشْرِبَةٍ تُصْنَعُ بِهَا، فَقَالَ: وَمَا هِيَ؟، قَالَ: «البِتْعُ وَالمِزْرُ»، فَقِيلَ لِأَبِي بُرْدَةَ: مَا البِتْعُ؟ قَالَ: نَبِيذُ العَسَلِ، وَالمِزْرُ: نَبِيذُ الشَّعِيرِ، فَقَالَ: «كُلُّ مُسْكِرٍ حَرَامٌ» خرجه البخاري.\nوَخَرَّجَهُ مُسْلِمٌ وَلَفْظُهُ: قَالَ: بَعَثَنِي رَسُولُ اَلله أَنَا وَمُعَاذٌ إِلَى اَليَمَنِ، فَقُلْتُ: يَا رَسُولُ اَللَّهِ! إِنَّ شَرَابًا يُصْنَعُ بِأَرْضِنَا يُقَال لَهُ: المِزَرُ مِنَ الشَّعِيرِ، وَشَرَابٌ يُقَالُ لَهُ: البِتْعُ مِنَ العَسَلِ، فَقَالَ: «كُلُّ مُسْكِرٍ حَرَامٌ». \nوَفِي رِوَايَةٍ لِمُسْلِمٍ: «فَقَالَ: كُلُّ مَا أَسْكَرَ عَنِ الصَّلَاةِ فَهُوَ حَرَامٌ». \nوَفِي رِوَايَةٍ لَهُ: «وَكَانَ رَسُولُ الله قَدْ أُعْطِيَ جَوَامِعَ الكَلِمِ بِخَوَاتِمِهِ، فَقَالَ: أَنْهَى عَنْ كُلِّ مُسْكِرٍ أَسْكَرَ عَنْ الصَّلَاةِ».",
+   "reference": "رواه البخاري ومسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/66536",
+   "verified": false,
+   "content_hash": "a5eadf5a1b9d12bd92d23af2efb8a13f40c0b86923c0e0282cb64653b23320d1"
+  },
+  {
+   "id": "term-36664",
+   "kind": "term",
+   "text_ar": "شُرْبُ الخَمْرِ: شُرْبُ أَيّ مُسْكِرٍ، سَواءٌ كان سائِلًا أو جامِدًا، قَلِيلًا أم كَثِيرًا. شُرْبُ الخَمْرِ مِن كَباِئِرِ الذُّنوبِ والمَفاسِدِ، وهو: تَعاطِي كُل ما يُفْسِدُ العَقْلَ ويُؤَثِّرُ على سَلامَتِهِ مِن المُسْكِراتِ على أيِّ هَيْئَةٍ كانت، مَطبوخَةً أم نَيِّئَةً، قليلَةً كانت أو كَثِيرةً، وسَواءٌ اتُّخِذَت مِن العِنَبِ أو التَّمْرِ أو الحِنْطَةِ أو الشَّعِيرِ أو غَيْرِ ذلك.",
+   "reference": "شُرْبُ الخَمْرِ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/36664",
+   "verified": false,
+   "content_hash": "b0e0934ac34f31ded9bc8b8b2beb19c74deb813088fb742862df787ff6b30861"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "في الإسلام، يُعتبر كل ما يسكر من الخمر والمسكرات رجسًا من عمل الشيطان، وقد أمر القرآن الكريم بالاجتناب عنه لتحقيق الفلاح.",
+   "label": "unsupported",
+   "source_id": "quran-5-90",
+   "quote": "إِنَّمَا ٱلۡخَمۡرُ ... رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.548,
+   "keyword_share": 0.13,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "ورد في الأحاديث النبوية تأكيد جازم بأن «كل مسكر حرام»، بغض النظر عن نوع المادة الخام (عنب، تمر، شعير، عسل) أو طريقة التحضير.",
+   "label": "unsupported",
+   "source_id": "hadith-66536",
+   "quote": "كُلُّ مُسْكِرٍ حَرَامٌ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.459,
+   "keyword_share": 0.21,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "لذلك، فإن تقديم أو قبول هدية تحتوي على كحول ليس مجرد مسألة ذوق، بل هو تجاوز لحدود دينية واضحة تجعل الموقف محرجًا وغير مقبول في السياق المحلي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "الرفض لا يتعلق بك أنت كشخص، ولا بنوع الحلوى.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "الأمر يتعلق بطبيعة الهدية نفسها (المشروب الكحولي) وفق معايير ثقافية ودينية راسخة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "أحمد لم يقصد إظهار اختلافه أو فرض ثقافته.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "غالبًا كان يعتقد أن هذه هدية مقبولة عالميًا، دون إدراك أنها تمس حدودًا مقدسة لدى كثيرين في البيئة المحلية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "لو كانت الهدية كتابًا أو قلمًا باهظ الثمن لكان مقبولاً.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "المشكلة ليست في سعر أو شكل الهدية، بل في محتواها الذي يعتبر محرّمًا دينيًا، مما يجعل قبولها أو حتى الاحتفاظ بها أمرًا حساسًا.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "لا يمكن تعميم الحكم على جميع الأفراد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "لكن المبدأ الديني واضح وصريح في تحريم المسكرات، وهو ما يشكل إطارًا أخلاقيًا وقانونيًا واجتماعيًا أساسيًا في المملكة يؤثر على تعاملات الناس اليومية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "فيها",
+   "هديه"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 4,
+  "sentences_generated": 11,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 7,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 9447,
+  "tokens_out": 1921
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "خمر مسكر حرام",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "كل خمر حرام",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "خمر",
+   "hits": 2
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "في الإسلام، يُعتبر كل ما يسكر من الخمر والمسكرات رجسًا من عمل الشيطان، وقد أمر القرآن الكريم بالاجتناب عنه لتحقيق الفلاح.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "ورد في الأحاديث النبوية تأكيد جازم بأن «كل مسكر حرام»، بغض النظر عن نوع المادة الخام (عنب، تمر، شعير، عسل) أو طريقة التحضير.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 171.2
+}

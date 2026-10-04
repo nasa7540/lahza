@@ -1,0 +1,345 @@
+{
+ "topic_id": "zakat",
+ "topic": "زميل يتحدث عن إخراج زكاة ماله",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 43
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   5070
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "zakat-workplace-01",
+  "level": "B",
+  "when": "always",
+  "title": "زميل يتحدث عن إخراج زكاة ماله",
+  "teaser": "لاحظت زميلاً يخصص جزءاً من راتبه أو يتحدث عن التزام مالي دوري، فماذا يقصد؟",
+  "scene": "أثناء استراحة القهوة في المكتب، سمعتُ زميلك فهد وهو يتصل بوالده ويقول: «بابا، حسبتُ حسابات الشهر، ونويت إخراج الزكاة اليوم على ما تيسر من المال». نظر إليه زميله أحمد بفضول وسأل بصوت مسموع: «يا فهد، ليش تتعب نفسك وتخرج فلوس كل سنة؟ مو كفاية الصدقة أحيانًا؟» توقف فهد لحظة ثم ابتسم. ماذا تعتقد أن المقصود من كلام فهد ولماذا يصرّ عليه؟",
+  "character_names": [
+   "فهد",
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "ادخار ضريبي حكومي",
+    "reveal_headline": "ليس ضريبة أو قانونًا",
+    "reveal_body": ""
+   },
+   {
+    "id": "opt-2",
+    "label": "صدقة اختيارية للتبرع للمحتاجين",
+    "reveal_headline": "ليست صدقة تطوعية عشوائية",
+    "reveal_body": "على الرغم من تشابه الهدف مع الصدقة، إلا أن الزكاة فرض عين واجب على المستطيع، وليست خيارًا اختياريًا يُؤجله المسلم متى شاء."
+   },
+   {
+    "id": "opt-3",
+    "label": "دفع دين قديم للوالدين",
+    "reveal_headline": "ليست سداد ديون شخصية",
+    "reveal_body": "نية الإخراج هنا خاصة بأداء هذا الركن الشرعي، وليس تسوية حسابات مع أحد."
+   },
+   {
+    "id": "opt-4",
+    "label": "عادة ثقافية لتوزيع الهدايا",
+    "reveal_headline": "ليست مجرد عادة اجتماعية",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "تشمل الأموال الظاهرة مثل الزروع والماشية، والباطنة مثل الذهب والنقود، وتُخرج بنية العبادة وطاعة الله.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بأن الزكاة ليست صدقة اختيارية أو ضريبة، بل فرض مالي إسلامي له شروط وأحكام محددة.",
+  "tip": {
+   "headline": "آداب التعامل مع زميل يؤدي الزكاة",
+   "lead": "إليك بعض النصائح العملية للتعامل المهذب والمحترم مع هذا الموقف:",
+   "items": [
+    "احترم قرار زميلك المالي الشخصي ولا تحاول التقليل من قيمة التزامه الديني أمام الآخرين.",
+    "تجنب طرح أسئلة قد تبدو وكأنها تشكيك في ديانته أو حكمة ممارسته، واكتفِ بالتحية اللطيفة إن أردت المشاركة.",
+    "لا تطلب منه تفاصيل مالية دقيقة أو تبريرًا مفصلاً، فالأمور المالية والدينية خصوصية شخصية في بيئة العمل."
+   ]
+  },
+  "key_points": [
+   "الزكاة ركن من أركان الإسلام وفرض واجب على المسلم القادر، وليست صدقة اختيارية.",
+   "تُخرج من أموال معينة (كالنقود والذهب) بنسب ونصاب محددين شرعًا.",
+   "مستحقوها أصناف محددة في القرآن، وتُخرج بنية العبادة والتقرب إلى الله."
+  ],
+  "question_variants": [
+   "لماذا يحدد موظف مبلغًا معينًا ليخرجه سنويًا باسم الزكاة؟",
+   "ما الفرق بين ما يفعله زميلي وبين التبرع العادي للمشاريع الخيرية؟",
+   "هل الزكاة إلزامية أم اختيارية حسب المعتقد الإسلامي؟",
+   "كيف يمكن الرد باحترام عندما يسأل زميل عن سبب خروج المال كزكاة؟",
+   "ما هو المقصود عندما يقول مسلم إنه 'نوى إخراج الزكاة'؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-43",
+   "kind": "quran",
+   "text_ar": "وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ وَٱرۡكَعُواْ مَعَ ٱلرَّٰكِعِينَ",
+   "reference": "2:43",
+   "translations": {
+    "en": {
+     "text": "And establish prayer, give zakah, and bow [to Allah] with those who bow.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/43",
+   "verified": false,
+   "content_hash": "d9c0c667528e545480614aec69f4a341795d147e34670fb877a970b81e89840c"
+  },
+  {
+   "id": "term-5070",
+   "kind": "term",
+   "text_ar": "الزَكاة: إِخْراجُ جُزْءٍ مُقَدَّرٍ مِن أَمْوالٍ مَخْصُوصَةٍ على صِفَةٍ مَخْصُوصَةٍ لِطائِفَةٍ مَخْصوصَةٍ مِن النَّاسِ. الزَّكاةُ عِبادَةٌ جلِيلَةٌ، وأَحَدُ أَرْكانِ الإسْلامِ ومَبانِيهِ العِظامِ، وفيها مَصالِحُ عَدِيدَةٌ لِلْفَرْدِ والمُجْتَمَعِ، وتَتَمَثَّلُ في أَداءِ حَقٍّ وَجَبَ في أَمْوالٍ مَخْصوصَةٍ، سَواءً كانت ظاهِرَةً، مِثْل: بَهيمَة الأَنْعامِ، والزُّروع والثِّمار، ونحو ذلك، أو باطِنَةً مِثْل: الذَّهَب والفِضَّة والنَّقْد.\nويكون أَداءُ هذا الحَقِّ على صِفَةٍ مَخْصُوصَةٍ، وذلك بِأن يَنْوِي أنَّ ما يُخْرِجهُ هو الزَّكاةُ الواجِبَةُ، ولِطائِفَةٍ مَخْصوصَةٍ، وهم الأَصْنافُ الثَّمانِيَةُ الذين ورد ذِكرُهُم في القُرآن الكريم مِن الفُقَراءِ، والمَساكِين، والغارِمينَ الذي عَجَزُوا عن سَدادِ دُيونِهِم، والعامِلِينَ على جَمْعِ الزَّكاةِ، والمُؤَلَفَّةِ قُلُوبُهُم، وفي الرِّقَابِ مِن العَبِيدِ والأَسْرَى، وفي سَبيلِ الله مِن الغُزاةِ المُتَطَوِّعينَ لِلْجِهادِ، والمُسَافِرين الذين قد انْتَهَت نَفَقَتُهُم.",
+   "reference": "الزَكاة",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/5070",
+   "verified": false,
+   "content_hash": "5306881b7a234fb4bde2a098af785f8bfb4ded1a6b27d86aab25ad453ed65972"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الزكاة هي أحد أركان الإسلام الخمسة، وهي إخراج جزء مقدّر من أموال معينة لأصناف محددة من الناس ذكرهم القرآن الكريم.",
+   "label": "unsupported",
+   "source_id": "term-5070",
+   "quote": "الزَكاة: إِخْراجُ جُزْءٍ مُقَدَّرٍ مِن أَمْوالٍ مَخْصُوصَةٍ على صِفَةٍ مَخْصُوصَةٍ لِطائِفَةٍ مَخْصوصَةٍ مِن النَّاسِ. ... وأَحَدُ أَرْكانِ الإسْلامِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.841,
+   "keyword_share": 0.75,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "تشمل الأموال الظاهرة مثل الزروع والماشية، والباطنة مثل الذهب والنقود، وتُخرج بنية العبادة وطاعة الله.",
+   "label": "supported",
+   "source_id": "term-5070",
+   "quote": "سَواءً كانت ظاهِرَةً، مِثْل: بَهيمَة الأَنْعامِ، والزُّروع والثِّمار، ونحو ذلك، أو باطِنَةً مِثْل: الذَّهَب والفِضَّة والنَّقْد.",
+   "reason": null,
+   "quote_similarity": 0.652,
+   "keyword_share": 0.5,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "الزكاة ليست فرضًا حكوميًا ولا ضريبة تُجمعها الدولة، بل هي عبادة مالية شخصية بين العبد وربه.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "لا علاقة لها بالتشريعات الضريبية الحديثة ولا يمكن تأديتها نيابة عن الدولة.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "على الرغم من تشابه الهدف مع الصدقة، إلا أن الزكاة فرض عين واجب على المستطيع، وليست خيارًا اختياريًا يُؤجله المسلم متى شاء.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "لها شروط محددة في نوع المال ومقداره، ولا يجوز تأخيرها دون عذر.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "الزكاة حقٌ في المال نفسه يخرج لمستحقيه المحددين، وليست وسيلة لسداد الديون الشخصية أو المعاملات الأسرية.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "نية الإخراج هنا خاصة بأداء هذا الركن الشرعي، وليس تسوية حسابات مع أحد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "الزكاة ركن من أركان الإسلام الخمسة، وليست تقليدًا ثقافيًا أو موسمًا لتبادل الهدايا.",
+   "label": "unsupported",
+   "source_id": "term-5070",
+   "quote": "أَحَدُ أَرْكانِ الإسْلامِ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.592,
+   "keyword_share": 0.27,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "لها أحكام شرعية دقيقة تتعلق بنصاب المال وحالته، وتهدف إلى تزكية النفس وتطهير المال، وليس فقط لمساعدة الآخرين شكليًا.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "اخراج",
+   "زكاه"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 7,
+  "supported": 1,
+  "general": 1,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 5,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4702,
+  "tokens_out": 1862
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "أقيموا الصلاة وآتوا الزكاة",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "زكاة",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "الزكاة هي أحد أركان الإسلام الخمسة، وهي إخراج جزء مقدّر من أموال معينة لأصناف محددة من الناس ذكرهم القرآن الكريم.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-1-0",
+   "text": "الزكاة ليست فرضًا حكوميًا ولا ضريبة تُجمعها الدولة، بل هي عبادة مالية شخصية بين العبد وربه.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-1-1",
+   "text": "لا علاقة لها بالتشريعات الضريبية الحديثة ولا يمكن تأديتها نيابة عن الدولة.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-2-1",
+   "text": "لها شروط محددة في نوع المال ومقداره، ولا يجوز تأخيرها دون عذر.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-3-0",
+   "text": "الزكاة حقٌ في المال نفسه يخرج لمستحقيه المحددين، وليست وسيلة لسداد الديون الشخصية أو المعاملات الأسرية.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-0",
+   "text": "الزكاة ركن من أركان الإسلام الخمسة، وليست تقليدًا ثقافيًا أو موسمًا لتبادل الهدايا.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-1",
+   "text": "لها أحكام شرعية دقيقة تتعلق بنصاب المال وحالته، وتهدف إلى تزكية النفس وتطهير المال، وليس فقط لمساعدة الآخرين شكليًا.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 30.8
+}

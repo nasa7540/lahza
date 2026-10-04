@@ -1,0 +1,314 @@
+{
+ "topic_id": "zamzam-gift",
+ "topic": "زميل عائد من الحج يوزّع ماء زمزم والتمر",
+ "expected_when": "hijri 12/14-12/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:31",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [],
+  "hadith_ids": [
+   4300
+  ],
+  "term_ids": [
+   5899
+  ],
+  "steps": 7
+ },
+ "journey": {
+  "id": "hajj-ziyzm-tamr",
+  "level": "B",
+  "when": "always",
+  "title": "هدية زمزم والتمر من زميلك العائد من الحج",
+  "teaser": "ما معنى توزيع ماء زمزم والتمر في بيئة العمل؟",
+  "scene": "عاد زميلك فهد من إجازة طويلة، وفي أول يوم له بعد العودة، وضع على مكتبك عبوة صغيرة من الماء وعلبة تمر. ابتسم وقال: «تقبل الله طاعتكم». نظرتم إليه بدهشة وهو يوزع نفس الشيء على باقي الزملاء في الطابق. ما تفسيرك لهذا التصرف؟",
+  "character_names": [
+   "فهد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "محاولة لبيع المنتجات لاحقًا",
+    "reveal_headline": "ليس تجارة بل مشاركة روحانية",
+    "reveal_body": "هذا التفسير خاطئ لأن التوزيع مجاني ولا يرتبط بأي عرض تجاري. الهدف هو مشاركة تجربة دينية شخصية مع الآخرين دون انتظار مقابل مادي."
+   },
+   {
+    "id": "opt2",
+    "label": "إلزام غير مباشر لتذوق الطعام",
+    "reveal_headline": "عرض طيب وليس إلزامًا",
+    "reveal_body": "الزميل لا يجبر أحدًا على الأكل أو الشرب، بل يقدم هدية رمزية كدلالة على البركة. يمكنك قبولها شكراً أو الاعتذار بلطف إذا كنت تفضل عدم تناول شيء."
+   },
+   {
+    "id": "opt3",
+    "label": "عادة صحية للتغذية المتوازنة",
+    "reveal_headline": "معنى روحي وليس غذائيًا",
+    "reveal_body": "السبب ليس علميًا أو صحيًا بحتًا، بل ديني وتقليدي."
+   },
+   {
+    "id": "opt4",
+    "label": "طريقة لجذب الانتباه في المكتب",
+    "reveal_headline": "عمل متواضع ومشاركة إخلاص",
+    "reveal_body": "التوزيع يتم بهدوء وتواضع كجزء من آداب الضيافة الإسلامية ومشاركة الخير. لا يسعى الزميل للظهور أو جذب الأنظار، بل يريد أن يشعر زملاؤه ببركة مكان زاره."
+   }
+  ],
+  "explanation": "يعتبر الحج ركنًا أساسيًا في الإسلام، ويُعدّ ماء زمزم من الأماكن المقدسة التي يزورها المسلمون في مكة المكرمة.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بأن التوزيع له دوافع مادية أو صحية أو بحثاً عن الانتباه، وبين أنه فعل روحاني واجتماعي بحت.",
+  "tip": {
+   "headline": "آداب التعامل مع هدايا الحج",
+   "lead": "كيف تتفاعل باحترام مع هذه الممارسة في بيئة العمل:",
+   "items": [
+    "اقبل الهدية بابتسامة وشكره على المشاركة، حتى لو لم تشرب الماء أو تأكل التمر فوراً.",
+    "تجنب السخرية أو التشكيك في نية الزميل، فالأمر يتعلق بقيمه الشخصية ودينه.",
+    "يمكنك السؤال عنه بلطف عن تجربته في الحج إذا كان ذلك مناسباً للسياق، كتعبير عن الاهتمام الثقافي."
+   ]
+  },
+  "key_points": [
+   "ماء زمزم والتمر يحملان دلالة روحانية وبركة لدى المسلمين.",
+   "التوزيع في العمل هو ممارسة اجتماعية للتواصل ومشاركة الخير.",
+   "القبول أو الرفض يجب أن يكون باحترام دون حكم مسبق على النية."
+  ],
+  "question_variants": [
+   "ليش زميلي يوزع ماء وتمر على الكل بعد عودته من الإجازة؟",
+   "وش معنى كلمة 'تقبل الله طاعتكم' اللي قالها لي؟",
+   "هل لازم آكل التمر وأشرب الماء اللي جابوه؟",
+   "هل هذا العرض يعني إنه يتوقع شي مني بالرجوع؟",
+   "كيف أرد على زميلي بطريقة محترمة وهديه؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "term-5899",
+   "kind": "term",
+   "text_ar": "تَمْرٌ: ثَمَرُ أَشْجارِ النَّخِيلِ. -",
+   "reference": "تَمْرٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/5899",
+   "verified": false,
+   "content_hash": "bb967611997babfd3636ab519144486b09dcd00e259ab4a2b812d3a360ce7490"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يعتبر الحج ركنًا أساسيًا في الإسلام، ويُعدّ ماء زمزم من الأماكن المقدسة التي يزورها المسلمون في مكة المكرمة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يُوزّع هذا الماء والتمر كهدية رمزية تعبر عن البركة والمشاركة الروحية، وهي عادة اجتماعية إسلامية شائعة للتعبير عن المحبة والتواصل بين الزملاء والأصدقاء.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا التفسير خاطئ لأن التوزيع مجاني ولا يرتبط بأي عرض تجاري.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الهدف هو مشاركة تجربة دينية شخصية مع الآخرين دون انتظار مقابل مادي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "الزميل لا يجبر أحدًا على الأكل أو الشرب، بل يقدم هدية رمزية كدلالة على البركة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "يمكنك قبولها شكراً أو الاعتذار بلطف إذا كنت تفضل عدم تناول شيء.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "السبب ليس علميًا أو صحيًا بحتًا، بل ديني وتقليدي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "المسلمون يعتبرون ماء زمزم مباركا والتمر من سنن النبي، لذا يوزعونهما كذكرى روحانية وليست وجبة خفيفة عادية.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "التوزيع يتم بهدوء وتواضع كجزء من آداب الضيافة الإسلامية ومشاركة الخير.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "لا يسعى الزميل للظهور أو جذب الأنظار، بل يريد أن يشعر زملاؤه ببركة مكان زاره.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "تمر",
+   "زميلك"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 1,
+  "research_steps": 7,
+  "sentences_generated": 10,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 7,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 2,
+   "verdict_missing": 0
+  },
+  "tokens_in": 10763,
+  "tokens_out": 1682
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "زمزم",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "ماء زمزم",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "تمر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحج",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "زمزم",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "التمر",
+   "hits": 1
+  },
+  {
+   "stage": "fetch",
+   "event": "dropped",
+   "ref": "hadith 4300",
+   "why": "grade 'حديث ابن عباس: صحيح.\\nحديث النزال: صحيح.\\nحديث عبد الله بن عمرو: حسن' is not sahih"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يُوزّع هذا الماء والتمر كهدية رمزية تعبر عن البركة والمشاركة الروحية، وهي عادة اجتماعية إسلامية شائعة للتعبير عن المحبة والتواصل بين الزملاء والأصدقاء.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-1",
+   "text": "المسلمون يعتبرون ماء زمزم مباركا والتمر من سنن النبي، لذا يوزعونهما كذكرى روحانية وليست وجبة خفيفة عادية.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 36.4
+}

@@ -1,0 +1,314 @@
+{
+ "topic_id": "laylat-alqadr",
+ "topic": "زملاء يتحدثون عن ليلة القدر ويحيون الليل بالصلاة",
+ "expected_when": "hijri 9/21-9/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:35",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 97,
+    "ayah": 3
+   }
+  ],
+  "hadith_ids": [
+   4202
+  ],
+  "term_ids": [
+   64547
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "laylat-al-qadar-work",
+  "level": "B",
+  "when": "hijri 26/27-29/27",
+  "title": "إحياء ليلة القدر في العمل",
+  "teaser": "زملاؤك يتحدثون عن ليلة خاصة ويخططون لإقامتها بالصلاة، ما سر هذه الليلة؟",
+  "scene": "في فترة المساء، لاحظت أن زملاءك يشاركون حديثًا متحمسًا عن «ليلة القدر»، وتسمعهم يذكرون أنها أفضل من ألف شهر. بعد ذلك، غادروا المكتب مبكرًا قليلًا بحجة أنهم يريدون إحياء الليل بالصلاة والعبادة. ماذا تتوقع أن يكون الدافع وراء هذا السلوك؟",
+  "character_names": [
+   "زملاء العمل"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "محاولة للهروب من العمل",
+    "reveal_headline": "ليس هروبًا بل عبادة مجزية",
+    "reveal_body": "العمل هنا ليس تهربًا من المهام، بل هو وقت لقيام الليل الذي يُعتبر فرصة عظيمة للمسلمين. الإحسان في العبادة في هذه الليلة له أجر كبير جدًا."
+   },
+   {
+    "id": "opt2",
+    "label": "مناسبة للاحتفال الاجتماعي",
+    "reveal_headline": "ليست احتفالاً اجتماعيًا",
+    "reveal_body": "هذه ليست مناسبة للاجتماعات أو الترفيه، بل هي ليلة عبادة وصلاة ودعاء. التركيز فيها يكون على العلاقة مع الله وليس على التجمعات البشرية."
+   },
+   {
+    "id": "opt3",
+    "label": "عادة دينية غير مهمة",
+    "reveal_headline": "ليست عادة عادية",
+    "reveal_body": ""
+   },
+   {
+    "id": "opt4",
+    "label": "طريقة لجلب الحظ السعيد",
+    "reveal_headline": "ليست سحرًا أو حظًا",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "نزل فيها القرآن الكريم، وقِيامها وإحياؤها بالصلاة والذكر والدعاء خير من عمل ألف شهر بدونها.",
+  "explain_prompt": "اشرح المفهوم الخاطئ: لماذا لا تعتبر ليلة القدر مجرد عادة أو احتفال؟",
+  "tip": {
+   "headline": "آداب التعامل مع زملائك في هذه الليالي",
+   "lead": "يمكنك دعم زملائك باحترام وتقدير دون الحاجة لمشاركتهم العبادة:",
+   "items": [
+    "احترم رغبتهم في المغادرة المبكرة أو تقليل ساعات العمل إذا كان ذلك متاحًا سياسياً.",
+    "تجنب المقاطعة أو الضوضاء العالية إذا كانوا موجودين في المكاتب المتبقية.",
+    "استخدم عبارات مهنية بسيطة مثل «أتمنى لكم ليلة مريحة» بدلاً من الاستفسار عن تفاصيل العبادة."
+   ]
+  },
+  "key_points": [
+   "ليلة القدر هي ليلة مباركة من ليالي رمضان، ونزل فيها القرآن.",
+   "قيامة هذه الليلة بالصلاة والعبادة خير من عمل ألف شهر.",
+   "المسلمون يحيون هذه الليلة بالدعاء والذكر والتقرب إلى الله."
+  ],
+  "question_variants": [
+   "لماذا يغادر الزملاء العمل مبكرًا في هذه الأيام؟",
+   "ما معنى الحديث عن ليلة خير من ألف شهر؟",
+   "كيف يمكنني فهم اهتمام زملائي بالصلاة في وقت العمل؟",
+   "هل هناك سبب خاص يجعل هذه الليلة مختلفة عن غيرها؟",
+   "لماذا يحرص بعض الموظفين على إحياء الليل بهذه الطريقة؟"
+  ],
+  "when_parsed": null
+ },
+ "sources": [
+  {
+   "id": "quran-97-3",
+   "kind": "quran",
+   "text_ar": "لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٞ مِّنۡ أَلۡفِ شَهۡرٖ",
+   "reference": "97:3",
+   "translations": {
+    "en": {
+     "text": "The Night of Decree is better than a thousand months.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/97/3",
+   "verified": false,
+   "content_hash": "6c174163f06e673691c9a9471a96d006147dc9c887df0351cd631773776305e6"
+  },
+  {
+   "id": "hadith-4202",
+   "kind": "hadith",
+   "text_ar": "عن أبي هريرة رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: «مَنْ يَقُمْ لَيْلَةَ الْقَدْرِ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ»",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4202",
+   "verified": false,
+   "content_hash": "74c223bbd2af16cb6e2f777ea51d74e3e34f580841a579727981364bbdd25f08"
+  },
+  {
+   "id": "term-64547",
+   "kind": "term",
+   "text_ar": "لَيْلَةُ القَدْرِ: لَيْلَةٌ مِن لَيالِي شَهْرِ رَمَضانَ، يُقدَّر فِيها ما يَكونُ في تِلْكَ السَّنَةِ، وفيها أُنْزِلَ القُرْآنُ. لَيْلَةُ القَدْرِ لَيْلَةٌ مُبارَكَةٌ عَظِيمَةٌ، وهي أَفْضَلُ لَيْلَةٍ في السَّنَةِ، أَنْزَلَ اللهُ فيها القُرْآنَ، وقِيامُها وإِحْياؤُها بِالصَّلاةِ والذِّكْرِ والدُّعاءِ وقِراءَةِ القُرْآنِ وغَيْرِ ذلك مِن وُجوهِ البِرِّ خَيْرٌ مِن العَمَلِ فِي أَلْفِ شَهْرٍ بِدُونِها، ومَعنى نزولِ القرآنِ فيها أنه ابتدأَ نزولُهُ فيها، وقيل: نزل من اللَّوحِ المحفوظِ إلى السَّماءِ الدُّنيا فيها.",
+   "reference": "لَيْلَةُ القَدْرِ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/64547",
+   "verified": false,
+   "content_hash": "c144ba7da15b039ecd4751916a77f8056b02f3e6b328a676d47a46517a1797d7"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "ليلة القدر هي إحدى ليالي شهر رمضان المبارك، وهي ليلة مباركة وعظيمة تُقدَّر فيها أمور السنة.",
+   "label": "unsupported",
+   "source_id": "term-64547",
+   "quote": "لَيْلَةٌ مِن لَيالِي شَهْرِ رَمَضانَ، يُقدَّر فِيها ما يَكونُ في تِلْكَ السَّنَةِ... لَيْلَةُ القَدْرِ لَيْلَةٌ مُبارَكَةٌ عَظِيمَةٌ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.643,
+   "keyword_share": 0.67,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "نزل فيها القرآن الكريم، وقِيامها وإحياؤها بالصلاة والذكر والدعاء خير من عمل ألف شهر بدونها.",
+   "label": "supported",
+   "source_id": "term-64547",
+   "quote": "أَنْزَلَ اللهُ فيها القُرْآنَ، وقِيامُها وإِحْياؤُها بِالصَّلاةِ والذِّكْرِ والدُّعاءِ وقِراءَةِ القُرْآنِ وغَيْرِ ذلك مِن وُجوهِ البِرِّ خَيْرٌ مِن العَمَلِ فِي أَلْفِ شَهْرٍ بِدُونِها",
+   "reason": null,
+   "quote_similarity": 0.693,
+   "keyword_share": 0.92,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "العمل هنا ليس تهربًا من المهام، بل هو وقت لقيام الليل الذي يُعتبر فرصة عظيمة للمسلمين.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الإحسان في العبادة في هذه الليلة له أجر كبير جدًا.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "هذه ليست مناسبة للاجتماعات أو الترفيه، بل هي ليلة عبادة وصلاة ودعاء.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "التركيز فيها يكون على العلاقة مع الله وليس على التجمعات البشرية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "المصدر القرآني يوضح أن هذه الليلة خير من ألف شهر، مما يعني أن قيمتها الروحية والعملية كبيرة جدًا عند المسلمين، وليست مجرد طقس روتيني.",
+   "label": "unsupported",
+   "source_id": "quran-97-3",
+   "quote": "لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٞ مِّنۡ أَلۡفِ شَهۡرٖ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.444,
+   "keyword_share": 0.21,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "الإيمان بالعبادة هنا مبني على التقرب إلى الله والثواب الموعود به، وليس محاولة للتنبؤ بالمستقبل أو جلب الحظ بشكل عشوائي.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "احياء",
+   "قدر",
+   "ليله"
+  ],
+  "variants_without_names": false,
+  "variant_names_found": [
+   "زملاء العمل"
+  ],
+  "when_valid": false,
+  "when_matches_expected": false,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 8,
+  "removed_by_verifier": 3,
+  "supported": 1,
+  "general": 2,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 5985,
+  "tokens_out": 1678
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "ليلة القدر خير من ألف شهر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "من قام ليلة القدر إيمانا واحتسابا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "ليلة القدر",
+   "hits": 4
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "ليلة القدر هي إحدى ليالي شهر رمضان المبارك، وهي ليلة مباركة وعظيمة تُقدَّر فيها أمور السنة.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-0",
+   "text": "المصدر القرآني يوضح أن هذه الليلة خير من ألف شهر، مما يعني أن قيمتها الروحية والعملية كبيرة جدًا عند المسلمين، وليست مجرد طقس روتيني.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-0",
+   "text": "الإيمان بالعبادة هنا مبني على التقرب إلى الله والثواب الموعود به، وليس محاولة للتنبؤ بالمستقبل أو جلب الحظ بشكل عشوائي.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 33.2
+}

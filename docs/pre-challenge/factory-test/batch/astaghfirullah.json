@@ -1,0 +1,348 @@
+{
+ "topic_id": "astaghfirullah",
+ "topic": "زميل يقول أستغفر الله",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:32",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "disputed",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "ayah": 106,
+    "surah": 4
+   }
+  ],
+  "hadith_ids": [
+   5503
+  ],
+  "term_ids": [
+   4707
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "istighfar-workplace",
+  "level": "B",
+  "when": "always",
+  "title": "زميل يقول: أستغفر الله",
+  "teaser": "سمعت زميلك يقولها فجأة، وش قصده؟",
+  "scene": "أنت جالس في المكتب تركز على شاشة الكمبيوتر، وسمعت زميلك أحمد وهو يهمس بصوت منخفض: «أستغفر الله». لم يحدث أي موقف مفاجئ أو خطأ واضح أمام الجميع، وكان يبدو هادئًا. ما رأيك في سبب قوله هذه الكلمة في هذا الوقت بالتحديد؟",
+  "character_names": [
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "اعتذار عن خطأ حدث للتو",
+    "reveal_headline": "ليس بالضرورة اعتذارًا مباشرًا",
+    "reveal_body": "قد تكون الكلمة تعبيرًا عن طلب المغفرة بشكل عام دون ربطها بحدث محدد مرئي للآخرين. الاستغفار عبادة مستمرة وليست مقصورة فقط على لحظة الخطأ الظاهر."
+   },
+   {
+    "id": "opt2",
+    "label": "تعبير عن الحزن أو اليأس",
+    "reveal_headline": "ليست تعبيرًا عن المشاعر السلبية",
+    "reveal_body": "الكلمة تحمل طابعًا إيجابيًا يعتمد على الرجاء في رحمة الله ومغفرته، وليست صيغة يائسة أو تعبيرًا عن الحزن النفسي. هي ذريعة روحية للارتياح الداخلي."
+   },
+   {
+    "id": "opt3",
+    "label": "عادة لفظية بلا معنى",
+    "reveal_headline": "لها دلالة دينية وعملية واضحة",
+    "reveal_body": "هو فعل واعٍ وليس مجرد حشو كلامي عابر."
+   },
+   {
+    "id": "opt4",
+    "label": "محاولة لإثارة انتباه الآخرين",
+    "reveal_headline": "ليس هدفه جذب الانتباه",
+    "reveal_body": "غالبًا ما يكون الاستغفار ذكرًا داخليًا أو همسًا خفيفًا بين العبد وربه، ولا يُقصد به التصرف أمام الزملاء. دعوته لله مغفرة عمل شخصي لا يتطلب جمهورًا."
+   }
+  ],
+  "explanation": "يعتبر الاستغفار نوعًا من التوبة التي تشمل الإقلاع عن الذنب وطلب الوقاية من شر ما مضى وما يخافه المرء في المستقبل.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بناءً على المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب التعامل مع زملائك المسلمين",
+   "lead": "لفهم بيئة العمل السعودية واحترام التنوع الديني، إليك بعض النصائح العملية:",
+   "items": [
+    "لا تتوقع دائمًا أن تكون هناك أسباب ظاهرة لأذكار الزملاء، فقد تكون ممارسات شخصية خاصة.",
+    "احترم الهدوء أو الهمس الذي قد يصدر عن الزملاء أثناء أدائهم لأذكارهم دون مقاطعة أو استجواب.",
+    "تجنب تفسير الأذكار الإسلامية بأنها تعبيرات عاطفية سلبية أو مجرد عادات فارغة المعنى."
+   ]
+  },
+  "key_points": [
+   "الاستغفار هو عبادة عظيمة وسؤال العبد ربه العفو والوقاية من آثار الذنوب.",
+   "يأتي الاستغفار بصيغ متنوعة مثل «أستغفر الله» وقد يكون منفردًا كطلب وقاية.",
+   "الاستغفار مرتبط بالتوبة والإقلاع عن الذنب، وهو أمر مطلوب في القرآن والحديث الشريف."
+  ],
+  "question_variants": [
+   "لماذا يقول الموظفون أحيانًا كلمات تبدو دينية وسط العمل؟",
+   "ما المقصود عندما يسمع الزميل كلمة 'أستغفر الله' دون سياق واضح؟",
+   "هل هناك سبب خاص لذكر بعض الكلمات الدينية في بيئة العمل السعودية؟",
+   "كيف يمكن فهم ردود الفعل اللفظية البسيطة التي تصدر عن الزملاء المسلمين؟",
+   "ما الفرق بين الاعتذار العادي وبين استخدام عبارات الاستغفار في الدوام؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-4-106",
+   "kind": "quran",
+   "text_ar": "وَٱسۡتَغۡفِرِ ٱللَّهَۖ إِنَّ ٱللَّهَ كَانَ غَفُورٗا رَّحِيمٗا",
+   "reference": "4:106",
+   "translations": {
+    "en": {
+     "text": "And seek forgiveness of Allah, for Allah is All-Forgiving, Most Merciful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/4/106",
+   "verified": false,
+   "content_hash": "2ada0df7e231298251e7801cecef95d3cc7e968172563ef882285f5c12c7d8a2"
+  },
+  {
+   "id": "hadith-5503",
+   "kind": "hadith",
+   "text_ar": "عَنْ شَدَّادِ بْنِ أَوْسٍ رَضِيَ اللَّهُ عَنْهُ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «سَيِّدُ الِاسْتِغْفَارِ أَنْ تَقُولَ: اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ» قَالَ: «وَمَنْ قَالَهَا مِنَ النَّهَارِ مُوقِنًا بِهَا، فَمَاتَ مِنْ يَوْمِهِ قَبْلَ أَنْ يُمْسِيَ، فَهُوَ مِنْ أَهْلِ الجَنَّةِ، وَمَنْ قَالَهَا مِنَ اللَّيْلِ وَهُوَ مُوقِنٌ بِهَا، فَمَاتَ قَبْلَ أَنْ يُصْبِحَ، فَهُوَ مِنْ أَهْلِ الجَنَّةِ».",
+   "reference": "رواه البخاري",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/5503",
+   "verified": false,
+   "content_hash": "328f9b6924163f23bf0230bddf720c2824d39edd0a107fcd773acc5db3d08eeb"
+  },
+  {
+   "id": "term-4707",
+   "kind": "term",
+   "text_ar": "اسْتِغْفارٌ: سُؤالُ العَبْدِ رَبَّهُ العَفْوَ عن الذُّنوبِ والوِقايَةَ مِن آثارِها. الاِسْتِغْفارُ: عِبادَةٌ عَظِيمَةٌ، سَواءٌ كان مع حُصولِ الذَّنْبِ أو عَدَمِهِ، وقد يأْتي مُنْفَرِداً فُيُرادِفُ التَّوْبَةَ، وهي: الإِقْلاعُ عن الذَّنْبِ بِالقَلْبِ والجَوارِحِ، وقد يأْتي مَقْروناً بِالتَّوْبَةِ، فيكون معنى الاِسْتِغْفارِ: طَلَبُ وِقايَةِ شَرِّ ما مَضَى، والتَّوْبَةُ: الرُّجُوعُ وطَلَبُ وِقايَةِ شَرِّ ما يَخافُهُ في المُسْتَقْبَلِ مِن سَيِّئاتِ أعْمالِهِ.\nوقد جاءَ الاِسْتِغْفارُ بِصِيَغٍ مُتَنَوِّعَةٍ، كَقَولِ القائل:\" رَبِّ اغْفِرْ لِي \"، وقوْلِ:\" أَسْتَغْفِرُ اللهَ \"، وغيرِها مِن الصِّيَغِ.",
+   "reference": "اسْتِغْفارٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/4707",
+   "verified": false,
+   "content_hash": "300ec7108a669625076b54f8cbd7ab32bc22930504fbfb72089e12a5ee493909"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الاستغفار هو سؤال العبد ربه العفو عن الذنوب والوقاية من آثارها، وهو عبادة عظيمة تأتي بصيغ متعددة مثل قول «أستغفر الله».",
+   "label": "unsupported",
+   "source_id": "term-4707",
+   "quote": "اسْتِغْفارٌ: سُؤالُ العَبْدِ رَبَّهُ العَفْوَ عن الذُّنوبِ والوِقايَةَ مِن آثارِها. الاِسْتِغْفارُ: عِبادَةٌ عَظِيمَةٌ... وقد جاءَ الاِسْتِغْفارُ بِصِيَغٍ مُتَنَوِّعَةٍ، كَقَولِ القائل:\" رَبِّ اغْفِرْ لِي \"، وقوْلِ:\" أَسْتَغْفِرُ اللهَ \"",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.867,
+   "keyword_share": 0.76,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "جاء في القرآن الكريم أمر بالاستغفار لأن الله غفور رحيم، وفي الحديث النبوي فضل كبير لمن قال سيد الاستغفار موقنًا بها.",
+   "label": "unsupported",
+   "source_id": "quran-4-106",
+   "quote": "وَٱسۡتَغۡفِرِ ٱللَّهَۖ إِنَّ ٱللَّهَ كَانَ غَفُورٗا رَّحِيمٗا",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.632,
+   "keyword_share": 0.06,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "يعتبر الاستغفار نوعًا من التوبة التي تشمل الإقلاع عن الذنب وطلب الوقاية من شر ما مضى وما يخافه المرء في المستقبل.",
+   "label": "supported",
+   "source_id": "term-4707",
+   "quote": "وقد يأْتي مُنْفَرِداً فُيُرادِفُ التَّوْبَةَ، وهي: الإِقْلاعُ عن الذَّنْبِ بِالقَلْبِ والجَوارِحِ، وقد يأْتي مَقْروناً بِالتَّوْبَةِ، فيكون معنى الاِسْتِغْفارِ: طَلَبُ وِقايَةِ شَرِّ ما مَضَى، والتَّوْبَةُ: الرُّجُوعُ وطَلَبُ وِقايَةِ شَرِّ ما يَخافُهُ في المُسْتَقْبَلِ",
+   "reason": null,
+   "quote_similarity": 0.756,
+   "keyword_share": 0.64,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "قد تكون الكلمة تعبيرًا عن طلب المغفرة بشكل عام دون ربطها بحدث محدد مرئي للآخرين.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الاستغفار عبادة مستمرة وليست مقصورة فقط على لحظة الخطأ الظاهر.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "الكلمة تحمل طابعًا إيجابيًا يعتمد على الرجاء في رحمة الله ومغفرته، وليست صيغة يائسة أو تعبيرًا عن الحزن النفسي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "هي ذريعة روحية للارتياح الداخلي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الاستغفار في الإسلام عبادة عظيمة وسؤال الرب للعفو، وقد يأتي منفردًا كطلب وقاية من آثار الذنوب.",
+   "label": "unsupported",
+   "source_id": "term-4707",
+   "quote": "الاِسْتِغْفارُ: عِبادَةٌ عَظِيمَةٌ... وقد يأْتي مُنْفَرِداً فُيُرادِفُ التَّوْبَةَ... طَلَبُ وِقايَةِ شَرِّ ما مَضَى",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.707,
+   "keyword_share": 0.69,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "هو فعل واعٍ وليس مجرد حشو كلامي عابر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "غالبًا ما يكون الاستغفار ذكرًا داخليًا أو همسًا خفيفًا بين العبد وربه، ولا يُقصد به التصرف أمام الزملاء.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "دعوته لله مغفرة عمل شخصي لا يتطلب جمهورًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "استغفر",
+   "الله"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 11,
+  "removed_by_verifier": 3,
+  "supported": 1,
+  "general": 6,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 2,
+   "quote_low_similarity": 0,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 5529,
+  "tokens_out": 2082
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "أستغفر الله",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "استغفار",
+   "hits": 4
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الاستغفار",
+   "hits": 1
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "الاستغفار هو سؤال العبد ربه العفو عن الذنوب والوقاية من آثارها، وهو عبادة عظيمة تأتي بصيغ متعددة مثل قول «أستغفر الله».",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "جاء في القرآن الكريم أمر بالاستغفار لأن الله غفور رحيم، وفي الحديث النبوي فضل كبير لمن قال سيد الاستغفار موقنًا بها.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-0",
+   "text": "الاستغفار في الإسلام عبادة عظيمة وسؤال الرب للعفو، وقد يأتي منفردًا كطلب وقاية من آثار الذنوب.",
+   "why": "quote_not_verbatim"
+  }
+ ],
+ "seconds": 38.9
+}

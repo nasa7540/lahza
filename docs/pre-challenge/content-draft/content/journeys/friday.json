@@ -1,0 +1,193 @@
+{
+  "id": "friday",
+  "level": "A",
+  "sort": 3,
+  "when": {
+    "type": "weekday",
+    "weekdays": [
+      5
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Friday",
+      "teaser": "Why is the weekend here Friday and Saturday?",
+      "scene": "Friday around noon, the streets are almost empty and shops are closed — and your weekend is Friday–Saturday, not Saturday–Sunday. Why Friday?",
+      "options": [
+        {
+          "id": "m-dayoff",
+          "label": "It's just the weekly day off"
+        },
+        {
+          "id": "m-market",
+          "label": "It's market day"
+        },
+        {
+          "id": "m-gov",
+          "label": "It's only a government decision"
+        },
+        {
+          "id": "m-sunday",
+          "label": "It's a day of complete rest, like Sunday"
+        }
+      ],
+      "reveals": {
+        "m-dayoff": {
+          "picked": "You picked: \"It's just the weekly day off\"",
+          "headline": "A day off — with a reason.",
+          "body": "At midday on Friday, Muslims gather at the mosque for a weekly congregational prayer preceded by a short sermon, called the Friday prayer. The weekend is arranged around it."
+        },
+        "m-market": {
+          "picked": "You picked: \"It's market day\"",
+          "headline": "Almost the opposite.",
+          "body": "At the time of the Friday prayer, Muslims leave buying and selling and head to the mosque — that's why shops are closed at noon. After the prayer, life and the markets pick up again."
+        },
+        "m-gov": {
+          "picked": "You picked: \"It's only a government decision\"",
+          "headline": "The decision followed the meaning.",
+          "body": "Yes, the weekend is set officially — but it is built on the standing of Friday for Muslims and its congregational prayer. That's why the weekend here differs from other countries."
+        },
+        "m-sunday": {
+          "picked": "You picked: \"It's a day of complete rest, like Sunday\"",
+          "headline": "Not a full stop.",
+          "body": "Friday has a special standing and a congregational prayer, but Islam does not ask people to stop working for the whole day. The prayer and sermon take about an hour, and then people carry on with their day."
+        }
+      },
+      "explain_prompt": "Explain it to a colleague — in one sentence.",
+      "tip": {
+        "headline": "Keep Friday midday free.",
+        "lead": "Even for something informal.",
+        "items": [
+          "If you're working on a Friday with Muslim colleagues, leave the midday slot open.",
+          "\"Jumu'ah Mubarak\" (blessed Friday) is a friendly greeting you'll hear a lot — you can say it too.",
+          "Many restaurants and shops open after the prayer, so plan errands around it."
+        ]
+      }
+    },
+    "ar": {
+      "title": "الجمعة",
+      "teaser": "ليش الإجازة هنا جمعة وسبت؟",
+      "scene": "ظهر الجمعة، الشوارع شبه فاضية والمحلات مسكّرة، وإجازتك الأسبوعية جمعة وسبت، مو سبت وأحد. ليش الجمعة بالذات؟",
+      "options": [
+        {
+          "id": "m-dayoff",
+          "label": "مجرد يوم إجازة أسبوعية"
+        },
+        {
+          "id": "m-market",
+          "label": "يوم السوق والتسوق"
+        },
+        {
+          "id": "m-gov",
+          "label": "قرار حكومي لا أكثر"
+        },
+        {
+          "id": "m-sunday",
+          "label": "يوم راحة تامة مثل الأحد"
+        }
+      ],
+      "reveals": {
+        "m-dayoff": {
+          "picked": "اخترت: «مجرد يوم إجازة أسبوعية»",
+          "headline": "إجازة، ولها سبب.",
+          "body": "في ظهر الجمعة يجتمع المسلمون في المسجد لصلاة أسبوعية جامعة تسبقها خطبة قصيرة، اسمها صلاة الجمعة. الإجازة رُتّبت حول هذه الصلاة."
+        },
+        "m-market": {
+          "picked": "اخترت: «يوم السوق والتسوق»",
+          "headline": "العكس تقريبًا.",
+          "body": "وقت صلاة الجمعة يترك المسلمون البيع والشراء ويتجهون إلى المسجد، ولهذا تجد المحلات مغلقة عند الظهر. بعد الصلاة تعود الحياة والأسواق."
+        },
+        "m-gov": {
+          "picked": "اخترت: «قرار حكومي لا أكثر»",
+          "headline": "القرار جاء بعد المعنى.",
+          "body": "نعم، الإجازة الأسبوعية قرار رسمي، لكنه مبني على مكانة يوم الجمعة عند المسلمين وصلاته الجامعة. ولهذا يختلف يوم الإجازة هنا عن بلدان أخرى."
+        },
+        "m-sunday": {
+          "picked": "اخترت: «يوم راحة تامة مثل الأحد»",
+          "headline": "ليس يوم توقف تام.",
+          "body": "الجمعة يوم له مكانة خاصة وصلاة جامعة، لكن الإسلام لا يطلب التوقف عن العمل طوال اليوم. الصلاة وخطبتها تأخذان حوالي ساعة، وبعدها يكمل الناس يومهم."
+        }
+      },
+      "explain_prompt": "اشرحها لزميل بجملة واحدة.",
+      "tip": {
+        "headline": "لا تحجز شي ظهر الجمعة.",
+        "lead": "حتى لو كان اللقاء غير رسمي.",
+        "items": [
+          "لو عندك عمل يوم الجمعة مع زملاء مسلمين، خل وقت الظهر فاضي.",
+          "كلمة «جمعة مباركة» تحية لطيفة تسمعها كثير، وتقدر تقولها.",
+          "كثير من المطاعم والمحلات تفتح بعد الصلاة، فرتّب مشاويرك على هذا."
+        ]
+      }
+    }
+  },
+  "card_id": "card-friday-1",
+  "card": {
+    "id": "card-friday-1",
+    "journey_id": "friday",
+    "source_ids": [
+      "quran-62-9"
+    ],
+    "explanation": {
+      "en": "The verse calls on believers, when the call to the Friday prayer is made, to head to the remembrance of God and leave trade. So work and business pause at prayer time, and people gather at the mosque.",
+      "ar": "تدعو الآية المؤمنين، إذا نودي لصلاة الجمعة، أن يتجهوا إلى ذكر الله ويتركوا البيع. لذلك يتوقف العمل والتجارة وقت الصلاة، ويجتمع الناس في المسجد."
+    },
+    "generated_by": "claude-draft",
+    "reviewed": false,
+    "reviewed_by": null,
+    "key_points": [
+      {
+        "id": "kp1",
+        "en": "Friday has a weekly congregational prayer at midday, with a sermon.",
+        "ar": "للجمعة صلاة أسبوعية جامعة وقت الظهر، تسبقها خطبة."
+      },
+      {
+        "id": "kp2",
+        "en": "Muslims leave work and trade at prayer time and go to the mosque.",
+        "ar": "يترك المسلمون العمل والبيع وقت الصلاة ويذهبون إلى المسجد."
+      },
+      {
+        "id": "kp3",
+        "en": "Friday is not a day of mandatory rest; the weekend is arranged around the prayer.",
+        "ar": "الجمعة ليست يوم راحة إلزامية، والإجازة الأسبوعية رُتّبت حولها."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-dayoff",
+        "en": "It's just the weekly day off",
+        "ar": "مجرد يوم إجازة أسبوعية"
+      },
+      {
+        "id": "m-market",
+        "en": "It's market day",
+        "ar": "يوم السوق والتسوق"
+      },
+      {
+        "id": "m-gov",
+        "en": "It's only a government decision",
+        "ar": "قرار حكومي لا أكثر"
+      },
+      {
+        "id": "m-sunday",
+        "en": "It's a day of complete rest, like Sunday",
+        "ar": "يوم راحة تامة مثل الأحد"
+      }
+    ],
+    "question_variants": {
+      "en": [
+        "Why is the weekend Friday and Saturday here?",
+        "Why are shops closed at noon on Friday?",
+        "What is the Friday prayer?",
+        "Why is the office empty on Friday afternoon?",
+        "What does \"Jumu'ah Mubarak\" mean?"
+      ],
+      "ar": [
+        "ليش الإجازة هنا جمعة وسبت؟",
+        "ليش المحلات تسكّر ظهر الجمعة؟",
+        "وش هي صلاة الجمعة؟",
+        "ليش المكتب يفضى يوم الجمعة الظهر؟",
+        "وش معنى جمعة مباركة؟"
+      ]
+    }
+  }
+}

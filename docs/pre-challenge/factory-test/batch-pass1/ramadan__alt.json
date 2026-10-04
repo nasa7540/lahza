@@ -1,0 +1,32 @@
+{
+ "topic_id": "ramadan",
+ "topic": "زميل صائم في رمضان ويعتذر عن غداء الفريق",
+ "expected_when": "hijri 9/1-9/30",
+ "status": "error",
+ "guard": {
+  "decision": "allow",
+  "category": "fatwa",
+  "by": "model"
+ },
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:33",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.8-max-prime (writing only; references reused)",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 185
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [],
+  "steps": 2
+ },
+ "error": "qwen/qwen3.8-max-prime: HTTPError 400"
+}

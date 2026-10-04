@@ -1,0 +1,321 @@
+{
+ "topic_id": "hajj-return",
+ "topic": "زميل عاد من الحج ويستقبل التهاني",
+ "expected_when": "hijri 12/14-12/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:37",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 197
+   }
+  ],
+  "hadith_ids": [
+   2758
+  ],
+  "term_ids": [],
+  "steps": 5
+ },
+ "journey": {
+  "id": "hajj-return-greetings",
+  "level": "B",
+  "when": "always",
+  "title": "تهاني زميلك بعد عودته من الحج",
+  "teaser": "زميلك عاد من رحلة طويلة، والكل يهنئه. ليش التهنئة هذه مميزة؟",
+  "scene": "عاد زميلك فهد من رحلته الطويلة إلى مكة، وبدا عليه السعادة والطمأنينة. في اليوم التالي، لاحظت أن الزملاء يتبادلون التهاني معه بكلمات مثل «قبل الله» و«تقبل الله منك»، وبعضهم حتى قدم له هدية صغيرة أو كلمة تقدير خاصة تختلف عن تهنئة الإجازة العادية. ما رأيك في سبب هذه التهنئة الخاصة والمميزة؟",
+  "character_names": [
+   "فهد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "إنجاز مهني استثنائي يستحق المكافأة",
+    "reveal_headline": "ليس إنجازًا وظيفيًا",
+    "reveal_body": "الحج عبادة روحية وليست مشروع عمل أو إنجازًا مؤسسيًا يُقاس بالأداء الوظيفي. التهنئة هنا تعبير عن التقدير الروحي لمحاولة العبادة، وليس تقييمًا للمهارات المهنية."
+   },
+   {
+    "id": "opt2",
+    "label": "مناسبة اجتماعية عادية مثل عيد الميلاد",
+    "reveal_headline": "أعمق من مجرد مناسبة اجتماعية",
+    "reveal_body": "التهنئة بالحج ليست مجرد تبادل طقوس اجتماعية، بل هي دعاء بقبول العبادة وتطهير النفس. لها بُعد روحي عميق يرتبط بنقاء القلب وتجديد الإيمان، مما يجعلها مختلفة عن المناسبات الاجتماعية البحتة."
+   },
+   {
+    "id": "opt3",
+    "label": "دليل على الانتماء لطائفة معينة داخل الإسلام",
+    "reveal_headline": "عبادة عامة للمسلمين",
+    "reveal_body": "الحج ركن أساسي من أركان الإسلام الخمسة، وهو واجب على كل مسلم مستطيع مرة واحدة في العمر. لا يرتبط بطائفة محددة، بل هو تجربة مشتركة تجمع المسلمين من جميع الخلفيات والثقافات حول هدف واحد."
+   },
+   {
+    "id": "opt4",
+    "label": "رحلة سياحية فاخرة مكلفة تستحق الاحتفال",
+    "reveal_headline": "ليست رحلة سياحية",
+    "reveal_body": "الحج عبادة دينية منظمة بطقوس محددة وليست رحلة ترفيهية أو سياحية. التركيز فيها على الجوانب الروحية والقلبية، وليس على الرفاهية أو التنزه، مما يميزها جوهريًا عن مفهوم السياحة."
+   }
+  ],
+  "explanation": "ومن حج لله فلم يرفث ولم يفسق، رجع كيوم ولدت أمه، أي نقيًا من الذنوب كما ولدته أمه. لذلك فإن تهاني الزملاء تعبر عن الفرح بهذا التجديد الروحي والنقاء الذي حققه زميلك.",
+  "explain_prompt": "اشرح المفهوم الصحيح بناءً على المصادر المرفقة.",
+  "tip": {
+   "headline": "آداب التهنئة بالعودة من الحج",
+   "lead": "إليك بعض النصائح العملية للتعامل مع زميل عاد من الحج باحترام ومودة:",
+   "items": [
+    "استخدم عبارات التهنئة الشائعة مثل «تقبل الله منك» أو «قبل الله طاعتك» كتحية لائقه ومحترمة.",
+    "لا تسأل عن تفاصيل النفقات أو الترتيبات اللوجستية، بل ركز على الجانب الروحي والعاطفي للرحلة.",
+    "احترم خصوصيته إذا بدا منه الرغبة في الراحة بعد العودة، ولا تضغطه للمشاركة في أنشطة مرهقة فور عودته."
+   ]
+  },
+  "key_points": [
+   "الحج عبادة إسلامية أساسية وليست نشاطًا ترفيهيًا أو إنجازًا وظيفيًا.",
+   "التهنئة تعبر عن الدعاء بقبول العبادة والفرح بنقاء القلب من الذنوب.",
+   "عبارات مثل «تقبل الله» هي التحية المناسبة والمعتمدة لهذا الحدث."
+  ],
+  "question_variants": [
+   "ليش الكل يهنئ زميلي بكلمات خاصة لما رجع من رحلته؟",
+   "وش معنى التهنئة اللي يقولونها له بعد ما رجع من مكة؟",
+   "ليش التهنئة للحج مختلفة عن تهنئة الإجازات العادية؟",
+   "هل الحج يعتبر إنجازًا يستحق مكافآت خاصة في العمل؟",
+   "وش المقصود من عبارة 'تقبل الله' اللي يرددها الجميع؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-197",
+   "kind": "quran",
+   "text_ar": "ٱلۡحَجُّ أَشۡهُرٞ مَّعۡلُومَٰتٞۚ فَمَن فَرَضَ فِيهِنَّ ٱلۡحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي ٱلۡحَجِّۗ وَمَا تَفۡعَلُواْ مِنۡ خَيۡرٖ يَعۡلَمۡهُ ٱللَّهُۗ وَتَزَوَّدُواْ فَإِنَّ خَيۡرَ ٱلزَّادِ ٱلتَّقۡوَىٰۖ وَٱتَّقُونِ يَٰٓأُوْلِي ٱلۡأَلۡبَٰبِ",
+   "reference": "2:197",
+   "translations": {
+    "en": {
+     "text": "The pilgrimage is in known months. Whoever commits himself to perform the pilgrimage, there should be no intimacy, foul language, and arguments during the pilgrimage. Whatever good you do, Allah is aware of it. And take provisions for the journey, but the best provision is righteousness. So fear Me, O people of understanding.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/197",
+   "verified": false,
+   "content_hash": "abde2cb6bd0182fc9e7935d92994a774fb43972bce2d12c5ae9a0674555ec14d"
+  },
+  {
+   "id": "hadith-2758",
+   "kind": "hadith",
+   "text_ar": "عن أبي هريرة رضي الله عنه قال: سمعت النبي صلى الله عليه وسلم يقول: «مَنْ حَجَّ لِلهِ فَلَمْ يَرْفُثْ وَلَمْ يَفْسُقْ رَجَعَ كَيَوْمِ وَلَدَتْهُ أُمُّهُ».",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/2758",
+   "verified": false,
+   "content_hash": "76335e7fe50e6d7ed64867fb7c805d91d0212b2745f24d8d271c42818bbb1d34"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الحج شهر معلوم، ومن فرضه فيه فلا رفث ولا فسوق ولا جدال فيه.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "ومن حج لله فلم يرفث ولم يفسق، رجع كيوم ولدت أمه، أي نقيًا من الذنوب كما ولدته أمه.",
+   "label": "supported",
+   "source_id": "hadith-2758",
+   "quote": "مَنْ حَجَّ لِلهِ فَلَمْ يَرْفُثْ وَلَمْ يَفْسُقْ رَجَعَ كَيَوْمِ وَلَدَتْهُ أُمُّهُ",
+   "reason": null,
+   "quote_similarity": 0.682,
+   "keyword_share": 0.69,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "لذلك فإن تهاني الزملاء تعبر عن الفرح بهذا التجديد الروحي والنقاء الذي حققه زميلك.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "الحج عبادة روحية وليست مشروع عمل أو إنجازًا مؤسسيًا يُقاس بالأداء الوظيفي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "التهنئة هنا تعبير عن التقدير الروحي لمحاولة العبادة، وليس تقييمًا للمهارات المهنية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "التهنئة بالحج ليست مجرد تبادل طقوس اجتماعية، بل هي دعاء بقبول العبادة وتطهير النفس.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "لها بُعد روحي عميق يرتبط بنقاء القلب وتجديد الإيمان، مما يجعلها مختلفة عن المناسبات الاجتماعية البحتة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الحج ركن أساسي من أركان الإسلام الخمسة، وهو واجب على كل مسلم مستطيع مرة واحدة في العمر.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "لا يرتبط بطائفة محددة، بل هو تجربة مشتركة تجمع المسلمين من جميع الخلفيات والثقافات حول هدف واحد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "الحج عبادة دينية منظمة بطقوس محددة وليست رحلة ترفيهية أو سياحية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "التركيز فيها على الجوانب الروحية والقلبية، وليس على الرفاهية أو التنزه، مما يميزها جوهريًا عن مفهوم السياحة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "تهاني",
+   "زميلك"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 5,
+  "sentences_generated": 11,
+  "removed_by_verifier": 1,
+  "supported": 1,
+  "general": 8,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 10100,
+  "tokens_out": 1808
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الحج التهاني قبول",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "الحج المبرور",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحج",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "حج مبرور",
+   "hits": 0
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "الحج شهر معلوم، ومن فرضه فيه فلا رفث ولا فسوق ولا جدال فيه.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 35.2
+}

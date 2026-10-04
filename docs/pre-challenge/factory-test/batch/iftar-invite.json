@@ -1,0 +1,338 @@
+{
+ "topic_id": "iftar-invite",
+ "topic": "دعوة الزملاء للإفطار الجماعي في رمضان",
+ "expected_when": "hijri 9/1-9/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:30",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 5,
+    "ayah": 2
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   963
+  ],
+  "steps": 5
+ },
+ "journey": {
+  "id": "ramadan-team-iftar",
+  "level": "B",
+  "when": "hijri M/D-M/D",
+  "title": "دعوة الزملاء للإفطار الجماعي في رمضان",
+  "teaser": "في شهر رمضان، تلاحظ أن زملاءك يشاركونك وجبة الإفطار أو يدعونك للانضمام إليهم. كيف تتعامل مع هذا الموقف؟",
+  "scene": "أنت في مكتبك الساعة السابعة مساءً، وقد انتهيت من عملك. زميلك سعود يمر بجانب مكتبك ويبتسم ويقول: «يا هلا! جينا نجمع بعضنا عشان نفطر سوا، تعال معنا». تنظر إلى ساعتك ثم إلى وجهه المبتسم، وتبدأ بالتساؤل في نفسك.",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "إنه يحاول إقناعي بالانضمام لطقس ديني لأغراض شخصية",
+    "reveal_headline": "دعوة مجاملة ووحدة فريق",
+    "reveal_body": "هذا ليس محاولة لإقناعك بدين معين، بل هو تعبير عن الكرم السعودي وعادات الضيافة التي تشجع على مشاركة الآخرين. الدعوة تهدف لتقوية الروابط الاجتماعية بين زملاء العمل وليس للضغط الديني."
+   },
+   {
+    "id": "opt-2",
+    "label": "هو يريد أن يتأكد أنني سألتزم بالصيام معه",
+    "reveal_headline": "توقعات خاطئة حول الالتزام",
+    "reveal_body": "الدعوة عامة للجميع بغض النظر عن صيامهم أو عدم صيامهم. لا يوجد توقع بأن تنضم للصيام، فالإفطار جماعي يشمل الجميع. الهدف هو المشاركة في اللحظة الاجتماعية فقط."
+   },
+   {
+    "id": "opt-3",
+    "label": "هذا مجرد ذريعة للتأخر عن العمل أو الخروج المبكر",
+    "reveal_headline": "نشاط اجتماعي رسمي",
+    "reveal_body": "الإفطار في رمضان نشاط اجتماعي مقبول ومعروف، وغالبًا ما يتم تنظيمه ضمن أوقات العمل أو بعد انتهاء الدوام مباشرة كجزء من ثقافة الشركة. لا يعتبر تأخيرًا غير مبرر، بل فرصة لتعزيز روح الفريق."
+   },
+   {
+    "id": "opt-4",
+    "label": "إنه يختبر مدى تقبلي للثقافة المحلية",
+    "reveal_headline": "بادرة حسن نية بسيطة",
+    "reveal_body": "لا يوجد اختبار خفي أو هدف سياسي وراء الدعوة. هي مجرد مبادرة شخصية من زميلك لمشاركتك فرحته وإفطاره. التعامل معها ببساطة ومودة هو الأنسب دون تحليل زائد."
+   }
+  ],
+  "explanation": "يُعد الإفطار الجماعي جزءًا من التعاطف الاجتماعي والكرم الذي يحث عليه الإسلام والمجتمع السعودي. هذه الممارسة تعكس قيم التعاون والتراحم بين الناس.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بشكل بسيط ومباشر.",
+  "tip": {
+   "headline": "آداب التعامل مع دعوة الإفطار",
+   "lead": "للمشاركة الإيجابية والمحترمة في مثل هذه المناسبات:",
+   "items": [
+    "تقبل الدعوة بابتسامة حتى لو كنت لن تأكل، فهذا يعزز العلاقات.",
+    "احترم خصوصيات الآخرين ولا تسأل عن تفاصيل صيامهم الشخصية.",
+    "شارك في الحديث العام وتجنب النقاشات الدينية الحادة أثناء الوجبة."
+   ]
+  },
+  "key_points": [
+   "رمضان هو الشهر التاسع من التقويم الهجري.",
+   "الإفطار الجماعي تعبير عن الكرم والترابط الاجتماعي.",
+   "الدعوة ليست إلزامية ولا تتطلب التزامًا دينيًا منك."
+  ],
+  "question_variants": [
+   "لماذا يدعوني زملائي للإفطار في هذا الوقت؟",
+   "هل يجب عليّ الانضمام لدعوة الإفطار الجماعي؟",
+   "ما معنى مشاركة زملائي لي في وجبة الإفطار؟",
+   "كيف أرد على دعوة الإفطار من زميل في العمل؟",
+   "هل هذه الدعوة تتعلق بصيامي أم مجرد مجاملة؟"
+  ],
+  "when_parsed": null
+ },
+ "sources": [
+  {
+   "id": "quran-5-2",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُحِلُّواْ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهۡرَ ٱلۡحَرَامَ وَلَا ٱلۡهَدۡيَ وَلَا ٱلۡقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلۡبَيۡتَ ٱلۡحَرَامَ يَبۡتَغُونَ فَضۡلٗا مِّن رَّبِّهِمۡ وَرِضۡوَٰنٗاۚ وَإِذَا حَلَلۡتُمۡ فَٱصۡطَادُواْۚ وَلَا يَجۡرِمَنَّكُمۡ شَنَـَٔانُ قَوۡمٍ أَن صَدُّوكُمۡ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ أَن تَعۡتَدُواْۘ وَتَعَاوَنُواْ عَلَى ٱلۡبِرِّ وَٱلتَّقۡوَىٰۖ وَلَا تَعَاوَنُواْ عَلَى ٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِۚ وَٱتَّقُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+   "reference": "5:2",
+   "translations": {
+    "en": {
+     "text": "O you who believe, do not violate the sanctity of the rituals of Allah, nor of the sacred month, nor the sacrificial animals, nor the garlands, nor those [pilgrims] proceeding to the Sacred House seeking their Lord’s grace and pleasure. When your pilgrimage has ended, you may hunt. However, do not let the hatred of a people who barred you from the Sacred Mosque lead you to transgress. Cooperate with one another in goodness and righteousness, and do not cooperate in sin and transgression. And fear Allah, for Allah is severe in punishment.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/5/2",
+   "verified": false,
+   "content_hash": "d5523b89531468d471277d334c66d28d0d7cd19c6a0371aa505fa340f5a15e5c"
+  },
+  {
+   "id": "term-963",
+   "kind": "term",
+   "text_ar": "شَهْرُ رَمَضانَ: الشَّهْرُ التّاسِعُ مِن أَشْهُرِ السَّنَةِ الـهِجْرِيَّةِ. شَهْرُ رَمَضانَ: هو الشَّهْرُ التّاسِعُ مِن أَشْهُرِ السَّنَةِ الـهِجْرِيَّةِ الذي يَلِي شَهْرَ شَعْبانَ ويسبقُ شهرَ شوالٍ، ويَخْتَصُّ شَهْرُ رَمَضان عَن غَيْرِهِ مِن الشُّهُورِ بِجُمْلَةٍ مِن الأَحْكامِ والفَضائِل مِنْها: نُزولُ القُرآنِ فِيهِ، ووُجوبُ صِيامِهِ، وفِيهِ لَيْلَةُ القَدْرِ، وصَلاةُ التَّراوِيحِ، ومُضاعَفَةُ الأُجورِ فِيهِ.",
+   "reference": "شَهْرُ رَمَضانَ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/963",
+   "verified": false,
+   "content_hash": "d17baee361e700884ae1019b1fb7d063a97338d0379b3b4839181f6bb3459456"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "شهر رمضان هو الشهر التاسع من السنة الهجرية، ويتميز بمضاعفة الأجر والثواب فيه.",
+   "label": "unsupported",
+   "source_id": "term-963",
+   "quote": "شَهْرُ رَمَضانَ: هو الشَّهْرُ التّاسِعُ مِن أَشْهُرِ السَّنَةِ الـهِجْرِيَّةِ... ومُضاعَفَةُ الأُجورِ فِيهِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.573,
+   "keyword_share": 0.67,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يُعد الإفطار الجماعي جزءًا من التعاطف الاجتماعي والكرم الذي يحث عليه الإسلام والمجتمع السعودي.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "هذه الممارسة تعكس قيم التعاون والتراحم بين الناس.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا ليس محاولة لإقناعك بدين معين، بل هو تعبير عن الكرم السعودي وعادات الضيافة التي تشجع على مشاركة الآخرين.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "الدعوة تهدف لتقوية الروابط الاجتماعية بين زملاء العمل وليس للضغط الديني.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "الدعوة عامة للجميع بغض النظر عن صيامهم أو عدم صيامهم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "لا يوجد توقع بأن تنضم للصيام، فالإفطار جماعي يشمل الجميع.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-2",
+   "where": "reveal:opt-2",
+   "text": "الهدف هو المشاركة في اللحظة الاجتماعية فقط.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "الإفطار في رمضان نشاط اجتماعي مقبول ومعروف، وغالبًا ما يتم تنظيمه ضمن أوقات العمل أو بعد انتهاء الدوام مباشرة كجزء من ثقافة الشركة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "لا يعتبر تأخيرًا غير مبرر، بل فرصة لتعزيز روح الفريق.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "لا يوجد اختبار خفي أو هدف سياسي وراء الدعوة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "هي مجرد مبادرة شخصية من زميلك لمشاركتك فرحته وإفطاره.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-2",
+   "where": "reveal:opt-4",
+   "text": "التعامل معها ببساطة ومودة هو الأنسب دون تحليل زائد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": true,
+  "scene_title_words_found": [],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": false,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 5,
+  "sentences_generated": 13,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 11,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 11045,
+  "tokens_out": 1780
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "تعاونوا على البر والتقوى",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "تعاونوا على البر والتقوى",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الصيام",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "رمضان",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "شهر رمضان هو الشهر التاسع من السنة الهجرية، ويتميز بمضاعفة الأجر والثواب فيه.",
+   "why": "quote_not_verbatim"
+  }
+ ],
+ "seconds": 48.8
+}

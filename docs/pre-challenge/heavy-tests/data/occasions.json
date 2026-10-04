@@ -1,0 +1,313 @@
+{
+ "none": {
+  "type": "always"
+ },
+ "ramadan": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 9,
+     "day": 1
+    },
+    "to": {
+     "month": 9,
+     "day": 30
+    }
+   }
+  ]
+ },
+ "ramadan_last_ten": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 9,
+     "day": 21
+    },
+    "to": {
+     "month": 9,
+     "day": 30
+    }
+   }
+  ]
+ },
+ "zakat_al_fitr": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 9,
+     "day": 25
+    },
+    "to": {
+     "month": 10,
+     "day": 1
+    }
+   }
+  ]
+ },
+ "eid_al_fitr": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 10,
+     "day": 1
+    },
+    "to": {
+     "month": 10,
+     "day": 3
+    }
+   }
+  ]
+ },
+ "shawwal": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 10,
+     "day": 2
+    },
+    "to": {
+     "month": 10,
+     "day": 30
+    }
+   }
+  ]
+ },
+ "hajj_season": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 11,
+     "day": 15
+    },
+    "to": {
+     "month": 12,
+     "day": 13
+    }
+   }
+  ]
+ },
+ "dhul_hijjah_ten": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 12,
+     "day": 1
+    },
+    "to": {
+     "month": 12,
+     "day": 10
+    }
+   }
+  ]
+ },
+ "arafah": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 12,
+     "day": 9
+    },
+    "to": {
+     "month": 12,
+     "day": 9
+    }
+   }
+  ]
+ },
+ "eid_al_adha": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 12,
+     "day": 10
+    },
+    "to": {
+     "month": 12,
+     "day": 13
+    }
+   }
+  ]
+ },
+ "after_hajj": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 12,
+     "day": 14
+    },
+    "to": {
+     "month": 12,
+     "day": 30
+    }
+   }
+  ]
+ },
+ "hijri_new_year": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 1,
+     "day": 1
+    },
+    "to": {
+     "month": 1,
+     "day": 1
+    }
+   }
+  ]
+ },
+ "ashura": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 1,
+     "day": 9
+    },
+    "to": {
+     "month": 1,
+     "day": 10
+    }
+   }
+  ]
+ },
+ "white_days": {
+  "type": "hijri",
+  "windows": [
+   {
+    "from": {
+     "month": 1,
+     "day": 13
+    },
+    "to": {
+     "month": 1,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 2,
+     "day": 13
+    },
+    "to": {
+     "month": 2,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 3,
+     "day": 13
+    },
+    "to": {
+     "month": 3,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 4,
+     "day": 13
+    },
+    "to": {
+     "month": 4,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 5,
+     "day": 13
+    },
+    "to": {
+     "month": 5,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 6,
+     "day": 13
+    },
+    "to": {
+     "month": 6,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 7,
+     "day": 13
+    },
+    "to": {
+     "month": 7,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 8,
+     "day": 13
+    },
+    "to": {
+     "month": 8,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 10,
+     "day": 13
+    },
+    "to": {
+     "month": 10,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 11,
+     "day": 13
+    },
+    "to": {
+     "month": 11,
+     "day": 15
+    }
+   },
+   {
+    "from": {
+     "month": 12,
+     "day": 14
+    },
+    "to": {
+     "month": 12,
+     "day": 15
+    }
+   }
+  ]
+ },
+ "monday_thursday": {
+  "type": "weekday",
+  "weekdays": [
+   1,
+   4
+  ]
+ },
+ "friday": {
+  "type": "weekday",
+  "weekdays": [
+   5
+  ]
+ }
+}

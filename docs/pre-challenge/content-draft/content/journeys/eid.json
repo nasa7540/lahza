@@ -1,0 +1,212 @@
+{
+  "id": "eid",
+  "level": "A",
+  "sort": 4,
+  "when": {
+    "type": "hijri",
+    "windows": [
+      {
+        "from": {
+          "month": 10,
+          "day": 1
+        },
+        "to": {
+          "month": 10,
+          "day": 3
+        }
+      },
+      {
+        "from": {
+          "month": 12,
+          "day": 10
+        },
+        "to": {
+          "month": 12,
+          "day": 13
+        }
+      }
+    ]
+  },
+  "locales": {
+    "en": {
+      "title": "Eid",
+      "teaser": "The holiday is coming — what do you say to your colleague?",
+      "scene": "The company announced several days off, everyone is exchanging greetings, and your colleague Noura brought sweets to the office. You'd like to congratulate her, but you're not sure what the occasion really is. What's your guess?",
+      "options": [
+        {
+          "id": "m-oneday",
+          "label": "A one-day celebration"
+        },
+        {
+          "id": "m-social",
+          "label": "A purely social occasion"
+        },
+        {
+          "id": "m-xmas",
+          "label": "The Muslim version of Christmas"
+        },
+        {
+          "id": "m-family",
+          "label": "A private family event that doesn't involve me"
+        }
+      ],
+      "reveals": {
+        "m-oneday": {
+          "picked": "You picked: \"A one-day celebration\"",
+          "headline": "Two Eids, each lasting several days.",
+          "body": "Muslims have two Eids a year: Eid al-Fitr after Ramadan ends, and Eid al-Adha in the Hajj season. The celebration and visits stretch over several days — which is why the holiday is long."
+        },
+        "m-social": {
+          "picked": "You picked: \"A purely social occasion\"",
+          "headline": "Joyful — with a religious root.",
+          "body": "Eid begins with a congregational prayer in the morning; then come the visits, sweets and new clothes. Eid al-Fitr follows the completed month of fasting; Eid al-Adha comes with the Hajj season."
+        },
+        "m-xmas": {
+          "picked": "You picked: \"The Muslim version of Christmas\"",
+          "headline": "An understandable comparison, but a different meaning.",
+          "body": "It's similar in the family gatherings, gifts and food. But Eid doesn't mark anyone's birth — it follows the completion of an act of worship: fasting for Eid al-Fitr, the Hajj for Eid al-Adha."
+        },
+        "m-family": {
+          "picked": "You picked: \"A private family event that doesn't involve me\"",
+          "headline": "Family at the centre, door open.",
+          "body": "Eid includes visiting neighbours, friends and colleagues, and giving to those in need is part of it. Your greeting to a colleague is welcome."
+        }
+      },
+      "explain_prompt": "Explain it to a colleague — in one sentence.",
+      "tip": {
+        "headline": "Say \"Eid Mubarak\".",
+        "lead": "Two words are enough.",
+        "items": [
+          "You can say \"Eid Mubarak\" (blessed Eid) or simply \"Happy Eid\".",
+          "If you're offered sweets or coffee, accept — it's part of the celebration.",
+          "Finish anything urgent before the break; most offices are closed during Eid."
+        ]
+      }
+    },
+    "ar": {
+      "title": "العيد",
+      "teaser": "الإجازة قرّبت، ووش تقول لزميلك؟",
+      "scene": "الشركة أعلنت إجازة عدة أيام، والكل يتبادل التهاني، وزميلتك نورة جابت حلويات للمكتب. تبي تهنّيها بس مو متأكد وش المناسبة بالضبط. وش تظن؟",
+      "options": [
+        {
+          "id": "m-oneday",
+          "label": "احتفال ليوم واحد"
+        },
+        {
+          "id": "m-social",
+          "label": "مناسبة اجتماعية بحتة"
+        },
+        {
+          "id": "m-xmas",
+          "label": "مثل عيد الميلاد عند المسلمين"
+        },
+        {
+          "id": "m-family",
+          "label": "مناسبة عائلية خاصة ما تخصني"
+        }
+      ],
+      "reveals": {
+        "m-oneday": {
+          "picked": "اخترت: «احتفال ليوم واحد»",
+          "headline": "عيدان، وكل عيد عدة أيام.",
+          "body": "للمسلمين عيدان في السنة: عيد الفطر بعد انتهاء رمضان، وعيد الأضحى في موسم الحج. والاحتفال والزيارات تمتد عدة أيام، ولهذا تطول الإجازة."
+        },
+        "m-social": {
+          "picked": "اخترت: «مناسبة اجتماعية بحتة»",
+          "headline": "فرح، وله أصل ديني.",
+          "body": "العيد يبدأ بصلاة جامعة في الصباح، ثم تأتي الزيارات والحلويات والملابس الجديدة. عيد الفطر يأتي بعد إتمام شهر الصيام، وعيد الأضحى يأتي مع موسم الحج."
+        },
+        "m-xmas": {
+          "picked": "اخترت: «مثل عيد الميلاد عند المسلمين»",
+          "headline": "تشبيه مفهوم، لكن المعنى مختلف.",
+          "body": "يشبهه في اجتماع العائلة والهدايا والطعام. لكن العيد لا يحتفل بميلاد أحد، بل يأتي بعد إتمام عبادة: الصيام في عيد الفطر، والحج في عيد الأضحى."
+        },
+        "m-family": {
+          "picked": "اخترت: «مناسبة عائلية خاصة ما تخصني»",
+          "headline": "العائلة في القلب، والباب مفتوح.",
+          "body": "العيد يشمل زيارة الجيران والأصدقاء والزملاء، والعطاء للمحتاجين جزء منه. تهنئتك لزميلك في مكانها ومرحّب بها."
+        }
+      },
+      "explain_prompt": "اشرحها لزميل بجملة واحدة.",
+      "tip": {
+        "headline": "قل «عيد مبارك».",
+        "lead": "كلمتين تكفي وتفرّح.",
+        "items": [
+          "تقدر تقول «عيد مبارك» أو «كل عام وأنتم بخير».",
+          "لو قُدّمت لك حلويات أو قهوة، اقبلها، فهي جزء من فرحة العيد.",
+          "أنجز الأمور المهمة قبل الإجازة، فأغلب الجهات تكون مغلقة أيام العيد."
+        ]
+      }
+    }
+  },
+  "card_id": "card-eid-1",
+  "card": {
+    "id": "card-eid-1",
+    "journey_id": "eid",
+    "source_ids": [
+      "hadith-hadeethenc-5322"
+    ],
+    "explanation": {
+      "en": "The hadith speaks of \"the two Eids\" and says the Prophet and his two companions began them with the prayer, followed by the sermon. So for Muslims, Eid starts with a congregational prayer — the visits and greetings come after.",
+      "ar": "يذكر الحديث «العيدين»، وأن النبي ﷺ وصاحبيه كانوا يبدؤونهما بالصلاة ثم الخطبة. فالعيد عند المسلمين يبدأ بصلاة جامعة، وبعدها تأتي الزيارات والتهاني."
+    },
+    "generated_by": "claude-draft",
+    "reviewed": false,
+    "reviewed_by": null,
+    "key_points": [
+      {
+        "id": "kp1",
+        "en": "Muslims have two Eids a year: Eid al-Fitr after Ramadan and Eid al-Adha in the Hajj season.",
+        "ar": "للمسلمين عيدان في السنة: عيد الفطر بعد رمضان، وعيد الأضحى في موسم الحج."
+      },
+      {
+        "id": "kp2",
+        "en": "Eid is a religious festival that begins with a congregational prayer, and its days are for joy and giving.",
+        "ar": "العيد مناسبة دينية تبدأ بصلاة جامعة، وهو أيام فرح وعطاء."
+      },
+      {
+        "id": "kp3",
+        "en": "Greeting colleagues for Eid is welcome — for example \"Eid Mubarak\".",
+        "ar": "تهنئة الزملاء بالعيد مرحّب بها، مثل قول «عيد مبارك»."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-oneday",
+        "en": "A one-day celebration",
+        "ar": "احتفال ليوم واحد"
+      },
+      {
+        "id": "m-social",
+        "en": "A purely social occasion",
+        "ar": "مناسبة اجتماعية بحتة"
+      },
+      {
+        "id": "m-xmas",
+        "en": "The Muslim version of Christmas",
+        "ar": "مثل عيد الميلاد عند المسلمين"
+      },
+      {
+        "id": "m-family",
+        "en": "A private family event that doesn't involve me",
+        "ar": "مناسبة عائلية خاصة ما تخصني"
+      }
+    ],
+    "question_variants": {
+      "en": [
+        "What should I say to my colleague for Eid?",
+        "Why is there a long holiday after Ramadan?",
+        "How many Eids do Muslims have?",
+        "What's the difference between Eid al-Fitr and Eid al-Adha?",
+        "Can I wish my Muslim colleague a happy Eid?"
+      ],
+      "ar": [
+        "وش أقول لزميلي في العيد؟",
+        "ليش الإجازة طويلة بعد رمضان؟",
+        "كم عيد عند المسلمين؟",
+        "وش الفرق بين عيد الفطر وعيد الأضحى؟",
+        "هل أقدر أهنّي زميلي المسلم بالعيد؟"
+      ]
+    }
+  }
+}

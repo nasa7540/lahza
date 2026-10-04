@@ -1,0 +1,312 @@
+{
+ "topic_id": "last-ten",
+ "topic": "زملاء يأخذون إجازة أو يقلّ حضورهم في العشر الأواخر من رمضان",
+ "expected_when": "hijri 9/21-9/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:35",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 185
+   }
+  ],
+  "hadith_ids": [
+   3755
+  ],
+  "term_ids": [
+   8640
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "ramadan-final-decade-work",
+  "level": "B",
+  "when": "hijri 21/0-29/0",
+  "title": "تغير وتيرة العمل في العشر الأواخر من رمضان",
+  "teaser": "ملاحظة سريعة على تغير سلوك الفريق خلال الأيام الأخيرة من الشهر الفضيل.",
+  "scene": "أنت في منتصف الأسبوع، والمكتب هادئ بشكل غير معتاد. زملاؤك المسلمون يغادرون مبكرًا أو يأخذون إجازات قصيرة، والتركيز ينصب على إنهاء المهام بسرعة لتحرير الوقت. تسأل مديرك: «هل هناك ضغط عمل مفاجئ أو تغيير في الخطة؟». ← المفاهيم الخاطئة: «انخفاض الإنتاجية العام»، «إرهاق متراكم»، «تغيير مفاجئ في السياسات»، «مشكلة تنظيمية داخلية»",
+  "character_names": [
+   "المدير"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "انخفاض الإنتاجية العام",
+    "reveal_headline": "ليست كسلاً بل تركيزًا روحيًا",
+    "reveal_body": ""
+   },
+   {
+    "id": "opt-2",
+    "label": "إرهاق متراكم",
+    "reveal_headline": "ليست مجرد تعب جسدي",
+    "reveal_body": ""
+   },
+   {
+    "id": "opt-3",
+    "label": "تغيير مفاجئ في السياسات",
+    "reveal_headline": "ليست سياسة شركة جديدة",
+    "reveal_body": "لا يوجد قرار إداري جديد يغير الخطة العامة للشركة، بل إن هذا السلوك نابع من تقويم ديني سنوي ثابت. الموظفون يتنسون بين الالتزام الوظيفي والأولويات الدينية المحددة زمنياً، وهو أمر متوقع ومفهوم ثقافيًا."
+   },
+   {
+    "id": "opt-4",
+    "label": "مشكلة تنظيمية داخلية",
+    "reveal_headline": "ليست فوضى إدارية",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "العشر الأواخر من شهر رمضان هي فترة مميزة في التقويم الإسلامي، حيث يعتقد المسلمون أنها تحتوي على ليلة القدر، وهي ليلة خير من ألف شهر.",
+  "explain_prompt": "اشرح لماذا يقل حضور أو يغادر موظفون مسلمون مبكرًا في العشر الأواخر من رمضان دون ذكر تفاصيل فقهية معقدة.",
+  "tip": {
+   "headline": "آداب التعامل المهني في هذه الفترة",
+   "lead": "لتعزيز بيئة عمل محترمة ومتفهمة، يمكنك اتباع النصائح التالية:",
+   "items": [
+    "احترم المواعيد النهائية المرنة: إذا كان زميلك يستأذن للخروج مبكرًا، حاول تسيق المهام معه مسبقًا لضمان استمرارية العمل دون تعطيل.",
+    "تجنب المقارنات السلبية: لا تحكم على مستوى الجدية أو الالتزام بناءً على ساعات الحضور فقط، فقد يكون التركيز أثناء الدوام أعلى رغم قلة الوقت.",
+    "قدم الدعم بلطف: إذا لاحظت تغيرًا في الجدول، اسأل بصيغة مهنية مثل: «كيف يمكنني مساعدتك لإنهاء مهامك اليوم؟» بدلاً من الاستفسار عن سبب الغياب."
+   ]
+  },
+  "key_points": [
+   "العشر الأواخر من رمضان (من 21 إلى 30) هي فترة ذات أهمية روحية عالية للمسلمين.",
+   "الموظفون قد يعدلون ساعات عملهم أو يأخذون إجازات خفيفة لزيادة العبادة والقراءة.",
+   "هذا السلوك نابع من إيمان ديني وليس انخفاضًا في الأداء أو مشكلة إدارية."
+  ],
+  "question_variants": [
+   "لماذا يغادر بعض الزملاء المكتب مبكرًا هذه الأيام؟",
+   "ما السبب وراء تقليل الحضور في أيام العمل الأخيرة من الشهر؟",
+   "هل هناك تغيير في جدول العمل يجعل الزملاء يخرجون قبل الموعد؟",
+   "لماذا يبدو أن التركيز يتغير لدى الفريق في هذه الفترة تحديدًا؟",
+   "كيف يمكن فهم طلب بعض الموظفين لإجازات قصيرة في الأيام الأخيرة من الشهر؟"
+  ],
+  "when_parsed": null
+ },
+ "sources": [
+  {
+   "id": "quran-2-185",
+   "kind": "quran",
+   "text_ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+   "reference": "2:185",
+   "translations": {
+    "en": {
+     "text": "Ramadān is a month in which the Qur’an was sent down as a guidance for mankind and as clear signs that show the right way and distinguish between right and wrong. So whoever of you witnesses this month, should fast. But if anyone is ill or on a journey, he should make up for those days. Allah wants ease for you and does not want hardship for you, so that you may complete the prescribed number of days, and proclaim the greatness of Allah for having guided you, and so that you may be grateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/185",
+   "verified": false,
+   "content_hash": "61cedfd69ae0917f1a30ee0cba1f09488ab4c72333bc5dd066a3f091d59788dd"
+  },
+  {
+   "id": "hadith-3755",
+   "kind": "hadith",
+   "text_ar": "عَنْ عَائِشَةَ أُمِّ المؤْمِنينَ رَضِيَ اللهُ عَنْهَا: كَانَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَجْتَهِدُ فِي الْعَشْرِ الْأَوَاخِرِ مَا لَا يَجْتَهِدُ فِي غَيْرِهِ.",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3755",
+   "verified": false,
+   "content_hash": "29261596e0a6b7aba36500cf041b838a8f4316f344a13a87e15f290279f524c6"
+  },
+  {
+   "id": "term-8640",
+   "kind": "term",
+   "text_ar": "العشر الأواخر من رمضان: لَيَالٍ فَاضِلَةٌ تَبْدَأُ مِنْ لَيْلَةِ 21 رَمَضَانَ حَتَّى آخِرَهُ. العَشْرُ الأَوَاخِرُ مِنْ شَهْرِ رَمَضَانَ هِيَ أَفْضَلُ عَشْرٍ لَيَالٍ لِلْعِبادَةِ وَالعَمَلِ الصَّالِحِ، تَبْدَأُ مِنْ لَيْلَةِ 21 رَمَضَانَ حَتَّى لَيْلَةَ 30 رَمَضَانَ إِذَا كَانَ الشَّهْرُ كَامِلاً، وَمِنْ أَهَمِّ الأَعْمالِ فِي هَذِهِ العَشْرِ الأَوَاخِرِ: إِحْياءُ اللَّيِلِ بِالذِّكْرِ، الاعْتِكافُ، تِلَاوَةُ القُرْآنِ الكَرِيمِ، تَحَرِّي لَيْلَةِ القَدْرِ، وَغَيْرُهَا.",
+   "reference": "العشر الأواخر من رمضان",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/8640",
+   "verified": false,
+   "content_hash": "ed3cbd82426c77ecc74afe2b059c55ee619f46b1e7d2268c493b5657e198ce63"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "العشر الأواخر من شهر رمضان هي فترة مميزة في التقويم الإسلامي، حيث يعتقد المسلمون أنها تحتوي على ليلة القدر، وهي ليلة خير من ألف شهر.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "لذلك، يجتهد المسلمون في هذه الليالي زيادة في العبادة والقراءة والذكر، وقد يفضلون تعديل ساعات عملهم أو أخذ إجازات خفيفة لتخصيص وقت أطول لهذه الطاعات الروحية المهمة لديهم.",
+   "label": "unsupported",
+   "source_id": "hadith-3755",
+   "quote": "كَانَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَجْتَهِدُ فِي الْعَشْرِ الْأَوَاخِرِ مَا لَا يَجْتَهِدُ فِي غَيْرِهِ.",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.453,
+   "keyword_share": 0.04,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا التفسير يفترض أن الموظفين أقل إنتاجية بسبب الكسل أو الإرهاق، بينما الواقع عكس ذلك؛ فالأيام الأخيرة من رمضان تتميز بزيادة في النشاط الروحي والاجتهاد في العبادة، مما يدفع البعض لتعديل ساعات عملهم لتناسب هذه الأولوية الجديدة.",
+   "label": "unsupported",
+   "source_id": "hadith-3755",
+   "quote": "يَجْتَهِدُ فِي الْعَشْرِ الْأَوَاخِرِ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.391,
+   "keyword_share": 0.0,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "رغم أن الصيام قد يسبب تعبًا، إلا أن المغادرة المبكرة أو الإجازة هنا ليست رد فعل تلقائي على التعب اليومي، بل هي فرصة محددة لاستغلال ليالٍ خاصة تعتبر من أفضل الليالي في السنة الإسلامية للعبادة والتأمل.",
+   "label": "unsupported",
+   "source_id": "term-8640",
+   "quote": "العَشْرُ الأَوَاخِرُ مِنْ شَهْرِ رَمَضَانَ هِيَ أَفْضَلُ عَشْرٍ لَيَالٍ لِلْعِبادَةِ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.507,
+   "keyword_share": 0.11,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "لا يوجد قرار إداري جديد يغير الخطة العامة للشركة، بل إن هذا السلوك نابع من تقويم ديني سنوي ثابت.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "الموظفون يتنسون بين الالتزام الوظيفي والأولويات الدينية المحددة زمنياً، وهو أمر متوقع ومفهوم ثقافيًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "الهروب من المكتب ليس نتيجة سوء إدارة أو ضغوط عمل غير محسوبة، بل هو اختيار واعٍ من قبل الموظفين المسلمين لقضاء وقت إضافي في المساجد أو المنازل لأداء صلوات وقراءة قرآن، وهي ممارسة مقدسة لديهم في هذه الفترة بالتحديد.",
+   "label": "unsupported",
+   "source_id": "term-8640",
+   "quote": "إِحْياءُ اللَّيِلِ بِالذِّكْرِ، الاعْتِكافُ، تِلَاوَةُ القُرْآنِ الكَرِيمِ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.381,
+   "keyword_share": 0.07,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": true,
+  "scene_title_words_found": [],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": false,
+  "when_matches_expected": false,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 7,
+  "removed_by_verifier": 4,
+  "supported": 0,
+  "general": 2,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 4,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 7165,
+  "tokens_out": 1847
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "العشر الأواخر من رمضان",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "اجتهدوا في العشر الأواخر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الاعتكاف",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "رمضان",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "لذلك، يجتهد المسلمون في هذه الليالي زيادة في العبادة والقراءة والذكر، وقد يفضلون تعديل ساعات عملهم أو أخذ إجازات خفيفة لتخصيص وقت أطول لهذه الطاعات الروحية المهمة لديهم.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-1-0",
+   "text": "هذا التفسير يفترض أن الموظفين أقل إنتاجية بسبب الكسل أو الإرهاق، بينما الواقع عكس ذلك؛ فالأيام الأخيرة من رمضان تتميز بزيادة في النشاط الروحي والاجتهاد في العبادة، مما يدفع البعض لتعديل ساعات عملهم لتناسب هذه الأولوية الجديدة.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-2-0",
+   "text": "رغم أن الصيام قد يسبب تعبًا، إلا أن المغادرة المبكرة أو الإجازة هنا ليست رد فعل تلقائي على التعب اليومي، بل هي فرصة محددة لاستغلال ليالٍ خاصة تعتبر من أفضل الليالي في السنة الإسلامية للعبادة والتأمل.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-0",
+   "text": "الهروب من المكتب ليس نتيجة سوء إدارة أو ضغوط عمل غير محسوبة، بل هو اختيار واعٍ من قبل الموظفين المسلمين لقضاء وقت إضافي في المساجد أو المنازل لأداء صلوات وقراءة قرآن، وهي ممارسة مقدسة لديهم في هذه الفترة بالتحديد.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 47.0
+}

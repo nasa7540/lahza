@@ -1,0 +1,308 @@
+{
+ "topic_id": "right-hand",
+ "topic": "زملاء يأكلون ويشربون باليمين",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:32",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [],
+  "hadith_ids": [
+   5356
+  ],
+  "term_ids": [
+   7774
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "eating-right-hand",
+  "level": "B",
+  "when": "always",
+  "title": "لماذا يأكل زملائي باليد اليمنى؟",
+  "teaser": "لاحظت أن زملاءك في المكتب يفضلون تناول الطعام والشراب بأيدهم اليمنى، وتساءلت عن سبب هذا التفضيل الواضح.",
+  "scene": "أثناء استراحة الغداء، جلست مع فريق العمل لتناول وجبتهم. لاحظت أن جميع الزملاء يمسكون الشطائر والأطباق بأيديهم اليمنى، ويضعون الأكواب على الطاولة باستخدام اليد اليمنى أيضًا. سأل أحدهم زميله: «هل تريد أن تمرر الملح؟» فمدّ يده اليمنى لتمريره. ما تفسيرك لهذا السلوك المتكرر والمنسق بين الجميع؟",
+  "character_names": [
+   "فهد",
+   "سارة"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "عادة صحية للنظافة",
+    "reveal_headline": "ليس مجرد عناية بالنظافة",
+    "reveal_body": "قد تكون النظافة عاملاً مساعداً، لكن الدافع الأساسي ليس طبياً أو صحياً بحتاً. هذه الممارسة لها أصل ديني يتجاوز مفهوم التعقيم الحديث."
+   },
+   {
+    "id": "opt2",
+    "label": "قاعدة أمان في مكان العمل",
+    "reveal_headline": "ليست سياسة شركة إلزامية",
+    "reveal_body": "هذه ليست قاعدة مكتوبة في دليل الموظفين ولا تفرضها الإدارة. إنها ممارسة شخصية ودينية يختارها الأفراد طواعية بناءً على قناعاتهم الدينية."
+   },
+   {
+    "id": "opt3",
+    "label": "تقليد ثقافي سعودي قديم",
+    "reveal_headline": "جذرها ديني عالمي",
+    "reveal_body": "رغم انتشارها في الثقافة السعودية، إلا أنها ليست تقليداً محلياً فقط. هي سنة إسلامية يتبعها مسلمو العالم بغض النظر عن جنسيتهم أو ثقافتهم المحلية."
+   },
+   {
+    "id": "opt4",
+    "label": "طريقة لتجنب انسكاب المشروبات",
+    "reveal_headline": "ليست حيلة ميكانيكية",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "جاء ذلك في حديث صحيح عن عبد الله بن عمر رضي الله عنهما، حيث قال: «إذا أكل أحدكم فليأكل بيمينه، وإذا شرب فليشرب بيمينه، فإن الشيطان يأكل بشماله، ويشرب بشماله». يُعد هذا الفعل من الآداب الإسلامية التي يتبعها المسلمون تأسياً بالنبي وتقرباً إلى الله، وليس مجرد عادة اجتماعية أو صحية.",
+  "explain_prompt": "اشرح لماذا يفضل المسلمون الأكل والشرب باليد اليمنى بناءً على المصادر المرفقة، بلغة بسيطة وسهلة الفهم لشخص غير مسلم.",
+  "tip": {
+   "headline": "آداب التعامل مع زملائك أثناء الوجبات",
+   "lead": "لفهم أفضل ومعاملة أكثر احتراماً لزملائك المسلمين في بيئة العمل:",
+   "items": [
+    "احترم اختيارهم للأكل باليمين دون ملاحظة أو تعليق، فهو جزء من ممارساتهم اليومية.",
+    "لا تطلب منهم تغيير عادتهم أو تسخر منها، فهي عبادة شخصية وليست مجرد تفضيل شخصي.",
+    "كن قدوة حسنة في آداب المائدة العامة، مثل استخدام المناديل والاحتفاظ بالنظافة."
+   ]
+  },
+  "key_points": [
+   "الأكل والشرب باليمين سنة نبوية مستحبة للمسلمين.",
+   "السبب ديني مرتبط بتوجيهات النبي محمد صلى الله عليه وسلم.",
+   "هذه الممارسة تعبر عن التقوى والتأسّي بالنبي، وليست مجرد عادة صحية."
+  ],
+  "question_variants": [
+   "لماذا يفضل الموظفون في هذا المكتب تناول الطعام بأيدهم اليمنى تحديداً؟",
+   "ما السبب وراء التزام الفريق بقاعدة استخدام اليد اليمنى أثناء الغداء؟",
+   "هل هناك سبب خاص يجعل زملائي يمتنعون عن استخدام اليد اليسرى للأكل؟",
+   "لماذا نلاحظ نمطاً متكرراً في طريقة حمل الأكواب والطعام لدى الزملاء؟",
+   "ما الخلفية الثقافية أو الشخصية التي تدفع الموظفين لاختيار اليد اليمنى؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "hadith-5356",
+   "kind": "hadith",
+   "text_ar": "عن عبد الله بن عمر رضي الله عنهما مرفوعاً: «إذا أكل أحدكم فليأكل بيمينه، وإذا شرب فليشرب بيمينه، فإن الشيطان يأكل بشماله، ويشرب بشماله».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/5356",
+   "verified": false,
+   "content_hash": "d94a1e098ac6252bf99404f8ac74216548c7fe9a1ef1e8fc63b79697b23d4973"
+  },
+  {
+   "id": "term-7774",
+   "kind": "term",
+   "text_ar": "يَمينٌ: تَأكِيدُ الشَّيْءِ أو تَحقِيقُهُ بِذِكْرِ مُعَظَّمٍ بِصِيغَةٍ مَخصُوصَةٍ بِأَحَدِ حُروفِ القَسَمِ. اليَمِينُ: تَوكِيدُ حُكمٍ بِذِكْرِ مُعَظَّمٍ مُصدَّراً بحرفٍ مِن حُروفِ القَسَم، ويكون الحَلِفُ بِاسمٍ مِن أسماءِ الله تعالى، أو بِصِفَةٍ من صِفاتِه مَقروناً بِحرفٍ مِن حُروفِ القَسَمِ، وهي الباءُ والتَّاءُ والواوُ.\nواليَمِين أنواعٌ:\n1- اليَمِينُ الغَموس: وهو الحَلِفُ على فِعْلٍ أو تَرْكٍ ماضٍ كاذِباً.\n2- اليَمِينُ اللَّغو: هو ما لا يَعْقِدُ الرَّجُلُ قَلْبَهُ عليه، كقولِهِ:\" لا والله \"، و\" بلى والله \"، أو أن يَحْلِفَ على أمرٍ يَظُنُّه كما حَلَفَ عليه فإذا هو على غَيْرِ ذلِك. \n3- اليَمِين المُنعَقِدَة: وهي أن يَحلِفَ على أمرٍ في المُستَقْبَلِ أن يَفْعَلَه أو لا يَفْعَلَه.",
+   "reference": "يَمينٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/7774",
+   "verified": false,
+   "content_hash": "91b43c93e2aa7c56376de93a5a389471181b53265e56976a1b30a8df28c1922b"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "حَثَّ النبي محمد صلى الله عليه وسلم المسلمين على الأكل والشرب باليد اليمنى، وترك اليسرى لهذه الأغراض.",
+   "label": "unsupported",
+   "source_id": "hadith-5356",
+   "quote": "إذا أكل أحدكم فليأكل بيمينه، وإذا شرب فليشرب بيمينه",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.677,
+   "keyword_share": 0.2,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "جاء ذلك في حديث صحيح عن عبد الله بن عمر رضي الله عنهما، حيث قال: «إذا أكل أحدكم فليأكل بيمينه، وإذا شرب فليشرب بيمينه، فإن الشيطان يأكل بشماله، ويشرب بشماله».",
+   "label": "supported",
+   "source_id": "hadith-5356",
+   "quote": "عن عبد الله بن عمر رضي الله عنهما مرفوعاً: «إذا أكل أحدكم فليأكل بيمينه، وإذا شرب فليشرب بيمينه، فإن الشيطان يأكل بشماله، ويشرب بشماله».",
+   "reason": null,
+   "quote_similarity": 0.966,
+   "keyword_share": 0.77,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "يُعد هذا الفعل من الآداب الإسلامية التي يتبعها المسلمون تأسياً بالنبي وتقرباً إلى الله، وليس مجرد عادة اجتماعية أو صحية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "قد تكون النظافة عاملاً مساعداً، لكن الدافع الأساسي ليس طبياً أو صحياً بحتاً.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "هذه الممارسة لها أصل ديني يتجاوز مفهوم التعقيم الحديث.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "هذه ليست قاعدة مكتوبة في دليل الموظفين ولا تفرضها الإدارة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "إنها ممارسة شخصية ودينية يختارها الأفراد طواعية بناءً على قناعاتهم الدينية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "رغم انتشارها في الثقافة السعودية، إلا أنها ليست تقليداً محلياً فقط.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "هي سنة إسلامية يتبعها مسلمو العالم بغض النظر عن جنسيتهم أو ثقافتهم المحلية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "ربما تبدو أكثر استقراراً للبعض، لكن السبيل الحقيقي هو اتباع هدي النبي محمد صلى الله عليه وسلم الذي حث على الأكل والشرب باليمين تأسياً به.",
+   "label": "unsupported",
+   "source_id": "hadith-5356",
+   "quote": "إذا أكل أحدكم فليأكل بيمينه، وإذا شرب فليشرب بيمينه",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.642,
+   "keyword_share": 0.16,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "اليد",
+   "يمني"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 10,
+  "removed_by_verifier": 2,
+  "supported": 1,
+  "general": 4,
+  "flagged_general_religious": 3,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 2,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 6121,
+  "tokens_out": 1807
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "أكل وشرب باليمين",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "أكل وشرب باليمين",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "اليمين في الأكل والشرب",
+   "hits": 5
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "حَثَّ النبي محمد صلى الله عليه وسلم المسلمين على الأكل والشرب باليد اليمنى، وترك اليسرى لهذه الأغراض.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-0",
+   "text": "ربما تبدو أكثر استقراراً للبعض، لكن السبيل الحقيقي هو اتباع هدي النبي محمد صلى الله عليه وسلم الذي حث على الأكل والشرب باليمين تأسياً به.",
+   "why": "keywords_missing"
+  }
+ ],
+ "seconds": 36.6
+}

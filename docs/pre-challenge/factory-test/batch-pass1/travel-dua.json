@@ -1,0 +1,300 @@
+{
+ "topic_id": "travel-dua",
+ "topic": "زميل يقرأ دعاء السفر عند الإقلاع",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:33",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [],
+  "hadith_ids": [
+   6003
+  ],
+  "term_ids": [],
+  "steps": 4
+ },
+ "journey": {
+  "id": "travel-dua-workplace",
+  "level": "B",
+  "when": "always",
+  "title": "دعاء السفر في المكتب",
+  "teaser": "زميلك يقرأ دعاءً خافتًا قبل صعود الطائرة، ما قصده؟",
+  "scene": "أنت وزملاؤك تنتظرون الصعود للطائرة في رحلة عمل. قبل دقائق من الإقلاع، لاحظت أن زميلك فهد أخرج هاتفه أو دفتر ملاحظات، وقرأ بصوت منخفض بعض الكلمات التي تبدو كدعاء، ثم رفع يديه قليلاً بابتسامة هادئة. نظر إليك مبتسمًا وسأل: «هل تود الانضمام إلينا في الدعاء قبل المغادرة؟».",
+  "character_names": [
+   "فهد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "طلب حماية أمنية خاصة",
+    "reveal_headline": "ليس طلب حماية أمنية",
+    "reveal_body": "لا علاقة له بتأمين السفر أو الضمانات المالية."
+   },
+   {
+    "id": "opt2",
+    "label": "عادة ثقافية للتخفيف من التوتر",
+    "reveal_headline": "ليس مجرد تخفيف توتر نفسي",
+    "reveal_body": "رغم أنه قد يريح البال، إلا أن الجذر ليس نفسيًا بحتًا، بل ديني قائم على سنة النبي صلى الله عليه وسلم. الفكرة ليست علاج قلق حديث، بل اتباع أمر نبوي محدد عند بدء السفر."
+   },
+   {
+    "id": "opt3",
+    "label": "طريقة للتحقق من وقت الهبوط",
+    "reveal_headline": "لا علاقة بمواعيد الطيران",
+    "reveal_body": "الدعاء لا يحتوي على معلومات تقنية أو جغرافية عن الرحلة. هو عبارة عن استغاثة ربانية وطلب للخير والبر، ولا يتعلق بتوقيت الوصول أو مسار الطائرة."
+   },
+   {
+    "id": "opt4",
+    "label": "إشارة للموظفين الآخرين للانضباط",
+    "reveal_headline": "ليس إنذارًا إداريًا",
+    "reveal_body": "الهدف ليس تنظيم سلوك الزملاء أو فرض انضباط جماعي. هو فعل شخصي فردي يعبر عن الإيمان، ولا علاقة له بالسياسات المؤسسية أو قواعد السلوك الوظيفي."
+   }
+  ],
+  "explanation": "يستحب للمسلم أن يدعو بدعاء السفر المحدد عندما يستوي على مركبته خارجًا للسفر، اقتداءً بسنة النبي صلى الله عليه وسلم. وهو تعبير عملي عن التوكل على الله في كل أموره، بما فيها التنقل للعمل.",
+  "explain_prompt": "اشرح المفهوم الخاطئ الذي تم تصحيحه في كل خيار، مع التركيز على أن الدعاء عبادة وليست عادة نفسية أو إجراء إداري.",
+  "tip": {
+   "headline": "آداب التعامل مع زميل يدعي أثناء السفر",
+   "lead": "عندما ترى زميلًا يمارس هذا الفعل في بيئة العمل أو السفر:",
+   "items": [
+    "احترم خصوصيته الدينية ولا تتدخل في صلاته أو دعائه ما لم يطلب منك المشاركة.",
+    "إذا شعرت بالفضول، يمكنك سؤاله ببساطة عن معنى الكلمات بعد انتهاء الدعاء وبأسلوب مهذب.",
+    "لا تفسر صمتك أو عدم مشاركتك على أنه رفض أو عدم احترام، بل قد يكون اختلافًا في العادات الشخصية."
+   ]
+  },
+  "key_points": [
+   "دعاء السفر سنة نبوية محددة تُقال عند بداية الرحلة وليس أثناءها فقط.",
+   "المضمون يشمل الشكر لله وطلب الخير والتعوذ من شرور السفر.",
+   "الفعل عبادة شخصية تعبر عن التوكل، وليس إجراءً إداريًا أو نفسيًا بحتًا."
+  ],
+  "question_variants": [
+   "لماذا يقرأ الموظف كلمات معينة قبل صعود الطائرة؟",
+   "ما سبب قيام الزميل بالدعاء بصوت منخفض قبل الإقلاع؟",
+   "هل هناك دلالة خاصة لما يقوله الموظفون قبل بدء الرحلة الجوية؟",
+   "لماذا نرى بعض الموظفين يرفعون أيديهم ويقرؤون شيئًا قبل السفر؟",
+   "ما المعنى وراء قراءة بعض الكلمات قبل مغادرة الشركة في رحلة عمل؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "hadith-6003",
+   "kind": "hadith",
+   "text_ar": "عن عبد الله بن عمر رضي الله عنهما أن رسول الله صلى الله عليه وسلم كان إذا استَوَى على بَعِيره خارجًا إلى سَفَر، كَبَّرَ ثلاثا، ثم قال: «سبحان الذي سخَّر لنا هذا وما كُنَّا له مُقْرِنِينَ وإنَّا إلى ربِّنا لـمُنْقَلِبُون، اللهم إنَّا نَسْأَلُك في سفرنا هذا البِرَّ والتَّقْوَى، ومن العمل ما تَرْضَى، اللهم هَوِّنْ علينا سفرنا هذا واطْوِ عنا بُعْدَه، اللهم أنت الصاحب في السفر، والخليفة في الأهل، اللهم إني أعوذ بك مِن وَعْثَاء السفر، وكآبة الـمَنْظر، وسوء الـمُنْقَلَب في المال والأهل والولد». وإذا رجع قالهن. وزاد فيهن «آيبون تائبون عابدون لِربنا حامدون». \nوفي رواية: كان النبي صلى الله عليه وسلم إذا قَفَل من الحج أو العمرة، كلما أَوْفَى على ثَنِيَّة أو فَدْفَدٍ كَبَّرَ ثلاثا، ثم قال: «لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، آيِبون، تائبون، عابدون، ساجدون، لربنا حامدون، صدَق الله وَعْدَه، ونصَر عَبْدَه، وهزَم الأحزابَ وحده». وفي لفظ: إذا قَفَل من الجيوش أو السَّرايا أو الحج أو العمرة.",
+   "reference": "الرواية الأولى رواها مسلم، والرواية الثانية متفق عليها، والرواية الثالثة رواها مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/6003",
+   "verified": false,
+   "content_hash": "f446c68e59d76aab981b188d2421b33b866e3e410495cbf7d3d1c022b29ddb6b"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يستحب للمسلم أن يدعو بدعاء السفر المحدد عندما يستوي على مركبته خارجًا للسفر، اقتداءً بسنة النبي صلى الله عليه وسلم.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يتضمن هذا الدعاء التسبيح، والشكر على تسخير وسيلة النقل، وطلب البر والتقوى من الله، والتعوذ من وعثاء السفر وكآبة المنظر.",
+   "label": "unsupported",
+   "source_id": "hadith-6003",
+   "quote": "سبحان الذي سخَّر لنا هذا... اللهم إنَّا نَسْأَلُك في سفرنا هذا البِرَّ والتَّقْوَى... اللهم إني أعوذ بك مِن وَعْثَاء السفر، وكآبة الـمَنْظر",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.692,
+   "keyword_share": 0.47,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "وهو تعبير عملي عن التوكل على الله في كل أموره، بما فيها التنقل للعمل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا التفسير خاطئ؛ الدعاء ليس طلبًا للحماية المادية أو التأمين على الرحلة، بل هو تعبير روحي عن التوكل على الله.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "لا علاقة له بتأمين السفر أو الضمانات المالية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "رغم أنه قد يريح البال، إلا أن الجذر ليس نفسيًا بحتًا، بل ديني قائم على سنة النبي صلى الله عليه وسلم.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "الفكرة ليست علاج قلق حديث، بل اتباع أمر نبوي محدد عند بدء السفر.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الدعاء لا يحتوي على معلومات تقنية أو جغرافية عن الرحلة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "هو عبارة عن استغاثة ربانية وطلب للخير والبر، ولا يتعلق بتوقيت الوصول أو مسار الطائرة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "الهدف ليس تنظيم سلوك الزملاء أو فرض انضباط جماعي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "هو فعل شخصي فردي يعبر عن الإيمان، ولا علاقة له بالسياسات المؤسسية أو قواعد السلوك الوظيفي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "دعاء"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 1,
+  "references_failed": 0,
+  "research_steps": 4,
+  "sentences_generated": 11,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 6,
+  "flagged_general_religious": 3,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 7234,
+  "tokens_out": 1800
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "دعاء السفر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "إذا ركب دابة فليقل الله أكبر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "سبحان الذي سخر لنا هذا وما كنا له مقرنين",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يتضمن هذا الدعاء التسبيح، والشكر على تسخير وسيلة النقل، وطلب البر والتقوى من الله، والتعوذ من وعثاء السفر وكآبة المنظر.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt1-0",
+   "text": "هذا التفسير خاطئ؛ الدعاء ليس طلبًا للحماية المادية أو التأمين على الرحلة، بل هو تعبير روحي عن التوكل على الله.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 40.4
+}

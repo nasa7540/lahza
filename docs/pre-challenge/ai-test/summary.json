@@ -1,0 +1,31 @@
+{
+ "SIM": 0.48,
+ "CONF": 0.95,
+ "plateau": {
+  "sim": [
+   0.44,
+   0.48
+  ],
+  "conf": [
+   0.5,
+   0.95
+  ]
+ },
+ "holdout": {
+  "ok": 19,
+  "false_reject": 1,
+  "partial": 2
+ },
+ "holdout_default": {
+  "ok": 16,
+  "false_reject": 6
+ },
+ "tune": {
+  "ok": 41,
+  "partial": 4,
+  "safe_miss": 3
+ },
+ "ladder_exact": 61,
+ "ladder_within1": 90,
+ "ladder_n": 90
+}

@@ -1,0 +1,44 @@
+{
+ "anthropic/claude-opus-5.5": {
+  "ramadan": {
+   "sentences": 11,
+   "removed": 0,
+   "religious": 9,
+   "supported": 8,
+   "flagged": 1,
+   "empty": [],
+   "scene_fail": []
+  },
+  "team-dinner": {
+   "sentences": 13,
+   "removed": 1,
+   "religious": 7,
+   "supported": 6,
+   "flagged": 0,
+   "empty": [],
+   "scene_fail": []
+  }
+ },
+ "qwen/qwen3.8-max-prime": {
+  "ramadan": {
+   "sentences": 10,
+   "removed": 0,
+   "religious": 8,
+   "supported": 5,
+   "flagged": 3,
+   "empty": [],
+   "scene_fail": []
+  },
+  "team-dinner": {
+   "sentences": 10,
+   "removed": 0,
+   "religious": 4,
+   "supported": 2,
+   "flagged": 2,
+   "empty": [],
+   "scene_fail": [
+    "حلال"
+   ]
+  }
+ }
+}

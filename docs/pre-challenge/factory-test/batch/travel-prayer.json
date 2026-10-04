@@ -1,0 +1,372 @@
+{
+ "topic_id": "travel-prayer",
+ "topic": "زميل يصلي في المطار أو الطائرة أثناء رحلة عمل",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:38",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 6,
+    "ayah": 162
+   },
+   {
+    "surah": 2,
+    "ayah": 239
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [],
+  "steps": 7
+ },
+ "journey": {
+  "id": "saudi-workplace-prayer-travel",
+  "level": "B",
+  "when": "always",
+  "title": "صلاة الزميل أثناء رحلة العمل",
+  "teaser": "لاحظت زميلك يصلي في المطار أو على متن الطائرة، وفهمت الأمر بشكل خاطئ.",
+  "scene": "أنت في انتظار الطائرة في صالة الانتظار، وظهر زميلك محمد فجأة وهو يحمل سجادة صغيرة ويؤدى حركات الصلاة بتركيز. بعد دقائق قليلة، عاد إلى مكانه وكأن شيئًا لم يحدث. ما رأيك في تصرفه؟",
+  "character_names": [
+   "محمد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "محاولة للهروب من الاجتماع",
+    "reveal_headline": "ليس هروبًا بل التزام ديني",
+    "reveal_body": "هذا التصرف ليس محاولة لتجنب العمل أو الاجتماعات، بل هو أداء لفريضة الصلاة في وقتها المحدد. الإسلام يوجب على المسلم الصلاة خمس مرات يوميًا، ولا يجوز تأخيرها دون عذر."
+   },
+   {
+    "id": "opt2",
+    "label": "عادة شخصية للراحة النفسية",
+    "reveal_headline": "فريضة وليست مجرد راحة نفسية",
+    "reveal_body": "الصلاة في الإسلام ليست مجرد وسيلة للاسترخاء أو التأمل الشخصي، بل هي عبادة واجبة ومحددة الأوقات والأفعال."
+   },
+   {
+    "id": "opt3",
+    "label": "إزعاج للآخرين في الأماكن العامة",
+    "reveal_headline": "آداب الصلاة في السفر ميسرة",
+    "reveal_body": "هذا السلوك مقبول اجتماعيًا ودينيًا ولا يُعد إزعاجًا."
+   },
+   {
+    "id": "opt4",
+    "label": "طريقة للتعبير عن الهوية الثقافية فقط",
+    "reveal_headline": "التزام عملي وليس رمزيًا فقط",
+    "reveal_body": "رغم أن الصلاة تعبر عن الهوية، إلا أنها في جوهرها ممارسة عملية ملزمة للمسلمين. التوقف للصلاة في أوقاتها جزء من الروتين اليومي للموظف المسلم، بغض النظر عن كونه في العمل أو السفر."
+   }
+  ],
+  "explanation": "الصلاة ركيزة أساسية في الإسلام، وهي صلة بين العبد وربه تُؤدى في أوقات محددة.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بناءً على المصادر المرفقة.",
+  "tip": {
+   "headline": "كيف تتعامل مع الموقف باحتراف؟",
+   "lead": "لتعزيز بيئة عمل محترمة ومتعاونة، اتبع الآداب التالية:",
+   "items": [
+    "احترم خصوصية زميلك ولا تتدخل أو تسخر من طقوسه الدينية.",
+    "إذا كان الموعد ضيقًا، امنحه الوقت الكافي لإتمام صلاته بهدوء.",
+    "لا تطلب منه الانضمام لنشاط يتعارض مع وقت صلاته (مثل تناول طعام غير حلال) خلال تلك الدقائق."
+   ]
+  },
+  "key_points": [
+   "الصلاة فريضة إسلامية مؤداة في أوقات محددة، وليست اختيارًا شخصيًا.",
+   "الإسلام يراعي ظروف المسافرين ويسمح بتسهيل أحكام الصلاة أثناء السفر.",
+   "احترام هذه الممارسة يعكس ثقافة العمل الشاملة والاحترام المتبادل."
+  ],
+  "question_variants": [
+   "لماذا يتوقف الموظف فجأة ليؤدي حركات معينة في المطار؟",
+   "ما السبب وراء حمل بعض الموظفين سجادة صلاة أثناء رحلات العمل؟",
+   "هل يعتبر التوقف للصلاة في وقت العمل انقطاعًا عن المهام؟",
+   "كيف يمكن تفسير سلوك زميل يصلي في مكان عام خلال سفر رسمي؟",
+   "ما الدافع الديني الذي يجعل المسلم يصلي حتى في الطائرة؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-6-162",
+   "kind": "quran",
+   "text_ar": "قُلۡ إِنَّ صَلَاتِي وَنُسُكِي وَمَحۡيَايَ وَمَمَاتِي لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+   "reference": "6:162",
+   "translations": {
+    "en": {
+     "text": "Say, “Indeed, my prayer, my sacrifice, my living and my dying are all for Allah, Lord of the worlds.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/6/162",
+   "verified": false,
+   "content_hash": "d25da4926e2d8642ab35f9963ea253d448906b7f5655c94543cc0073c3699721"
+  },
+  {
+   "id": "quran-2-239",
+   "kind": "quran",
+   "text_ar": "فَإِنۡ خِفۡتُمۡ فَرِجَالًا أَوۡ رُكۡبَانٗاۖ فَإِذَآ أَمِنتُمۡ فَٱذۡكُرُواْ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمۡ تَكُونُواْ تَعۡلَمُونَ",
+   "reference": "2:239",
+   "translations": {
+    "en": {
+     "text": "If you are in danger, then pray while walking or riding. But when you are safe, remember Allah as He taught you what you did not know.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/239",
+   "verified": false,
+   "content_hash": "0520b6c3883d15fc289688b2b8e17aef88e53b61bc40994c5d44051a87f40416"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الصلاة ركيزة أساسية في الإسلام، وهي صلة بين العبد وربه تُؤدى في أوقات محددة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وقد خفف الشرع الإسلامي العبء عن المسافرين، حيث يسمح لهم بقصر الصلاة وجمعها أحيانًا، وأجاز أداءها وهم راكبون أو واقفون إذا تعذر السجود على الأرض، كما ورد في القرآن الكريم: «فَإِن خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا».",
+   "label": "unsupported",
+   "source_id": "quran-2-239",
+   "quote": "فَإِنۡ خِفۡتُمۡ فَرِجَالًا أَوۡ رُكۡبَانٗا",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.533,
+   "keyword_share": 0.15,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "وهذا يعني أن الصلاة في الطائرة أو المطار هي امتثال لأمر إلهي مع مراعاة ظروف السفر.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا التصرف ليس محاولة لتجنب العمل أو الاجتماعات، بل هو أداء لفريضة الصلاة في وقتها المحدد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الإسلام يوجب على المسلم الصلاة خمس مرات يوميًا، ولا يجوز تأخيرها دون عذر.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "الصلاة في الإسلام ليست مجرد وسيلة للاسترخاء أو التأمل الشخصي، بل هي عبادة واجبة ومحددة الأوقات والأفعال.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "القيام بها في السفر واجب شرعي كما هو في الحضر.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الشريعة الإسلامية تراعي ظروف المسافر وتسمح بأداء الصلاة في أي مكان نظيف وبأقل قدر من الحركة إذا لزم الأمر.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "هذا السلوك مقبول اجتماعيًا ودينيًا ولا يُعد إزعاجًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "رغم أن الصلاة تعبر عن الهوية، إلا أنها في جوهرها ممارسة عملية ملزمة للمسلمين.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "التوقف للصلاة في أوقاتها جزء من الروتين اليومي للموظف المسلم، بغض النظر عن كونه في العمل أو السفر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "صلاه"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 7,
+  "sentences_generated": 11,
+  "removed_by_verifier": 4,
+  "supported": 0,
+  "general": 3,
+  "flagged_general_religious": 4,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 3,
+   "verdict_missing": 0
+  },
+  "tokens_in": 18648,
+  "tokens_out": 2006
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الصلاة في السفر الطائرة",
+   "hits": 5
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "صلى النبي في السفر قاعدا راكبا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "فصلوا إن صلاتي نسكي",
+   "hits": 2
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "صلى النبي في السفر قاعدا راكبا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "صلى النبي في السفر قاعدا راكبا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "صلى النبي في السفر قاعدا راكبا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "صلى النبي في السفر قاعدا راكبا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "صلى النبي في السفر قاعدا راكبا",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "وقد خفف الشرع الإسلامي العبء عن المسافرين، حيث يسمح لهم بقصر الصلاة وجمعها أحيانًا، وأجاز أداءها وهم راكبون أو واقفون إذا تعذر السجود على الأرض، كما ورد في القرآن الكريم: «فَإِن خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا».",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-2",
+   "text": "وهذا يعني أن الصلاة في الطائرة أو المطار هي امتثال لأمر إلهي مع مراعاة ظروف السفر.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt2-1",
+   "text": "القيام بها في السفر واجب شرعي كما هو في الحضر.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-0",
+   "text": "الشريعة الإسلامية تراعي ظروف المسافر وتسمح بأداء الصلاة في أي مكان نظيف وبأقل قدر من الحركة إذا لزم الأمر.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 203.4
+}

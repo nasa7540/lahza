@@ -1,0 +1,191 @@
+{
+  "id": "team-dinner",
+  "level": "A",
+  "sort": 5,
+  "when": {
+    "type": "always"
+  },
+  "locales": {
+    "en": {
+      "title": "Team dinner",
+      "teaser": "Why is there no alcohol on the menu, and why do people ask about the meat?",
+      "scene": "At the team dinner you notice there are no alcoholic drinks on the menu, and your colleague Sara asks the waiter: \"Is the meat halal?\" Why do you think?",
+      "options": [
+        {
+          "id": "m-strict",
+          "label": "They're being overly strict"
+        },
+        {
+          "id": "m-health",
+          "label": "It's a health trend"
+        },
+        {
+          "id": "m-taste",
+          "label": "It's personal taste"
+        },
+        {
+          "id": "m-rude",
+          "label": "It's fussy — and a bit rude to the restaurant"
+        }
+      ],
+      "reveals": {
+        "m-strict": {
+          "picked": "You picked: \"They're being overly strict\"",
+          "headline": "Not strictness — a clear basic.",
+          "body": "Avoiding alcohol and pork is among the well-known rules of Islam, followed by Muslims in general. What you're seeing is the norm, not a special case."
+        },
+        "m-health": {
+          "picked": "You picked: \"It's a health trend\"",
+          "headline": "Older than any trend.",
+          "body": "The result may look like a health regime, but the reason is religious: Islam prohibits intoxicants and defines which meat may be eaten."
+        },
+        "m-taste": {
+          "picked": "You picked: \"It's personal taste\"",
+          "headline": "Not a matter of taste.",
+          "body": "Sara isn't asking because she dislikes a kind of meat. \"Halal\" means the food is permitted in Islam — both the kind of animal and the way it was slaughtered."
+        },
+        "m-rude": {
+          "picked": "You picked: \"It's fussy — and a bit rude to the restaurant\"",
+          "headline": "A perfectly ordinary question.",
+          "body": "Asking about the meat is no accusation against the restaurant or the host. It's an everyday question here, and the waiter simply answers it."
+        }
+      },
+      "explain_prompt": "Explain it to a colleague — in one sentence.",
+      "tip": {
+        "headline": "Ask, don't assume.",
+        "lead": "A quick question before booking puts everyone at ease.",
+        "items": [
+          "If you're organising the dinner, pick a place that serves halal food — and ask your colleagues if you're unsure.",
+          "Don't offer alcohol, or gifts that contain it, such as some chocolates.",
+          "When travelling with the team, a halal, vegetarian or fish option usually solves it."
+        ]
+      }
+    },
+    "ar": {
+      "title": "عشاء الفريق",
+      "teaser": "ليش القائمة ما فيها خمر، وليش يسألون عن اللحم؟",
+      "scene": "في عشاء الفريق لاحظت إن القائمة ما فيها مشروبات كحولية، وزميلتك سارة سألت النادل: «اللحم حلال؟». ليش برأيك؟",
+      "options": [
+        {
+          "id": "m-strict",
+          "label": "تشدد زايد"
+        },
+        {
+          "id": "m-health",
+          "label": "موضة صحية"
+        },
+        {
+          "id": "m-taste",
+          "label": "ذوق شخصي"
+        },
+        {
+          "id": "m-rude",
+          "label": "تدقيق مبالغ فيه وقلة ذوق مع المطعم"
+        }
+      ],
+      "reveals": {
+        "m-strict": {
+          "picked": "اخترت: «تشدد زايد»",
+          "headline": "ليس تشددًا، بل أساس واضح.",
+          "body": "الامتناع عن الخمر ولحم الخنزير من الأحكام المعروفة في الإسلام، ويلتزم بها عامة المسلمين. ما تراه هو الوضع المعتاد، لا حالة خاصة."
+        },
+        "m-health": {
+          "picked": "اخترت: «موضة صحية»",
+          "headline": "أقدم من أي موضة.",
+          "body": "قد تتشابه النتيجة مع الأنظمة الصحية، لكن السبب ديني: الإسلام يحرّم المسكرات، ويحدد ما يحل أكله من اللحوم."
+        },
+        "m-taste": {
+          "picked": "اخترت: «ذوق شخصي»",
+          "headline": "ليست مسألة ذوق.",
+          "body": "سارة لا تسأل لأنها لا تحب نوعًا من اللحم، بل لأن «حلال» تعني أن الطعام مسموح به في الإسلام، من حيث نوع الحيوان وطريقة ذبحه."
+        },
+        "m-rude": {
+          "picked": "اخترت: «تدقيق مبالغ فيه وقلة ذوق مع المطعم»",
+          "headline": "سؤال عادي جدًا.",
+          "body": "السؤال عن اللحم لا يحمل اتهامًا للمطعم ولا للمُضيف. هو سؤال يومي معتاد هنا، ويجاوب عليه النادل ببساطة."
+        }
+      },
+      "explain_prompt": "اشرحها لزميل بجملة واحدة.",
+      "tip": {
+        "headline": "اسأل، ولا تفترض.",
+        "lead": "السؤال قبل الحجز يريّح الجميع.",
+        "items": [
+          "لو أنت اللي تنظّم العشاء، اختر مكان أكله حلال، واسأل زملاءك إذا ما كنت متأكد.",
+          "لا تقدّم مشروبًا كحوليًا، ولا هدية فيها كحول مثل بعض أنواع الشوكولاتة.",
+          "في السفر مع الفريق، وجود خيار حلال أو نباتي أو سمك يحل الموضوع غالبًا."
+        ]
+      }
+    }
+  },
+  "card_id": "card-team-dinner-1",
+  "card": {
+    "id": "card-team-dinner-1",
+    "journey_id": "team-dinner",
+    "source_ids": [
+      "quran-2-173",
+      "quran-5-90"
+    ],
+    "explanation": {
+      "en": "The first verse lists specific things that are forbidden to eat — including carrion, blood and pork — and makes an exception for someone compelled by necessity. The second verse commands believers to avoid intoxicants. That's why a Muslim asks about the food, and why alcohol isn't on the table.",
+      "ar": "تذكر الآية الأولى أشياء محددة حُرّم أكلها، منها الميتة والدم ولحم الخنزير، وتستثني من اضطُر. وتأمر الآية الثانية باجتناب الخمر. لذلك يسأل المسلم عن طعامه، ولا تجد الخمر على المائدة."
+    },
+    "generated_by": "claude-draft",
+    "reviewed": false,
+    "reviewed_by": null,
+    "key_points": [
+      {
+        "id": "kp1",
+        "en": "Islam prohibits intoxicants and pork, and requires meat to be halal.",
+        "ar": "الإسلام يحرّم المسكرات ولحم الخنزير، ويشترط أن يكون اللحم حلالًا."
+      },
+      {
+        "id": "kp2",
+        "en": "It is a religious commitment, not personal taste or a health trend.",
+        "ar": "هذا التزام ديني، وليس ذوقًا شخصيًا ولا موضة صحية."
+      },
+      {
+        "id": "kp3",
+        "en": "Asking about food is normal — you can ask your colleagues and choose a suitable place.",
+        "ar": "السؤال عن الطعام أمر عادي، وتقدر تسأل زملاءك وتختار مكانًا مناسبًا."
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "m-strict",
+        "en": "They're being overly strict",
+        "ar": "تشدد زايد"
+      },
+      {
+        "id": "m-health",
+        "en": "It's a health trend",
+        "ar": "موضة صحية"
+      },
+      {
+        "id": "m-taste",
+        "en": "It's personal taste",
+        "ar": "ذوق شخصي"
+      },
+      {
+        "id": "m-rude",
+        "en": "It's fussy — and a bit rude to the restaurant",
+        "ar": "تدقيق مبالغ فيه وقلة ذوق مع المطعم"
+      }
+    ],
+    "question_variants": {
+      "en": [
+        "Why is there no alcohol at the company dinner?",
+        "What does halal mean?",
+        "Why did my colleague ask about the meat at the restaurant?",
+        "Why don't Muslims eat pork?",
+        "What should I order if I invite my Muslim colleagues to dinner?"
+      ],
+      "ar": [
+        "ليش ما فيه مشروبات كحولية في عشاء الشركة؟",
+        "وش معنى حلال؟",
+        "ليش زميلتي سألت عن اللحم في المطعم؟",
+        "ليش المسلمين ما ياكلون لحم الخنزير؟",
+        "وش أطلب لو عزمت زملائي المسلمين على عشاء؟"
+      ]
+    }
+  }
+}

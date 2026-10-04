@@ -1,0 +1,330 @@
+{
+ "topic_id": "muhammad-name",
+ "topic": "كثرة اسم محمد بين الزملاء",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 33,
+    "ayah": 40
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   1174
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "name-muhammad-prevalence",
+  "level": "B",
+  "when": "always",
+  "title": "لماذا اسم محمد منتشر بين الزملاء؟",
+  "teaser": "تلاحظ أن نسبة كبيرة من زملائك في العمل يحملون اسم 'محمد'. قد تتساءل عن سبب هذا التكرار، خاصة إذا كنت من خلفية ثقافية مختلفة.",
+  "scene": "في قاعة الاجتماعات، يوزع المدير قائمة الحضور. تلاحظ أن أكثر من ثلث الأسماء تبدأ بـ 'محمد' أو تحتوي عليه. تسأل زميلك الجديد: «ليش كل هالأسماء متشابهة؟ هل فيه تقليد معين؟»",
+  "character_names": [
+   "المدير",
+   "زميلك الجديد"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "ترند عابر",
+    "reveal_headline": "ليس موضة عابرة",
+    "reveal_body": "هذا الاسم ليس مجرد صيحة عصرية أو موضة زائلة، بل هو اختيار جذري ومتجذر عبر قرون. انتشاره يعكس عمقًا تاريخيًا ودينيًا لا علاقة له بالموضة."
+   },
+   {
+    "id": "opt-2",
+    "label": "سهولة النطق فقط",
+    "reveal_headline": "السبب أعمق من السهولة اللغوية",
+    "reveal_body": "صحيح أن الاسم سهل النطق، لكن السبب الرئيسي ليس لغويًا بحتًا. الناس يختارونه لارتباطه بشخصية محورية في إيمانهم، مما يمنح الاسم قيمة معنوية تفوق كونه مجرد كلمة سهلة."
+   },
+   {
+    "id": "opt-3",
+    "label": "إرث عائلي إجباري",
+    "reveal_headline": "اختيار طوعي ومحبة",
+    "reveal_body": "لا يوجد إلزام قانوني أو اجتماعي قاسٍ يجبر العائلات على هذا الاسم. بل هو اختيار واعٍ ومحبّ من قبل الوالدين، الذين يرون فيه شرفًا وتقليدًا لأسمى نموذج أخلاقي في دينهم."
+   },
+   {
+    "id": "opt-4",
+    "label": "اسم ملكي حصري",
+    "reveal_headline": "اسم نبوي عام",
+    "reveal_body": "الاسم لم يكن حصرًا على فئة حاكمة أو نخبوية معينة."
+   }
+  ],
+  "explanation": "يُعد اسم محمد من أكثر الأسماء شيوعًا لدى المسلمين حول العالم، وليس فقط في السعودية. يختار المسلمون هذا الاسم تكريمًا له ولآله وصحابته، تعبيرًا عن المحبة والاقتداء بسيرته الأخلاقية والدينية.",
+  "explain_prompt": "اشرح لماذا ينتشر اسم محمد بين المسلمين بناءً على المصادر المرفقة.",
+  "tip": {
+   "headline": "آداب التعامل مع الأسماء",
+   "lead": "كيف تتعامل باحترام مع هذا الاختيار الثقافي والديني:",
+   "items": [
+    "اعتبر الاسم علامة احترام وتقدير للقيم التي يتبنّاها زميلك، ولا تنظر إليه كعادة روتينية فقط.",
+    "استخدم الاسم بكل ثقة وود عند مخاطبة الزميل، فهو جزء أساسي من هويته وشخصيته.",
+    "تجنب الاستهزاء أو المقارنة الساخرة مع أسماء أخرى، فلكل ثقافة تفضيلات تعبر عن قيمها الخاصة."
+   ]
+  },
+  "key_points": [
+   "انتشار اسم محمد يعكس التقدير العميق للنبي محمد صلى الله عليه وسلم لدى المسلمين.",
+   "الاسم مرتبط بمكانة النبي كخاتم الأنبياء وفقًا للمعتقد الإسلامي.",
+   "الاختيار يأتي من حب وتكريم، وليس من ضغط اجتماعي أو موضة عابرة."
+  ],
+  "question_variants": [
+   "ليش كثير من الناس عندهم نفس الاسم؟",
+   "هل فيه سبب خاص لشيوع هذا الاسم؟",
+   "ليه اختاروا هذا الاسم بالذات؟",
+   "هل هذا الاسم مميز عن غيره؟",
+   "ما معنى تكرار هذا الاسم في البيئة المحلية؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-33-40",
+   "kind": "quran",
+   "text_ar": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٖ مِّن رِّجَالِكُمۡ وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّـۧنَۗ وَكَانَ ٱللَّهُ بِكُلِّ شَيۡءٍ عَلِيمٗا",
+   "reference": "33:40",
+   "translations": {
+    "en": {
+     "text": "Muhammad is not the father of any of your men, but he is the Messenger of Allah and the seal of the prophets. And Allah is All-Knowing of everything.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/33/40",
+   "verified": false,
+   "content_hash": "c246f3f14367ba8b9ff3392b2c47daadbeb43f7c5b9306c4784b4c6feecb4e6f"
+  },
+  {
+   "id": "term-1174",
+   "kind": "term",
+   "text_ar": "ذِكْرٌ: كُلُّ قَوْلٍ يَشْتَمِلُ على تَعْظِيمِ اللهِ تعالى ومَـحَـبَّتِهِ. الذِّكْرُ: هو عِبادَةُ اللِّسانِ والقَلْبِ، وهو أَيسرُ الأَعْمالِ والطّاعاتِ، ويَشْمَلُ ثَناءَ العَبْدِ على رَبِّهِ عزّ وجلَّ، سَواءٌ بِالإخْبارِ عن ذاتِهِ أو صِفاتِهِ أو أَفْعالِهِ أو أحْكامِه، أو بِتِلاوَةِ كِتابِهِ، أو بِمَسْأَلَتِهِ ودُعائِهِ، أو بِإِنْشاءِ الثَّناءِ عليه بِتَقْديسِهِ وتَمجيدِهِ وتَوْحيدِهِ وحَمْدِهِ وشُكْرِهِ وتَعْظيمِهِ، أو بِالصَّلاةِ على رَسولِهِ صلى اللهُ عليه وسلم، كُلُّ ذلك على وَجْهِ التَقَرُّبِ للهِ وطَلَبِ ثَوابِهِ.",
+   "reference": "ذِكْرٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/1174",
+   "verified": false,
+   "content_hash": "d3d3096366b384e07fd3aa3929c4f11f83525fa05c52548894480efb4afb1870"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يُعد اسم محمد من أكثر الأسماء شيوعًا لدى المسلمين حول العالم، وليس فقط في السعودية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يعود ذلك إلى مكانة النبي محمد صلى الله عليه وسلم كخاتم الأنبياء في الإسلام، كما ورد في القرآن الكريم.",
+   "label": "unsupported",
+   "source_id": "quran-33-40",
+   "quote": "وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّـۧنَ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.499,
+   "keyword_share": 0.14,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "يختار المسلمون هذا الاسم تكريمًا له ولآله وصحابته، تعبيرًا عن المحبة والاقتداء بسيرته الأخلاقية والدينية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا الاسم ليس مجرد صيحة عصرية أو موضة زائلة، بل هو اختيار جذري ومتجذر عبر قرون.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "انتشاره يعكس عمقًا تاريخيًا ودينيًا لا علاقة له بالموضة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "صحيح أن الاسم سهل النطق، لكن السبب الرئيسي ليس لغويًا بحتًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "الناس يختارونه لارتباطه بشخصية محورية في إيمانهم، مما يمنح الاسم قيمة معنوية تفوق كونه مجرد كلمة سهلة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "لا يوجد إلزام قانوني أو اجتماعي قاسٍ يجبر العائلات على هذا الاسم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "بل هو اختيار واعٍ ومحبّ من قبل الوالدين، الذين يرون فيه شرفًا وتقليدًا لأسمى نموذج أخلاقي في دينهم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "الاسم لم يكن حصرًا على فئة حاكمة أو نخبوية معينة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "إنه اسم النبي الخاتم عند المسلمين، وقد انتشر بين جميع الطبقات الاجتماعية بشكل واسع جدًا لأنه يمثل قدوة للجميع.",
+   "label": "unsupported",
+   "source_id": "quran-33-40",
+   "quote": "وَخَاتَمَ ٱلنَّبِيِّـۧنَ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.464,
+   "keyword_share": 0.07,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "محمد"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 11,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 8,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 2,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 6486,
+  "tokens_out": 1768
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "محمد رسول الله",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "حب محمد",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "التوسم",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الذكر",
+   "hits": 2
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يعود ذلك إلى مكانة النبي محمد صلى الله عليه وسلم كخاتم الأنبياء في الإسلام، كما ورد في القرآن الكريم.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-1",
+   "text": "إنه اسم النبي الخاتم عند المسلمين، وقد انتشر بين جميع الطبقات الاجتماعية بشكل واسع جدًا لأنه يمثل قدوة للجميع.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 35.2
+}

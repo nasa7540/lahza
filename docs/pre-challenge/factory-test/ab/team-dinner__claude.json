@@ -1,0 +1,437 @@
+{
+ "topic_id": "team-dinner",
+ "topic": "في عشاء الفريق لا يوجد كحول وزميلة تسأل هل اللحم حلال",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:47",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "anthropic/claude-opus-5.5",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 5,
+    "ayah": 3
+   },
+   {
+    "surah": 5,
+    "ayah": 90
+   }
+  ],
+  "hadith_ids": [
+   64653
+  ],
+  "term_ids": [
+   7645
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "team-dinner-halal-no-alcohol",
+  "level": "B",
+  "when": "always",
+  "title": "طعام المسلم: ما يؤكل وما يُجتنب",
+  "teaser": "ليش ما فيه مشروبات كحولية في العشاء؟ وليش زميلتك سألت عن طريقة الذبح؟",
+  "scene": "عشاء الفريق الليلة في مطعم بالرياض. فتحت قائمة المشروبات ولقيتها كلها عصيرات وقهوة وشاي، لا نبيذ ولا بيرة. وقبل ما نطلب، التفتت ريم على الجرسون وسألته بهدوء: «اللحم عندكم مذبوح؟ ومن وين مصدره؟». وش السبب برأيك ورا هالشي كله؟",
+  "character_names": [
+   "ريم"
+  ],
+  "options": [
+   {
+    "id": "health-diet",
+    "label": "اهتمام صحي أو حمية غذائية",
+    "reveal_headline": "المسألة دينية وليست صحية",
+    "reveal_body": "سؤال ريم لا يتعلق بالسعرات أو جودة الطعام."
+   },
+   {
+    "id": "only-no-pork",
+    "label": "المقصود فقط إن اللحم ما يكون لحم خنزير",
+    "reveal_headline": "طريقة الذبح مهمة أيضًا",
+    "reveal_body": "لحم الخنزير جزء من الصورة فقط."
+   },
+   {
+    "id": "budget-policy",
+    "label": "قرار من المطعم أو توفير في الميزانية",
+    "reveal_headline": "غياب الخمر ليس مسألة تكلفة",
+    "reveal_body": "عدم وجود المشروبات الكحولية ليس اختيارًا تجاريًا أو اقتصاديًا."
+   },
+   {
+    "id": "distrust-strict",
+    "label": "ريم تشك في المطعم أو متشددة زيادة",
+    "reveal_headline": "السؤال حرص وليس اتهامًا",
+    "reveal_body": "السؤال عن مصدر اللحم أمر عادي لمن يهمه أن يكون طعامه موافقًا لدينه. فالأمر قائم على الحرص مع السهولة، لا على الشك في الناس."
+   }
+  ],
+  "explanation": "ويبيّن الحديث أن من لم يعرف حال اللحم يذكر اسم الله ويأكل، فالأمر فيه حرص وتيسير معًا.",
+  "explain_prompt": "اشرح بكلماتك ليش ما فيه مشروبات كحولية في عشاء الفريق، وليش ممكن زميل مسلم يسأل عن طريقة ذبح اللحم.",
+  "tip": {
+   "headline": "آداب عشاء الفريق",
+   "lead": "إذا كنت تنظم عشاء أو تشارك فيه، هالأشياء تخلي الكل مرتاح:",
+   "items": [
+    "اختر مطعم معروف إنه يقدم لحم مذبوح، وإذا مو متأكد اسأل المطعم قبل الحجز.",
+    "لا تطلب مشروبات كحولية ولا تلح على أحد يجرب أكل ما يعرف مصدره.",
+    "لو جبت أكل من البيت للمكتب، وضّح وش مكوناته ونوع اللحم اللي فيه."
+   ]
+  },
+  "key_points": [
+   "الإسلام يحرم أطعمة معينة مثل لحم الخنزير والدم والميتة، والمؤمنون مأمورون باجتناب الخمر.",
+   "اللحم المقبول هو ما ذُكّي، أي سال دمه بطريقة مخصوصة مع ذكر اسم الله، ولذلك يُسأل عن طريقة الذبح.",
+   "السؤال عن اللحم حرص وليس اتهامًا، وفي الحديث تيسير لمن لا يعرف حال اللحم."
+  ],
+  "question_variants": [
+   "ليش المطاعم هنا ما تقدم مشروبات كحولية حتى في العشاء الرسمي؟",
+   "وش يعني زميل يسأل إذا اللحم مذبوح؟",
+   "هل الحلال يعني بس إن الأكل ما فيه لحم خنزير؟",
+   "إذا نظمت عشاء للفريق، كيف أتأكد إن الأكل مناسب لزملائي المسلمين؟",
+   "هل أزعل إذا زميلي سأل عن مصدر الأكل اللي جبته؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-5-3",
+   "kind": "quran",
+   "text_ar": "حُرِّمَتۡ عَلَيۡكُمُ ٱلۡمَيۡتَةُ وَٱلدَّمُ وَلَحۡمُ ٱلۡخِنزِيرِ وَمَآ أُهِلَّ لِغَيۡرِ ٱللَّهِ بِهِۦ وَٱلۡمُنۡخَنِقَةُ وَٱلۡمَوۡقُوذَةُ وَٱلۡمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيۡتُمۡ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسۡتَقۡسِمُواْ بِٱلۡأَزۡلَٰمِۚ ذَٰلِكُمۡ فِسۡقٌۗ ٱلۡيَوۡمَ يَئِسَ ٱلَّذِينَ كَفَرُواْ مِن دِينِكُمۡ فَلَا تَخۡشَوۡهُمۡ وَٱخۡشَوۡنِۚ ٱلۡيَوۡمَ أَكۡمَلۡتُ لَكُمۡ دِينَكُمۡ وَأَتۡمَمۡتُ عَلَيۡكُمۡ نِعۡمَتِي وَرَضِيتُ لَكُمُ ٱلۡإِسۡلَٰمَ دِينٗاۚ فَمَنِ ٱضۡطُرَّ فِي مَخۡمَصَةٍ غَيۡرَ مُتَجَانِفٖ لِّإِثۡمٖ فَإِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
+   "reference": "5:3",
+   "translations": {
+    "en": {
+     "text": "Forbidden to you are carrion, blood, the flesh of swine, and that which is sacrificed to other than Allah; and that which is killed by strangling, or by a violent blow, or by a headlong fall, or by being gored; and that which is partly eaten by a predator unless you slaughter it [before it dies]; and that which is sacrificed to idols. Also it is forbidden to use arrows [of chance] to determine your decisions. This is all evil practice. Today the disbelievers have lost all hope in [eliminating] your religion, so do not fear them but fear Me. Today I have perfected your religion for you, completed My favor upon you, and have chosen Islam as your religion. But if anyone is compelled by severe hunger, not intending to sin, then Allah is All-Forgiving, Most Merciful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/5/3",
+   "verified": false,
+   "content_hash": "da8cb951f368820f1242d4c8c4c6c7b7af873a609beddb0e30761cf490dd9f56"
+  },
+  {
+   "id": "quran-5-90",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡخَمۡرُ وَٱلۡمَيۡسِرُ وَٱلۡأَنصَابُ وَٱلۡأَزۡلَٰمُ رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ لَعَلَّكُمۡ تُفۡلِحُونَ",
+   "reference": "5:90",
+   "translations": {
+    "en": {
+     "text": "O you who believe, intoxicants, gambling, [sacrificing on] stone alters and divining arrows are of Satan’s evil work; therefore avoid such [evil], so that you may be successful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/5/90",
+   "verified": false,
+   "content_hash": "280c11437a31852de9031e31976472f2b324cfa6ff93a4cde392dbd8f8877fe4"
+  },
+  {
+   "id": "hadith-64653",
+   "kind": "hadith",
+   "text_ar": "عن عائشة رضي الله عنها : أنّ قومًا قالوا: يا رسول الله إنّ قومًا يأتوننا باللحم لا نَدري أَذَكروا اسمَ الله عليه أم لا، فقال رسول الله صلى الله عليه وسلم : «سَمُّوا الله عليه وكُلُوه».",
+   "reference": "رواه البخاري",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/64653",
+   "verified": false,
+   "content_hash": "b296331d7e5263b8ff4b9ad6b9e5c7d2b34606a7b4418473e2a1357e03c47513"
+  },
+  {
+   "id": "term-7645",
+   "kind": "term",
+   "text_ar": "ذَكَاةٌ: هِيَ إِسَالَةُ دَمِ الحَيَوانِ عَلَى صِفَةٍ مَـخْصُوصَةٍ. ذَكَاةُ الحَيَوانِ هِيَ إِسَالَةُ دَمِ الـحَيَوانِ أَيْ إِرَاقَتُهُ وَصَبُّهُ مِنْ خِلالِ إِمَاتَتِهِ، وَالذكَاةُ لَهَا صِفَتَانِ إِمَّا بِقَطْعِ الـحٌلْقومِ والـمَريءِ وَيُسَمَّى ذَبْحًا أَوْ بِضَرْبِهِ في اللَّبَّةِ، وَهِيَ الـمَكَانُ الذي يَكونُ في بَيْنَ العُنُقِ وَالصَّدْرِ وَيُسَمَّى نَحْرًا، وَالذَّبْحُ والنَّحْرُ يَكونَانِ في حَالَةِ القُدْرَةِ عَلَى الـحَيَوانِ، وَالصِّفَةُ الثَّانِيَةُ تَكونُ بِطَعْنِ الـحَيَوانِ في عُضْوٍ مِنْ أَعْضَائِهِ، وَهّذِهِ الصِّفَةُ خَاصَّةٌ في حَالَةِ هُروبِ الـحَيَوانِ وعَدَمِ القُدْرَةِ عَلَيْهِ، وَكُلُّ هّذَا مَعَ ذِكْرِ اسْمِ اللهِ في كِلاَ الطَّرِيقَتَيْنِ.",
+   "reference": "ذَكَاةٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/7645",
+   "verified": false,
+   "content_hash": "81f940112d5e04b7a350264cfa29a8ddd73d95e195318f6e050ed2d441c38ef1"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "في القرآن آيات تذكر أطعمة محرمة مثل لحم الخنزير والدم والميتة، وتستثني الحيوان الذي ذُكّي، أي الذي سال دمه بطريقة مخصوصة مع ذكر اسم الله.",
+   "label": "unsupported",
+   "source_id": "quran-5-3",
+   "quote": "حُرِّمَتۡ عَلَيۡكُمُ ٱلۡمَيۡتَةُ وَٱلدَّمُ وَلَحۡمُ ٱلۡخِنزِيرِ ... إِلَّا مَا ذَكَّيۡتُمۡ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.522,
+   "keyword_share": 0.2,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وفي آية أخرى أمر للمؤمنين باجتناب الخمر.",
+   "label": "unsupported",
+   "source_id": "quran-5-90",
+   "quote": "إِنَّمَا ٱلۡخَمۡرُ ... رِجۡسٞ مِّنۡ عَمَلِ ٱلشَّيۡطَٰنِ فَٱجۡتَنِبُوهُ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.483,
+   "keyword_share": 0.14,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "ويبيّن الحديث أن من لم يعرف حال اللحم يذكر اسم الله ويأكل، فالأمر فيه حرص وتيسير معًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-health-diet-0",
+   "where": "reveal:health-diet",
+   "text": "سؤال ريم لا يتعلق بالسعرات أو جودة الطعام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-health-diet-1",
+   "where": "reveal:health-diet",
+   "text": "القرآن يذكر أطعمة محرمة على المسلمين، مثل لحم الخنزير والدم والميتة، وفي آية أخرى يأمر المؤمنين باجتناب الخمر.",
+   "label": "unsupported",
+   "source_id": "quran-5-3",
+   "quote": "حُرِّمَتۡ عَلَيۡكُمُ ٱلۡمَيۡتَةُ وَٱلدَّمُ وَلَحۡمُ ٱلۡخِنزِيرِ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.448,
+   "keyword_share": 0.22,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-only-no-pork-0",
+   "where": "reveal:only-no-pork",
+   "text": "لحم الخنزير جزء من الصورة فقط.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-only-no-pork-1",
+   "where": "reveal:only-no-pork",
+   "text": "الآية تذكر أيضًا الحيوان الذي مات خنقًا أو ضربًا أو سقوطًا، وتستثني ما ذُكّي.",
+   "label": "unsupported",
+   "source_id": "quran-5-3",
+   "quote": "وَٱلۡمُنۡخَنِقَةُ وَٱلۡمَوۡقُوذَةُ وَٱلۡمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ ... إِلَّا مَا ذَكَّيۡتُمۡ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.461,
+   "keyword_share": 0.0,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-only-no-pork-2",
+   "where": "reveal:only-no-pork",
+   "text": "والتذكية إسالة دم الحيوان بطريقة مخصوصة مع ذكر اسم الله، ولهذا سألت ريم: هل هو مذبوح؟",
+   "label": "unsupported",
+   "source_id": "term-7645",
+   "quote": "ذَكَاةُ الحَيَوانِ هِيَ إِسَالَةُ دَمِ الـحَيَوانِ ... عَلَى صِفَةٍ مَـخْصُوصَةٍ ... مَعَ ذِكْرِ اسْمِ اللهِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.628,
+   "keyword_share": 0.5,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-budget-policy-0",
+   "where": "reveal:budget-policy",
+   "text": "عدم وجود المشروبات الكحولية ليس اختيارًا تجاريًا أو اقتصاديًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-budget-policy-1",
+   "where": "reveal:budget-policy",
+   "text": "الآية تصف الخمر بأنها من عمل الشيطان وتأمر المؤمنين باجتنابها، وهي أيضًا غير مسموح بها في المملكة، ولذلك لا تجدها في قوائم المطاعم.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-distrust-strict-0",
+   "where": "reveal:distrust-strict",
+   "text": "السؤال عن مصدر اللحم أمر عادي لمن يهمه أن يكون طعامه موافقًا لدينه.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-distrust-strict-1",
+   "where": "reveal:distrust-strict",
+   "text": "وفي الحديث تيسير لمن جاءه لحم ولا يعرف هل ذُكر اسم الله عليه، فأرشدهم النبي إلى أن يذكروا اسم الله ويأكلوا.",
+   "label": "unsupported",
+   "source_id": "hadith-64653",
+   "quote": "«سَمُّوا الله عليه وكُلُوه»",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.441,
+   "keyword_share": 0.19,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-distrust-strict-2",
+   "where": "reveal:distrust-strict",
+   "text": "فالأمر قائم على الحرص مع السهولة، لا على الشك في الناس.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": true,
+  "scene_title_words_found": [],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": true
+ },
+ "counters": {
+  "references_proposed": 4,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 13,
+  "removed_by_verifier": 7,
+  "supported": 0,
+  "general": 6,
+  "flagged_general_religious": 0,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 4,
+   "quote_low_similarity": 2,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 15421,
+  "tokens_out": 4715
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "إنما الخمر والميسر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "حرمت عليكم الميتة والدم ولحم الخنزير",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "سموا الله عليه وكلوه",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الذبائح",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الذكاة",
+   "hits": 1
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحلال",
+   "hits": 0
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "في القرآن آيات تذكر أطعمة محرمة مثل لحم الخنزير والدم والميتة، وتستثني الحيوان الذي ذُكّي، أي الذي سال دمه بطريقة مخصوصة مع ذكر اسم الله.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "وفي آية أخرى أمر للمؤمنين باجتناب الخمر.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-health-diet-1",
+   "text": "القرآن يذكر أطعمة محرمة على المسلمين، مثل لحم الخنزير والدم والميتة، وفي آية أخرى يأمر المؤمنين باجتناب الخمر.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-only-no-pork-1",
+   "text": "الآية تذكر أيضًا الحيوان الذي مات خنقًا أو ضربًا أو سقوطًا، وتستثني ما ذُكّي.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-only-no-pork-2",
+   "text": "والتذكية إسالة دم الحيوان بطريقة مخصوصة مع ذكر اسم الله، ولهذا سألت ريم: هل هو مذبوح؟",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-budget-policy-1",
+   "text": "الآية تصف الخمر بأنها من عمل الشيطان وتأمر المؤمنين باجتنابها، وهي أيضًا غير مسموح بها في المملكة، ولذلك لا تجدها في قوائم المطاعم.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-distrust-strict-1",
+   "text": "وفي الحديث تيسير لمن جاءه لحم ولا يعرف هل ذُكر اسم الله عليه، فأرشدهم النبي إلى أن يذكروا اسم الله ويأكلوا.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 83.2
+}

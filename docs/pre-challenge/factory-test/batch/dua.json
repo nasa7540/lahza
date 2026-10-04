@@ -1,0 +1,360 @@
+{
+ "topic_id": "dua",
+ "topic": "زميل يرفع يديه ويدعو قبل اجتماع مهم",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 7,
+    "ayah": 55
+   }
+  ],
+  "hadith_ids": [
+   65441
+  ],
+  "term_ids": [
+   14981
+  ],
+  "steps": 5
+ },
+ "journey": {
+  "id": "colleague-dual-before-meeting",
+  "level": "B",
+  "when": "always",
+  "title": "لماذا يرفع زميلي يديه قبل الاجتماع؟",
+  "teaser": "في لحظة توتر ما قبل العرض، لاحظت زميلك يرفع يديه ويغلق عينيه للحظة. هل هو استسلام أم تركيز؟",
+  "scene": "أنت وزميلك سعود في غرفة الاجتماعات، قبل دقائق من بدء عرض تقديمي مهم للعميل. فجأة، يتوقف سعود عن ترتيب أوراقه، يرفع كفيه للأعلى ببطء، ويغلق عينيه ويحرك شفتيه بصوت خافت لمدة عشر ثوانٍ ثم يعود لابتسامته المعتادة ويكمل جلوسه. تتساءل: ماذا فعل بالضبط ولماذا اختار هذه اللحظة بالذات؟",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "طلب الحظ والتوفيق",
+    "reveal_headline": "ليس مجرد حشو أو خرافة",
+    "reveal_body": "هذا الفعل ليس سحراً لجلب الحظ، بل هو عبادة معروفة باسم «الدعاء»."
+   },
+   {
+    "id": "opt2",
+    "label": "إجهاد نفسي أو نوبة قلق",
+    "reveal_headline": "ليست حالة مرضية",
+    "reveal_body": "ما تراه ليس نوبة ذعر أو إجهاداً، بل هو ممارسة روحية منتظمة. رفع اليدين هنا علامة على التواضع والاستعانة بالله، وهو سلوك هادئ ومدروس وليس رد فعل عشوائي للقلق."
+   },
+   {
+    "id": "opt3",
+    "label": "تحضير للدخول في الصلاة الرسمية",
+    "reveal_headline": "ليس وقت صلاة الفرض",
+    "reveal_body": "لم يكن يستعد للصلاة الخمس المفروضة، فالوقت قد لا يكون محددًا والصورة غير كاملة."
+   },
+   {
+    "id": "opt4",
+    "label": "طريقة للتواصل مع الملائكة",
+    "reveal_headline": "خطأ في فهم طبيعة العبادة",
+    "reveal_body": "هو تعبير عن الاعتماد الكلي على الله، وليس محاولة للاتصال بقوى غيبية أخرى."
+   }
+  ],
+  "explanation": "",
+  "explain_prompt": "اشرح مفهوم الدعاء كعبادة وصلة بين العبد وربه، وبيان سبب رفع اليدين فيه، مع التأكيد على أنه ليس له علاقة بالسحر أو الملائكة أو الصلاة المفروضة فقط.",
+  "tip": {
+   "headline": "آداب التعامل مع زميل يدعو",
+   "lead": "عند رؤية زميلك يقوم بذلك، يمكنك احترام خصوصيته وتفاعلك باحتراف عبر النقاط التالية:",
+   "items": [
+    "لا تقاطعه أو تسأله بصوت عالٍ عما يقول، فهو في لحظة تركيز روحي خاصة به.",
+    "انتظر حتى ينتهي ويستجمع انتباهه قبل طرح الأسئلة أو بدء النقاش الرسمي.",
+    "احترم هدوءه ولا تفسر تصرفه بشكل سلبي، بل اعتبره جزءًا من طاقته النفسية للعمل."
+   ]
+  },
+  "key_points": [
+   "الدعاء هو عبادة وتواصل مباشر مع الله لطلب العون والهداية.",
+   "رفع اليدين علامة على التواضع والافتقار إلى الله، وليس سحراً أو خرافة.",
+   "يمكن أداء دعاء المسألة في أي وقت ومكان، ولا يرتبط حصراً بالصلاة المفروضة."
+  ],
+  "question_variants": [
+   "لاحظت موظفًا يرفع يديه ويغلق عينيه قبل بدء العمل، ما تفسير ذلك؟",
+   "لماذا يختار بعض الموظفين لحظة الهدوء قبل الاجتماع لإجراء تواصل صامت؟",
+   "ما الدلالة الدينية وراء رفع اليدين وتحريك الشفاه بصوت خافت في بيئة العمل؟",
+   "هل يعتبر التصرف الذي قام به زميلي شكلاً من أشكال الطقوس الروحية؟",
+   "كيف أفهم موقف زميل يطلب العون بصمت قبل مواجهة مهمة صعبة؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-7-55",
+   "kind": "quran",
+   "text_ar": "ٱدۡعُواْ رَبَّكُمۡ تَضَرُّعٗا وَخُفۡيَةًۚ إِنَّهُۥ لَا يُحِبُّ ٱلۡمُعۡتَدِينَ",
+   "reference": "7:55",
+   "translations": {
+    "en": {
+     "text": "Call upon your Lord humbly and privately, for He does not like the transgressors.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/7/55",
+   "verified": false,
+   "content_hash": "ab7d9964457663f20c628ab1a35994fa4d677cef3300e4f9c7675aea06dcadb8"
+  },
+  {
+   "id": "hadith-65441",
+   "kind": "hadith",
+   "text_ar": "عن نافع أن ابن عمر كان إذا دخل في الصلاة كبر ورفع يديه، وإذا ركع رفع يديه، وإذا قال: سمع الله لمن حمده. رفع يديه، وإذا قام من الركعتين رفع يديه، ورفع ذلك ابن عمر إلى نبي الله صلى الله عليه وسلم.",
+   "reference": "رواه البخاري",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/65441",
+   "verified": false,
+   "content_hash": "9dd79eeb7e3a2ca99c74363139155e4b0ab047d8ee6f01767e988fb8b365d233"
+  },
+  {
+   "id": "term-14981",
+   "kind": "term",
+   "text_ar": "دُعَاء: التَّقَرُّبُ إلى اللهِ تعالى بِطاعِتِهِ أو بِسُؤالِهِ رَغْبَةً في فَضْلِهِ ورَهْبَةً مِن عِقابِهِ. الدُّعاءُ عِبادَةٌ مِن أَعْظَمِ العِباداتِ وأَجَلِّ الطَّاعاتِ، وهو صِلَةٌ بين العَبْدِ ورَبِّهِ، ومعناه: اسْتِدْعاءُ العَبْدِ مِن رَبِّهِ العِنايَةَ واسْتِمْدادُهُ إِيّاهُ المَعُونَةَ، وحَقِيقَتُهُ: إِظْهارُ الاِفْتِقارِ إلَيْهِ، والبَراءَةُ مِن الحَوْلِ والقُوَّةِ التي لَهُ، وهو سِمَةُ العُبُودِيَّةِ وإِظْهارُ الذِّلَّةِ البَشَرِيَّةِ، وفيه معنى الثَّناءِ على اللهِ، وإِضافَة الجُودِ والكَرَمِ إِلَيْهِ، وتارِكُه إمَّا قانِطٌ أو مُتَكَبِّرٌ.\nوالدُّعاءُ قِسْمانِ:\n1- دُعاءُ مَسْأَلَةٍ: ويكون بِلسانِ المَقالِ بِطَلَبِ جَلْبِ نَفْعٍ أو دَفْعٍ ضُرٍّ مِمَّا يكون في الدُّنْيا والآخِرَةِ، مِثْل قولك: اللَّهُمَّ اغْفِرْ لي يا غَفُورُ، وهكذا, ويكون بِرَفْعِ اليَدَيْنِ أو رَفْعِ أُصْبُعِ السَّبَّابَةِ.\n2- دُعاءُ عِبادَةٍ: ويكون بِالتَّقَرُّبِ إلى اللهِ بِجَمِيعِ أَنْواعِ العِبادَةِ الظَّاهِرَةِ والباطِنَةِ مِن الأَقْوالِ والأَعْمالِ والنِّياتِ.\nوعلى الدّاعي أن لا يدعو إلّا الله وحدَه؛ فلا يدعو نَبِيّاً ولا ملَكاً ولا ولِيّاً ولا مَيِّتاً، وأن يكون خاشِعاً حاضِرَ القلبِ عند الدُّعاءِ، مع حُسْنُ ظَنِّهِ بِاللهِ، وعَدَمِ الاسْتِعْجالِ في الإجابَةِ، وتَرْكِ الاعْتِداءِ في الدُّعاءِ بِطَلَبِ المُسْتَحِيلِ، أو الدُّعاءِ بِإثْمٍ أو قَطِيعَةِ رَحِمٍ.",
+   "reference": "دُعَاء",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/14981",
+   "verified": false,
+   "content_hash": "8b41b82ce80f5f6eca08d7d5611997c2cd8c9e29d4c29856e55cc493b0e755aa"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الدعاء هو جوهر العبادة في الإسلام، ويعني استدعاء العون من الله والإقرار بالعجز البشري أمام قدرته.",
+   "label": "unsupported",
+   "source_id": "term-14981",
+   "quote": "الدُّعاءُ عِبادَةٌ مِن أَعْظَمِ العِباداتِ... ومعناه: اسْتِدْعاءُ العَبْدِ مِن رَبِّهِ العِنايَةَ... وحَقِيقَتُهُ: إِظْهارُ الاِفْتِقارِ إلَيْهِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.676,
+   "keyword_share": 0.31,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يُستحب للمسلم رفع يديه عند الدعاء كعلامة على التواضع والافتقار إلى الله، ويمكن أن يكون دعاءً للمسألة (طلب خير) في أي وقت، سواء كان سرًا أو جهرًا، خاصة في الأوقات التي يحتاج فيها الإنسان إلى دعم خاص.",
+   "label": "unsupported",
+   "source_id": "term-14981",
+   "quote": "ويكون بِرَفْعِ اليَدَيْنِ... دُعاءُ مَسْأَلَةٍ: ويكون بِلسانِ المَقالِ بِطَلَبِ جَلْبِ نَفْعٍ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.525,
+   "keyword_share": 0.28,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا الفعل ليس سحراً لجلب الحظ، بل هو عبادة معروفة باسم «الدعاء».",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "المسلم يؤمن أن الدعاء صلة مباشرة بينه وبين الخالق لطلب العون والهداية، وليس مجرد عادة ثقافية فارغة.",
+   "label": "unsupported",
+   "source_id": "term-14981",
+   "quote": "وهو صِلَةٌ بين العَبْدِ ورَبِّهِ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.579,
+   "keyword_share": 0.12,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "ما تراه ليس نوبة ذعر أو إجهاداً، بل هو ممارسة روحية منتظمة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "رفع اليدين هنا علامة على التواضع والاستعانة بالله، وهو سلوك هادئ ومدروس وليس رد فعل عشوائي للقلق.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "لم يكن يستعد للصلاة الخمس المفروضة، فالوقت قد لا يكون محددًا والصورة غير كاملة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "هذا «دعاء مسألة» قصير يمكن أدباؤه في أي وقت وفي أي مكان، بما في ذلك قبل البدء بمهمة مهمة.",
+   "label": "unsupported",
+   "source_id": "term-14981",
+   "quote": "دُعاءُ مَسْأَلَةٍ: ويكون بِلسانِ المَقالِ بِطَلَبِ جَلْبِ نَفْعٍ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.488,
+   "keyword_share": 0.17,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "الدعاء في الإسلام موجّه لله وحده دون وساطة مخلوقات أخرى مثل الملائكة أو الأولياء.",
+   "label": "unsupported",
+   "source_id": "term-14981",
+   "quote": "وعلى الدّاعي أن لا يدعو إلّا الله وحدَه؛ فلا يدعو نَبِيّاً ولا ملَكاً ولا ولِيّاً",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.686,
+   "keyword_share": 0.25,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "هو تعبير عن الاعتماد الكلي على الله، وليس محاولة للاتصال بقوى غيبية أخرى.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "قبل",
+   "ماذا",
+   "يرفع"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 5,
+  "sentences_generated": 10,
+  "removed_by_verifier": 5,
+  "supported": 0,
+  "general": 4,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 2,
+   "quote_low_similarity": 1,
+   "keywords_missing": 2,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 10208,
+  "tokens_out": 2003
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "ادعوا ربكم تضرعا وخفية",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "الدعاء بين الأذان والإقامة",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "رفع اليدين في الدعاء",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الدعاء",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "الدعاء هو جوهر العبادة في الإسلام، ويعني استدعاء العون من الله والإقرار بالعجز البشري أمام قدرته.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يُستحب للمسلم رفع يديه عند الدعاء كعلامة على التواضع والافتقار إلى الله، ويمكن أن يكون دعاءً للمسألة (طلب خير) في أي وقت، سواء كان سرًا أو جهرًا، خاصة في الأوقات التي يحتاج فيها الإنسان إلى دعم خاص.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt1-1",
+   "text": "المسلم يؤمن أن الدعاء صلة مباشرة بينه وبين الخالق لطلب العون والهداية، وليس مجرد عادة ثقافية فارغة.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-1",
+   "text": "هذا «دعاء مسألة» قصير يمكن أدباؤه في أي وقت وفي أي مكان، بما في ذلك قبل البدء بمهمة مهمة.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-0",
+   "text": "الدعاء في الإسلام موجّه لله وحده دون وساطة مخلوقات أخرى مثل الملائكة أو الأولياء.",
+   "why": "keywords_missing"
+  }
+ ],
+ "seconds": 45.5
+}

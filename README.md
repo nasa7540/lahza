@@ -6,15 +6,15 @@ Entry for the "AI in the Service of Islamic Content" challenge (Track 3: interac
 
 ## Pre-challenge starting version
 
-This repository was created on Oct 2, 2026. Work before Oct 4 (disclosed per the challenge FAQ):
+This repository was created on Oct 2, 2026. The challenge build days are Oct 4–6. The tag [`pre-challenge-v0`](https://github.com/nasa7540/lahza/tree/pre-challenge-v0) marks the last commit before the challenge; [compare it with `main`](https://github.com/nasa7540/lahza/compare/pre-challenge-v0...main) to see what was built during it.
 
-- P0 scaffold: welcome screen in three languages (including a text-size and layout polish pass), `/api/health`, PWA config, the database migration file, and deployment setup.
-- Project spec (`CLAUDE.md`) and the visual prototype in `design/`.
-- A third-party design-review skill for coding agents in `.agents/` (tooling only, not part of the app).
+**In the repository before Oct 4:** the P0 scaffold (welcome screen in three languages, `/api/health`, PWA config, the first migration file, deployment setup), the project spec (`CLAUDE.md`), the visual prototype in `design/`, and a third-party design-review skill for coding agents in `.agents/` (tooling only).
 
-Spec, design and content were prepared during workshop days (Oct 2–3). Everything else is built during the challenge, Oct 4–6.
+**Prepared outside the repository on Oct 2–3, added as-is under [`docs/pre-challenge/`](docs/pre-challenge) in the first commit of Oct 4:** a hand-written draft of the six journeys, measurement scripts and reports for the AI path (routing, grading, prompt injection), three experimental versions of the journey factory in Python with their prompts and outputs, the topic-guard prompt and rules, the list of occasions, automated test sets (planted errors for the verifier, calendar, guard, Qur'an retrieval) and the plan and decision log.
 
-The starting version is tagged [`pre-challenge-v0`](https://github.com/nasa7540/lahza/tree/pre-challenge-v0). To see exactly what was built during the challenge, [compare it with `main`](https://github.com/nasa7540/lahza/compare/pre-challenge-v0...main).
+So the design of the pipeline, its prompts and its test cases were tried before the challenge started. What is built during the challenge is the product itself: all application code beyond the scaffold, including the factory re-implemented in TypeScript.
+
+The full list, including what is deliberately not in the repository (keys, the Qur'an QA 2023 data, a machine-translated sample), the third-party models and data used, and known limits, is in [`docs/DISCLOSURE.md`](docs/DISCLOSURE.md) (Arabic).
 
 ## Status
 

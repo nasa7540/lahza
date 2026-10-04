@@ -1,0 +1,295 @@
+{
+ "topic_id": "ramadan",
+ "topic": "زميل صائم في رمضان ويعتذر عن غداء الفريق",
+ "expected_when": "hijri 9/1-9/30",
+ "status": "draft",
+ "guard": {
+  "decision": "allow",
+  "category": "fatwa",
+  "by": "model"
+ },
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:35",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.8-max-prime (writing only; references reused)",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 185
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [],
+  "steps": 2
+ },
+ "journey": {
+  "id": "ramadan-fasting-lunch",
+  "level": "B",
+  "when": "hijri 9/1-9/30",
+  "title": "زميلك الصائم وغداء الفريق",
+  "teaser": "زميلك يرفض دعوة الغداء في رمضان، فما السبب الحقيقي؟",
+  "scene": "الساعة وحدة ونص الظهر، والفريق يجهّز لغداء جماعي في المطبخ. قلت لزميلك خالد: «يلا، اطلب لك معانا؟». ابتسم وقال: «شكرًا، أنا صايم اليوم». وش تتوقع قصده؟",
+  "character_names": [
+   "خالد"
+  ],
+  "options": [
+   {
+    "id": "diet",
+    "label": "يسوّي دايت",
+    "reveal_headline": "ليس نظامًا غذائيًا",
+    "reveal_body": "الصيام هنا ليس حمية أو امتناعًا شخصيًا عن الطعام، بل ممارسة مرتبطة بشهر رمضان. هو يمتنع عن الأكل والشرب من الفجر إلى المغرب تعبّدًا، لا لإنقاص الوزن."
+   },
+   {
+    "id": "polite-refusal",
+    "label": "اعتذار مجاملة",
+    "reveal_headline": "ليس رفضًا لطعامك",
+    "reveal_body": "قوله «أنا صايم» إخبار مباشر عن سبب الامتناع، وليس طريقة للتهرّب من الدعوة. هو يقدّر مشاركتكم، لكنه لا يستطيع الأكل في وقت الصيام."
+   },
+   {
+    "id": "illness",
+    "label": "تعبان أو مريض",
+    "reveal_headline": "ليس بالضرورة مرضًا",
+    "reveal_body": "الصيام ليس عرضًا للمرض، بل ممارسة يقوم بها من يطيقها."
+   },
+   {
+    "id": "private-habit",
+    "label": "عادة خاصة جدًا",
+    "reveal_headline": "ليس أمرًا فرديًا معزولًا",
+    "reveal_body": "الصيام في رمضان ممارسة جماعية واسعة، وليس عادة سرية أو شخصية فقط. لذلك قد تلاحظ اعتذار أكثر من زميل عن الغداء في هذا الشهر."
+   }
+  ],
+  "explanation": "لذلك يمتنع الصائم عن الطعام والشراب في نهار رمضان، ومن ذلك وقت غداء العمل.",
+  "explain_prompt": "اشرح لماذا يعتذر الزميل عن غداء الفريق في رمضان بلغة بسيطة",
+  "tip": {
+   "headline": "كيف تتعامل مع غداء الفريق في رمضان؟",
+   "lead": "يمكنك أن تحافظ على روح الفريق دون إحراج الزميل الصائم:",
+   "items": [
+    "ادعُه كما تدعو غيره، وتقبّل اعتذاره ببساطة دون إلحاح.",
+    "لا تفسّر صيامه بأنه رفض لك أو للفريق.",
+    "اسأل عن وقت مناسب لفعالية بديلة، مثل قهوة صباحية أو لقاء بعد المغرب."
+   ]
+  },
+  "key_points": [
+   "الصيام في رمضان امتناع عن الطعام والشراب من الفجر إلى المغرب.",
+   "الاعتذار عن الغداء سببه الصيام، وليس رفضًا اجتماعيًا أو دايت.",
+   "يمكن إشراك الزميل الصائم في أنشطة الفريق بأوقات لا تتعارض مع صيامه."
+  ],
+  "question_variants": [
+   "ليش زميلي ما يبي يشارك في غداء الفريق؟",
+   "هل رفض الغداء يعني أنه ما يحب يجلس معنا؟",
+   "وش معنى أنه صايم وما يقدر ياكل الظهر؟",
+   "كيف أدعو زميلي للأكل بدون ما أحرج؟",
+   "هل الصيام يمنع المشاركة في فعاليات الدوام؟"
+  ],
+  "when_parsed": {
+   "type": "hijri",
+   "windows": [
+    {
+     "from": {
+      "month": 9,
+      "day": 1
+     },
+     "to": {
+      "month": 9,
+      "day": 30
+     }
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-185",
+   "kind": "quran",
+   "text_ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+   "reference": "2:185",
+   "translations": {
+    "en": {
+     "text": "Ramadān is a month in which the Qur’an was sent down as a guidance for mankind and as clear signs that show the right way and distinguish between right and wrong. So whoever of you witnesses this month, should fast. But if anyone is ill or on a journey, he should make up for those days. Allah wants ease for you and does not want hardship for you, so that you may complete the prescribed number of days, and proclaim the greatness of Allah for having guided you, and so that you may be grateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/185",
+   "verified": false,
+   "content_hash": "61cedfd69ae0917f1a30ee0cba1f09488ab4c72333bc5dd066a3f091d59788dd"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "توضح الآية أن رمضان شهر نزل فيه القرآن، وأن من شهد الشهر فليصمه، مع التيسير على المريض والمسافر.",
+   "label": "unsupported",
+   "source_id": "quran-2-185",
+   "quote": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ... فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.58,
+   "keyword_share": 0.38,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "لذلك يمتنع الصائم عن الطعام والشراب في نهار رمضان، ومن ذلك وقت غداء العمل.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-diet-0",
+   "where": "reveal:diet",
+   "text": "الصيام هنا ليس حمية أو امتناعًا شخصيًا عن الطعام، بل ممارسة مرتبطة بشهر رمضان.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-diet-1",
+   "where": "reveal:diet",
+   "text": "هو يمتنع عن الأكل والشرب من الفجر إلى المغرب تعبّدًا، لا لإنقاص الوزن.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-polite-refusal-0",
+   "where": "reveal:polite-refusal",
+   "text": "قوله «أنا صايم» إخبار مباشر عن سبب الامتناع، وليس طريقة للتهرّب من الدعوة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-polite-refusal-1",
+   "where": "reveal:polite-refusal",
+   "text": "هو يقدّر مشاركتكم، لكنه لا يستطيع الأكل في وقت الصيام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-illness-0",
+   "where": "reveal:illness",
+   "text": "الصيام ليس عرضًا للمرض، بل ممارسة يقوم بها من يطيقها.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-illness-1",
+   "where": "reveal:illness",
+   "text": "المريض أو المسافر قد يُرخَّص له بالفطر، لكن كثيرًا من الأصحاء يصومون رمضان.",
+   "label": "unsupported",
+   "source_id": "quran-2-185",
+   "quote": "وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.448,
+   "keyword_share": 0.12,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-private-habit-0",
+   "where": "reveal:private-habit",
+   "text": "الصيام في رمضان ممارسة جماعية واسعة، وليس عادة سرية أو شخصية فقط.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-private-habit-1",
+   "where": "reveal:private-habit",
+   "text": "لذلك قد تلاحظ اعتذار أكثر من زميل عن الغداء في هذا الشهر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "زميلك",
+   "غداء",
+   "فريق"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 1,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 6,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 2149,
+  "tokens_out": 5945
+ },
+ "log": [
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "توضح الآية أن رمضان شهر نزل فيه القرآن، وأن من شهد الشهر فليصمه، مع التيسير على المريض والمسافر.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-illness-1",
+   "text": "المريض أو المسافر قد يُرخَّص له بالفطر، لكن كثيرًا من الأصحاء يصومون رمضان.",
+   "why": "quote_low_similarity"
+  }
+ ],
+ "seconds": 79.3
+}

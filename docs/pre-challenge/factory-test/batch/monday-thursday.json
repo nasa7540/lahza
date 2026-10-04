@@ -1,0 +1,330 @@
+{
+ "topic_id": "monday-thursday",
+ "topic": "زميل يصوم يومي الاثنين والخميس",
+ "expected_when": "weekday mon thu",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:31",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 183
+   }
+  ],
+  "hadith_ids": [
+   6183
+  ],
+  "term_ids": [],
+  "steps": 2
+ },
+ "journey": {
+  "id": "mon-thu-fasting",
+  "level": "B",
+  "when": "weekday mon thu",
+  "title": "لماذا يصوم زميلي يوم الاثنين والخميس؟",
+  "teaser": "لاحظت أن زميلك يصوم يومي الاثنين والخميس تحديدًا، رغم أنه ليس من رمضان. ما سر هذه العادة؟",
+  "scene": "أثناء الغداء، لاحظت أن زميلك أحمد لا يأكل معكم، ويبتسم بهدوء. سألتَه: «أنت صايم اليوم ليش؟»، فأجاب: «نعم، يوم اثنين». في الأسبوع التالي، كرر نفس السلوك يوم الخميس. برأيك، ما السبب وراء اختيار هذين اليومين بالتحديد؟",
+  "character_names": [
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "حمية غذائية شخصية",
+    "reveal_headline": "ليس حمية صحية",
+    "reveal_body": "هذا التصرف ليس مرتبطًا بنظام غذائي أو خسارة وزن، بل هو ممارسة دينية ثابتة. الصيام هنا له بعد روحي وليس جسديًا بحتًا."
+   },
+   {
+    "id": "opt2",
+    "label": "يوم إجازة غير رسمية",
+    "reveal_headline": "ليس يوم راحة عمل",
+    "reveal_body": "زميلك يعمل بشكل طبيعي ولا يتوقف عن مهامه، بل يمتنع فقط عن الأكل والشرب. هذا اختياري ديني وليس سياسة شركة."
+   },
+   {
+    "id": "opt3",
+    "label": "مناسبة اجتماعية خاصة",
+    "reveal_headline": "ليس مناسبة عائلية",
+    "reveal_body": "لا يوجد احتفال عائلي أو حدث خاص يجمعهم في هذا اليوم. هذه عادة فردية منتظمة مرتبطة بزمان محدد، وليست لمرة واحدة."
+   },
+   {
+    "id": "opt4",
+    "label": "عادة عشوائية بدون سبب",
+    "reveal_headline": "عادة متتبعة ومقصودة",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "",
+  "explain_prompt": "اشرح لماذا يختار المسلمون صيام الاثنين والخميس بناءً على المصادر المرفقة.",
+  "tip": {
+   "headline": "آداب التعامل مع زميل صائم",
+   "lead": "إليك بعض النصائح العملية لإظهار الاحترام والتفاهم في بيئة العمل:",
+   "items": [
+    "لا تقدم له طعامًا أو شرابًا أثناء ساعات الدوام لتجنب إحراجه أو تشتيت تركيزه.",
+    "كن متفهمًا إذا بدا عليه الخمول أو قلة التركيز أحيانًا، فقد يكون ذلك أثرًا طبيعيًا للصيام.",
+    "تهنئته بصوم مقبول أو سؤاله بلطف عن حاله يعزز روح التعاون والاحترام المتبادل."
+   ]
+  },
+  "key_points": [
+   "صيام الاثنين والخميس سنة نبوية شائعة بين المسلمين.",
+   "السبب الروحي هو عرض الأعمال على الله في هذين اليومين.",
+   "هذا الصيام تطوعي ولا علاقة له بالإجازات الرسمية أو الحميات."
+  ],
+  "question_variants": [
+   "لماذا يمتنع زميلي عن الأكل في أيام معينة من الأسبوع؟",
+   "ما الحكمة من صيام الموظفين ليوم الاثنين والخميس؟",
+   "هل هناك سبب ديني لصيام أيام محددة خارج شهر رمضان؟",
+   "كيف أفهم سلوك زميلي الذي يصوم يومي الاثنين والخميس؟",
+   "لماذا يختار بعض المسلمين صيام أيام متكررة كل أسبوع؟"
+  ],
+  "when_parsed": {
+   "type": "weekday",
+   "weekdays": [
+    1,
+    4
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-183",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
+   "reference": "2:183",
+   "translations": {
+    "en": {
+     "text": "O you who believe, fasting is prescribed upon you as it was prescribed upon those who were before you, so that you may become righteous.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/183",
+   "verified": false,
+   "content_hash": "02dd153625807e84b8391e5d154d7a4ca7e4cc9da1b23107d2f616c8555660bd"
+  },
+  {
+   "id": "hadith-6183",
+   "kind": "hadith",
+   "text_ar": "عن عائشة رضي الله عنها قالت: كانَ رسولُ اللهِ صلى الله عليه وسلم يَتَحرّى صومَ الإثنينِ والخميسِ.",
+   "reference": "رواه الترمذي والنسائي وابن ماجه وأحمد",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/6183",
+   "verified": false,
+   "content_hash": "3c4256aaee617ada59d8ca9d2cf5f8bcaf68adff683e654b1714e9504d0a6dae"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الصيام سنة مؤكدة عن النبي محمد صلى الله عليه وسلم، حيث كان يتحرى صوم الاثنين والخميس خصيصًا.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يُعتقد أن الأعمال تُعرض على الله تعالى في هذين اليومين، لذا يفضل المسلمون أن تكون أعمالهم صيامًا وقت العرض.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا التصرف ليس مرتبطًا بنظام غذائي أو خسارة وزن، بل هو ممارسة دينية ثابتة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الصيام هنا له بعد روحي وليس جسديًا بحتًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "زميلك يعمل بشكل طبيعي ولا يتوقف عن مهامه، بل يمتنع فقط عن الأكل والشرب.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "هذا اختياري ديني وليس سياسة شركة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "لا يوجد احتفال عائلي أو حدث خاص يجمعهم في هذا اليوم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "هذه عادة فردية منتظمة مرتبطة بزمان محدد، وليست لمرة واحدة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "اختيار الاثنين والخميس ليس صدفة، بل هو تتبع لسنة نبوية محددة.",
+   "label": "unsupported",
+   "source_id": "hadith-6183",
+   "quote": "كانَ رسولُ اللهِ صلى الله عليه وسلم يَتَحرّى صومَ الإثنينِ والخميسِ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.618,
+   "keyword_share": 0.22,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "المسلمون يؤمنون بأن الأعمال تعرض على الله في هذين اليومين.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "اثنين",
+   "خميس",
+   "يوم"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 4,
+  "supported": 0,
+  "general": 6,
+  "flagged_general_religious": 0,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 3,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4451,
+  "tokens_out": 1552
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الصيام",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "صوم الاثنين والخميس",
+   "hits": 4
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الصيام",
+   "hits": 0
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "الصيام سنة مؤكدة عن النبي محمد صلى الله عليه وسلم، حيث كان يتحرى صوم الاثنين والخميس خصيصًا.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يُعتقد أن الأعمال تُعرض على الله تعالى في هذين اليومين، لذا يفضل المسلمون أن تكون أعمالهم صيامًا وقت العرض.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-0",
+   "text": "اختيار الاثنين والخميس ليس صدفة، بل هو تتبع لسنة نبوية محددة.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-1",
+   "text": "المسلمون يؤمنون بأن الأعمال تعرض على الله في هذين اليومين.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 27.9
+}

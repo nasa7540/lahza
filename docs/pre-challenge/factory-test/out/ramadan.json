@@ -1,0 +1,457 @@
+{
+ "topic": "A colleague is fasting during the day in Ramadan and skips the team lunch",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-1",
+  "date": "2026-10-02 23:47",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research": "qwen/qwen3.7-plus",
+   "writer": "qwen/qwen3.7-plus",
+   "verifier": "qwen/qwen3.7-max"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "model"
+ },
+ "journey": {
+  "id": "ramadan-fasting-lunch-etiquette",
+  "level": "A",
+  "when": "hijri 9/1-9/30",
+  "title": {
+   "en": "Understanding Fasting During Team Lunches",
+   "ar": "فهم الصيام خلال غداء الفريق"
+  },
+  "teaser": {
+   "en": "Why your colleague might skip lunch and how to support them respectfully.",
+   "ar": "لماذا قد يتخطى زميلك الغداء وكيف تدعمه باحترام."
+  },
+  "scene": {
+   "en": "It is 1:00 PM on a Tuesday during Ramadan. The team gathers in the breakroom for their usual catered lunch. You notice your Muslim colleague, Ahmed, remains at his desk working and does not join the group for food or coffee. He smiles politely but declines the invitation to eat. What is likely happening?",
+   "ar": "الساعة الواحدة ظهراً يوم الثلاثاء خلال شهر رمضان. يجتمع الفريق في غرفة الاستراحة لتناول الغداء المعتاد. تلاحظ أن زميلك المسلم، أحمد، يبقى في مكتبه يعمل ولا ينضم إلى المجموعة لتناول الطعام أو القهوة. يبتسم بأدب لكنه يرفض دعوة تناول الطعام. ما الذي يحدث على الأرجح؟"
+  },
+  "explanation": {
+   "en": "Fasting is a prescribed practice for Muslims during the month of Ramadan, intended to help them grow in righteousness. It involves abstaining from food and drink from dawn until sunset as an act of faith and spiritual reflection.",
+   "ar": "الصيام ممارسة مفروضة على المسلمين خلال شهر رمضان، وتهدف إلى مساعدتهم على زيادة التقوى. يتضمن الامتناع عن الطعام والشراب من الفجر حتى غروب الشمس كعمل إيماني وتأمل روحي."
+  },
+  "explain_prompt": {
+   "en": "Select the option that best explains why Ahmed is not eating.",
+   "ar": "اختر الخيار الذي يفسر بشكل أفضل سبب عدم تناول أحمد للطعام."
+  },
+  "options": [
+   {
+    "id": "opt1",
+    "label": {
+     "en": "He is on a strict diet for health reasons.",
+     "ar": "هو يتبع حمية صارمة لأسباب صحية."
+    },
+    "reveal_headline": {
+     "en": "Not just a diet",
+     "ar": "ليس مجرد حمية"
+    },
+    "reveal_body": {
+     "en": "While health is important, this practice is a religious obligation mentioned in the verse. It is observed by millions globally as an act of worship, not merely for weight loss or physical detox.",
+     "ar": "بينما الصحة مهمة، فإن هذه الممارسة هي واجب ديني مذكور في الآية. يلاحظها الملايين حول العالم كعبادة، وليس فقط لفقدان الوزن أو تنقية الجسم."
+    }
+   },
+   {
+    "id": "opt2",
+    "label": {
+     "en": "He is protesting the work schedule.",
+     "ar": "هو يحتج على جدول العمل."
+    },
+    "reveal_headline": {
+     "en": "An act of faith, not protest",
+     "ar": "عمل إيماني وليس احتجاجاً"
+    },
+    "reveal_body": {
+     "en": "The hadith describes fasting as a way to seek reward and forgiveness through faith. It is a positive spiritual practice done willingly, not a form of workplace dissent or strike.",
+     "ar": "يصف الحديث الصيام كطريقة لطلب الأجر والمغفرة من خلال الإيمان. إنها ممارسة روحية إيجابية تتم طواعية، وليست شكلاً من أشكال المعارضة أو الإضراب في مكان العمل."
+    }
+   },
+   {
+    "id": "opt3",
+    "label": {
+     "en": "He is too busy to take a break.",
+     "ar": "هو مشغول جداً لأخذ استراحة."
+    },
+    "reveal_headline": {
+     "en": "Intentional abstinence",
+     "ar": "امتناع مقصود"
+    },
+    "reveal_body": {
+     "en": "Even if he were free, he would still abstain from food and drink during daylight hours.",
+     "ar": "حتى لو كان متفرغاً، سيمتنع عن الطعام والشراب خلال ساعات النهار."
+    }
+   },
+   {
+    "id": "opt4",
+    "label": {
+     "en": "He does not like the company food.",
+     "ar": "هو لا يحب طعام الشركة."
+    },
+    "reveal_headline": {
+     "en": "Universal practice",
+     "ar": "ممارسة عالمية"
+    },
+    "reveal_body": {
+     "en": "Muslims fast regardless of the menu available. The practice is about self-discipline and righteousness as described in the sources, not a preference for specific cuisines or catering services.",
+     "ar": "يصوم المسلمون بغض النظر عن القائمة المتاحة. الممارسة تتعلق بضبط النفس والتقوى كما هو موصوف في المصادر، وليس تفضيلاً لمأكولات معينة أو خدمات تقديم الطعام."
+    }
+   }
+  ],
+  "tip": {
+   "headline": {
+    "en": "Supporting Colleagues Who Fast",
+    "ar": "دعم الزملاء الصائمين"
+   },
+   "lead": {
+    "en": "Small adjustments can make a big difference in inclusivity.",
+    "ar": "التعديلات البسيطة يمكن أن تحدث فرقاً كبيراً في الشمولية."
+   },
+   "items": [
+    {
+     "en": "Avoid scheduling critical meetings or social food events during lunch hours if possible.",
+     "ar": "تجنب جدولة الاجتماعات الحرجة أو المناسبات الاجتماعية المتعلقة بالطعام خلال ساعات الغداء إن أمكن."
+    },
+    {
+     "en": "Do not offer food or drink repeatedly; a simple polite decline is standard.",
+     "ar": "لا تعرض الطعام أو الشراب بشكل متكرر؛ الرفض المهذب البسيط هو المعيار."
+    },
+    {
+     "en": "Be mindful that energy levels may vary, and offer flexibility where appropriate.",
+     "ar": "كن مدركاً أن مستويات الطاقة قد تختلف، وقدم المرونة حيثما يكون ذلك مناسباً."
+    }
+   ]
+  },
+  "key_points": [
+   {
+    "en": "Fasting in Ramadan is a prescribed religious duty for Muslims.",
+    "ar": "الصيام في رمضان هو واجب ديني مفروض على المسلمين."
+   },
+   {
+    "en": "It involves abstaining from food and drink from dawn to sunset.",
+    "ar": "يتضمن الامتناع عن الطعام والشراب من الفجر حتى غروب الشمس."
+   },
+   {
+    "en": "The practice is intended to foster righteousness and spiritual growth.",
+    "ar": "تهدف الممارسة إلى تعزيز التقوى والنمو الروحي."
+   }
+  ],
+  "question_variants": {
+   "en": [
+    "Why isn't Ahmed eating lunch with us?",
+    "Is Ahmed sick or on a diet?",
+    "What is the reason for skipping food during the day?",
+    "Does he not like the food provided?",
+    "Is there a special event requiring him to fast?"
+   ],
+   "ar": [
+    "لماذا لا يتناول أحمد الغداء معنا؟",
+    "هل أحمد مريض أو يتبع حمية؟",
+    "ما سبب الامتناع عن الطعام خلال النهار؟",
+    "هل لا يحب الطعام المقدم؟",
+    "هل هناك مناسبة خاصة تتطلب منه الصيام؟"
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-183",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
+   "translations": {
+    "en": {
+     "text": "O you who believe, fasting[80] is prescribed upon you as it was prescribed upon those who were before you, so that you may become righteous.",
+     "translation_key": "english_rwwad"
+    },
+    "ur": {
+     "text": "اے ایمان والو! تم پر روزے رکھنا فرض کیا گیا جس طرح تم سے پہلے لوگوں پر فرض کئے گئے تھے، تاکہ تم تقویٰ اختیار کرو۔[1]",
+     "translation_key": "urdu_junagarhi"
+    }
+   },
+   "reference": "2:183",
+   "grade": null,
+   "source_url": "https://quranenc.com/en/browse/english_rwwad/2/183",
+   "verified": false,
+   "content_hash": "018d7611a194ac7a1ff3304b41b7ae3b86055604fa93d918241caf362b676632"
+  },
+  {
+   "id": "hadith-hadeethenc-4196",
+   "kind": "hadith",
+   "text_ar": "عن أبي هريرة رضي الله عنه قال: قال رسول الله صلى الله عليه وسلم: «مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ»",
+   "translations": {
+    "en": {
+     "text": "Abu Hurayrah (may Allah be pleased with him) reported: The Messenger of Allah (may Allah's peace and blessings be upon him) said: \"Whoever fasts Ramadan, out of faith and in pursuit of reward, his past sins will be forgiven.\"",
+     "translation_key": "hadeethenc-en"
+    }
+   },
+   "reference": "Agreed upon",
+   "grade": "صحيح",
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4196",
+   "verified": false,
+   "content_hash": "dcbf7985453414e6659103a33fa06a0675c7db3f228bef2897e48f57d6bb7d12"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-en-0",
+   "where": "explanation",
+   "lang": "en",
+   "text": "Fasting is a prescribed practice for Muslims during the month of Ramadan, intended to help them grow in righteousness.",
+   "label": "supported",
+   "source_id": "quran-2-183",
+   "quote": "O you who believe, fasting[80] is prescribed upon you as it was prescribed upon those who were before you, so that you may become righteous.",
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "exp-en-1",
+   "where": "explanation",
+   "lang": "en",
+   "text": "It involves abstaining from food and drink from dawn until sunset as an act of faith and spiritual reflection.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt1-en-0",
+   "where": "reveal:opt1",
+   "lang": "en",
+   "text": "While health is important, this practice is a religious obligation mentioned in the verse.",
+   "label": "supported",
+   "source_id": "quran-2-183",
+   "quote": "O you who believe, fasting[80] is prescribed upon you",
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt1-en-1",
+   "where": "reveal:opt1",
+   "lang": "en",
+   "text": "It is observed by millions globally as an act of worship, not merely for weight loss or physical detox.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt2-en-0",
+   "where": "reveal:opt2",
+   "lang": "en",
+   "text": "The hadith describes fasting as a way to seek reward and forgiveness through faith.",
+   "label": "supported",
+   "source_id": "hadith-hadeethenc-4196",
+   "quote": "Whoever fasts Ramadan, out of faith and in pursuit of reward, his past sins will be forgiven.",
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt2-en-1",
+   "where": "reveal:opt2",
+   "lang": "en",
+   "text": "It is a positive spiritual practice done willingly, not a form of workplace dissent or strike.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt3-en-0",
+   "where": "reveal:opt3",
+   "lang": "en",
+   "text": "Even if he were free, he would still abstain from food and drink during daylight hours.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt3-en-1",
+   "where": "reveal:opt3",
+   "lang": "en",
+   "text": "The verse states this is prescribed for believers, meaning it is a time-bound religious duty regardless of workload.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "kept": false,
+   "note": null
+  },
+  {
+   "sid": "rev-opt4-en-0",
+   "where": "reveal:opt4",
+   "lang": "en",
+   "text": "Muslims fast regardless of the menu available.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt4-en-1",
+   "where": "reveal:opt4",
+   "lang": "en",
+   "text": "The practice is about self-discipline and righteousness as described in the sources, not a preference for specific cuisines or catering services.",
+   "label": "supported",
+   "source_id": "quran-2-183",
+   "quote": "so that you may become righteous.",
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "exp-ar-0",
+   "where": "explanation",
+   "lang": "ar",
+   "text": "الصيام ممارسة مفروضة على المسلمين خلال شهر رمضان، وتهدف إلى مساعدتهم على زيادة التقوى.",
+   "label": "supported",
+   "source_id": "quran-2-183",
+   "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "exp-ar-1",
+   "where": "explanation",
+   "lang": "ar",
+   "text": "يتضمن الامتناع عن الطعام والشراب من الفجر حتى غروب الشمس كعمل إيماني وتأمل روحي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt1-ar-0",
+   "where": "reveal:opt1",
+   "lang": "ar",
+   "text": "بينما الصحة مهمة، فإن هذه الممارسة هي واجب ديني مذكور في الآية.",
+   "label": "supported",
+   "source_id": "quran-2-183",
+   "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ",
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt1-ar-1",
+   "where": "reveal:opt1",
+   "lang": "ar",
+   "text": "يلاحظها الملايين حول العالم كعبادة، وليس فقط لفقدان الوزن أو تنقية الجسم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt2-ar-0",
+   "where": "reveal:opt2",
+   "lang": "ar",
+   "text": "يصف الحديث الصيام كطريقة لطلب الأجر والمغفرة من خلال الإيمان.",
+   "label": "supported",
+   "source_id": "hadith-hadeethenc-4196",
+   "quote": "مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt2-ar-1",
+   "where": "reveal:opt2",
+   "lang": "ar",
+   "text": "إنها ممارسة روحية إيجابية تتم طواعية، وليست شكلاً من أشكال المعارضة أو الإضراب في مكان العمل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt3-ar-0",
+   "where": "reveal:opt3",
+   "lang": "ar",
+   "text": "حتى لو كان متفرغاً، سيمتنع عن الطعام والشراب خلال ساعات النهار.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt3-ar-1",
+   "where": "reveal:opt3",
+   "lang": "ar",
+   "text": "تنص الآية على أن هذا مفروض على المؤمنين، مما يعني أنه واجب ديني محدد بوقت بغض النظر عن حجم العمل.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "kept": false,
+   "note": null
+  },
+  {
+   "sid": "rev-opt4-ar-0",
+   "where": "reveal:opt4",
+   "lang": "ar",
+   "text": "يصوم المسلمون بغض النظر عن القائمة المتاحة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "kept": true,
+   "note": null
+  },
+  {
+   "sid": "rev-opt4-ar-1",
+   "where": "reveal:opt4",
+   "lang": "ar",
+   "text": "الممارسة تتعلق بضبط النفس والتقوى كما هو موصوف في المصادر، وليس تفضيلاً لمأكولات معينة أو خدمات تقديم الطعام.",
+   "label": "supported",
+   "source_id": "quran-2-183",
+   "quote": "لَعَلَّكُمۡ تَتَّقُونَ",
+   "kept": true,
+   "note": null
+  }
+ ],
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 20,
+  "removed_by_verifier": 2,
+  "quote_check_failed": 0,
+  "validator_hits": 0,
+  "supported": 8,
+  "general": 10,
+  "edited_by_reviewer": 0,
+  "empty_after_removal": [],
+  "shape_ok": true,
+  "seconds": 68.3
+ },
+ "log": [
+  {
+   "stage": "research",
+   "event": "search",
+   "query": "fasting Ramadan",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-en-1",
+   "text": "The verse states this is prescribed for believers, meaning it is a time-bound religious duty regardless of workload.",
+   "why": "verifier: unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-ar-1",
+   "text": "تنص الآية على أن هذا مفروض على المؤمنين، مما يعني أنه واجب ديني محدد بوقت بغض النظر عن حجم العمل.",
+   "why": "verifier: unsupported"
+  }
+ ]
+}

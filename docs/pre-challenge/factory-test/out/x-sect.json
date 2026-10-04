@@ -1,0 +1,20 @@
+{
+ "topic": "The differences between Sunni and Shia colleagues in how they pray",
+ "status": "refused",
+ "generation": {
+  "prompt_version": "factory-exp-1",
+  "date": "2026-10-02 23:47",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research": "qwen/qwen3.7-plus",
+   "writer": "qwen/qwen3.7-plus",
+   "verifier": "qwen/qwen3.7-max"
+  }
+ },
+ "guard": {
+  "decision": "refuse",
+  "category": "sectarian",
+  "by": "rule"
+ },
+ "log": []
+}

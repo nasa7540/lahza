@@ -1,0 +1,289 @@
+{
+ "topic_id": "ramadan-greeting",
+ "topic": "تهنئة الزملاء بدخول رمضان وعبارة رمضان كريم",
+ "expected_when": "hijri 9/1-9/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:31",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "ayah": 77,
+    "surah": 56
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   963
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "ramadan-greetings-101",
+  "level": "B",
+  "when": "hijri M/D-M/D",
+  "title": "لماذا يهنئني زملائي بـ 'رمضان كريم'؟",
+  "teaser": "في بداية الشهر، لاحظت أن الزملاء يبادلون التهنئة بعبارة 'رمضان كريم'. هل هذا مجرد تحية عادية أم له دلالة خاصة؟",
+  "scene": "دخلت مكتبك صباحًا ووجدت زميلك محمد يضع بطاقة تهنئة صغيرة على طاولة مع ابتسامة عريضة. قال لك: 'رمضان كريم يا غالي'. نظرًا لأنك لا تصوم ولا تحتفل بهذا الشهر، تساءلت في نفسك: ما المقصود بكلمة 'كريم' هنا؟ هل هو اسم شهر أو مكان؟ أم أنها تعني أن الشهر سيعطينا أشياء مادية كثيرة؟ أم أن الكلمة مستخدمة فقط كتحية رسمية بلا معنى عميق؟",
+  "character_names": [
+   "محمد"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "اسم الشهر نفسه",
+    "reveal_headline": "خطأ شائع في التسمية",
+    "reveal_body": "كلمة 'كريم' ليست اسمًا للشهر، بل هي صفة تُضاف للتهنئة. اسم الشهر هو رمضان فقط."
+   },
+   {
+    "id": "opt-2",
+    "label": "وعد بمكافآت مالية",
+    "reveal_headline": "تفسير مادي خاطئ",
+    "reveal_body": "التهنئة لا تعني وعدًا بمنح أموال أو هدايا مادية. المعنى روحي ومعنوي يتعلق بخصائص الشهر."
+   },
+   {
+    "id": "opt-3",
+    "label": "تحية رسمية بلا معنى",
+    "reveal_headline": "تقليل من قيمة العبارة",
+    "reveal_body": "العبارة تحمل دلالة عميقة وليست مجرد حشو كلامي. هي تعبر عن احترام وتقدير لفضائل الشهر."
+   },
+   {
+    "id": "opt-4",
+    "label": "دعوة للصيام القسري",
+    "reveal_headline": "فهم خاطئ للنية",
+    "reveal_body": "التهنئة ليست أمرًا بإجبار الآخرين على الصيام، بل هي تبادل للأمنيات الطيبة بين الناس بغض النظر عن ممارساتهم الشخصية."
+   }
+  ],
+  "explanation": "كلمة 'كريم' في التهنئة تشير إلى كرم الله وفضائل هذا الشهر، مثل مضاعفة الأجر وليلة القدر، وليس إلى مكافآت مادية أو اسم الشهر نفسه.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بأن 'كريم' قد يُفهم خطأً كاسم أو وعد مادي، وبين أن المعنى الحقيقي مرتبط بفضائل الشهر ونزول القرآن.",
+  "tip": {
+   "headline": "آداب التهاني في بيئة العمل",
+   "lead": "عندما يهنئك زملاؤك، يمكنك الرد بأدب واحترام دون الحاجة لمشاركة الممارسة الدينية:",
+   "items": [
+    "رد بابتسامة وعبارة بسيطة مثل 'شكرًا لك' أو 'أيام مباركة' لتظهر تقديرك لنيته الحسنة.",
+    "لا تضغط على نفسك لفهم كل التفاصيل الدينية إذا كنت غير مهتم، فالتهنئة تعبير عن الود الاجتماعي.",
+    "احترم خصوصية زملائك الذين يصومون ولا تسألهم عن الطعام أو الشراب أثناء ساعات الدوام الرسمية."
+   ]
+  },
+  "key_points": [
+   "رمضان هو الشهر التاسع من السنة الهجرية.",
+   "يُوصف القرآن بأنه 'كريم' في النصوص الإسلامية.",
+   "التهنئة تعبر عن تمنيات الخير والبركة المرتبطة بخصائص الشهر الروحية."
+  ],
+  "question_variants": [
+   "هل عبارة 'رمضان كريم' تعني أن الشهر سيحمل ثروة؟",
+   "لماذا يقول الناس 'كريم' عند تهانينا بشهر رمضان؟",
+   "ما الفرق بين اسم الشهر وكلمة كريم في التهنئة؟",
+   "هل هذه التهنئة إلزامية على جميع الموظفين؟",
+   "كيف أفهم رد فعل زملائي عندما يهنئونني بالشهر؟"
+  ],
+  "when_parsed": null
+ },
+ "sources": [
+  {
+   "id": "quran-56-77",
+   "kind": "quran",
+   "text_ar": "إِنَّهُۥ لَقُرۡءَانٞ كَرِيمٞ",
+   "reference": "56:77",
+   "translations": {
+    "en": {
+     "text": "that this is indeed a noble Qur’an,",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/56/77",
+   "verified": false,
+   "content_hash": "9219e95778af1086c65f98d662419eca94e8cb10dcffb8c10ac3e7ce05dd65cc"
+  },
+  {
+   "id": "term-963",
+   "kind": "term",
+   "text_ar": "شَهْرُ رَمَضانَ: الشَّهْرُ التّاسِعُ مِن أَشْهُرِ السَّنَةِ الـهِجْرِيَّةِ. شَهْرُ رَمَضانَ: هو الشَّهْرُ التّاسِعُ مِن أَشْهُرِ السَّنَةِ الـهِجْرِيَّةِ الذي يَلِي شَهْرَ شَعْبانَ ويسبقُ شهرَ شوالٍ، ويَخْتَصُّ شَهْرُ رَمَضان عَن غَيْرِهِ مِن الشُّهُورِ بِجُمْلَةٍ مِن الأَحْكامِ والفَضائِل مِنْها: نُزولُ القُرآنِ فِيهِ، ووُجوبُ صِيامِهِ، وفِيهِ لَيْلَةُ القَدْرِ، وصَلاةُ التَّراوِيحِ، ومُضاعَفَةُ الأُجورِ فِيهِ.",
+   "reference": "شَهْرُ رَمَضانَ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/963",
+   "verified": false,
+   "content_hash": "d17baee361e700884ae1019b1fb7d063a97338d0379b3b4839181f6bb3459456"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "شهر رمضان هو الشهر التاسع من التقويم الهجري، ويتميز بنزول القرآن الكريم فيه كما ورد في النص القرآني الذي يصفه بالقرآن الكريم.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "كلمة 'كريم' في التهنئة تشير إلى كرم الله وفضائل هذا الشهر، مثل مضاعفة الأجر وليلة القدر، وليس إلى مكافآت مادية أو اسم الشهر نفسه.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "كلمة 'كريم' ليست اسمًا للشهر، بل هي صفة تُضاف للتهنئة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "اسم الشهر هو رمضان فقط.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "التهنئة لا تعني وعدًا بمنح أموال أو هدايا مادية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "المعنى روحي ومعنوي يتعلق بخصائص الشهر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "العبارة تحمل دلالة عميقة وليست مجرد حشو كلامي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "هي تعبر عن احترام وتقدير لفضائل الشهر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "التهنئة ليست أمرًا بإجبار الآخرين على الصيام، بل هي تبادل للأمنيات الطيبة بين الناس بغض النظر عن ممارساتهم الشخصية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "رمضان",
+   "كريم"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": false,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 9,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 7,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4237,
+  "tokens_out": 1605
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "رمضان كريم",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "رمضان كريم تهنئة",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "رمضان",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "شهر رمضان هو الشهر التاسع من التقويم الهجري، ويتميز بنزول القرآن الكريم فيه كما ورد في النص القرآني الذي يصفه بالقرآن الكريم.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 28.7
+}

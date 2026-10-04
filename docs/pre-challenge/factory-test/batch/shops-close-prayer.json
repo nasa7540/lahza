@@ -1,0 +1,328 @@
+{
+ "topic_id": "shops-close-prayer",
+ "topic": "المحلات تغلق وقت الصلاة",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:32",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 238
+   }
+  ],
+  "hadith_ids": [
+   3365
+  ],
+  "term_ids": [
+   3618
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "shop-closure-prayer",
+  "level": "B",
+  "when": "weekday mon thu",
+  "title": "لماذا تغلق المحلات وقت الصلاة؟",
+  "teaser": "شفت المحلات تسكر فجأة، وش اللي صار؟",
+  "scene": "كنت في وسط مكالمة عمل مهمة مع عميل، وفجأة سمعت صوت الجرس يوقف. نظرت من النافذة وشفت كل المحلات المجاورة مسكّرة وأبوابها مقفلة، والشارع خاوي تقريبًا. زميلي سعود قال لي بهدوء: «وقت الصلاة يا غالي، نرجع بعد ما نصلي». وقفت شارد الذهن، وقلت له بابتسامة حائرة: «يعني كل المحلات تسكر فجأة بس هالسبب؟»، وش قصده برأيك؟",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "مبادرة تسويقية لجذب الزبائن",
+    "reveal_headline": "ليس تكتيكًا تجاريًا",
+    "reveal_body": "هذا ليس قرارًا تسويقيًا لزيادة المبيعات أو خلق حالة من الانتظار. الإغلاق هنا ناتج عن التزام ديني مباشر وليس استراتيجية سوقية."
+   },
+   {
+    "id": "opt2",
+    "label": "إضراب عمالي احتجاجي",
+    "reveal_headline": "ليس نزاعًا عماليًا",
+    "reveal_body": "لا يوجد أي خلاف بين الإدارة والموظفين أو مطالب اقتصادية وراء هذا الإغلاق. الأمر طوعي وديني بحت ولا علاقة له بالاحتجاجات."
+   },
+   {
+    "id": "opt3",
+    "label": "توفير راحة للموظفين فقط",
+    "reveal_headline": "ليس مجرد استراحة",
+    "reveal_body": "الهدف الأساسي ليس الراحة أو تقليل ساعات العمل، بل أداء عبادة محددة بزمن محدد. الموظف يغلق المحل لأداء صلاة الجماعة أو الفردية."
+   },
+   {
+    "id": "opt4",
+    "label": "قانون حكومي إلزامي للمحلات",
+    "reveal_headline": "ليس قانونًا تجاريًا",
+    "reveal_body": "لا يوجد قانون يلزم جميع المحلات بالإغلاق في أوقات محددة للصلاة. القرار يعود للروحانية الشخصية والمجتمع المحلي وليس للأنظمة التجارية."
+   }
+  ],
+  "explanation": "الصلاة في الإسلام فريضة ذات أوقات محددة بدقة، وقد أكد النبي صلى الله عليه وسلم على أهمية أدائها في وقتها كأحب الأعمال إلى الله.",
+  "explain_prompt": "اشرح لماذا يغلق المسلمون أعمالهم للصلاة مستخدمًا المصادر المرفقة.",
+  "tip": {
+   "headline": "آداب التعامل مع إغلاق المحلات للصلاة",
+   "lead": "كيف تتعامل باحترام مع الموقف دون مقاطعة:",
+   "items": [
+    "احترم الهدوء والتوقف المؤقت، ولا تضغط لإتمام الصفقات خلال وقت الصلاة.",
+    "استغل هذه الفترة القصيرة في إنهاء مهامك الإدارية أو أخذ استراحة قصيرة بنفسك.",
+    "كن متفهمًا للطبيعة الروحية للموقف، وتجنب إظهار الانزعاج أو الاستعجال."
+   ]
+  },
+  "key_points": [
+   "الصلاة فريضة إسلامية ذات أوقات شرعية محددة لا يمكن تأخيرها.",
+   "أداء الصلاة في وقتها هو أحب الأعمال إلى الله حسب الحديث النبوي.",
+   "إغلاق المحلات ممارسة شخصية ودينية وليست قانونًا أو قرارًا إداريًا."
+  ],
+  "question_variants": [
+   "لماذا تتوقف الأنشطة التجارية فجأة في أوقات معينة؟",
+   "ما السبب وراء إغلاق المحلات بشكل جماعي في نفس اللحظة؟",
+   "هل هناك نظام يمنع العمل في أوقات محددة؟",
+   "لماذا يختار الموظفون ترك أماكن عملهم فجأة؟",
+   "ما الذي يجعل الناس يتوقفون عن البيع والشراء في أوقات محددة؟"
+  ],
+  "when_parsed": {
+   "type": "weekday",
+   "weekdays": [
+    1,
+    4
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-238",
+   "kind": "quran",
+   "text_ar": "حَٰفِظُواْ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلۡوُسۡطَىٰ وَقُومُواْ لِلَّهِ قَٰنِتِينَ",
+   "reference": "2:238",
+   "translations": {
+    "en": {
+     "text": "Be mindful of the prayers, especially the middle prayer; and stand before Allah in complete devotion.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/238",
+   "verified": false,
+   "content_hash": "2a9c61d756552ee54a64439150f4ead7425e1e04f03dbb44b35295045fa7ca9c"
+  },
+  {
+   "id": "hadith-3365",
+   "kind": "hadith",
+   "text_ar": "عَنْ عَبْدِ اللَّهِ بِن مَسْعُودٍ رضي الله عنه قَالَ: سَأَلْتُ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: أَيُّ العَمَلِ أَحَبُّ إِلَى اللَّهِ؟ قَالَ: «الصَّلاَةُ عَلَى وَقْتِهَا»، قَالَ: ثُمَّ أَيٌّ؟ قَالَ: «ثُمَّ بِرُّ الوَالِدَيْنِ» قَالَ: ثُمَّ أَيٌّ؟ قَالَ: «الجِهَادُ فِي سَبِيلِ اللَّهِ» قَالَ: حَدَّثَنِي بِهِنَّ، وَلَوِ اسْتَزَدْتُهُ لَزَادَنِي.",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3365",
+   "verified": false,
+   "content_hash": "b35cb8f7ebe8fecbf08a0534f2027b8cbb8566bdd6ac144712ba50d41cc3aa33"
+  },
+  {
+   "id": "term-3618",
+   "kind": "term",
+   "text_ar": "أَوْقاتُ الصَّلاةِ: الأَزْمِنَةُ الـمُقَدَّرَةُ شَرْعاً لأَداءِ الصَّلاةِ. أَوْقَاتُ الصَّلاةِ: هي الأَزْمِنَة التي حَدَّدَها الشّارِعُ لِفِعْل الصَّلاةِ، وهي ثَلاثَةُ أَقْسامٍ:\n1- أَوْقاتُ وُجوبِ: كأَوْقَاتِ الصَّلَواتِ الـمَفْروضَةِ، وهي خَمْسَةُ أوْقاتٍ:\nالأولُ: وَقْتُ الصُّبْحِ، ويبْدَأُ مِن طُلوعِ الفَجْرِ الصّادِقِ إلى طُلوعِ الشَّمْسِ.\nالثّاِني: وَقْتُ الظُّهْرِ، ويبْدَأُ مِن زَوال الشَّمْسِ إلى أنْ يكون ظِلُّ الشَّيْءِ مِثْلَهُ.\nالثّالث: وَقْتُ العَصْرِ، ويبْدَأُ مِن وَقْتِ أن يَصِيرَ ظِلُّ الشَّيْءِ مِثْلَهُ إلى أن تَغيبَ الشَّمْسُ.\nالرّابعُ: وَقْت الـمَغْرِبِ، ويبْدَأُ مِن غُروبِ الشَّمْسِ إلى أنْ يَغِيبَ الشَّفَقُ الأَحْمَرُ.\nالخامسُ: وَقْتُ العِشاءِ، ويبدأ مِن مَغيبِ الشَّفَق الأَحْمَر إلى طُلوعِ الفَجْر الصّادِق.\n2- أوْقاتُ اسْتِحْبابٍ: كأَوْقاتِ الصَّلَواتِ الـمَسْنونَةِ، وهي كَثِيرَةٌ، منها ما هو مُـحَدَّدٌ شَرْعاً كالوِتْرِ، ووَقْتُهُ مِن بعْدِ صَلاةِ العِشاءِ إلى طُلوعِ الفَجْرِ، ومنها ما ليس بِـمُحَدَّدٍ، كَسائِرِ النَّوافِلِ الـمُطْلَقَةِ.\n3- أوقاتُ كَراهَةِ، وهي ثَلاثَةٌ:\nالأَوَّلُ: عند طُلوعِ الشَّمْسِ إلى أَنْ تَرْتَفِعَ.\nالثّاني: عند الزَّوالِ، أي: في مُنتَصَف النَّهار، عندما تكون الشَّمسُ في وسَطِ السَّماءِ. \nوالثَّالِث: عند اصْفِرارِ الشَّمْسِ إلى الغروبِ.",
+   "reference": "أَوْقاتُ الصَّلاةِ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/3618",
+   "verified": false,
+   "content_hash": "b8aed54fcd684a43b7a727e5e2b4ac802530378fd348f273a5257958e7d9cf10"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الصلاة في الإسلام فريضة ذات أوقات محددة بدقة، وقد أكد النبي صلى الله عليه وسلم على أهمية أدائها في وقتها كأحب الأعمال إلى الله.",
+   "label": "supported",
+   "source_id": "hadith-3365",
+   "quote": "سَأَلْتُ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: أَيُّ العَمَلِ أَحَبُّ إِلَى اللَّهِ؟ قَالَ: «الصَّلاَةُ عَلَى وَقْتِهَا»",
+   "reason": null,
+   "quote_similarity": 0.633,
+   "keyword_share": 0.42,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "لذلك، يرى المسلمون أن تأدية هذه العبادة في وقتها المحدد أولوية تتقدم على المعاملات الدنيوية، مما يؤدي إلى توقف النشاط التجاري مؤقتًا احترامًا لهذا الوقت المقدس.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا ليس قرارًا تسويقيًا لزيادة المبيعات أو خلق حالة من الانتظار.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الإغلاق هنا ناتج عن التزام ديني مباشر وليس استراتيجية سوقية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "لا يوجد أي خلاف بين الإدارة والموظفين أو مطالب اقتصادية وراء هذا الإغلاق.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "الأمر طوعي وديني بحت ولا علاقة له بالاحتجاجات.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الهدف الأساسي ليس الراحة أو تقليل ساعات العمل، بل أداء عبادة محددة بزمن محدد.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "الموظف يغلق المحل لأداء صلاة الجماعة أو الفردية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "لا يوجد قانون يلزم جميع المحلات بالإغلاق في أوقات محددة للصلاة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "القرار يعود للروحانية الشخصية والمجتمع المحلي وليس للأنظمة التجارية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "صلاه",
+   "محلات",
+   "وقت"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 10,
+  "removed_by_verifier": 1,
+  "supported": 1,
+  "general": 5,
+  "flagged_general_religious": 3,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 7272,
+  "tokens_out": 1664
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الصلاة وقتها معلوم",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "أداء الصلاة في وقتها",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الصلاة",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "حافظوا على الصلوات والصلاة الوسطى",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "لذلك، يرى المسلمون أن تأدية هذه العبادة في وقتها المحدد أولوية تتقدم على المعاملات الدنيوية، مما يؤدي إلى توقف النشاط التجاري مؤقتًا احترامًا لهذا الوقت المقدس.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 32.3
+}

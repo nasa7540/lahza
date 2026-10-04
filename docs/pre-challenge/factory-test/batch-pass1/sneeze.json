@@ -1,0 +1,321 @@
+{
+ "topic_id": "sneeze",
+ "topic": "زميل يقول الحمد لله عند العطاس والآخرون يردون",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:32",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 1,
+    "ayah": 2
+   }
+  ],
+  "hadith_ids": [
+   3706
+  ],
+  "term_ids": [
+   4325
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "sneeze-etiquette-saudi-workplace",
+  "level": "B",
+  "when": "weekday mon thu",
+  "title": "ردود الفعل عند العطاس في المكتب",
+  "teaser": "لاحظت زملاءك يردون على كلمة معينة يقولها شخص عطس، ما سر هذه العادة؟",
+  "scene": "أنت جالس في الاجتماع الأسبوعي مع فريق العمل. فجأة يعطس زميلك سعود بقوة ويقول بصوت مسموع: «الحمد لله». دون أن ينتظر أحد رده، ردّ عليه خالد بابتسامة خفيفة قائلاً: «يرحمك الله»، ثم عاد الجميع لمتابعة النقاش وكأن شيئًا لم يحدث. تشعر بالفضول وتريد فهم سبب هذا التفاعل السريع والمألوف بين الزملاء.",
+  "character_names": [
+   "سعود",
+   "خالد"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "تهذيب لغوي وإملائي",
+    "reveal_headline": "ليس تهذيبًا لغويًا",
+    "reveal_body": "هذا الرد لا علاقة له بقواعد اللغة أو الإملاء. هو جزء من آداب اجتماعية ودينية محددة تهدف إلى تبادل الدعاء بالخير بين المسلمين."
+   },
+   {
+    "id": "opt-2",
+    "label": "عادة صحية لمنع انتشار الجراثيم",
+    "reveal_headline": "ليست إجراءً صحيًا وقائيًا",
+    "reveal_body": "رغم أهمية النظافة، إلا أن هذا الرد ليس بروتوكولًا طبيًا أو تعقيميًا. إنه تقليد أخلاقي واجتماعي راسخ في الثقافة الإسلامية للتعبير عن التعاطف والدعاء."
+   },
+   {
+    "id": "opt-3",
+    "label": "اختبار للالتزام الديني لدى الزملاء",
+    "reveal_headline": "ليس اختبارًا أو رقابة",
+    "reveal_body": "الهدف من هذا التفاعل ليس مراقبة التزام الآخرين أو كشف مدى تقواهم. هو عادة عفوية ومجتمعية يقوم بها المسلمون كجزء من حقوق الأخوة والتآلف بينهم."
+   },
+   {
+    "id": "opt-4",
+    "label": "تحية رسمية متعارف عليها في بيئة العمل السعودية",
+    "reveal_headline": "ليست تحية عمل رسمية",
+    "reveal_body": "هذه الممارسة ليست مرتبطة بالعلاقات المهنية أو التسلسل الإداري. هي ممارسة ثقافية ودينية عامة تنطبق على العلاقات الاجتماعية بشكل أوسع من حدود مكان العمل فقط."
+   }
+  ],
+  "explanation": "عندما يقول العاطس «الحمد لله» بعد العطسة، يكون قد حمد الله، وعلى الحاضرين أن يردوا عليه بدعاء «يرحمك الله» كتعبير عن الدعاء له بالرحمة والخير.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بأن هذا مجرد تهذيب لغوي أو إجراء صحي، وبين أنه فعل ديني واجتماعي مستمد من السنة.",
+  "tip": {
+   "headline": "كيف تتعامل مع الموقف باحتراف؟",
+   "lead": "لتظهر بمظهر المحترم للثقافة المحلية والمتعاون مع الفريق، يمكنك اتباع الآتي:",
+   "items": [
+    "إذا عطس زميلك المسلم وقال «الحمد لله»، يمكنك الرد ببساطة بـ «يرحمك الله» كبادرة احترام وتقدير.",
+    "إذا لم تكن مسلمًا ولا تعرف الرد، فلا بأس من الابتسامة أو قول «شكرًا» أو الصمت بهدوء، فالنية والاحترام هما الأهم.",
+    "تجنب السخرية أو التعليق على تكرار هذه العبارة أمام الآخرين، فهي جزء طبيعي من تفاعلاتهم اليومية."
+   ]
+  },
+  "key_points": [
+   "عندما يقول المسلم «الحمد لله» بعد العطسة، فإن الرد المتوقع هو «يرحمك الله».",
+   "هذا الرد مستمد من السنة النبوية ويعد حقًا للمسلم على أخيه المسلم.",
+   "الممارسة تعبر عن الدعاء بالخير والتآلف الاجتماعي، وليست إجراءً صحيًا أو لغويًا."
+  ],
+  "question_variants": [
+   "لماذا يرد الزملاء بكلمة محددة عندما يعطس أحدهم ويقول الحمد لله؟",
+   "ما معنى ردود الفعل المتبادلة بعد العطاس في بيئة العمل؟",
+   "هل هناك قاعدة غير مكتوبة للتعامل مع العطاسات في الاجتماعات؟",
+   "لماذا يبدو أن هناك حوارًا قصيرًا ومتكررًا حول موضوع العطاس؟",
+   "كيف يجب أن أتصرف عندما يسمع زملائي ردًا معينًا بعد عطسة؟"
+  ],
+  "when_parsed": {
+   "type": "weekday",
+   "weekdays": [
+    1,
+    4
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-1-2",
+   "kind": "quran",
+   "text_ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+   "reference": "1:2",
+   "translations": {
+    "en": {
+     "text": "All praise be to Allah, the Lord of the worlds,",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/1/2",
+   "verified": false,
+   "content_hash": "a0e1b07792671c63ddd83c3dc799542e77a4a94023fe840a0f457e80da262be1"
+  },
+  {
+   "id": "hadith-3706",
+   "kind": "hadith",
+   "text_ar": "عن أبي هريرة رضي الله عنه قال: سمعت رسول الله صلى الله عليه وسلم يقول: «حَقُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ خَمْسٌ: رَدُّ السَّلَامِ، وَعِيَادَةُ الْمَرِيضِ، وَاتِّبَاعُ الْجَنَائِزِ، وَإِجَابَةُ الدَّعْوَةِ، وَتَشْمِيتُ الْعَاطِسِ».",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3706",
+   "verified": false,
+   "content_hash": "a52d1c21d90ab4d5013adb81196d97a90bcfb5f3de8f8ed19a2c917d6a62c610"
+  },
+  {
+   "id": "term-4325",
+   "kind": "term",
+   "text_ar": "تَشْمِيتٌ: أن يُقالَ لِلعاطِسِ: \"يَرْحَمُكَ اللهُ\"، بعد أن يقولَ العاطِسُ: \"الحَمْدُ للهِ\". التَّشْمِيتُ: أَدَبٌ مِنَ الآدابِ الإِسْلامِيَّةِ، وهو الدُّعاءُ لِلْعاطِسِ بِالخَيْرِ بِقَوْلِ: \"يَرْحَمُكَ اللهُ\".",
+   "reference": "تَشْمِيتٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/4325",
+   "verified": false,
+   "content_hash": "dc7d544aa2467e4186e54a6c85df555b5d107d8dc3d4045b33e16ccb918467d5"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "في الإسلام، يُعدّ تشميت العاطس حقًا من حقوق المسلم على أخيه المسلم، كما ورد في الأحاديث النبوية الشريفة.",
+   "label": "unsupported",
+   "source_id": "hadith-3706",
+   "quote": "حَقُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ خَمْسٌ: ... وَتَشْمِيتُ الْعَاطِسِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.625,
+   "keyword_share": 0.31,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "عندما يقول العاطس «الحمد لله» بعد العطسة، يكون قد حمد الله، وعلى الحاضرين أن يردوا عليه بدعاء «يرحمك الله» كتعبير عن الدعاء له بالرحمة والخير.",
+   "label": "supported",
+   "source_id": "term-4325",
+   "quote": "أن يُقالَ لِلعاطِسِ: \"يَرْحَمُكَ اللهُ\"، بعد أن يقولَ العاطِسُ: \"الحَمْدُ للهِ\"",
+   "reason": null,
+   "quote_similarity": 0.751,
+   "keyword_share": 0.56,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا الرد لا علاقة له بقواعد اللغة أو الإملاء.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "هو جزء من آداب اجتماعية ودينية محددة تهدف إلى تبادل الدعاء بالخير بين المسلمين.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "رغم أهمية النظافة، إلا أن هذا الرد ليس بروتوكولًا طبيًا أو تعقيميًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "إنه تقليد أخلاقي واجتماعي راسخ في الثقافة الإسلامية للتعبير عن التعاطف والدعاء.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "الهدف من هذا التفاعل ليس مراقبة التزام الآخرين أو كشف مدى تقواهم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "هو عادة عفوية ومجتمعية يقوم بها المسلمون كجزء من حقوق الأخوة والتآلف بينهم.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "هذه الممارسة ليست مرتبطة بالعلاقات المهنية أو التسلسل الإداري.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "هي ممارسة ثقافية ودينية عامة تنطبق على العلاقات الاجتماعية بشكل أوسع من حدود مكان العمل فقط.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": true,
+  "scene_title_words_found": [],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": true
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 1,
+  "supported": 1,
+  "general": 4,
+  "flagged_general_religious": 4,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4513,
+  "tokens_out": 1797
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الحمد لله",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "العطاس والتشميت",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "التشميت",
+   "hits": 1
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "في الإسلام، يُعدّ تشميت العاطس حقًا من حقوق المسلم على أخيه المسلم، كما ورد في الأحاديث النبوية الشريفة.",
+   "why": "quote_not_verbatim"
+  }
+ ],
+ "seconds": 38.1
+}

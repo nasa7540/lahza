@@ -1,0 +1,286 @@
+{
+ "topic_id": "quran-respect",
+ "topic": "احترام المصحف وعدم وضعه على الأرض",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:32",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 17,
+    "ayah": 82
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   9001
+  ],
+  "steps": 4
+ },
+ "journey": {
+  "id": "respect-quran-placement",
+  "level": "B",
+  "when": "always",
+  "title": "لماذا لا يمسك الزملاء المصحف أو يضعونه على الأرض؟",
+  "teaser": "في بيئة العمل السعودية، تلاحظ أن زملاءك المسلمين يتعاملون مع المصحف الشريف بحذر شديد، ولا يضعونه أبدًا على الأرض أو في أماكن منخفضة. قد يبدو لك هذا الأمر مجرد طقس ديني صارم، لكن له دلالات أعمق تتعلق بمكانة النص المقدس.",
+  "scene": "أثناء استراحة القهوة، لاحظت أن زميلك سعودًا كان يقرأ في مصحف صغير موضوع على مكتبه. فجأة، انزلق المصحف قليلاً نحو حافة الطاولة وسقط على الأرض. توقف سعود فورًا عن حديثه، التقط المصحف برفق، مسح الغلاف بلطف، ثم وضعه على رف مرتفع في المكتبة قبل أن يعود لمواصلة عمله. نظرت إليه متعجبًا من رد فعله السريع والحذر، وتساءلت في نفسك: «ما الذي جعله يهتم بهذا القدر؟ هل هو خوف من كسر المصحف أم أن هناك سببًا آخر؟»",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "خوف من تلف الصفحة",
+    "reveal_headline": "ليس مجرد حفظ للمادة",
+    "reveal_body": "الاهتمام ليس تقنيًا بحتًا لتجنب تمزق الورق، بل هو تعبير عن الاحترام الروحي للنص. حتى لو سقط على سجادة ناعمة، يبقى الوضع على الأرض غير لائق."
+   },
+   {
+    "id": "opt2",
+    "label": "عادة تقليدية قديمة",
+    "reveal_headline": "أصل ديني واضح",
+    "reveal_body": ""
+   },
+   {
+    "id": "opt3",
+    "label": "خشية من عدم الطهارة",
+    "reveal_headline": "التركيز على المكانة لا النجاسة",
+    "reveal_body": "السبب الرئيسي ليس الخوف من أن تكون الأرض نجسة، بل خشية أن يكون مكان السقوط أدنى من مكانة القرآن الكريم كشرف وعزة، فالأرض تُعتبر موضع الأقدام."
+   },
+   {
+    "id": "opt4",
+    "label": "إظهار التقوى للآخرين",
+    "reveal_headline": "أمر ذاتي وداخلي",
+    "reveal_body": "هذا الفعل يُمارس حتى لو كان الشخص وحده في الغرفة، وهو ناتج عن إيمان شخصي عميق بقيمة النص، وليس محاولة لإثبات الانتماء الديني أمام الزملاء."
+   }
+  ],
+  "explanation": "",
+  "explain_prompt": "اشرح لماذا يعتبر وضع المصحف على الأرض أمرًا غير لائق دينيًا وثقافيًا في السعودية، مستندًا إلى مفهوم تكريم كلام الله.",
+  "tip": {
+   "headline": "آداب التعامل مع المصحف في بيئة العمل",
+   "lead": "إذا وجدت مصحفًا في مساحة مشتركة أو رأيت زميلًا يقرأه، اتبع هذه الإرشادات البسيطة لإظهار الاحترام:",
+   "items": [
+    "لا تضع أي شيء فوق المصحف أو تجلس قريبًا منه إذا كان موضوعًا على الأرض أو مكان منخفض.",
+    "إذا انزلق المصحف، ساعد زملاءك المسلمون في رفعه ووضعها في مكان مرتفع بأدب دون تدخل مبالغ فيه.",
+    "تجنب وضع المصحف بجانب مواد غير محترمة أو في جيوب الملابس السفلية عند السفر أو التنقل."
+   ]
+  },
+  "key_points": [
+   "المصحف هو كتاب الله تعالى، وله مكانة خاصة تستوجب التكريم والرفع.",
+   "وضع المصحف على الأرض أو في مكان منخفض يُعدّ إهانة لمكانة النص المقدس.",
+   "الاحترام ينبع من الإيمان بعظمة الكلام الإلهي وليس من الخوف المادي أو التقليد الأعمى."
+  ],
+  "question_variants": [
+   "لماذا يحرص الموظفون المسلمون على عدم وضع المصحف على الأرض؟",
+   "ما هو السبب وراء الحذر الشديد عند التعامل مع المصحف في المكتب؟",
+   "هل سقوط المصحف على الأرض يعتبر خطأً جسيمًا في الثقافة الإسلامية؟",
+   "كيف يجب أن أتصرف إذا رأيت مصحفًا موضوعًا في مكان منخفض؟",
+   "ما الدلالة الدينية وراء رفع المصحف دائمًا إلى الأعلى؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-17-82",
+   "kind": "quran",
+   "text_ar": "وَنُنَزِّلُ مِنَ ٱلۡقُرۡءَانِ مَا هُوَ شِفَآءٞ وَرَحۡمَةٞ لِّلۡمُؤۡمِنِينَ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارٗا",
+   "reference": "17:82",
+   "translations": {
+    "en": {
+     "text": "We send down the Qur’an as a healing and mercy for the believers, but it does not increase the wrongdoers except in loss.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/17/82",
+   "verified": false,
+   "content_hash": "1965b17a43c9c780a3d710b4bfeacb22a7a224a63040d55784d6290e7695a2e8"
+  },
+  {
+   "id": "term-9001",
+   "kind": "term",
+   "text_ar": "مُصْحَفٌ: الأَوْراقُ التي جُمِعَ فيها القُرآنُ الكَرِيم مع تَرتِيبِ آياتِهِ وسُوَرِهِ جَمِيعاً على الوَجْهِ الذي أَجْمَعَت عليه الأُمَّة أيّامَ عُثمانَ رضِي الله عنه. المُصْحَفُ: هو الكِتابُ الذي يَجْمَعُ بين غِلافَيْهِ كَلامَ اللهِ تعالى المُنَزَّلِ على رَسُولِهِ مُحَمَّدٍ صلَّى اللهُ عليه وسلَّم، سَواءً كان المَكْتوبُ القُرْآنُ كامِلاً، أو بَعْضاً مِنْهُ ما دامَ أنّه مُخَصَّصٌ لِلْقُرْآنِ، كجُزْءِ تَبارَكَ ونَحْوِ ذلك، وقد نَشَأت تَسمِيَّة القُرآنِ بِالمُصحَفِ في عَهْدِ أبِي بَكْرٍ الصِّدِّيق رضِي الله عنه.",
+   "reference": "مُصْحَفٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/9001",
+   "verified": false,
+   "content_hash": "19e3a8bda0008704f07e75e2f7730d47186db65fe86a9937073143196f17e027"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "المصحف هو الكتاب الذي يجمع كلام الله تعالى، وقد شُرِع تكريمه وتقديره لأن فيه هداية وشفاء للمؤمنين كما ورد في القرآن.",
+   "label": "unsupported",
+   "source_id": "quran-17-82",
+   "quote": "وَنُنَزِّلُ مِنَ ٱلۡقُرۡءَانِ مَا هُوَ شِفَآءٞ وَرَحۡمَةٞ لِّلۡمُؤۡمِنِينَ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.492,
+   "keyword_share": 0.13,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "لذلك، يُحرم وضعه على الأرض أو في مكان منخفض لأنه يُعدّ نوعًا من التقليل من شأن كلام الله، ويجب أن يُوضع دائمًا في أعلى مكان ممكن احترامًا لعظمته.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "الاهتمام ليس تقنيًا بحتًا لتجنب تمزق الورق، بل هو تعبير عن الاحترام الروحي للنص.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "حتى لو سقط على سجادة ناعمة، يبقى الوضع على الأرض غير لائق.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "هذا السلوك ليس عادة ثقافية عابرة، بل هو امتثال لتوجيهات شرعية واضحة تحث على تكريم كلام الله تعالى وتجنب أي شكل من أشكال الإهانة أو التقليل من شأنه.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "السبب الرئيسي ليس الخوف من أن تكون الأرض نجسة، بل خشية أن يكون مكان السقوط أدنى من مكانة القرآن الكريم كشرف وعزة، فالأرض تُعتبر موضع الأقدام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "هذا الفعل يُمارس حتى لو كان الشخص وحده في الغرفة، وهو ناتج عن إيمان شخصي عميق بقيمة النص، وليس محاولة لإثبات الانتماء الديني أمام الزملاء.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "ارض",
+   "علي",
+   "مصحف"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 4,
+  "sentences_generated": 7,
+  "removed_by_verifier": 3,
+  "supported": 0,
+  "general": 4,
+  "flagged_general_religious": 0,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 2,
+   "verdict_missing": 0
+  },
+  "tokens_in": 7119,
+  "tokens_out": 1705
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "المصحف كتاب الله",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "احترام المصحف عدم وضعه على الأرض",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "المصحف",
+   "hits": 2
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "المصحف هو الكتاب الذي يجمع كلام الله تعالى، وقد شُرِع تكريمه وتقديره لأن فيه هداية وشفاء للمؤمنين كما ورد في القرآن.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "لذلك، يُحرم وضعه على الأرض أو في مكان منخفض لأنه يُعدّ نوعًا من التقليل من شأن كلام الله، ويجب أن يُوضع دائمًا في أعلى مكان ممكن احترامًا لعظمته.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt2-0",
+   "text": "هذا السلوك ليس عادة ثقافية عابرة، بل هو امتثال لتوجيهات شرعية واضحة تحث على تكريم كلام الله تعالى وتجنب أي شكل من أشكال الإهانة أو التقليل من شأنه.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 34.6
+}

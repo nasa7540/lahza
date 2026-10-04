@@ -1,0 +1,339 @@
+{
+ "topic_id": "ashura",
+ "topic": "زميل يصوم يوم عاشوراء",
+ "expected_when": "hijri 1/9-1/10",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:37",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [],
+  "hadith_ids": [
+   10121
+  ],
+  "term_ids": [
+   6473
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "ashura-fast-work",
+  "level": "B",
+  "when": "hijri 1/10-1/10",
+  "title": "صيام يوم عاشوراء في العمل",
+  "teaser": "لماذا يصوم زميلك هذا اليوم تحديدًا؟",
+  "scene": "في العاشرة صباحًا، لاحظت أن زميلك أحمد لم يأكل فطور الصباح مع بقية الفريق، ويبدو عليه الهدوء والتركيز المعتاد. سألته بهدوء عن سبب عدم تناوله للطعام، فأجاب ببساطة: «أصوم اليوم». ما هو التفسير الذي يخطر ببالك أولًا لهذا الصيام المحدد في وقت العمل؟",
+  "character_names": [
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "حمية غذائية مؤقتة",
+    "reveal_headline": "ليس حمية غذائية",
+    "reveal_body": "هذا الصيام ليس مرتبطًا باللياقة البدنية أو إنقاص الوزن، بل هو عبادة دينية محددة بتاريخ معين. لا علاقة له بالأهداف الصحية الشخصية."
+   },
+   {
+    "id": "opt-2",
+    "label": "يوم حداد على مأساة تاريخية",
+    "reveal_headline": "ليس يوم حداد",
+    "reveal_body": "رغم وجود أحداث تاريخية مرتبطة بهذا اليوم، إلا أن ممارسة الصيام هنا هي فعل طاعة وإحياء لسنة نبوية، وليست تعبيرًا عن الحزن أو الحداد. الجو العام يكون إيجابيًا وممتلئًا بالأمل."
+   },
+   {
+    "id": "opt-3",
+    "label": "اختبار صبر وتحدي شخصي",
+    "reveal_headline": "ليس مجرد اختبار صبر",
+    "reveal_body": "الصيام في هذا اليوم له بعد روحي وثواب محدد، وليس تمرينًا نفسيًا لتحمل الجوع فقط."
+   },
+   {
+    "id": "opt-4",
+    "label": "عادة شهر رمضان فقط",
+    "reveal_headline": "ليس حصريًا لشهر رمضان",
+    "reveal_body": "المسلمون يصومون هذه الأيام اختياريًا لإحياء السنن النبوية خارج شهر الصيام الكبير."
+   }
+  ],
+  "explanation": "يوم عاشوراء هو اليوم العاشر من شهر المحرم، وهو أول شهور السنة الهجرية. كان النبي محمد صلى الله عليه وسلم يصوم هذا اليوم، وأمر المسلمين بصيامه أيضًا.",
+  "explain_prompt": "اشرح المفهوم الخاطئ: تفسير شائع ومعقول يخطر فعلًا على بال شخص من ثقافة أخرى حين يرى الموقف، لكنه غير صحيح. ليس سخيفًا ولا مستبعدًا، وليس هو الإجابة الصحيحة.",
+  "tip": {
+   "headline": "آداب التعامل مع زميل يصوم عاشوراء",
+   "lead": "إليك بعض النصائح العملية لدعم زميلك في عمله خلال هذا اليوم:",
+   "items": [
+    "احترم قراره بعدم تناول الطعام أو الشراب أمامه إذا أمكن، لتجنب إزعاجه غير المقصود.",
+    "لا تطلب منه حضور اجتماعات غداء أو مناسبات طعام جماعية تتطلب المشاركة في الأكل.",
+    "قدّم له الدعم المهني المعتاد، وتذكر أن تركيزه قد يختلف قليلاً بسبب الصيام، لذا كن متفهمًا لأي تغيير بسيط في طاقته."
+   ]
+  },
+  "key_points": [
+   "يوم عاشوراء هو اليوم العاشر من شهر المحرم الهجري.",
+   "صيام هذا اليوم سنة نبوية مؤكدة وليست جزءًا من صيام رمضان.",
+   "له ثواب عظيم حيث يكفر ذنوب السنة الماضية عند الله."
+  ],
+  "question_variants": [
+   "لماذا يمتنع زميلي عن الأكل في هذا اليوم بالتحديد؟",
+   "ما الدافع الديني لصيام هذا التاريخ المعين؟",
+   "هل هذا الصيام مرتبط بشهر رمضان أم بحدث آخر؟",
+   "كيف يمكنني فهم أهمية هذا اليوم لزميلي المسلم؟",
+   "ما الفرق بين صيام هذا اليوم وصيام رمضان؟"
+  ],
+  "when_parsed": {
+   "type": "hijri",
+   "windows": [
+    {
+     "from": {
+      "month": 1,
+      "day": 10
+     },
+     "to": {
+      "month": 1,
+      "day": 10
+     }
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "hadith-10121",
+   "kind": "hadith",
+   "text_ar": "عن ابن عباس رضي الله عنهما أن رسول الله صلى الله عليه وسلم صام يوم عاشوراء وأمر بصيامه.",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/10121",
+   "verified": false,
+   "content_hash": "ead3f53cb0bb92529fb76e644012889de68c16905b1d8e8ca8c4bf05cf43facf"
+  },
+  {
+   "id": "term-6473",
+   "kind": "term",
+   "text_ar": "عاشُوراءُ: اليَوْمُ العاشِرُ مِن شَهْرِ المُحَرَّمِ. عاشُوراء: هو اليَومُ العاشِرُ من شَهرِ المُحرَّم، وقد جاءت السُّنَّة بمشروعِيَّةِ صَومِهِ، وأنَّه يُكَفِّرُ ذُنُوبَ سَنَةٍ ماضِيَةٍ. والمُرادُ بِالذُّنوبِ: الصَّغائِرُ، فإن لم تَكُن له صَغائِرُ رُجِيَ التَّخْفِيفُ مِن الكَبائِرِ، وذلك التَّخْفِيفُ مَوْكولٌ لِفَضْل اللَّهِ تعالى، فإن لم تَكُن له كَبائِرُ رُفِعَ له دَرَجاتٌ.",
+   "reference": "عاشُوراءُ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/6473",
+   "verified": false,
+   "content_hash": "4dc21da7ab83d410b7d34e6af4bb0246fd4a2a9c639fd44971e37c9aeb9ef335"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يوم عاشوراء هو اليوم العاشر من شهر المحرم، وهو أول شهور السنة الهجرية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "كان النبي محمد صلى الله عليه وسلم يصوم هذا اليوم، وأمر المسلمين بصيامه أيضًا.",
+   "label": "supported",
+   "source_id": "hadith-10121",
+   "quote": "أن رسول الله صلى الله عليه وسلم صام يوم عاشوراء وأمر بصيامه",
+   "reason": null,
+   "quote_similarity": 0.75,
+   "keyword_share": 0.45,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "يُعد صيام هذا اليوم سنة مستحبة تكفر ذنوب السنة الماضية، مما يجعله فرصة روحية مهمة للمسلمين للتطهير والتقرب إلى الله بعيدًا عن شهر رمضان.",
+   "label": "unsupported",
+   "source_id": "term-6473",
+   "quote": "يُكَفِّرُ ذُنُوبَ سَنَةٍ ماضِيَةٍ. والمُرادُ بِالذُّنوبِ: الصَّغائِرُ",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.626,
+   "keyword_share": 0.29,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا الصيام ليس مرتبطًا باللياقة البدنية أو إنقاص الوزن، بل هو عبادة دينية محددة بتاريخ معين.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "لا علاقة له بالأهداف الصحية الشخصية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "رغم وجود أحداث تاريخية مرتبطة بهذا اليوم، إلا أن ممارسة الصيام هنا هي فعل طاعة وإحياء لسنة نبوية، وليست تعبيرًا عن الحزن أو الحداد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "الجو العام يكون إيجابيًا وممتلئًا بالأمل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "الصيام في هذا اليوم له بعد روحي وثواب محدد، وليس تمرينًا نفسيًا لتحمل الجوع فقط.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "هو فرصة للمسلمين للتقرب من الله وكفارة الذنوب الصغيرة، وليس تحديًا ذاتيًا بحتًا.",
+   "label": "unsupported",
+   "source_id": "term-6473",
+   "quote": "كفارة الذنوب الصغيرة",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.535,
+   "keyword_share": 0.18,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "الصيام سنة مؤكدة في أيام أخرى غير رمضان، ومنها اليوم العاشر من شهر المحرم (عاشوراء).",
+   "label": "unsupported",
+   "source_id": "term-6473",
+   "quote": "عاشُوراءُ: اليَوْمُ العاشِرُ مِن شَهْرِ المُحَرَّمِ... جاءت السُّنَّة بمشروعِيَّةِ صَومِهِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.502,
+   "keyword_share": 0.46,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "المسلمون يصومون هذه الأيام اختياريًا لإحياء السنن النبوية خارج شهر الصيام الكبير.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "صيام",
+   "يوم"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 11,
+  "removed_by_verifier": 3,
+  "supported": 1,
+  "general": 5,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 2,
+   "quote_low_similarity": 0,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4034,
+  "tokens_out": 1808
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "يوم عاشوراء",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "صيام يوم عاشوراء",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "عاشوراء",
+   "hits": 1
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-2",
+   "text": "يُعد صيام هذا اليوم سنة مستحبة تكفر ذنوب السنة الماضية، مما يجعله فرصة روحية مهمة للمسلمين للتطهير والتقرب إلى الله بعيدًا عن شهر رمضان.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-3-1",
+   "text": "هو فرصة للمسلمين للتقرب من الله وكفارة الذنوب الصغيرة، وليس تحديًا ذاتيًا بحتًا.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-0",
+   "text": "الصيام سنة مؤكدة في أيام أخرى غير رمضان، ومنها اليوم العاشر من شهر المحرم (عاشوراء).",
+   "why": "quote_not_verbatim"
+  }
+ ],
+ "seconds": 33.6
+}

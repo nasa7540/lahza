@@ -1,0 +1,802 @@
+[
+ {
+  "key": "33:16",
+  "verse_ar": "قُل لَّن يَنفَعَكُمُ ٱلۡفِرَارُ إِن فَرَرۡتُم مِّنَ ٱلۡمَوۡتِ أَوِ ٱلۡقَتۡلِ وَإِذٗا لَّا تُمَتَّعُونَ إِلَّا قَلِيلٗا",
+  "verse_en": "Say, “Fleeing will never benefit you if you try to flee from death or killing, even then you will only be left to enjoy life except for a little while.”",
+  "claim_ar": "الفرار من الموت أو القتل لن ينفعكم، ولن تستمتعوا بالحياة إلا قليلاً.",
+  "claim_en": "Fleeing death or killing will not benefit you; you will only enjoy life briefly.",
+  "split": "tune"
+ },
+ {
+  "key": "39:52",
+  "verse_ar": "أَوَلَمۡ يَعۡلَمُوٓاْ أَنَّ ٱللَّهَ يَبۡسُطُ ٱلرِّزۡقَ لِمَن يَشَآءُ وَيَقۡدِرُۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ لِّقَوۡمٖ يُؤۡمِنُونَ",
+  "verse_en": "Do they not know that Allah extends provision to whom He wills or restricts it? Indeed, there are signs in this for people who believe.",
+  "claim_ar": "الله يوسع الرزق لمن يشاء ويضيقه على من يشاء بحكمته وعلمه.",
+  "claim_en": "God expands or restricts provision for whomever He wills, according to His wisdom.",
+  "split": "tune"
+ },
+ {
+  "key": "45:5",
+  "verse_ar": "وَٱخۡتِلَٰفِ ٱلَّيۡلِ وَٱلنَّهَارِ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن رِّزۡقٖ فَأَحۡيَا بِهِ ٱلۡأَرۡضَ بَعۡدَ مَوۡتِهَا وَتَصۡرِيفِ ٱلرِّيَٰحِ ءَايَٰتٞ لِّقَوۡمٖ يَعۡقِلُونَ",
+  "verse_en": "And in the alternation of the night and day, the provision that Allah sends down from the sky, reviving thereby the earth after its death, and directing of the winds, there are signs for people of understanding.",
+  "claim_ar": "اختلاف الليل والنهار، ونزول المطر الذي يحيي الأرض، وتصريف الرياح، كلها آيات للمتفكرين.",
+  "claim_en": "The alternation of night and day, the rain that revives the earth, and the shifting winds are all signs for those who reflect.",
+  "split": "holdout"
+ },
+ {
+  "key": "57:24",
+  "verse_ar": "ٱلَّذِينَ يَبۡخَلُونَ وَيَأۡمُرُونَ ٱلنَّاسَ بِٱلۡبُخۡلِۗ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلۡغَنِيُّ ٱلۡحَمِيدُ",
+  "verse_en": "those who are stingy and promote stinginess among people. And those who turn away, then Allah is the Self-Sufficient, the Praiseworthy.",
+  "claim_ar": "الذين يبخلون ويحثون الآخرين على البخل، والله غني عنهم ومستحق الحمد.",
+  "claim_en": "Those who are stingy and encourage others to be so, God is self-sufficient and worthy of praise.",
+  "split": "tune"
+ },
+ {
+  "key": "9:18",
+  "verse_ar": "إِنَّمَا يَعۡمُرُ مَسَٰجِدَ ٱللَّهِ مَنۡ ءَامَنَ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَلَمۡ يَخۡشَ إِلَّا ٱللَّهَۖ فَعَسَىٰٓ أُوْلَٰٓئِكَ أَن يَكُونُواْ مِنَ ٱلۡمُهۡتَدِينَ",
+  "verse_en": "The mosques of Allah are only to be maintained by those who believe in Allah and the Last Day, establish prayer, give zakah and fear none but Allah. It is they who are expected to be rightly guided.",
+  "claim_ar": "من يعمر مساجد الله هو من يؤمن بالله واليوم الآخر ويقيم الصلاة ويزكي.",
+  "claim_en": "Those who maintain God's mosques are those who believe in God and the Last Day, pray, and give charity.",
+  "split": "tune"
+ },
+ {
+  "key": "33:32",
+  "verse_ar": "يَٰنِسَآءَ ٱلنَّبِيِّ لَسۡتُنَّ كَأَحَدٖ مِّنَ ٱلنِّسَآءِ إِنِ ٱتَّقَيۡتُنَّۚ فَلَا تَخۡضَعۡنَ بِٱلۡقَوۡلِ فَيَطۡمَعَ ٱلَّذِي فِي قَلۡبِهِۦ مَرَضٞ وَقُلۡنَ قَوۡلٗا مَّعۡرُوفٗا",
+  "verse_en": "O wives of the Prophet, you are not like any other women: if you fear Allah, do not be complaisant in your speech, lest those with sickness in their hearts should be moved with desire; but speak in an appropriate manner.",
+  "claim_ar": "على زوجات النبي التحدث بلين دون خضوع بالقول لتجنب أطماع ضعاف القلوب.",
+  "claim_en": "The Prophet's wives should speak gently but not temptingly to avoid alluring those with weak hearts.",
+  "split": "holdout"
+ },
+ {
+  "key": "18:28",
+  "verse_ar": "وَٱصۡبِرۡ نَفۡسَكَ مَعَ ٱلَّذِينَ يَدۡعُونَ رَبَّهُم بِٱلۡغَدَوٰةِ وَٱلۡعَشِيِّ يُرِيدُونَ وَجۡهَهُۥۖ وَلَا تَعۡدُ عَيۡنَاكَ عَنۡهُمۡ تُرِيدُ زِينَةَ ٱلۡحَيَوٰةِ ٱلدُّنۡيَاۖ وَلَا تُطِعۡ مَنۡ أَغۡفَلۡنَا قَلۡبَهُۥ عَن ذِكۡرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمۡرُهُۥ فُرُطٗا",
+  "verse_en": "Be patient with those who call upon their Lord morning and evening, seeking His pleasure. Do not turn your eyes away from them, desiring the adornments of the life of this world. And do not obey one whose heart We have made heedless of Our remembrance, who follows his desires and whose affairs [deeds] are at loss.",
+  "claim_ar": "اصبر مع من يدعو ربه بإخلاص ولا تلتفت لزينة الدنيا ولا تطع الغافلين.",
+  "claim_en": "Be patient with those who sincerely pray to their Lord; do not be distracted by worldly allurements or obey the heedless.",
+  "split": "tune"
+ },
+ {
+  "key": "31:9",
+  "verse_ar": "خَٰلِدِينَ فِيهَاۖ وَعۡدَ ٱللَّهِ حَقّٗاۚ وَهُوَ ٱلۡعَزِيزُ ٱلۡحَكِيمُ",
+  "verse_en": "abiding therein forever; this is a true promise from Allah, and He is the All-Mighty, the All-Wise.",
+  "claim_ar": "سوف يمكثون في الجنة دائمًا، وهذا وعد الله الصادق الذي لا يتغير.",
+  "claim_en": "They will remain in Paradise forever, this is God's true and unchanging promise.",
+  "split": "tune"
+ },
+ {
+  "key": "2:83",
+  "verse_ar": "وَإِذۡ أَخَذۡنَا مِيثَٰقَ بَنِيٓ إِسۡرَٰٓءِيلَ لَا تَعۡبُدُونَ إِلَّا ٱللَّهَ وَبِٱلۡوَٰلِدَيۡنِ إِحۡسَانٗا وَذِي ٱلۡقُرۡبَىٰ وَٱلۡيَتَٰمَىٰ وَٱلۡمَسَٰكِينِ وَقُولُواْ لِلنَّاسِ حُسۡنٗا وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيۡتُمۡ إِلَّا قَلِيلٗا مِّنكُمۡ وَأَنتُم مُّعۡرِضُونَ",
+  "verse_en": "And [remember] when We took a covenant from the Children of Israel, “Do not worship except Allah; be kind to parents and kindred, and to orphans and those in need; speak good words to people; establish prayer; and give Zakah.” But then you turned away paying no heed, except a few of you.",
+  "claim_ar": "اعبدوا الله وحده وأحسنوا للوالدين والأقارب واليتامى والمساكين وقولوا للناس خيراً.",
+  "claim_en": "Worship God alone, be kind to parents, relatives, orphans, the needy, and speak kindly to people.",
+  "split": "holdout"
+ },
+ {
+  "key": "30:44",
+  "verse_ar": "مَن كَفَرَ فَعَلَيۡهِ كُفۡرُهُۥۖ وَمَنۡ عَمِلَ صَٰلِحٗا فَلِأَنفُسِهِمۡ يَمۡهَدُونَ",
+  "verse_en": "Whoever disbelieves will bear [the burden of] his disbelief, and whoever does righteous deeds, they are preparing for themselves [a place in Paradise],",
+  "claim_ar": "من كفر فعليه وزر كفره، ومن عمل صالحًا فلنفسه يحسن.",
+  "claim_en": "Whoever disbelieves bears the burden of their disbelief, and whoever does good, does so for themselves.",
+  "split": "tune"
+ },
+ {
+  "key": "60:13",
+  "verse_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَتَوَلَّوۡاْ قَوۡمًا غَضِبَ ٱللَّهُ عَلَيۡهِمۡ قَدۡ يَئِسُواْ مِنَ ٱلۡأٓخِرَةِ كَمَا يَئِسَ ٱلۡكُفَّارُ مِنۡ أَصۡحَٰبِ ٱلۡقُبُورِ",
+  "verse_en": "O you who believe, do not take as allies a people whom Allah is displeased with. They have lost hope in the Hereafter, just as the disbelievers have lost hope in those who are in the graves.",
+  "claim_ar": "يا أيها الذين آمنوا، لا تتولوا قوماً غضب الله عليهم، فهم يائسون من الآخرة.",
+  "claim_en": "Believers, do not ally yourselves with those whom God is angry with; they despair of the Hereafter.",
+  "split": "tune"
+ },
+ {
+  "key": "2:219",
+  "verse_ar": "۞ يَسۡـَٔلُونَكَ عَنِ ٱلۡخَمۡرِ وَٱلۡمَيۡسِرِۖ قُلۡ فِيهِمَآ إِثۡمٞ كَبِيرٞ وَمَنَٰفِعُ لِلنَّاسِ وَإِثۡمُهُمَآ أَكۡبَرُ مِن نَّفۡعِهِمَاۗ وَيَسۡـَٔلُونَكَ مَاذَا يُنفِقُونَۖ قُلِ ٱلۡعَفۡوَۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَتَفَكَّرُونَ",
+  "verse_en": "They ask you about intoxicants and gambling. Say, “In both, there is a great sin, and some benefits for people, but their sin is far greater than their benefit.” They ask you what they should spend. Say, “The surplus”. This is how Allah makes His verses clear to you, so that you may contemplate –",
+  "claim_ar": "الخمر والميسر فيهما إثم كبير ومنفعة قليلة، وإثمهما أكبر من نفعهما.",
+  "claim_en": "Alcohol and gambling contain great sin and little benefit, their harm outweighs their good.",
+  "split": "holdout"
+ },
+ {
+  "key": "45:15",
+  "verse_ar": "مَنۡ عَمِلَ صَٰلِحٗا فَلِنَفۡسِهِۦۖ وَمَنۡ أَسَآءَ فَعَلَيۡهَاۖ ثُمَّ إِلَىٰ رَبِّكُمۡ تُرۡجَعُونَ",
+  "verse_en": "Whoever does a righteous deed, it is for his own benefit; and whoever does an evil deed, it is to his own loss. Then to your Lord you will be returned.",
+  "claim_ar": "من يعمل عملًا صالحًا فثوابه لنفسه، ومن يسيء فعقاب إساءته عليها، ثم جميعكم ترجعون إلى ربكم للحساب.",
+  "claim_en": "Whoever does good, it is for their own soul; and whoever does evil, it is against it. Then to your Lord you will be returned.",
+  "split": "tune"
+ },
+ {
+  "key": "30:38",
+  "verse_ar": "فَـَٔاتِ ذَا ٱلۡقُرۡبَىٰ حَقَّهُۥ وَٱلۡمِسۡكِينَ وَٱبۡنَ ٱلسَّبِيلِۚ ذَٰلِكَ خَيۡرٞ لِّلَّذِينَ يُرِيدُونَ وَجۡهَ ٱللَّهِۖ وَأُوْلَٰٓئِكَ هُمُ ٱلۡمُفۡلِحُونَ",
+  "verse_en": "So give your close relatives their due, and the needy, and the wayfarer. That is best for those who seek Allah’s pleasure, and it is they who will be successful.",
+  "claim_ar": "أعطِ الأقارب والفقراء والمحتاجين حقوقهم، فهذا خير لكم عند الله.",
+  "claim_en": "Give relatives, the poor, and the needy their rights, for this is best for you with God.",
+  "split": "tune"
+ },
+ {
+  "key": "2:215",
+  "verse_ar": "يَسۡـَٔلُونَكَ مَاذَا يُنفِقُونَۖ قُلۡ مَآ أَنفَقۡتُم مِّنۡ خَيۡرٖ فَلِلۡوَٰلِدَيۡنِ وَٱلۡأَقۡرَبِينَ وَٱلۡيَتَٰمَىٰ وَٱلۡمَسَٰكِينِ وَٱبۡنِ ٱلسَّبِيلِۗ وَمَا تَفۡعَلُواْ مِنۡ خَيۡرٖ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٞ",
+  "verse_en": "They ask you what they should spend. Say, “Whatever good you spend should be for parents, relatives, orphans and the needy, and the wayfarer; and whatever good you do, Allah is All-Knowing of it.”",
+  "claim_ar": "لِمن يجب أن نعطي الصدقات والإنفاق من أموالنا؟",
+  "claim_en": "To whom should we give our charity and spend our wealth?",
+  "split": "holdout"
+ },
+ {
+  "key": "6:54",
+  "verse_ar": "وَإِذَا جَآءَكَ ٱلَّذِينَ يُؤۡمِنُونَ بِـَٔايَٰتِنَا فَقُلۡ سَلَٰمٌ عَلَيۡكُمۡۖ كَتَبَ رَبُّكُمۡ عَلَىٰ نَفۡسِهِ ٱلرَّحۡمَةَ أَنَّهُۥ مَنۡ عَمِلَ مِنكُمۡ سُوٓءَۢا بِجَهَٰلَةٖ ثُمَّ تَابَ مِنۢ بَعۡدِهِۦ وَأَصۡلَحَ فَأَنَّهُۥ غَفُورٞ رَّحِيمٞ",
+  "verse_en": "When those who believe in Our verses come to you, say, “Peace be upon you. Your Lord has decreed mercy upon Himself; whoever among you commits a sin out of ignorance then repents afterwards and mends his ways, then Allah is indeed All-Forgiving, Most Merciful.”",
+  "claim_ar": "الله كتب على نفسه الرحمة، ويغفر لمن عمل سوءًا بجهالة ثم تاب وأصلح.",
+  "claim_en": "God has ordained mercy for Himself, forgiving those who err ignorantly, then repent and reform.",
+  "split": "tune"
+ },
+ {
+  "key": "4:50",
+  "verse_ar": "ٱنظُرۡ كَيۡفَ يَفۡتَرُونَ عَلَى ٱللَّهِ ٱلۡكَذِبَۖ وَكَفَىٰ بِهِۦٓ إِثۡمٗا مُّبِينًا",
+  "verse_en": "See how they fabricate lies about Allah! This in itself is sufficient as a flagrant sin.",
+  "claim_ar": "لا يمكن لأحد أن يختلق الأكاذيب وينسبها إلى الله دون عواقب وخيمة.",
+  "claim_en": "No one can fabricate lies and attribute them to God without severe consequences.",
+  "split": "tune"
+ },
+ {
+  "key": "58:7",
+  "verse_ar": "أَلَمۡ تَرَ أَنَّ ٱللَّهَ يَعۡلَمُ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۖ مَا يَكُونُ مِن نَّجۡوَىٰ ثَلَٰثَةٍ إِلَّا هُوَ رَابِعُهُمۡ وَلَا خَمۡسَةٍ إِلَّا هُوَ سَادِسُهُمۡ وَلَآ أَدۡنَىٰ مِن ذَٰلِكَ وَلَآ أَكۡثَرَ إِلَّا هُوَ مَعَهُمۡ أَيۡنَ مَا كَانُواْۖ ثُمَّ يُنَبِّئُهُم بِمَا عَمِلُواْ يَوۡمَ ٱلۡقِيَٰمَةِۚ إِنَّ ٱللَّهَ بِكُلِّ شَيۡءٍ عَلِيمٌ",
+  "verse_en": "Do you not see that Allah knows all that is in the heavens and all that is on earth? No secret consultation takes place between three, but He is their fourth, or between five, but He is their sixth, or between fewer or more than that, but He is with them wherever they may be. Then He will inform them of what they did on the Day of Resurrection. Indeed, Allah is All-Knowing of everything.",
+  "claim_ar": "الله يعلم كل ما في السماوات والأرض، وهو حاضر في كل تجمع سري.",
+  "claim_en": "God knows everything in the heavens and earth; He is present in every secret gathering.",
+  "split": "holdout"
+ },
+ {
+  "key": "49:10",
+  "verse_ar": "إِنَّمَا ٱلۡمُؤۡمِنُونَ إِخۡوَةٞ فَأَصۡلِحُواْ بَيۡنَ أَخَوَيۡكُمۡۚ وَٱتَّقُواْ ٱللَّهَ لَعَلَّكُمۡ تُرۡحَمُونَ",
+  "verse_en": "The believers are but brothers, so make peace between your brothers. And fear Allah, so that you may be shown mercy.",
+  "claim_ar": "المؤمنون إخوة، فأصلحوا بين المتخاصمين منهم، واتقوا الله ليرحمكم.",
+  "claim_en": "Indeed, the believers are brothers, so make peace between your brothers and fear God so that you may receive mercy.",
+  "split": "tune"
+ },
+ {
+  "key": "66:8",
+  "verse_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ تُوبُوٓاْ إِلَى ٱللَّهِ تَوۡبَةٗ نَّصُوحًا عَسَىٰ رَبُّكُمۡ أَن يُكَفِّرَ عَنكُمۡ سَيِّـَٔاتِكُمۡ وَيُدۡخِلَكُمۡ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ يَوۡمَ لَا يُخۡزِي ٱللَّهُ ٱلنَّبِيَّ وَٱلَّذِينَ ءَامَنُواْ مَعَهُۥۖ نُورُهُمۡ يَسۡعَىٰ بَيۡنَ أَيۡدِيهِمۡ وَبِأَيۡمَٰنِهِمۡ يَقُولُونَ رَبَّنَآ أَتۡمِمۡ لَنَا نُورَنَا وَٱغۡفِرۡ لَنَآۖ إِنَّكَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
+  "verse_en": "O you who believe, turn to Allah in sincere repentance. It may be that your Lord will absolve you of your bad deeds and admit you to gardens under which rivers flow, on the Day when Allah will not disgrace the Prophet and those who believed with him. Their light will stream ahead of them and on their right. They will say, “Our Lord, complete our light for us and forgive us, for You are Most Capable of all things.”",
+  "claim_ar": "التوبة الصادقة تمحو الذنوب وتدخل صاحبها الجنة يوم القيامة.",
+  "claim_en": "Sincere repentance erases sins and grants entry to paradise on the Day of Judgment.",
+  "split": "tune"
+ },
+ {
+  "key": "3:95",
+  "verse_ar": "قُلۡ صَدَقَ ٱللَّهُۗ فَٱتَّبِعُواْ مِلَّةَ إِبۡرَٰهِيمَ حَنِيفٗاۖ وَمَا كَانَ مِنَ ٱلۡمُشۡرِكِينَ",
+  "verse_en": "Say, “Allah has spoken the truth, so follow the religion of Abraham, exclusively devoted to Allah, and he was not one of the polytheists.”",
+  "claim_ar": "اتبعوا ملة إبراهيم الحنيفية، فقد صدق الله في رسالته ودعوته للتوحيد الخالص.",
+  "claim_en": "Follow the pure religion of Abraham; God spoke the truth in His message and call to pure monotheism.",
+  "split": "holdout"
+ },
+ {
+  "key": "17:26",
+  "verse_ar": "وَءَاتِ ذَا ٱلۡقُرۡبَىٰ حَقَّهُۥ وَٱلۡمِسۡكِينَ وَٱبۡنَ ٱلسَّبِيلِ وَلَا تُبَذِّرۡ تَبۡذِيرًا",
+  "verse_en": "Give relatives their due, and the needy and the stranded travelers, and do not spend wastefully.",
+  "claim_ar": "أعطوا الأقارب والمساكين وابن السبيل حقوقهم، ولا تسرفوا في الإنفاق.",
+  "claim_en": "Give relatives, the needy, and travelers their rights, and do not spend wastefully.",
+  "split": "tune"
+ },
+ {
+  "key": "8:34",
+  "verse_ar": "وَمَا لَهُمۡ أَلَّا يُعَذِّبَهُمُ ٱللَّهُ وَهُمۡ يَصُدُّونَ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ وَمَا كَانُوٓاْ أَوۡلِيَآءَهُۥٓۚ إِنۡ أَوۡلِيَآؤُهُۥٓ إِلَّا ٱلۡمُتَّقُونَ وَلَٰكِنَّ أَكۡثَرَهُمۡ لَا يَعۡلَمُونَ",
+  "verse_en": "Why should Allah not punish them when they prevent [people] from the Sacred Mosque, although they are not its rightful guardians? Its rightful guardians are only those who fear Allah, but most of them do not know.",
+  "claim_ar": "ما الذي يمنع الله من عذابهم وهم يصدون الناس عن المسجد الحرام؟",
+  "claim_en": "What prevents God from punishing them when they hinder people from the Sacred Mosque?",
+  "split": "tune"
+ },
+ {
+  "key": "29:62",
+  "verse_ar": "ٱللَّهُ يَبۡسُطُ ٱلرِّزۡقَ لِمَن يَشَآءُ مِنۡ عِبَادِهِۦ وَيَقۡدِرُ لَهُۥٓۚ إِنَّ ٱللَّهَ بِكُلِّ شَيۡءٍ عَلِيمٞ",
+  "verse_en": "Allah extends provision to whom He wills of His slaves or restricts it. Indeed, Allah is All-Knowing of everything.",
+  "claim_ar": "الله يوسع الرزق لمن يشاء من عباده ويضيقه على من يشاء، وهو عليم بكل شيء.",
+  "claim_en": "God expands and restricts provision for whomever He wills among His servants, for He knows all things.",
+  "split": "holdout"
+ },
+ {
+  "key": "7:52",
+  "verse_ar": "وَلَقَدۡ جِئۡنَٰهُم بِكِتَٰبٖ فَصَّلۡنَٰهُ عَلَىٰ عِلۡمٍ هُدٗى وَرَحۡمَةٗ لِّقَوۡمٖ يُؤۡمِنُونَ",
+  "verse_en": "We have brought them a Book which We have explained in detail on the basis of knowledge, as guidance and mercy for people who believe.",
+  "claim_ar": "لقد جئناهم بكتاب فصلناه بعلم وهدى ورحمة للمؤمنين الصادقين.",
+  "claim_en": "We brought them a book detailed with knowledge, guidance, and mercy for sincere believers.",
+  "split": "tune"
+ },
+ {
+  "key": "9:60",
+  "verse_ar": "۞ إِنَّمَا ٱلصَّدَقَٰتُ لِلۡفُقَرَآءِ وَٱلۡمَسَٰكِينِ وَٱلۡعَٰمِلِينَ عَلَيۡهَا وَٱلۡمُؤَلَّفَةِ قُلُوبُهُمۡ وَفِي ٱلرِّقَابِ وَٱلۡغَٰرِمِينَ وَفِي سَبِيلِ ٱللَّهِ وَٱبۡنِ ٱلسَّبِيلِۖ فَرِيضَةٗ مِّنَ ٱللَّهِۗ وَٱللَّهُ عَلِيمٌ حَكِيمٞ",
+  "verse_en": "Alms [i.e., zakah] is only for the poor and the needy; those in charge of it; those whose hearts may be attracted [to Islam]; for freeing those in bondage; for those in debt; for the cause of Allah; and for [the stranded] traveler – as ordained by Allah, for Allah is All-Knowing, All-Wise.",
+  "claim_ar": "الصدقات تُصرف لمستحقيها من الفقراء والمساكين والعاملين عليها ومن تتألف قلوبهم وفي تحرير الرقاب والغارمين وفي سبيل الله وابن السبيل.",
+  "claim_en": "Charity is for the poor, the needy, those who collect it, those whose hearts are to be reconciled, freeing captives, debtors, God's cause, and travelers.",
+  "split": "tune"
+ },
+ {
+  "key": "25:23",
+  "verse_ar": "وَقَدِمۡنَآ إِلَىٰ مَا عَمِلُواْ مِنۡ عَمَلٖ فَجَعَلۡنَٰهُ هَبَآءٗ مَّنثُورًا",
+  "verse_en": "We will turn to whatever deeds they did and turn them into scattered dust.",
+  "claim_ar": "سنأتي إلى أعمالهم التي عملوها فنجعلها لا قيمة لها يوم القيامة.",
+  "claim_en": "We will examine their deeds and render them worthless on the Day of Judgment.",
+  "split": "holdout"
+ },
+ {
+  "key": "2:185",
+  "verse_ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+  "verse_en": "Ramadān is a month in which the Qur’an was sent down as a guidance for mankind and as clear signs that show the right way and distinguish between right and wrong. So whoever of you witnesses this month, should fast. But if anyone is ill or on a journey, he should make up for those days. Allah wants ease for you and does not want hardship for you, so that you may complete the prescribed number of days, and proclaim the greatness of Allah for having guided you, and so that you may be grateful.",
+  "claim_ar": "في رمضان نزل القرآن هدى للناس، فمن حضر الشهر فليصمه، إلا المريض أو المسافر.",
+  "claim_en": "The Qur'an was revealed in Ramadan as guidance; whoever witnesses the month should fast, except the sick or traveling.",
+  "split": "tune"
+ },
+ {
+  "key": "2:184",
+  "verse_ar": "أَيَّامٗا مَّعۡدُودَٰتٖۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدۡيَةٞ طَعَامُ مِسۡكِينٖۖ فَمَن تَطَوَّعَ خَيۡرٗا فَهُوَ خَيۡرٞ لَّهُۥۚ وَأَن تَصُومُواْ خَيۡرٞ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
+  "verse_en": "[Fasting is for] a specific number of days; but if anyone of you is ill or on a journey, he should make up for those days. As for those who can only fast with hardship, compensation can be made by feeding a needy person [for each day]. But anyone who volunteers to give more, it is better for him. Yet fasting is better for you, if only you knew.",
+  "claim_ar": "الصيام أيام معدودة، فمن كان مريضاً أو مسافراً فليصم أياماً أخرى، والصيام خير لكم.",
+  "claim_en": "Fasting is for a limited number of days. If you are sick or traveling, fast other days. Fasting is better for you.",
+  "split": "tune"
+ },
+ {
+  "key": "42:25",
+  "verse_ar": "وَهُوَ ٱلَّذِي يَقۡبَلُ ٱلتَّوۡبَةَ عَنۡ عِبَادِهِۦ وَيَعۡفُواْ عَنِ ٱلسَّيِّـَٔاتِ وَيَعۡلَمُ مَا تَفۡعَلُونَ",
+  "verse_en": "It is He Who accepts repentance from His slaves and pardons sins, and He knows all what you do.",
+  "claim_ar": "الله يقبل توبة عباده عن الذنوب ويمحو السيئات ويعلم كل ما يفعلون.",
+  "claim_en": "God accepts His servants' repentance, forgives sins, and knows all their actions.",
+  "split": "holdout"
+ },
+ {
+  "key": "16:8",
+  "verse_ar": "وَٱلۡخَيۡلَ وَٱلۡبِغَالَ وَٱلۡحَمِيرَ لِتَرۡكَبُوهَا وَزِينَةٗۚ وَيَخۡلُقُ مَا لَا تَعۡلَمُونَ",
+  "verse_en": "And [He created] the horses, mules and donkeys for you to ride and for adornment, and He creates other things that you do not know.",
+  "claim_ar": "الله خلق الخيل والبغال والحمير لتركبوها ولتكون زينة لكم في الدنيا.",
+  "claim_en": "God created horses, mules, and donkeys for you to ride and for adornment in this world.",
+  "split": "tune"
+ },
+ {
+  "key": "17:7",
+  "verse_ar": "إِنۡ أَحۡسَنتُمۡ أَحۡسَنتُمۡ لِأَنفُسِكُمۡۖ وَإِنۡ أَسَأۡتُمۡ فَلَهَاۚ فَإِذَا جَآءَ وَعۡدُ ٱلۡأٓخِرَةِ لِيَسُـُٔواْ وُجُوهَكُمۡ وَلِيَدۡخُلُواْ ٱلۡمَسۡجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٖ وَلِيُتَبِّرُواْ مَا عَلَوۡاْ تَتۡبِيرًا",
+  "verse_en": "If you do good, it is for your own good, but if you do evil, it is to your own loss. Then when the second warning came to pass, your enemies would disgrace and suppress you, and enter the Temple [of Jerusalem] as they entered it the first time, and utterly destroy whatever fell into their power.",
+  "claim_ar": "فعل الخير يعود نفعه على الفاعل، وفعل الشر يعود ضرره عليه.",
+  "claim_en": "Doing good benefits the doer, while doing evil harms the doer.",
+  "split": "tune"
+ },
+ {
+  "key": "2:123",
+  "verse_ar": "وَٱتَّقُواْ يَوۡمٗا لَّا تَجۡزِي نَفۡسٌ عَن نَّفۡسٖ شَيۡـٔٗا وَلَا يُقۡبَلُ مِنۡهَا عَدۡلٞ وَلَا تَنفَعُهَا شَفَٰعَةٞ وَلَا هُمۡ يُنصَرُونَ",
+  "verse_en": "And beware of the Day when no one will avail another in any way; no compensation will be accepted, and no intercession will benefit it, nor will they be helped.",
+  "claim_ar": "يوم القيامة، لا تُغني نفس عن نفس شيئًا، ولا يُقبل فداء، ولا تنفع شفاعة.",
+  "claim_en": "On Judgment Day, no soul can help another, no ransom will be accepted, and no intercession will be useful.",
+  "split": "holdout"
+ },
+ {
+  "key": "41:46",
+  "verse_ar": "مَّنۡ عَمِلَ صَٰلِحٗا فَلِنَفۡسِهِۦۖ وَمَنۡ أَسَآءَ فَعَلَيۡهَاۗ وَمَا رَبُّكَ بِظَلَّٰمٖ لِّلۡعَبِيدِ",
+  "verse_en": "Whoever does a righteous deed, it is to his own benefit; and whoever does an evil deed, it is to his own loss. Your Lord is not unjust to His slaves.",
+  "claim_ar": "الأعمال الصالحة تعود بالنفع على فاعلها، والسيئة تضر مرتكبها.",
+  "claim_en": "Good deeds benefit the doer, while bad deeds harm the one who commits them.",
+  "split": "tune"
+ },
+ {
+  "key": "29:48",
+  "verse_ar": "وَمَا كُنتَ تَتۡلُواْ مِن قَبۡلِهِۦ مِن كِتَٰبٖ وَلَا تَخُطُّهُۥ بِيَمِينِكَۖ إِذٗا لَّٱرۡتَابَ ٱلۡمُبۡطِلُونَ",
+  "verse_en": "You [O Prophet] never recited any book before this, nor did you write with your hand. Otherwise, the people of falsehood would have raised suspicions.",
+  "claim_ar": "لم تكن تقرأ أي كتاب قبل هذا، ولا تكتب بيمينك، حتى لا يشك المبطلون.",
+  "claim_en": "You did not read any book before this, nor did you write with your right hand, so that those who deny the truth would not doubt.",
+  "split": "tune"
+ },
+ {
+  "key": "2:196",
+  "verse_ar": "وَأَتِمُّواْ ٱلۡحَجَّ وَٱلۡعُمۡرَةَ لِلَّهِۚ فَإِنۡ أُحۡصِرۡتُمۡ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۖ وَلَا تَحۡلِقُواْ رُءُوسَكُمۡ حَتَّىٰ يَبۡلُغَ ٱلۡهَدۡيُ مَحِلَّهُۥۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ بِهِۦٓ أَذٗى مِّن رَّأۡسِهِۦ فَفِدۡيَةٞ مِّن صِيَامٍ أَوۡ صَدَقَةٍ أَوۡ نُسُكٖۚ فَإِذَآ أَمِنتُمۡ فَمَن تَمَتَّعَ بِٱلۡعُمۡرَةِ إِلَى ٱلۡحَجِّ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۚ فَمَن لَّمۡ يَجِدۡ فَصِيَامُ ثَلَٰثَةِ أَيَّامٖ فِي ٱلۡحَجِّ وَسَبۡعَةٍ إِذَا رَجَعۡتُمۡۗ تِلۡكَ عَشَرَةٞ كَامِلَةٞۗ ذَٰلِكَ لِمَن لَّمۡ يَكُنۡ أَهۡلُهُۥ حَاضِرِي ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+  "verse_en": "And Complete Hajj and ‘Umrah for Allah. But if you are prevented, then [offer] whatever sacrificial animal is available, and do not shave your heads until the sacrificial animal reaches its place of sacrifice. But if anyone among you is sick or has an ailment of the scalp [and had his head shaved], then he must compensate by fasting, charity, or a sacrificial offering. And when you are safe, then if anyone takes a break between ‘Umrah and Hajj, he must offer a sacrifice of whatever animal is available. However, if he cannot afford an offering, he should fast for three days during Hajj and seven days upon his return [home], making ten days in all. This is for those who are not residents of the Sacred Mosque. And fear Allah, and know that Allah is severe in retribution.",
+  "claim_ar": "أتموا الحج والعمرة لله، وإذا منعتم، فاذبحوا ما تيسر من الهدي، ولا تحلقوا رؤوسكم.",
+  "claim_en": "Complete the Hajj and Umrah for God. If prevented, offer an easy sacrifice and do not shave your heads.",
+  "split": "holdout"
+ },
+ {
+  "key": "41:49",
+  "verse_ar": "لَّا يَسۡـَٔمُ ٱلۡإِنسَٰنُ مِن دُعَآءِ ٱلۡخَيۡرِ وَإِن مَّسَّهُ ٱلشَّرُّ فَيَـُٔوسٞ قَنُوطٞ",
+  "verse_en": "Man never tires of asking for good, but if evil touches him, he is desperate and despondent.",
+  "claim_ar": "الإنسان لا يمل من طلب الخير، وإذا أصابه الشر يصيبه اليأس والقنوط.",
+  "claim_en": "Humans never tire of seeking good, but when evil befalls them, they become despairing.",
+  "split": "tune"
+ },
+ {
+  "key": "38:69",
+  "verse_ar": "مَا كَانَ لِيَ مِنۡ عِلۡمِۭ بِٱلۡمَلَإِ ٱلۡأَعۡلَىٰٓ إِذۡ يَخۡتَصِمُونَ",
+  "verse_en": "[And say], “I had no knowledge of the highest assembly [of angels] when they were disputing [about Adam].",
+  "claim_ar": "لم يكن عندي علم بالملأ الأعلى عندما كانوا يختصمون في أمر عظيم.",
+  "claim_en": "I had no knowledge of the exalted assembly when they were disputing a great matter.",
+  "split": "tune"
+ },
+ {
+  "key": "30:37",
+  "verse_ar": "أَوَلَمۡ يَرَوۡاْ أَنَّ ٱللَّهَ يَبۡسُطُ ٱلرِّزۡقَ لِمَن يَشَآءُ وَيَقۡدِرُۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ لِّقَوۡمٖ يُؤۡمِنُونَ",
+  "verse_en": "Do they not see that Allah extends provision to whom He wills or restricts it? Indeed, there are signs in this for people who believe.",
+  "claim_ar": "الله يوسع الرزق لمن يشاء ويضيقه على من يشاء لحكمة يعلمها.",
+  "claim_en": "God expands or restricts provision for whomever He wills, for a wisdom He knows.",
+  "split": "holdout"
+ },
+ {
+  "key": "24:22",
+  "verse_ar": "وَلَا يَأۡتَلِ أُوْلُواْ ٱلۡفَضۡلِ مِنكُمۡ وَٱلسَّعَةِ أَن يُؤۡتُوٓاْ أُوْلِي ٱلۡقُرۡبَىٰ وَٱلۡمَسَٰكِينَ وَٱلۡمُهَٰجِرِينَ فِي سَبِيلِ ٱللَّهِۖ وَلۡيَعۡفُواْ وَلۡيَصۡفَحُوٓاْۗ أَلَا تُحِبُّونَ أَن يَغۡفِرَ ٱللَّهُ لَكُمۡۚ وَٱللَّهُ غَفُورٞ رَّحِيمٌ",
+  "verse_en": "The people of virtue and affluence among you should not swear to withhold their aid from their relatives, the needy and the emigrants in the cause of Allah. Let them pardon and overlook. Do you not like to be forgiven by Allah? For Allah is All-Forgiving, Most Merciful.",
+  "claim_ar": "لا تمتنعوا عن مساعدة الأقارب والمساكين والمهاجرين، واغفروا لغيركم ليغفر الله لكم.",
+  "claim_en": "Do not refrain from helping relatives, the poor, and immigrants; forgive others so God may forgive you.",
+  "split": "tune"
+ },
+ {
+  "key": "11:85",
+  "verse_ar": "وَيَٰقَوۡمِ أَوۡفُواْ ٱلۡمِكۡيَالَ وَٱلۡمِيزَانَ بِٱلۡقِسۡطِۖ وَلَا تَبۡخَسُواْ ٱلنَّاسَ أَشۡيَآءَهُمۡ وَلَا تَعۡثَوۡاْ فِي ٱلۡأَرۡضِ مُفۡسِدِينَ",
+  "verse_en": "O my people, give full measure and weight with justice and do not defraud people of their dues, nor go about spreading corruption on earth.",
+  "claim_ar": "أوفوا المكيال والميزان بالعدل، ولا تنقصوا الناس حقوقهم، ولا تفسدوا في الأرض.",
+  "claim_en": "Give full measure and weight justly, do not cheat people of their due, and do not spread corruption on Earth.",
+  "split": "tune"
+ },
+ {
+  "key": "34:39",
+  "verse_ar": "قُلۡ إِنَّ رَبِّي يَبۡسُطُ ٱلرِّزۡقَ لِمَن يَشَآءُ مِنۡ عِبَادِهِۦ وَيَقۡدِرُ لَهُۥۚ وَمَآ أَنفَقۡتُم مِّن شَيۡءٖ فَهُوَ يُخۡلِفُهُۥۖ وَهُوَ خَيۡرُ ٱلرَّٰزِقِينَ",
+  "verse_en": "Say, “My Lord extends provision to whom He wills of His slaves or restricts it. Whatever you spend in charity, He will compensate for it, for He is the Best of Providers.”",
+  "claim_ar": "الله يوسع الرزق لمن يشاء ويضيقه على من يشاء، وما تنفقوه يعوضه.",
+  "claim_en": "God expands provision for whom He wills and restricts it for whom He wills; whatever you spend, He replaces.",
+  "split": "holdout"
+ },
+ {
+  "key": "18:79",
+  "verse_ar": "أَمَّا ٱلسَّفِينَةُ فَكَانَتۡ لِمَسَٰكِينَ يَعۡمَلُونَ فِي ٱلۡبَحۡرِ فَأَرَدتُّ أَنۡ أَعِيبَهَا وَكَانَ وَرَآءَهُم مَّلِكٞ يَأۡخُذُ كُلَّ سَفِينَةٍ غَصۡبٗا",
+  "verse_en": "“As for the ship, it belonged to some poor people who worked at sea. I wanted to make it defective because there was a king ahead of them who seized every [good] ship by force.",
+  "claim_ar": "السفينة كانت ملكًا لمساكين يعملون في البحر، فأردت إتلافها لأن ملكًا ظالمًا كان يأخذ كل سفينة جيدة.",
+  "claim_en": "The boat belonged to poor people working at sea. I damaged it because a tyrannical king was seizing every good boat.",
+  "split": "tune"
+ },
+ {
+  "key": "65:2",
+  "verse_ar": "فَإِذَا بَلَغۡنَ أَجَلَهُنَّ فَأَمۡسِكُوهُنَّ بِمَعۡرُوفٍ أَوۡ فَارِقُوهُنَّ بِمَعۡرُوفٖ وَأَشۡهِدُواْ ذَوَيۡ عَدۡلٖ مِّنكُمۡ وَأَقِيمُواْ ٱلشَّهَٰدَةَ لِلَّهِۚ ذَٰلِكُمۡ يُوعَظُ بِهِۦ مَن كَانَ يُؤۡمِنُ بِٱللَّهِ وَٱلۡيَوۡمِ ٱلۡأٓخِرِۚ وَمَن يَتَّقِ ٱللَّهَ يَجۡعَل لَّهُۥ مَخۡرَجٗا",
+  "verse_en": "Then when they have approached the end of their waiting period, either retain them honorably or part with them honorably. Call two just men from among yourselves as witnesses, and give true testimony for the sake of Allah. This is an exhortation for those who believe in Allah and the Last Day. Whoever fears Allah, He will make a way out for him,",
+  "claim_ar": "عند انتهاء عدة المطلقات، إما أن ترجعوهن بمعروف أو تسرحوهن بمعروف، وأشهدوا على ذلك رجلين عدلين.",
+  "claim_en": "When their prescribed period ends, either retain them honorably or separate from them honorably, and take two just witnesses from among you.",
+  "split": "tune"
+ },
+ {
+  "key": "16:90",
+  "verse_ar": "۞ إِنَّ ٱللَّهَ يَأۡمُرُ بِٱلۡعَدۡلِ وَٱلۡإِحۡسَٰنِ وَإِيتَآيِٕ ذِي ٱلۡقُرۡبَىٰ وَيَنۡهَىٰ عَنِ ٱلۡفَحۡشَآءِ وَٱلۡمُنكَرِ وَٱلۡبَغۡيِۚ يَعِظُكُمۡ لَعَلَّكُمۡ تَذَكَّرُونَ",
+  "verse_en": "Allah enjoins justice, kindness, and giving relatives [their dues], and He forbids shameful acts, evil deeds and oppression. He exhorts you, so that you may take heed.",
+  "claim_ar": "الله يأمر بالعدل والإحسان وصلة الأقارب، وينهى عن الفحشاء والمنكر والبغي.",
+  "claim_en": "God commands justice, kindness, and kinship, and forbids immorality, evil, and oppression.",
+  "split": "holdout"
+ },
+ {
+  "key": "21:45",
+  "verse_ar": "قُلۡ إِنَّمَآ أُنذِرُكُم بِٱلۡوَحۡيِۚ وَلَا يَسۡمَعُ ٱلصُّمُّ ٱلدُّعَآءَ إِذَا مَا يُنذَرُونَ",
+  "verse_en": "Say, “I only warn you by divine revelation.” But the deaf cannot hear the call when they are warned.",
+  "claim_ar": "إنذاري لكم هو بالوحي الإلهي، ولكن الصم لا يسمعون الدعوة للتحذير.",
+  "claim_en": "My warning to you comes from divine revelation, but the deaf cannot hear the call to caution.",
+  "split": "tune"
+ },
+ {
+  "key": "17:30",
+  "verse_ar": "إِنَّ رَبَّكَ يَبۡسُطُ ٱلرِّزۡقَ لِمَن يَشَآءُ وَيَقۡدِرُۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرَۢا بَصِيرٗا",
+  "verse_en": "Your Lord extends provision to whom He wills or restricts it. He is All-Aware and All-Seeing of His slaves.",
+  "claim_ar": "ربك يوسع الرزق لمن يشاء ويضيقه، وهو عليم بأحوال عباده وبصير بهم.",
+  "claim_en": "Your Lord expands and restricts provision for whomever He wills, and He is fully aware of His servants' states.",
+  "split": "tune"
+ },
+ {
+  "key": "2:263",
+  "verse_ar": "۞ قَوۡلٞ مَّعۡرُوفٞ وَمَغۡفِرَةٌ خَيۡرٞ مِّن صَدَقَةٖ يَتۡبَعُهَآ أَذٗىۗ وَٱللَّهُ غَنِيٌّ حَلِيمٞ",
+  "verse_en": "Kind words and forgiveness are better than charity followed by hurt. And Allah is Self-Sufficient, Most Forbearing.",
+  "claim_ar": "الكلمة الطيبة والصفح أفضل من الصدقة التي يتبعها أذى للفقير.",
+  "claim_en": "Kind words and forgiveness are better than charity followed by harm to the needy.",
+  "split": "holdout"
+ },
+ {
+  "key": "13:26",
+  "verse_ar": "ٱللَّهُ يَبۡسُطُ ٱلرِّزۡقَ لِمَن يَشَآءُ وَيَقۡدِرُۚ وَفَرِحُواْ بِٱلۡحَيَوٰةِ ٱلدُّنۡيَا وَمَا ٱلۡحَيَوٰةُ ٱلدُّنۡيَا فِي ٱلۡأٓخِرَةِ إِلَّا مَتَٰعٞ",
+  "verse_en": "Allah extends provision to whom He wills or restricts it. They rejoice in the life of this world, although the life of this world, compared to the Hereafter, is nothing but a fleeting pleasure.",
+  "claim_ar": "الله يرزق من يشاء ويقدر، ولا تغرنكم الحياة الدنيا بما فيها من متاع زائل.",
+  "claim_en": "God provides for whom He wills. Do not be deceived by this worldly life and its fleeting pleasures.",
+  "split": "tune"
+ },
+ {
+  "key": "10:69",
+  "verse_ar": "قُلۡ إِنَّ ٱلَّذِينَ يَفۡتَرُونَ عَلَى ٱللَّهِ ٱلۡكَذِبَ لَا يُفۡلِحُونَ",
+  "verse_en": "Say, “Those who fabricate lies against Allah will never succeed.”",
+  "claim_ar": "الذين يختلقون الأكاذيب وينسبونها لله لن ينجحوا في الدنيا ولا الآخرة.",
+  "claim_en": "Those who invent lies and attribute them to God will not succeed in this life or the next.",
+  "split": "tune"
+ },
+ {
+  "key": "46:35",
+  "verse_ar": "فَٱصۡبِرۡ كَمَا صَبَرَ أُوْلُواْ ٱلۡعَزۡمِ مِنَ ٱلرُّسُلِ وَلَا تَسۡتَعۡجِل لَّهُمۡۚ كَأَنَّهُمۡ يَوۡمَ يَرَوۡنَ مَا يُوعَدُونَ لَمۡ يَلۡبَثُوٓاْ إِلَّا سَاعَةٗ مِّن نَّهَارِۭۚ بَلَٰغٞۚ فَهَلۡ يُهۡلَكُ إِلَّا ٱلۡقَوۡمُ ٱلۡفَٰسِقُونَ",
+  "verse_en": "So be patient, as the Messengers of Firm Resolve were patient, and do not seek to hasten [punishment] for them. On the Day when they see what they were warned of, it will be as if they had only stayed [in this world] for an hour of a day. This is a warning. Will anyone be destroyed except the rebellious people?",
+  "claim_ar": "اصبر على الأذى كما صبر الرسل أصحاب العزيمة ولا تستعجل عليهم العقوبة.",
+  "claim_en": "Be patient with harm, as resolute messengers were, and do not hasten their punishment.",
+  "split": "holdout"
+ },
+ {
+  "key": "4:17",
+  "verse_ar": "إِنَّمَا ٱلتَّوۡبَةُ عَلَى ٱللَّهِ لِلَّذِينَ يَعۡمَلُونَ ٱلسُّوٓءَ بِجَهَٰلَةٖ ثُمَّ يَتُوبُونَ مِن قَرِيبٖ فَأُوْلَٰٓئِكَ يَتُوبُ ٱللَّهُ عَلَيۡهِمۡۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمٗا",
+  "verse_en": "Allah only accepts the repentance of those who commit evil out of ignorance, then repent soon thereafter; it is they to whom Allah will turn in forgiveness, for Allah is All-Knowing, All-Wise.",
+  "claim_ar": "الله يقبل توبة من يرتكب الذنب بجهالة ثم يندم ويعود إليه بسرعة.",
+  "claim_en": "God accepts the repentance of those who commit a sin out of ignorance then quickly regret it.",
+  "split": "tune"
+ },
+ {
+  "key": "16:106",
+  "verse_ar": "مَن كَفَرَ بِٱللَّهِ مِنۢ بَعۡدِ إِيمَٰنِهِۦٓ إِلَّا مَنۡ أُكۡرِهَ وَقَلۡبُهُۥ مُطۡمَئِنُّۢ بِٱلۡإِيمَٰنِ وَلَٰكِن مَّن شَرَحَ بِٱلۡكُفۡرِ صَدۡرٗا فَعَلَيۡهِمۡ غَضَبٞ مِّنَ ٱللَّهِ وَلَهُمۡ عَذَابٌ عَظِيمٞ",
+  "verse_en": "Whoever disbelieves in Allah after having believed – except one who is compelled while his heart is firm in faith – but those who embrace disbelief willingly, upon them will be the wrath of Allah, and for them there will be a great punishment.",
+  "claim_ar": "من يرتد عن إيمانه بالله، إلا المكره الذي قلبه مطمئن بالإيمان، فعليه غضب وعذاب عظيم.",
+  "claim_en": "Whoever disbelieves in God after believing, except one forced while their heart is firm in faith, incurs wrath and great punishment.",
+  "split": "tune"
+ },
+ {
+  "key": "4:43",
+  "verse_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تَقۡرَبُواْ ٱلصَّلَوٰةَ وَأَنتُمۡ سُكَٰرَىٰ حَتَّىٰ تَعۡلَمُواْ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِي سَبِيلٍ حَتَّىٰ تَغۡتَسِلُواْۚ وَإِن كُنتُم مَّرۡضَىٰٓ أَوۡ عَلَىٰ سَفَرٍ أَوۡ جَآءَ أَحَدٞ مِّنكُم مِّنَ ٱلۡغَآئِطِ أَوۡ لَٰمَسۡتُمُ ٱلنِّسَآءَ فَلَمۡ تَجِدُواْ مَآءٗ فَتَيَمَّمُواْ صَعِيدٗا طَيِّبٗا فَٱمۡسَحُواْ بِوُجُوهِكُمۡ وَأَيۡدِيكُمۡۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+  "verse_en": "O you who believe, do not approach the prayer while you are intoxicated until you know what you are saying, nor in a state of major impurity – except while passing through [a mosque] – until you take a bath. If you are ill, or on a journey, or have relieved yourselves, or had intercourse with [your] women and find no water, then purify yourselves with clean earth and wipe your faces and hands with it. For Allah is Ever-Pardoning, All-Forgiving.",
+  "claim_ar": "لا تصلوا وأنتم سكارى حتى تفهموا ما تقولون، وتطهروا قبل الصلاة.",
+  "claim_en": "Do not approach prayer while intoxicated until you know what you are saying, and purify yourselves before prayer.",
+  "split": "holdout"
+ },
+ {
+  "key": "20:48",
+  "verse_ar": "إِنَّا قَدۡ أُوحِيَ إِلَيۡنَآ أَنَّ ٱلۡعَذَابَ عَلَىٰ مَن كَذَّبَ وَتَوَلَّىٰ",
+  "verse_en": "It has been revealed to us that the punishment awaits those who reject [the truth] and turn away.’”",
+  "claim_ar": "العذاب ينتظر من كذب وتولى عن الحق الذي أوحى الله به للأنبياء.",
+  "claim_en": "Punishment awaits those who deny and turn away from the truth God revealed to His prophets.",
+  "split": "tune"
+ },
+ {
+  "key": "20:75",
+  "verse_ar": "وَمَن يَأۡتِهِۦ مُؤۡمِنٗا قَدۡ عَمِلَ ٱلصَّٰلِحَٰتِ فَأُوْلَٰٓئِكَ لَهُمُ ٱلدَّرَجَٰتُ ٱلۡعُلَىٰ",
+  "verse_en": "But whoever comes to Him as a believer, having done righteous deeds, it is they who will have the highest ranks:",
+  "claim_ar": "من يأتي مؤمنًا ويعمل الصالحات، فله الدرجات الرفيعة في الآخرة.",
+  "claim_en": "Whoever comes as a believer and performs good deeds will attain the highest ranks in the afterlife.",
+  "split": "tune"
+ },
+ {
+  "key": "2:283",
+  "verse_ar": "۞ وَإِن كُنتُمۡ عَلَىٰ سَفَرٖ وَلَمۡ تَجِدُواْ كَاتِبٗا فَرِهَٰنٞ مَّقۡبُوضَةٞۖ فَإِنۡ أَمِنَ بَعۡضُكُم بَعۡضٗا فَلۡيُؤَدِّ ٱلَّذِي ٱؤۡتُمِنَ أَمَٰنَتَهُۥ وَلۡيَتَّقِ ٱللَّهَ رَبَّهُۥۗ وَلَا تَكۡتُمُواْ ٱلشَّهَٰدَةَۚ وَمَن يَكۡتُمۡهَا فَإِنَّهُۥٓ ءَاثِمٞ قَلۡبُهُۥۗ وَٱللَّهُ بِمَا تَعۡمَلُونَ عَلِيمٞ",
+  "verse_en": "If you are on a journey and find no scribe, then something should be taken as collateral. But if you trust one another, then the debtor should fulfill his trust, and let him fear Allah, his Lord. Do not conceal the testimony, for anyone who conceals it has a sinful heart, and Allah is All-Knowing of what you do.",
+  "claim_ar": "في السفر إن لم تجد كاتبًا للرهن، فليؤدِ من ائتمن أمانته وليتق الله.",
+  "claim_en": "When traveling, if no scribe is found for a pledge, let the entrusted fulfill their trust and fear God.",
+  "split": "holdout"
+ },
+ {
+  "key": "62:9",
+  "verse_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِذَا نُودِيَ لِلصَّلَوٰةِ مِن يَوۡمِ ٱلۡجُمُعَةِ فَٱسۡعَوۡاْ إِلَىٰ ذِكۡرِ ٱللَّهِ وَذَرُواْ ٱلۡبَيۡعَۚ ذَٰلِكُمۡ خَيۡرٞ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
+  "verse_en": "O you who believe, when the call for prayer is made on Friday, then hasten to the remembrance of Allah and leave off trading. That is better for you, if only you knew.",
+  "claim_ar": "عند النداء للصلاة يوم الجمعة، اتركوا التجارة واسعوا لذكر الله.",
+  "claim_en": "When the call to Friday prayer is made, leave trade and hasten to remember God.",
+  "split": "tune"
+ },
+ {
+  "key": "2:48",
+  "verse_ar": "وَٱتَّقُواْ يَوۡمٗا لَّا تَجۡزِي نَفۡسٌ عَن نَّفۡسٖ شَيۡـٔٗا وَلَا يُقۡبَلُ مِنۡهَا شَفَٰعَةٞ وَلَا يُؤۡخَذُ مِنۡهَا عَدۡلٞ وَلَا هُمۡ يُنصَرُونَ",
+  "verse_en": "And fear a Day when no soul will avail another anything, nor intercession will be accepted, nor compensation taken, nor will they be helped.",
+  "claim_ar": "استعد ليوم القيامة، فلن ينفعك أحد، ولا قضاء، ولا شفاعة من غير الله.",
+  "claim_en": "Prepare for Judgment Day; no one can help you, no ransom, no intercession except from God.",
+  "split": "tune"
+ },
+ {
+  "key": "39:32",
+  "verse_ar": "۞ فَمَنۡ أَظۡلَمُ مِمَّن كَذَبَ عَلَى ٱللَّهِ وَكَذَّبَ بِٱلصِّدۡقِ إِذۡ جَآءَهُۥٓۚ أَلَيۡسَ فِي جَهَنَّمَ مَثۡوٗى لِّلۡكَٰفِرِينَ",
+  "verse_en": "Who is then more unjust than he who tells lies about Allah and rejects the truth when it comes to him? Is there no abode for the disbelievers in Hell?",
+  "claim_ar": "لا أحد أظلم ممن يكذب على الله ويكذب بالحق عندما يأتيه.",
+  "claim_en": "No one is more unjust than he who lies about God and denies the truth when it comes to him.",
+  "split": "holdout"
+ },
+ {
+  "key": "2:183",
+  "verse_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُتِبَ عَلَيۡكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبۡلِكُمۡ لَعَلَّكُمۡ تَتَّقُونَ",
+  "verse_en": "O you who believe, fasting is prescribed upon you as it was prescribed upon those who were before you, so that you may become righteous.",
+  "claim_ar": "فرض الله الصيام على المؤمنين كما فرضه على الأمم السابقة لتهذيب نفوسهم.",
+  "claim_en": "God mandated fasting for believers, just as He did for previous nations, to purify their souls.",
+  "split": "tune"
+ },
+ {
+  "key": "4:86",
+  "verse_ar": "وَإِذَا حُيِّيتُم بِتَحِيَّةٖ فَحَيُّواْ بِأَحۡسَنَ مِنۡهَآ أَوۡ رُدُّوهَآۗ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَيۡءٍ حَسِيبًا",
+  "verse_en": "When you are given a greeting, respond with a better greeting or return the same. Indeed, Allah is the Reckoner of all things.",
+  "claim_ar": "عندما يلقي أحد عليكم التحية، ردوا بأفضل منها أو بالمثل.",
+  "claim_en": "When someone greets you, respond with a better greeting or return it equally.",
+  "split": "tune"
+ },
+ {
+  "key": "17:34",
+  "verse_ar": "وَلَا تَقۡرَبُواْ مَالَ ٱلۡيَتِيمِ إِلَّا بِٱلَّتِي هِيَ أَحۡسَنُ حَتَّىٰ يَبۡلُغَ أَشُدَّهُۥۚ وَأَوۡفُواْ بِٱلۡعَهۡدِۖ إِنَّ ٱلۡعَهۡدَ كَانَ مَسۡـُٔولٗا",
+  "verse_en": "Do not approach the property of an orphan except with good [intent], until he reaches maturity; and fulfill the covenant, for you will certainly be questioned about the covenant.",
+  "claim_ar": "لا تقتربوا من مال اليتيم إلا بما هو خير له، وأوفوا بالعهود التي قطعتموها.",
+  "claim_en": "Do not approach the orphan's property except in the best manner, and fulfill your covenants.",
+  "split": "holdout"
+ },
+ {
+  "key": "7:26",
+  "verse_ar": "يَٰبَنِيٓ ءَادَمَ قَدۡ أَنزَلۡنَا عَلَيۡكُمۡ لِبَاسٗا يُوَٰرِي سَوۡءَٰتِكُمۡ وَرِيشٗاۖ وَلِبَاسُ ٱلتَّقۡوَىٰ ذَٰلِكَ خَيۡرٞۚ ذَٰلِكَ مِنۡ ءَايَٰتِ ٱللَّهِ لَعَلَّهُمۡ يَذَّكَّرُونَ",
+  "verse_en": "O children of Adam, We have given you garments that cover your private parts and as an adornment. However, the garment of piety – that is best. That is one of the signs of Allah, so that they may take heed.",
+  "claim_ar": "لقد أنزل الله عليكم لباسًا يستر عورتكم ويزينكم، ولباس التقوى هو خير اللباس.",
+  "claim_en": "God has sent down clothing to cover your nakedness and adorn you, but the garment of piety is best.",
+  "split": "tune"
+ },
+ {
+  "key": "17:23",
+  "verse_ar": "۞ وَقَضَىٰ رَبُّكَ أَلَّا تَعۡبُدُوٓاْ إِلَّآ إِيَّاهُ وَبِٱلۡوَٰلِدَيۡنِ إِحۡسَٰنًاۚ إِمَّا يَبۡلُغَنَّ عِندَكَ ٱلۡكِبَرَ أَحَدُهُمَآ أَوۡ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفّٖ وَلَا تَنۡهَرۡهُمَا وَقُل لَّهُمَا قَوۡلٗا كَرِيمٗا",
+  "verse_en": "Your Lord has ordained that you worship none but Him, and show kindness to parents. If one or both of them reach old age in your care, do not say to them a word of annoyance nor scold them, rather speak to them noble words,",
+  "claim_ar": "يجب عبادة الله وحده والإحسان إلى الوالدين، وعدم إيذائهما بقول أو فعل.",
+  "claim_en": "Worship God alone and be kind to parents, avoiding any hurtful words or actions.",
+  "split": "tune"
+ },
+ {
+  "key": "42:13",
+  "verse_ar": "۞ شَرَعَ لَكُم مِّنَ ٱلدِّينِ مَا وَصَّىٰ بِهِۦ نُوحٗا وَٱلَّذِيٓ أَوۡحَيۡنَآ إِلَيۡكَ وَمَا وَصَّيۡنَا بِهِۦٓ إِبۡرَٰهِيمَ وَمُوسَىٰ وَعِيسَىٰٓۖ أَنۡ أَقِيمُواْ ٱلدِّينَ وَلَا تَتَفَرَّقُواْ فِيهِۚ كَبُرَ عَلَى ٱلۡمُشۡرِكِينَ مَا تَدۡعُوهُمۡ إِلَيۡهِۚ ٱللَّهُ يَجۡتَبِيٓ إِلَيۡهِ مَن يَشَآءُ وَيَهۡدِيٓ إِلَيۡهِ مَن يُنِيبُ",
+  "verse_en": "He has prescribed for you [believers] the same religion which He enjoined upon Noah, and that which We have revealed to you [O Prophet] and that which We enjoined upon Abraham, Moses, and Jesus: “You should uphold the religion and make no divisions therein.” What you are calling the polytheists to is very hard for them. Allah chooses for Himself whom He wills and guides to Himself who turns to Him.",
+  "claim_ar": "لقد شرع الله لكم من الدين ما أوصى به الأنبياء من قبل، وهو إقامة الدين وعدم التفرق فيه.",
+  "claim_en": "God has ordained for you the same religion He enjoined upon previous prophets: establish the faith and do not be divided.",
+  "split": "holdout"
+ },
+ {
+  "key": "30:60",
+  "verse_ar": "فَٱصۡبِرۡ إِنَّ وَعۡدَ ٱللَّهِ حَقّٞۖ وَلَا يَسۡتَخِفَّنَّكَ ٱلَّذِينَ لَا يُوقِنُونَ",
+  "verse_en": "So be patient, for Allah’s promise is true, and do not let those who have no faith discourage you.",
+  "claim_ar": "اصبر على الحق فإن وعد الله بالجزاء حق، ولا تتبع غير الموقنين.",
+  "claim_en": "Be patient, for God's promise of reward is true; do not follow those who doubt.",
+  "split": "tune"
+ },
+ {
+  "key": "24:61",
+  "verse_ar": "لَّيۡسَ عَلَى ٱلۡأَعۡمَىٰ حَرَجٞ وَلَا عَلَى ٱلۡأَعۡرَجِ حَرَجٞ وَلَا عَلَى ٱلۡمَرِيضِ حَرَجٞ وَلَا عَلَىٰٓ أَنفُسِكُمۡ أَن تَأۡكُلُواْ مِنۢ بُيُوتِكُمۡ أَوۡ بُيُوتِ ءَابَآئِكُمۡ أَوۡ بُيُوتِ أُمَّهَٰتِكُمۡ أَوۡ بُيُوتِ إِخۡوَٰنِكُمۡ أَوۡ بُيُوتِ أَخَوَٰتِكُمۡ أَوۡ بُيُوتِ أَعۡمَٰمِكُمۡ أَوۡ بُيُوتِ عَمَّٰتِكُمۡ أَوۡ بُيُوتِ أَخۡوَٰلِكُمۡ أَوۡ بُيُوتِ خَٰلَٰتِكُمۡ أَوۡ مَا مَلَكۡتُم مَّفَاتِحَهُۥٓ أَوۡ صَدِيقِكُمۡۚ لَيۡسَ عَلَيۡكُمۡ جُنَاحٌ أَن تَأۡكُلُواْ جَمِيعًا أَوۡ أَشۡتَاتٗاۚ فَإِذَا دَخَلۡتُم بُيُوتٗا فَسَلِّمُواْ عَلَىٰٓ أَنفُسِكُمۡ تَحِيَّةٗ مِّنۡ عِندِ ٱللَّهِ مُبَٰرَكَةٗ طَيِّبَةٗۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَعۡقِلُونَ",
+  "verse_en": "There is no blame on a blind person, nor on the lame, nor on the sick, nor on yourselves if you eat from your houses or from your fathers’ houses or your mothers’ houses or your brothers’ houses or your sisters’ houses or your paternal uncles’ houses, or your paternal aunts’ houses or your maternal uncles’ houses or your maternal aunts’ houses or from the houses the keys of which are in your possession, or your friends’ houses. There is no blame on you if you eat together or separately. But when you enter houses, greet one another with greetings of peace from Allah, which is blessed and delightful. This is how Allah makes the verses clear to you, so that you may understand.",
+  "claim_ar": "لا حرج على الأعمى أو الأعرج أو المريض، ولا عليكم أن تأكلوا من بيوت أقاربكم أو أصدقائكم.",
+  "claim_en": "There is no blame on the blind, the lame, or the sick, nor on you for eating from your relatives' or friends' homes.",
+  "split": "tune"
+ },
+ {
+  "key": "9:103",
+  "verse_ar": "خُذۡ مِنۡ أَمۡوَٰلِهِمۡ صَدَقَةٗ تُطَهِّرُهُمۡ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيۡهِمۡۖ إِنَّ صَلَوٰتَكَ سَكَنٞ لَّهُمۡۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+  "verse_en": "Take charity from their wealth [O Prophet] to cleanse and purify them, and pray for them. Your prayer is a source of comfort for them. And Allah is All-Hearing, All-Knowing.",
+  "claim_ar": "جمع الزكاة يطهر النفوس ويزكيها، ودعاء الرسول يجلب الطمأنينة.",
+  "claim_en": "Collecting charity purifies souls, and the Messenger's prayer brings peace.",
+  "split": "holdout"
+ },
+ {
+  "key": "42:16",
+  "verse_ar": "وَٱلَّذِينَ يُحَآجُّونَ فِي ٱللَّهِ مِنۢ بَعۡدِ مَا ٱسۡتُجِيبَ لَهُۥ حُجَّتُهُمۡ دَاحِضَةٌ عِندَ رَبِّهِمۡ وَعَلَيۡهِمۡ غَضَبٞ وَلَهُمۡ عَذَابٞ شَدِيدٌ",
+  "verse_en": "As for those who argue about [the religion of] Allah after it has been accepted [by many], their argument carries no weight with their Lord; they have incurred [His] wrath, and for them there will be severe punishment.",
+  "claim_ar": "من يجادل في دين الله بعدما استجاب الناس له، فحجته باطلة وعليه عذاب شديد.",
+  "claim_en": "Those who dispute about God's religion after people have accepted it, their arguments are void, and they face severe punishment.",
+  "split": "tune"
+ },
+ {
+  "key": "10:59",
+  "verse_ar": "قُلۡ أَرَءَيۡتُم مَّآ أَنزَلَ ٱللَّهُ لَكُم مِّن رِّزۡقٖ فَجَعَلۡتُم مِّنۡهُ حَرَامٗا وَحَلَٰلٗا قُلۡ ءَآللَّهُ أَذِنَ لَكُمۡۖ أَمۡ عَلَى ٱللَّهِ تَفۡتَرُونَ",
+  "verse_en": "Say [to the pagans], “What do you think about the provision that Allah has sent down to you, of which you made some unlawful and some lawful.” Say, “Has Allah given you permission or are you fabricating lies against Allah?”",
+  "claim_ar": "لا يحق لأحد أن يحدد الحلال والحرام في رزق الله دون إذنه.",
+  "claim_en": "No one has the right to declare lawful or unlawful what God has provided without His permission.",
+  "split": "tune"
+ },
+ {
+  "key": "4:114",
+  "verse_ar": "۞ لَّا خَيۡرَ فِي كَثِيرٖ مِّن نَّجۡوَىٰهُمۡ إِلَّا مَنۡ أَمَرَ بِصَدَقَةٍ أَوۡ مَعۡرُوفٍ أَوۡ إِصۡلَٰحِۭ بَيۡنَ ٱلنَّاسِۚ وَمَن يَفۡعَلۡ ذَٰلِكَ ٱبۡتِغَآءَ مَرۡضَاتِ ٱللَّهِ فَسَوۡفَ نُؤۡتِيهِ أَجۡرًا عَظِيمٗا",
+  "verse_en": "There is no good in much of their private talks, except for one who enjoins charity, kindness, or reconciliation between people. Anyone who does that, seeking Allah’s pleasure, We will give him a great reward.",
+  "claim_ar": "لا خير في الأحاديث السرية إلا إذا كانت تحث على الخير أو إصلاح ذات البين.",
+  "claim_en": "There is no good in secret talks unless they encourage charity, good deeds, or reconciliation.",
+  "split": "holdout"
+ },
+ {
+  "key": "4:92",
+  "verse_ar": "وَمَا كَانَ لِمُؤۡمِنٍ أَن يَقۡتُلَ مُؤۡمِنًا إِلَّا خَطَـٔٗاۚ وَمَن قَتَلَ مُؤۡمِنًا خَطَـٔٗا فَتَحۡرِيرُ رَقَبَةٖ مُّؤۡمِنَةٖ وَدِيَةٞ مُّسَلَّمَةٌ إِلَىٰٓ أَهۡلِهِۦٓ إِلَّآ أَن يَصَّدَّقُواْۚ فَإِن كَانَ مِن قَوۡمٍ عَدُوّٖ لَّكُمۡ وَهُوَ مُؤۡمِنٞ فَتَحۡرِيرُ رَقَبَةٖ مُّؤۡمِنَةٖۖ وَإِن كَانَ مِن قَوۡمِۭ بَيۡنَكُمۡ وَبَيۡنَهُم مِّيثَٰقٞ فَدِيَةٞ مُّسَلَّمَةٌ إِلَىٰٓ أَهۡلِهِۦ وَتَحۡرِيرُ رَقَبَةٖ مُّؤۡمِنَةٖۖ فَمَن لَّمۡ يَجِدۡ فَصِيَامُ شَهۡرَيۡنِ مُتَتَابِعَيۡنِ تَوۡبَةٗ مِّنَ ٱللَّهِۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمٗا",
+  "verse_en": "It is not for a believer to kill another believer except by mistake. Whoever kills a believer by mistake must free a believing slave and pay blood money to his family, unless they waive it as an act of charity. But if the victim was a believer and belonged to people at war with you, then a believing slave must be freed. If he belonged to a people with whom you have a treaty, then blood money must be paid to his family and the freeing of a believing slave. Anyone who is unable must fast for two consecutive months by way of repentance to Allah. And Allah is All-Knowing, All-Wise.",
+  "claim_ar": "لا يجوز لمؤمن قتل مؤمن إلا بالخطأ، وعليه تحرير رقبة مؤمنة ودفع دية.",
+  "claim_en": "A believer must not kill another believer by mistake. The penalty is freeing a believing slave and paying blood money.",
+  "split": "tune"
+ },
+ {
+  "key": "4:36",
+  "verse_ar": "۞ وَٱعۡبُدُواْ ٱللَّهَ وَلَا تُشۡرِكُواْ بِهِۦ شَيۡـٔٗاۖ وَبِٱلۡوَٰلِدَيۡنِ إِحۡسَٰنٗا وَبِذِي ٱلۡقُرۡبَىٰ وَٱلۡيَتَٰمَىٰ وَٱلۡمَسَٰكِينِ وَٱلۡجَارِ ذِي ٱلۡقُرۡبَىٰ وَٱلۡجَارِ ٱلۡجُنُبِ وَٱلصَّاحِبِ بِٱلۡجَنۢبِ وَٱبۡنِ ٱلسَّبِيلِ وَمَا مَلَكَتۡ أَيۡمَٰنُكُمۡۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخۡتَالٗا فَخُورًا",
+  "verse_en": "Worship Allah and do not associate any partners with Him. Be kind to parents, relatives, orphans, the needy, near and distant neighbors, close friends, wayfarers, and slaves whom you own. For Allah does not like those who are arrogant, boastful,",
+  "claim_ar": "اعبدوا الله وحده ولا تشركوا به شيئاً، وأحسنوا إلى الوالدين وذوي القربى والمحتاجين والجيران.",
+  "claim_en": "Worship God alone and associate nothing with Him; be kind to parents, relatives, the needy, and neighbors.",
+  "split": "tune"
+ },
+ {
+  "key": "16:97",
+  "verse_ar": "مَنۡ عَمِلَ صَٰلِحٗا مِّن ذَكَرٍ أَوۡ أُنثَىٰ وَهُوَ مُؤۡمِنٞ فَلَنُحۡيِيَنَّهُۥ حَيَوٰةٗ طَيِّبَةٗۖ وَلَنَجۡزِيَنَّهُمۡ أَجۡرَهُم بِأَحۡسَنِ مَا كَانُواْ يَعۡمَلُونَ",
+  "verse_en": "Whoever does righteous deeds, male or female, while being a believer, We will surely grant him a good life, and We will surely reward them according to the best of their deeds.",
+  "claim_ar": "من يعمل عملًا صالحًا وهو مؤمن، فسيعيش حياة سعيدة ويجازى بأحسن عمله.",
+  "claim_en": "Whoever does good deeds while believing will live a pleasant life and be rewarded for their best actions.",
+  "split": "holdout"
+ },
+ {
+  "key": "103:3",
+  "verse_ar": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ",
+  "verse_en": "except those who believe and do righteous deeds, and exhort one another to the truth and exhort one another to patience.",
+  "claim_ar": "النجاة من الخسارة تكون بالإيمان، العمل الصالح، والتواصي بالحق والصبر.",
+  "claim_en": "Salvation from loss is through faith, good deeds, and advising each other to truth and patience.",
+  "split": "tune"
+ },
+ {
+  "key": "30:6",
+  "verse_ar": "وَعۡدَ ٱللَّهِۖ لَا يُخۡلِفُ ٱللَّهُ وَعۡدَهُۥ وَلَٰكِنَّ أَكۡثَرَ ٱلنَّاسِ لَا يَعۡلَمُونَ",
+  "verse_en": "This is the promise of Allah. Allah never breaks His promise, but most people do not know.",
+  "claim_ar": "وعد الله حق ولا يخلف وعده، ولكن أغلب الناس لا يعلمون بذلك.",
+  "claim_en": "God's promise is true, and He does not break His promise, but most people do not know this.",
+  "split": "tune"
+ },
+ {
+  "key": "16:48",
+  "verse_ar": "أَوَلَمۡ يَرَوۡاْ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَيۡءٖ يَتَفَيَّؤُاْ ظِلَٰلُهُۥ عَنِ ٱلۡيَمِينِ وَٱلشَّمَآئِلِ سُجَّدٗا لِّلَّهِ وَهُمۡ دَٰخِرُونَ",
+  "verse_en": "Do they not see the things that Allah has created, how their shadows incline to the right and left, prostrating to Allah in all humility?",
+  "claim_ar": "انظروا إلى ظلال الأشياء كيف تتغير وتخضع لأمر الله وحده.",
+  "claim_en": "Observe how the shadows of things change and submit to God's command alone.",
+  "split": "holdout"
+ },
+ {
+  "key": "4:128",
+  "verse_ar": "وَإِنِ ٱمۡرَأَةٌ خَافَتۡ مِنۢ بَعۡلِهَا نُشُوزًا أَوۡ إِعۡرَاضٗا فَلَا جُنَاحَ عَلَيۡهِمَآ أَن يُصۡلِحَا بَيۡنَهُمَا صُلۡحٗاۚ وَٱلصُّلۡحُ خَيۡرٞۗ وَأُحۡضِرَتِ ٱلۡأَنفُسُ ٱلشُّحَّۚ وَإِن تُحۡسِنُواْ وَتَتَّقُواْ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعۡمَلُونَ خَبِيرٗا",
+  "verse_en": "If a woman fears ill-treatment or indifference on her husband’s part, there is no blame on them to reach an amicable reconciliation between themselves, for reconciliation is best, even though human souls are prone to avarice. If you do good and fear Allah, Allah is All-Aware of what you do.",
+  "claim_ar": "إذا خافت الزوجة سوء معاملة من زوجها، فالصلح بينهما خير، والله خبير بأعمالكم.",
+  "claim_en": "If a wife fears ill-treatment from her husband, reconciliation is best, and God is aware of your deeds.",
+  "split": "tune"
+ },
+ {
+  "key": "42:12",
+  "verse_ar": "لَهُۥ مَقَالِيدُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۖ يَبۡسُطُ ٱلرِّزۡقَ لِمَن يَشَآءُ وَيَقۡدِرُۚ إِنَّهُۥ بِكُلِّ شَيۡءٍ عَلِيمٞ",
+  "verse_en": "To Him belong the keys of the heavens and earth; He extends provision to whom He wills or restricts it. Indeed, He is All-Knowing of all things.",
+  "claim_ar": "له مفاتيح السموات والأرض، يوسع الرزق لمن يشاء ويضيقه، وهو عليم بكل شيء.",
+  "claim_en": "He holds the keys of the heavens and earth, expanding and restricting provision for whomever He wills, and He knows all things.",
+  "split": "tune"
+ },
+ {
+  "key": "13:25",
+  "verse_ar": "وَٱلَّذِينَ يَنقُضُونَ عَهۡدَ ٱللَّهِ مِنۢ بَعۡدِ مِيثَٰقِهِۦ وَيَقۡطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفۡسِدُونَ فِي ٱلۡأَرۡضِ أُوْلَٰٓئِكَ لَهُمُ ٱللَّعۡنَةُ وَلَهُمۡ سُوٓءُ ٱلدَّارِ",
+  "verse_en": "As for those who break the covenant of Allah after it has been ratified, and sever the ties that Allah has commanded to be maintained, and spread corruption in the land – it is they who are cursed, and for them there will be the worst abode.",
+  "claim_ar": "الذين ينقضون العهود ويفسدون في الأرض يستحقون لعنة الله وسوء المصير.",
+  "claim_en": "Those who break covenants and spread corruption on Earth deserve God's curse and a terrible end.",
+  "split": "holdout"
+ },
+ {
+  "key": "33:72",
+  "verse_ar": "إِنَّا عَرَضۡنَا ٱلۡأَمَانَةَ عَلَى ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَٱلۡجِبَالِ فَأَبَيۡنَ أَن يَحۡمِلۡنَهَا وَأَشۡفَقۡنَ مِنۡهَا وَحَمَلَهَا ٱلۡإِنسَٰنُۖ إِنَّهُۥ كَانَ ظَلُومٗا جَهُولٗا",
+  "verse_en": "Indeed, We offered the Trust to the heavens, the earth, and the mountains, yet they refused to bear it and were afraid of it. But man assumed it; he is indeed wrongful and ignorant.",
+  "claim_ar": "الإنسان تحمل الأمانة العظيمة التي رفضت السماوات والأرض حملها.",
+  "claim_en": "Humans took on the great trust that the heavens and earth declined to bear.",
+  "split": "tune"
+ },
+ {
+  "key": "9:104",
+  "verse_ar": "أَلَمۡ يَعۡلَمُوٓاْ أَنَّ ٱللَّهَ هُوَ يَقۡبَلُ ٱلتَّوۡبَةَ عَنۡ عِبَادِهِۦ وَيَأۡخُذُ ٱلصَّدَقَٰتِ وَأَنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+  "verse_en": "Do they not know that it is Allah Who accepts the repentance of His slaves and accepts their charities, and that it is Allah Who is the Accepter of Repentance, Most Merciful?",
+  "claim_ar": "الله يقبل توبة عباده ويجازي على الصدقات، وهو غفور رحيم.",
+  "claim_en": "God accepts repentance from His servants and rewards charity; He is forgiving and merciful.",
+  "split": "tune"
+ },
+ {
+  "key": "3:107",
+  "verse_ar": "وَأَمَّا ٱلَّذِينَ ٱبۡيَضَّتۡ وُجُوهُهُمۡ فَفِي رَحۡمَةِ ٱللَّهِۖ هُمۡ فِيهَا خَٰلِدُونَ",
+  "verse_en": "As for those whose faces turn bright, they will be in Allah’s mercy, they will abide therein forever.",
+  "claim_ar": "الذين تحسنت وجوههم يوم القيامة، سينالون رحمة الله ويدخلون الجنة خالدين فيها.",
+  "claim_en": "Those whose faces brighten on Judgment Day will receive God's mercy and live eternally in paradise.",
+  "split": "holdout"
+ },
+ {
+  "key": "2:266",
+  "verse_ar": "أَيَوَدُّ أَحَدُكُمۡ أَن تَكُونَ لَهُۥ جَنَّةٞ مِّن نَّخِيلٖ وَأَعۡنَابٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلۡكِبَرُ وَلَهُۥ ذُرِّيَّةٞ ضُعَفَآءُ فَأَصَابَهَآ إِعۡصَارٞ فِيهِ نَارٞ فَٱحۡتَرَقَتۡۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلۡأٓيَٰتِ لَعَلَّكُمۡ تَتَفَكَّرُونَ",
+  "verse_en": "Would any of you wish to have an orchard of date palms and grapevines, under which rivers flow, full of all kinds of fruits; but he grew old and had feeble young children, then it is hit by a fiery whirlwind, burning it all? This is how Allah makes the verses clear to you so that you may reflect.",
+  "claim_ar": "هل يتمنى أحدكم أن يكون له بستان ثم يصيبه إعصار ويهلك وهو كبير وضعيف؟",
+  "claim_en": "Would any of you wish to have a garden, only for it to be destroyed by a hurricane when you are old and weak?",
+  "split": "tune"
+ },
+ {
+  "key": "48:27",
+  "verse_ar": "لَّقَدۡ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءۡيَا بِٱلۡحَقِّۖ لَتَدۡخُلُنَّ ٱلۡمَسۡجِدَ ٱلۡحَرَامَ إِن شَآءَ ٱللَّهُ ءَامِنِينَ مُحَلِّقِينَ رُءُوسَكُمۡ وَمُقَصِّرِينَ لَا تَخَافُونَۖ فَعَلِمَ مَا لَمۡ تَعۡلَمُواْ فَجَعَلَ مِن دُونِ ذَٰلِكَ فَتۡحٗا قَرِيبًا",
+  "verse_en": "Indeed, Allah has fulfilled His Messenger’s dream in truth: that you will surely enter the Sacred Mosque if Allah wills, in peace and safety, and you will have your heads shaved or shortened, without any fear. He knew what you did not know, and He granted you prior to that an imminent conquest.",
+  "claim_ar": "لقد صدق الله رسوله رؤياه، ستدخلون المسجد الحرام آمنين بعد حلق رؤوسكم وتقصيرها.",
+  "claim_en": "God has fulfilled His messenger's vision; you will enter the Sacred Mosque safely, with heads shaved or shortened.",
+  "split": "tune"
+ },
+ {
+  "key": "2:153",
+  "verse_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ ٱسۡتَعِينُواْ بِٱلصَّبۡرِ وَٱلصَّلَوٰةِۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+  "verse_en": "O you who believe, seek help in patience and prayer, for Allah is with those who are patient.",
+  "claim_ar": "اطلبوا العون من الله بالصبر والصلاة، فالله يكون مع الصابرين.",
+  "claim_en": "Seek God's help through patience and prayer, for God is with those who are patient.",
+  "split": "holdout"
+ },
+ {
+  "key": "18:7",
+  "verse_ar": "إِنَّا جَعَلۡنَا مَا عَلَى ٱلۡأَرۡضِ زِينَةٗ لَّهَا لِنَبۡلُوَهُمۡ أَيُّهُمۡ أَحۡسَنُ عَمَلٗا",
+  "verse_en": "We have made all that is on earth as an adornment for it, so that We may test them as to which of them is best in deeds.",
+  "claim_ar": "ما في الأرض زينة لكي يختبر الله الناس أيهم أفضل عملاً.",
+  "claim_en": "What is on earth is an adornment for God to test who performs best.",
+  "split": "tune"
+ },
+ {
+  "key": "9:28",
+  "verse_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓاْ إِنَّمَا ٱلۡمُشۡرِكُونَ نَجَسٞ فَلَا يَقۡرَبُواْ ٱلۡمَسۡجِدَ ٱلۡحَرَامَ بَعۡدَ عَامِهِمۡ هَٰذَاۚ وَإِنۡ خِفۡتُمۡ عَيۡلَةٗ فَسَوۡفَ يُغۡنِيكُمُ ٱللَّهُ مِن فَضۡلِهِۦٓ إِن شَآءَۚ إِنَّ ٱللَّهَ عَلِيمٌ حَكِيمٞ",
+  "verse_en": "O you who believe, the polytheists are impure, so do not let them come near the Sacred Mosque after this year. If you fear poverty, Allah will enrich you out of His bounty, if He wills. Indeed, Allah is All-Knowing, All-Wise.",
+  "claim_ar": "لا يجوز للمشركين دخول المسجد الحرام بعد هذا العام، والله سيعوض المؤمنين.",
+  "claim_en": "Polytheists are forbidden from entering the Sacred Mosque after this year. God will enrich believers from His bounty.",
+  "split": "tune"
+ },
+ {
+  "key": "90:17",
+  "verse_ar": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُواْ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ وَتَوَاصَوۡاْ بِٱلۡمَرۡحَمَةِ",
+  "verse_en": "then [most importantly] to be one of those who believe and exhort one another to patience and exhort one another to compassion.",
+  "claim_ar": "ثم كان من المؤمنين الذين يوصون بعضهم بالصبر والرحمة.",
+  "claim_en": "Then be among those who believe and enjoin patience and compassion upon one another.",
+  "split": "holdout"
+ },
+ {
+  "key": "2:157",
+  "verse_ar": "أُوْلَٰٓئِكَ عَلَيۡهِمۡ صَلَوَٰتٞ مِّن رَّبِّهِمۡ وَرَحۡمَةٞۖ وَأُوْلَٰٓئِكَ هُمُ ٱلۡمُهۡتَدُونَ",
+  "verse_en": "They are those upon whom are blessings and mercy from their Lord, and it is they who are guided.",
+  "claim_ar": "الذين يصبرون على المصائب، ينالون رحمة من ربهم، وهم المهتدون إلى الطريق الصحيح.",
+  "claim_en": "Those who endure hardships with patience receive mercy from their Lord, and they are the guided ones.",
+  "split": "tune"
+ },
+ {
+  "key": "21:35",
+  "verse_ar": "كُلُّ نَفۡسٖ ذَآئِقَةُ ٱلۡمَوۡتِۗ وَنَبۡلُوكُم بِٱلشَّرِّ وَٱلۡخَيۡرِ فِتۡنَةٗۖ وَإِلَيۡنَا تُرۡجَعُونَ",
+  "verse_en": "Every soul will taste death; We test you with bad and good as a trial, then to Us you will all be returned.",
+  "claim_ar": "كل نفس ستذوق الموت، ونختبركم بالخير والشر لنميز الصادق من الكاذب.",
+  "claim_en": "Every soul will taste death, and We test you with good and evil to distinguish the truthful from the liars.",
+  "split": "tune"
+ },
+ {
+  "key": "5:89",
+  "verse_ar": "لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغۡوِ فِيٓ أَيۡمَٰنِكُمۡ وَلَٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلۡأَيۡمَٰنَۖ فَكَفَّٰرَتُهُۥٓ إِطۡعَامُ عَشَرَةِ مَسَٰكِينَ مِنۡ أَوۡسَطِ مَا تُطۡعِمُونَ أَهۡلِيكُمۡ أَوۡ كِسۡوَتُهُمۡ أَوۡ تَحۡرِيرُ رَقَبَةٖۖ فَمَن لَّمۡ يَجِدۡ فَصِيَامُ ثَلَٰثَةِ أَيَّامٖۚ ذَٰلِكَ كَفَّٰرَةُ أَيۡمَٰنِكُمۡ إِذَا حَلَفۡتُمۡۚ وَٱحۡفَظُوٓاْ أَيۡمَٰنَكُمۡۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمۡ ءَايَٰتِهِۦ لَعَلَّكُمۡ تَشۡكُرُونَ",
+  "verse_en": "Allah will not hold you accountable for your unintentional oaths, but He will hold you accountable for your deliberate oaths. The expiation thereof is to feed ten needy people from what you normally feed your own family, or to clothe them, or to emancipate a slave. However, if someone cannot afford it, then he must fast for three days. That is the expiation for breaking your oaths. But be mindful of your oaths. This is how Allah makes His verses clear to you, so that you may be grateful.",
+  "claim_ar": "لا يؤاخذكم الله بالأيمان غير المقصودة، بل بما عزمتم عليه، وكفارته إطعام عشرة مساكين.",
+  "claim_en": "God does not hold you accountable for unintentional oaths, but for deliberate ones. Its expiation is feeding ten poor people.",
+  "split": "holdout"
+ },
+ {
+  "key": "9:108",
+  "verse_ar": "لَا تَقُمۡ فِيهِ أَبَدٗاۚ لَّمَسۡجِدٌ أُسِّسَ عَلَى ٱلتَّقۡوَىٰ مِنۡ أَوَّلِ يَوۡمٍ أَحَقُّ أَن تَقُومَ فِيهِۚ فِيهِ رِجَالٞ يُحِبُّونَ أَن يَتَطَهَّرُواْۚ وَٱللَّهُ يُحِبُّ ٱلۡمُطَّهِّرِينَ",
+  "verse_en": "Never pray therein [O Prophet]. A mosque that was founded on piety from the first day is more deserving for you to pray therein. In it are men who love to keep themselves pure, and Allah loves those who keep themselves pure.",
+  "claim_ar": "لا تصلِّ في مسجد بني على الشر، بل صلِّ في مسجد أسس على التقوى.",
+  "claim_en": "Do not pray in a mosque built on evil, but rather in a mosque founded on piety.",
+  "split": "tune"
+ },
+ {
+  "key": "34:36",
+  "verse_ar": "قُلۡ إِنَّ رَبِّي يَبۡسُطُ ٱلرِّزۡقَ لِمَن يَشَآءُ وَيَقۡدِرُ وَلَٰكِنَّ أَكۡثَرَ ٱلنَّاسِ لَا يَعۡلَمُونَ",
+  "verse_en": "Say, “My Lord extends provision to whom He wills or restricts it, but most people do not know”.",
+  "claim_ar": "الله يوسع الرزق لمن يشاء ويضيقه، لكن أغلب الناس لا يدركون الحكمة.",
+  "claim_en": "God expands and restricts provision for whom He wills, but most people do not know the wisdom.",
+  "split": "tune"
+ },
+ {
+  "key": "6:70",
+  "verse_ar": "وَذَرِ ٱلَّذِينَ ٱتَّخَذُواْ دِينَهُمۡ لَعِبٗا وَلَهۡوٗا وَغَرَّتۡهُمُ ٱلۡحَيَوٰةُ ٱلدُّنۡيَاۚ وَذَكِّرۡ بِهِۦٓ أَن تُبۡسَلَ نَفۡسُۢ بِمَا كَسَبَتۡ لَيۡسَ لَهَا مِن دُونِ ٱللَّهِ وَلِيّٞ وَلَا شَفِيعٞ وَإِن تَعۡدِلۡ كُلَّ عَدۡلٖ لَّا يُؤۡخَذۡ مِنۡهَآۗ أُوْلَٰٓئِكَ ٱلَّذِينَ أُبۡسِلُواْ بِمَا كَسَبُواْۖ لَهُمۡ شَرَابٞ مِّنۡ حَمِيمٖ وَعَذَابٌ أَلِيمُۢ بِمَا كَانُواْ يَكۡفُرُونَ",
+  "verse_en": "Leave those who take their religion as play and amusement, and are deluded by the life of this world. But admonish them with this [Qur’an], so no soul should be ruined for its misdeeds – having no protector or intercessor other than Allah. Even if they were to offer every form of ransom, it would not be accepted. Such are the ones who will be ruined for their misdeeds. They will have scalding water to drink and a painful punishment for their disbelief.",
+  "claim_ar": "اترك من يتخذ دينه لهواً وتغرّه الدنيا، وذكّرهم بعقاب أعمالهم السيئة.",
+  "claim_en": "Leave those who take their religion as play and are deceived by this life; remind them of the consequences of their bad deeds.",
+  "split": "holdout"
+ },
+ {
+  "key": "4:96",
+  "verse_ar": "دَرَجَٰتٖ مِّنۡهُ وَمَغۡفِرَةٗ وَرَحۡمَةٗۚ وَكَانَ ٱللَّهُ غَفُورٗا رَّحِيمًا",
+  "verse_en": "high ranks from Him, and forgiveness and mercy. For Allah is All-Forgiving, Most Merciful.",
+  "claim_ar": "الله يمنح درجات عالية ومغفرة ورحمة لمن يستحق، وهو غفور رحيم.",
+  "claim_en": "God grants high ranks, forgiveness, and mercy to those who deserve it, for He is forgiving and merciful.",
+  "split": "tune"
+ },
+ {
+  "key": "34:15",
+  "verse_ar": "لَقَدۡ كَانَ لِسَبَإٖ فِي مَسۡكَنِهِمۡ ءَايَةٞۖ جَنَّتَانِ عَن يَمِينٖ وَشِمَالٖۖ كُلُواْ مِن رِّزۡقِ رَبِّكُمۡ وَٱشۡكُرُواْ لَهُۥۚ بَلۡدَةٞ طَيِّبَةٞ وَرَبٌّ غَفُورٞ",
+  "verse_en": "There was a sign for [the people of] Sheba in their dwelling place: two gardens – one on the right and one on the left. “Eat of your Lord’s provision, and be grateful to Him; a pleasant land and a Forgiving Lord.”",
+  "claim_ar": "كان لأهل سبأ في مساكنهم علامة على قدرة الله، فكلوا واشكروا ربكم.",
+  "claim_en": "The people of Saba had a sign in their dwelling places; eat from your Lord's provision and be grateful.",
+  "split": "tune"
+ },
+ {
+  "key": "18:46",
+  "verse_ar": "ٱلۡمَالُ وَٱلۡبَنُونَ زِينَةُ ٱلۡحَيَوٰةِ ٱلدُّنۡيَاۖ وَٱلۡبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيۡرٌ عِندَ رَبِّكَ ثَوَابٗا وَخَيۡرٌ أَمَلٗا",
+  "verse_en": "Wealth and children are the adornments of the life of this world, but the lasting righteous deeds are better with your Lord in reward and better in hope.",
+  "claim_ar": "المال والأبناء زينة الحياة الدنيا، لكن الأعمال الصالحة خير وأبقى.",
+  "claim_en": "Wealth and children are adornments of worldly life, but good deeds are better and more lasting.",
+  "split": "holdout"
+ },
+ {
+  "key": "6:152",
+  "verse_ar": "وَلَا تَقۡرَبُواْ مَالَ ٱلۡيَتِيمِ إِلَّا بِٱلَّتِي هِيَ أَحۡسَنُ حَتَّىٰ يَبۡلُغَ أَشُدَّهُۥۚ وَأَوۡفُواْ ٱلۡكَيۡلَ وَٱلۡمِيزَانَ بِٱلۡقِسۡطِۖ لَا نُكَلِّفُ نَفۡسًا إِلَّا وُسۡعَهَاۖ وَإِذَا قُلۡتُمۡ فَٱعۡدِلُواْ وَلَوۡ كَانَ ذَا قُرۡبَىٰۖ وَبِعَهۡدِ ٱللَّهِ أَوۡفُواْۚ ذَٰلِكُمۡ وَصَّىٰكُم بِهِۦ لَعَلَّكُمۡ تَذَكَّرُونَ",
+  "verse_en": "Do not approach the orphan’s property, except to improve it, until he attains maturity. Give full measure and weight with justice. We do not burden any soul beyond what it can bear. And maintain justice when you speak, even if it be about a close relative. And fulfill the covenant of Allah. This is what He commands you, so that you may take heed.",
+  "claim_ar": "لا تقتربوا من مال اليتيم إلا بما هو أفضل، وأوفوا الكيل والميزان بالعدل.",
+  "claim_en": "Do not approach the orphan's property except in the best way, and give full measure and weight with justice.",
+  "split": "tune"
+ }
+]

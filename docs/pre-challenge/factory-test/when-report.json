@@ -1,0 +1,857 @@
+{
+ "rows": [
+  {
+   "id": "adhan",
+   "suggested": "weekday mon thu",
+   "expected": "always",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 355,
+   "overlap": 101,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "alcohol-gift",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "alhamdulillah-eating",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "alhamdulillah",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "ashura",
+   "suggested": "hijri 1/10-1/10",
+   "expected": "hijri 1/9-1/10",
+   "type": "hijri",
+   "active_days_1448": 1,
+   "expected_days": 2,
+   "overlap": 1,
+   "exact": false,
+   "first_active": "2026-06-25"
+  },
+  {
+   "id": "astaghfirullah",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "bismillah-eating",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "bismillah",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "condolence",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "dhul-hijjah-ten",
+   "suggested": "hijri 1/1-9/10",
+   "expected": "hijri 12/1-12/10",
+   "type": "hijri",
+   "active_days_1448": 247,
+   "expected_days": 10,
+   "overlap": 0,
+   "exact": false,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "dua",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "eid-fitr",
+   "suggested": "always",
+   "expected": "hijri 10/1-10/3",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 3,
+   "overlap": 3,
+   "exact": false,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "eidiya",
+   "suggested": "hijri 1/27-1/29",
+   "expected": "hijri 10/1-10/3, 12/10-12/13",
+   "type": "hijri",
+   "active_days_1448": 3,
+   "expected_days": 7,
+   "overlap": 0,
+   "exact": false,
+   "first_active": "2026-07-12"
+  },
+  {
+   "id": "fajr",
+   "suggested": "weekday mon thu",
+   "expected": "always",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 355,
+   "overlap": 101,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "friday-greeting",
+   "suggested": "weekday mon thu",
+   "expected": "weekday fri",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 51,
+   "overlap": 0,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "friday",
+   "suggested": "weekday fri",
+   "expected": "weekday fri",
+   "type": "weekday",
+   "active_days_1448": 51,
+   "expected_days": 51,
+   "overlap": 51,
+   "exact": true,
+   "first_active": "2026-06-19"
+  },
+  {
+   "id": "hajj-leave",
+   "suggested": "always",
+   "expected": "hijri 12/1-12/13",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 13,
+   "overlap": 13,
+   "exact": false,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "hajj-return",
+   "suggested": "always",
+   "expected": "hijri 12/14-12/30",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 17,
+   "overlap": 17,
+   "exact": false,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "hajj-season",
+   "suggested": "always",
+   "expected": "hijri 12/1-12/13",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 13,
+   "overlap": 13,
+   "exact": false,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "hijab",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "hijri-new-year",
+   "suggested": "always",
+   "expected": "hijri 1/1-1/1",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 1,
+   "overlap": 1,
+   "exact": false,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "ihram-photos",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "inshallah",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "islamic-calendar-docs",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "jazakallah",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "mashallah",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "misbaha",
+   "suggested": "weekday mon thu",
+   "expected": "always",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 355,
+   "overlap": 101,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "modest-dress",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "monday-thursday",
+   "suggested": "weekday mon thu",
+   "expected": "weekday mon thu",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 101,
+   "overlap": 101,
+   "exact": true,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "mosque-visit",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "muhammad-name",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "pbuh",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "prayer-room",
+   "suggested": "weekday mon thu",
+   "expected": "always",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 355,
+   "overlap": 101,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "prayer-times-shift",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "prayer",
+   "suggested": "weekday mon thu",
+   "expected": "always",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 355,
+   "overlap": 101,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "qibla",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "quick-burial",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "quran-recitation",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "quran-respect",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "ramadan-hours",
+   "suggested": "hijri 1/1-1/30",
+   "expected": "hijri 9/1-9/30",
+   "type": "hijri",
+   "active_days_1448": 29,
+   "expected_days": 29,
+   "overlap": 0,
+   "exact": false,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "ramadan-quran",
+   "suggested": "hijri 03/01-03/30",
+   "expected": "hijri 9/1-9/30",
+   "type": "hijri",
+   "active_days_1448": 29,
+   "expected_days": 29,
+   "overlap": 0,
+   "exact": false,
+   "first_active": "2026-08-14"
+  },
+  {
+   "id": "ramadan",
+   "suggested": "weekday mon thu",
+   "expected": "hijri 9/1-9/30",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 29,
+   "overlap": 9,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "right-hand",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "sadaqah",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "salam",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "shawwal-six",
+   "suggested": "always",
+   "expected": "hijri 10/2-10/30",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 29,
+   "overlap": 29,
+   "exact": false,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "shops-close-prayer",
+   "suggested": "weekday mon thu",
+   "expected": "always",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 355,
+   "overlap": 101,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "sneeze",
+   "suggested": "weekday mon thu",
+   "expected": "always",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 355,
+   "overlap": 101,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "team-dinner",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "travel-dua",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "travel-prayer",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "umrah-leave",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "visiting-sick",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "wallahi",
+   "suggested": "weekday mon thu",
+   "expected": "always",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 355,
+   "overlap": 101,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "white-days",
+   "suggested": "weekday mon thu",
+   "expected": "hijri 1/13-1/15, 2/13-2/15, 3/13-3/15, 4/13-4/15, 5/13-5/15, 6/13-6/15, 7/13-7/15, 8/13-8/15, 10/13-10/15, 11/13-11/15, 12/13-12/15",
+   "type": "weekday",
+   "active_days_1448": 101,
+   "expected_days": 33,
+   "overlap": 11,
+   "exact": false,
+   "first_active": "2026-06-18"
+  },
+  {
+   "id": "zakat-fitr",
+   "suggested": "hijri 1/25-1/27",
+   "expected": "hijri 9/25-9/30",
+   "type": "hijri",
+   "active_days_1448": 3,
+   "expected_days": 5,
+   "overlap": 0,
+   "exact": false,
+   "first_active": "2026-07-10"
+  },
+  {
+   "id": "zakat",
+   "suggested": "always",
+   "expected": "always",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 355,
+   "overlap": 355,
+   "exact": true,
+   "first_active": "2026-06-16"
+  },
+  {
+   "id": "zamzam-gift",
+   "suggested": "always",
+   "expected": "hijri 12/14-12/30",
+   "type": "always",
+   "active_days_1448": 355,
+   "expected_days": 17,
+   "overlap": 17,
+   "exact": false,
+   "first_active": "2026-06-16"
+  }
+ ],
+ "home": [
+  {
+   "date": "2026-10-03",
+   "hijri": "1448/4/22",
+   "active_now": [
+    "dhul-hijjah-ten"
+   ],
+   "upcoming_14d": [
+    "adhan (2d)",
+    "fajr (2d)",
+    "friday-greeting (2d)",
+    "friday (6d)",
+    "misbaha (2d)",
+    "monday-thursday (2d)",
+    "prayer-room (2d)",
+    "prayer (2d)",
+    "ramadan (2d)",
+    "shops-close-prayer (2d)",
+    "sneeze (2d)",
+    "wallahi (2d)",
+    "white-days (2d)"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "hijri": "1448/4/28",
+   "active_now": [
+    "dhul-hijjah-ten",
+    "friday"
+   ],
+   "upcoming_14d": [
+    "adhan (3d)",
+    "fajr (3d)",
+    "friday-greeting (3d)",
+    "misbaha (3d)",
+    "monday-thursday (3d)",
+    "prayer-room (3d)",
+    "prayer (3d)",
+    "ramadan (3d)",
+    "shops-close-prayer (3d)",
+    "sneeze (3d)",
+    "wallahi (3d)",
+    "white-days (3d)"
+   ]
+  },
+  {
+   "date": "2027-02-01",
+   "hijri": "1448/8/24",
+   "active_now": [
+    "adhan",
+    "dhul-hijjah-ten",
+    "fajr",
+    "friday-greeting",
+    "misbaha",
+    "monday-thursday",
+    "prayer-room",
+    "prayer",
+    "ramadan",
+    "shops-close-prayer",
+    "sneeze",
+    "wallahi",
+    "white-days"
+   ],
+   "upcoming_14d": [
+    "friday (4d)"
+   ]
+  },
+  {
+   "date": "2027-02-08",
+   "hijri": "1448/9/1",
+   "active_now": [
+    "adhan",
+    "dhul-hijjah-ten",
+    "fajr",
+    "friday-greeting",
+    "misbaha",
+    "monday-thursday",
+    "prayer-room",
+    "prayer",
+    "ramadan",
+    "shops-close-prayer",
+    "sneeze",
+    "wallahi",
+    "white-days"
+   ],
+   "upcoming_14d": [
+    "friday (4d)"
+   ]
+  },
+  {
+   "date": "2027-03-02",
+   "hijri": "1448/9/23",
+   "active_now": [],
+   "upcoming_14d": [
+    "adhan (2d)",
+    "fajr (2d)",
+    "friday-greeting (2d)",
+    "friday (3d)",
+    "misbaha (2d)",
+    "monday-thursday (2d)",
+    "prayer-room (2d)",
+    "prayer (2d)",
+    "ramadan (2d)",
+    "shops-close-prayer (2d)",
+    "sneeze (2d)",
+    "wallahi (2d)",
+    "white-days (2d)"
+   ]
+  },
+  {
+   "date": "2027-03-09",
+   "hijri": "1448/10/1",
+   "active_now": [],
+   "upcoming_14d": [
+    "adhan (2d)",
+    "fajr (2d)",
+    "friday-greeting (2d)",
+    "friday (3d)",
+    "misbaha (2d)",
+    "monday-thursday (2d)",
+    "prayer-room (2d)",
+    "prayer (2d)",
+    "ramadan (2d)",
+    "shops-close-prayer (2d)",
+    "sneeze (2d)",
+    "wallahi (2d)",
+    "white-days (2d)"
+   ]
+  },
+  {
+   "date": "2027-05-07",
+   "hijri": "1448/12/1",
+   "active_now": [
+    "friday"
+   ],
+   "upcoming_14d": [
+    "adhan (3d)",
+    "fajr (3d)",
+    "friday-greeting (3d)",
+    "misbaha (3d)",
+    "monday-thursday (3d)",
+    "prayer-room (3d)",
+    "prayer (3d)",
+    "ramadan (3d)",
+    "shops-close-prayer (3d)",
+    "sneeze (3d)",
+    "wallahi (3d)",
+    "white-days (3d)"
+   ]
+  },
+  {
+   "date": "2027-05-15",
+   "hijri": "1448/12/9",
+   "active_now": [],
+   "upcoming_14d": [
+    "adhan (2d)",
+    "fajr (2d)",
+    "friday-greeting (2d)",
+    "friday (6d)",
+    "misbaha (2d)",
+    "monday-thursday (2d)",
+    "prayer-room (2d)",
+    "prayer (2d)",
+    "ramadan (2d)",
+    "shops-close-prayer (2d)",
+    "sneeze (2d)",
+    "wallahi (2d)",
+    "white-days (2d)"
+   ]
+  },
+  {
+   "date": "2027-05-16",
+   "hijri": "1448/12/10",
+   "active_now": [],
+   "upcoming_14d": [
+    "adhan (1d)",
+    "fajr (1d)",
+    "friday-greeting (1d)",
+    "friday (5d)",
+    "misbaha (1d)",
+    "monday-thursday (1d)",
+    "prayer-room (1d)",
+    "prayer (1d)",
+    "ramadan (1d)",
+    "shops-close-prayer (1d)",
+    "sneeze (1d)",
+    "wallahi (1d)",
+    "white-days (1d)"
+   ]
+  },
+  {
+   "date": "2027-06-16",
+   "hijri": "1449/1/11",
+   "active_now": [
+    "dhul-hijjah-ten",
+    "ramadan-hours"
+   ],
+   "upcoming_14d": [
+    "adhan (1d)",
+    "fajr (1d)",
+    "friday-greeting (1d)",
+    "friday (2d)",
+    "misbaha (1d)",
+    "monday-thursday (1d)",
+    "prayer-room (1d)",
+    "prayer (1d)",
+    "ramadan (1d)",
+    "shops-close-prayer (1d)",
+    "sneeze (1d)",
+    "wallahi (1d)",
+    "white-days (1d)",
+    "zakat-fitr (14d)"
+   ]
+  }
+ ]
+}

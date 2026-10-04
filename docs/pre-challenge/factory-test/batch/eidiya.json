@@ -1,0 +1,359 @@
+{
+ "topic_id": "eidiya",
+ "topic": "توزيع العيدية والحلويات في العيد",
+ "expected_when": "hijri 10/1-10/3, 12/10-12/13",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:35",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 42,
+    "ayah": 48
+   }
+  ],
+  "hadith_ids": [
+   66179
+  ],
+  "term_ids": [],
+  "steps": 6
+ },
+ "journey": {
+  "id": "eid-gifts-workplace",
+  "level": "B",
+  "when": "hijri 1/27-1/29",
+  "title": "لماذا توزع الحلويات والهدايا في العمل؟",
+  "teaser": "في أيام العيد، لاحظت أن زملاءك يوزعون علب حلويات صغيرة أو هدايا رمزية على الزملاء في المكتب. ما هو الدافع الحقيقي وراء هذه الممارسة في بيئة العمل السعودية؟",
+  "scene": "أثناء تنقلك بين المكاتب صباح يوم العيد، لاحظت أن أحمد يقف عند مدخل قسم المحاسبة ويوزع علب حلويات مغلفة بشكل أنيق على الموظفين الذين يمرون. ابتسم وقال لكل شخص: «عيدكم مبارك وتقبل الله». لم يكن هناك إجبار على أخذ الهدية، بل كانت عبارة عن توزيع عام ومرح. ماذا تعتقد أن الهدف الأساسي من هذا التوزيع في سياق العمل؟",
+  "character_names": [
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "محاولة لكسب ود العملاء المحتملين",
+    "reveal_headline": "ليس تسويقًا للعملاء",
+    "reveal_body": "هذا التوزيع موجه للزملاء في العمل وليس للعملاء الخارجيين. الهدف هو تعزيز الروابط الداخلية بين فريق العمل وتقوية الأواصر الأخوية بينهم."
+   },
+   {
+    "id": "opt2",
+    "label": "طريقة للتباهي بالمستوى المادي",
+    "reveal_headline": "ليست تباهيًا",
+    "reveal_body": "العيدية والحلويات في الثقافة الإسلامية تعبير عن الفرح والتسامي، وليست وسيلة للمنافسة المادية. التوزيع هنا بسيط وعام، ويهدف إلى مشاركة السعادة لا إظهار الثراء."
+   },
+   {
+    "id": "opt3",
+    "label": "متطلب رسمي من إدارة الموارد البشرية",
+    "reveal_headline": "ليس إلزامًا مؤسسيًا",
+    "reveal_body": "لا يوجد نظام رسمي يلزم الموظفين بتوزيع الهدايا. هذه مبادرة شخصية أو جماعية تعبر عن التقاليد الاجتماعية والدينية، وتعتمد على رغبة الفرد في المشاركة."
+   },
+   {
+    "id": "opt4",
+    "label": "وسيلة للحصول على رضا الله",
+    "reveal_headline": "التفسير الصحيح: مشاركة الفرح",
+    "reveal_body": "في الإسلام، يُعتبر البهجة بالعيد ومشاركة الآخرين فرحتهم (بالحلويات أو العطايا) من الآداب المستحبة التي تعزز المحبة والأخوة."
+   }
+  ],
+  "explanation": "توزيع الحلويات والهدايا في العيد هو تقليد اجتماعي وديني راسخ في المملكة يعبر عن الفرح بمجيء العيد ومشاركة السعادة مع الآخرين. في بيئة العمل، يعتبر هذا الفعل وسيلة فعالة لتعزيز روح الفريق والترابط الاجتماعي بين الزملاء، بعيدًا عن أي دوافع مادية أو رسمية.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بأن التوزيع هو 'وسيلة للحصول على رضا الله' كونه الخيار الصحيح، مع توضيح أن الدافع هو مشاركة الفرح بناءً على الآية المذكورة.",
+  "tip": {
+   "headline": "آداب التعامل مع توزيع العيدية في العمل",
+   "lead": "للانخراط بلباقة في هذه الأجواء الاجتماعية المهنية:",
+   "items": [
+    "تقبّل الهدية بابتسامة وشكر مُوزّعها دون مبالغة أو رفض، حتى لو كنت لا تأكل الحلويات لأسباب صحية أو دينية أخرى.",
+    "لا تتوقع أن يكون التوزيع شاملًا أو متساويًا للجميع، فقد يختلف حجم الهدية أو طريقة التوزيع حسب الرغبة الشخصية لكل موظف.",
+    "استخدم المناسبة لتبادل التهاني الودية مثل «تقبل الله منا ومنكم» لتعزيز العلاقات الإيجابية مع زملائك."
+   ]
+  },
+  "key_points": [
+   "توزيع الحلويات في العيد هو تعبير ثقافي وديني عن الفرح ومشاركة السعادة، وليس إجراءً رسميًا أو تسويقيًا.",
+   "يستند هذا السلوك إلى القيم الإسلامية التي تحث على البر ومواساة الناس، كما يتجلى في آيات الفرح بالنعم.",
+   "في بيئة العمل، يهدف هذا الفعل إلى تقوية الروابط الاجتماعية وتعزيز روح التعاون بين الزملاء."
+  ],
+  "question_variants": [
+   "لماذا يرى الموظفون عادة تبادل الحلويات في أيام العيد؟",
+   "ما هو الغرض من توزيع الهدايا الصغيرة في المكاتب خلال المناسبات الدينية؟",
+   "هل يعتبر توزيع العيدية ممارسة إجبارية في الشركات السعودية؟",
+   "كيف يمكن تفسير سلوك الزملاء الذين يوزعون الحلويات صباح العيد؟",
+   "ما العلاقة بين الفرح بالعيد وتبادل الهدايا في السياق المهني؟"
+  ],
+  "when_parsed": {
+   "type": "hijri",
+   "windows": [
+    {
+     "from": {
+      "month": 1,
+      "day": 27
+     },
+     "to": {
+      "month": 1,
+      "day": 29
+     }
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-42-48",
+   "kind": "quran",
+   "text_ar": "فَإِنۡ أَعۡرَضُواْ فَمَآ أَرۡسَلۡنَٰكَ عَلَيۡهِمۡ حَفِيظًاۖ إِنۡ عَلَيۡكَ إِلَّا ٱلۡبَلَٰغُۗ وَإِنَّآ إِذَآ أَذَقۡنَا ٱلۡإِنسَٰنَ مِنَّا رَحۡمَةٗ فَرِحَ بِهَاۖ وَإِن تُصِبۡهُمۡ سَيِّئَةُۢ بِمَا قَدَّمَتۡ أَيۡدِيهِمۡ فَإِنَّ ٱلۡإِنسَٰنَ كَفُورٞ",
+   "reference": "42:48",
+   "translations": {
+    "en": {
+     "text": "But if they turn away, We have not sent you as their keeper; your duty is only to convey the message. If We give man a taste of Our mercy, he exults in it; but when a calamity befalls them because of what their hands have sent forth, then man becomes totally ungrateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/42/48",
+   "verified": false,
+   "content_hash": "e500866892cb7ee6f73034bf5b541053d6b8944e7ef1965fe4f2961bad4926a7"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "توزيع الحلويات والهدايا في العيد هو تقليد اجتماعي وديني راسخ في المملكة يعبر عن الفرح بمجيء العيد ومشاركة السعادة مع الآخرين.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يستند هذا السلوك إلى القيم الإسلامية التي تحث على البر والإحسان ومواساة الناس بالفرح، كما ورد في القرآن الكريم ذكر الفرح بالنعم («فَرِحُوا بِهَا»).",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "في بيئة العمل، يعتبر هذا الفعل وسيلة فعالة لتعزيز روح الفريق والترابط الاجتماعي بين الزملاء، بعيدًا عن أي دوافع مادية أو رسمية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا التوزيع موجه للزملاء في العمل وليس للعملاء الخارجيين.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الهدف هو تعزيز الروابط الداخلية بين فريق العمل وتقوية الأواصر الأخوية بينهم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "العيدية والحلويات في الثقافة الإسلامية تعبير عن الفرح والتسامي، وليست وسيلة للمنافسة المادية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "التوزيع هنا بسيط وعام، ويهدف إلى مشاركة السعادة لا إظهار الثراء.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "لا يوجد نظام رسمي يلزم الموظفين بتوزيع الهدايا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "هذه مبادرة شخصية أو جماعية تعبر عن التقاليد الاجتماعية والدينية، وتعتمد على رغبة الفرد في المشاركة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "في الإسلام، يُعتبر البهجة بالعيد ومشاركة الآخرين فرحتهم (بالحلويات أو العطايا) من الآداب المستحبة التي تعزز المحبة والأخوة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "قال تعالى: «وَإِذَا أَذَقْنَا النَّاسَ مِنَّا رَحْمَةً فَرِحُوا بِهَا»، مما يشير إلى مشروعية الفرح بهذه النعم ومشاركتها مع المحيطين.",
+   "label": "unsupported",
+   "source_id": "quran-42-48",
+   "quote": "وَإِنۡ أَعۡرَضُواْ فَمَآ أَرۡسَلۡنَٰكَ عَلَيۡهِمۡ حَفِيظًاۖ إِنۡ عَلَيۡكَ إِلَّا ٱلۡبَلَٰغُۗ وَإِنَّآ إِذَآ أَذَقۡنَا ٱلۡإِنسَٰنَ مِنَّا رَحۡمَةٗ فَرِحَ بِهَا",
+   "reason": "validator:قال تعالى",
+   "quote_similarity": 0.565,
+   "keyword_share": 0.24,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "حلويات",
+   "ماذا"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 1,
+  "research_steps": 6,
+  "sentences_generated": 11,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 7,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 1,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 14854,
+  "tokens_out": 2159
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "العيدية توزيع الصدقة",
+   "hits": 5
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "توزيع العيدية والهدايا في العيد",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "العيدية",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الفرح بالعيد والسرور",
+   "hits": 2
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "تبادل الهدايا في العيد",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "تبادل الهدايا والتراحم",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "تبادل الهدايا يتدابروا",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "تبادل الهدايا تهادوا تحابوا",
+   "hits": 2
+  },
+  {
+   "stage": "fetch",
+   "event": "dropped",
+   "ref": "hadith 66179",
+   "why": "grade 'حسن' is not sahih"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يستند هذا السلوك إلى القيم الإسلامية التي تحث على البر والإحسان ومواساة الناس بالفرح، كما ورد في القرآن الكريم ذكر الفرح بالنعم («فَرِحُوا بِهَا»).",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-1",
+   "text": "قال تعالى: «وَإِذَا أَذَقْنَا النَّاسَ مِنَّا رَحْمَةً فَرِحُوا بِهَا»، مما يشير إلى مشروعية الفرح بهذه النعم ومشاركتها مع المحيطين.",
+   "why": "validator:قال تعالى"
+  }
+ ],
+ "seconds": 52.2
+}

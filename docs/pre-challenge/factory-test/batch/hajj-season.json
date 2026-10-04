@@ -1,0 +1,345 @@
+{
+ "topic_id": "hajj-season",
+ "topic": "موسم الحج وما يراه الموظف في الأخبار والمدينة",
+ "expected_when": "hijri 12/1-12/13",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:36",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 197
+   },
+   {
+    "surah": 3,
+    "ayah": 96
+   }
+  ],
+  "hadith_ids": [
+   66512
+  ],
+  "term_ids": [],
+  "steps": 3
+ },
+ "journey": {
+  "id": "hajj-season-work",
+  "level": "B",
+  "when": "always",
+  "title": "موسم الحج: لماذا تتغير إيقاعات العمل؟",
+  "teaser": "شاهد كيف يتفاعل الموظف غير المسلم مع التغيرات في بيئة العمل خلال موسم الحج.",
+  "scene": "أثناء تحضيرك لعرض تقديمي مهم، لاحظت أن المديرة سارة تبتعد عن المكتب فجأة وتغلق هاتفها. وفي نفس الوقت، انخفض عدد الموظفين في القاعة بشكل ملحوظ، وأغلقت بعض المحلات القريبة من الشركة مبكرًا. سمعت زملاءك يتحدثون بهدوء عن «الحج» و«المناسك». ما الذي يفسر هذا الهدوء المفاجئ والتغيير في روتين العمل؟",
+  "character_names": [
+   "سارة"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "إجازة سنوية شخصية",
+    "reveal_headline": "ليست إجازة شخصية",
+    "reveal_body": "هذا ليس طلب إجازة عادية من موظف واحد، بل ظاهرة جماعية تؤثر على المجتمع بأكمله."
+   },
+   {
+    "id": "opt2",
+    "label": "حدث سياحي فقط",
+    "reveal_headline": "ليس حدثًا سياحيًا بحتًا",
+    "reveal_body": "رغم وجود الجانب التاريخي، إلا أن الجو العام يرتكز على العبادة الروحية وليس السياحة أو الترفيه. التركيز ينصب على الطقوس الدينية الخاصة."
+   },
+   {
+    "id": "opt3",
+    "label": "احتفال وطني رسمي",
+    "reveal_headline": "ليس احتفالاً وطنياً رسمياً",
+    "reveal_body": "الحكمة من الانشغال هي الالتزام الديني الفردي والجماعي."
+   },
+   {
+    "id": "opt4",
+    "label": "مشكلة لوجستية مؤقتة",
+    "reveal_headline": "ليس مشكلة لوجستية",
+    "reveal_body": "التغيير في السلوك ناتج عن اختيار شخصي وديني، وليس عن خلل في الخدمات أو النقل. الناس يختارون هذه الفترة لأداء عبادة محددة."
+   }
+  ],
+  "explanation": "يُعتبر هذا الموسم فترة روحية عميقة، حيث يتركز اهتمام المسلمين على أداء المناسك والطاعات، مما يؤدي غالبًا إلى انخفاض النشاط التجاري والعمل اليومي في المملكة خلال هذه الأشهر المحددة.",
+  "explain_prompt": "اشرح مفهوم الحج كونه ركنًا من أركان الإسلام الخمسة، وشهورًا معلومة، وعبادة روحية تؤدي لتغير في الحياة اليومية.",
+  "tip": {
+   "headline": "آداب التعامل أثناء موسم الحج",
+   "lead": "لتحافظ على بيئة عمل محترمة ومتناغمة خلال هذه الفترة، اتبع النصائح التالية:",
+   "items": [
+    "احترم الانشغال الروحي: قد تجد الزملاء أقل تفاعلاً أو أكثر هدوءًا، وهذا تعبير عن تركيزهم العبادي ولا يعني عدم الاهتمام بالعمل.",
+    "تجنب الضغوط غير الضرورية: حاول تأجيل الاجتماعات غير العاجلة أو الطلبات المعقدة التي يمكن حلها بعد انتهاء الموسم لتقليل الإزعاج.",
+    "كن متعاطفًا ومهذبًا: إذا سألك زميل عن سبب انشغاله، استمع باحترام دون فضول مبالغ فيه، وامتنع عن السخرية أو النقد."
+   ]
+  },
+  "key_points": [
+   "الحج فريضة إسلامية من الأركان الخمسة، وليست مجرد إجازة أو حدث سياحي.",
+   "المسجد الحرام في مكة هو أول بيت وضع للناس، وهو مركز العبادة في هذا الموسم.",
+   "الشهور المعلومة هي فترة زمنية محددة لأداء المناسك، وتتسم بالروحانية والتقوى."
+  ],
+  "question_variants": [
+   "لماذا يغلق الكثير من المحلات مبكرًا في هذه الفترة؟",
+   "ما السبب وراء انخفاض عدد الموظفين في المكتب فجأة؟",
+   "لماذا يبدو الجميع هادئين ومنشغلين بأمور خاصة؟",
+   "هل هناك مناسبة معينة تجعل الناس يبتعدون عن العمل؟",
+   "لماذا تتغير إيقاعات الحياة اليومية في المدينة الآن؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-197",
+   "kind": "quran",
+   "text_ar": "ٱلۡحَجُّ أَشۡهُرٞ مَّعۡلُومَٰتٞۚ فَمَن فَرَضَ فِيهِنَّ ٱلۡحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي ٱلۡحَجِّۗ وَمَا تَفۡعَلُواْ مِنۡ خَيۡرٖ يَعۡلَمۡهُ ٱللَّهُۗ وَتَزَوَّدُواْ فَإِنَّ خَيۡرَ ٱلزَّادِ ٱلتَّقۡوَىٰۖ وَٱتَّقُونِ يَٰٓأُوْلِي ٱلۡأَلۡبَٰبِ",
+   "reference": "2:197",
+   "translations": {
+    "en": {
+     "text": "The pilgrimage is in known months. Whoever commits himself to perform the pilgrimage, there should be no intimacy, foul language, and arguments during the pilgrimage. Whatever good you do, Allah is aware of it. And take provisions for the journey, but the best provision is righteousness. So fear Me, O people of understanding.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/197",
+   "verified": false,
+   "content_hash": "abde2cb6bd0182fc9e7935d92994a774fb43972bce2d12c5ae9a0674555ec14d"
+  },
+  {
+   "id": "quran-3-96",
+   "kind": "quran",
+   "text_ar": "إِنَّ أَوَّلَ بَيۡتٖ وُضِعَ لِلنَّاسِ لَلَّذِي بِبَكَّةَ مُبَارَكٗا وَهُدٗى لِّلۡعَٰلَمِينَ",
+   "reference": "3:96",
+   "translations": {
+    "en": {
+     "text": "The first House [of worship] established for mankind was the one at Bakkah [i.e., Makkah], full of blessings and guidance for the worlds.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/3/96",
+   "verified": false,
+   "content_hash": "a8406a95b8fcfcfcb63aaab0471983dc1e253d348ffe570c0c30acd537a6a48e"
+  },
+  {
+   "id": "hadith-66512",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي عَبْدِ الرَّحْمَنِ عَبْدِ اللَّهِ بْنِ عُمَرَ بْنِ الخَطَّابِ رَضِيَ اللَّهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «بُنِيَ الإِسْلَامُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لَا إلَهَ إلَّا اللَّهُ وَأَنَّ مُحَمَّدًا ‌عَبْدُهُ ‌وَرَسُولُهُ، وَإِقَامِ الصَّلَاةِ، وَإِيتَاءِ الزَّكَاةِ، وَحَجِّ الْبَيْتِ، وَصَوْمِ رَمَضَانَ».",
+   "reference": "رواه البخاري ومسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/66512",
+   "verified": false,
+   "content_hash": "c58b7dc246ba1cd7b2ca364cbb35e9735702247a4ba7bb717b8a2a2c946285e1"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الحج هو أحد أركان الإسلام الخمسة، وهو فريضة يقوم بها المسلمون لقضاء أيام محددة في مكة المكرمة.",
+   "label": "unsupported",
+   "source_id": "hadith-66512",
+   "quote": "بُنِيَ الإِسْلَامُ عَلَى خَمْسٍ: ... وَحَجِّ الْبَيْتِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.531,
+   "keyword_share": 0.08,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يُعتبر هذا الموسم فترة روحية عميقة، حيث يتركز اهتمام المسلمين على أداء المناسك والطاعات، مما يؤدي غالبًا إلى انخفاض النشاط التجاري والعمل اليومي في المملكة خلال هذه الأشهر المحددة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذا ليس طلب إجازة عادية من موظف واحد، بل ظاهرة جماعية تؤثر على المجتمع بأكمله.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "المشاركة هنا طوعية وليست إلزامية للموظفين جميعًا.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "رغم وجود الجانب التاريخي، إلا أن الجو العام يرتكز على العبادة الروحية وليس السياحة أو الترفيه.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "التركيز ينصب على الطقوس الدينية الخاصة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "لا يتعلق الأمر بذكرى تأسيس الدولة أو عيد وطني، بل هو فريضة دينية إسلامية.",
+   "label": "unsupported",
+   "source_id": "hadith-66512",
+   "quote": "بُنِيَ الإِسْلَامُ عَلَى خَمْسٍ: ... وَحَجِّ الْبَيْتِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.493,
+   "keyword_share": 0.0,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "الحكمة من الانشغال هي الالتزام الديني الفردي والجماعي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "التغيير في السلوك ناتج عن اختيار شخصي وديني، وليس عن خلل في الخدمات أو النقل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "الناس يختارون هذه الفترة لأداء عبادة محددة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "الحج"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 10,
+  "removed_by_verifier": 3,
+  "supported": 0,
+  "general": 7,
+  "flagged_general_religious": 0,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 2,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 6288,
+  "tokens_out": 1741
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الحج البيت",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "الحج",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحج",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "المناسك",
+   "hits": 0
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "الحج هو أحد أركان الإسلام الخمسة، وهو فريضة يقوم بها المسلمون لقضاء أيام محددة في مكة المكرمة.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt1-1",
+   "text": "المشاركة هنا طوعية وليست إلزامية للموظفين جميعًا.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-0",
+   "text": "لا يتعلق الأمر بذكرى تأسيس الدولة أو عيد وطني، بل هو فريضة دينية إسلامية.",
+   "why": "quote_not_verbatim"
+  }
+ ],
+ "seconds": 52.6
+}

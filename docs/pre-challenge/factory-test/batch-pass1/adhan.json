@@ -1,0 +1,339 @@
+{
+ "topic_id": "adhan",
+ "topic": "صوت الأذان من جوال الزميل أو من المسجد القريب",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:31",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 238
+   }
+  ],
+  "hadith_ids": [
+   3013
+  ],
+  "term_ids": [
+   6591
+  ],
+  "steps": 5
+ },
+ "journey": {
+  "id": "adhan-workplace-01",
+  "level": "B",
+  "when": "weekday mon thu",
+  "title": "عندما يرن الأذان في المكتب",
+  "teaser": "سمعت صوت الأذان من جوال زميلك أو المسجد القريب، وتوقف العمل للحظة. ماذا يعني هذا بالضبط؟",
+  "scene": "أنت في منتصف عملك اليومي، فجأة يسمع صوت الأذان واضحًا من مكبر صوت قريب أو من جوال أحد الزملاء. ترى أن بعض الموظفين يتوقفون عن الكتابة ويوجهون وجوههم نحو اتجاه معين بهدوء لبضع دقائق قبل العودة لمقاعدهم. ما الذي يحدث هنا برأيك؟",
+  "character_names": [
+   "الزميل المتصل",
+   "الموظفون الآخرون"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "إنهاء وقت الدوام الرسمي",
+    "reveal_headline": "وقت الصلاة ليس وقت انتهاء العمل",
+    "reveal_body": "الصلاة مفروضة في أوقات محددة بغض النظر عن ساعات العمل الرسمية. الموظفون لا يغادرون الشركة بل يتوقفون مؤقتًا لأداء عبادة قصيرة ثم يعودون لاستكمال مهامهم."
+   },
+   {
+    "id": "opt2",
+    "label": "إعلان انقطاع الكهرباء أو عطل تقني",
+    "reveal_headline": "الأذان نداء ديني وليس إنذار طوارئ",
+    "reveal_body": "صوت الأذان له إيقاع ولحن خاص يختلف تمامًا عن صفارات الإنذار أو أصوات الأعطال التقنية. هو نداء للصلاة ولا علاقة له بأي مشاكل فنية في المبنى."
+   },
+   {
+    "id": "opt3",
+    "label": "طلب المساعدة العاجلة من الإدارة",
+    "reveal_headline": "لا يوجد طلب مساعدة في الأذان",
+    "reveal_body": "الأذان عبارة عن تكبيرات وأذكار دينية ثابتة لا تتضمن أي نداءات استغاثة أو طلبات عمل. هو ذكر لله تعالى وليس وسيلة للتواصل المهني أو الطوارئ."
+   },
+   {
+    "id": "opt4",
+    "label": "استراحة غداء طويلة غير معلنة",
+    "reveal_headline": "هذه صلاة وليست استراحة طعام",
+    "reveal_body": "الصلاة تستغرق دقائق معدودة (عادة 5-10 دقائق) وتتم بأوضاع محددة مثل الوقوف والركوع والسجود، ولا تتعلق بتناول الطعام. هي فريضة يومية وليست راحة غذائية."
+   }
+  ],
+  "explanation": "الصلاة فرض على المسلمين في أوقات محددة، والأذان هو النداء المعلن لدخول وقت هذه الصلاة.",
+  "explain_prompt": "اشرح المفهوم الخاطئ بشكل مباشر وبسيط.",
+  "tip": {
+   "headline": "آداب التعامل مع وقت الصلاة في العمل",
+   "lead": "لتحافظ على بيئة عمل محترمة ومتعاونة، اتبع هذه النصائح العملية:",
+   "items": [
+    "احترم الهدوء المؤقت: إذا سمعت الأذان، تجنب رفع الصوت في المكالمات أو الضوضاء المفرطة لعدة دقائق.",
+    "تجنب المقاطعة: لا تطلب من زميلك المسلم إنجاز مهمة عاجلة فور سماع الأذان، امنحه الوقت الكافي لأداء صلاته بسلام.",
+    "كن متعاطفًا: فهم أن هذه ممارسة دينية أساسية يساعدك على رؤية توقفهم كجزء من هويتهم وثقافتهم وليس كسلوك غير مهني."
+   ]
+  },
+  "key_points": [
+   "الأذان هو النداء المعلن لدخول وقت الصلاة الفرضية على المسلمين.",
+   "الصلاة في الإسلام فريضة زمنية محددة، وليست مرتبطة بساعات العمل أو الإجازات.",
+   "رد فعل المسلم عند سماع الأذان هو تكرار كلمات الأذان كما علم النبي محمد صلى الله عليه وسلم."
+  ],
+  "question_variants": [
+   "لماذا يتوقف الجميع عن الحديث عندما يسمع صوت الأذان؟",
+   "هل يعتبر توقف العمل مؤقتًا أثناء الأذان انقطاعًا غير مبرر؟",
+   "كيف يمكن التمييز بين صوت الأذان وصوت إنذار الحريق؟",
+   "ما هو السلوك المتوقع من الموظفين عند سماع الأذان في المكتب؟",
+   "هل يجب عليّ الانضمام إلى زملائي عند سماع الأذان؟"
+  ],
+  "when_parsed": {
+   "type": "weekday",
+   "weekdays": [
+    1,
+    4
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-238",
+   "kind": "quran",
+   "text_ar": "حَٰفِظُواْ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلۡوُسۡطَىٰ وَقُومُواْ لِلَّهِ قَٰنِتِينَ",
+   "reference": "2:238",
+   "translations": {
+    "en": {
+     "text": "Be mindful of the prayers, especially the middle prayer; and stand before Allah in complete devotion.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/238",
+   "verified": false,
+   "content_hash": "2a9c61d756552ee54a64439150f4ead7425e1e04f03dbb44b35295045fa7ca9c"
+  },
+  {
+   "id": "hadith-3013",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي سَعِيدٍ الخُدْرِيِّ رضي الله عنه أَنَّ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: «إِذَا سَمِعْتُمُ النِّدَاءَ، فَقُولُوا مِثْلَ مَا يَقُولُ المُؤَذِّنُ».",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3013",
+   "verified": false,
+   "content_hash": "2bed078704b57417661276db33973820eed6ed208aedab75591857a56ec4cc20"
+  },
+  {
+   "id": "term-6591",
+   "kind": "term",
+   "text_ar": "تَثْنِيَة الأذان: تَكْرارُ ألفاظِ الأذانِ والإِتْيانُ بِها مَرَّتَيْنِ. -",
+   "reference": "تَثْنِيَة الأذان",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/6591",
+   "verified": false,
+   "content_hash": "fd4b90d4109764eeaf260f15812af091c1defce911a2295d66db5bc850e3e876"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الصلاة فرض على المسلمين في أوقات محددة، والأذان هو النداء المعلن لدخول وقت هذه الصلاة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "قال رسول الله صلى الله عليه وسلم: «إذا سمعتم النداء، فقولوا مثل ما يقول المؤذن»، مما يجعلها لحظة جماعية تعيد التركيز الروحي للموظف المسلم وسط دوام العمل.",
+   "label": "unsupported",
+   "source_id": "hadith-3013",
+   "quote": "«إِذَا سَمِعْتُمُ النِّدَاءَ، فَقُولُوا مِثْلَ مَا يَقُولُ المُؤَذِّنُ»",
+   "reason": "validator:قال رسول الله",
+   "quote_similarity": 0.66,
+   "keyword_share": 0.48,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "الصلاة مفروضة في أوقات محددة بغض النظر عن ساعات العمل الرسمية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الموظفون لا يغادرون الشركة بل يتوقفون مؤقتًا لأداء عبادة قصيرة ثم يعودون لاستكمال مهامهم.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "صوت الأذان له إيقاع ولحن خاص يختلف تمامًا عن صفارات الإنذار أو أصوات الأعطال التقنية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "هو نداء للصلاة ولا علاقة له بأي مشاكل فنية في المبنى.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الأذان عبارة عن تكبيرات وأذكار دينية ثابتة لا تتضمن أي نداءات استغاثة أو طلبات عمل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "هو ذكر لله تعالى وليس وسيلة للتواصل المهني أو الطوارئ.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "الصلاة تستغرق دقائق معدودة (عادة 5-10 دقائق) وتتم بأوضاع محددة مثل الوقوف والركوع والسجود، ولا تتعلق بتناول الطعام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "هي فريضة يومية وليست راحة غذائية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "اذان"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 5,
+  "sentences_generated": 10,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 7,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 1,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 8525,
+  "tokens_out": 1812
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الصلاة أذان",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "أذان الجوال مسجد قريب",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الأذان",
+   "hits": 1
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "أقيمو الصلاة",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "حافظوا على الصلوات",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "حافظوا على الصلوات والصلاة الوسطى",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "قال رسول الله صلى الله عليه وسلم: «إذا سمعتم النداء، فقولوا مثل ما يقول المؤذن»، مما يجعلها لحظة جماعية تعيد التركيز الروحي للموظف المسلم وسط دوام العمل.",
+   "why": "validator:قال رسول الله"
+  }
+ ],
+ "seconds": 39.6
+}

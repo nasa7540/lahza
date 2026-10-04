@@ -1,0 +1,295 @@
+{
+ "topic_id": "prayer-room",
+ "topic": "غرفة المصلى في المكتب وما يُراعى فيها",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:31",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 24,
+    "ayah": 36
+   }
+  ],
+  "hadith_ids": [
+   10026
+  ],
+  "term_ids": [
+   8984
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "office-prayer-room-etiquette",
+  "level": "B",
+  "when": "weekday mon thu",
+  "title": "غرفة المصلى في المكتب وما يُراعى فيها",
+  "teaser": "تعرف على آداب استخدام غرفة الصلاة في بيئة العمل السعودية.",
+  "scene": "أثناء استراحة الغداء، مررت بجانب الغرفة المخصصة للصلاة في الطابق الثالث. لاحظت أن بعض الزملاء يرتدون حذاءهم داخلها، وآخرون يتركون حقائبهم وأغراضهم الشخصية على السجاد، بينما كان هناك زميل آخر يتكلم بهدوء مع صديقه قبل الدخول. ماذا تتوقع أن تكون القاعدة العامة أو الآداب المتبعة في هذه الغرفة؟",
+  "character_names": [
+   "أنت",
+   "الزملاء"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "مكان عمل عادي",
+    "reveal_headline": "ليست مجرد مكتب إضافي",
+    "reveal_body": "هذه الغرفة مخصصة لإقامة الصلاة والذكر، وليست مساحة عمل عادية يمكن استخدام أغراضها أو أحذيتها فيها دون مراعاة."
+   },
+   {
+    "id": "opt2",
+    "label": "قواعد دينية صارمة فقط",
+    "reveal_headline": "آداب احترام مشترك",
+    "reveal_body": "الممارسة تعتمد على الاحترام المتبادل ونظافة المكان، حيث يُفضل خلع الحذاء وترك الأغراض الشخصية خارج نطاق السجادة المخصصة للصلاة."
+   },
+   {
+    "id": "opt3",
+    "label": "مساحة للراحة والاسترخاء",
+    "reveal_headline": "فضاء للعبادة والتركيز",
+    "reveal_body": "الهدف الأساسي من وجودها هو تهيئة بيئة هادئة للصلاة والذكر، وليس للجلوس الطويل أو الترفيه أثناء ساعات الدوام."
+   },
+   {
+    "id": "opt4",
+    "label": "اختيار شخصي للموظفين",
+    "reveal_headline": "عادة مهنية راسخة",
+    "reveal_body": "اتباع آداب النظافة وعدم إزعاج المصلين هو سلوك متعارف عليه مهنيًا ودينيًا لضمان راحة الجميع واحترام الخصوصية."
+   }
+  ],
+  "explanation": "لذلك، فإن غرفة المصلى في العمل تُعامل باحترام خاص كفضاء مقدس مؤقت، مما يستدعي خلع الأحذية وتجنب وضع الأغراض التي قد تنقل الأذى أو القذر على السجادة، والتحدث بهدوء للحفاظ على جو العبادة.",
+  "explain_prompt": "اشرح ما تقوله المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب استخدام غرفة المصلى في العمل",
+   "lead": "لضمان بيئة عمل محترمة ومتناغمة، اتبع هذه الإرشادات العملية عند استخدام أو المرور بالقرب من غرفة الصلاة:",
+   "items": [
+    "احترم الهدوء: تجنب رفع الصوت أو إجراء مكالمات هاتفية طويلة داخل الغرفة أو بجوار بابها مباشرة.",
+    "حافظ على النظافة: إذا كنت ستدخل، فحاول خلع حذائك إذا كان ذلك معتادًا في شركتك، ولا تضع حقائبك أو أغراضك الشخصية على السجادة المخصصة للصلاة.",
+    "كن مرنًا ومحترمًا: إذا كانت الغرفة مزدحمة، انتظر دورك بهدوء أو استخدم المساحات البديلة المتاحة دون مقاطعة المصلين."
+   ]
+  },
+  "key_points": [
+   "غرفة المصلى مخصصة للصلاة والذكر، وليست مساحة عمل عادية.",
+   "يجب الحفاظ على نظافة المكان وطهارته، مثل خلع الحذاء وعدم وضع الأغراض على السجادة.",
+   "الهدوء والاحترام المتبادل هما أساس التعامل مع هذا الفضاء في بيئة العمل."
+  ],
+  "question_variants": [
+   "ما هي الآداب العامة عند استخدام غرفة الصلاة في المكتب؟",
+   "كيف يجب أن أتصرف عندما أحتاج للدخول إلى مصلى الشركة؟",
+   "هل من المقبول ترك الحقائب أو الأحذية داخل غرفة المصلى؟",
+   "ما الفرق بين غرفة المصلى والمناطق الأخرى في العمل من حيث السلوك؟",
+   "كيف أحترم زملائي المصلين أثناء استخدامي لغرفة الصلاة؟"
+  ],
+  "when_parsed": {
+   "type": "weekday",
+   "weekdays": [
+    1,
+    4
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-24-36",
+   "kind": "quran",
+   "text_ar": "فِي بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرۡفَعَ وَيُذۡكَرَ فِيهَا ٱسۡمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلۡغُدُوِّ وَٱلۡأٓصَالِ",
+   "reference": "24:36",
+   "translations": {
+    "en": {
+     "text": "[Such niches are lit] in the houses [of worship] which Allah has ordered to raise up, and where His Name is mentioned, and He is glorified therein morning and evening",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/24/36",
+   "verified": false,
+   "content_hash": "ce66ea685d2b44335ae9daee0940d169ad17716786e6bc2622a21c17daf57556"
+  },
+  {
+   "id": "hadith-10026",
+   "kind": "hadith",
+   "text_ar": "عن حذيفة رضي الله عنه مرفوعًا: «فُضِّلْنَا على الناس بِثَلاث: جُعِلَت صُفُوفَنا كصفُوف الملائِكة، وجُعلت لنَا الأرض كُلُّها مسجدا، وجُعلت تُرْبَتُهَا لنا طَهُورا، إذا لم نَجِد الماء. وذَكر خِصْلَة أُخرى».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/10026",
+   "verified": false,
+   "content_hash": "ac480c2022405253d269e9296a83c31a64404ba25fa51ee1d292e734291b0da6"
+  },
+  {
+   "id": "term-8984",
+   "kind": "term",
+   "text_ar": "مَسْجِدٌ: المَكانُ المُخَصَّصُ لِإِقامَةِ الصَّلاةِ فيه على التَّأْبِيدِ. المَسْجِدُ: هو مَكانٌ خُصِّصَ وقْفاً لِأَداءِ الصَّلاةِ فيه على التَّأْبِيدِ والدَّوامِ، ولِلذِّكْرِ والدُّعَاءِ والتَّفَقُّهِ في الدِّينِ والنَّظَرِ في أَحْوالِ الأُمَّةِ، ويُؤَذَّنُ فيه لِلصَّلاةِ، ويُوَجَّهُ نَحْوَ القِبْلَةِ، وحُدودُ المَسْجِدِ هي ما أَحاطَ بِهِ مِن بِناءٍ أو أَخْشابٍ أو قَصَبٍ أو نَحْوِ ذلك.\nوالمَساجِدُ أَفْضَلُ بِقاعِ الأَرْضِ، ولَها مَكانَتُها وفَضْلُها عند اللهِ تعالى، وهناك مَساجِدُ خَصَّها اللهُ تعالى بِصِفاتٍ وفضائِلَ ليست لِغيرها، وهي ثَلاثَةٌ: المَسْجِدُ الحَرامُ بِمَكَّةَ، والمَسْجِدُ النَّبَوِيُّ في المَدِينَةِ النَّبوِيَّة، والمَسْجِدُ الأَقْصَى في القُدْسِ.",
+   "reference": "مَسْجِدٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/8984",
+   "verified": false,
+   "content_hash": "7e7c65db4c81f2e0a15d592a5817130ca148336ea79099736b9f744572b0588b"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "في الإسلام، تُعد المساجد بيوتًا أذن الله بأن ترفع ويُذكر فيها اسمه، وهي أفضل بقاع الأرض بفضل مكانتها عند الله تعالى.",
+   "label": "unsupported",
+   "source_id": "quran-24-36",
+   "quote": "فِي بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرۡفَعَ وَيُذۡكَرَ فِيهَا ٱسۡمُهُۥ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.536,
+   "keyword_share": 0.31,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وقد جعل النبي محمد صلى الله عليه وسلم الأرض كلها مسجدًا للمسلمين، مما يعني أن أي مكان يُنظّف ويوجه نحو القبلة يمكن استخدامه للصلاة، لكن يجب الحفاظ على طهارته ونظافته.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "لذلك، فإن غرفة المصلى في العمل تُعامل باحترام خاص كفضاء مقدس مؤقت، مما يستدعي خلع الأحذية وتجنب وضع الأغراض التي قد تنقل الأذى أو القذر على السجادة، والتحدث بهدوء للحفاظ على جو العبادة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "هذه الغرفة مخصصة لإقامة الصلاة والذكر، وليست مساحة عمل عادية يمكن استخدام أغراضها أو أحذيتها فيها دون مراعاة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "الممارسة تعتمد على الاحترام المتبادل ونظافة المكان، حيث يُفضل خلع الحذاء وترك الأغراض الشخصية خارج نطاق السجادة المخصصة للصلاة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الهدف الأساسي من وجودها هو تهيئة بيئة هادئة للصلاة والذكر، وليس للجلوس الطويل أو الترفيه أثناء ساعات الدوام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "اتباع آداب النظافة وعدم إزعاج المصلين هو سلوك متعارف عليه مهنيًا ودينيًا لضمان راحة الجميع واحترام الخصوصية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "غرفه"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 7,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 5,
+  "flagged_general_religious": 0,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 1,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 5449,
+  "tokens_out": 1605
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "المساجد بيوت الله",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "جعلت الأرض لي مسجدا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "مسجد",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "في الإسلام، تُعد المساجد بيوتًا أذن الله بأن ترفع ويُذكر فيها اسمه، وهي أفضل بقاع الأرض بفضل مكانتها عند الله تعالى.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "وقد جعل النبي محمد صلى الله عليه وسلم الأرض كلها مسجدًا للمسلمين، مما يعني أن أي مكان يُنظّف ويوجه نحو القبلة يمكن استخدامه للصلاة، لكن يجب الحفاظ على طهارته ونظافته.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 31.3
+}

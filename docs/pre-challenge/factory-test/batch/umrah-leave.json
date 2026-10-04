@@ -1,0 +1,288 @@
+{
+ "topic_id": "umrah-leave",
+ "topic": "زميل يأخذ إجازة قصيرة للعمرة",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "ayah": 196,
+    "surah": 2
+   }
+  ],
+  "hadith_ids": [
+   2753
+  ],
+  "term_ids": [
+   31681
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "umrah-work-break",
+  "level": "B",
+  "when": "always",
+  "title": "رحلة تعلم: فهم إجازة العمرة",
+  "teaser": "زميلك طلب إجازة قصيرة فجأة، وش قصته؟",
+  "scene": "في منتصف الأسبوع، وصلني إشعار من زميلي سامي بأن لديه إجازة يومية غداً. استغربت قليلاً لأن جدولنا مزدحم، فسألته عبر الدردشة: «كل شيء تمام؟ ليش تحتاج يوم إجازة فجأة؟». ردّ بسرعة وبابتسامة: «أروح أعمري وأرجع». قرأت الرد وتوقفت لحظة، وراحت تفكيراتي تسبق الأحداث. وش اللي تتوقع إنه يصير في هذا اليوم بالتحديد؟",
+  "character_names": [
+   "سامي"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "فرصة سياحية واستجمام",
+    "reveal_headline": "ليست مجرد رحلة ترفيهية",
+    "reveal_body": "العمرة ليست زيارة سياحية عادية أو إجازة استجمام فقط، بل هي عبادة دينية محددة لها مناسك وشروط خاصة تختلف عن السياحة."
+   },
+   {
+    "id": "opt2",
+    "label": "محاولة لتجنب العمل المتراكم",
+    "reveal_headline": "ليس هروباً من المهام",
+    "reveal_body": "السبب ليس كسلاً أو رغبة في تجنب ضغط العمل، بل هو التزام ديني يقوم به المسلم للتقرب إلى الله تعالى، وهو أمر مقدس عنده."
+   },
+   {
+    "id": "opt3",
+    "label": "احتفال بمناسبة شخصية أو عائلية",
+    "reveal_headline": "ليست مناسبة اجتماعية بحتة",
+    "reveal_body": "العمرة ليست عيداً عائلياً أو احتفالاً شخصياً مثل زفاف أو تخرج، بل هي فعل عبادي فردي أو جماعي يرتبط بمكان وزمان محددين في الإسلام."
+   },
+   {
+    "id": "opt4",
+    "label": "عادة ثقافية قديمة لا معنى لها حالياً",
+    "reveal_headline": "عبادة ذات دلالة روحية عميقة",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "",
+  "explain_prompt": "اشرح ما تقوله المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب التعامل مع زميل في رحلة عمرة",
+   "lead": "إليك بعض النصائح العملية لدعم زميلك خلال هذه الفترة:",
+   "items": [
+    "دعه ينهي مهامه العاجلة قبل مغادرته لضمان انسيابية العمل وعدم تأخير الفريق.",
+    "لا تسخر من فكرة الإجازة القصيرة أو تسأل بأسلوب ساخر عن سبب «ضياع» يوم كامل.",
+    "هنئه بلطف عند عودته أو اطلب منه مشاركة تجارب إيجابية إذا كان يرغب بذلك، دون فضول مبالغ فيه."
+   ]
+  },
+  "key_points": [
+   "العمرة عبادة إسلامية واجبة مرة واحدة في العمر، وليست سياحة أو إجازة عادية.",
+   "أجر العمرة في شهر رمضان يعادل أجر حجة كاملة، مما يجعلها فرصة روحية مميزة.",
+   "المسلم يسعى لهذه العبادة بتواضع وإخلاص، ويجب احترام قدسية نية الزميل."
+  ],
+  "question_variants": [
+   "لماذا يطلب الموظف إجازة فجأة لممارسة نشاط ديني؟",
+   "ما الفرق بين الإجازة العادية والإجازة لأداء العمرة؟",
+   "كيف يمكن التمييز بين الرغبة في الراحة والرغبة في العبادة؟",
+   "هل العمرة تعتبر مناسبة شخصية تستحق الدعم المهني؟",
+   "ما هي النية الحقيقية وراء طلب إجازة للذهاب إلى مكة؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-196",
+   "kind": "quran",
+   "text_ar": "وَأَتِمُّواْ ٱلۡحَجَّ وَٱلۡعُمۡرَةَ لِلَّهِۚ فَإِنۡ أُحۡصِرۡتُمۡ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۖ وَلَا تَحۡلِقُواْ رُءُوسَكُمۡ حَتَّىٰ يَبۡلُغَ ٱلۡهَدۡيُ مَحِلَّهُۥۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوۡ بِهِۦٓ أَذٗى مِّن رَّأۡسِهِۦ فَفِدۡيَةٞ مِّن صِيَامٍ أَوۡ صَدَقَةٍ أَوۡ نُسُكٖۚ فَإِذَآ أَمِنتُمۡ فَمَن تَمَتَّعَ بِٱلۡعُمۡرَةِ إِلَى ٱلۡحَجِّ فَمَا ٱسۡتَيۡسَرَ مِنَ ٱلۡهَدۡيِۚ فَمَن لَّمۡ يَجِدۡ فَصِيَامُ ثَلَٰثَةِ أَيَّامٖ فِي ٱلۡحَجِّ وَسَبۡعَةٍ إِذَا رَجَعۡتُمۡۗ تِلۡكَ عَشَرَةٞ كَامِلَةٞۗ ذَٰلِكَ لِمَن لَّمۡ يَكُنۡ أَهۡلُهُۥ حَاضِرِي ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَٱتَّقُواْ ٱللَّهَ وَٱعۡلَمُوٓاْ أَنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+   "reference": "2:196",
+   "translations": {
+    "en": {
+     "text": "And Complete Hajj and ‘Umrah for Allah. But if you are prevented, then [offer] whatever sacrificial animal is available, and do not shave your heads until the sacrificial animal reaches its place of sacrifice. But if anyone among you is sick or has an ailment of the scalp [and had his head shaved], then he must compensate by fasting, charity, or a sacrificial offering. And when you are safe, then if anyone takes a break between ‘Umrah and Hajj, he must offer a sacrifice of whatever animal is available. However, if he cannot afford an offering, he should fast for three days during Hajj and seven days upon his return [home], making ten days in all. This is for those who are not residents of the Sacred Mosque. And fear Allah, and know that Allah is severe in retribution.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/196",
+   "verified": false,
+   "content_hash": "9909d2be93d0eabfed5eba972de5eb24508d841c0fb9c3647e517ad5248201ad"
+  },
+  {
+   "id": "hadith-2753",
+   "kind": "hadith",
+   "text_ar": "عَنِ ابْنِ عَبَّاسٍ رضي الله عنهما قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ لِامْرَأَةٍ مِنَ الْأَنْصَارِ سَمَّاهَا ابْنُ عَبَّاسٍ فَنَسِيتُ اسْمَهَا: «مَا مَنَعَكِ أَنْ تَحُجِّي مَعَنَا؟» قَالَتْ: لَمْ يَكُنْ لَنَا إِلَّا نَاضِحَانِ فَحَجَّ أَبُو وَلَدِهَا وَابْنُهَا عَلَى نَاضِحٍ وَتَرَكَ لَنَا نَاضِحًا نَنْضِحُ عَلَيْهِ، قَالَ: «فَإِذَا جَاءَ رَمَضَانُ فَاعْتَمِرِي، فَإِنَّ عُمْرَةً فِيهِ تَعْدِلُ حَجَّةً».",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/2753",
+   "verified": false,
+   "content_hash": "b33e9460e6c114dc447ab50fd51393368b7088403638d9fdf8cb135ed35c79ec"
+  },
+  {
+   "id": "term-31681",
+   "kind": "term",
+   "text_ar": "عُمْرَةٌ: زِيارَةُ المَسْجِدِ الحَرامِ في مَكَّةَ في أيِّ يومٍ مِن أيّامِ السَّنَّةِ لِأَداءِ مَناسِكَ خاصَّةٍ. العُمْرَةُ مِن أَعْظَمِ العِباداتِ وأَفْضَلِ الطَّاعاتِ التي يَتَقَرَّبُ المُسْلِمُ بِها إلى اللهِ تعالى، وهي واجبةٌ مرَّةً في العمر، وهي على نَوْعينِ:\n1- عُمْرَةٌ مُفْردَةٌ، وتَقَعُ في أيِّ يَوْمٍ مِن السَّنَةِ.\n2- عُمْرَةُ تَمَتُّعٍ، ولا تكونُ إلَّا في أَشْهُرِ الحَجِّ.",
+   "reference": "عُمْرَةٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/31681",
+   "verified": false,
+   "content_hash": "579e35dbc5d1a87cd0cd70f4966ae960ebfa7eda9d7f1b962694ce7cd0e4fece"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "العمرة هي زيارة المسجد الحرام في مكة لأداء مناسك خاصة، وهي عبادة عظيمة واجبة مرة واحدة في العمر لكل مسلم قادر.",
+   "label": "unsupported",
+   "source_id": "term-31681",
+   "quote": "عُمْرَةٌ: زِيارَةُ المَسْجِدِ الحَرامِ في مَكَّةَ في أيِّ يومٍ مِن أيّامِ السَّنَةِ لِأَداءِ مَناسِكَ خاصَّةٍ. ... وهي واجبةٌ مرَّةً في العمر",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.733,
+   "keyword_share": 0.71,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وقد خصص النبي صلى الله عليه وسلم شهر رمضان ليكون وقتاً مثالياً للعمرة، حيث إن أجرها يعادل أجر حجة كاملة، مما يجعلها فرصة روحية كبيرة يسعى إليها المسلمون.",
+   "label": "unsupported",
+   "source_id": "hadith-2753",
+   "quote": "فَإِذَا جَاءَ رَمَضَانُ فَاعْتَمِرِي، فَإِنَّ عُمْرَةً فِيهِ تَعْدِلُ حَجَّةً",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.611,
+   "keyword_share": 0.24,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "العمرة ليست زيارة سياحية عادية أو إجازة استجمام فقط، بل هي عبادة دينية محددة لها مناسك وشروط خاصة تختلف عن السياحة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "السبب ليس كسلاً أو رغبة في تجنب ضغط العمل، بل هو التزام ديني يقوم به المسلم للتقرب إلى الله تعالى، وهو أمر مقدس عنده.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "العمرة ليست عيداً عائلياً أو احتفالاً شخصياً مثل زفاف أو تخرج، بل هي فعل عبادي فردي أو جماعي يرتبط بمكان وزمان محددين في الإسلام.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "العمرة ليست عادة فارغة المعنى، بل هي سنة نبوية واجبة مرة واحدة في العمر للمسلم القادر، وتجلب الأجر العظيم كما ورد في الأحاديث الصحيحة.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "اجازه"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 6,
+  "removed_by_verifier": 3,
+  "supported": 0,
+  "general": 3,
+  "flagged_general_religious": 0,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 5813,
+  "tokens_out": 1561
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "العمرة الحج",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "العمرة عمرة في رمضان",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "العمرة",
+   "hits": 1
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "العمرة هي زيارة المسجد الحرام في مكة لأداء مناسك خاصة، وهي عبادة عظيمة واجبة مرة واحدة في العمر لكل مسلم قادر.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "وقد خصص النبي صلى الله عليه وسلم شهر رمضان ليكون وقتاً مثالياً للعمرة، حيث إن أجرها يعادل أجر حجة كاملة، مما يجعلها فرصة روحية كبيرة يسعى إليها المسلمون.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-0",
+   "text": "العمرة ليست عادة فارغة المعنى، بل هي سنة نبوية واجبة مرة واحدة في العمر للمسلم القادر، وتجلب الأجر العظيم كما ورد في الأحاديث الصحيحة.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 27.5
+}

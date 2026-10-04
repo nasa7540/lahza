@@ -14,6 +14,8 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // Third-party agent tooling, not app code:
     ".agents/**",
+    // Pre-challenge experiments kept for disclosure, not app code:
+    "docs/**",
   ]),
 ]);
 

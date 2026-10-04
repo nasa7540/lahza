@@ -1,0 +1,17 @@
+{
+  "purpose": "Test 5 (runs after P3 and P4 as a phase check): concurrent load on /api/classify and /api/grade.",
+  "levels": [20, 35, 50],
+  "duration_per_level_seconds": 60,
+  "request_mix": {
+    "classify": "the 70 routing questions in ../ai-test/cases.py, sampled with replacement",
+    "grade": "the 90 ladder answers in ../ai-test/cases.py, sampled with replacement"
+  },
+  "measure": ["p50, p95, max latency per endpoint", "share answered by the fallback model", "share ending in the empty state after the 12 s cap", "HTTP errors", "invalid response bodies (schema)"],
+  "proposed_pass_thresholds_need_user_ok": {
+    "p95_seconds": 8,
+    "empty_state_share_max": 0.02,
+    "http_5xx_max": 0,
+    "invalid_bodies_max": 0
+  },
+  "note": "Script is written on Oct 4 against the real endpoints; nothing here is product code."
+}

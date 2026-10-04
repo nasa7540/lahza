@@ -1,0 +1,21 @@
+{
+ "topic_id": "x-handshake",
+ "topic": "حكم مصافحة الزميلة للرجال",
+ "expected_when": null,
+ "status": "refused",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:33",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "refuse",
+  "category": "fatwa",
+  "by": "rule"
+ },
+ "seconds": 0.0
+}

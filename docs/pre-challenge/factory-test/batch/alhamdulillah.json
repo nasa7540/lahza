@@ -1,0 +1,364 @@
+{
+ "topic_id": "alhamdulillah",
+ "topic": "زملاء يقولون الحمد لله في كل حال",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:41",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 1,
+    "ayah": 2
+   }
+  ],
+  "hadith_ids": [
+   3008
+  ],
+  "term_ids": [
+   8699
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "alhamdulillah-context",
+  "level": "B",
+  "when": "always",
+  "title": "لماذا يقول زملائي «الحمد لله» في كل وقت؟",
+  "teaser": "تسمع عبارة «الحمد لله» من زملائك في العمل حتى في المواقف العادية أو المحبطة. ليش يكررونها بهذه الكثافة؟",
+  "scene": "في منتصف اليوم، وصلتك رسالة بريد إلكتروني تحتوي على خطأ مطبعي كبير في تقرير أرسلته سابقًا. اتصلت بزميلك سعود لتصحيح الموقف بسرعة، وبعد دقائق قليلة راجعك وقال: «تمام، تم الحل». ابتسمت وقلت له: «شكرًا جزيلاً»، فرد ببساطة: «الحمد لله». ثم لاحظت أنه قال نفس العبارة عندما سألته عن موعد اجتماع لاحق، وعندما سأله آخر عن حالة الطقس قبل الخروج. ما تفسيرك لاستخدامه المتكرر لهذه العبارة في هذه المواقف المختلفة؟",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "عبارة مجاملة واجتماعية فقط",
+    "reveal_headline": "ليست مجرد مجاملة",
+    "reveal_body": "العبارة تحمل معنى دينيًا عميقًا يتجاوز آداب الاجتماعات. هي تعبير عن اعتراف بالله كخالق ومالك لكل شيء، وليست مجرد ردود فعل اجتماعية عابرة."
+   },
+   {
+    "id": "opt-2",
+    "label": "طريقة لتجنب الشكوى أو السلبية",
+    "reveal_headline": "ليست أداة كبت المشاعر",
+    "reveal_body": "المعنى ليس محاولة لإخفاء المشاكل أو تجنب الحديث عنها. بل هي تذكير بأن الحمد لله يشمل الثناء على الله في جميع الأحوال، سواء كانت ميسرة أو مشقة، كجزء من العقيدة."
+   },
+   {
+    "id": "opt-3",
+    "label": "عادة لفظية بلا دلالة حقيقية",
+    "reveal_headline": "ليست حشوًا كلاميًا",
+    "reveal_body": "العبارة ليست كلمات فارغة تُقال عادةً دون تفكير."
+   },
+   {
+    "id": "opt-4",
+    "label": "رد فعل تلقائي عند انتهاء أي مهمة",
+    "reveal_headline": "ليست مرتبطة بنهاية العمل فقط",
+    "reveal_body": "استخدامها لا يقتصر على إنهاء المهام أو حل المشكلات."
+   }
+  ],
+  "explanation": "",
+  "explain_prompt": "اشرح الفرق بين الحمد والشكر باختصار، واذكر أن الحمد يكون على الصفات وعلى النعم، بينما الشكر يكون على النعم فقط.",
+  "tip": {
+   "headline": "كيف تتفاعل مع هذه العبارة باحترام؟",
+   "lead": "لفهم السياق الثقافي والديني لزملائك، يمكنك اتباع الآتي:",
+   "items": [
+    "تقبل العبارة كتعبير عن قيم الزميل الشخصية دون الحاجة للتعاطق معها دينيًا.",
+    "لا تفسر تكرارها على أنها تجاهل للمشكلة أو عدم جدية، بل هي جزء من ثقافته اليومية.",
+    "إذا أردت الاستمرار في الحديث، يمكنك الانتقال للموضوع التالي بهدوء بعد سماع الرد، فهي غالبًا خاتمة طبيعية للحديث القصير."
+   ]
+  },
+  "key_points": [
+   "الحمد لله تعبير إسلامي يعني الثناء على الله بصفاته وأفعاله محبة وتعظيمًا.",
+   "الحمد أعم من الشكر؛ فهو يكون على النعم وعلى صفات الله أيضًا، بينما الشكر يكون على النعم فقط.",
+   "كان النبي صلى الله عليه وسلم يداوم على قول الحمد لله في الصباح والمساء، مما يجعلها عادة روحية يومية للمسلمين."
+  ],
+  "question_variants": [
+   "لماذا يكرر الموظفون عبارة الحمد لله في مواقف العمل المختلفة؟",
+   "ما الدلالة الدينية وراء قول الحمد لله في كل حين؟",
+   "هل عبارة الحمد لله مجرد مجاملة اجتماعية أم لها معنى أعمق؟",
+   "كيف يمكن فهم استخدام المسلمين لكلمة الحمد في سياق العمل؟",
+   "ما الفرق بين الشكر والحمد في الثقافة الإسلامية؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-1-2",
+   "kind": "quran",
+   "text_ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+   "reference": "1:2",
+   "translations": {
+    "en": {
+     "text": "All praise be to Allah, the Lord of the worlds,",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/1/2",
+   "verified": false,
+   "content_hash": "a0e1b07792671c63ddd83c3dc799542e77a4a94023fe840a0f457e80da262be1"
+  },
+  {
+   "id": "hadith-3008",
+   "kind": "hadith",
+   "text_ar": "عن عبد الله بن مسعود رضي الله عنه قال: كان نبي الله صلى الله عليه وسلم إذا أمسى قال: «أمسينا وأمسى الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له» قال الراوي: أَرَاهُ قال فِيهِنَّ: «له الملك وله الحمد وهو على كل شيء قدير، ربِّ أسألك خير ما في هذه الليلة وخير ما بعدها، وأعوذ بك من شر ما في هذه الليلة وشر ما بعدها، رب أعوذ بك من الكسل، وسُوءِ الكِبَرِ، رب أعوذ بك من عذاب في النار، وعذاب في القبر»، وإذا أصبح قال ذلك أيضا «أصبحنا وأصبح الملك لله».",
+   "reference": "رواه مسلم",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/3008",
+   "verified": false,
+   "content_hash": "d16f61c5b4d927183893709a356682c285cc88eaf104080d3697676684cde024"
+  },
+  {
+   "id": "term-8699",
+   "kind": "term",
+   "text_ar": "حَمْدٌ: وَصْفُ الشَّيْءِ بِصِفاتِ الكَمالِ ومَحاسِنِ الأَفْعالِ مع المَحَبَّةِ والتَّعْظِيمِ. الحَمْدُ: هو الثَّناءُ والِإخْبارُ بِصِفاتِ اللهِ العُلَى وأَسْمائِهِ الحُسْنَى وأَفْعالِهِ الكامِلَةِ، والفرق بين الشُّكْرِ والحَمْدِ: أنَّ الشُّكْرَ كالحَمْدِ في أنَّهُما وَصْفٌ بِاللِّسانِ عند حُدُوثِ النِّعْمَةِ، إلّا أنَّ الحَمْدَ يكون بِاللِّسانِ، بِخِلافِ الشُّكْرِ؛ فإنَّهُ يَقَعُ بِالقلب واللِّسان والجَوارِحِ، فهو أعَمُّ مِن حيث المُتعلَّق.\nوالحَمْدُ أعمُّ مِن الشُّكْرِ من جِهَةِ السَّبَب؛ إذ الحَمْدُ يكون على النِّعَمِ وعلى غيرها، كَحَمْدِ اللهِ تعالى على صِفاتِهِ الذّاتيَّة وعلى نَعْمائِهِ، وأمّا الشُّكْرُ فلا يكون إلّا عن نِعمَةٍ وإحسانٍ.",
+   "reference": "حَمْدٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/8699",
+   "verified": false,
+   "content_hash": "448d06910a65a1dbf099dad389c9a752fbcbf538ac46c2d88f0885a6f18e218f"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "كلمة «الحمد» في الإسلام تعني الثناء على الله بصفاته وأفعاله محبة وتعظيمًا، وهي أعم من الشكر الذي يكون عادةً على نعمة معينة.",
+   "label": "unsupported",
+   "source_id": "term-8699",
+   "quote": "الحَمْدُ: هو الثَّناءُ والِإخْبارُ بِصِفاتِ اللهِ العُلَى وأَسْمائِهِ الحُسْنَى وأَفْعالِهِ الكامِلَةِ... والحَمْدُ أعمُّ مِن الشُّكْرِ من جِهَةِ السَّبَب",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.601,
+   "keyword_share": 0.62,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "يقول المؤمن «الحمد لله» تعبيرًا عن اعتماده على الله وشكره له في جميع الأوقات، مستحضرًا قول القرآن: ﴿ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ﴾.",
+   "label": "unsupported",
+   "source_id": "quran-1-2",
+   "quote": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+   "reason": "validator:[﴿﴾]",
+   "quote_similarity": 0.586,
+   "keyword_share": 0.2,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "وقد كان النبي صلى الله عليه وسلم يداوم على ذكر الحمد لله في أمسياته وصباحاته، مما جعل هذه العبارة جزءًا من وعيه اليومي وليس مجرد رد فعل لحظي.",
+   "label": "unsupported",
+   "source_id": "hadith-3008",
+   "quote": "كان نبي الله صلى الله عليه وسلم إذا أمسى قال: ... والحمد لله ... وإذا أصبح قال ذلك أيضا",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.723,
+   "keyword_share": 0.33,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "العبارة تحمل معنى دينيًا عميقًا يتجاوز آداب الاجتماعات.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "هي تعبير عن اعتراف بالله كخالق ومالك لكل شيء، وليست مجرد ردود فعل اجتماعية عابرة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "المعنى ليس محاولة لإخفاء المشاكل أو تجنب الحديث عنها.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "بل هي تذكير بأن الحمد لله يشمل الثناء على الله في جميع الأحوال، سواء كانت ميسرة أو مشقة، كجزء من العقيدة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "العبارة ليست كلمات فارغة تُقال عادةً دون تفكير.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "كلمة «الحمد» تعني وصف الله بكل صفات الكمال والمحبة، وهي تختلف عن الشكر الذي يكون غالبًا على نعمة محددة حصلت.",
+   "label": "unsupported",
+   "source_id": "term-8699",
+   "quote": "وَصْفُ الشَّيْءِ بِصِفاتِ الكَمالِ ومَحاسِنِ الأَفْعالِ مع المَحَبَّةِ والتَّعْظِيمِ... أمّا الشُّكْرُ فلا يكون إلّا عن نِعمَةٍ وإحسانٍ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.596,
+   "keyword_share": 0.56,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "استخدامها لا يقتصر على إنهاء المهام أو حل المشكلات.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "المسلم يُكثر منها في الصباح والمساء وفي كل حال، استنادًا إلى سنة النبي صلى الله عليه وسلم التي علمت المؤمنين كيفية البدء والختام بالحمد لله.",
+   "label": "unsupported",
+   "source_id": "hadith-3008",
+   "quote": "كان نبي الله صلى الله عليه وسلم إذا أمسى قال: ... والحمد لله ... وإذا أصبح قال ذلك أيضا",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.615,
+   "keyword_share": 0.3,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "حمد",
+   "لله"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 11,
+  "removed_by_verifier": 5,
+  "supported": 0,
+  "general": 3,
+  "flagged_general_religious": 3,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 4,
+   "quote_low_similarity": 0,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 1,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 6776,
+  "tokens_out": 2071
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الحمد لله في كل حال",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "الحمد لله في كل حال",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحمد لله",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "كلمة «الحمد» في الإسلام تعني الثناء على الله بصفاته وأفعاله محبة وتعظيمًا، وهي أعم من الشكر الذي يكون عادةً على نعمة معينة.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "يقول المؤمن «الحمد لله» تعبيرًا عن اعتماده على الله وشكره له في جميع الأوقات، مستحضرًا قول القرآن: ﴿ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ﴾.",
+   "why": "validator:[﴿﴾]"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-2",
+   "text": "وقد كان النبي صلى الله عليه وسلم يداوم على ذكر الحمد لله في أمسياته وصباحاته، مما جعل هذه العبارة جزءًا من وعيه اليومي وليس مجرد رد فعل لحظي.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-3-1",
+   "text": "كلمة «الحمد» تعني وصف الله بكل صفات الكمال والمحبة، وهي تختلف عن الشكر الذي يكون غالبًا على نعمة محددة حصلت.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-1",
+   "text": "المسلم يُكثر منها في الصباح والمساء وفي كل حال، استنادًا إلى سنة النبي صلى الله عليه وسلم التي علمت المؤمنين كيفية البدء والختام بالحمد لله.",
+   "why": "quote_not_verbatim"
+  }
+ ],
+ "seconds": 38.6
+}

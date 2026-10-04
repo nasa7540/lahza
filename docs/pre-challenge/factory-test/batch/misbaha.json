@@ -1,0 +1,317 @@
+{
+ "topic_id": "misbaha",
+ "topic": "زميل يحمل مسبحة ويحرك حباتها",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 63,
+    "ayah": 9
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   36620
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "tasbih-beads-workplace",
+  "level": "B",
+  "when": "weekday mon thu",
+  "title": "المسبحة في المكتب: ذكر أم حرفة يدوية؟",
+  "teaser": "لاحظت زميلك يمسك خرزات ويحركها بهدوء أثناء العمل. ما سر هذه الحركة؟",
+  "scene": "أثناء جلوسك في مكتبك، لاحظت أن زميلك أحمد يمسك بيده سلسلة من الخرزات السوداء، ويحرك إبهامه عليها ببطء وتركيز شديد بينما ينظر إلى شاشة الحاسوب. يبدو أنه لا يتحدث مع أحد ولا يشغل يده بأي عمل آخر. ماذا تعتقد أن أحمد يفعل بهذه الخرزات؟",
+  "character_names": [
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "تمرين لتخفيف التوتر",
+    "reveal_headline": "ليس مجرد تمرين استرخاء",
+    "reveal_body": "رغم أن الحركة قد تبدو هادئة، إلا أن الغرض منها ليس علاجًا نفسيًا أو تمارين تنفس. إنها ممارسة روحية محددة لها أصول دينية ولها كلمات معينة تُقال معها."
+   },
+   {
+    "id": "opt2",
+    "label": "لعبة قديمة للتسلية",
+    "reveal_headline": "ليست لعبة ترفيه",
+    "reveal_body": "لا يُقصد بها التسلية أو قتل الوقت كما تفعل الألعاب اليدوية الأخرى. بل هي أداة مساعدة على التركيز الذهني والروحي، وتُستخدم لأغراض عبادة وليست للعب."
+   },
+   {
+    "id": "opt3",
+    "label": "جلب الحظ والسعادة",
+    "reveal_headline": "ليست تعويذة حظ",
+    "reveal_body": "الهدف منها ليس تغيير الظروف الخارجية، بل تقوية العلاقة الداخلية مع الله وتنقية القلب من الشواغل."
+   },
+   {
+    "id": "opt4",
+    "label": "عداد لحساب عدد الكلمات",
+    "reveal_headline": "ليست عدادًا رقميًا فقط",
+    "reveal_body": "رغم أنها تستخدم للعد، إلا أن عدّها ليس هدفًا نهائيًا مثل عداد الإنتاج. العدد هنا وسيلة للوصول إلى حالة من الذكر المستمر، حيث يرتبط كل حركة بكلمة مقدسة تُنطق بالقلب أو اللسان."
+   }
+  ],
+  "explanation": "تُعرف هذه الخرزات باسم المسبحة، وتُستخدم للمساعدة في ذكر الله تعالى عبر ترديد عبارات التسبيح مثل «سبحان الله». استخدام المسبحة يساعد المصلي على التركيز وحفظ عدد الأذكار دون تشتيت الانتباه، مما يعزز حضور القلب في الذكر.",
+  "explain_prompt": "اشرح المفهوم السابق بكلمات بسيطة تناسب موظفًا غير مسلم، معتمدًا على المصادر المرفقة فقط.",
+  "tip": {
+   "headline": "آداب التعامل مع الزميل الذاكر",
+   "lead": "عند ملاحظة زميلك يقوم بالذكر في مكان العمل، يمكنك اتباع الآتي لإظهار الاحترام والتفهم:",
+   "items": [
+    "احترم هدوءه وخصوصيته: لا تقاطعه أو تسأله بأسئلة مفاجئة أثناء تركيزه، فالذكر يحتاج إلى خشوع وهدوء داخلي.",
+    "تجنب الضوضاء العالية: حاول خفض صوتك أو تقليل الضجيج حول مكتبه قدر الإمكان، لأن البيئة الهادئة تدعم ممارسته الروحية.",
+    "لا تلمسه أو تمسك المسبحة: المسبحة أداة شخصية للذكر، ولا ينبغي لمسها أو تحريكها من قبل الآخرين إلا بإذن صريح ومباشر."
+   ]
+  },
+  "key_points": [
+   "المسبحة أداة مساعدة على الذكر وليس للعب أو التسلية.",
+   "التسبيح يعني تنزيه الله عن النقص وإثبات كماله.",
+   "الذكر نشاط روحي يتطلب هدوءًا وتركيزًا ذهنيًا."
+  ],
+  "question_variants": [
+   "لماذا يتحرك إصبع الموظف على الخرزات بشكل متكرر؟",
+   "ما الغرض من السلسلة التي يحملها الزميل أثناء العمل؟",
+   "هل هذه الحركة جزء من روتين يومي معين؟",
+   "لماذا يبدو الشخص غارقًا في التفكير مع حركة يديه؟",
+   "ما معنى هذه العادة التي يمارسها بعض الموظفين في المكتب؟"
+  ],
+  "when_parsed": {
+   "type": "weekday",
+   "weekdays": [
+    1,
+    4
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-63-9",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُلۡهِكُمۡ أَمۡوَٰلُكُمۡ وَلَآ أَوۡلَٰدُكُمۡ عَن ذِكۡرِ ٱللَّهِۚ وَمَن يَفۡعَلۡ ذَٰلِكَ فَأُوْلَٰٓئِكَ هُمُ ٱلۡخَٰسِرُونَ",
+   "reference": "63:9",
+   "translations": {
+    "en": {
+     "text": "O you who believe, do not let your wealth and your children distract you from Allah’s remembrance. For whoever does that, it is they who are the losers.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/63/9",
+   "verified": false,
+   "content_hash": "b1ba551ddbddaca8f1df3d766f869787e1ff96d483954f83e82487b74edf3c5e"
+  },
+  {
+   "id": "term-36620",
+   "kind": "term",
+   "text_ar": "تَسْبِيحٌ: تَنْزِيهُ اللهِ تعالى عن كُلِّ نَقْصٍ، وإِثْباتُ كُلِّ كَمالٍ له. التَّسْبِيحُ مِن شَواهِدِ الإيمانِ بِاللهِ تعالى وأَصْلٌ مِن أُصُولِ تَوْحِيدِهِ، كما أنَّهُ مِن دَلائِلِ حُسْنِ العَقِيدَةِ الإِسْلامِيَّةِ، ومَعْناهُ: تَعْظِيمُ اللهِ وتَقْدِيسُهُ وتَنْزِيهُهُ عن كُلِّ عَيْبٍ نَسَبَهُ إليه المُشْرِكون والمُلْحِدونَ، كالشَّرِيكِ والوَلَدِ والصَّاحِبَةِ وغَيْرِ ذلك، وهو إِبْعادُ القُلُوبِ والأَفْكارِ عن أن تَظُنَّ بِاللهِ نَقْصاً، أو أن تَنْسِبَ إليه شَرّاً، وذلك يَقْتَضِي إِثْباتَ صِفات الكَمالِ له تعالى، ومِن أَسْماءِ اللهِ: السَّبُّوحُ أو السُّبُّوحُ، ومعناه: الذي يُنَزِّهُهُ ويُقَدِّسُهُ كُلُّ مَن في السَّمَواتِ والأَرْضِ عن المَعايِبِ والنَّقائِصِ.\nوالتَّسْبِيحُ يكون بِاللِّسانِ بِقَوْلِ: سُبْحانَ اللهِ ونَحْوِ ذلك، ويكون بِالجَوارِحِ، وذلك بِعِبادَةِ اللهِ وَحْدَهُ وتَرْكِ كُلِّ ما سِواهُ، ويكون بِالقَلْبِ بِتَنْزِيهِ اللهِ ونَفْيِ كُلِّ نَقْصٍ عنه، واعْتِقادِ الكَمالِ له في أَسْمائِهِ وصِفاتِهِ وذاتِهِ.\nوالتَّسْبِيحُ خَمْسَةُ أَنْواعٍ، وهي: \n1- تَسْبِيحُ اللهِ تعالى لِنَفْسِهِ المُقَدَّسَةِ.\n2- تَسْبِيحُ المَلائِكَةِ لِلهِ تعالى.\n3- تَسْبِيحُ صالِحِي البَشَرِ مِن الأَنْبِياءِ وأَتْباعِهِم لِلهِ تعالى.\n4- تَسْبِيحُ الكائِناتِ كُلِّها لِلهِ تعالى.\n5- تَسْبِيحُ أَهْلِ الجَنَّةِ فيها لِلهِ تعالى.",
+   "reference": "تَسْبِيحٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/36620",
+   "verified": false,
+   "content_hash": "62b8937bf30188dcb9259ed1a52b1546446dcfdc6711c2007c92dae210750483"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "تُعرف هذه الخرزات باسم المسبحة، وتُستخدم للمساعدة في ذكر الله تعالى عبر ترديد عبارات التسبيح مثل «سبحان الله».",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "التسبيح يعني تنزيه الله عن أي نقص وإثبات كماله له، وهو نوع من أنواع العبادة الذي يشمل الذكر باللسان والقلب والجوارح.",
+   "label": "unsupported",
+   "source_id": "term-36620",
+   "quote": "تَنْزِيهُ اللهِ تعالى عن كُلِّ نَقْصٍ، وإِثْباتُ كُلِّ كَمالٍ له... ويكون بِاللِّسانِ... ويكون بِالقَلْبِ... ويكون بِالجَوارِحِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.613,
+   "keyword_share": 0.67,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "استخدام المسبحة يساعد المصلي على التركيز وحفظ عدد الأذكار دون تشتيت الانتباه، مما يعزز حضور القلب في الذكر.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "رغم أن الحركة قد تبدو هادئة، إلا أن الغرض منها ليس علاجًا نفسيًا أو تمارين تنفس.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "إنها ممارسة روحية محددة لها أصول دينية ولها كلمات معينة تُقال معها.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "لا يُقصد بها التسلية أو قتل الوقت كما تفعل الألعاب اليدوية الأخرى.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "بل هي أداة مساعدة على التركيز الذهني والروحي، وتُستخدم لأغراض عبادة وليست للعب.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "الاعتقاد بأنها تجلب الحظ أو تدفع السوء هو مفهوم خاطئ شائع.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "الهدف منها ليس تغيير الظروف الخارجية، بل تقوية العلاقة الداخلية مع الله وتنقية القلب من الشواغل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "رغم أنها تستخدم للعد، إلا أن عدّها ليس هدفًا نهائيًا مثل عداد الإنتاج.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "العدد هنا وسيلة للوصول إلى حالة من الذكر المستمر، حيث يرتبط كل حركة بكلمة مقدسة تُنطق بالقلب أو اللسان.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": true,
+  "scene_title_words_found": [],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": true
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 11,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 8,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 1,
+   "verdict_missing": 0
+  },
+  "tokens_in": 5388,
+  "tokens_out": 1717
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "ذكر الله",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "التسبيح",
+   "hits": 1
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "التسبيح يعني تنزيه الله عن أي نقص وإثبات كماله له، وهو نوع من أنواع العبادة الذي يشمل الذكر باللسان والقلب والجوارح.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt3-0",
+   "text": "الاعتقاد بأنها تجلب الحظ أو تدفع السوء هو مفهوم خاطئ شائع.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 29.8
+}

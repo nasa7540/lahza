@@ -1,0 +1,407 @@
+{
+ "topic_id": "modest-dress",
+ "topic": "اللباس المحتشم في بيئة العمل",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:33",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 7,
+    "ayah": 26
+   }
+  ],
+  "hadith_ids": [
+   8292
+  ],
+  "term_ids": [
+   16782
+  ],
+  "steps": 4
+ },
+ "journey": {
+  "id": "workplace-modesty-01",
+  "level": "B",
+  "when": "always",
+  "title": "اللباس المحتشم في بيئة العمل",
+  "teaser": "كيف نفهم معايير اللباس في مكان العمل السعودي من منظور ديني وثقافي؟",
+  "scene": "دخلتَ الاجتماع الصباحي، ولاحظت أن ملابس زملائك تغطي أجسادهم بشكل كامل دون ضيق أو شفاف، حتى في فصل الصيف. بعض الزملاء يرتدون ثيابًا تقليدية طويلة، والبعض الآخر بملابس عمل رسمية محتشمة. ما رأيك في سبب هذا النمط الموحد تقريبًا في المظهر؟",
+  "character_names": [
+   "أنت",
+   "زملاؤك"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "مجرد موضة عابرة",
+    "reveal_headline": "ليس موضة عابرة",
+    "reveal_body": ""
+   },
+   {
+    "id": "opt-2",
+    "label": "إشارة للتميز الاجتماعي",
+    "reveal_headline": "ليس تميزًا اجتماعيًا",
+    "reveal_body": "الهدف من هذا اللباس ليس إبراز المكانة الاجتماعية أو التفوق على الآخرين."
+   },
+   {
+    "id": "opt-3",
+    "label": "قيود بيروقراطية صارمة",
+    "reveal_headline": "ليس قيدًا بيروقراطيًا",
+    "reveal_body": "رغم وجود أنظمة عمل، إلا أن جذور هذا السلوك أعمق من اللوائح الإدارية."
+   },
+   {
+    "id": "opt-4",
+    "label": "تعبير عن التشدد الديني",
+    "reveal_headline": "ليس تشددًا مفرطًا",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "في الثقافة الإسلامية، يُعد اللباس المحتشم تجسيدًا لمفهوم 'الحياء' الذي هو خلق كريم يمنعه الإنسان عن فعل القبيح وكشف العورات.",
+  "explain_prompt": "اشرح المفهوم الخاطئ: تفسير شائع ومعقول يخطر فعلًا على بال شخص من ثقافة أخرى حين يرى الموقف، لكنه غير صحيح. ليس سخيفًا ولا مستبعدًا، وليس هو الإجابة الصحيحة.",
+  "tip": {
+   "headline": "آداب التعامل مع اللباس المحتشم في العمل",
+   "lead": "لفهم البيئة السعودية واحترام تنوعها، اتبع هذه النصائح العملية:",
+   "items": [
+    "لا تعلق على ملابس الزملاء أو تسخر منها، فهي تعبير عن قناعات شخصية ودينية عميقة.",
+    "تأكد من أن لغتك الجسدية وملاحظاتك المهنية لا تحمل أي إيحاءات بتقليل شأن الاحتشام.",
+    "إذا كنت بحاجة لتغيير ملابسك لأسباب عملية، تأكد من أن التغيير لا ينتهك معايير الاحترام المتبادل في بيئة العمل."
+   ]
+  },
+  "key_points": [
+   "اللباس في الإسلام له بعد روحي (لباس التقوى) وجسدي (ستر العورات)، وهو أمر إلهي وليس اختياريًا بحتًا.",
+   "الحياء خلق فطري وإيماني يحث على الستر واجتناب القبيح، وهو محبوب عند الله تعالى.",
+   "الممارسة في العمل تعكس التزامًا دينيًا وأخلاقيًا، وليست مجرد موضة أو قيد بيروقراطي."
+  ],
+  "question_variants": [
+   "لماذا يلتزم الجميع بهذا النوع من اللباس في الاجتماعات؟",
+   "ما الدافع وراء هذا الاهتمام الكبير بالستر في الملابس؟",
+   "هل هناك سبب ديني وراء طريقة لبس الزملاء؟",
+   "كيف يمكنني فهم علاقة اللباس بالقيم الإسلامية في العمل؟",
+   "لماذا يعتبر الاحتشام جزءًا أساسيًا من هوية العاملين هنا؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-7-26",
+   "kind": "quran",
+   "text_ar": "يَٰبَنِيٓ ءَادَمَ قَدۡ أَنزَلۡنَا عَلَيۡكُمۡ لِبَاسٗا يُوَٰرِي سَوۡءَٰتِكُمۡ وَرِيشٗاۖ وَلِبَاسُ ٱلتَّقۡوَىٰ ذَٰلِكَ خَيۡرٞۚ ذَٰلِكَ مِنۡ ءَايَٰتِ ٱللَّهِ لَعَلَّهُمۡ يَذَّكَّرُونَ",
+   "reference": "7:26",
+   "translations": {
+    "en": {
+     "text": "O children of Adam, We have given you garments that cover your private parts and as an adornment. However, the garment of piety – that is best. That is one of the signs of Allah, so that they may take heed.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/7/26",
+   "verified": false,
+   "content_hash": "bed17136a0437f133e56d1198df9d23c3afa1800ff41421248fe9da531aecd90"
+  },
+  {
+   "id": "hadith-8292",
+   "kind": "hadith",
+   "text_ar": "عن يعلى بن أمية رضي الله عنه أنَّ رسولَ الله صلى الله عليه وسلم رأى رجلًا يغتسل ُبالبَراز بلا إزار، فصعِد المِنْبر، فحَمِد اللهَ وأثنى عليه، ثم قال صلى الله عليه وسلم: «إنَّ اللهَ عزَّ وجلَّ حَيِيٌّ سَتِيرٌ، يحب الحياءَ والسَّتر؛ فإذا اغتسل أحدُكم فليستتر».",
+   "reference": "رواه أبو داود والنسائي",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/8292",
+   "verified": false,
+   "content_hash": "129963904dc47017808d94efb5f05640ba51d7733c7e14e07f5dde9862909dc2"
+  },
+  {
+   "id": "term-16782",
+   "kind": "term",
+   "text_ar": "حَياءٌ: تَغَيُّرٌ في النَّفْسِ بِسَبَبِ تَعْظِيمٍ ونَحْوِهِ يَمْنَعُها مِن فِعْلِ شَيْءٍ، أو تَرْكِهِ؛ حَذَراً مِن اللَّوْمِ أو الذَّمِّ. الحَياءُ خُلُقٌ جَلِيلٌ وصِفَةٌ كَرِيمَةٌ تَبْعَثُ الإنسانَ على فِعْلِ الحَسَنِ واجْتِنابِ القَبِيحِ مِن الأَقْوالِ والأَفْعالِ والأَخْلاقِ، ويَمْنَعُ مِن التَّقْصِيرِ في حَقِّ الغَيْرِ، وهو على نَوْعَيْنِ:\nالأَوَّلُ: نَفْسانِيٌّ أو جِبِلِيٌّ، وهو الذي خَلَقَهُ اللهُ تعالى في النُّفُوس كُلِّها، كالحَياءِ عن كَشْفِ العَوْرَةِ، والجِماع بِحُضُور النَّاسِ، ونحوِ ذلك.\nالثَّانِي: إِيمانِيٌّ أو كَسْبِيٌّ، وهو ما يمْنَع المُؤْمِنَ مِن فِعْلِ المَعاصِي، أو تَرْكِ الطَّاعاتِ خَوْفاً مِن اللهِ تعالى.\nويُقَسِّمُ العُلَماءُ الحَياءَ أيضًا إلى ثَلاثَةِ أَقْسامٍ: \n1- حَياءٌ مِن اللهِ، ويكون بِامْتِثالِ أَوامِرِهِ واحتِنابِ نَواهِيهِ.\n2- حَياءٌ مِن النّفْسِ، ويكون بِالعِفَّةِ، وكِبَرِ الهِمَّةِ، وصِيانةِ النَّفْسِ في الخَلَواتِ.\n3- حَياءٌ مِن غَيْرِهِما: وهو الحَياءُ مِن سائِرِ المَخْلوقاتِ، ويكون بِكَفِّ الأَذَى عنهم، وتَرْكِ المُجاهَرَةِ بِالقَبائِحِ في حُضُورِهِم.\nوالحَياءُ إن كان بِسَبِب احْتِرامٍ أو إِجْلالٍ دون تَرْكٍ لِأَمْرٍ شَرْعِيٍّ؛ فهو حَسَنٌ مَحْمودٌ، وإن كان مَعَهُ تَرْكٌ لِأَمْرٍ مَشْرُوعٍ، كَتَرْكِ طَلَبِ العِلْمِ، أو عَدَمِ النَّهْيِ عن المُنْكَرِ؛ فهو خَجَلٌ قَبِيحٌ مَذْمُومٌ، وإن سَمَّاهُ بعْضُهُم حَياءً؛ لأنَّ الحَياءَ كُلَّهُ خَيْرٌ.",
+   "reference": "حَياءٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/16782",
+   "verified": false,
+   "content_hash": "8a66c0e374891a114b60d6c7ff680f5c4dc68422576d9f88a55b1b081c03ecae"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "في الثقافة الإسلامية، يُعد اللباس المحتشم تجسيدًا لمفهوم 'الحياء' الذي هو خلق كريم يمنعه الإنسان عن فعل القبيح وكشف العورات.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "القرآن الكريم ينزّل لباسًا لستر السوآت ويرفعه كـ'لباس التقوى'، بينما يؤكد الحديث الشريف على أن الله يحب الحياء والستر، ويشجع المؤمن على الاستتار حتى أثناء الاغتسال.",
+   "label": "unsupported",
+   "source_id": "quran-7-26",
+   "quote": "يَٰبَنِيٓ ءَادَمَ قَدۡ أَنزَلۡنَا عَلَيۡكُمۡ لِبَاسٗا يُوَٰرِي سَوۡءَٰتِكُمۡ ... وَلِبَاسُ ٱلتَّقۡوَىٰ ذَٰلِكَ خَيۡرٞ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.45,
+   "keyword_share": 0.17,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "لذا، فإن احتشام اللباس في العمل هو ممارسة روحية وأخلاقية تهدف إلى الطهارة والاحترام الذاتي والديني، وليست مجرد عادة ثقافية أو قيدًا إجباريًا.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذا التفسير خاطئ لأن الالتزام بالستر ليس اتجاهًا زائلًا، بل هو ركن ثابت في الهوية الإسلامية.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "المصادر تشير إلى أن الله أنزل لباسًا لستر العورات، مما يجعله أمرًا إلهيًا وليس صيحة مؤقتة.",
+   "label": "unsupported",
+   "source_id": "quran-7-26",
+   "quote": "قَدۡ أَنزَلۡنَا عَلَيۡكُمۡ لِبَاسٗا يُوَٰرِي سَوۡءَٰتِكُمۡ",
+   "reason": "quote_low_similarity",
+   "quote_similarity": 0.423,
+   "keyword_share": 0.13,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "الهدف من هذا اللباس ليس إبراز المكانة الاجتماعية أو التفوق على الآخرين.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "بل هو امتثال لأمر ديني يهدف إلى الحياء والستر، وهو خلق حميد يحبه الله عز وجل كما ورد في الأحاديث النبوية.",
+   "label": "unsupported",
+   "source_id": "hadith-8292",
+   "quote": "«إنَّ اللهَ عزَّ وجلَّ حَيِيٌّ سَتِيرٌ، يحب الحياءَ والسَّتر»",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.651,
+   "keyword_share": 0.27,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "رغم وجود أنظمة عمل، إلا أن جذور هذا السلوك أعمق من اللوائح الإدارية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "إنه نابع من مفهوم 'الحياء' الذي يمنع كشف العورة ويحث على اجتناب القبيح، وهو خلق فطري وإيماني يتجاوز مجرد الامتثال للقوانين.",
+   "label": "unsupported",
+   "source_id": "term-16782",
+   "quote": "الحَياءُ خُلُقٌ جَلِيلٌ ... يَمْنَعها مِن فِعْلِ شَيْءٍ ... كالحَياءِ عن كَشْفِ العَوْرَةِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.622,
+   "keyword_share": 0.59,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "الستر في الإسلام ليس تشددًا، بل هو توازن بين الفطرة والإيمان.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "الحديث الشريف يذكر أن الله حَيِيٌّ سَتِيرٌ يحب الحياء والستر، مما يعني أن هذا السلوك هو تعبير عن طاعة ومحبة لله، وليس غلظة في الدين.",
+   "label": "unsupported",
+   "source_id": "hadith-8292",
+   "quote": "«إنَّ اللهَ عزَّ وجلَّ حَيِيٌّ سَتِيرٌ، يحب الحياءَ والسَّتر»",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.742,
+   "keyword_share": 0.32,
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": true,
+  "scene_title_words_found": [],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 3,
+  "references_failed": 0,
+  "research_steps": 4,
+  "sentences_generated": 11,
+  "removed_by_verifier": 8,
+  "supported": 0,
+  "general": 2,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 2,
+   "quote_low_similarity": 1,
+   "keywords_missing": 2,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 3,
+   "verdict_missing": 0
+  },
+  "tokens_in": 10892,
+  "tokens_out": 2218
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "اللباس المحتشم العمل",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "الحشمة في العمل",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحشمة",
+   "hits": 0
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "ستر العورة زينتهم",
+   "hits": 1
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "الستر الحياء",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الحياء",
+   "hits": 1
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "زينتهم لباس التقوى",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "القرآن الكريم ينزّل لباسًا لستر السوآت ويرفعه كـ'لباس التقوى'، بينما يؤكد الحديث الشريف على أن الله يحب الحياء والستر، ويشجع المؤمن على الاستتار حتى أثناء الاغتسال.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-2",
+   "text": "لذا، فإن احتشام اللباس في العمل هو ممارسة روحية وأخلاقية تهدف إلى الطهارة والاحترام الذاتي والديني، وليست مجرد عادة ثقافية أو قيدًا إجباريًا.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-1-0",
+   "text": "هذا التفسير خاطئ لأن الالتزام بالستر ليس اتجاهًا زائلًا، بل هو ركن ثابت في الهوية الإسلامية.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-1-1",
+   "text": "المصادر تشير إلى أن الله أنزل لباسًا لستر العورات، مما يجعله أمرًا إلهيًا وليس صيحة مؤقتة.",
+   "why": "quote_low_similarity"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-2-1",
+   "text": "بل هو امتثال لأمر ديني يهدف إلى الحياء والستر، وهو خلق حميد يحبه الله عز وجل كما ورد في الأحاديث النبوية.",
+   "why": "keywords_missing"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-3-1",
+   "text": "إنه نابع من مفهوم 'الحياء' الذي يمنع كشف العورة ويحث على اجتناب القبيح، وهو خلق فطري وإيماني يتجاوز مجرد الامتثال للقوانين.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-0",
+   "text": "الستر في الإسلام ليس تشددًا، بل هو توازن بين الفطرة والإيمان.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt-4-1",
+   "text": "الحديث الشريف يذكر أن الله حَيِيٌّ سَتِيرٌ يحب الحياء والستر، مما يعني أن هذا السلوك هو تعبير عن طاعة ومحبة لله، وليس غلظة في الدين.",
+   "why": "keywords_missing"
+  }
+ ],
+ "seconds": 42.1
+}

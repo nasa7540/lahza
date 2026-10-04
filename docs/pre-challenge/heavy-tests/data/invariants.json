@@ -1,0 +1,11 @@
+{
+  "purpose": "Test 6 (runs after every phase from P2 on, against every response the checks see).",
+  "invariants": [
+    {"id": "no-model-text", "rule": "No API response body contains a free-text field produced by a model. Allowed: ids, enums, numbers, booleans, and text copied from approved static content.", "how": "Schema allow-list per endpoint; any extra string field fails. Run on classify, grade, referral, journey and home responses."},
+    {"id": "no-unapproved-draft", "rule": "No page or API response shows a journey, card or sentence that lacks the project team's approval matching the current text hash.", "how": "Crawl /[locale]/home, the library and every /[locale]/j/[id]; compare shown ids and hashes with review_decisions."},
+    {"id": "needs-sharii-gate", "rule": "A topic marked needs_sharii is never shown unless a real sharia reviewer approved it.", "how": "Seed one needs_sharii draft with team approval only; assert it is absent everywhere; add sharia approval; assert it appears without the badge."},
+    {"id": "edit-revokes-approval", "rule": "Editing an approved sentence returns it (and its journey) to unapproved.", "how": "Approve, edit one sentence, assert status unapproved and the journey disappears from production pages."},
+    {"id": "badge-rule", "rule": "Team-approved ordinary journeys show the badge 'approved by the project team, awaiting sharia review'; sharia approval removes it.", "how": "Rendered HTML check on the journey page."}
+  ],
+  "note": "Assertions only; the scripts are written on Oct 4 inside the phases that create these endpoints."
+}

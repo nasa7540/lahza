@@ -1,0 +1,337 @@
+{
+ "topic_id": "sadaqah",
+ "topic": "صندوق الصدقة في المكتب أو حملات التبرع",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:42",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 5,
+    "ayah": 2
+   },
+   {
+    "surah": 11,
+    "ayah": 93
+   }
+  ],
+  "hadith_ids": [
+   4568
+  ],
+  "term_ids": [
+   5071
+  ],
+  "steps": 5
+ },
+ "journey": {
+  "id": "office-charity-box",
+  "level": "B",
+  "when": "always",
+  "title": "صندوق التبرعات في المكتب",
+  "teaser": "شاهد كيف يتفاعل زملاؤك مع صندوق الصدقة، واكتشف المعنى الحقيقي وراء هذا الفعل.",
+  "scene": "مررتَ بمكتب الموارد البشرية ولاحظت صندوقًا معدنيًا صغيرًا مثبتًا على الحائط بجانب المصعد. خلال الأسبوع الماضي، رأيت عدة موظفين يوقفون خطواتهم لحظة مرورهم، ويضعون فيه أوراقًا نقدية أو بطاقات ائتمان لملء بياناتهم عبر كود QR مرفق. لم يطلب منهم أحد ذلك صراحةً، ولم يظهر أي ضغط اجتماعي عليهم، بل كان الأمر يبدو جزءًا من روتين العمل اليومي. ماذا تعتقد أن الدافع الرئيسي لهذا السلوك المتكرر؟",
+  "character_names": [
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "فرض إداري خفي",
+    "reveal_headline": "ليس إلزامًا مؤسسيًا",
+    "reveal_body": "لا توجد سياسة شركة تلزم الموظفين بالتبرع، والصندوق اختياري تمامًا. الضغط هنا ليس إداريًا بل قيمي وشخصي."
+   },
+   {
+    "id": "opt2",
+    "label": "محاكاة للثقافة الغربية",
+    "reveal_headline": "جذور دينية أصيلة",
+    "reveal_body": ""
+   },
+   {
+    "id": "opt3",
+    "label": "وسيلة لتقليل الضرائب",
+    "reveal_headline": "دافع روحي وليس ماليًا",
+    "reveal_body": "التبرع هنا لا يرتبط بخطط ضريبية شخصية، بل هو فعل إيمان وابتغاء للأجر من الله تعالى، بغض النظر عن الوضع المالي."
+   },
+   {
+    "id": "opt4",
+    "label": "عادة ترفيهية للموظفين",
+    "reveal_headline": "عمل جاد ومقصود",
+    "reveal_body": ""
+   }
+  ],
+  "explanation": "الصَدَقة في الإسلام هي ما يُعطيه الإنسان من ماله للفُقراء رَجاءَ ثوابِ اللهِ تعالى، وليست مجرد هدية للتودُّد.",
+  "explain_prompt": "اشرح المفهوم باستخدام المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب التعامل مع صندوق التبرعات",
+   "lead": "للدعم المهني والاحترام المتبادل في بيئة العمل متعددة الثقافات:",
+   "items": [
+    "احترم خيار الزملاء دون سؤالهم عن سبب تبرعهم أو عدمه، فهو أمر شخصي وديني.",
+    "لا تشعر بالضغط للمشاركة إذا لم تكن راغبًا، فالنصيحة الإسلامية تؤكد العمل بما تتحمل ('اعملوا على مكانتكم').",
+    "إذا قررت المشاركة، افعل ذلك بهدوء وسرية كما يفعل معظم الموظفين، تجنبًا للإظهار الذي قد ينفر البعض."
+   ]
+  },
+  "key_points": [
+   "الصَدَقة هي عطاء طوعي من المال ابتغاءً لثواب الله، وليست هدية اجتماعية أو فرضًا إداريًا.",
+   "المسلمون يؤمنون بأن الإحسان للناس (مثل المساعدة أو الكلمة الطيبة) شكل من أشكال الصدقة المستمرة.",
+   "يجب على المسلم أن يعمل بما يستطيع ولا يجاوز حدود طاقته في العطاء أو العبادة."
+  ],
+  "question_variants": [
+   "لماذا يضع الموظفون أموالًا في الصندوق المعدني يوميًا؟",
+   "ما هو الدافع الديني وراء هذه الممارسة الشائعة في المكتب؟",
+   "هل يعتبر هذا التبرع إلزاميًا حسب سياسات الشركة؟",
+   "كيف يمكن فهم علاقة هذا الصندوق بالمفاهيم الإسلامية؟",
+   "لماذا يبدو هذا الفعل جزءًا من الروتين اليومي للموظفين المسلمين؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-5-2",
+   "kind": "quran",
+   "text_ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ لَا تُحِلُّواْ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهۡرَ ٱلۡحَرَامَ وَلَا ٱلۡهَدۡيَ وَلَا ٱلۡقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلۡبَيۡتَ ٱلۡحَرَامَ يَبۡتَغُونَ فَضۡلٗا مِّن رَّبِّهِمۡ وَرِضۡوَٰنٗاۚ وَإِذَا حَلَلۡتُمۡ فَٱصۡطَادُواْۚ وَلَا يَجۡرِمَنَّكُمۡ شَنَـَٔانُ قَوۡمٍ أَن صَدُّوكُمۡ عَنِ ٱلۡمَسۡجِدِ ٱلۡحَرَامِ أَن تَعۡتَدُواْۘ وَتَعَاوَنُواْ عَلَى ٱلۡبِرِّ وَٱلتَّقۡوَىٰۖ وَلَا تَعَاوَنُواْ عَلَى ٱلۡإِثۡمِ وَٱلۡعُدۡوَٰنِۚ وَٱتَّقُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلۡعِقَابِ",
+   "reference": "5:2",
+   "translations": {
+    "en": {
+     "text": "O you who believe, do not violate the sanctity of the rituals of Allah, nor of the sacred month, nor the sacrificial animals, nor the garlands, nor those [pilgrims] proceeding to the Sacred House seeking their Lord’s grace and pleasure. When your pilgrimage has ended, you may hunt. However, do not let the hatred of a people who barred you from the Sacred Mosque lead you to transgress. Cooperate with one another in goodness and righteousness, and do not cooperate in sin and transgression. And fear Allah, for Allah is severe in punishment.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/5/2",
+   "verified": false,
+   "content_hash": "d5523b89531468d471277d334c66d28d0d7cd19c6a0371aa505fa340f5a15e5c"
+  },
+  {
+   "id": "quran-11-93",
+   "kind": "quran",
+   "text_ar": "وَيَٰقَوۡمِ ٱعۡمَلُواْ عَلَىٰ مَكَانَتِكُمۡ إِنِّي عَٰمِلٞۖ سَوۡفَ تَعۡلَمُونَ مَن يَأۡتِيهِ عَذَابٞ يُخۡزِيهِ وَمَنۡ هُوَ كَٰذِبٞۖ وَٱرۡتَقِبُوٓاْ إِنِّي مَعَكُمۡ رَقِيبٞ",
+   "reference": "11:93",
+   "translations": {
+    "en": {
+     "text": "O my people, do whatever you can; I will do mine. You will come to know who will receive a disgracing punishment, and who is a liar. Wait; I too am waiting with you.”",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/11/93",
+   "verified": false,
+   "content_hash": "c0191e7dbdc2dd0f372734efc71b9e12a3193cc5aca0a6612ae343f17fb6c3ce"
+  },
+  {
+   "id": "hadith-4568",
+   "kind": "hadith",
+   "text_ar": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ، كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ يَعْدِلُ بَيْنَ الِاثْنَيْنِ صَدَقَةٌ، وَيُعِينُ الرَّجُلَ عَلَى دَابَّتِهِ فَيَحْمِلُ عَلَيْهَا أَوْ يَرْفَعُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، وَكُلُّ خُطْوَةٍ يَخْطُوهَا إِلَى الصَّلاَةِ صَدَقَةٌ، وَيُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ».",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4568",
+   "verified": false,
+   "content_hash": "cb612bbe58cb19247a8c21af52317978ad12448892f1c68f02599fb3edcf23c5"
+  },
+  {
+   "id": "term-5071",
+   "kind": "term",
+   "text_ar": "صَدَقَةٌ: العَطِيَّةُ التي يُخرِجُها الإنْسانُ مِن مالِهِ على وجْهِ القُرْبةِ وابْتِغاءِ الـمَثُوبةِ مِن اللهِ تعالى. الصَّدَقة: هي ما يُعطِيهِ الإنسانُ للفُقراءِ رَجاءَ ثَوابِ اللهِ تعالى لا التَّكرُمَةِ؛ لإِخْراجِ الهديَّةِ والهِبَةِ المقصُودِ بها التَّودُّد. وتُقالُ الصَّدقةُ في الأصلِ للمُتَطَوَّعِ بهِ، والزّكاةُ للواجِبِ، وقيل: يُسمّى الواجِبُ صَدَقةً إذا تحرّى صاحِبُه الصِّدقَ في فِعْله، والصَّدقةُ دليلٌ على صِحَّة إيمانِ مُؤدِّيها وتَصْدِيقِهِ.",
+   "reference": "صَدَقَةٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/5071",
+   "verified": false,
+   "content_hash": "3701e0f174f45284d28f2da5df732f79e4c2879b87fa5ba436940977c6cfa8a6"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "الصَدَقة في الإسلام هي ما يُعطيه الإنسان من ماله للفُقراء رَجاءَ ثوابِ اللهِ تعالى، وليست مجرد هدية للتودُّد.",
+   "label": "supported",
+   "source_id": "term-5071",
+   "quote": "الصَّدَقة: هي ما يُعطِيهِ الإنسانُ للفُقراءِ رَجاءَ ثَوابِ اللهِ تعالى لا التَّكرُمَةِ؛ لإِخْراجِ الهديَّةِ والهِبَةِ المقصُودِ بها التَّودُّد.",
+   "reason": null,
+   "quote_similarity": 0.898,
+   "keyword_share": 0.79,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "وقد حَثَّ الحديث النبوي الشريف على الإحسان لكل الناس، حيث وصف كل خطوة نحو الصلاة وكل كلمة طيبة بأنها صدقة، مما يجعل العطاء جزءًا من نمط الحياة اليومية وليس حدثًا استثنائيًا فقط.",
+   "label": "unsupported",
+   "source_id": "hadith-4568",
+   "quote": "وَكُلُّ خُطْوَةٍ يَخْطُوهَا إِلَى الصَّلاَةِ صَدَقَةٌ، وَالكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.643,
+   "keyword_share": 0.29,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "لا توجد سياسة شركة تلزم الموظفين بالتبرع، والصندوق اختياري تمامًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "الضغط هنا ليس إداريًا بل قيمي وشخصي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "هذا السلوك ليس تقليدًا للغرب، بل هو ممارسة إسلامية عريقة قائمة على مفهوم 'الصدقة' كعبادة وتطوع.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "التبرع هنا لا يرتبط بخطط ضريبية شخصية، بل هو فعل إيمان وابتغاء للأجر من الله تعالى، بغض النظر عن الوضع المالي.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "ليس نشاطًا ترفيهيًا أو عبثيًا، بل هو عمل نبيّل يتطلب نية صادقة، ويُعد من أعظم القربات عند المسلمين.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "مكتب"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 4,
+  "references_failed": 0,
+  "research_steps": 5,
+  "sentences_generated": 7,
+  "removed_by_verifier": 3,
+  "supported": 1,
+  "general": 2,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 2,
+   "verdict_missing": 0
+  },
+  "tokens_in": 14951,
+  "tokens_out": 1748
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "الصدقة في العمل أو التعاون على البر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "التصدق في العمل أو جمع الصدقات",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الصدقة",
+   "hits": 1
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "أحسنوا في العمل أو الإحسان في الكسب",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "التعاون على البر والتقوى",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "كف الأذى عن الناس أو العمل صدقة",
+   "hits": 6
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "وقد حَثَّ الحديث النبوي الشريف على الإحسان لكل الناس، حيث وصف كل خطوة نحو الصلاة وكل كلمة طيبة بأنها صدقة، مما يجعل العطاء جزءًا من نمط الحياة اليومية وليس حدثًا استثنائيًا فقط.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt2-0",
+   "text": "هذا السلوك ليس تقليدًا للغرب، بل هو ممارسة إسلامية عريقة قائمة على مفهوم 'الصدقة' كعبادة وتطوع.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-0",
+   "text": "ليس نشاطًا ترفيهيًا أو عبثيًا، بل هو عمل نبيّل يتطلب نية صادقة، ويُعد من أعظم القربات عند المسلمين.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 36.3
+}

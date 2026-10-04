@@ -1,0 +1,300 @@
+{
+ "topic_id": "hijri-new-year",
+ "topic": "بداية السنة الهجرية والتقويم الهجري في الأوراق الرسمية",
+ "expected_when": "hijri 1/1-1/1",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:37",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 185
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   5875
+  ],
+  "steps": 4
+ },
+ "journey": {
+  "id": "hijri-calendar-workplace",
+  "level": "B",
+  "when": "always",
+  "title": "لماذا التاريخ الهجري في ورقتي الرسمية؟",
+  "teaser": "شفت إن كل العقود والتقارير فيها تاريخ هجري وميلادي مع بعض، ليش نكتب الاثنين؟",
+  "scene": "أنت جالس في مكتبك تجهز عقدًا جديدًا للعميل. زميلك سعود يدخل ويضع نسخة مطبوعة على طاولة ويقول: «تأكد من التاريخ في الصفحة الأولى، لازم يكون الهجري والميلادي». تنظر للتاريخ وتقول لنفسك: «الميلادي كافي، ليش نضيف الهجري؟ هل هذا شرط ديني إلزامي أو مجرد تقليد قديم؟»",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "مجرد تقليد ثقافي لا فائدة منه",
+    "reveal_headline": "ليس تقليدًا فارغًا",
+    "reveal_body": "التقويم الهجري جزء أساسي من الهوية الإسلامية التي تؤثر في الحياة اليومية والقانونية. وجوده ليس زينة، بل يعكس واقعًا اجتماعيًا وإداريًا متجذرًا."
+   },
+   {
+    "id": "opt2",
+    "label": "شرط شرعي لإجازة العقود",
+    "reveal_headline": "لا يشترط لصحة العقد",
+    "reveal_body": ""
+   },
+   {
+    "id": "opt3",
+    "label": "إشارة إلى شهر رمضان فقط",
+    "reveal_headline": "أوسع من رمضان",
+    "reveal_body": "رغم أن رمضان مهم، إلا أن التقويم الهجري يشمل جميع المناسبات والأحداث السنوية. استخدامه في الأوراق الرسمية يغطي نطاقاً زمنياً شاملاً وليس مرتبطاً بشهر واحد محدد."
+   },
+   {
+    "id": "opt4",
+    "label": "اختيار شخصي للموظف السعودي",
+    "reveal_headline": "ممارسة مؤسسية",
+    "reveal_body": "كتابة التاريخ الهجري ليست اختياراً فردياً، بل هي سياسة مؤسسية ومعيار رسمي في المملكة لضمان الدقة والتوافق مع السياق المحلي والدولي."
+   }
+  ],
+  "explanation": "يعتمد النظام الرسمي في المملكة العربية السعودية على التقويم الهجري كمعيار رئيسي للتاريخ، مما يجعل ذكره ضرورياً في الوثائق الرسمية لتجنب اللبس وللتوافق مع البيئة القانونية والإدارية المحلية. هذا الممارسة تعكس الانسجام بين الهوية الوطنية والتعاملات الحديثة.",
+  "explain_prompt": "اشرح لماذا يُذكر التاريخ الهجري في الأوراق الرسمية في السعودية بناءً على السياق الإداري والثقافي العام دون الخوض في تفاصيل فقهية.",
+  "tip": {
+   "headline": "نصائح للتعامل مع التواريخ في العمل",
+   "lead": "كيف تتعامل بذكاء واحتراف مع التواريخ الهجرية والميلادية في بيئة العمل:",
+   "items": [
+    "تحقق دائماً من التاريخين (الهجري والميلادي) عند توقيع أي مستند رسمي لضمان الدقة القانونية.",
+    "لا تفترض أن التاريخ الميلادي وحده كافٍ في التعاملات المحلية، فالسياق الهجري قد يكون مطلوباً قانونياً أو إدارياً.",
+    "كن مرناً في فهم المواعيد؛ فقد تختلف الحسابات الزمنية قليلاً بين التقويمين، واستشر زملاءك المحليين عند الشك."
+   ]
+  },
+  "key_points": [
+   "التقويم الهجري هو المعيار الرسمي الأساسي في المملكة العربية السعودية للوثائق الحكومية والرسمية.",
+   "ذكر التاريخ الهجري ليس شرطاً شرعياً لصحة العقود، بل هو ممارسة إدارية وقانونية روتينية.",
+   "استخدام التاريخين معاً يضمن الوضوح والتوافق مع البيئة المحلية والدولية في آن واحد."
+  ],
+  "question_variants": [
+   "لماذا يظهر التاريخ الهجري بجانب الميلادي في معظم المستندات الرسمية؟",
+   "هل كتابة التاريخ الهجري إلزامية قانوناً أم اختيارية؟",
+   "ما الفرق بين استخدام التاريخ الهجري والميلادي في العقود؟",
+   "هل يمكن استبدال التاريخ الهجري بالميلادي فقط في التعاملات الداخلية؟",
+   "لماذا يصر الموظفون السعوديون على ذكر التاريخ الهجري في التقارير؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-185",
+   "kind": "quran",
+   "text_ar": "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+   "reference": "2:185",
+   "translations": {
+    "en": {
+     "text": "Ramadān is a month in which the Qur’an was sent down as a guidance for mankind and as clear signs that show the right way and distinguish between right and wrong. So whoever of you witnesses this month, should fast. But if anyone is ill or on a journey, he should make up for those days. Allah wants ease for you and does not want hardship for you, so that you may complete the prescribed number of days, and proclaim the greatness of Allah for having guided you, and so that you may be grateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/185",
+   "verified": false,
+   "content_hash": "61cedfd69ae0917f1a30ee0cba1f09488ab4c72333bc5dd066a3f091d59788dd"
+  },
+  {
+   "id": "term-5875",
+   "kind": "term",
+   "text_ar": "تَقْوِيمٌ: تَحْدِيدُ ثَمَنِ الشَّيْءِ بِاعْتِبارِ مَنافِعِهِ المُباحَةِ شَرْعًا. المُعْتَبَرَ في التَّقْوِيمِ إنَّما هو مُراعاةُ المَنْفَعَةِ التي أَذِنَ الشّارِعُ فِيها، وما لا يُؤْذَنُ فِيهِ فلا تُعْتَبَرُ قِيمَتُهُ.",
+   "reference": "تَقْوِيمٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/5875",
+   "verified": false,
+   "content_hash": "9aaffca1805aedfbc90e125130a44b5126be7ce8541f7191f5542d0c1348968d"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يعتمد النظام الرسمي في المملكة العربية السعودية على التقويم الهجري كمعيار رئيسي للتاريخ، مما يجعل ذكره ضرورياً في الوثائق الرسمية لتجنب اللبس وللتوافق مع البيئة القانونية والإدارية المحلية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "هذا الممارسة تعكس الانسجام بين الهوية الوطنية والتعاملات الحديثة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "التقويم الهجري جزء أساسي من الهوية الإسلامية التي تؤثر في الحياة اليومية والقانونية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "وجوده ليس زينة، بل يعكس واقعًا اجتماعيًا وإداريًا متجذرًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "صحة العقود والشروط المالية تعتمد على الرضا والوضوح، وليس على نوع التقويم المستخدم.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "ذكر التاريخ الهجري هو ممارسة إدارية وثقافية، وليس ركناً شرعياً يلزم صحة المعاملة.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "رغم أن رمضان مهم، إلا أن التقويم الهجري يشمل جميع المناسبات والأحداث السنوية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "استخدامه في الأوراق الرسمية يغطي نطاقاً زمنياً شاملاً وليس مرتبطاً بشهر واحد محدد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "كتابة التاريخ الهجري ليست اختياراً فردياً، بل هي سياسة مؤسسية ومعيار رسمي في المملكة لضمان الدقة والتوافق مع السياق المحلي والدولي.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "تاريخ",
+   "هجري"
+  ],
+  "variants_without_names": false,
+  "variant_names_found": [
+   "سعود"
+  ],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 4,
+  "sentences_generated": 9,
+  "removed_by_verifier": 2,
+  "supported": 0,
+  "general": 5,
+  "flagged_general_religious": 2,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 2,
+   "verdict_missing": 0
+  },
+  "tokens_in": 7786,
+  "tokens_out": 1625
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "شهر رمضان الذي أنزل فيه القرآن",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "بداية السنة الهجرية هجرة النبي",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "التقويم الهجري",
+   "hits": 1
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt2-0",
+   "text": "صحة العقود والشروط المالية تعتمد على الرضا والوضوح، وليس على نوع التقويم المستخدم.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt2-1",
+   "text": "ذكر التاريخ الهجري هو ممارسة إدارية وثقافية، وليس ركناً شرعياً يلزم صحة المعاملة.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 31.5
+}

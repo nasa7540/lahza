@@ -1,0 +1,342 @@
+{
+ "topic_id": "zakat-fitr",
+ "topic": "زملاء يخرجون زكاة الفطر قبل العيد",
+ "expected_when": "hijri 9/25-9/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:35",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [],
+  "hadith_ids": [
+   4520
+  ],
+  "term_ids": [
+   6420
+  ],
+  "steps": 2
+ },
+ "journey": {
+  "id": "zakat-fitrah-workplace",
+  "level": "B",
+  "when": "hijri 1/25-1/27",
+  "title": "لماذا يخرج الزملاء تبرعات قبل العيد؟",
+  "teaser": "في الأيام الأخيرة من رمضان، لاحظت أن بعض زملائك يجمعون مبلغًا ماليًا أو طعامًا ويخرجونه قبل موعد العيد بيومين. هذا السلوك له جذور دينية عميقة.",
+  "scene": "أثناء العمل في آخر أيام رمضان، لاحظت أن زميلك أحمد يسلم envelopes صغيرة لزملائه الآخرين ويقول: «زكاة الفطر». ثم خرج هو نفسه ليضعها في صندوق مخصص في المبنى. ما رأيك في سبب هذا الإجراء بالتحديد قبل العيد؟",
+  "character_names": [
+   "أحمد"
+  ],
+  "options": [
+   {
+    "id": "opt1",
+    "label": "مساعدة مالية طوعية للفقراء",
+    "reveal_headline": "فرض وليس صدقة اختيارية",
+    "reveal_body": "زكاة الفطر ليست صدقة تطوعية يمكن تأجيلها لأي وقت، بل هي فرض شرعي واجب على كل مسلم قادر."
+   },
+   {
+    "id": "opt2",
+    "label": "عادة اجتماعية لتبادل الهدايا",
+    "reveal_headline": "عبادة وليست تبادل هدايا",
+    "reveal_body": "لها شروط محددة في النية والمقدار والوقت لا تنطبق على الهدايا العادية."
+   },
+   {
+    "id": "opt3",
+    "label": "ضريبة شهرية تجبيها الشركة",
+    "reveal_headline": "دين شخصي وليس ضريبة مؤسسية",
+    "reveal_body": "لا علاقة للشركة بفرضها أو جبايتها؛ فهي التزام فردي على كل مسلم تجاه الفقراء. قد تسهل الشركات الجمع فقط كخدمة، لكن الأصل ديني وشخصي بحت."
+   },
+   {
+    "id": "opt4",
+    "label": "تبرع اختياري لمن يريد",
+    "reveal_headline": "وجوب شامل لكل المسلمين",
+    "reveal_body": "الحديث النبوي يوضح أنها فرضت على العبد والحر، الذكر والأنثى، الصغير والكبير."
+   }
+  ],
+  "explanation": "",
+  "explain_prompt": "اشرح المفهوم باستخدام المصادر المرفقة بكلمات بسيطة.",
+  "tip": {
+   "headline": "آداب التعامل مع زملاء يتصدقون بزكاة الفطر",
+   "lead": "لتحافظ على بيئة عمل محترمة ومتعاونة، اتبع هذه النصائح:",
+   "items": [
+    "احترم نية زملائك الدينية دون تدخل أو تساؤل مباشر حول مبالغهم الشخصية.",
+    "إذا طلب منك المشاركة طواعية، يمكنك الموافقة أو الاعتذار بلطف دون تفسيرات طويلة.",
+    "لا تشاركهم في جمع المال إذا لم تكن مسلمًا، لكن اقبل المساعدة إن عرضوها لك كخدمة مكتبية عامة."
+   ]
+  },
+  "key_points": [
+   "زكاة الفطر فرض شرعي واجب على كل مسلم، وليست صدقة اختيارية.",
+   "يجب إخراجها قبل صلاة عيد الفطر، وتأخيرها بعدها يفقدها حكمها الأصلي.",
+   "تُخرج عن النفس وعن من يعولهم، بهدف تطهير الصائم وإطعام الفقراء."
+  ],
+  "question_variants": [
+   "لماذا يجمع الزملاء تبرعات قبل أيام من العيد مباشرة؟",
+   "ما معنى كلمة 'زكاة الفطر' التي يرددها الموظفون في نهاية الشهر؟",
+   "لماذا يشدد البعض على إخراج التبرع قبل موعد الصلاة؟",
+   "هل هذا المبلغ اختياري أم إلزامي حسب معتقداتهم؟",
+   "ما الغاية من هذا الإجراء الجماعي في المكتب؟"
+  ],
+  "when_parsed": {
+   "type": "hijri",
+   "windows": [
+    {
+     "from": {
+      "month": 1,
+      "day": 25
+     },
+     "to": {
+      "month": 1,
+      "day": 27
+     }
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "hadith-4520",
+   "kind": "hadith",
+   "text_ar": "عَنِ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: فَرَضَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ زَكَاةَ الفِطْرِ صَاعًا مِنْ تَمْرٍ، أَوْ صَاعًا مِنْ شَعِيرٍ، عَلَى العَبْدِ وَالحُرِّ، وَالذَّكَرِ وَالأُنْثَى، وَالصَّغِيرِ وَالكَبِيرِ مِنَ المُسْلِمِينَ، وَأَمَرَ بِهَا أَنْ تُؤَدَّى قَبْلَ خُرُوجِ النَّاسِ إِلَى الصَّلاَةِ.",
+   "reference": "متفق عليه",
+   "grade": "صحيح",
+   "translations": {},
+   "source_url": "https://hadeethenc.com/ar/browse/hadith/4520",
+   "verified": false,
+   "content_hash": "e5c68b5cc77e032ccce7e446c618247ba7851962ad3acf70f3116356d216b618"
+  },
+  {
+   "id": "term-6420",
+   "kind": "term",
+   "text_ar": "زَكاةُ الفِطْرِ: صَدَقَةٌ مِن طَعامٍ تَجِبُ بِالفِطْرِ مِن رَمَضان. زَكاةُ الفِطْرِ: عِبادَةٌ شَرَعَها اللهُ تعالى لِعِبادِهِ بعد صِيامِ رَمَضانَ، وهي: إِنْفاقُ مِقْدارِ صاعٍ مِن طَعامٍ مِن غالِبِ قُوتِ أهلِ البَلَدِ عن كُلِّ فَرْدٍ مُسْلِمٍ يُعِيلُهُ، سواءٌ كان ذَكَراً أو أُنثى، صَغِيراً أو كبيراً، قَبْلَ صَلاةِ عِيدِ الفِطْرِ للفقراءِ والمساكينِ؛ طُهرةً لِلصّائِمِ مِنَ اللَّغْوِ والرَّفَثِ، وَطُعْمَةً للمَساكِينِ وإغْناءً لهم عن السُّؤال في ذلك اليَومِ، وإِدْخالاً لِلسُّرورِ علَيْهِم في يَوْمٍ يُسَرُّ المُسْلِمونَ بِقُدومِ العِيدِ عَلَيْهِم.\nومِقدارُها عند جُمهور العُلَماءِ: صاعٌ مِن البُرِّ أو الشَّعِيرِ أو دَقِيقِهِما أو التَّمْرِ أو الزَّبِيبِ، والصّاع: أَرْبَعُ حَفَناتٍ بِكَفَّيِ الرَّجُل الذي ليس بِعَظِيمِ الكَفَّيْنِ ولا صَغِيرِها، وقَدَّرتها اللَّجنة الدّائِمة في فتاوِيها بثلاثَة كيلوغرامات تقريباً، وجاء في مجلة البحوث الإسلامية أنّ مِقدارها: 2.6 كلغ تقريباً.",
+   "reference": "زَكاةُ الفِطْرِ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/6420",
+   "verified": false,
+   "content_hash": "63643d09cbde9ac492f46ee262ef0da167986828e115edc05e85fa15b4aac9ca"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "زكاة الفطر صدقة تجب على كل مسلم عند فطره من رمضان، سواء كان صغيرًا أو كبيرًا، ذكرًا أو أنثى.",
+   "label": "unsupported",
+   "source_id": "hadith-4520",
+   "quote": "فَرَضَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ زَكَاةَ الفِطْرِ ... عَلَى العَبْدِ وَالحُرِّ، وَالذَّكَرِ وَالأُنْثَى، وَالصَّغِيرِ وَالكَبِيرِ مِنَ المُسْلِمِينَ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.511,
+   "keyword_share": 0.31,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "أمر النبي صلى الله عليه وسلم بإخراجها قبل خروج الناس إلى صلاة العيد، لتكون طهرة للصائم من اللغو والرَّفث، وطعمة للمساكين يدخلون بها السرور في يوم العيد.",
+   "label": "unsupported",
+   "source_id": "term-6420",
+   "quote": "قَبْلَ صَلاةِ عِيدِ الفِطْرِ للفقراءِ والمساكين؛ طُهرةً لِلصّائِمِ مِنَ اللَّغْوِ والرَّفَثِ، وَطُعْمَةً للمَساكِينِ وإدْخالاً لِلسُّرورِ علَيْهِم في يَوْمٍ يُسَرُّ المُسْلِمونَ بِقُدومِ العِيدِ عَلَيْهِم",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.626,
+   "keyword_share": 0.52,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt1-0",
+   "where": "reveal:opt1",
+   "text": "زكاة الفطر ليست صدقة تطوعية يمكن تأجيلها لأي وقت، بل هي فرض شرعي واجب على كل مسلم قادر.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt1-1",
+   "where": "reveal:opt1",
+   "text": "تأخيرها بعد صلاة العيد يجعلها صدقة عادية تفقد حكمها الشرعي الخاص.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-0",
+   "where": "reveal:opt2",
+   "text": "الهدف منها عبادة الله وطهارة الصائم، وليس مجرد تبادل هدايا أو معاملة اجتماعية.",
+   "label": "unsupported",
+   "source_id": "term-6420",
+   "quote": "عِبادَةٌ شَرَعَها اللهُ تعالى ... طُهرةً لِلصّائِمِ مِنَ اللَّغْوِ والرَّفَثِ",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.586,
+   "keyword_share": 0.27,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt2-1",
+   "where": "reveal:opt2",
+   "text": "لها شروط محددة في النية والمقدار والوقت لا تنطبق على الهدايا العادية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-0",
+   "where": "reveal:opt3",
+   "text": "لا علاقة للشركة بفرضها أو جبايتها؛ فهي التزام فردي على كل مسلم تجاه الفقراء.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt3-1",
+   "where": "reveal:opt3",
+   "text": "قد تسهل الشركات الجمع فقط كخدمة، لكن الأصل ديني وشخصي بحت.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-0",
+   "where": "reveal:opt4",
+   "text": "الحديث النبوي يوضح أنها فرضت على العبد والحر، الذكر والأنثى، الصغير والكبير.",
+   "label": "supported",
+   "source_id": "hadith-4520",
+   "quote": "عَلَى العَبْدِ وَالحُرِّ، وَالذَّكَرِ وَالأُنْثَى، وَالصَّغِيرِ وَالكَبِيرِ",
+   "reason": null,
+   "quote_similarity": 0.631,
+   "keyword_share": 0.58,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt4-1",
+   "where": "reveal:opt4",
+   "text": "أي مسلم صام رمضان يجب عليه إخراجها عن نفسه ومن يعولهم، ولا خيار فيها.",
+   "label": "unsupported",
+   "source_id": null,
+   "quote": null,
+   "reason": "verifier_unsupported",
+   "kept": false,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "عيد",
+   "قبل"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": true,
+  "when_matches_expected": false,
+  "reveals_nonempty": false,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 2,
+  "sentences_generated": 10,
+  "removed_by_verifier": 5,
+  "supported": 1,
+  "general": 3,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 3,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 2,
+   "verdict_missing": 0
+  },
+  "tokens_in": 4975,
+  "tokens_out": 1855
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "زكاة الفطر",
+   "hits": 2
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "زكاة الفطر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "زكاة الفطر",
+   "hits": 3
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "زكاة الفطر صدقة تجب على كل مسلم عند فطره من رمضان، سواء كان صغيرًا أو كبيرًا، ذكرًا أو أنثى.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "أمر النبي صلى الله عليه وسلم بإخراجها قبل خروج الناس إلى صلاة العيد، لتكون طهرة للصائم من اللغو والرَّفث، وطعمة للمساكين يدخلون بها السرور في يوم العيد.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt1-1",
+   "text": "تأخيرها بعد صلاة العيد يجعلها صدقة عادية تفقد حكمها الشرعي الخاص.",
+   "why": "verifier_unsupported"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt2-0",
+   "text": "الهدف منها عبادة الله وطهارة الصائم، وليس مجرد تبادل هدايا أو معاملة اجتماعية.",
+   "why": "quote_not_verbatim"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "rev-opt4-1",
+   "text": "أي مسلم صام رمضان يجب عليه إخراجها عن نفسه ومن يعولهم، ولا خيار فيها.",
+   "why": "verifier_unsupported"
+  }
+ ],
+ "seconds": 38.0
+}

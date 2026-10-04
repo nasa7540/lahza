@@ -1,0 +1,314 @@
+{
+ "topic_id": "jazakallah",
+ "topic": "عبارة جزاك الله خيرًا عند الشكر",
+ "expected_when": "always",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:32",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "politics_or_conflict",
+  "by": "model"
+ },
+ "references": {
+  "quran": [
+   {
+    "surah": 2,
+    "ayah": 152
+   }
+  ],
+  "hadith_ids": [],
+  "term_ids": [
+   1162
+  ],
+  "steps": 3
+ },
+ "journey": {
+  "id": "gratitude-jazakallah",
+  "level": "B",
+  "when": "always",
+  "title": "عندما يقول لك زميلك: جزاك الله خيرًا",
+  "teaser": "في بيئة العمل السعودية، قد تسمع عبارة «جزاك الله خيرًا» بدلاً من «شكرًا» أو «Thank you». ما المعنى الحقيقي وراء هذه العبارة؟",
+  "scene": "ساعدتَ زميلك سعودًا في إنهاء تقرير عاجل قبل الموعد النهائي. بعد أن أنهى عمله، نظر إليك بامتنان وقال: «جزاك الله خيرًا على المساعدة». ماذا يقصد سعود بهذه العبارة بالضبط؟",
+  "character_names": [
+   "سعود"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "دعاء ديني صارم",
+    "reveal_headline": "عبارة شكر متداولة",
+    "reveal_body": "هذه العبارة ليست دعاءً خاصًا بالمسلمين فقط، بل هي تعبير شائع ومعتمد في اللغة العربية للإعراب عن الامتنان العميق. يستخدمها الجميع بغض النظر عن الخلفية الدينية كطريقة مهذلة لتقدير الجهد."
+   },
+   {
+    "id": "opt-2",
+    "label": "طلب مساعدة إضافية",
+    "reveal_headline": "ختام للمساعدة الحالية",
+    "reveal_body": "العبارة تُستخدم عادةً لإنهاء فعل المساعدة وتأكيد الامتنان له، وليس للضغط عليك لتقديم المزيد من الدعم فورًا. إنها إشارة إلى أن المساعدة تم قبولها وتقديرها بشكل كامل."
+   },
+   {
+    "id": "opt-3",
+    "label": "رد رسمي بارد",
+    "reveal_headline": "تعابير دافئة ومباشرة",
+    "reveal_body": "على العكس، هذه العبارة تحمل دفئًا وصدقًا في المشاعر، وهي أكثر شخصية وتأثيرًا من مجرد كلمة شكرا الرسمية. تعكس تقديرًا شخصيًا للجهد المبذول لصالح الزميل."
+   },
+   {
+    "id": "opt-4",
+    "label": "عادة ثقافية قديمة",
+    "reveal_headline": "قيمة أخلاقية راسخة",
+    "reveal_body": "العبارة ليست مجرد عادات اجتماعية زائفة، بل تعكس قيمة إسلامية وعربية أصيلة حول أهمية الشكر والاعتراف بالجميل. هي جزء من نسيج التواصل المهني والاجتماعي في المملكة."
+   }
+  ],
+  "explanation": "ترتبط هذه العبارة بمفهوم أوسع للشكر الذي يشمل الاعتراف بالنعمة والثناء عليها، وهو سلوك محبب في التعاملات اليومية والمهنية.",
+  "explain_prompt": "اشرح مفهوم الشكر في الإسلام وكيفية التعبير عنه عبر عبارات مثل 'جزاك الله خيرًا' بناءً على المصادر المرفقة.",
+  "tip": {
+   "headline": "آداب الرد على الشكر في بيئة العمل",
+   "lead": "عند سماع هذه العبارة أو أي تعبير شكر، يمكنك التصرف بما يلي:",
+   "items": [
+    "ردّ بتواضع وبساطة، مثل قول: «العفو»، أو «لا شكر على واجب»، أو «الله يعطيك العافية».",
+    "ابتسم وأظهر امتنانك الودي، فالهدف هو تعزيز روح التعاون والتكامل في الفريق.",
+    "اعتبرها فرصة لبناء علاقة عمل إيجابية ودافئة، ولا تشعر بالحرج من استخدامها إذا أردت الشكر بنفسك."
+   ]
+  },
+  "key_points": [
+   "«جزاك الله خيرًا» تعبير شائع ومعتمد للإعراب عن الامتنان العميق وتقدير الجهد في بيئة العمل السعودية.",
+   "العبارة تعكس قيمة الشكر والاعتراف بالجميل، وهي جزء من التواصل المهني والأخلاقي الراسخ.",
+   "يمكن الرد عليها بردود بسيطة ومتواضعة مثل «العفو» أو «الله يعطيك العافية» لتعزيز العلاقات الإيجابية."
+  ],
+  "question_variants": [
+   "ماذا يعني عندما يقول لي زميلي في العمل 'جزاك الله خيرًا' بعد مساعدته؟",
+   "هل عبارة 'جزاك الله خيرًا' تعني شيئًا مختلفًا عن 'شكرًا' في السياق السعودي؟",
+   "كيف يجب أن أرد عندما يهنئني زميلي بهذه العبارة بعد إنجاز مهمة؟",
+   "ما الدلالة الاجتماعية لـ 'جزاك الله خيرًا' في بيئة العمل المهنية؟",
+   "هل استخدام 'جزاك الله خيرًا' مقصور على المسلمين فقط أم هو تعبير عام؟"
+  ],
+  "when_parsed": {
+   "type": "always"
+  }
+ },
+ "sources": [
+  {
+   "id": "quran-2-152",
+   "kind": "quran",
+   "text_ar": "فَٱذۡكُرُونِيٓ أَذۡكُرۡكُمۡ وَٱشۡكُرُواْ لِي وَلَا تَكۡفُرُونِ",
+   "reference": "2:152",
+   "translations": {
+    "en": {
+     "text": "Therefore remember Me; I will remember you. Be grateful to Me, and do not be ungrateful.",
+     "translation_key": "english_rwwad"
+    }
+   },
+   "grade": null,
+   "source_url": "https://quranenc.com/ar/browse/arabic_moyassar/2/152",
+   "verified": false,
+   "content_hash": "d887da60d53df29aba035cdac5e6b9f58d72edccde7ccc4646b535b2b76cbf02"
+  },
+  {
+   "id": "term-1162",
+   "kind": "term",
+   "text_ar": "شُكْرٌ: ظُهُورُ أَثَرِ نِعْمَةِ اللهِ تعالى على لِسانِ عَبْدِهِ ثَناءً واعْتِرافاً، وعلى قَلْبِهِ شُهوداً ومَحَبَّةً، وعلى جَوارِحِهِ انقِياداً وطاعَةً. الشُّكْرُ: خُلُقٌ كَرِيمٌ وصِفَةٌ عَظِيمَةٌ، وهو: ظُهورُ أَثَرِ النِّعْمَةِ على اللِّسانِ والقَلْبِ والجَوارِحِ، فَالشُّكْرُ له ثَلاثَةُ أَرْكانٍ:\n1- التَحَدُّثُ بِالنِّعْمَةِ والثَّناءُ بها على المُنْعِمِ.\n2- الاِعْتِرافُ بِالقَلْبِ؛ بِأن يكون القَلْبُ مُعْتَرِفاً بِالنِّعْمَةِ مُقِرّاً بها غَيْرَ جاحِدٍ ولا ناكِرٍ.\n3- اسْتِعْمالُ النِّعْمَةِ في طاعَةِ اللهِ وعِبادَتِهِ وكُلِّ ما يَرْضاهُ المُنْعِمُ سُبحانه.\nوَالشُّكْرُ قِسْمانِ:\n1- شُكْرُ الخالِقِ: وَيَكونُ بِما سبق ذِكره.\n2- شُكْرُ المَخْلوقِ: ويكون بِالثَّناءِ عليه، كَقَوْلِ: جَزاكَ اللهُ خَيْراً، وهو أَبْلَغُ الثَّناءِ، كما يكون بِمُكافَأتِهِ وردِّ جَمِيلِهِ إن اسْتَطاعَ ذلك.",
+   "reference": "شُكْرٌ",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/1162",
+   "verified": false,
+   "content_hash": "437bf8e6da89167f5cf7f71884bd4a0667dfa5d90e2c2e2bf98a64653faae467"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "العبارة «جزاك الله خيرًا» هي صيغة من صيغ الشكر الجميل في الثقافة الإسلامية والعربية، وتعني طلب الأجر والمكافأة من الله للشخص الذي قام بعمل جيد.",
+   "label": "unsupported",
+   "source_id": "term-1162",
+   "quote": "شُكْرُ المَخْلوقِ: ويكون بِالثَّناءِ عليه، كَقَوْلِ: جَزاكَ اللهُ خَيْراً",
+   "reason": "keywords_missing",
+   "quote_similarity": 0.596,
+   "keyword_share": 0.21,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "ترتبط هذه العبارة بمفهوم أوسع للشكر الذي يشمل الاعتراف بالنعمة والثناء عليها، وهو سلوك محبب في التعاملات اليومية والمهنية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "هذه العبارة ليست دعاءً خاصًا بالمسلمين فقط، بل هي تعبير شائع ومعتمد في اللغة العربية للإعراب عن الامتنان العميق.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "يستخدمها الجميع بغض النظر عن الخلفية الدينية كطريقة مهذلة لتقدير الجهد.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "العبارة تُستخدم عادةً لإنهاء فعل المساعدة وتأكيد الامتنان له، وليس للضغط عليك لتقديم المزيد من الدعم فورًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "إنها إشارة إلى أن المساعدة تم قبولها وتقديرها بشكل كامل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "على العكس، هذه العبارة تحمل دفئًا وصدقًا في المشاعر، وهي أكثر شخصية وتأثيرًا من مجرد كلمة شكرا الرسمية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "تعكس تقديرًا شخصيًا للجهد المبذول لصالح الزميل.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "العبارة ليست مجرد عادات اجتماعية زائفة، بل تعكس قيمة إسلامية وعربية أصيلة حول أهمية الشكر والاعتراف بالجميل.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "هي جزء من نسيج التواصل المهني والاجتماعي في المملكة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "الله",
+   "جزاك",
+   "خيرا",
+   "زميلك"
+  ],
+  "variants_without_names": false,
+  "variant_names_found": [
+   "سعود"
+  ],
+  "when_valid": true,
+  "when_matches_expected": true,
+  "reveals_nonempty": true,
+  "no_forbidden_text": true,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 0,
+  "research_steps": 3,
+  "sentences_generated": 10,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 8,
+  "flagged_general_religious": 1,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 0,
+   "quote_low_similarity": 0,
+   "keywords_missing": 1,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 6837,
+  "tokens_out": 1762
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "جزاء حسن شكر",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "جزاك الله خيرا",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "الشكر",
+   "hits": 2
+  },
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "فَاذْكُرُونِي أَشْكُرْ لِي",
+   "hits": 5
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-0",
+   "text": "العبارة «جزاك الله خيرًا» هي صيغة من صيغ الشكر الجميل في الثقافة الإسلامية والعربية، وتعني طلب الأجر والمكافأة من الله للشخص الذي قام بعمل جيد.",
+   "why": "keywords_missing"
+  }
+ ],
+ "seconds": 32.8
+}

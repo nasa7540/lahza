@@ -1,0 +1,335 @@
+{
+ "topic_id": "dates-iftar",
+ "topic": "لماذا يفطر الزملاء على التمر والماء",
+ "expected_when": "hijri 9/1-9/30",
+ "status": "draft",
+ "generation": {
+  "prompt_version": "factory-exp-2-ar",
+  "date": "2026-10-03 00:35",
+  "models": {
+   "guard": "qwen/qwen3.7-flash",
+   "research_and_writer": "qwen/qwen3.7-flash",
+   "verifier": "qwen/qwen3.7-plus"
+  }
+ },
+ "guard": {
+  "decision": "allow",
+  "category": "none",
+  "by": "rules only (model guard skipped)"
+ },
+ "references": {
+  "quran": [],
+  "hadith_ids": [
+   6185
+  ],
+  "term_ids": [
+   10811
+  ],
+  "steps": 4
+ },
+ "journey": {
+  "id": "why-break-fast-dates-water",
+  "level": "B",
+  "when": "hijri 1/1-30/1",
+  "title": "لماذا يفطر الزملاء على التمر والماء؟",
+  "teaser": "لاحظت زملاءك يفتطرون على تمر وماء، وش قصدهم؟",
+  "scene": "الساعة 6:45 مساءً في مكتب الرياض. اجتماع الفريق انتهى للتو، والجميع يبدأ بتجهيز أغراضه للخروج. تلاحظ أن أحمد وسمير لا يذهبان مباشرة إلى السيارة أو المصعد، بل يتوقفان عند خزانة الأدراج الخاصة بهم. يستخرج كل منهما علبة صغيرة من التمر ويأخذ كوبًا من الماء، ثم يقفان للحظات وهما يأكلان ويشربان بهدوء قبل مغادرة المكتب. تلاحظ أيضًا أن بعض الزملاء الآخرين يفعلون الشيء نفسه في أوقات متقاربة. ما رأيك في سبب هذا السلوك المتكرر؟",
+  "character_names": [
+   "أحمد",
+   "سمير"
+  ],
+  "options": [
+   {
+    "id": "opt-1",
+    "label": "نصيحة صحية بحتة",
+    "reveal_headline": "ليس مجرد نصيحة صحية",
+    "reveal_body": "رغم فوائدها الصحية، فإن اختيار التمر والماء تحديدًا ليس قرارًا طبيًا بحتًا. لو كان الأمر صحيًا فقط، لكانوا اختاروا أي طعام سريع الطاقة. الاختيار هنا له بعد آخر يتعلق بالعادة التي يقتدي بها المسلمون."
+   },
+   {
+    "id": "opt-2",
+    "label": "عادة لتوفير الوقت",
+    "reveal_headline": "ليست عجلة في الأكل",
+    "reveal_body": "قد يبدو الأمر وكأنهم يريدون إنهاء الإفطار بسرعة للعودة للعمل أو المنزل، لكنهم غالبًا ما يأخذون وقتًا قصيرًا للاستمتاع بهذه الوجبة البسيطة. الهدف ليس التسرع، بل البدء بطريقة محددة تتبع نمطًا معينًا."
+   },
+   {
+    "id": "opt-3",
+    "label": "طقس ديني عشوائي",
+    "reveal_headline": "ليس طقسًا عشوائيًا",
+    "reveal_body": "هذا الفعل ليس مجرد عادة دينية عامة أو طقسًا عشوائيًا يقومون به دون هدف. إنه فعل محدد ومتعمد يرتبط بنموذج حياة معين يُعتبر مثاليًا للمسلمين، حيث يقلدون سلوكًا تاريخيًا دقيقًا."
+   },
+   {
+    "id": "opt-4",
+    "label": "تقليد للموظفين القدامى",
+    "reveal_headline": "ليس تقليدًا وظيفيًا",
+    "reveal_body": "لا علاقة لهذا السلوك بسن الموظفين أو خبرتهم الوظيفية. حتى الموظفون الجدد الذين انضموا للشركة مؤخرًا يتبعون هذه العادة فور بدء شهر رمضان. السبب يعود إلى مصدر ديني وثقافي أعمق من العلاقات المهنية."
+   }
+  ],
+  "explanation": "يفطر المسلمون على التمر والماء اقتداءً بالسنة النبوية الشريفة. يعتبر اتباع هذا الهدي طريقة صحيحة ومستقيمة في الدين، وهو أمر شائع بين المسلمين كمحاولة للتقليد المباشر للنبي في تفاصيل حياته اليومية والعبادية.",
+  "explain_prompt": "اشرح لماذا يختار المسلمون التمر والماء تحديداً عند الفطر، مع التركيز على مفهوم 'السنة' كهدى عملي للنبي وأصحابه.",
+  "tip": {
+   "headline": "آداب التعامل مع زملائك أثناء الإفطار",
+   "lead": "إليك بعض النصائح العملية لدعم زملائك المحترمين خلال فترة الصيام:",
+   "items": [
+    "احترم وقت الإفطار: تجنب طلب إنجاز مهام عاجلة أو عقد اجتماعات في لحظة غروب الشمس، امنحهم دقائق قليلة للإفطار والاستراحة.",
+    "كن لطيفًا في الضيافة: إذا عرض عليك أحد زملائك تمرًا أو ماءً، تقبل ذلك بامتنان فهو جزء من سنتهم ولا يعني بالضرورة التزامًا دينيًا صارمًا منك.",
+    "تجنب الضجيج العالي: حاول خفض مستوى الصوت في المكتب قليلاً خلال الدقائق الأولى من الإفطار، فقد يكون الزميل مرهقًا جسديًا ويحتاج لحظته الهادئة."
+   ]
+  },
+  "key_points": [
+   "التمر والماء هما الخيار التقليدي للإفطار بناءً على هدي النبي صلى الله عليه وسلم.",
+   "السنة تشمل الطريقة الكاملة التي عاشها النبي وأصحابه في العبادة والحياة.",
+   "اتباع هذه العادة هو شكل من أشكال التقرب الديني والاقتداء بالنبي."
+  ],
+  "question_variants": [
+   "لماذا يأكل بعض الزملاء التمر ويشربون الماء فور انتهاء العمل؟",
+   "ما سبب توقف زملائي عن العمل لأكل شيء بسيط قبل الذهاب للمنزل؟",
+   "هل هناك سبب خاص يجعل زملائي يفضلون التمر على الطعام الآخر عند الغداء؟",
+   "لماذا نرى نفس الزملاء يكررون نفس العادة كل يوم في وقت محدد؟",
+   "ما الفرق بين إفطار زملائي وإفطار الناس العاديين؟"
+  ],
+  "when_parsed": null
+ },
+ "sources": [
+  {
+   "id": "term-10811",
+   "kind": "term",
+   "text_ar": "سنة: الهدي الذي كان عليه النبي صلى الله عليه وسلم، وصحابته الكرام رضوان الله عليهم من أمور الدين قولا، وعملا، واعتقادا. السنة : هي طريقة النبي صلى الله عليه وسلم التي كان عليها هو وأصحابه رضوان الله عليهم، السالمة من الشبهات والشهوات، ولفظ السنة يتناول السنة في العبادات والاعتقادات، وإن كان كثير ممن صنف في السنة يقصدون الكلام في الاعتقادات؛ لأنها أصل الدين، والمخالف فيها على خطر عظيم؛ لذا فقد استعمل لفظ \"السنة\" للدلالة على عقيدة أهل السنة والجماعة، وقد شاع هذا الاستعمال على ألسنة الأئمة الأعلام من السلف والخلف رضي الله عنهم أجمعين، فيقال: فلان من أهل السنة، أي: من أهل الطريقة الصحيحة المستقيمة المحمودة، والسنة هي الطريقة المسلوكة، فيشمل ذلك: التمسك بما كان عليه صلى الله عليه وسلم وخلفاؤه الراشدون من الاعتقادات، والأعمال، والأقوال، وهذه هي السنة العامة الكاملة، وهي دين الإسلام، التي لا يزيغ عنها إلا جاهل هالك مبتدع.",
+   "reference": "سنة",
+   "grade": null,
+   "translations": {},
+   "source_url": "https://terminologyenc.com/ar/browse/term/10811",
+   "verified": false,
+   "content_hash": "542e8d63d8e59bc89fcdd9f108d18ccdd0247762e381bf64c1341221c4f3a482"
+  }
+ ],
+ "sentences": [
+  {
+   "sid": "exp-0",
+   "where": "explanation",
+   "text": "يفطر المسلمون على التمر والماء اقتداءً بالسنة النبوية الشريفة.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "exp-1",
+   "where": "explanation",
+   "text": "السنة هي الطريقة والهدي الذي كان عليه النبي محمد صلى الله عليه وسلم وأصحابه، وتشمل أقواله وأفعاله واعتقاداته.",
+   "label": "unsupported",
+   "source_id": "term-10811",
+   "quote": "السنة: الهدي الذي كان عليه النبي صلى الله عليه وسلم، وصحابته الكرام رضوان الله عليهم من أمور الدين قولا، وعملا، واعتقادا.",
+   "reason": "quote_not_verbatim",
+   "quote_similarity": 0.903,
+   "keyword_share": 0.62,
+   "kept": false,
+   "flagged": false
+  },
+  {
+   "sid": "exp-2",
+   "where": "explanation",
+   "text": "يعتبر اتباع هذا الهدي طريقة صحيحة ومستقيمة في الدين، وهو أمر شائع بين المسلمين كمحاولة للتقليد المباشر للنبي في تفاصيل حياته اليومية والعبادية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-1-0",
+   "where": "reveal:opt-1",
+   "text": "رغم فوائدها الصحية، فإن اختيار التمر والماء تحديدًا ليس قرارًا طبيًا بحتًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-1",
+   "where": "reveal:opt-1",
+   "text": "لو كان الأمر صحيًا فقط، لكانوا اختاروا أي طعام سريع الطاقة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-1-2",
+   "where": "reveal:opt-1",
+   "text": "الاختيار هنا له بعد آخر يتعلق بالعادة التي يقتدي بها المسلمون.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-2-0",
+   "where": "reveal:opt-2",
+   "text": "قد يبدو الأمر وكأنهم يريدون إنهاء الإفطار بسرعة للعودة للعمل أو المنزل، لكنهم غالبًا ما يأخذون وقتًا قصيرًا للاستمتاع بهذه الوجبة البسيطة.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-2-1",
+   "where": "reveal:opt-2",
+   "text": "الهدف ليس التسرع، بل البدء بطريقة محددة تتبع نمطًا معينًا.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-3-0",
+   "where": "reveal:opt-3",
+   "text": "هذا الفعل ليس مجرد عادة دينية عامة أو طقسًا عشوائيًا يقومون به دون هدف.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-3-1",
+   "where": "reveal:opt-3",
+   "text": "إنه فعل محدد ومتعمد يرتبط بنموذج حياة معين يُعتبر مثاليًا للمسلمين، حيث يقلدون سلوكًا تاريخيًا دقيقًا.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  },
+  {
+   "sid": "rev-opt-4-0",
+   "where": "reveal:opt-4",
+   "text": "لا علاقة لهذا السلوك بسن الموظفين أو خبرتهم الوظيفية.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-1",
+   "where": "reveal:opt-4",
+   "text": "حتى الموظفون الجدد الذين انضموا للشركة مؤخرًا يتبعون هذه العادة فور بدء شهر رمضان.",
+   "label": "general",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": false
+  },
+  {
+   "sid": "rev-opt-4-2",
+   "where": "reveal:opt-4",
+   "text": "السبب يعود إلى مصدر ديني وثقافي أعمق من العلاقات المهنية.",
+   "label": "general_religious",
+   "source_id": null,
+   "quote": null,
+   "reason": null,
+   "kept": true,
+   "flagged": true
+  }
+ ],
+ "checks": {
+  "shape": true,
+  "scene_without_title_words": false,
+  "scene_title_words_found": [
+   "تمر",
+   "ماء"
+  ],
+  "variants_without_names": true,
+  "variant_names_found": [],
+  "when_valid": false,
+  "when_matches_expected": false,
+  "reveals_nonempty": true,
+  "no_forbidden_text": false,
+  "all_pass": false
+ },
+ "counters": {
+  "references_proposed": 2,
+  "references_failed": 1,
+  "research_steps": 4,
+  "sentences_generated": 13,
+  "removed_by_verifier": 1,
+  "supported": 0,
+  "general": 6,
+  "flagged_general_religious": 6,
+  "edited_by_reviewer": 0,
+  "removal_reasons": {
+   "quote_not_verbatim": 1,
+   "quote_low_similarity": 0,
+   "keywords_missing": 0,
+   "quote_reused": 0,
+   "validator": 0,
+   "verifier_unsupported": 0,
+   "verdict_missing": 0
+  },
+  "tokens_in": 8644,
+  "tokens_out": 2119
+ },
+ "log": [
+  {
+   "stage": "research",
+   "tool": "search_quran",
+   "query": "التمر والماء إفطار",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "يفطر على تمرات",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_terms",
+   "query": "السنة",
+   "hits": 5
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "إذا أفطر أحدكم فليفطر على تمرات",
+   "hits": 6
+  },
+  {
+   "stage": "research",
+   "tool": "search_hadith",
+   "query": "يفطر على رطبات فإن لم توجد فتمرات",
+   "hits": 6
+  },
+  {
+   "stage": "fetch",
+   "event": "dropped",
+   "ref": "hadith 6185",
+   "why": "grade 'حسن' is not sahih"
+  },
+  {
+   "stage": "verify",
+   "event": "removed",
+   "sid": "exp-1",
+   "text": "السنة هي الطريقة والهدي الذي كان عليه النبي محمد صلى الله عليه وسلم وأصحابه، وتشمل أقواله وأفعاله واعتقاداته.",
+   "why": "quote_not_verbatim"
+  }
+ ],
+ "seconds": 57.1
+}
