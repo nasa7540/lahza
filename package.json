@@ -24,7 +24,10 @@
     "check:approve": "tsx scripts/checks/approve.ts",
     "check:when": "tsx scripts/checks/when.ts",
     "check:invariants": "tsx scripts/checks/invariants.ts",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "embed:cards": "tsx scripts/embed-cards.ts",
+    "check:classify": "tsx scripts/checks/classify.ts",
+    "check:stress": "tsx scripts/checks/stress.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

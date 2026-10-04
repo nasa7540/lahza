@@ -74,5 +74,24 @@
     "badge": "Approved by the project team, awaiting sharia review",
     "unapproved": "Unapproved draft — shown in development only",
     "notFound": "This journey is not available yet."
+  },
+  "ask": {
+    "title": "Noticed something else?",
+    "sub": "Describe what you saw at work in your own words and we will point you to the right moment.",
+    "label": "What did you notice?",
+    "placeholder": "Example: my colleagues leave the meeting every day around noon",
+    "send": "Find a moment",
+    "sending": "One moment…",
+    "privacy": "We do not keep the text of your question or link it to you.",
+    "found": "This moment explains what you noticed",
+    "candidates": "One of these moments may help",
+    "emptyTitle": "We do not have a verified answer for this yet",
+    "emptyBody": "Lahza only answers from content a person has reviewed. Try other words, or browse the moments available.",
+    "specialistTitle": "This question needs a specialist",
+    "specialistBody": "Some questions should not be answered by an app: personal rulings and matters scholars differ on. A qualified person should answer you.",
+    "specialistCta": "Contact a specialist",
+    "browse": "Browse the moments",
+    "homeCard": "Noticed something else?",
+    "homeCardSub": "Write what you saw and we will find its moment."
   }
 }

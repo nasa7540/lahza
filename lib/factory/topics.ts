@@ -10,6 +10,8 @@ const topicSchema = z.object({
   allow_in_quotes: z.boolean(),
   expected_occasions: z.array(z.string()),
   /** Hadith ids (hadeethenc) the project owner chose for this topic; tried before what the research step proposes. Same eligibility rules apply. */
+  /** What the free-question classifier sees for this journey: a fixed English title and one line. Never the journey text. */
+  route: z.object({ title: z.string().min(1), description: z.string().min(1) }),
   pinned_hadith_ids: z.array(z.number().int()).default([]),
 });
 export type Topic = z.infer<typeof topicSchema>;

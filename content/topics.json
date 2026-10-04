@@ -10,7 +10,12 @@
     "expected_occasions": [
       "ramadan"
     ],
-    "allow_in_quotes": false
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Ramadan",
+      "description": "A colleague is fasting during the day in the month of Ramadan"
+    },
+    "pinned_hadith_ids": []
   },
   {
     "id": "prayer",
@@ -23,7 +28,12 @@
     "expected_occasions": [
       "none"
     ],
-    "allow_in_quotes": false
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Prayer times",
+      "description": "Colleagues step away for a few minutes at set times of day to pray"
+    },
+    "pinned_hadith_ids": []
   },
   {
     "id": "friday",
@@ -35,7 +45,12 @@
     "expected_occasions": [
       "friday"
     ],
-    "allow_in_quotes": false
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Friday",
+      "description": "Why Friday midday is quiet and the weekend is Friday and Saturday"
+    },
+    "pinned_hadith_ids": []
   },
   {
     "id": "eid",
@@ -50,7 +65,11 @@
     "allow_in_quotes": false,
     "pinned_hadith_ids": [
       5322
-    ]
+    ],
+    "route": {
+      "title": "Eid",
+      "description": "The Eid holidays and how to greet colleagues"
+    }
   },
   {
     "id": "team-dinner",
@@ -63,7 +82,12 @@
     "expected_occasions": [
       "none"
     ],
-    "allow_in_quotes": true
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Team dinner",
+      "description": "Food and drink at team meals: no alcohol, halal meat"
+    },
+    "pinned_hadith_ids": []
   },
   {
     "id": "inshallah",
@@ -76,6 +100,11 @@
     "expected_occasions": [
       "none"
     ],
-    "allow_in_quotes": true
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Inshallah",
+      "description": "What 'Inshallah' means when said about plans and deadlines"
+    },
+    "pinned_hadith_ids": []
   }
 ]

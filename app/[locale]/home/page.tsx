@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { hasLocale } from "next-intl";
 import { getFormatter, getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowIcon, MomentIcon } from "@/components/icons";
+import { ArrowIcon, MomentIcon, SearchIcon } from "@/components/icons";
 import { DoneMark } from "@/components/journey/DoneMark";
 import { Logo } from "@/components/Logo";
 import { Screen } from "@/components/Screen";
@@ -19,6 +19,7 @@ export default async function HomePage({ params, searchParams }: PageProps<"/[lo
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
   const t = await getTranslations("home");
+  const ta = await getTranslations("ask");
   const format = await getFormatter();
 
   const { date } = await searchParams;
@@ -92,6 +93,19 @@ export default async function HomePage({ params, searchParams }: PageProps<"/[lo
           </ul>
         </>
       )}
+
+      <Link href="/ask" className="flex items-center gap-3.5 rounded-2xl border border-line bg-card px-4 py-3.5 shadow-[0_2px_10px_rgba(15,76,92,.04)] hover:border-sand">
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-ic text-teal">
+          <SearchIcon />
+        </span>
+        <span className="flex grow flex-col gap-0.5">
+          <b className="text-base text-teal">{ta("homeCard")}</b>
+          <span className="text-sm text-mute">{ta("homeCardSub")}</span>
+        </span>
+        <span className="text-teal">
+          <ArrowIcon />
+        </span>
+      </Link>
     </Screen>
   );
 }

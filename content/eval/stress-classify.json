@@ -1,0 +1,59 @@
+{
+ "date": "2026-10-04T08:00:22.299Z",
+ "seconds_per_level": 60,
+ "limits": {
+  "median_ms": 3000,
+  "p95_ms": 8000,
+  "capped_share": 0.02
+ },
+ "levels": [
+  {
+   "concurrency": 20,
+   "requests": 697,
+   "median_ms": 1724,
+   "p95_ms": 2518,
+   "max_ms": 6498,
+   "http_errors": 0,
+   "invalid_bodies": 0,
+   "capped_share": 0,
+   "by": {
+    "rule": 36,
+    "primary": 659,
+    "fallback": 2
+   },
+   "ok": true
+  },
+  {
+   "concurrency": 35,
+   "requests": 1234,
+   "median_ms": 1713,
+   "p95_ms": 2348,
+   "max_ms": 6889,
+   "http_errors": 0,
+   "invalid_bodies": 0,
+   "capped_share": 0,
+   "by": {
+    "rule": 45,
+    "primary": 1183,
+    "fallback": 6
+   },
+   "ok": true
+  },
+  {
+   "concurrency": 50,
+   "requests": 1570,
+   "median_ms": 1942,
+   "p95_ms": 2662,
+   "max_ms": 6814,
+   "http_errors": 0,
+   "invalid_bodies": 0,
+   "capped_share": 0,
+   "by": {
+    "rule": 70,
+    "primary": 1490,
+    "fallback": 10
+   },
+   "ok": true
+  }
+ ]
+}

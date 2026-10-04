@@ -135,3 +135,21 @@ export function MomentIcon({ size = 20 }: IconProps) {
     </Icon>
   );
 }
+
+export function SearchIcon({ size = 18 }: IconProps) {
+  return (
+    <Icon size={size}>
+      <circle cx="11" cy="11" r="6.5" />
+      <path d="m16 16 4 4" />
+    </Icon>
+  );
+}
+
+export function PersonIcon({ size = 18 }: IconProps) {
+  return (
+    <Icon size={size}>
+      <circle cx="12" cy="8" r="3.5" />
+      <path d="M5 20a7 7 0 0 1 14 0" />
+    </Icon>
+  );
+}
