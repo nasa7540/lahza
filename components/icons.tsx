@@ -153,3 +153,11 @@ export function PersonIcon({ size = 18 }: IconProps) {
     </Icon>
   );
 }
+
+export function PlusIcon({ size = 15 }: IconProps) {
+  return (
+    <Icon size={size} strokeWidth={2}>
+      <path d="M12 5v14M5 12h14" />
+    </Icon>
+  );
+}

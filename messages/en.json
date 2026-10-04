@@ -73,7 +73,18 @@
     "doneS": "Your progress is saved on your device.",
     "badge": "Approved by the project team, awaiting sharia review",
     "unapproved": "Unapproved draft — shown in development only",
-    "notFound": "This journey is not available yet."
+    "notFound": "This journey is not available yet.",
+    "explainCheck": "Check my understanding",
+    "explainChecking": "Reading your explanation…",
+    "fbK": "A note on your explanation",
+    "fbAll": "Your explanation covers all three points.",
+    "fbSome": "A good start.",
+    "fbNone": "We did not find this moment's points in your explanation yet.",
+    "fbCoveredK": "You expressed",
+    "fbMissingK": "Add to your understanding",
+    "fbRejected": "Write the explanation in your own words, in a sentence or two, without copying the scene.",
+    "fbUnavailable": "We could not check right now. You can continue; here are the points of this moment.",
+    "fbFoot": "This note is automatic: an AI model matches your words to points the team reviewed, and writes no text of its own."
   },
   "ask": {
     "title": "Noticed something else?",

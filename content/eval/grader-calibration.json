@@ -1,0 +1,1061 @@
+{
+ "runs": [
+  {
+   "key": "ramadan/ar/يصوم المسلمون كل يوم في رمضان، بلا طعام ولا شراب من الفجر إلى غروب الشمس، ليتعلموا ضبط النفس ويتقربوا من الله.",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "يصوم المسلمون كل يوم في رمضان",
+     "verbatim": true,
+     "similarity": 0.7336801365794176,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "بلا طعام ولا شراب من الفجر إلى غروب الشمس",
+     "verbatim": true,
+     "similarity": 0.6008609619488516,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "ramadan/en/During Ramadan Muslims don't eat or drink from dawn until sunset, every day for the whole month.",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "During Ramadan Muslims don't eat or drink from dawn until sunset, every day for the whole month.",
+     "verbatim": true,
+     "similarity": 0.7042384995664985,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "Muslims don't eat or drink from dawn until sunset",
+     "verbatim": true,
+     "similarity": 0.6033352741715372,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "ramadan/en/Muslims fast every day of Ramadan, with no food or drink from dawn to sunset, to build self-discipline and grow closer to God.",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Muslims fast every day of Ramadan",
+     "verbatim": true,
+     "similarity": 0.7100533911958075,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "with no food or drink from dawn to sunset",
+     "verbatim": true,
+     "similarity": 0.5833376618139318,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "ramadan/ur/مسلمان رمضان میں ہر روز فجر سے غروبِ آفتاب تک بغیر کھائے پیے روزہ رکھتے ہیں تاکہ ضبطِ نفس سیکھیں اور اللہ کے قریب ہوں۔",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "مسلمان رمضان میں ہر روز",
+     "verbatim": true,
+     "similarity": 0.695994756406317,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "فجر سے غروبِ آفتاب تک بغیر کھائے پیے روزہ رکھتے ہیں",
+     "verbatim": true,
+     "similarity": 0.7663641338632283,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "ramadan/ur/رمضان میں مسلمان فجر سے غروبِ آفتاب تک کچھ نہیں کھاتے پیتے، پورا مہینہ ہر روز۔",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "رمضان میں مسلمان",
+     "verbatim": true,
+     "similarity": 0.7298214442734956,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "فجر سے غروبِ آفتاب تک کچھ نہیں کھاتے پیتے",
+     "verbatim": true,
+     "similarity": 0.6854545793408073,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "ramadan/en/He is fasting, which means he doesn't eat or drink from dawn until sunset.",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 1,
+     "quote": "He is fasting, which means he doesn't eat or drink from dawn until sunset.",
+     "verbatim": true,
+     "similarity": 0.7725481187622374,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "ramadan/ar/في رمضان لا يأكل المسلمون ولا يشربون من الفجر حتى غروب الشمس، كل يوم طوال الشهر.",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "في رمضان لا يأكل المسلمون",
+     "verbatim": true,
+     "similarity": 0.6389729890021241,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "لا يأكل المسلمون ولا يشربون من الفجر حتى غروب الشمس، كل يوم طوال الشهر.",
+     "verbatim": true,
+     "similarity": 0.598363789486845,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/en/Muslims pray five times a day at fixed times; the midday one falls in work hours and takes about ten minutes, and it's a duty for every Muslim, not a lack of commitment.",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Muslims pray five times a day at fixed times; the midday one falls in work hours",
+     "verbatim": true,
+     "similarity": 0.8208769693548177,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "takes about ten minutes",
+     "verbatim": true,
+     "similarity": 0.589007062130772,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "ramadan/ur/وہ روزے سے ہے، یعنی فجر سے غروبِ آفتاب تک کچھ نہیں کھاتا پیتا۔",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "وہ روزے سے ہے",
+     "verbatim": true,
+     "similarity": 0.5876686364976338,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "فجر سے غروبِ آفتاب تک کچھ نہیں کھاتا پیتا",
+     "verbatim": true,
+     "similarity": 0.6675666582095464,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "ramadan/ar/هو صائم، يعني ما يأكل ولا يشرب من الفجر إلى غروب الشمس.",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 1,
+     "quote": "ما يأكل ولا يشرب من الفجر إلى غروب الشمس",
+     "verbatim": true,
+     "similarity": 0.6360146544100347,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/ar/المسلمون يصلون خمس مرات في اليوم بأوقات محددة، وصلاة الظهر تجي وقت الدوام وتاخذ حوالي عشر دقايق، وهي فريضة على كل مسلم وليست قلة التزام.",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "المسلمون يصلون خمس مرات في اليوم بأوقات محددة",
+     "verbatim": true,
+     "similarity": 0.7153976279927535,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/en/Muslims have five daily prayers at set times, and the midday one takes about ten minutes during work.",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Muslims have five daily prayers at set times, and the midday one",
+     "verbatim": true,
+     "similarity": 0.863495399048424,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/ar/عند المسلمين خمس صلوات يومية بأوقات محددة، وصلاة الظهر تاخذ حوالي عشر دقايق وقت الدوام.",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "عند المسلمين خمس صلوات يومية بأوقات محددة",
+     "verbatim": true,
+     "similarity": 0.74095973433415,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/ur/مسلمان دن میں پانچ وقت مقررہ اوقات پر نماز پڑھتے ہیں؛ ظہر کی نماز دفتر کے وقت میں آتی ہے اور تقریباً دس منٹ لیتی ہے، اور یہ ہر مسلمان پر فرض ہے، کام سے لاپروائی نہیں۔",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "مسلمان دن میں پانچ وقت مقررہ اوقات پر نماز پڑھتے ہیں؛ ظہر کی نماز دفتر کے وقت میں آتی ہے",
+     "verbatim": true,
+     "similarity": 0.8688625558683974,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "تقریباً دس منٹ لیتی ہے",
+     "verbatim": true,
+     "similarity": 0.5586214214739124,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/ur/مسلمانوں کی دن میں پانچ نمازیں مقررہ اوقات پر ہوتی ہیں، اور ظہر کی نماز دفتر کے وقت میں تقریباً دس منٹ لیتی ہے۔",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "مسلمانوں کی دن میں پانچ نمازیں مقررہ اوقات پر ہوتی ہیں، اور ظہر کی نماز",
+     "verbatim": true,
+     "similarity": 0.8870077680487448,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/en/They went to pray, because Muslims pray five times a day at set times.",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Muslims pray five times a day at set times",
+     "verbatim": true,
+     "similarity": 0.7475493764066456,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/ar/راحوا يصلون، لأن المسلمين يصلون خمس مرات في اليوم بأوقات محددة.",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "المسلمين يصلون خمس مرات في اليوم بأوقات محددة",
+     "verbatim": true,
+     "similarity": 0.7206653492876021,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/ur/وہ نماز پڑھنے گئے تھے، کیونکہ مسلمان دن میں پانچ بار مقررہ اوقات پر نماز پڑھتے ہیں۔",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "مسلمان دن میں پانچ بار مقررہ اوقات پر نماز پڑھتے ہیں",
+     "verbatim": true,
+     "similarity": 0.7423567280565303,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/ar/ظهر الجمعة يترك المسلمون العمل والمحلات ويروحون المسجد لصلاة أسبوعية جامعة معها خطبة، وهو مو يوم راحة إلزامية، بس الإجازة مرتبة حوله.",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 1,
+     "quote": "يروحون المسجد لصلاة أسبوعية جامعة معها خطبة",
+     "verbatim": true,
+     "similarity": 0.5436876333053974,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "هو مو يوم راحة إلزامية، بس الإجازة مرتبة حوله",
+     "verbatim": true,
+     "similarity": 0.3987282355470249,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/en/On Friday at midday Muslims leave work and shops to attend a weekly congregational prayer with a sermon at the mosque; it isn't a required day of rest, but the weekend is built around it.",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "On Friday at midday Muslims leave work and shops to attend a weekly congregational prayer",
+     "verbatim": true,
+     "similarity": 0.8177693489651203,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "attend a weekly congregational prayer with a sermon at the mosque",
+     "verbatim": true,
+     "similarity": 0.5487449608305169,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/en/Every Friday at noon there is a congregational prayer with a sermon, so people stop work and trade and go to the mosque.",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 1,
+     "quote": "Every Friday at noon there is a congregational prayer with a sermon",
+     "verbatim": true,
+     "similarity": 0.6986463340973301,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "people stop work and trade and go to the mosque",
+     "verbatim": true,
+     "similarity": 0.6106904361967775,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/ur/جمعے کو دوپہر کے وقت مسلمان کام اور دکانیں چھوڑ کر مسجد میں ہفتہ وار باجماعت نماز اور خطبے کے لیے جاتے ہیں؛ یہ لازمی آرام کا دن نہیں، لیکن ہفتہ وار چھٹی اسی کے گرد رکھی گئی ہے۔",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "جمعے کو دوپہر کے وقت مسلمان کام اور دکانیں چھوڑ کر مسجد میں ہفتہ وار باجماعت نماز اور خطبے کے لیے جاتے ہیں",
+     "verbatim": true,
+     "similarity": 0.7182333705879622,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "مسلمان کام اور دکانیں چھوڑ کر",
+     "verbatim": true,
+     "similarity": 0.586760039294734,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/ar/كل جمعة الظهر فيه صلاة جامعة معها خطبة، فالناس يوقفون الشغل والبيع ويروحون المسجد.",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "كل جمعة الظهر فيه صلاة جامعة معها خطبة، فالناس يوقفون الشغل والبيع ويروحون المسجد.",
+     "verbatim": true,
+     "similarity": 0.6902705984714548,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "كل جمعة الظهر فيه صلاة جامعة معها خطبة",
+     "verbatim": true,
+     "similarity": 0.6034944576804321,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/ur/ہر جمعے کو دوپہر میں خطبے کے ساتھ باجماعت نماز ہوتی ہے، اس لیے لوگ کام اور خرید و فروخت چھوڑ کر مسجد جاتے ہیں۔",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 1,
+     "quote": "ہر جمعے کو دوپہر میں خطبے کے ساتھ باجماعت نماز ہوتی ہے",
+     "verbatim": true,
+     "similarity": 0.6158195329230429,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "لوگ کام اور خرید و فروخت چھوڑ کر مسجد جاتے ہیں",
+     "verbatim": true,
+     "similarity": 0.5954822239536968,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/ar/الجمعة فيها صلاة أسبوعية خاصة وقت الظهر معها خطبة.",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 1,
+     "quote": "الجمعة فيها صلاة أسبوعية خاصة وقت الظهر معها خطبة.",
+     "verbatim": true,
+     "similarity": 0.8222587425852812,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/en/Friday has a special weekly prayer at midday with a sermon.",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 1,
+     "quote": "Friday has a special weekly prayer at midday with a sermon.",
+     "verbatim": true,
+     "similarity": 0.8124499773709688,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/ur/جمعے کو دوپہر میں خطبے کے ساتھ ایک خاص ہفتہ وار نماز ہوتی ہے۔",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 1,
+     "quote": "جمعے کو دوپہر میں خطبے کے ساتھ ایک خاص ہفتہ وار نماز ہوتی ہے۔",
+     "verbatim": true,
+     "similarity": 0.722387172253056,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/ur/مسلمانوں کی سال میں دو عیدیں ہوتی ہیں، ایک رمضان کے بعد اور ایک حج کے موسم میں؛ ہر عید ایک مذہبی تہوار ہے جو باجماعت نماز سے شروع ہوتا ہے اور خوشی اور دینے کا وقت ہے، اور ساتھیوں کو «عید مبارک» کہنا اچھا ہے۔",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "مسلمانوں کی سال میں دو عیدیں ہوتی ہیں، ایک رمضان کے بعد",
+     "verbatim": true,
+     "similarity": 0.7471377187773168,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "خوشی اور دینے کا وقت ہے",
+     "verbatim": true,
+     "similarity": 0.6383539922906373,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/en/Muslims have two Eids a year, one after Ramadan and one in the Hajj season; each is a religious festival that starts with a congregational prayer and is a time of joy and giving, and it's nice to tell colleagues 'Eid Mubarak'.",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "one after Ramadan",
+     "verbatim": true,
+     "similarity": 0.6053824803346168,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "each is a religious festival that starts with a congregational prayer and is a time of joy and giving",
+     "verbatim": true,
+     "similarity": 0.5612474801212516,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "it's nice to tell colleagues 'Eid Mubarak'",
+     "verbatim": true,
+     "similarity": 0.6569180242161301,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/ar/للمسلمين عيدان في السنة، واحد بعد رمضان وواحد في موسم الحج، وكل عيد مناسبة دينية تبدأ بصلاة جامعة وهو وقت فرح وعطاء، وحلو تقول لزملائك «عيد مبارك».",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "واحد بعد رمضان",
+     "verbatim": true,
+     "similarity": 0.4898370397572717,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "وقت فرح",
+     "verbatim": true,
+     "similarity": 0.5187326704905832,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "تقول لزملائك «عيد مبارك»",
+     "verbatim": true,
+     "similarity": 0.6107589188280347,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/en/There are two Eids each year, after Ramadan and during the Hajj season, and you can greet your colleagues with 'Eid Mubarak'.",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "There are two Eids each year, after Ramadan",
+     "verbatim": true,
+     "similarity": 0.7202946524151792,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "you can greet your colleagues with 'Eid Mubarak'",
+     "verbatim": true,
+     "similarity": 0.6488878530879038,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/en/You can say 'Eid Mubarak' to your colleagues.",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 2,
+     "quote": "You can say 'Eid Mubarak' to your colleagues.",
+     "verbatim": true,
+     "similarity": 0.6748817045548128,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/ur/ہر سال دو عیدیں ہوتی ہیں، رمضان کے بعد اور حج کے موسم میں، اور آپ اپنے ساتھیوں کو «عید مبارک» کہہ سکتے ہیں۔",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "ہر سال دو عیدیں ہوتی ہیں، رمضان کے بعد",
+     "verbatim": true,
+     "similarity": 0.6720178425327772,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/ur/آپ اپنے ساتھیوں کو «عید مبارک» کہہ سکتے ہیں۔",
+   "journey": "eid",
+   "proposals": []
+  },
+  {
+   "key": "eid/ar/فيه عيدين كل سنة، بعد رمضان وفي موسم الحج، وتقدر تهني زملاءك بـ«عيد مبارك».",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "فيه عيدين كل سنة، بعد رمضان",
+     "verbatim": true,
+     "similarity": 0.6603356198235945,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "وتقدر تهني زملاءك بـ«عيد مبارك»",
+     "verbatim": true,
+     "similarity": 0.647664072584766,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/ar/تقدر تقول لزملائك «عيد مبارك».",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 2,
+     "quote": "تقدر تقول لزملائك «عيد مبارك».",
+     "verbatim": true,
+     "similarity": 0.6875318500406217,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/en/Islam forbids alcohol and pork and requires halal meat, so it's a religious commitment rather than personal taste, and asking about the food is normal — I can ask too and pick a suitable place.",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Islam forbids alcohol and pork and requires halal meat",
+     "verbatim": true,
+     "similarity": 0.6919328010178927,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "it's a religious commitment rather than personal taste",
+     "verbatim": true,
+     "similarity": 0.7117613184411754,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/en/Muslims don't drink alcohol or eat pork and their meat has to be halal, and that's a religious commitment, not a matter of taste.",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Muslims don't drink alcohol or eat pork and their meat has to be halal",
+     "verbatim": true,
+     "similarity": 0.6475294525803635,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "that's a religious commitment, not a matter of taste",
+     "verbatim": true,
+     "similarity": 0.7443247854701555,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/ur/اسلام شراب اور سور کے گوشت سے منع کرتا ہے اور حلال گوشت لازم قرار دیتا ہے، اس لیے یہ ذاتی پسند نہیں بلکہ دینی پابندی ہے، اور کھانے کے بارے میں پوچھنا عام بات ہے، میں بھی پوچھ کر مناسب جگہ چن سکتا ہوں۔",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "اسلام شراب اور سور کے گوشت سے منع کرتا ہے اور حلال گوشت لازم قرار دیتا ہے",
+     "verbatim": true,
+     "similarity": 0.6414957040260242,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "یہ ذاتی پسند نہیں بلکہ دینی پابندی ہے، اور کھانے کے بارے میں پوچھنا عام بات ہے",
+     "verbatim": true,
+     "similarity": 0.7350049008777712,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/ar/الإسلام يحرّم الخمر ولحم الخنزير ويشترط اللحم الحلال، فهو التزام ديني مو ذوق شخصي، والسؤال عن الأكل عادي، وأقدر أسأل أنا بعد وأختار مكان مناسب.",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "الإسلام يحرّم الخمر ولحم الخنزير ويشترط اللحم الحلال",
+     "verbatim": true,
+     "similarity": 0.6747524502698775,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "فهو التزام ديني مو ذوق شخصي",
+     "verbatim": true,
+     "similarity": 0.5558778954956681,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/ar/المسلمون ما يشربون الخمر ولا ياكلون لحم الخنزير ولازم لحمهم يكون حلال، وهذا التزام ديني مو مسألة ذوق.",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "لا ياكلون لحم الخنزير ولازم لحمهم يكون حلال",
+     "verbatim": true,
+     "similarity": 0.5947532812866558,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "المسلمون ما يشربون الخمر",
+     "verbatim": true,
+     "similarity": 0.5965355575276687,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "وهذا التزام ديني مو مسألة ذوق",
+     "verbatim": true,
+     "similarity": 0.6074774873164116,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/en/She asked because Muslims only eat halal meat and don't have alcohol or pork.",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Muslims only eat halal meat",
+     "verbatim": true,
+     "similarity": 0.6233328439380191,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "don't have alcohol",
+     "verbatim": true,
+     "similarity": 0.6266663886632405,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/ur/مسلمان شراب نہیں پیتے، سور کا گوشت نہیں کھاتے اور ان کا گوشت حلال ہونا ضروری ہے، اور یہ دینی پابندی ہے، ذوق کا معاملہ نہیں۔",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "سور کا گوشت نہیں کھاتے",
+     "verbatim": true,
+     "similarity": 0.4733539470080024,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "مسلمان شراب نہیں پیتے",
+     "verbatim": true,
+     "similarity": 0.5369545796661545,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "ان کا گوشت حلال ہونا ضروری ہے، اور یہ دینی پابندی ہے، ذوق کا معاملہ نہیں۔",
+     "verbatim": true,
+     "similarity": 0.7336259899088249,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/ar/سألت لأن المسلمين ما ياكلون إلا اللحم الحلال وما يشربون الخمر ولا ياكلون الخنزير.",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "المسلمين ما ياكلون إلا اللحم الحلال",
+     "verbatim": true,
+     "similarity": 0.6227806346423143,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "ما يشربون الخمر",
+     "verbatim": true,
+     "similarity": 0.5682053282512806,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/ur/اس نے اس لیے پوچھا کہ مسلمان صرف حلال گوشت کھاتے ہیں اور شراب اور سور کا گوشت نہیں لیتے۔",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "مسلمان صرف حلال گوشت کھاتے ہیں اور شراب اور سور کا گوشت نہیں لیتے",
+     "verbatim": true,
+     "similarity": 0.6308200102265031,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "شراب ... نہیں لیتے",
+     "verbatim": false,
+     "similarity": null,
+     "accepted": false
+    }
+   ]
+  },
+  {
+   "key": "inshallah/ar/«إن شاء الله» معناها «إذا أراد الله»، يقولها المسلم عن أي شي في المستقبل إقرارًا بأن المستقبل بيد الله، وهي نية صادقة مو رفض، وأقدر أسأل عن موعد محدد.",
+   "journey": "inshallah",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "يقولها المسلم عن أي شي في المستقبل إقرارًا بأن المستقبل بيد الله",
+     "verbatim": true,
+     "similarity": 0.6508582235930189,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "وأقدر أسأل عن موعد محدد",
+     "verbatim": true,
+     "similarity": 0.5394223356863267,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "inshallah/en/'Inshallah' means 'if God wills'; Muslims say it about any future plan to acknowledge that the future is in God's hands, and it's a sincere intention, not a refusal — I can still ask for a firm date.",
+   "journey": "inshallah",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Muslims say it about any future plan to acknowledge that the future is in God's hands",
+     "verbatim": true,
+     "similarity": 0.6580698863105128,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "it's a sincere intention, not a refusal",
+     "verbatim": true,
+     "similarity": 0.5960444151889588,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "inshallah/ur/«ان شاء اللہ» کا مطلب ہے «اگر اللہ نے چاہا»؛ مسلمان مستقبل کی ہر بات پر یہ کہتے ہیں کیونکہ مستقبل اللہ کے ہاتھ میں ہے، اور یہ سچی نیت ہے انکار نہیں، میں پھر بھی پکی تاریخ پوچھ سکتا ہوں۔",
+   "journey": "inshallah",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "مسلمان مستقبل کی ہر بات پر یہ کہتے ہیں کیونکہ مستقبل اللہ کے ہاتھ میں ہے",
+     "verbatim": true,
+     "similarity": 0.6055100835085175,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "یہ سچی نیت ہے انکار نہیں، میں پھر بھی پکی تاریخ پوچھ سکتا ہوں",
+     "verbatim": true,
+     "similarity": 0.5732151719391504,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "inshallah/en/It means 'if God wills', and Muslims say it whenever they talk about something in the future, because the future is in God's hands.",
+   "journey": "inshallah",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "It means 'if God wills', and Muslims say it whenever they talk about something in the future, because the future is in God's hands.",
+     "verbatim": true,
+     "similarity": 0.7320904576413169,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "inshallah/ar/معناها «إذا أراد الله».",
+   "journey": "inshallah",
+   "proposals": []
+  },
+  {
+   "key": "inshallah/en/It means 'if God wills'.",
+   "journey": "inshallah",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "It means 'if God wills'.",
+     "verbatim": true,
+     "similarity": 0.7005654234683838,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "inshallah/ur/اس کا مطلب ہے «اگر اللہ نے چاہا»، اور مسلمان مستقبل کی کسی بھی بات پر یہ کہتے ہیں، کیونکہ مستقبل اللہ کے ہاتھ میں ہے۔",
+   "journey": "inshallah",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "اس کا مطلب ہے «اگر اللہ نے چاہا»، اور مسلمان مستقبل کی کسی بھی بات پر یہ کہتے ہیں، کیونکہ مستقبل اللہ کے ہاتھ میں ہے۔",
+     "verbatim": true,
+     "similarity": 0.7430271999653745,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "inshallah/ar/معناها «إذا أراد الله»، ويقولها المسلمون كل ما تكلموا عن شي في المستقبل، لأن المستقبل بيد الله.",
+   "journey": "inshallah",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "يقولها المسلمون كل ما تكلموا عن شي في المستقبل، لأن المستقبل بيد الله",
+     "verbatim": true,
+     "similarity": 0.6214204128438501,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "inshallah/ur/اس کا مطلب ہے «اگر اللہ نے چاہا»۔",
+   "journey": "inshallah",
+   "proposals": []
+  },
+  {
+   "key": "ramadan/en/From first light until the sun goes down my colleague takes nothing, not even water, and he does this daily for the full month — the point is to train himself and feel nearer to his Lord, it isn't a penalty.",
+   "journey": "ramadan",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "he does this daily for the full month",
+     "verbatim": true,
+     "similarity": 0.4566901693310378,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "From first light until the sun goes down my colleague takes nothing, not even water",
+     "verbatim": true,
+     "similarity": 0.4913734352156052,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "prayer/ar/عندهم خمس وقفات عبادة موزعة على اليوم بمواعيد ثابتة، ووحدة منها تجي وقت الشغل وتاخذ دقايق معدودة، وهي واجبة على كل واحد منهم وما لها علاقة بجديتهم في العمل.",
+   "journey": "prayer",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "عندهم خمس وقفات عبادة موزعة على اليوم بمواعيد ثابتة",
+     "verbatim": true,
+     "similarity": 0.6193935577345074,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "تاخذ دقايق معدودة",
+     "verbatim": true,
+     "similarity": 0.6399691293227512,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "friday/en/Once a week, around noon on that day, they gather at the mosque to listen to a talk and worship together, so shops and offices pause for it; nobody is obliged to take the whole day off, but the days off were scheduled with it in mind.",
+   "journey": "friday",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "around noon on that day, they gather at the mosque to listen to a talk and worship together",
+     "verbatim": true,
+     "similarity": 0.6062180929323497,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "nobody is obliged to take the whole day off",
+     "verbatim": true,
+     "similarity": 0.39428491265189824,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "eid/ar/عندهم مناسبتين دينيتين بالسنة، وحدة تجي بعد شهر الصوم ووحدة مع موسم الحج، تبدأ كل وحدة بعبادة جماعية الصبح وبعدها فرح وعطاء، وحلو اني ابارك لزملائي فيها.",
+   "journey": "eid",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "وحدة تجي بعد شهر الصوم",
+     "verbatim": true,
+     "similarity": 0.4665564890337651,
+     "accepted": true
+    },
+    {
+     "point": 1,
+     "quote": "تبدأ كل وحدة بعبادة جماعية الصبح وبعدها فرح وعطاء",
+     "verbatim": true,
+     "similarity": 0.5795117226653563,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "حللو اني ابارك لزملائي فيها",
+     "verbatim": false,
+     "similarity": null,
+     "accepted": false
+    }
+   ]
+  },
+  {
+   "key": "team-dinner/en/Their faith rules out booze and pig meat and needs animals slaughtered the permitted way — that's belief, not a diet fad or pickiness — and checking with the waiter is perfectly ordinary, so next time I'll just ask them and book somewhere that works.",
+   "journey": "team-dinner",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "Their faith rules out booze and pig meat and needs animals slaughtered the permitted way",
+     "verbatim": true,
+     "similarity": 0.5717791378399636,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "that's belief, not a diet fad or pickiness",
+     "verbatim": true,
+     "similarity": 0.6754402987783242,
+     "accepted": true
+    }
+   ]
+  },
+  {
+   "key": "inshallah/ar/العبارة معناها لو ربي أراد، يقولونها عن أي شي جاي لأن الغيب بيد الله، وهي وعد صادق مو رفض، ولو احتجت موعد محدد أسأل عنه.",
+   "journey": "inshallah",
+   "proposals": [
+    {
+     "point": 0,
+     "quote": "لو ربي أراد",
+     "verbatim": true,
+     "similarity": 0.5323635487657196,
+     "accepted": true
+    },
+    {
+     "point": 2,
+     "quote": "وهي وعد صادق مو رفض",
+     "verbatim": true,
+     "similarity": 0.49503674861081753,
+     "accepted": true
+    }
+   ]
+  }
+ ]
+}

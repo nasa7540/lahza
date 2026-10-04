@@ -27,7 +27,9 @@
     "test:e2e": "playwright test",
     "embed:cards": "tsx scripts/embed-cards.ts",
     "check:classify": "tsx scripts/checks/classify.ts",
-    "check:stress": "tsx scripts/checks/stress.ts"
+    "check:stress": "tsx scripts/checks/stress.ts",
+    "check:grader": "tsx scripts/checks/grader.ts",
+    "calibrate:grader": "tsx scripts/eval/calibrate-grader.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

@@ -29,6 +29,9 @@ for (const locale of ["ar", "en", "ur"] as const) {
     await next.click();
 
     await page.getByRole("textbox").fill(locale === "en" ? "He is fasting for Ramadan." : "زميلي صائم في رمضان.");
+    await page.getByTestId("check").click();
+    // The note is built from the journey's own approved key points: a status and positions come back, never text.
+    await expect(page.getByTestId("feedback")).toHaveAttribute("data-status", "graded", { timeout: 25_000 });
     await next.click();
     await expect(page.getByTestId("tip")).toBeVisible();
     await page.locator("a.bg-teal").click();

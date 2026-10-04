@@ -1,13 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { ArrowIcon, BackIcon, CheckIcon, CupIcon, InfoIcon } from "@/components/icons";
+import { ArrowIcon, BackIcon, CheckIcon, CupIcon, InfoIcon, PlusIcon, SparkIcon } from "@/components/icons";
 import { Link } from "@/i18n/navigation";
 import type { JourneyView } from "@/lib/content/view";
 import { markDone, track } from "@/lib/progress";
 import { SourceCard } from "./SourceCard";
 
 const OTHER = "other";
+type Feedback = { status: "graded" | "rejected" | "unavailable"; covered: number[]; missing: number[] };
 const STEPS = 4;
 const BUTTON = "flex h-[52px] w-full shrink-0 items-center justify-center gap-2.5 rounded-[14px] bg-teal text-base font-semibold text-white transition-colors duration-150 hover:bg-teal-d disabled:cursor-not-allowed disabled:opacity-40";
 const KICKER = "text-xs font-semibold tracking-[.08em] text-gold-d uppercase rtl:text-[13px] rtl:tracking-normal";
@@ -19,6 +20,8 @@ export function Player({ journey }: { journey: JourneyView }) {
   const [step, setStep] = useState(1);
   const [choice, setChoice] = useState("");
   const [text, setText] = useState("");
+  const [feedback, setFeedback] = useState<Feedback | null>(null);
+  const [checking, setChecking] = useState(false);
   const draftKey = `lahza.explain.${journey.id}`;
 
   useEffect(() => {
@@ -43,11 +46,25 @@ export function Player({ journey }: { journey: JourneyView }) {
   };
   const write = (value: string) => {
     setText(value);
+    setFeedback(null);
     try {
       localStorage.setItem(draftKey, value);
     } catch {
       // The text still lives in the field for this visit.
     }
+  };
+  // The server answers with positions only; the texts shown are the approved key points this screen already has.
+  const check = async () => {
+    setChecking(true);
+    const unavailable: Feedback = { status: "unavailable", covered: [], missing: [] };
+    try {
+      const res = await fetch("/api/grade", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ journey_id: journey.id, lang, text }) });
+      const body = (await res.json()) as Feedback;
+      setFeedback(res.ok && Array.isArray(body.covered) && Array.isArray(body.missing) ? body : unavailable);
+    } catch {
+      setFeedback(unavailable);
+    }
+    setChecking(false);
   };
   const finish = () => {
     markDone(journey.id);
@@ -156,6 +173,52 @@ export function Player({ journey }: { journey: JourneyView }) {
             />
             <span className="text-end text-xs text-mute rtl:text-[13px]">{t("explainOnDevice")}</span>
           </label>
+          {feedback && (
+            <div className="flex flex-col gap-3.5 rounded-2xl border border-line bg-card p-[18px] shadow-[0_2px_10px_rgba(15,76,92,.04)]" data-testid="feedback" data-status={feedback.status} data-covered={feedback.covered.length}>
+              <span className="inline-flex items-center gap-1.5 self-start rounded-full border border-gold bg-beige px-2.5 py-1 text-xs font-semibold text-gold-d">
+                <SparkIcon size={12} /> {t("fbK")}
+              </span>
+              <b className="text-base leading-snug text-teal">
+                {feedback.status === "rejected" ? t("fbRejected") : feedback.status === "unavailable" ? t("fbUnavailable") : feedback.missing.length === 0 ? t("fbAll") : feedback.covered.length ? t("fbSome") : t("fbNone")}
+              </b>
+              {feedback.status === "graded" && feedback.covered.length > 0 && (
+                <div className="flex gap-3">
+                  <span className="flex h-[34px] w-[34px] shrink-0 items-center justify-center rounded-full bg-ic text-teal">
+                    <CheckIcon />
+                  </span>
+                  <div className="flex flex-col gap-1">
+                    <b className="text-sm rtl:text-[15px]">{t("fbCoveredK")}</b>
+                    {feedback.covered.map((i) => (
+                      <span key={i} className="text-[15px] leading-[1.65] text-body rtl:leading-[1.85]">
+                        {journey.key_points[i]}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {feedback.status !== "rejected" && (feedback.status === "unavailable" || feedback.missing.length > 0) && (
+                <div className="flex gap-3 rounded-xl bg-beige p-3">
+                  <span className="flex h-[34px] w-[34px] shrink-0 items-center justify-center rounded-full bg-card text-gold-d">
+                    <PlusIcon />
+                  </span>
+                  <div className="flex flex-col gap-1">
+                    <b className="text-sm rtl:text-[15px]">{t("fbMissingK")}</b>
+                    {(feedback.status === "unavailable" ? journey.key_points.map((_, i) => i) : feedback.missing).map((i) => (
+                      <span key={i} className="text-[15px] leading-[1.65] text-body rtl:leading-[1.85]">
+                        {journey.key_points[i]}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+              <span className="text-xs leading-relaxed text-mute rtl:text-[13px]">{t("fbFoot")}</span>
+            </div>
+          )}
+          {!feedback && text.trim().length >= 2 && (
+            <button type="button" data-testid="check" disabled={checking} onClick={check} className="flex h-[52px] w-full shrink-0 items-center justify-center gap-2.5 rounded-[14px] border-[1.5px] border-teal bg-card text-base font-semibold text-teal disabled:opacity-50">
+              <SparkIcon size={16} /> {checking ? t("explainChecking") : t("explainCheck")}
+            </button>
+          )}
           <button type="button" className={BUTTON} onClick={finish}>
             {text.trim() ? t("cont") : t("skip")} <ArrowIcon />
           </button>

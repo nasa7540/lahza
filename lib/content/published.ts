@@ -9,6 +9,8 @@ export type PublicJourney = {
   level: Draft["level"];
   when: When;
   text: JourneyText;
+  /** Every language of the same draft, approved or not. Server-side use only (the grader compares meanings across languages); never sent to a reader. */
+  locales: Draft["locales"];
   sources: Source[];
   /** Team-approved but not yet approved by a sharia reviewer. */
   badge: boolean;
@@ -44,7 +46,7 @@ export async function publishedJourneys(db: SupabaseClient, lang: Lang, options:
     const text = draft.locales[lang];
     if (!text) continue;
     const v = visibility(draft, lang, decisions.get(draft.id) ?? []);
-    const journey: PublicJourney = { id: draft.journey_id, draft_id: draft.id, level: draft.level, when: draft.when, text, sources: draft.sources, badge: v.badge, approved: v.visible };
+    const journey: PublicJourney = { id: draft.journey_id, draft_id: draft.id, level: draft.level, when: draft.when, text, locales: draft.locales, sources: draft.sources, badge: v.badge, approved: v.visible };
     if (v.visible) chosen.set(draft.journey_id, journey);
     else if (options.preview && !draft.needs_sharii && draft.status === "draft" && !fallback.has(draft.journey_id)) fallback.set(draft.journey_id, journey);
   }

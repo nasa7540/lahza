@@ -41,8 +41,8 @@ async function main() {
   const name = process.argv[2] ?? "";
   const seconds = Number(process.argv[3] ?? 60);
   const t = target(name);
-  // The full path runs for every request (rule guard, model, search); which journeys are approved does not change the load.
-  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, NODE_ENV: "production" }, stdio: "ignore" });
+  // Unapproved drafts are previewed on this local server only, so the grader has journeys to grade against.
+  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, NODE_ENV: "production", LAHZA_PREVIEW_UNAPPROVED: "1" }, stdio: "ignore" });
   const levels: Record<string, unknown>[] = [];
   let failed = false;
   try {

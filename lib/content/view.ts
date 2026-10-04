@@ -26,6 +26,8 @@ export type JourneyView = {
   sources: SourceView[];
   explain_prompt: string;
   tip: { headline: string; lead: string; items: string[] };
+  /** The three points the explanation step checks; shown back as covered or still to add. */
+  key_points: string[];
   badge: boolean;
   approved: boolean;
 };
@@ -93,6 +95,7 @@ export function toView(journey: PublicJourney, lang: Lang): JourneyView {
     sources: general,
     explain_prompt: text.explain_prompt,
     tip: text.tip,
+    key_points: text.key_points,
     badge: journey.badge,
     approved: journey.approved,
   };

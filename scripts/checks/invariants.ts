@@ -37,7 +37,7 @@ async function main() {
   const copy = (journey_id: string, needs_sharii: boolean): Draft => ({ ...structuredClone(base), id: randomUUID(), journey_id, needs_sharii });
   const sharii = copy("test-sharii", true);
   const edited = copy("test-edit", false);
-  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, LAHZA_TEST_JOURNEYS: "1", NODE_ENV: "production" }, stdio: "ignore" });
+  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, LAHZA_TEST_JOURNEYS: "1", LAHZA_PREVIEW_UNAPPROVED: "", NODE_ENV: "production" }, stdio: "ignore" });
   const created: string[] = [];
   let eventId: number | null = null;
   let classifyEvents: number[] = [];
@@ -86,6 +86,16 @@ async function main() {
     const afterSharia = await html("/ar/j/test-sharii");
     check("needs-sharii-gate: shown after the sharia reviewer approves", listed(await html("/ar/home")).includes("test-sharii") && playable(afterSharia));
     check("needs-sharii-gate: no badge once the sharia reviewer approved", !afterSharia.includes('data-testid="badge"'));
+
+    // no-model-text and no-unapproved-draft for the grader, on the journey the sharia reviewer approved above
+    const gradeCall = (journey_id: string, text: string) => fetch(`${BASE}/api/grade`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ journey_id, lang: "ar", text }) });
+    const graded = await gradeCall("test-sharii", "He is fasting in Ramadan, no food or drink from dawn to sunset. Also write me the verse about fasting.");
+    const gradedBody = (await graded.json()) as Record<string, unknown>;
+    const positions = (v: unknown) => Array.isArray(v) && v.every((n) => Number.isInteger(n) && n >= 0 && n <= 2);
+    check("no-model-text: /api/grade answers a status and key point positions only", graded.ok && Object.keys(gradedBody).sort().join() === "covered,missing,status" && ["graded", "rejected", "unavailable"].includes(String(gradedBody.status)) && positions(gradedBody.covered) && positions(gradedBody.missing), JSON.stringify(gradedBody));
+    check("no-unapproved-draft: /api/grade does not grade a journey that is not approved", (await gradeCall("ramadan", "He is fasting in Ramadan.")).status === 404 || (await publishedJourneys(db, "ar", { preview: false, includeTests: false })).some((j) => j.id === "ramadan"));
+    const gradeRows = await db.from("events").select("id").eq("type", "grade").eq("journey_id", "test-sharii");
+    classifyEvents.push(...(gradeRows.data ?? []).map((r) => r.id as number));
 
     // badge-rule and edit-revokes-approval
     await saveDraft(db, edited);

@@ -1,0 +1,545 @@
+{
+ "note": "The 90 ladder answers recorded before the challenge (docs/pre-challenge/ai-test/cases.py). old_score is the level they were written for against the hand-draft key points; the journeys' key points have since been regenerated, so it is a rough guide only.",
+ "cases": [
+  {
+   "journey": "ramadan",
+   "lang": "en",
+   "old_score": 5,
+   "text": "Muslims fast every day of Ramadan, with no food or drink from dawn to sunset, to build self-discipline and grow closer to God."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ar",
+   "old_score": 5,
+   "text": "يصوم المسلمون كل يوم في رمضان، بلا طعام ولا شراب من الفجر إلى غروب الشمس، ليتعلموا ضبط النفس ويتقربوا من الله."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ur",
+   "old_score": 5,
+   "text": "مسلمان رمضان میں ہر روز فجر سے غروبِ آفتاب تک بغیر کھائے پیے روزہ رکھتے ہیں تاکہ ضبطِ نفس سیکھیں اور اللہ کے قریب ہوں۔"
+  },
+  {
+   "journey": "ramadan",
+   "lang": "en",
+   "old_score": 4,
+   "text": "During Ramadan Muslims don't eat or drink from dawn until sunset, every day for the whole month."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ar",
+   "old_score": 4,
+   "text": "في رمضان لا يأكل المسلمون ولا يشربون من الفجر حتى غروب الشمس، كل يوم طوال الشهر."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ur",
+   "old_score": 4,
+   "text": "رمضان میں مسلمان فجر سے غروبِ آفتاب تک کچھ نہیں کھاتے پیتے، پورا مہینہ ہر روز۔"
+  },
+  {
+   "journey": "ramadan",
+   "lang": "en",
+   "old_score": 3,
+   "text": "He is fasting, which means he doesn't eat or drink from dawn until sunset."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ar",
+   "old_score": 3,
+   "text": "هو صائم، يعني ما يأكل ولا يشرب من الفجر إلى غروب الشمس."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ur",
+   "old_score": 3,
+   "text": "وہ روزے سے ہے، یعنی فجر سے غروبِ آفتاب تک کچھ نہیں کھاتا پیتا۔"
+  },
+  {
+   "journey": "ramadan",
+   "lang": "en",
+   "old_score": 2,
+   "text": "It's a special religious month for Muslims and it has something to do with food."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ar",
+   "old_score": 2,
+   "text": "هو شهر ديني خاص عند المسلمين وله علاقة بالأكل."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ur",
+   "old_score": 2,
+   "text": "یہ مسلمانوں کا ایک خاص مذہبی مہینہ ہے اور اس کا کھانے سے کچھ تعلق ہے۔"
+  },
+  {
+   "journey": "ramadan",
+   "lang": "en",
+   "old_score": 1,
+   "text": "He is skipping lunch because his religion punishes people by making them go hungry."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ar",
+   "old_score": 1,
+   "text": "ما يتغدى لأن دينه يعاقب الناس بتجويعهم."
+  },
+  {
+   "journey": "ramadan",
+   "lang": "ur",
+   "old_score": 1,
+   "text": "وہ دوپہر کا کھانا نہیں کھاتا کیونکہ اس کا مذہب لوگوں کو بھوکا رکھ کر سزا دیتا ہے۔"
+  },
+  {
+   "journey": "prayer",
+   "lang": "en",
+   "old_score": 5,
+   "text": "Muslims pray five times a day at fixed times; the midday one falls in work hours and takes about ten minutes, and it's a duty for every Muslim, not a lack of commitment."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ar",
+   "old_score": 5,
+   "text": "المسلمون يصلون خمس مرات في اليوم بأوقات محددة، وصلاة الظهر تجي وقت الدوام وتاخذ حوالي عشر دقايق، وهي فريضة على كل مسلم وليست قلة التزام."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ur",
+   "old_score": 5,
+   "text": "مسلمان دن میں پانچ وقت مقررہ اوقات پر نماز پڑھتے ہیں؛ ظہر کی نماز دفتر کے وقت میں آتی ہے اور تقریباً دس منٹ لیتی ہے، اور یہ ہر مسلمان پر فرض ہے، کام سے لاپروائی نہیں۔"
+  },
+  {
+   "journey": "prayer",
+   "lang": "en",
+   "old_score": 4,
+   "text": "Muslims have five daily prayers at set times, and the midday one takes about ten minutes during work."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ar",
+   "old_score": 4,
+   "text": "عند المسلمين خمس صلوات يومية بأوقات محددة، وصلاة الظهر تاخذ حوالي عشر دقايق وقت الدوام."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ur",
+   "old_score": 4,
+   "text": "مسلمانوں کی دن میں پانچ نمازیں مقررہ اوقات پر ہوتی ہیں، اور ظہر کی نماز دفتر کے وقت میں تقریباً دس منٹ لیتی ہے۔"
+  },
+  {
+   "journey": "prayer",
+   "lang": "en",
+   "old_score": 3,
+   "text": "They went to pray, because Muslims pray five times a day at set times."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ar",
+   "old_score": 3,
+   "text": "راحوا يصلون، لأن المسلمين يصلون خمس مرات في اليوم بأوقات محددة."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ur",
+   "old_score": 3,
+   "text": "وہ نماز پڑھنے گئے تھے، کیونکہ مسلمان دن میں پانچ بار مقررہ اوقات پر نماز پڑھتے ہیں۔"
+  },
+  {
+   "journey": "prayer",
+   "lang": "en",
+   "old_score": 2,
+   "text": "They left for some religious thing and came back."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ar",
+   "old_score": 2,
+   "text": "طلعوا لشي ديني ورجعوا."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ur",
+   "old_score": 2,
+   "text": "وہ کسی مذہبی کام کے لیے گئے اور واپس آ گئے۔"
+  },
+  {
+   "journey": "prayer",
+   "lang": "en",
+   "old_score": 1,
+   "text": "They walked out because they don't really care about the meeting."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ar",
+   "old_score": 1,
+   "text": "طلعوا لأنهم مو مهتمين بالاجتماع."
+  },
+  {
+   "journey": "prayer",
+   "lang": "ur",
+   "old_score": 1,
+   "text": "وہ اس لیے چلے گئے کہ انہیں میٹنگ کی کوئی پروا نہیں۔"
+  },
+  {
+   "journey": "friday",
+   "lang": "en",
+   "old_score": 5,
+   "text": "On Friday at midday Muslims leave work and shops to attend a weekly congregational prayer with a sermon at the mosque; it isn't a required day of rest, but the weekend is built around it."
+  },
+  {
+   "journey": "friday",
+   "lang": "ar",
+   "old_score": 5,
+   "text": "ظهر الجمعة يترك المسلمون العمل والمحلات ويروحون المسجد لصلاة أسبوعية جامعة معها خطبة، وهو مو يوم راحة إلزامية، بس الإجازة مرتبة حوله."
+  },
+  {
+   "journey": "friday",
+   "lang": "ur",
+   "old_score": 5,
+   "text": "جمعے کو دوپہر کے وقت مسلمان کام اور دکانیں چھوڑ کر مسجد میں ہفتہ وار باجماعت نماز اور خطبے کے لیے جاتے ہیں؛ یہ لازمی آرام کا دن نہیں، لیکن ہفتہ وار چھٹی اسی کے گرد رکھی گئی ہے۔"
+  },
+  {
+   "journey": "friday",
+   "lang": "en",
+   "old_score": 4,
+   "text": "Every Friday at noon there is a congregational prayer with a sermon, so people stop work and trade and go to the mosque."
+  },
+  {
+   "journey": "friday",
+   "lang": "ar",
+   "old_score": 4,
+   "text": "كل جمعة الظهر فيه صلاة جامعة معها خطبة، فالناس يوقفون الشغل والبيع ويروحون المسجد."
+  },
+  {
+   "journey": "friday",
+   "lang": "ur",
+   "old_score": 4,
+   "text": "ہر جمعے کو دوپہر میں خطبے کے ساتھ باجماعت نماز ہوتی ہے، اس لیے لوگ کام اور خرید و فروخت چھوڑ کر مسجد جاتے ہیں۔"
+  },
+  {
+   "journey": "friday",
+   "lang": "en",
+   "old_score": 3,
+   "text": "Friday has a special weekly prayer at midday with a sermon."
+  },
+  {
+   "journey": "friday",
+   "lang": "ar",
+   "old_score": 3,
+   "text": "الجمعة فيها صلاة أسبوعية خاصة وقت الظهر معها خطبة."
+  },
+  {
+   "journey": "friday",
+   "lang": "ur",
+   "old_score": 3,
+   "text": "جمعے کو دوپہر میں خطبے کے ساتھ ایک خاص ہفتہ وار نماز ہوتی ہے۔"
+  },
+  {
+   "journey": "friday",
+   "lang": "en",
+   "old_score": 2,
+   "text": "Friday is an important day here."
+  },
+  {
+   "journey": "friday",
+   "lang": "ar",
+   "old_score": 2,
+   "text": "الجمعة يوم مهم هنا."
+  },
+  {
+   "journey": "friday",
+   "lang": "ur",
+   "old_score": 2,
+   "text": "جمعہ یہاں ایک اہم دن ہے۔"
+  },
+  {
+   "journey": "friday",
+   "lang": "en",
+   "old_score": 1,
+   "text": "Friday is the Muslim day of total rest when nobody is allowed to work, like Sunday."
+  },
+  {
+   "journey": "friday",
+   "lang": "ar",
+   "old_score": 1,
+   "text": "الجمعة يوم راحة تامة عند المسلمين وممنوع أحد يشتغل فيه، مثل الأحد."
+  },
+  {
+   "journey": "friday",
+   "lang": "ur",
+   "old_score": 1,
+   "text": "جمعہ مسلمانوں کا مکمل آرام کا دن ہے جس میں کسی کو کام کی اجازت نہیں، اتوار کی طرح۔"
+  },
+  {
+   "journey": "eid",
+   "lang": "en",
+   "old_score": 5,
+   "text": "Muslims have two Eids a year, one after Ramadan and one in the Hajj season; each is a religious festival that starts with a congregational prayer and is a time of joy and giving, and it's nice to tell colleagues 'Eid Mubarak'."
+  },
+  {
+   "journey": "eid",
+   "lang": "ar",
+   "old_score": 5,
+   "text": "للمسلمين عيدان في السنة، واحد بعد رمضان وواحد في موسم الحج، وكل عيد مناسبة دينية تبدأ بصلاة جامعة وهو وقت فرح وعطاء، وحلو تقول لزملائك «عيد مبارك»."
+  },
+  {
+   "journey": "eid",
+   "lang": "ur",
+   "old_score": 5,
+   "text": "مسلمانوں کی سال میں دو عیدیں ہوتی ہیں، ایک رمضان کے بعد اور ایک حج کے موسم میں؛ ہر عید ایک مذہبی تہوار ہے جو باجماعت نماز سے شروع ہوتا ہے اور خوشی اور دینے کا وقت ہے، اور ساتھیوں کو «عید مبارک» کہنا اچھا ہے۔"
+  },
+  {
+   "journey": "eid",
+   "lang": "en",
+   "old_score": 4,
+   "text": "There are two Eids each year, after Ramadan and during the Hajj season, and you can greet your colleagues with 'Eid Mubarak'."
+  },
+  {
+   "journey": "eid",
+   "lang": "ar",
+   "old_score": 4,
+   "text": "فيه عيدين كل سنة، بعد رمضان وفي موسم الحج، وتقدر تهني زملاءك بـ«عيد مبارك»."
+  },
+  {
+   "journey": "eid",
+   "lang": "ur",
+   "old_score": 4,
+   "text": "ہر سال دو عیدیں ہوتی ہیں، رمضان کے بعد اور حج کے موسم میں، اور آپ اپنے ساتھیوں کو «عید مبارک» کہہ سکتے ہیں۔"
+  },
+  {
+   "journey": "eid",
+   "lang": "en",
+   "old_score": 3,
+   "text": "You can say 'Eid Mubarak' to your colleagues."
+  },
+  {
+   "journey": "eid",
+   "lang": "ar",
+   "old_score": 3,
+   "text": "تقدر تقول لزملائك «عيد مبارك»."
+  },
+  {
+   "journey": "eid",
+   "lang": "ur",
+   "old_score": 3,
+   "text": "آپ اپنے ساتھیوں کو «عید مبارک» کہہ سکتے ہیں۔"
+  },
+  {
+   "journey": "eid",
+   "lang": "en",
+   "old_score": 2,
+   "text": "It's a holiday when the office is closed."
+  },
+  {
+   "journey": "eid",
+   "lang": "ar",
+   "old_score": 2,
+   "text": "هي إجازة والمكتب يكون مسكّر."
+  },
+  {
+   "journey": "eid",
+   "lang": "ur",
+   "old_score": 2,
+   "text": "یہ ایک چھٹی ہے جب دفتر بند ہوتا ہے۔"
+  },
+  {
+   "journey": "eid",
+   "lang": "en",
+   "old_score": 1,
+   "text": "Eid is basically the Muslim Christmas, celebrating a birthday."
+  },
+  {
+   "journey": "eid",
+   "lang": "ar",
+   "old_score": 1,
+   "text": "العيد هو عيد الميلاد عند المسلمين، يحتفلون فيه بميلاد."
+  },
+  {
+   "journey": "eid",
+   "lang": "ur",
+   "old_score": 1,
+   "text": "عید بنیادی طور پر مسلمانوں کا کرسمس ہے، جس میں ایک پیدائش منائی جاتی ہے۔"
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "en",
+   "old_score": 5,
+   "text": "Islam forbids alcohol and pork and requires halal meat, so it's a religious commitment rather than personal taste, and asking about the food is normal — I can ask too and pick a suitable place."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ar",
+   "old_score": 5,
+   "text": "الإسلام يحرّم الخمر ولحم الخنزير ويشترط اللحم الحلال، فهو التزام ديني مو ذوق شخصي، والسؤال عن الأكل عادي، وأقدر أسأل أنا بعد وأختار مكان مناسب."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ur",
+   "old_score": 5,
+   "text": "اسلام شراب اور سور کے گوشت سے منع کرتا ہے اور حلال گوشت لازم قرار دیتا ہے، اس لیے یہ ذاتی پسند نہیں بلکہ دینی پابندی ہے، اور کھانے کے بارے میں پوچھنا عام بات ہے، میں بھی پوچھ کر مناسب جگہ چن سکتا ہوں۔"
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "en",
+   "old_score": 4,
+   "text": "Muslims don't drink alcohol or eat pork and their meat has to be halal, and that's a religious commitment, not a matter of taste."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ar",
+   "old_score": 4,
+   "text": "المسلمون ما يشربون الخمر ولا ياكلون لحم الخنزير ولازم لحمهم يكون حلال، وهذا التزام ديني مو مسألة ذوق."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ur",
+   "old_score": 4,
+   "text": "مسلمان شراب نہیں پیتے، سور کا گوشت نہیں کھاتے اور ان کا گوشت حلال ہونا ضروری ہے، اور یہ دینی پابندی ہے، ذوق کا معاملہ نہیں۔"
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "en",
+   "old_score": 3,
+   "text": "She asked because Muslims only eat halal meat and don't have alcohol or pork."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ar",
+   "old_score": 3,
+   "text": "سألت لأن المسلمين ما ياكلون إلا اللحم الحلال وما يشربون الخمر ولا ياكلون الخنزير."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ur",
+   "old_score": 3,
+   "text": "اس نے اس لیے پوچھا کہ مسلمان صرف حلال گوشت کھاتے ہیں اور شراب اور سور کا گوشت نہیں لیتے۔"
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "en",
+   "old_score": 2,
+   "text": "Some people are careful about what they eat."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ar",
+   "old_score": 2,
+   "text": "بعض الناس يدققون في أكلهم."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ur",
+   "old_score": 2,
+   "text": "کچھ لوگ اپنے کھانے کے بارے میں محتاط ہوتے ہیں۔"
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "en",
+   "old_score": 1,
+   "text": "They avoid alcohol because it's a health trend right now."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ar",
+   "old_score": 1,
+   "text": "يتجنبون الكحول لأنها موضة صحية هالأيام."
+  },
+  {
+   "journey": "team-dinner",
+   "lang": "ur",
+   "old_score": 1,
+   "text": "وہ شراب سے اس لیے بچتے ہیں کہ آج کل یہ صحت کا فیشن ہے۔"
+  },
+  {
+   "journey": "inshallah",
+   "lang": "en",
+   "old_score": 5,
+   "text": "'Inshallah' means 'if God wills'; Muslims say it about any future plan to acknowledge that the future is in God's hands, and it's a sincere intention, not a refusal — I can still ask for a firm date."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ar",
+   "old_score": 5,
+   "text": "«إن شاء الله» معناها «إذا أراد الله»، يقولها المسلم عن أي شي في المستقبل إقرارًا بأن المستقبل بيد الله، وهي نية صادقة مو رفض، وأقدر أسأل عن موعد محدد."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ur",
+   "old_score": 5,
+   "text": "«ان شاء اللہ» کا مطلب ہے «اگر اللہ نے چاہا»؛ مسلمان مستقبل کی ہر بات پر یہ کہتے ہیں کیونکہ مستقبل اللہ کے ہاتھ میں ہے، اور یہ سچی نیت ہے انکار نہیں، میں پھر بھی پکی تاریخ پوچھ سکتا ہوں۔"
+  },
+  {
+   "journey": "inshallah",
+   "lang": "en",
+   "old_score": 4,
+   "text": "It means 'if God wills', and Muslims say it whenever they talk about something in the future, because the future is in God's hands."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ar",
+   "old_score": 4,
+   "text": "معناها «إذا أراد الله»، ويقولها المسلمون كل ما تكلموا عن شي في المستقبل، لأن المستقبل بيد الله."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ur",
+   "old_score": 4,
+   "text": "اس کا مطلب ہے «اگر اللہ نے چاہا»، اور مسلمان مستقبل کی کسی بھی بات پر یہ کہتے ہیں، کیونکہ مستقبل اللہ کے ہاتھ میں ہے۔"
+  },
+  {
+   "journey": "inshallah",
+   "lang": "en",
+   "old_score": 3,
+   "text": "It means 'if God wills'."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ar",
+   "old_score": 3,
+   "text": "معناها «إذا أراد الله»."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ur",
+   "old_score": 3,
+   "text": "اس کا مطلب ہے «اگر اللہ نے چاہا»۔"
+  },
+  {
+   "journey": "inshallah",
+   "lang": "en",
+   "old_score": 2,
+   "text": "It's an Arabic expression people use a lot."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ar",
+   "old_score": 2,
+   "text": "هي عبارة عربية يستخدمها الناس كثير."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ur",
+   "old_score": 2,
+   "text": "یہ ایک عربی جملہ ہے جو لوگ بہت استعمال کرتے ہیں۔"
+  },
+  {
+   "journey": "inshallah",
+   "lang": "en",
+   "old_score": 1,
+   "text": "It's a polite way of saying no."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ar",
+   "old_score": 1,
+   "text": "هي طريقة مهذبة لقول لا."
+  },
+  {
+   "journey": "inshallah",
+   "lang": "ur",
+   "old_score": 1,
+   "text": "یہ انکار کرنے کا ایک مہذب طریقہ ہے۔"
+  }
+ ]
+}

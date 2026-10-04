@@ -1,0 +1,29 @@
+{
+ "threshold": 0.57,
+ "date": "2026-10-04T08:11:44.076Z",
+ "note": "Tuned on two thirds of the recorded answers, reported on the held-out third. A second line behind the verbatim-quote rule, not the only one.",
+ "tuned_on": {
+  "positives": 67,
+  "negatives": 84,
+  "good_quotes_kept": 0.821,
+  "non_evidence_passing": 0.095
+ },
+ "held_out": {
+  "positives": 31,
+  "negatives": 42,
+  "good_quotes_kept": 0.806,
+  "non_evidence_passing": 0.071
+ },
+ "similarity": {
+  "good_quotes": {
+   "min": 0.394,
+   "median": 0.639,
+   "max": 0.887
+  },
+  "non_evidence": {
+   "min": 0.301,
+   "median": 0.449,
+   "max": 0.748
+  }
+ }
+}
