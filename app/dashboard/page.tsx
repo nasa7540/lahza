@@ -5,6 +5,7 @@ import { type EventRow, summarise } from "@/lib/dashboard-counts";
 import { REFERRAL_TOPICS } from "@/lib/referral";
 import { createServiceClient } from "@/lib/supabase/server";
 import { enter, leave, moveReferral } from "./actions";
+import { Activity, type ActivityEvent } from "./Activity";
 
 export const dynamic = "force-dynamic";
 
@@ -41,8 +42,13 @@ export default async function Dashboard({ searchParams }: PageProps<"/dashboard"
     eventQuery = eventQuery?.eq("company", company);
     referralQuery = referralQuery?.eq("company", company);
   }
-  const events = ((await eventQuery)?.data ?? []) as EventRow[];
-  const referrals = ((await referralQuery)?.data ?? []) as Referral[];
+  let recentQuery = db?.from("events").select("created_at, type, journey_id, lang, choice, score, company").order("id", { ascending: false }).limit(300);
+  if (company) recentQuery = recentQuery?.eq("company", company);
+  // The three reads run side by side.
+  const [eventResult, referralResult, recentResult] = await Promise.all([eventQuery, referralQuery, recentQuery]);
+  const events = (eventResult?.data ?? []) as EventRow[];
+  const referrals = (referralResult?.data ?? []) as Referral[];
+  const recent = (recentResult?.data ?? []) as ActivityEvent[];
   const { journeys, outcomes } = summarise(events);
   const waiting = referrals.filter((r) => r.status === "new").length;
 
@@ -132,6 +138,7 @@ export default async function Dashboard({ searchParams }: PageProps<"/dashboard"
         </ul>
         <p className="text-sm text-mute">نص السؤال لا يُحفظ. يُسجَّل المستوى والنتيجة فقط.</p>
       </section>
+      <Activity events={recent} referrals={referrals} />
     </div>
   );
 }
