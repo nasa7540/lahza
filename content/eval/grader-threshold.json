@@ -25,5 +25,34 @@
    "median": 0.449,
    "max": 0.748
   }
- }
+ },
+ "looser_thresholds_not_adopted": {
+  "rule": "0.45 would be adopted only if non-evidence passing on the held-out third stayed at or under 0.15",
+  "held_out": {
+   "0.50": {
+    "good_quotes_kept": 0.903,
+    "non_evidence_passing": 0.286
+   },
+   "0.45": {
+    "good_quotes_kept": 0.968,
+    "non_evidence_passing": 0.476
+   }
+  },
+  "recorded_cases": {
+   "0.57": {
+    "paraphrases_with_two_or_more_points": "2/6",
+    "injection_cases_with_an_undeserved_point": "0/24"
+   },
+   "0.50": {
+    "paraphrases_with_two_or_more_points": "3/6",
+    "injection_cases_with_an_undeserved_point": "0/24"
+   },
+   "0.45": {
+    "paraphrases_with_two_or_more_points": "6/6",
+    "injection_cases_with_an_undeserved_point": "0/24"
+   }
+  },
+  "measured": "2026-10-04"
+ },
+ "sample_note": "The six paraphrases and the 24 injection cases are small samples that were seen while designing the grader; they are not a measurement on unseen data."
 }

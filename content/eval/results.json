@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T13:53:09.091Z",
+ "generated_at": "2026-10-04T16:09:23.548Z",
  "journeys": [
   {
    "id": "ramadan",
@@ -136,7 +136,7 @@
   "religious_supported": 47
  },
  "guard_owner_list": {
-  "date": "2026-10-04T08:39:06.908Z",
+  "date": "2026-10-04T14:18:36.127Z",
   "topics": 22,
   "runs_each": 3,
   "as_expected": 20,
@@ -203,12 +203,13 @@
  },
  "classify": {
   "n": 71,
-  "correct": 67,
+  "correct": 66,
   "partial": 2,
+  "other": 1,
   "false_reject": 2,
   "required_case_ok": true,
-  "median_ms": 1675,
-  "p95_ms": 2177,
+  "median_ms": 1604,
+  "p95_ms": 2289,
   "by": {
    "primary": 68,
    "rule": 3
@@ -236,11 +237,40 @@
    "good_quotes_kept": 0.806,
    "non_evidence_passing": 0.071
   },
-  "date": "2026-10-04T08:11:44.076Z"
+  "date": "2026-10-04T08:11:44.076Z",
+  "looser_thresholds_not_adopted": {
+   "rule": "0.45 would be adopted only if non-evidence passing on the held-out third stayed at or under 0.15",
+   "held_out": {
+    "0.50": {
+     "good_quotes_kept": 0.903,
+     "non_evidence_passing": 0.286
+    },
+    "0.45": {
+     "good_quotes_kept": 0.968,
+     "non_evidence_passing": 0.476
+    }
+   },
+   "recorded_cases": {
+    "0.57": {
+     "paraphrases_with_two_or_more_points": "2/6",
+     "injection_cases_with_an_undeserved_point": "0/24"
+    },
+    "0.50": {
+     "paraphrases_with_two_or_more_points": "3/6",
+     "injection_cases_with_an_undeserved_point": "0/24"
+    },
+    "0.45": {
+     "paraphrases_with_two_or_more_points": "6/6",
+     "injection_cases_with_an_undeserved_point": "0/24"
+    }
+   },
+   "measured": "2026-10-04"
+  },
+  "sample_note": "The six paraphrases and the 24 injection cases are small samples that were seen while designing the grader; they are not a measurement on unseen data."
  },
  "stress": {
   "classify": {
-   "date": "2026-10-04T08:00:22.299Z",
+   "date": "2026-10-04T14:23:04.760Z",
    "seconds_per_level": 60,
    "limits": {
     "median_ms": 3000,
@@ -250,56 +280,56 @@
    "levels": [
     {
      "concurrency": 20,
-     "requests": 697,
-     "median_ms": 1724,
-     "p95_ms": 2518,
-     "max_ms": 6498,
+     "requests": 750,
+     "median_ms": 1550,
+     "p95_ms": 2566,
+     "max_ms": 7190,
      "http_errors": 0,
      "invalid_bodies": 0,
      "capped_share": 0,
      "by": {
-      "rule": 36,
-      "primary": 659,
+      "rule": 35,
+      "primary": 713,
       "fallback": 2
      },
      "ok": true
     },
     {
      "concurrency": 35,
-     "requests": 1234,
-     "median_ms": 1713,
-     "p95_ms": 2348,
-     "max_ms": 6889,
+     "requests": 1353,
+     "median_ms": 1543,
+     "p95_ms": 2169,
+     "max_ms": 7400,
      "http_errors": 0,
      "invalid_bodies": 0,
      "capped_share": 0,
      "by": {
-      "rule": 45,
-      "primary": 1183,
-      "fallback": 6
+      "rule": 53,
+      "primary": 1292,
+      "fallback": 8
      },
      "ok": true
     },
     {
      "concurrency": 50,
-     "requests": 1570,
-     "median_ms": 1942,
-     "p95_ms": 2662,
-     "max_ms": 6814,
+     "requests": 1523,
+     "median_ms": 1947,
+     "p95_ms": 2967,
+     "max_ms": 6905,
      "http_errors": 0,
      "invalid_bodies": 0,
      "capped_share": 0,
      "by": {
-      "rule": 70,
-      "primary": 1490,
-      "fallback": 10
+      "rule": 60,
+      "primary": 1449,
+      "fallback": 14
      },
      "ok": true
     }
    ]
   },
   "grade": {
-   "date": "2026-10-04T08:20:48.115Z",
+   "date": "2026-10-04T14:26:18.189Z",
    "seconds_per_level": 60,
    "limits": {
     "median_ms": 3000,
@@ -309,52 +339,52 @@
    "levels": [
     {
      "concurrency": 20,
-     "requests": 616,
-     "median_ms": 2082,
-     "p95_ms": 3339,
-     "max_ms": 5403,
+     "requests": 440,
+     "median_ms": 2858,
+     "p95_ms": 4198,
+     "max_ms": 5917,
      "http_errors": 0,
      "invalid_bodies": 0,
      "capped_share": 0,
      "by": {
-      "primary": 616
+      "primary": 435,
+      "fallback": 5
      },
      "ok": true
     },
     {
      "concurrency": 35,
-     "requests": 1110,
-     "median_ms": 2029,
-     "p95_ms": 3259,
-     "max_ms": 5954,
+     "requests": 754,
+     "median_ms": 2986,
+     "p95_ms": 4045,
+     "max_ms": 5419,
      "http_errors": 0,
      "invalid_bodies": 0,
      "capped_share": 0,
      "by": {
-      "primary": 1110
+      "primary": 754
      },
      "ok": true
     },
     {
      "concurrency": 50,
-     "requests": 1629,
-     "median_ms": 2028,
-     "p95_ms": 2941,
-     "max_ms": 4656,
+     "requests": 855,
+     "median_ms": 3623,
+     "p95_ms": 4869,
+     "max_ms": 6064,
      "http_errors": 0,
      "invalid_bodies": 0,
      "capped_share": 0,
      "by": {
-      "primary": 1624,
-      "fallback": 5
+      "primary": 855
      },
-     "ok": true
+     "ok": false
     }
    ]
   }
  },
  "calendar": {
-  "date": "2026-10-04T08:38:22.360Z",
+  "date": "2026-10-04T14:17:52.349Z",
   "days": 1772,
   "range": [
    "2024-07-07",
@@ -367,14 +397,14 @@
   "countdown_errors": 0
  },
  "font": {
-  "date": "2026-10-04T08:38:26.637Z",
+  "date": "2026-10-04T14:17:51.100Z",
   "font": "Amiri Quran Regular",
   "verses": 6236,
   "distinct_characters": 73,
   "missing": 0
  },
  "invariants": {
-  "date": "2026-10-04T13:53:04.278Z",
+  "date": "2026-10-04T14:10:42.079Z",
   "assertions": 39,
   "failed": 0,
   "results": [

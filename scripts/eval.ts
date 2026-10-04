@@ -55,7 +55,7 @@ async function main() {
     guard_generated: (read("content/eval/guard-generated-results.json")?.summary as unknown) ?? null,
     classify: (read("content/eval/classify-results.json")?.summary as unknown) ?? null,
     grader: (read("content/eval/grader-results.json")?.summary as unknown) ?? null,
-    grader_threshold: pick("content/eval/grader-threshold.json", "threshold", "tuned_on", "held_out", "date"),
+    grader_threshold: pick("content/eval/grader-threshold.json", "threshold", "tuned_on", "held_out", "date", "looser_thresholds_not_adopted", "sample_note"),
     stress: { classify: read("content/eval/stress-classify.json"), grade: read("content/eval/stress-grade.json") },
     calendar: read("content/eval/when.json"),
     font: read("content/eval/font.json"),
