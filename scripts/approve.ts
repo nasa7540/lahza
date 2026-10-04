@@ -5,6 +5,7 @@
 import { findDraft } from "../lib/content/drafts";
 import { approveAllUnits } from "../lib/content/review";
 import { langSchema } from "../lib/content/types";
+import { publish } from "../lib/review/decide";
 import { scriptDb } from "./db";
 
 function arg(args: string[], name: string): string | undefined {
@@ -23,6 +24,7 @@ async function main() {
   if (!draft) throw new Error(`no draft "${ref}"`);
   if (draft.status !== "draft") throw new Error(`draft ${draft.id} is "${draft.status}" and cannot be approved`);
   const n = await approveAllUnits(db, draft, lang.data, "team", name);
+  await publish(db, draft);
   console.log(`${draft.journey_id} (${draft.id}): ${n} ${lang.data} units approved by ${name} for the project team` + (draft.needs_sharii ? " — still hidden until a sharia reviewer approves it" : ""));
 }
 

@@ -30,7 +30,8 @@
     "check:stress": "tsx scripts/checks/stress.ts",
     "check:grader": "tsx scripts/checks/grader.ts",
     "calibrate:grader": "tsx scripts/eval/calibrate-grader.ts",
-    "export:drafts": "tsx scripts/export-drafts.ts"
+    "export:drafts": "tsx scripts/export-drafts.ts",
+    "check:review": "tsx scripts/checks/review.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
