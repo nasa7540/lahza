@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Sans, IBM_Plex_Sans_Arabic } from "next/font/google";
+import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -18,6 +19,9 @@ const plexArabic = IBM_Plex_Sans_Arabic({
   subsets: ["arabic"],
   weight: ["400", "500", "600", "700"],
 });
+
+/** Verse text only. Amiri Quran (SIL OFL) covers the marks of the Uthmani script; see lib/text/uthmani.ts. */
+const quran = localFont({ src: "../fonts/AmiriQuran-Regular.ttf", variable: "--font-quran-face", display: "swap" });
 
 export const viewport: Viewport = { themeColor: "#0F4C5C", viewportFit: "cover" };
 
@@ -40,7 +44,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} dir={dirOf(locale)} className={`${plex.variable} ${plexArabic.variable} antialiased`}>
+    <html lang={locale} dir={dirOf(locale)} className={`${plex.variable} ${plexArabic.variable} ${quran.variable} antialiased`}>
       <body className="min-h-dvh text-base">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
         <ServiceWorker />

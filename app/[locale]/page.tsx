@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowIcon, BuildingIcon, NoAccountIcon, PhoneIcon, ShieldIcon, SparkIcon } from "@/components/icons";
 import { LanguagePicker } from "@/components/LanguagePicker";
 import { Logo } from "@/components/Logo";
+import { RememberCompany } from "@/components/RememberCompany";
 import { Screen } from "@/components/Screen";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -28,6 +29,7 @@ export default async function WelcomePage({ params, searchParams }: PageProps<"/
 
   return (
     <Screen>
+      {company && code && <RememberCompany code={code.toLowerCase()} />}
       <header className="flex flex-col items-center gap-3.5 pt-[22px] text-center">
         <Logo size="lg" />
         <span className="h-0.5 w-12 rounded-sm bg-gold" />

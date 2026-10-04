@@ -79,3 +79,59 @@ export function SparkIcon({ size = 14 }: IconProps) {
     </Icon>
   );
 }
+
+/** Points back against the reading direction (flips in RTL). */
+export function BackIcon({ size = 20 }: IconProps) {
+  return (
+    <Icon size={size} strokeWidth={1.6} className="rtl:-scale-x-100">
+      <path d="M19 12H5" />
+      <path d="m12 19-7-7 7-7" />
+    </Icon>
+  );
+}
+
+export function CheckIcon({ size = 15 }: IconProps) {
+  return (
+    <Icon size={size} strokeWidth={2}>
+      <path d="m5 12 5 5L20 7" />
+    </Icon>
+  );
+}
+
+export function InfoIcon({ size = 16 }: IconProps) {
+  return (
+    <Icon size={size}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 11v5" />
+      <path d="M12 7.5v.5" />
+    </Icon>
+  );
+}
+
+export function QuoteLockIcon({ size = 12 }: IconProps) {
+  return (
+    <Icon size={size}>
+      <rect x="5" y="11" width="14" height="9" rx="2" />
+      <path d="M8 11V8a4 4 0 0 1 8 0v3" />
+    </Icon>
+  );
+}
+
+export function CupIcon({ size = 18 }: IconProps) {
+  return (
+    <Icon size={size}>
+      <path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z" />
+      <path d="M16 10h1.5a2.5 2.5 0 0 1 0 5H16" />
+      <path d="M8 3v2M12 3v2" />
+    </Icon>
+  );
+}
+
+export function MomentIcon({ size = 20 }: IconProps) {
+  return (
+    <Icon size={size}>
+      <rect x="6" y="6" width="12" height="12" />
+      <rect x="6" y="6" width="12" height="12" transform="rotate(45 12 12)" />
+    </Icon>
+  );
+}

@@ -30,3 +30,11 @@ export async function latestDraft(db: SupabaseClient, journeyId: string): Promis
   if (error) throw new Error(error.message);
   return data ? draftSchema.parse(data.draft) : null;
 }
+
+/** A draft by its id, or the newest draft of a journey when given a journey id. */
+export async function findDraft(db: SupabaseClient, ref: string): Promise<Draft | null> {
+  if (!/^[0-9a-f]{8}-[0-9a-f-]{27}$/.test(ref)) return latestDraft(db, ref);
+  const { data, error } = await db.from("journey_drafts").select("draft").eq("id", ref).maybeSingle();
+  if (error) throw new Error(error.message);
+  return data ? draftSchema.parse(data.draft) : null;
+}

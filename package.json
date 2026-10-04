@@ -18,7 +18,13 @@
     "check:guard": "tsx scripts/checks/guard.ts",
     "draft:show": "tsx scripts/show-draft.ts",
     "derive": "tsx scripts/derive.ts",
-    "check:factory:all": "tsx scripts/checks/factory.ts factory all"
+    "check:factory:all": "tsx scripts/checks/factory.ts factory all",
+    "check:font": "tsx scripts/checks/font.ts",
+    "approve": "tsx scripts/approve.ts",
+    "check:approve": "tsx scripts/checks/approve.ts",
+    "check:when": "tsx scripts/checks/when.ts",
+    "check:invariants": "tsx scripts/checks/invariants.ts",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
@@ -30,12 +36,15 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "@tailwindcss/postcss": "^4",
+    "@types/fontkit": "^2.0.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
+    "fontkit": "^2.0.4",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
     "typescript": "^5"

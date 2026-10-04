@@ -18,6 +18,8 @@
   --color-stage: #efe9de;
   --font-sans: var(--font-plex), var(--font-plex-arabic), sans-serif;
   --font-arabic: var(--font-plex-arabic), var(--font-plex), sans-serif;
+  --font-quran: var(--font-quran-face), var(--font-plex-arabic), serif;
+  --color-warn: #a33a2a;
 }
 
 html,
