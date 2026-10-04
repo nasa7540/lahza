@@ -1,7 +1,9 @@
 "use server";
 import { revalidatePath } from "next/cache";
+import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
+import { tooManyLogins } from "@/lib/http/limit";
 import { langSchema } from "@/lib/content/types";
 import { approvePending, recordDecision } from "@/lib/review/decide";
 import { closeSession, currentReviewer, openSession, passcodeMatches } from "@/lib/review/session";
@@ -12,7 +14,7 @@ const loginSchema = z.object({ passcode: z.string().min(1), name: z.string().tri
 export async function login(form: FormData): Promise<void> {
   const parsed = loginSchema.safeParse(Object.fromEntries(form));
   // The sharia role is for a qualified sharia reviewer only; it needs the explicit declaration on the form.
-  if (!parsed.success || !passcodeMatches(parsed.data.passcode) || (parsed.data.role === "sharia" && parsed.data.qualified !== "yes")) redirect("/review?error=1");
+  if (tooManyLogins(await headers()) || !parsed.success || !passcodeMatches(parsed.data.passcode) || (parsed.data.role === "sharia" && parsed.data.qualified !== "yes")) redirect("/review?error=1");
   await openSession({ name: parsed.data.name, role: parsed.data.role });
   redirect("/review");
 }
