@@ -5,7 +5,7 @@
 import { randomUUID } from "node:crypto";
 import { latestDraft, saveDraft, updateDraft } from "../../lib/content/drafts";
 import { publishedJourneys } from "../../lib/content/published";
-import { approveAllUnits } from "../../lib/content/review";
+import { approveAllUnits } from "../../lib/content/publish";
 import type { Lang } from "../../lib/content/types";
 import { scriptDb } from "../db";
 
@@ -31,6 +31,8 @@ async function main() {
     await updateDraft(db, draft);
     results.push(["editing a sentence after approval hides the journey", !(await shown("ar"))]);
   } finally {
+    await db.from("cards").delete().eq("journey_id", TEST_ID);
+    await db.from("journeys").delete().eq("id", TEST_ID);
     await db.from("review_decisions").delete().eq("draft_id", draft.id);
     await db.from("journey_drafts").delete().eq("id", draft.id);
   }

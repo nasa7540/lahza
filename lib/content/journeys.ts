@@ -1,7 +1,8 @@
 import "server-only";
 import { createServiceClient } from "@/lib/supabase/server";
-import type { Lang } from "./types";
-import { type PublicJourney, publishedJourneys } from "./published";
+import { type PublishedRow, type Served, served } from "./publish";
+import { publishedJourneys } from "./published";
+import type { Draft, Lang, When } from "./types";
 
 /**
  * Unapproved drafts are previewed only by `next dev`; a deployed build never shows them.
@@ -10,31 +11,33 @@ import { type PublicJourney, publishedJourneys } from "./published";
 const PREVIEW = process.env.NODE_ENV !== "production" || process.env.LAHZA_PREVIEW_UNAPPROVED === "1";
 const INCLUDE_TESTS = process.env.LAHZA_TEST_JOURNEYS === "1";
 
-export async function listJourneys(lang: Lang): Promise<PublicJourney[]> {
-  const db = createServiceClient();
-  if (!db) return [];
-  return publishedJourneys(db, lang, { preview: PREVIEW, includeTests: INCLUDE_TESTS });
-}
-
-export async function getJourney(lang: Lang, id: string): Promise<PublicJourney | null> {
-  return (await listJourneys(lang)).find((j) => j.id === id) ?? null;
-}
-
-const CACHE_MS = 30_000;
-const cache = new Map<Lang, { at: number; list: Promise<PublicJourney[]> }>();
+/** A journey as the screens and the grader use it. */
+export type ShownJourney = Served & { id: string; level: Draft["level"]; when: When; approved: boolean };
 
 /**
- * For the grader only: the same list, remembered for 30 seconds so many answers at once do not each reload every
- * draft. The grader returns positions, never text, so a journey unapproved a moment ago cannot leak through it.
+ * A deployed build reads the published snapshot: one small query. The snapshot is rewritten by every review
+ * decision, edit and draft update, so an approval that is withdrawn disappears with the write that withdraws it,
+ * with no cache to wait for. Development preview computes from the drafts instead, so unapproved drafts can be seen.
  */
-export async function getJourneyForGrading(lang: Lang, id: string): Promise<PublicJourney | null> {
-  const hit = cache.get(lang);
-  const fresh = hit && Date.now() - hit.at < CACHE_MS ? hit : { at: Date.now(), list: listJourneys(lang) };
-  cache.set(lang, fresh);
-  try {
-    return (await fresh.list).find((j) => j.id === id) ?? null;
-  } catch (error) {
-    cache.delete(lang);
-    throw error;
+export async function listJourneys(lang: Lang): Promise<ShownJourney[]> {
+  const db = createServiceClient();
+  if (!db) return [];
+  if (PREVIEW) {
+    const drafts = await publishedJourneys(db, lang, { preview: true, includeTests: INCLUDE_TESTS });
+    return drafts.flatMap((j) => {
+      const s = served({ journey_id: j.id, id: j.draft_id, level: j.level, when: j.when, locales: j.locales, sources: j.sources } as Draft, lang, j.badge, j.approved);
+      return s ? [{ ...s, id: j.id, level: j.level, when: j.when, approved: j.approved }] : [];
+    });
   }
+  const { data, error } = await db.from("journeys").select("id, level, unlock_rule, content").order("id");
+  if (error) throw new Error(error.message);
+  return ((data ?? []) as PublishedRow[]).flatMap((row) => {
+    const s = row.content.app?.[lang];
+    if (!s || (!INCLUDE_TESTS && row.id.startsWith("test-"))) return [];
+    return [{ ...s, id: row.id, level: row.level, when: row.unlock_rule, approved: true }];
+  });
+}
+
+export async function getJourney(lang: Lang, id: string): Promise<ShownJourney | null> {
+  return (await listJourneys(lang)).find((j) => j.id === id) ?? null;
 }

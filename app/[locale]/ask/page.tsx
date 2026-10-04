@@ -16,7 +16,7 @@ export default async function AskPage({ params }: PageProps<"/[locale]/ask">) {
   setRequestLocale(locale);
   const t = await getTranslations("ask");
   const tj = await getTranslations("journey");
-  const journeys = (await listJourneys(locale)).map((j) => ({ id: j.id, title: j.text.title, teaser: j.text.teaser }));
+  const journeys = (await listJourneys(locale)).map((j) => ({ id: j.id, title: j.view.title, teaser: j.view.teaser }));
 
   return (
     <Screen>

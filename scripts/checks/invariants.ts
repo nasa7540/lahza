@@ -7,7 +7,7 @@ import { writeFileSync } from "node:fs";
 import { randomUUID } from "node:crypto";
 import { latestDraft, saveDraft, updateDraft } from "../../lib/content/drafts";
 import { publishedJourneys } from "../../lib/content/published";
-import { approveAllUnits } from "../../lib/content/review";
+import { approveAllUnits } from "../../lib/content/publish";
 import type { Draft } from "../../lib/content/types";
 import { loadTopics } from "../../lib/factory/topics";
 import { scriptDb } from "../db";
@@ -120,6 +120,10 @@ async function main() {
     check("edit-revokes-approval: an edited sentence hides the journey", !listed(await html("/ar/home")).includes("test-edit") && !playable(await html("/ar/j/test-edit")));
   } finally {
     server.kill();
+    for (const journey of ["test-sharii", "test-edit"]) {
+      await db.from("cards").delete().eq("journey_id", journey);
+      await db.from("journeys").delete().eq("id", journey);
+    }
     for (const id of created) {
       await db.from("review_decisions").delete().eq("draft_id", id);
       await db.from("journey_drafts").delete().eq("id", id);

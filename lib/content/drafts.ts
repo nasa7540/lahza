@@ -1,4 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { publish } from "./publish";
 import { type Draft, draftSchema } from "./types";
 
 export async function saveDraft(db: SupabaseClient, draft: Draft): Promise<void> {
@@ -9,6 +10,8 @@ export async function saveDraft(db: SupabaseClient, draft: Draft): Promise<void>
 export async function updateDraft(db: SupabaseClient, draft: Draft): Promise<void> {
   const { error } = await db.from("journey_drafts").update({ status: draft.status, draft, updated_at: new Date().toISOString() }).eq("id", draft.id);
   if (error) throw new Error(`updating draft: ${error.message}`);
+  // Any change to a draft can change what may be shown, so the published snapshot is rewritten with it.
+  await publish(db, draft);
 }
 
 /** The newest draft of each journey. */

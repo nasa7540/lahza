@@ -53,8 +53,8 @@ export default async function HomePage({ params, searchParams }: PageProps<"/[lo
               <span className="text-xs font-semibold tracking-[.08em] text-sand uppercase rtl:text-[13px] rtl:tracking-normal">{t(FEATURED[first.slot])}</span>
               <span className="rounded-full bg-sand/15 px-2.5 py-1 text-xs font-semibold text-sand rtl:text-[13px]">{t("minutes")}</span>
             </div>
-            <h2 className="text-2xl leading-[1.3] font-bold rtl:leading-[1.5]">{first.text.title}</h2>
-            <p className="text-base leading-[1.6] text-white/85 rtl:leading-[1.85]">{first.text.teaser}</p>
+            <h2 className="text-2xl leading-[1.3] font-bold rtl:leading-[1.5]">{first.view.title}</h2>
+            <p className="text-base leading-[1.6] text-white/85 rtl:leading-[1.85]">{first.view.teaser}</p>
             <Link href={`/j/${first.id}`} className="flex h-[46px] items-center gap-2 self-start rounded-xl bg-cream px-[18px] text-base font-bold text-teal">
               {t("start")} <ArrowIcon />
             </Link>
@@ -77,7 +77,7 @@ export default async function HomePage({ params, searchParams }: PageProps<"/[lo
                     <MomentIcon />
                   </span>
                   <span className="flex grow flex-col gap-0.5">
-                    <b className="text-base leading-snug font-semibold text-ink">{j.text.title}</b>
+                    <b className="text-base leading-snug font-semibold text-ink">{j.view.title}</b>
                     <span className="flex flex-wrap items-center gap-x-3 text-sm">
                       <span className={j.slot === "now" || j.slot === "soon" ? "font-semibold text-gold-d" : "text-mute"}>{slotLabel(j.slot, j.days)}</span>
                       <DoneMark journeyId={j.id} label={t("done")} />
