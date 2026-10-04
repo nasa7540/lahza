@@ -10,7 +10,8 @@ import { approveAllUnits } from "../../lib/content/review";
 import type { Draft } from "../../lib/content/types";
 import { loadTopics } from "../../lib/factory/topics";
 import { scriptDb } from "../db";
-import { loadEnv } from "../env";
+import { createClient } from "@supabase/supabase-js";
+import { loadEnv, requireEnv } from "../env";
 
 const PORT = 3211;
 const BASE = `http://localhost:${PORT}`;
@@ -64,6 +65,14 @@ async function main() {
     }
     const classifyRows = await db.from("events").select("id").eq("type", "classify").order("id", { ascending: false }).limit(3);
     classifyEvents = (classifyRows.data ?? []).map((r) => r.id as number);
+
+    // public-key-cannot-write: all writes go through the server; the public key is refused by row-level security
+    const anon = createClient(requireEnv("NEXT_PUBLIC_SUPABASE_URL"), requireEnv("NEXT_PUBLIC_SUPABASE_ANON_KEY"), { auth: { persistSession: false } });
+    for (const [table, row] of [["events", { type: "start", lang: "ar", company: "check-invariants" }], ["referrals", { summary: "check-invariants", lang: "ar" }]] as const) {
+      const { error } = await anon.from(table).insert(row);
+      check(`public-key-cannot-write: insert into ${table} with the public key is refused`, Boolean(error), "the insert succeeded");
+      if (!error) await db.from(table).delete().eq(table === "events" ? "company" : "summary", "check-invariants");
+    }
 
     // no-unapproved-draft: every journey a page lists or plays is approved for that language, on its current text
     for (const locale of LOCALES) {

@@ -42,7 +42,7 @@ async function main() {
   const seconds = Number(process.argv[3] ?? 60);
   const t = target(name);
   // Unapproved drafts are previewed on this local server only, so the grader has journeys to grade against.
-  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, NODE_ENV: "production", LAHZA_PREVIEW_UNAPPROVED: "1" }, stdio: "ignore" });
+  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, NODE_ENV: "production", LAHZA_PREVIEW_UNAPPROVED: "1", LAHZA_NO_RATE_LIMIT: "1" }, stdio: "ignore" });
   const levels: Record<string, unknown>[] = [];
   let failed = false;
   try {

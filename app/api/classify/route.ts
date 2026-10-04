@@ -2,6 +2,7 @@ import { after } from "next/server";
 import { z } from "zod";
 import { ROUTE_JOURNEYS } from "@/lib/classify/journeys";
 import { type RouteResult, routeQuestion } from "@/lib/classify/route";
+import { tooMany, withoutAngleBrackets } from "@/lib/http/limit";
 import { createServiceClient } from "@/lib/supabase/server";
 
 // Above the 12 s cap of the hedged request, so the function is never cut before it can answer with the empty state.
@@ -16,12 +17,13 @@ const EMPTY: RouteResult = { outcome: "empty", journeys: [] };
  * approved journeys it was rendered with, so an id for a journey that is not approved shows nothing.
  */
 export async function POST(request: Request) {
+  if (tooMany(request)) return Response.json(EMPTY, { status: 429 });
   const body = bodySchema.safeParse(await request.json().catch(() => null));
   if (!body.success) return Response.json(EMPTY, { status: 400 });
   const db = createServiceClient();
   if (!db) return Response.json(EMPTY, { status: 503 });
 
-  const trace = await routeQuestion(db, body.data.text, ROUTE_JOURNEYS);
+  const trace = await routeQuestion(db, withoutAngleBrackets(body.data.text), ROUTE_JOURNEYS);
   const result: RouteResult = { outcome: trace.outcome, journeys: trace.journeys };
   console.log(JSON.stringify({ at: "classify", by: trace.by, level: trace.level, classified: trace.classified, top: trace.top, outcome: trace.outcome, ms: trace.ms, reason: trace.reason }));
   // Anonymous counter (level and outcome, never the question), written after the answer is sent.

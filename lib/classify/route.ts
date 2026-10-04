@@ -82,7 +82,7 @@ async function search(db: SupabaseClient, text: string): Promise<{ journey: stri
 
 /**
  * Rule guard, then the classifier and the semantic search side by side, then the agreement gate.
- * A journey is offered only when the classifier (level A or B) and the search agree on it.
+ * A journey is offered alone when the classifier (level A or B) picks it and the search finds it above the floor.
  */
 export async function routeQuestion(db: SupabaseClient, text: string, journeys: RouteJourney[]): Promise<RouteTrace> {
   const started = Date.now();
@@ -102,8 +102,9 @@ export async function routeQuestion(db: SupabaseClient, text: string, journeys: 
   const { level, journey_id: classified, reason } = model.value;
   const trace = { by: model.by, level, classified, top, hits, reason };
   if (level === "C" || level === "D") return done({ outcome: "specialist", journeys: [], ...trace });
-  if (!classified || !top || top.similarity < SIM_MIN) return done({ outcome: "empty", journeys: [], ...trace });
-  if (top.journey === classified) return done({ outcome: "journey", journeys: [classified], ...trace });
-  const others = hits.filter((h) => h.similarity >= SIM_MIN && h.journey !== classified).map((h) => h.journey);
-  return done({ outcome: "candidates", journeys: [classified, ...others].slice(0, MAX_CANDIDATES), ...trace });
+  const above = hits.filter((h) => h.similarity >= SIM_MIN).map((h) => h.journey);
+  if (!classified || above.length === 0) return done({ outcome: "empty", journeys: [], ...trace });
+  // The classifier's journey is offered alone when the search also finds it above the floor, not only when it is the top hit.
+  if (above.includes(classified)) return done({ outcome: "journey", journeys: [classified], ...trace });
+  return done({ outcome: "candidates", journeys: [classified, ...above].slice(0, MAX_CANDIDATES), ...trace });
 }

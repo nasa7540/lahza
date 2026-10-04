@@ -3,7 +3,7 @@
 // wrong journey; or the required case not reaching the Ramadan journey. Other differences are listed and counted.
 // Resumable: each result is saved as soon as it is ready (delete the results file to start over).
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { routeQuestion, type RouteTrace, SIM_MIN } from "../../lib/classify/route";
+import { routeQuestion, type RouteTrace } from "../../lib/classify/route";
 import { loadTopics } from "../../lib/factory/topics";
 import { scriptDb } from "../db";
 
@@ -51,9 +51,7 @@ async function main() {
   const ms = rows.map((r) => r.trace.ms).sort((a, b) => a - b);
   // The required case must be offered its journey: alone, or first among the candidates. It must not be refused as a ruling request.
   const required = file.required.every((c) => rows.some((r) => r.text === c.text && r.trace.journeys[0] === c.expected.replace("journey:", "")));
-  // For the owner's reading: what the gate would give if the classifier's journey only had to appear among the search hits above the floor.
-  const alt = rows.filter((r) => verdict(r, r.trace) === "partial" && r.trace.hits.some((h) => h.journey === r.trace.classified && h.similarity >= SIM_MIN)).length;
-  const summary = { n: rows.length, ...counts, required_case_ok: required, partial_that_a_looser_gate_would_route: alt, median_ms: ms[Math.floor(ms.length / 2)], p95_ms: ms[Math.floor(ms.length * 0.95)], by: rows.reduce<Record<string, number>>((a, r) => ({ ...a, [r.trace.by]: (a[r.trace.by] ?? 0) + 1 }), {}) };
+  const summary = { n: rows.length, ...counts, required_case_ok: required, median_ms: ms[Math.floor(ms.length / 2)], p95_ms: ms[Math.floor(ms.length * 0.95)], by: rows.reduce<Record<string, number>>((a, r) => ({ ...a, [r.trace.by]: (a[r.trace.by] ?? 0) + 1 }), {}) };
   save(summary);
   console.log(JSON.stringify(summary));
   if (counts.false_accept || counts.wrong_journey || !required) process.exit(1);

@@ -3,6 +3,7 @@ import { z } from "zod";
 import { getJourneyForGrading } from "@/lib/content/journeys";
 import { gradeAnswer, type GradeResult } from "@/lib/grade/grade";
 import { graderInput } from "@/lib/grade/input";
+import { tooMany, withoutAngleBrackets } from "@/lib/http/limit";
 import { createServiceClient } from "@/lib/supabase/server";
 
 // Above the 12 s cap of the hedged request plus the similarity check.
@@ -16,13 +17,14 @@ const UNAVAILABLE: GradeResult = { status: "unavailable", covered: [], missing: 
  * the screen shows the approved key point texts it already has. The score is computed in code and only stored.
  */
 export async function POST(request: Request) {
+  if (tooMany(request)) return Response.json(UNAVAILABLE, { status: 429 });
   const body = bodySchema.safeParse(await request.json().catch(() => null));
   if (!body.success) return Response.json(UNAVAILABLE, { status: 400 });
   const { journey_id, lang, text } = body.data;
   const journey = await getJourneyForGrading(lang, journey_id).catch(() => null);
   if (!journey) return Response.json(UNAVAILABLE, { status: 404 });
 
-  const trace = await gradeAnswer(graderInput(journey, lang, text));
+  const trace = await gradeAnswer(graderInput(journey, lang, withoutAngleBrackets(text)));
   const result: GradeResult = { status: trace.status, covered: trace.covered, missing: trace.missing };
   console.log(JSON.stringify({ at: "grade", journey: journey_id, by: trace.by, status: trace.status, covered: trace.covered, score: trace.score, misconception: trace.misconception, why: trace.why, ms: trace.ms, quotes: trace.proposals.map((p) => ({ point: p.point, verbatim: p.verbatim, similarity: p.similarity, accepted: p.accepted })) }));
   after(async () => {

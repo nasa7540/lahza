@@ -29,7 +29,8 @@
     "check:classify": "tsx scripts/checks/classify.ts",
     "check:stress": "tsx scripts/checks/stress.ts",
     "check:grader": "tsx scripts/checks/grader.ts",
-    "calibrate:grader": "tsx scripts/eval/calibrate-grader.ts"
+    "calibrate:grader": "tsx scripts/eval/calibrate-grader.ts",
+    "export:drafts": "tsx scripts/export-drafts.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
