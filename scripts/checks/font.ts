@@ -1,5 +1,5 @@
 // P2 check: every letter and mark of the stored Qur'an text, as it is shown (see lib/text/uthmani.ts), has a glyph in the verse font.
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import * as fontkit from "fontkit";
 import { uthmaniForDisplay } from "../../lib/text/uthmani";
 import { scriptDb } from "../db";
@@ -23,6 +23,7 @@ async function main() {
   const missing = [...chars].filter(([cp]) => cp !== 0x20 && !font.hasGlyphForCodePoint(cp));
   console.log(`${verses} verses, ${chars.size} distinct characters, font ${font.fullName}`);
   for (const [cp, where] of missing) console.log(`MISSING U+${cp.toString(16).toUpperCase().padStart(4, "0")} first seen in ${where}`);
+  writeFileSync("content/eval/font.json", JSON.stringify({ date: new Date().toISOString(), font: font.fullName, verses, distinct_characters: chars.size, missing: missing.length }, null, 1) + "\n");
   if (verses !== 6236 || missing.length) process.exit(1);
   console.log("check:font passed");
 }

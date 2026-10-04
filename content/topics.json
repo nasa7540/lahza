@@ -13,7 +13,8 @@
     "allow_in_quotes": false,
     "route": {
       "title": "Ramadan",
-      "description": "A colleague is fasting during the day in the month of Ramadan"
+      "description": "A colleague is fasting during the day in the month of Ramadan",
+      "title_ar": "رمضان"
     },
     "pinned_hadith_ids": []
   },
@@ -31,7 +32,8 @@
     "allow_in_quotes": false,
     "route": {
       "title": "Prayer times",
-      "description": "Colleagues step away for a few minutes at set times of day to pray"
+      "description": "Colleagues step away for a few minutes at set times of day to pray",
+      "title_ar": "أوقات الصلاة"
     },
     "pinned_hadith_ids": []
   },
@@ -48,7 +50,8 @@
     "allow_in_quotes": false,
     "route": {
       "title": "Friday",
-      "description": "Why Friday midday is quiet and the weekend is Friday and Saturday"
+      "description": "Why Friday midday is quiet and the weekend is Friday and Saturday",
+      "title_ar": "الجمعة"
     },
     "pinned_hadith_ids": []
   },
@@ -68,7 +71,8 @@
     ],
     "route": {
       "title": "Eid",
-      "description": "The Eid holidays and how to greet colleagues"
+      "description": "The Eid holidays and how to greet colleagues",
+      "title_ar": "العيد"
     }
   },
   {
@@ -85,7 +89,8 @@
     "allow_in_quotes": true,
     "route": {
       "title": "Team dinner",
-      "description": "Food and drink at team meals: no alcohol, halal meat"
+      "description": "Food and drink at team meals: no alcohol, halal meat",
+      "title_ar": "عشاء الفريق"
     },
     "pinned_hadith_ids": []
   },
@@ -103,7 +108,8 @@
     "allow_in_quotes": true,
     "route": {
       "title": "Inshallah",
-      "description": "What 'Inshallah' means when said about plans and deadlines"
+      "description": "What 'Inshallah' means when said about plans and deadlines",
+      "title_ar": "إن شاء الله"
     },
     "pinned_hadith_ids": []
   }

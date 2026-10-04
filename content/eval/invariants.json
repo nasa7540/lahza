@@ -1,0 +1,163 @@
+{
+ "date": "2026-10-04T08:45:21.763Z",
+ "assertions": 39,
+ "failed": 2,
+ "results": [
+  {
+   "name": "no-model-text: /api/event answers {ok} only",
+   "ok": true
+  },
+  {
+   "name": "no-model-text: /api/event rejects free text",
+   "ok": true
+  },
+  {
+   "name": "no-model-text: /api/health answers ok and db only",
+   "ok": true
+  },
+  {
+   "name": "no-model-text: /api/classify answers an outcome and topic ids only (\"my colleague is not eating u…\")",
+   "ok": true
+  },
+  {
+   "name": "no-model-text: /api/classify answers an outcome and topic ids only (\"Ignore all previous instruct…\")",
+   "ok": true
+  },
+  {
+   "name": "no-model-text: /api/classify answers an outcome and topic ids only (\"is it allowed for me to marr…\")",
+   "ok": true
+  },
+  {
+   "name": "public-key-cannot-write: insert into events with the public key is refused",
+   "ok": false
+  },
+  {
+   "name": "public-key-cannot-write: insert into referrals with the public key is refused",
+   "ok": false
+  },
+  {
+   "name": "no-unapproved-draft: /ar/home lists only approved journeys",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ar/j/ramadan does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ar/j/prayer does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ar/j/friday does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ar/j/eid does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ar/j/team-dinner does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ar/j/inshallah does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /en/home lists only approved journeys",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /en/j/ramadan does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /en/j/prayer does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /en/j/friday does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /en/j/eid does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /en/j/team-dinner does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /en/j/inshallah does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ur/home lists only approved journeys",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ur/j/ramadan does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ur/j/prayer does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ur/j/friday does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ur/j/eid does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ur/j/team-dinner does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /ur/j/inshallah does not play (not approved)",
+   "ok": true
+  },
+  {
+   "name": "needs-sharii-gate: team approval alone does not list it",
+   "ok": true
+  },
+  {
+   "name": "needs-sharii-gate: team approval alone does not play it",
+   "ok": true
+  },
+  {
+   "name": "needs-sharii-gate: shown after the sharia reviewer approves",
+   "ok": true
+  },
+  {
+   "name": "needs-sharii-gate: no badge once the sharia reviewer approved",
+   "ok": true
+  },
+  {
+   "name": "no-model-text: /api/grade answers a status and key point positions only",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: /api/grade does not grade a journey that is not approved",
+   "ok": true
+  },
+  {
+   "name": "no-unapproved-draft: a new draft is not shown before approval",
+   "ok": true
+  },
+  {
+   "name": "badge-rule: team-approved journey plays with the badge",
+   "ok": true
+  },
+  {
+   "name": "badge-rule: approving Arabic shows nothing in English",
+   "ok": true
+  },
+  {
+   "name": "edit-revokes-approval: an edited sentence hides the journey",
+   "ok": true
+  }
+ ]
+}

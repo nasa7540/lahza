@@ -3,6 +3,7 @@
 // Temporary journeys ("test-…") are created for the gate, edit and badge rules and removed at the end; the
 // deployed app never lists them (it needs LAHZA_TEST_JOURNEYS=1, set only on the server this script starts).
 import { type ChildProcess, spawn } from "node:child_process";
+import { writeFileSync } from "node:fs";
 import { randomUUID } from "node:crypto";
 import { latestDraft, saveDraft, updateDraft } from "../../lib/content/drafts";
 import { publishedJourneys } from "../../lib/content/published";
@@ -128,6 +129,7 @@ async function main() {
   }
   for (const [name, ok, detail] of results) console.log(`${ok ? "ok  " : "FAIL"} ${name}${ok || !detail ? "" : ` — ${detail}`}`);
   const failed = results.filter(([, ok]) => !ok).length;
+  writeFileSync("content/eval/invariants.json", JSON.stringify({ date: new Date().toISOString(), assertions: results.length, failed, results: results.map(([name, ok]) => ({ name, ok })) }, null, 1) + "\n");
   console.log(`${results.length} assertions, ${failed} failed`);
   if (failed) process.exit(1);
   console.log("check:invariants passed");

@@ -1,6 +1,6 @@
 // P1 check: topic guard. The dangerous error is a topic that must not be written as an ordinary journey coming back "allow".
 // Each topic is run three times. Fails on any unsafe allow; other mismatches are listed and counted.
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { guardTopic } from "../../lib/factory/guard";
 import { loadEnv } from "../env";
 
@@ -22,6 +22,7 @@ async function main() {
     console.log(`${ok ? "ok  " : c.expected !== "allow" && allowed > 0 ? "UNSAFE" : "diff"} [${c.set}] expected ${c.expected}, got ${got.join("/")} via ${runs[0].by}${runs[0].why ? ` (${runs[0].why})` : ""} — ${c.topic}`);
   }
   console.log(`${cases.length} topics x3: ${cases.length - wrong} as expected, ${wrong} different, ${unsafe} unsafe allows`);
+  writeFileSync("content/eval/guard-owner-results.json", JSON.stringify({ date: new Date().toISOString(), topics: cases.length, runs_each: 3, as_expected: cases.length - wrong, different: wrong, unsafe_allows: unsafe }, null, 1) + "\n");
   if (unsafe) process.exit(1);
   console.log("check:guard passed (no forbidden or sensitive topic was allowed as an ordinary journey)");
 }

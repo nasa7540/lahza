@@ -1,6 +1,6 @@
 // P2 check: the calendar the app uses (lib/when.ts) against the official Umm al-Qura table for 1446-1450,
 // at three instants per day in Riyadh, for every occasion in the fixed list, plus the 14-day countdown.
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { OCCASIONS, toWhen } from "../../lib/factory/occasions";
 import { daysUntil, hijri, type HijriDate, isActive, resolveNow, SOON_DAYS } from "../../lib/when";
 
@@ -42,6 +42,7 @@ for (const [i, r] of ref.entries()) {
   }
 }
 console.log(`${ref.length} days (${ref[0].g} to ${ref.at(-1)?.g}), ${whens.length} occasions, ${checks} checks: ${dateFails} date errors, ${occasionFails} occasion errors, ${countdownFails} countdown errors`);
+writeFileSync("content/eval/when.json", JSON.stringify({ date: new Date().toISOString(), days: ref.length, range: [ref[0].g, ref.at(-1)?.g], occasions: whens.length, checks, date_errors: dateFails, occasion_errors: occasionFails, countdown_errors: countdownFails }, null, 1) + "\n");
 for (const e of examples) console.log(`FAIL ${e}`);
 if (dateFails + occasionFails + countdownFails) process.exit(1);
 console.log("check:when passed");

@@ -23,6 +23,12 @@ export function AskForm({ journeys }: { journeys: Card[] }) {
     event.preventDefault();
     setBusy(true);
     setResult(null);
+    try {
+      // Kept on this device only, so the specialist form can start from the user's own words.
+      sessionStorage.setItem("lahza.question", text);
+    } catch {
+      // Without storage the specialist form starts from the template alone.
+    }
     const empty: Result = { outcome: "empty", journeys: [] };
     try {
       const res = await fetch("/api/classify", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text, lang }) });
@@ -84,6 +90,9 @@ export function AskForm({ journeys }: { journeys: Card[] }) {
             <Link href="/home" className="self-start py-1.5 font-semibold text-teal underline underline-offset-4">
               {t("browse")}
             </Link>
+            <Link href="/specialist" className="self-start py-1.5 font-semibold text-teal underline underline-offset-4">
+              {t("specialistCta")}
+            </Link>
           </div>
         )}
         {outcome === "specialist" && (
@@ -94,6 +103,9 @@ export function AskForm({ journeys }: { journeys: Card[] }) {
             <div className="flex flex-col gap-2">
               <b className="text-base text-teal">{t("specialistTitle")}</b>
               <span className="text-[15px] leading-relaxed text-body">{t("specialistBody")}</span>
+              <Link href="/specialist" data-testid="to-specialist" className="self-start py-1.5 font-semibold text-teal underline underline-offset-4">
+                {t("specialistCta")}
+              </Link>
             </div>
           </div>
         )}

@@ -10,7 +10,7 @@ const quran = localFont({ src: "../fonts/AmiriQuran-Regular.ttf", variable: "--f
 
 export const metadata: Metadata = { title: "لحظة — لوحة المراجعة", robots: { index: false, follow: false } };
 
-/** The review panel is an internal tool in Arabic, outside the localized app. */
+/** The internal pages (review panel, company dashboard, evaluation) are in Arabic, outside the localized app. */
 export default function ReviewLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ar" dir="rtl" className={`${plex.variable} ${plexArabic.variable} ${quran.variable} antialiased`}>

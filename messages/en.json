@@ -104,5 +104,30 @@
     "browse": "Browse the moments",
     "homeCard": "Noticed something else?",
     "homeCardSub": "Write what you saw and we will find its moment."
+  },
+  "specialist": {
+    "back": "Back",
+    "home": "Back to home",
+    "title": "Contact a specialist",
+    "sub": "Some questions should be answered by a qualified person, not an app. Write a short summary, edit it as you like, and nothing is sent without your consent.",
+    "topicLabel": "What would you like to ask about?",
+    "topic_personal_ruling": "A ruling about my own situation",
+    "topic_disputed_matter": "A matter I have heard more than one view on",
+    "topic_about_islam": "I want to know more about Islam",
+    "topic_other": "Something else",
+    "template_personal_ruling": "I would like to speak with a specialist about a question that concerns my personal situation.",
+    "template_disputed_matter": "I noticed something at work that I have heard more than one view on, and I would like a specialist to explain it.",
+    "template_about_islam": "I would like to speak with someone who can explain Islam to me and answer my questions.",
+    "template_other": "I have a question I could not find a moment for, and I would like to speak with a specialist.",
+    "myQuestion": "My question:",
+    "contactLine": "I would prefer to be contacted by:",
+    "summaryLabel": "The summary the specialist will receive",
+    "summaryHint": "This starting text comes from a fixed template, not from AI. Edit it in your own words, and leave out anything you do not want to share.",
+    "consent": "I agree to send this summary to a specialist through my company. My name and no identifier are sent with it, other than what I wrote myself.",
+    "send": "Send the request",
+    "sending": "Sending…",
+    "failed": "We could not send it right now. Please try again shortly.",
+    "sentTitle": "Your request was received",
+    "sentBody": "A specialist will reach you the way you wrote. Lahza keeps nothing that links the request to you."
   }
 }
