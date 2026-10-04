@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T08:45:23.046Z",
+ "generated_at": "2026-10-04T09:12:44.576Z",
  "journeys": [
   {
    "id": "ramadan",
@@ -16,8 +16,8 @@
    "flagged_for_reviewer": 3,
    "edited_by_reviewer": 0,
    "shown": {
-    "ar": false,
-    "en": false,
+    "ar": true,
+    "en": true,
     "ur": false
    },
    "sharia_approved": false
@@ -37,7 +37,7 @@
    "flagged_for_reviewer": 4,
    "edited_by_reviewer": 0,
    "shown": {
-    "ar": false,
+    "ar": true,
     "en": false,
     "ur": false
    },
@@ -58,7 +58,7 @@
    "flagged_for_reviewer": 1,
    "edited_by_reviewer": 0,
    "shown": {
-    "ar": false,
+    "ar": true,
     "en": false,
     "ur": false
    },
@@ -79,7 +79,7 @@
    "flagged_for_reviewer": 1,
    "edited_by_reviewer": 0,
    "shown": {
-    "ar": false,
+    "ar": true,
     "en": false,
     "ur": false
    },
@@ -100,7 +100,7 @@
    "flagged_for_reviewer": 2,
    "edited_by_reviewer": 0,
    "shown": {
-    "ar": false,
+    "ar": true,
     "en": false,
     "ur": false
    },
@@ -121,7 +121,7 @@
    "flagged_for_reviewer": 4,
    "edited_by_reviewer": 0,
    "shown": {
-    "ar": false,
+    "ar": true,
     "en": false,
     "ur": false
    },
