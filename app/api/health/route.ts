@@ -9,11 +9,11 @@ export async function GET() {
     return Response.json({ ok: false, db: "not_configured" }, { status: 503 });
   }
 
-  const { error } = await supabase
-    .from("journeys")
-    .select("id", { count: "exact", head: true });
-  if (error) {
-    return Response.json({ ok: false, db: "error" }, { status: 503 });
+  for (const table of ["journeys", "journey_drafts", "review_decisions"]) {
+    const { error } = await supabase.from(table).select("id", { count: "exact", head: true });
+    if (error) {
+      return Response.json({ ok: false, db: "error" }, { status: 503 });
+    }
   }
 
   return Response.json({ ok: true, db: "up" });
