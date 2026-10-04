@@ -1,0 +1,78 @@
+[
+  {
+    "id": "ramadan",
+    "topic": "زميل صائم في رمضان ويعتذر عن غداء الفريق",
+    "practice_names": [
+      "صيام",
+      "صائم",
+      "صوم"
+    ],
+    "expected_occasions": [
+      "ramadan"
+    ],
+    "allow_in_quotes": false
+  },
+  {
+    "id": "prayer",
+    "topic": "زملاء يخرجون من اجتماع الظهر حوالي عشر دقائق للصلاة",
+    "practice_names": [
+      "صلاة",
+      "يصلي",
+      "يصلون"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false
+  },
+  {
+    "id": "friday",
+    "topic": "المكتب يفضى ظهر الجمعة والإجازة الأسبوعية جمعة وسبت",
+    "practice_names": [
+      "صلاة الجمعة",
+      "خطبة"
+    ],
+    "expected_occasions": [
+      "friday"
+    ],
+    "allow_in_quotes": false
+  },
+  {
+    "id": "eid",
+    "topic": "إجازة عيد الفطر وتهنئة الزملاء",
+    "practice_names": [
+      "عيد مبارك",
+      "عيدكم مبارك"
+    ],
+    "expected_occasions": [
+      "eid_al_fitr"
+    ],
+    "allow_in_quotes": false
+  },
+  {
+    "id": "team-dinner",
+    "topic": "في رحلة عمل خارج السعودية، زميل يسأل عن مصدر اللحم في عشاء الفريق ولا يطلب مشروبًا كحوليًا",
+    "practice_names": [
+      "حلال",
+      "خمر",
+      "خنزير"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true
+  },
+  {
+    "id": "inshallah",
+    "topic": "المدير يرد على سؤال الموعد بعبارة إن شاء الله",
+    "practice_names": [
+      "مشيئة",
+      "إذا أراد الله",
+      "لو أراد الله"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true
+  }
+]
