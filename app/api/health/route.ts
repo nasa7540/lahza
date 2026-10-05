@@ -13,11 +13,10 @@ export async function GET() {
     return Response.json({ ok: false, db: "not_configured" }, { status: 503 });
   }
 
-  for (const table of ["journeys", "journey_drafts", "review_decisions"]) {
-    const { error } = await supabase.from(table).select("id", { count: "exact", head: true });
-    if (error) {
-      return Response.json({ ok: false, db: "error" }, { status: 503 });
-    }
+  // The reads run side by side so the check stays quick.
+  const tables = await Promise.all(["journeys", "journey_drafts", "review_decisions"].map((table) => supabase.from(table).select("id", { count: "exact", head: true })));
+  if (tables.some((t) => t.error)) {
+    return Response.json({ ok: false, db: "error" }, { status: 503 });
   }
   const { count, error } = await supabase.from("quran_verses").select("sura", { count: "exact", head: true });
   if (error || !count) {

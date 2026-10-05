@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { RememberCompany } from "@/components/RememberCompany";
 import { ServiceWorker } from "@/components/ServiceWorker";
 import { dirOf, routing } from "@/i18n/routing";
 import "../globals.css";
@@ -47,6 +48,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
     <html lang={locale} dir={dirOf(locale)} className={`${plex.variable} ${plexArabic.variable} ${quran.variable} antialiased`}>
       <body className="min-h-dvh text-base">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <RememberCompany />
         <ServiceWorker />
       </body>
     </html>

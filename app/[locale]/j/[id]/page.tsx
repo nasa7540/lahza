@@ -6,7 +6,6 @@ import { Screen } from "@/components/Screen";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { getJourney } from "@/lib/content/journeys";
-import { toView } from "@/lib/content/view";
 
 export const dynamic = "force-dynamic";
 
@@ -28,7 +27,7 @@ export default async function JourneyPage({ params }: PageProps<"/[locale]/j/[id
   }
   return (
     <Screen>
-      <Player journey={toView(journey, locale)} />
+      <Player journey={journey.view} />
     </Screen>
   );
 }

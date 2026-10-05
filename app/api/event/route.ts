@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { rowCompany } from "@/lib/http/company";
 import { tooMany } from "@/lib/http/limit";
 import { createServiceClient } from "@/lib/supabase/server";
 
@@ -17,7 +18,7 @@ export async function POST(request: Request) {
   if (!parsed.success) return Response.json({ ok: false }, { status: 400 });
   const db = createServiceClient();
   if (!db) return Response.json({ ok: false }, { status: 503 });
-  const { error } = await db.from("events").insert(parsed.data);
+  const { error } = await db.from("events").insert({ ...parsed.data, company: rowCompany(parsed.data.company) });
   if (error) console.error("event insert failed:", error.message);
   return Response.json({ ok: !error }, { status: error ? 500 : 200 });
 }

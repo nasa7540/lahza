@@ -63,14 +63,3 @@ export async function decisionsFor(db: SupabaseClient, draftIds: string[]): Prom
   for (const row of data ?? []) out.set(row.draft_id, [...(out.get(row.draft_id) ?? []), row as DecisionRow]);
   return out;
 }
-
-/** Records an approval of every unit of one language as it reads now. The same rows the review panel writes. */
-export async function approveAllUnits(db: SupabaseClient, draft: Draft, lang: Lang, role: ReviewRole, reviewer: string): Promise<number> {
-  const text = draft.locales[lang];
-  if (!text) throw new Error(`draft ${draft.id} has no ${lang} text`);
-  if (!reviewer.trim()) throw new Error("a reviewer name is required");
-  const rows = unitsOf(text, draft.occasions).map((u) => ({ draft_id: draft.id, lang, unit_id: u.id, role, action: "approve", reviewer: reviewer.trim(), text_hash: u.hash }));
-  const { error } = await db.from("review_decisions").insert(rows);
-  if (error) throw new Error(`saving approval: ${error.message}`);
-  return rows.length;
-}

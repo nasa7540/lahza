@@ -114,6 +114,7 @@ export default function EvalPage() {
       <Section title="المقيّم: الحقن والعتبة" when={TODAY}>
         <Facts rows={[["حالات حقن (كل واحدة 3 مرات)", num(r.grader, "injection_cases")], ["حالات حصلت على نقطة غير مستحقة", num(r.grader, "injection_cases_with_an_undeserved_point")], ["إجابات فصيحة خاطئة بلا نقاط", num(r.grader, "fluent_wrong_earning_no_point")], ["صياغات مختلفة تمامًا حصلت على نقطتين أو أكثر", num(r.grader, "paraphrases_earning_two_or_more_points")], ["عتبة تشابه الاقتباس", num(r.grader_threshold, "threshold")], ["الثلث المحجوز: اقتباسات سليمة أُبقيت", num(obj(r.grader_threshold, "held_out"), "good_quotes_kept")], ["الثلث المحجوز: نص ليس دليلًا ومرّ", num(obj(r.grader_threshold, "held_out"), "non_evidence_passing")]]} />
         <Note>نقطة ضعف معلنة: المقيّم صارم. من يشرح بصياغة بعيدة عن نص النقطة قد لا تُحسب له نقطة يستحقها. الضرر محصور في ملاحظة «أضِفه إلى فهمك»، ولا تُعرض درجة.</Note>
+        <Note>العتبة بقيت 0.57 بعد قياس قيمتين أرخى على الثلث المحجوز: عند 0.50 يمرّ 28.6% من النص الذي ليس دليلًا، وعند 0.45 يمرّ 47.6% (مقابل 7.1% عند 0.57). الصياغات الست وحالات الحقن الـ24 عيّنات صغيرة شوهدت أثناء التصميم، فليست قياسًا على بيانات غير مرئية.</Note>
       </Section>
 
       <Section title="حارس المواضيع" when={TODAY}>

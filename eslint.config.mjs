@@ -13,7 +13,7 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
     // Third-party agent tooling, not app code:
-    ".agents/**",
+    ".agents/**", ".claude/**",
     // Pre-challenge experiments kept for disclosure, not app code:
     "docs/**",
   ]),

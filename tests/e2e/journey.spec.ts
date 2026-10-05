@@ -54,3 +54,13 @@ test("the date parameter moves a journey to today", async ({ page }) => {
   await page.goto("/ar/home?date=2026-10-04");
   await expect(page.locator('[data-journey="ramadan"]')).toHaveAttribute("data-slot", "library");
 });
+
+test("a company code on any page is remembered, and the reserved check value is not", async ({ page }) => {
+  await page.goto("/ar/j/ramadan?c=Acme-Co");
+  await expect.poll(() => page.evaluate(() => localStorage.getItem("lahza.company"))).toBe("acme-co");
+  await page.goto("/en/home?c=check");
+  await page.waitForLoadState("networkidle");
+  expect(await page.evaluate(() => localStorage.getItem("lahza.company"))).toBe("acme-co");
+  await page.goto("/ur/ask?c=second-co");
+  await expect.poll(() => page.evaluate(() => localStorage.getItem("lahza.company"))).toBe("second-co");
+});

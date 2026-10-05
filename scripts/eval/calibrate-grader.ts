@@ -70,6 +70,12 @@ async function main() {
   const part = (holdout: boolean) => ({ pos: positives.filter((p) => p.holdout === holdout), neg: negatives.filter((n) => n.holdout === holdout) });
   const tune = part(false);
   const hold = part(true);
+  // `--at 0.45,0.50` only reports the rates at the given thresholds; it writes nothing and picks nothing.
+  const at = process.argv.includes("--at") ? process.argv[process.argv.indexOf("--at") + 1].split(",").map(Number) : null;
+  if (at) {
+    for (const t of at) console.log(JSON.stringify({ threshold: t, tuned_on: { good_quotes_kept: Number(rate(tune.pos, t).toFixed(3)), non_evidence_passing: Number(rate(tune.neg, t).toFixed(3)), positives: tune.pos.length, negatives: tune.neg.length }, held_out: { good_quotes_kept: Number(rate(hold.pos, t).toFixed(3)), non_evidence_passing: Number(rate(hold.neg, t).toFixed(3)), positives: hold.pos.length, negatives: hold.neg.length } }));
+    return;
+  }
   let best = { t: 0.5, value: -1 };
   for (let t = 0.3; t <= 0.9001; t += 0.01) {
     const value = rate(tune.pos, t) - rate(tune.neg, t);

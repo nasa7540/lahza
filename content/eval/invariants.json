@@ -1,10 +1,14 @@
 {
- "date": "2026-10-04T08:45:21.763Z",
- "assertions": 39,
- "failed": 2,
+ "date": "2026-10-04T16:25:16.993Z",
+ "assertions": 40,
+ "failed": 0,
  "results": [
   {
    "name": "no-model-text: /api/event answers {ok} only",
+   "ok": true
+  },
+  {
+   "name": "check-rows: a row written by the checks' server is marked, whatever company the client sent",
    "ok": true
   },
   {
@@ -29,38 +33,38 @@
   },
   {
    "name": "public-key-cannot-write: insert into events with the public key is refused",
-   "ok": false
+   "ok": true
   },
   {
    "name": "public-key-cannot-write: insert into referrals with the public key is refused",
-   "ok": false
+   "ok": true
   },
   {
    "name": "no-unapproved-draft: /ar/home lists only approved journeys",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /ar/j/ramadan does not play (not approved)",
+   "name": "no-unapproved-draft: /ar/j/ramadan plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /ar/j/prayer does not play (not approved)",
+   "name": "no-unapproved-draft: /ar/j/prayer plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /ar/j/friday does not play (not approved)",
+   "name": "no-unapproved-draft: /ar/j/friday plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /ar/j/eid does not play (not approved)",
+   "name": "no-unapproved-draft: /ar/j/eid plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /ar/j/team-dinner does not play (not approved)",
+   "name": "no-unapproved-draft: /ar/j/team-dinner plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /ar/j/inshallah does not play (not approved)",
+   "name": "no-unapproved-draft: /ar/j/inshallah plays (approved)",
    "ok": true
   },
   {
@@ -68,27 +72,27 @@
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /en/j/ramadan does not play (not approved)",
+   "name": "no-unapproved-draft: /en/j/ramadan plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /en/j/prayer does not play (not approved)",
+   "name": "no-unapproved-draft: /en/j/prayer plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /en/j/friday does not play (not approved)",
+   "name": "no-unapproved-draft: /en/j/friday plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /en/j/eid does not play (not approved)",
+   "name": "no-unapproved-draft: /en/j/eid plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /en/j/team-dinner does not play (not approved)",
+   "name": "no-unapproved-draft: /en/j/team-dinner plays (approved)",
    "ok": true
   },
   {
-   "name": "no-unapproved-draft: /en/j/inshallah does not play (not approved)",
+   "name": "no-unapproved-draft: /en/j/inshallah plays (approved)",
    "ok": true
   },
   {

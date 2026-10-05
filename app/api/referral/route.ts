@@ -1,3 +1,4 @@
+import { rowCompany } from "@/lib/http/company";
 import { tooMany } from "@/lib/http/limit";
 import { referralSchema } from "@/lib/referral";
 import { createServiceClient } from "@/lib/supabase/server";
@@ -10,7 +11,7 @@ export async function POST(request: Request) {
   const db = createServiceClient();
   if (!db) return Response.json({ ok: false }, { status: 503 });
   const { lang, topic, summary, company } = parsed.data;
-  const { error } = await db.from("referrals").insert({ lang, topic, summary, company: company ?? null });
+  const { error } = await db.from("referrals").insert({ lang, topic, summary, company: rowCompany(company) });
   if (error) console.error("referral insert failed:", error.message);
   return Response.json({ ok: !error }, { status: error ? 500 : 200 });
 }

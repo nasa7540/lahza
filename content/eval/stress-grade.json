@@ -1,5 +1,5 @@
 {
- "date": "2026-10-04T08:20:48.115Z",
+ "date": "2026-10-04T14:26:18.189Z",
  "seconds_per_level": 60,
  "limits": {
   "median_ms": 3000,
@@ -9,46 +9,46 @@
  "levels": [
   {
    "concurrency": 20,
-   "requests": 616,
-   "median_ms": 2082,
-   "p95_ms": 3339,
-   "max_ms": 5403,
+   "requests": 440,
+   "median_ms": 2858,
+   "p95_ms": 4198,
+   "max_ms": 5917,
    "http_errors": 0,
    "invalid_bodies": 0,
    "capped_share": 0,
    "by": {
-    "primary": 616
+    "primary": 435,
+    "fallback": 5
    },
    "ok": true
   },
   {
    "concurrency": 35,
-   "requests": 1110,
-   "median_ms": 2029,
-   "p95_ms": 3259,
-   "max_ms": 5954,
+   "requests": 754,
+   "median_ms": 2986,
+   "p95_ms": 4045,
+   "max_ms": 5419,
    "http_errors": 0,
    "invalid_bodies": 0,
    "capped_share": 0,
    "by": {
-    "primary": 1110
+    "primary": 754
    },
    "ok": true
   },
   {
    "concurrency": 50,
-   "requests": 1629,
-   "median_ms": 2028,
-   "p95_ms": 2941,
-   "max_ms": 4656,
+   "requests": 855,
+   "median_ms": 3623,
+   "p95_ms": 4869,
+   "max_ms": 6064,
    "http_errors": 0,
    "invalid_bodies": 0,
    "capped_share": 0,
    "by": {
-    "primary": 1624,
-    "fallback": 5
+    "primary": 855
    },
-   "ok": true
+   "ok": false
   }
  ]
 }

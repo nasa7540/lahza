@@ -7,7 +7,7 @@ import { writeFileSync } from "node:fs";
 import { randomUUID } from "node:crypto";
 import { latestDraft, saveDraft, updateDraft } from "../../lib/content/drafts";
 import { publishedJourneys } from "../../lib/content/published";
-import { approveAllUnits } from "../../lib/content/review";
+import { approveAllUnits } from "../../lib/content/publish";
 import type { Draft } from "../../lib/content/types";
 import { loadTopics } from "../../lib/factory/topics";
 import { scriptDb } from "../db";
@@ -39,7 +39,7 @@ async function main() {
   const copy = (journey_id: string, needs_sharii: boolean): Draft => ({ ...structuredClone(base), id: randomUUID(), journey_id, needs_sharii });
   const sharii = copy("test-sharii", true);
   const edited = copy("test-edit", false);
-  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, LAHZA_TEST_JOURNEYS: "1", LAHZA_PREVIEW_UNAPPROVED: "", NODE_ENV: "production" }, stdio: "ignore" });
+  const server: ChildProcess = spawn("npx", ["next", "start", "-p", String(PORT)], { env: { ...process.env, LAHZA_TEST_JOURNEYS: "1", LAHZA_PREVIEW_UNAPPROVED: "", LAHZA_CHECK_ROWS: "1", NODE_ENV: "production" }, stdio: "ignore" });
   const created: string[] = [];
   let eventId: number | null = null;
   let classifyEvents: number[] = [];
@@ -50,8 +50,9 @@ async function main() {
     const event = await fetch(`${BASE}/api/event`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ type: "start", journey_id: "test-edit", lang: "ar", company: "check-invariants" }) });
     const eventBody = (await event.json()) as Record<string, unknown>;
     check("no-model-text: /api/event answers {ok} only", event.ok && Object.keys(eventBody).join() === "ok" && eventBody.ok === true, JSON.stringify(eventBody));
-    const { data: row } = await db.from("events").select("id").eq("company", "check-invariants").order("id", { ascending: false }).limit(1).maybeSingle();
+    const { data: row } = await db.from("events").select("id, company").eq("journey_id", "test-edit").eq("type", "start").order("id", { ascending: false }).limit(1).maybeSingle();
     eventId = row?.id ?? null;
+    check("check-rows: a row written by the checks' server is marked, whatever company the client sent", row?.company === "check", JSON.stringify(row));
     const bad = await fetch(`${BASE}/api/event`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ type: "start", journey_id: "ramadan", lang: "ar", choice: "any free text" }) });
     check("no-model-text: /api/event rejects free text", bad.status === 400);
     const health = (await (await fetch(`${BASE}/api/health`)).json()) as Record<string, unknown>;
@@ -120,6 +121,10 @@ async function main() {
     check("edit-revokes-approval: an edited sentence hides the journey", !listed(await html("/ar/home")).includes("test-edit") && !playable(await html("/ar/j/test-edit")));
   } finally {
     server.kill();
+    for (const journey of ["test-sharii", "test-edit"]) {
+      await db.from("cards").delete().eq("journey_id", journey);
+      await db.from("journeys").delete().eq("id", journey);
+    }
     for (const id of created) {
       await db.from("review_decisions").delete().eq("draft_id", id);
       await db.from("journey_drafts").delete().eq("id", id);

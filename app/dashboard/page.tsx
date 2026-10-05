@@ -1,10 +1,12 @@
 import { Logo } from "@/components/Logo";
 import topics from "@/content/topics.json";
+import { CHECK_COMPANY, companyCode } from "@/lib/companies";
 import { dashboardGate } from "@/lib/dashboard";
 import { type EventRow, summarise } from "@/lib/dashboard-counts";
 import { REFERRAL_TOPICS } from "@/lib/referral";
 import { createServiceClient } from "@/lib/supabase/server";
 import { enter, leave, moveReferral } from "./actions";
+import { Activity, type ActivityEvent } from "./Activity";
 
 export const dynamic = "force-dynamic";
 
@@ -34,15 +36,23 @@ export default async function Dashboard({ searchParams }: PageProps<"/dashboard"
   }
 
   const db = createServiceClient();
-  const company = typeof c === "string" && /^[a-z0-9-]{1,40}$/.test(c) ? c : null;
-  let eventQuery = db?.from("events").select("type, journey_id, score, choice, company").order("id", { ascending: false }).limit(20_000);
-  let referralQuery = db?.from("referrals").select("id, created_at, lang, topic, status, summary, company").order("created_at", { ascending: false }).limit(200);
+  const company = typeof c === "string" ? companyCode(c) : null;
+  // Rows written by the automatic checks are never counted or listed (`neq` alone would also drop rows with no company).
+  // A server started by the checks themselves shows only those rows, so the tests can follow a request through the queue.
+  const rows = process.env.LAHZA_CHECK_ROWS === "1" ? `company.eq.${CHECK_COMPANY}` : `company.is.null,company.neq.${CHECK_COMPANY}`;
+  let eventQuery = db?.from("events").select("type, journey_id, score, choice, company").or(rows).order("id", { ascending: false }).limit(20_000);
+  let referralQuery = db?.from("referrals").select("id, created_at, lang, topic, status, summary, company").or(rows).order("created_at", { ascending: false }).limit(200);
   if (company) {
     eventQuery = eventQuery?.eq("company", company);
     referralQuery = referralQuery?.eq("company", company);
   }
-  const events = ((await eventQuery)?.data ?? []) as EventRow[];
-  const referrals = ((await referralQuery)?.data ?? []) as Referral[];
+  let recentQuery = db?.from("events").select("created_at, type, journey_id, lang, choice, score, company").or(rows).order("id", { ascending: false }).limit(300);
+  if (company) recentQuery = recentQuery?.eq("company", company);
+  // The three reads run side by side.
+  const [eventResult, referralResult, recentResult] = await Promise.all([eventQuery, referralQuery, recentQuery]);
+  const events = (eventResult?.data ?? []) as EventRow[];
+  const referrals = (referralResult?.data ?? []) as Referral[];
+  const recent = (recentResult?.data ?? []) as ActivityEvent[];
   const { journeys, outcomes } = summarise(events);
   const waiting = referrals.filter((r) => r.status === "new").length;
 
@@ -132,6 +142,7 @@ export default async function Dashboard({ searchParams }: PageProps<"/dashboard"
         </ul>
         <p className="text-sm text-mute">نص السؤال لا يُحفظ. يُسجَّل المستوى والنتيجة فقط.</p>
       </section>
+      <Activity events={recent} referrals={referrals} />
     </div>
   );
 }

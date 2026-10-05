@@ -63,5 +63,5 @@ def welcome_url(env, lang):
 
 
 def journey_url(env, lang, journey):
-    base, _code = settings(env)
-    return f"{base}/{lang}/j/{journey}"
+    base, code = settings(env)
+    return f"{base}/{lang}/j/{journey}?c={code}" if code else f"{base}/{lang}/j/{journey}"

@@ -4,7 +4,7 @@ A small Odoo module that brings Lahza into employee onboarding:
 
 - **Settings → Employees → Lahza**: the Lahza link and your company's invite code (the `?c=` part).
 - **"Open Lahza"** button on every employee record. It opens Lahza in the employee's language (Arabic, Urdu, otherwise English) with the company code.
-- **Employees → Configuration → Lahza moments**: dated moments (Ramadan, Eid). A daily scheduled action creates a to-do activity for every employee who has a user, a few days before each moment (3 by default), once per moment. The activity links straight to the journey.
+- **Employees → Configuration → Lahza moments**: dated moments (Ramadan, Eid). A daily scheduled action creates a to-do activity for every employee who has a user, a few days before each moment (3 by default), once per moment. The activity links straight to the journey, with the company code.
 
 The moments come seeded for Hijri years 1448 to 1450 with first days by the Umm al-Qura calendar, the same calendar the app uses. The official announcement can differ by a day, so HR can edit any date.
 
