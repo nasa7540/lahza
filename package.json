@@ -35,7 +35,8 @@
     "check:referral": "tsx scripts/checks/referral.ts",
     "eval": "tsx scripts/eval.ts",
     "publish:all": "tsx scripts/publish-all.ts",
-    "check:clean": "tsx scripts/checks/clean.ts"
+    "check:clean": "tsx scripts/checks/clean.ts",
+    "screen:candidates": "tsx scripts/screen-candidates.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

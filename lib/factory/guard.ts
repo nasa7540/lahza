@@ -48,14 +48,23 @@ const schema = z.object({ decision: guardDecisionSchema });
 
 export type GuardResult = { decision: GuardDecision; by: "rule" | "model"; why: string | null; ruling_phrasing: boolean };
 
-/** Rules first, then the model. `ruling_phrasing` is passed to the model as a hint. */
-export async function guardTopic(topic: string, onUsage?: (u: Usage) => void): Promise<GuardResult> {
+export type RuleScreen = { decision: GuardDecision | null; why: string | null; sensitive: string | null; ruling_phrasing: boolean };
+
+/** The code rules alone, without the model. `decision` is null when the topic goes on to the model. */
+export function screenByRules(topic: string): RuleScreen {
   const ruling_phrasing = RULING_PHRASING.test(topic);
-  for (const [pattern, why] of REFUSE_RULES) if (pattern.test(topic)) return { decision: "refuse", by: "rule", why, ruling_phrasing };
+  for (const [pattern, why] of REFUSE_RULES) if (pattern.test(topic)) return { decision: "refuse", why, sensitive: null, ruling_phrasing };
   const sensitive = NEEDS_SHARII_RULES.find(([pattern]) => pattern.test(topic))?.[1] ?? null;
   // A sensitive area described as something seen at work is needs_sharii by rule. Phrased like a ruling request,
   // it goes to the model, which may refuse it; it can never come back as an ordinary topic.
-  if (sensitive && !ruling_phrasing) return { decision: "needs_sharii", by: "rule", why: sensitive, ruling_phrasing };
+  if (sensitive && !ruling_phrasing) return { decision: "needs_sharii", why: sensitive, sensitive, ruling_phrasing };
+  return { decision: null, why: null, sensitive, ruling_phrasing };
+}
+
+/** Rules first, then the model. `ruling_phrasing` is passed to the model as a hint. */
+export async function guardTopic(topic: string, onUsage?: (u: Usage) => void): Promise<GuardResult> {
+  const { decision, why, sensitive, ruling_phrasing } = screenByRules(topic);
+  if (decision) return { decision, by: "rule", why, ruling_phrasing };
   const hint = ruling_phrasing ? "\n<hint>الصيغة تشبه صيغ طلب الحكم. قرّر: هل هو طلب حكم شرعي في مسألة دينية، أم سؤال عن التصرف المناسب مع الزملاء؟</hint>" : "";
   const out = await chatJson({ model: ai.runtimeModel(), system: SYSTEM, user: `<topic>\n${topic}\n</topic>${hint}`, name: "guard", schema, timeoutMs: 30_000, onUsage });
   if (sensitive && out.decision === "allow") return { decision: "needs_sharii", by: "rule", why: sensitive, ruling_phrasing };

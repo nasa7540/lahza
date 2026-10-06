@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { z } from "zod";
 
-const topicSchema = z.object({
+export const topicSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   topic: z.string().min(1),
   /** Words that name the practice itself; the scene must not contain them. */
