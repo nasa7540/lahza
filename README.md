@@ -22,6 +22,7 @@ The full list, including what is deliberately not in the repository (keys, the Q
 - **Ordered by the calendar.** Journeys tied to an occasion surface when it is near (Umm al-Qura calendar, Riyadh time). Add `?date=2027-02-15` to the home URL to simulate a date.
 - **"Noticed something else?"** A free question is routed to a journey, to an honest "we have no verified answer", or to a human specialist. It is never answered by the model.
 - **A review panel** (`/review`) where a person approves, rejects or edits every unit of text before anyone sees it, and a **company dashboard** (`/dashboard`) with counts only.
+- **An Odoo module** (`integrations/odoo`, Community 17, 18, 19 and 20): an "Open Lahza" button on the employee record, and a to-do activity for every employee a few days before Ramadan and Eid. See [its README](integrations/odoo/README.md).
 - **`/eval`**: the results of the automatic tests as they came out, including the ones that did not go well.
 
 ## How the AI is kept on a leash

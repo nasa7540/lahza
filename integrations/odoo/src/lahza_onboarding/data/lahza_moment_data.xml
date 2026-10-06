@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- First days by the Umm al-Qura calendar (the calendar the Lahza app uses). Editable: the official announcement may differ by a day. -->
+<odoo noupdate="1">
+    <record id="moment_ramadan_1448" model="lahza.moment"><field name="journey">ramadan</field><field name="date">2027-02-08</field></record>
+    <record id="moment_eid_al_fitr_1448" model="lahza.moment"><field name="journey">eid</field><field name="date">2027-03-09</field></record>
+    <record id="moment_eid_al_adha_1448" model="lahza.moment"><field name="journey">eid</field><field name="date">2027-05-16</field></record>
+    <record id="moment_ramadan_1449" model="lahza.moment"><field name="journey">ramadan</field><field name="date">2028-01-28</field></record>
+    <record id="moment_eid_al_fitr_1449" model="lahza.moment"><field name="journey">eid</field><field name="date">2028-02-26</field></record>
+    <record id="moment_eid_al_adha_1449" model="lahza.moment"><field name="journey">eid</field><field name="date">2028-05-05</field></record>
+    <record id="moment_ramadan_1450" model="lahza.moment"><field name="journey">ramadan</field><field name="date">2029-01-16</field></record>
+    <record id="moment_eid_al_fitr_1450" model="lahza.moment"><field name="journey">eid</field><field name="date">2029-02-14</field></record>
+    <record id="moment_eid_al_adha_1450" model="lahza.moment"><field name="journey">eid</field><field name="date">2029-04-24</field></record>
+</odoo>
