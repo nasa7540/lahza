@@ -112,5 +112,1151 @@
       "title_ar": "إن شاء الله"
     },
     "pinned_hadith_ids": []
+  },
+  {
+    "id": "mashallah",
+    "topic": "زميل يقول «ما شاء الله» حين يرى صورة طفل زميله أو سيارته الجديدة",
+    "practice_names": [
+      "إعجاب",
+      "حسد"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Mashallah",
+      "description": "What 'Mashallah' means when a colleague admires something",
+      "title_ar": "ما شاء الله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "alhamdulillah",
+    "topic": "زميل يرد «الحمد لله» حين يُسأل عن حاله، حتى في يوم صعب",
+    "practice_names": [
+      "شكر",
+      "حمد"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Alhamdulillah",
+      "description": "Why colleagues answer 'how are you' with 'Alhamdulillah'",
+      "title_ar": "الحمد لله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "bismillah",
+    "topic": "زميل يقول «بسم الله» قبل أن يبدأ الأكل أو يبدأ عرضًا تقديميًا",
+    "practice_names": [
+      "تسمية"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Bismillah",
+      "description": "Saying 'Bismillah' before starting something",
+      "title_ar": "بسم الله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "salam",
+    "topic": "زملاء يدخلون الاجتماع بـ«السلام عليكم» ويرد الحاضرون بعبارة أطول منها",
+    "practice_names": [
+      "تحية",
+      "سلام"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Salam greeting",
+      "description": "The greeting 'Assalamu alaikum' and its longer reply",
+      "title_ar": "السلام عليكم"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "jazakallah",
+    "topic": "زميل يشكرك بعبارة «جزاك الله خيرًا» بدل كلمة شكرًا",
+    "practice_names": [
+      "دعاء",
+      "شكر"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Jazakallah khair",
+      "description": "A thank-you that is also a prayer for you",
+      "title_ar": "جزاك الله خيرًا"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "allahu-akbar",
+    "topic": "زميل يقول «الله أكبر» حين يسمع خبر نجاح المشروع",
+    "practice_names": [
+      "تكبير"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Allahu Akbar",
+      "description": "Why 'Allahu Akbar' is heard at happy moments at work",
+      "title_ar": "الله أكبر"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "subhanallah",
+    "topic": "زميل يقول «سبحان الله» حين يتعجب من صدفة غريبة",
+    "practice_names": [
+      "تسبيح",
+      "تنزيه"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Subhanallah",
+      "description": "Saying 'Subhanallah' in surprise or wonder",
+      "title_ar": "سبحان الله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "astaghfirullah",
+    "topic": "زميل يقول «أستغفر الله» حين يتذكر أنه نسي موعدًا أو يسمع كلامًا لا يليق",
+    "practice_names": [
+      "استغفار",
+      "توبة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Astaghfirullah",
+      "description": "What 'Astaghfirullah' means when a colleague says it",
+      "title_ar": "أستغفر الله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "inna-lillah",
+    "topic": "زملاء يقولون «إنا لله وإنا إليه راجعون» حين يصلهم خبر وفاة قريب زميل",
+    "practice_names": [
+      "استرجاع",
+      "مصيبة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Inna lillah",
+      "description": "The phrase said on hearing of a death",
+      "title_ar": "إنا لله وإنا إليه راجعون"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "sneeze-reply",
+    "topic": "زميل يعطس فيقول «الحمد لله» ويرد عليه آخر «يرحمك الله»",
+    "practice_names": [
+      "تشميت"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "After a sneeze",
+      "description": "The short exchange after a colleague sneezes",
+      "title_ar": "يرحمك الله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "barakallah",
+    "topic": "زملاء يهنئون زميلًا بترقيته بعبارة «بارك الله لك»",
+    "practice_names": [
+      "بركة",
+      "تبريك"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Barakallah",
+      "description": "Congratulating with 'Barakallah'",
+      "title_ar": "بارك الله لك"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "la-hawla",
+    "topic": "زميل يقول «لا حول ولا قوة إلا بالله» حين يتعطل النظام قبل التسليم",
+    "practice_names": [
+      "حوقلة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "La hawla wa la quwwata",
+      "description": "The phrase said when something goes wrong",
+      "title_ar": "لا حول ولا قوة إلا بالله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "allah-yarhamuh",
+    "topic": "زميل يقول «الله يرحمه» كلما ذكر والده المتوفى",
+    "practice_names": [
+      "دعاء للميت",
+      "ترحم"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Allah yarhamuh",
+      "description": "Why colleagues add 'may God have mercy on him' after a name",
+      "title_ar": "الله يرحمه"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "salawat",
+    "topic": "زميل يقول «صلى الله عليه وسلم» بعد أن يذكر اسم النبي محمد في حديث عادي",
+    "practice_names": [
+      "صلاة على النبي"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Peace be upon him",
+      "description": "The phrase said after the Prophet Muhammad's name",
+      "title_ar": "صلى الله عليه وسلم"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "taqabbal-allah",
+    "topic": "زميل يقول «تقبل الله» لزميل خرج للتو من المصلى",
+    "practice_names": [
+      "قبول"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Taqabbal Allah",
+      "description": "What colleagues say to each other after prayer",
+      "title_ar": "تقبل الله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "ramadan-greeting",
+    "topic": "زملاء يتبادلون «رمضان كريم» و«مبارك عليكم الشهر» في أول أيام الشهر",
+    "practice_names": [
+      "تهنئة"
+    ],
+    "expected_occasions": [
+      "ramadan"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Ramadan greetings",
+      "description": "How colleagues greet each other when Ramadan starts",
+      "title_ar": "تهنئة رمضان"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "tawakkalna",
+    "topic": "المدير يقول «توكلنا على الله» قبل إطلاق مشروع جديد",
+    "practice_names": [
+      "توكل"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Tawakkalna ala Allah",
+      "description": "Saying 'we put our trust in God' before starting",
+      "title_ar": "توكلنا على الله"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "hajj-mabroor",
+    "topic": "زملاء يستقبلون زميلًا عائدًا من مكة بعبارة «حجًا مبرورًا»",
+    "practice_names": [
+      "تهنئة الحاج"
+    ],
+    "expected_occasions": [
+      "after_hajj"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Hajj mabroor",
+      "description": "Welcoming back a colleague from Hajj",
+      "title_ar": "حجًا مبرورًا"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "wudu",
+    "topic": "زميل يغسل يديه ووجهه وذراعيه وقدميه في مغسلة دورة المياه قبل الظهر",
+    "practice_names": [
+      "وضوء",
+      "يتوضأ"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Washing before prayer",
+      "description": "Why a colleague washes face, arms and feet at the sink",
+      "title_ar": "الوضوء"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "prayer-room",
+    "topic": "غرفة صغيرة في المكتب فيها سجادات مفروشة باتجاه واحد",
+    "practice_names": [
+      "مصلى",
+      "قبلة",
+      "صلاة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Prayer room",
+      "description": "The small room with rugs facing one direction",
+      "title_ar": "المصلى"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "qibla-hotel",
+    "topic": "في رحلة عمل، سهم صغير ملصق في سقف غرفة الفندق",
+    "practice_names": [
+      "قبلة",
+      "الكعبة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Arrow in the hotel ceiling",
+      "description": "The small arrow on hotel ceilings in Saudi Arabia",
+      "title_ar": "اتجاه القبلة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "adhan",
+    "topic": "صوت يُرفع من المساجد خمس مرات في اليوم ويُسمع داخل المكتب، والزملاء يخفضون أصواتهم",
+    "practice_names": [
+      "أذان",
+      "الأذان"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Call to prayer",
+      "description": "The call heard from mosques five times a day",
+      "title_ar": "الأذان"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "prayer-together",
+    "topic": "زملاء يقفون صفًا واحدًا خلف زميل في المصلى بدل أن يصلي كل واحد وحده",
+    "practice_names": [
+      "جماعة",
+      "إمام"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Praying together",
+      "description": "Why colleagues line up behind one person to pray",
+      "title_ar": "الصلاة جماعة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "travel-prayer",
+    "topic": "في رحلة عمل، زميل يصلي صلاتين متتاليتين ويقصرهما",
+    "practice_names": [
+      "قصر",
+      "جمع",
+      "المسافر"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Prayer on a business trip",
+      "description": "Why a travelling colleague prays shorter and combines prayers",
+      "title_ar": "صلاة المسافر"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "dua-travel",
+    "topic": "زميل يقرأ كلمات قصيرة بصوت منخفض حين تنطلق السيارة أو تقلع الطائرة",
+    "practice_names": [
+      "دعاء السفر"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Words before a journey",
+      "description": "The short words said as a trip begins",
+      "title_ar": "دعاء السفر"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "siwak",
+    "topic": "زميل يمرر عودًا صغيرًا على أسنانه قبل الاجتماع",
+    "practice_names": [
+      "سواك",
+      "مسواك"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Siwak",
+      "description": "The small stick a colleague rubs on his teeth",
+      "title_ar": "السواك"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "tasbih",
+    "topic": "زميل يحرك أصابعه أو خرزات بين يديه ويتمتم بعد الصلاة",
+    "practice_names": [
+      "تسبيح",
+      "ذكر",
+      "مسبحة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Counting on fingers",
+      "description": "What a colleague murmurs while counting on fingers",
+      "title_ar": "التسبيح"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "quran-break",
+    "topic": "زميلة تقرأ من تطبيق على جوالها بصوت منخفض في استراحة الغداء",
+    "practice_names": [
+      "قرآن",
+      "تلاوة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Reading Qur'an at break",
+      "description": "A colleague reading quietly from a phone app",
+      "title_ar": "قراءة القرآن"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "mushaf-respect",
+    "topic": "زميل يرفع كتابًا عن الأرض بسرعة ويضعه في مكان عال",
+    "practice_names": [
+      "مصحف",
+      "قرآن"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Respect for the Qur'an",
+      "description": "Why the Qur'an is never left on the floor",
+      "title_ar": "احترام المصحف"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "ramadan-hours",
+    "topic": "دوام رمضان أقصر ويبدأ متأخرًا، والاجتماعات تُنقل إلى الصباح",
+    "practice_names": [
+      "صيام",
+      "رمضان"
+    ],
+    "expected_occasions": [
+      "ramadan"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Ramadan working hours",
+      "description": "Why working hours change in Ramadan",
+      "title_ar": "دوام رمضان"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "suhoor",
+    "topic": "زميل متعب صباحًا لأنه استيقظ قبل الفجر ليأكل",
+    "practice_names": [
+      "سحور",
+      "السحور"
+    ],
+    "expected_occasions": [
+      "ramadan"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "The pre-dawn meal",
+      "description": "Why fasting colleagues eat before dawn",
+      "title_ar": "السحور"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "iftar-invite",
+    "topic": "زميل يدعوك إلى إفطار الفريق عند غروب الشمس",
+    "practice_names": [
+      "إفطار",
+      "صائم"
+    ],
+    "expected_occasions": [
+      "ramadan"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Iftar invitation",
+      "description": "The team meal at sunset in Ramadan",
+      "title_ar": "دعوة الإفطار"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "iftar-dates",
+    "topic": "زملاء يأكلون تمرًا ويشربون ماء قبل الوجبة عند المغرب",
+    "practice_names": [
+      "إفطار",
+      "فطور"
+    ],
+    "expected_occasions": [
+      "ramadan"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Breaking the fast with dates",
+      "description": "Why the first bite at sunset is often a date",
+      "title_ar": "التمر عند الإفطار"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "taraweeh",
+    "topic": "زملاء يتأخرون في الرد مساءً لأنهم في المسجد ساعة بعد العشاء",
+    "practice_names": [
+      "تراويح",
+      "قيام"
+    ],
+    "expected_occasions": [
+      "ramadan"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Night prayers in Ramadan",
+      "description": "Why colleagues are at the mosque late in Ramadan nights",
+      "title_ar": "التراويح"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "itikaf",
+    "topic": "زميل يأخذ إجازة في آخر أيام رمضان ليبقى في المسجد",
+    "practice_names": [
+      "اعتكاف",
+      "معتكف"
+    ],
+    "expected_occasions": [
+      "ramadan_last_ten"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "The last ten nights",
+      "description": "Why a colleague takes leave at the end of Ramadan",
+      "title_ar": "العشر الأواخر"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "zakat-fitr",
+    "topic": "زميل يشتري أكياس أرز في آخر أيام رمضان ليعطيها لعائلات محتاجة",
+    "practice_names": [
+      "زكاة الفطر",
+      "صدقة"
+    ],
+    "expected_occasions": [
+      "zakat_al_fitr"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Rice before Eid",
+      "description": "Why colleagues give food away just before Eid",
+      "title_ar": "زكاة الفطر"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "monday-thursday",
+    "topic": "زميل لا يأكل في الغداء يومي الاثنين والخميس رغم أنه ليس رمضان",
+    "practice_names": [
+      "صيام",
+      "صائم",
+      "صوم"
+    ],
+    "expected_occasions": [
+      "monday_thursday"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Fasting on Mondays and Thursdays",
+      "description": "A colleague fasting outside Ramadan",
+      "title_ar": "صيام الاثنين والخميس"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "shawwal-six",
+    "topic": "زميل صائم بعد العيد بأيام قليلة",
+    "practice_names": [
+      "صيام",
+      "ست من شوال"
+    ],
+    "expected_occasions": [
+      "shawwal"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Six days after Eid",
+      "description": "Why some fast again soon after Eid",
+      "title_ar": "ست من شوال"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "arafah",
+    "topic": "زملاء صائمون في اليوم الذي يسبق عيد الأضحى",
+    "practice_names": [
+      "صيام",
+      "عرفة"
+    ],
+    "expected_occasions": [
+      "arafah"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "The Day of Arafah",
+      "description": "Fasting the day before Eid al-Adha",
+      "title_ar": "يوم عرفة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "hajj-leave",
+    "topic": "زميل يطلب إجازة طويلة في ذي الحجة ويعود حليق الرأس",
+    "practice_names": [
+      "حج",
+      "الحج",
+      "الحاج"
+    ],
+    "expected_occasions": [
+      "hajj_season"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Hajj leave",
+      "description": "Why a colleague takes long leave and returns with a shaved head",
+      "title_ar": "إجازة الحج"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "umrah",
+    "topic": "زميل يسافر إلى مكة في عطلة نهاية الأسبوع ويعود بملابس بيضاء في صوره",
+    "practice_names": [
+      "عمرة",
+      "العمرة",
+      "إحرام"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Umrah weekend",
+      "description": "A short trip to Mecca on the weekend",
+      "title_ar": "العمرة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "zamzam",
+    "topic": "زميل عائد من مكة يوزع على الفريق قوارير ماء صغيرة",
+    "practice_names": [
+      "زمزم"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Zamzam water",
+      "description": "The small water bottles brought back from Mecca",
+      "title_ar": "ماء زمزم"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "udhiyah",
+    "topic": "زملاء يتحدثون عن شراء خروف للعيد وتوزيع لحمه",
+    "practice_names": [
+      "أضحية",
+      "الأضحية",
+      "ذبح"
+    ],
+    "expected_occasions": [
+      "eid_al_adha"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "The Eid sacrifice",
+      "description": "Why colleagues talk about buying a sheep before Eid al-Adha",
+      "title_ar": "الأضحية"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "eid-takbeer",
+    "topic": "في أيام العيد يُسمع من المساجد والبيوت ترديد عبارة واحدة مرات كثيرة",
+    "practice_names": [
+      "تكبير",
+      "تكبيرات"
+    ],
+    "expected_occasions": [
+      "eid_al_adha"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Eid chanting",
+      "description": "The repeated phrase heard in the Eid days",
+      "title_ar": "تكبيرات العيد"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "eidiyah",
+    "topic": "زميل يسحب نقودًا جديدة من الصراف قبل العيد ليعطيها لأطفال العائلة",
+    "practice_names": [
+      "عيدية"
+    ],
+    "expected_occasions": [
+      "eid_al_fitr"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Eid money for children",
+      "description": "Why colleagues collect new banknotes before Eid",
+      "title_ar": "العيدية"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "makkah-sign",
+    "topic": "على طريق سريع في رحلة عمل، لافتة توجه السيارات إلى طريق آخر قبل مكة",
+    "practice_names": [
+      "مكة",
+      "الحرم"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "The sign before Mecca",
+      "description": "Why some road signs point non-Muslims to another road",
+      "title_ar": "حدود الحرم"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "hijri-dates",
+    "topic": "خطابات العمل تحمل تاريخين، والتاريخ الثاني يختلف كل سنة عن السابقة",
+    "practice_names": [
+      "هجري",
+      "التقويم الهجري"
+    ],
+    "expected_occasions": [
+      "hijri_new_year"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Two dates on letters",
+      "description": "Why official letters carry a second, moving date",
+      "title_ar": "التاريخ الهجري"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "moon-sighting",
+    "topic": "موعد إجازة العيد لا يُعلن نهائيًا إلا في الليلة السابقة",
+    "practice_names": [
+      "رؤية الهلال",
+      "الهلال"
+    ],
+    "expected_occasions": [
+      "eid_al_fitr"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Waiting for the moon",
+      "description": "Why the Eid holiday date is confirmed only the night before",
+      "title_ar": "رؤية الهلال"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "zakat",
+    "topic": "زميل يحسب جزءًا من مدخراته مرة كل سنة ليعطيه لمحتاجين",
+    "practice_names": [
+      "زكاة",
+      "الزكاة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Yearly giving",
+      "description": "The yearly share of savings given to those in need",
+      "title_ar": "الزكاة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "sadaqah",
+    "topic": "صندوق تبرعات في الاستقبال، وزميل يضع فيه مبلغًا دون أن يراه أحد",
+    "practice_names": [
+      "صدقة",
+      "الصدقة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Quiet giving",
+      "description": "Why colleagues give to charity quietly",
+      "title_ar": "الصدقة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "supplier-gift",
+    "topic": "زميل في المشتريات يعتذر بلطف عن هدية ثمينة من مورد",
+    "practice_names": [
+      "رشوة",
+      "هدية العمال"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Declining a supplier's gift",
+      "description": "Why a colleague refuses a valuable gift from a supplier",
+      "title_ar": "هدايا الموردين"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "amanah",
+    "topic": "زميل يسلمك ملفًا ويقول «أمانة» ثم يعيد التأكيد على حفظه",
+    "practice_names": [
+      "أمانة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Amanah",
+      "description": "What 'amanah' means when something is entrusted to you",
+      "title_ar": "الأمانة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "backbiting",
+    "topic": "زميل يغير الموضوع بهدوء حين يبدأ الحديث عن زميل غائب",
+    "practice_names": [
+      "غيبة",
+      "الغيبة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Changing the subject",
+      "description": "Why a colleague avoids talk about someone who is absent",
+      "title_ar": "الغيبة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "office-raffle",
+    "topic": "زميل يعتذر عن المشاركة في سحب مدفوع على جائزة في حفل الشركة",
+    "practice_names": [
+      "ميسر",
+      "قمار"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "The paid raffle",
+      "description": "Why a colleague stays out of a paid prize draw",
+      "title_ar": "السحب المدفوع"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "right-hand",
+    "topic": "زميل يأخذ الكوب ويعطي الأوراق بيده اليمنى دائمًا",
+    "practice_names": [
+      "اليمين",
+      "التيامن"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "The right hand",
+      "description": "Why colleagues eat and hand things with the right hand",
+      "title_ar": "اليد اليمنى"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "ingredients",
+    "topic": "زميلة تقلب علبة حلوى لتقرأ المكونات قبل أن تأكل منها",
+    "practice_names": [
+      "جيلاتين",
+      "خنزير",
+      "حلال"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Reading the label",
+      "description": "Why a colleague checks ingredients before eating a sweet",
+      "title_ar": "قراءة المكونات"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "parents",
+    "topic": "زميل يستأذن مبكرًا ليأخذ والدته إلى موعد طبي",
+    "practice_names": [
+      "بر الوالدين",
+      "البر"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Caring for parents",
+      "description": "Why colleagues leave early to look after their parents",
+      "title_ar": "بر الوالدين"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "guest-honour",
+    "topic": "زميل يصر على أن يدفع حساب الضيف القادم من الخارج ويرفض أن يدفع الضيف شيئًا",
+    "practice_names": [
+      "إكرام الضيف",
+      "الضيافة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Honouring the guest",
+      "description": "Why a host insists on paying for a visiting colleague",
+      "title_ar": "إكرام الضيف"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "sick-visit",
+    "topic": "زملاء يتفقون على زيارة زميل في المستشفى بعد الدوام",
+    "practice_names": [
+      "عيادة المريض",
+      "زيارة المريض"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Visiting a sick colleague",
+      "description": "Why the team visits a colleague in hospital",
+      "title_ar": "عيادة المريض"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "condolence",
+    "topic": "زميل يغيب ثلاثة أيام بعد وفاة قريب ويستقبل الناس في بيته",
+    "practice_names": [
+      "عزاء",
+      "العزاء",
+      "تعزية"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Three days of condolence",
+      "description": "What happens in the three days after a death",
+      "title_ar": "العزاء"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "funeral-same-day",
+    "topic": "زميل يغادر فجأة لأن جنازة قريبه بعد ساعات من الوفاة",
+    "practice_names": [
+      "جنازة",
+      "دفن"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Burial the same day",
+      "description": "Why burial happens within hours",
+      "title_ar": "الدفن في نفس اليوم"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "aqiqah",
+    "topic": "زميل يدعو الفريق إلى وليمة بعد أسبوع من ولادة طفله",
+    "practice_names": [
+      "عقيقة",
+      "العقيقة"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": false,
+    "route": {
+      "title": "Dinner after a birth",
+      "description": "The meal a colleague gives after a baby is born",
+      "title_ar": "العقيقة"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "names-abd",
+    "topic": "في قائمة الفريق أسماء كثيرة تبدأ بـ«عبد»: عبد الله، عبد الرحمن، عبد العزيز",
+    "practice_names": [
+      "أسماء الله"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "Names starting with Abd",
+      "description": "Why so many names begin with 'Abd'",
+      "title_ar": "أسماء عبد"
+    },
+    "pinned_hadith_ids": []
+  },
+  {
+    "id": "name-muhammad",
+    "topic": "ثلاثة زملاء في الفريق نفسه اسمهم محمد",
+    "practice_names": [
+      "النبي"
+    ],
+    "expected_occasions": [
+      "none"
+    ],
+    "allow_in_quotes": true,
+    "route": {
+      "title": "So many Muhammads",
+      "description": "Why Muhammad is such a common name",
+      "title_ar": "اسم محمد"
+    },
+    "pinned_hadith_ids": []
   }
 ]
